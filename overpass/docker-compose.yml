@@ -1,0 +1,26 @@
+services:
+  overpass:
+    image: wiktorn/overpass-api
+    container_name: overpass
+    environment:
+      - OVERPASS_META=yes
+      - OVERPASS_PLANET_URL=file:///db/kanto-251010.osm.bz2
+    volumes:
+      - /home/linyuxi/LLM/LLMMove/overpass/data:/db
+    ports:
+      - "12345:80"
+    restart: unless-stopped
+    entrypoint: >
+      bash -c "
+        if [ ! -d /db/db ]; then
+          echo '🔧 No database found. Initializing...';
+          export OVERPASS_MODE=init;
+          /app/bin/download_clone.sh || exit 1;
+          echo 'Initialization complete.';
+        else
+          echo 'Database already exists. Skipping init.';
+        fi;
+        echo 'Starting Overpass API server...';
+        export OVERPASS_MODE=run;
+        /app/bin/run_overpass.sh
+      "
