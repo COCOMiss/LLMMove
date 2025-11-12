@@ -1,0 +1,25 @@
+2025-11-12 12:51:20,782 [INFO] data_mobility_h3_new: ==== Dataset module initialized ====
+2025-11-12 12:51:25,446 [INFO] __main__: ==== QT_Mob runner started ====
+2025-11-12 12:51:25,450 [INFO] __main__: CUDA_VISIBLE_DEVICES = 0,1
+2025-11-12 12:51:25,451 [INFO] __main__: 训练任务: seq | 测试任务: seq
+2025-11-12 12:51:25,451 [INFO] __main__: 数据路径: zdc_h3_index
+2025-11-12 12:51:25,451 [INFO] __main__: 实验名称: qwen_tokyo_latest
+2025-11-12 12:51:25,451 [INFO] __main__: 模型: autodl-tmp/Qwen/Qwen3-8B
+2025-11-12 12:51:25,451 [INFO] __main__: 🧪 开始测试任务: seq
+2025-11-12 12:51:25,451 [INFO] __main__: 开始测试任务: seq
+2025-11-12 12:51:25,455 [ERROR] __main__: ❌ 测试阶段出错
+Traceback (most recent call last):
+  File "/root/LLMMove/QT_Mob_main/sft_pipeline_xi.py", line 64, in test_model
+    test(args)
+  File "/root/LLMMove/QT_Mob_main/test.py", line 56, in test
+    with open(os.path.join(args.ckpt_path, 'testing_args.json'), 'w') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'autodl-tmp/checkpoint/qwen_tokyo_latest/testing_args.json'
+2025-11-12 12:51:25,455 [ERROR] __main__: ❌ Runner 主流程执行失败。
+Traceback (most recent call last):
+  File "/root/LLMMove/QT_Mob_main/sft_pipeline_xi.py", line 149, in <module>
+    test_model(args)
+  File "/root/LLMMove/QT_Mob_main/sft_pipeline_xi.py", line 64, in test_model
+    test(args)
+  File "/root/LLMMove/QT_Mob_main/test.py", line 56, in test
+    with open(os.path.join(args.ckpt_path, 'testing_args.json'), 'w') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'autodl-tmp/checkpoint/qwen_tokyo_latest/testing_args.json'

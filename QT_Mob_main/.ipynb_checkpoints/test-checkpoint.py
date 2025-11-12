@@ -23,9 +23,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3"
 os.environ.setdefault("CUDA_DEVICE_ORDER", "PCI_BUS_ID")
 
-# codebook_path = Path("QT_Mob_main/index/QT-Mob-main/ckpt/location.index.json")
-codebook_path = Path("LLMMove/QT_Mob_main/dataset/location.index.json")
-
+codebook_path = Path("QT_Mob_main/index/QT-Mob-main/ckpt/location.index.json")
 codebook = None
 if codebook_path.exists():
     with open(codebook_path, "r", encoding="utf-8") as f:
@@ -125,8 +123,8 @@ def test(args):
 
     metrics = args.metrics.split(",")
     all_prompt_results = []
-    constrained_generator = ConstrainedGenerator(tokenizer, codebook)##########
-    prefix_allowed_tokens = constrained_generator.get_prefix_allowed_tokens_fn()##########
+    # constrained_generator = ConstrainedGenerator(tokenizer, codebook)##########
+    # prefix_allowed_tokens = constrained_generator.get_prefix_allowed_tokens_fn()##########
     with torch.no_grad():
         for prompt_id in prompt_ids: 
 
@@ -143,37 +141,37 @@ def test(args):
                 # targets = batch[1]
                 total += len(targets)
                 
-                output = model.generate(
-                    input_ids=inputs["input_ids"],
-                    attention_mask=inputs["attention_mask"],
-                    max_new_tokens=80,
-                    do_sample=True,
-                    temperature=1,
-                    top_k=50,
-                    top_p=0.92,
-                    prefix_allowed_tokens_fn=prefix_allowed_tokens if args.indexing else None,
-                    num_beams=args.num_beams, # 使用的是beam search，并非sampling，所以会输出num_beams个结果
-                    num_return_sequences=args.num_beams,
-                    output_scores=True, # 返回每个token的score
-                    return_dict_in_generate=True,
-                    early_stopping=True
-                    )
-                
-                
                 # output = model.generate(
                 #     input_ids=inputs["input_ids"],
                 #     attention_mask=inputs["attention_mask"],
-                #     max_new_tokens=20,
+                #     max_new_tokens=5,
                 #     do_sample=True,
                 #     temperature=1,
                 #     top_k=50,
                 #     top_p=0.92,
+                #     prefix_allowed_tokens_fn=prefix_allowed_tokens if args.indexing else None,
                 #     num_beams=args.num_beams, # 使用的是beam search，并非sampling，所以会输出num_beams个结果
                 #     num_return_sequences=args.num_beams,
                 #     output_scores=True, # 返回每个token的score
                 #     return_dict_in_generate=True,
                 #     early_stopping=True
                 #     )
+                
+                
+                output = model.generate(
+                    input_ids=inputs["input_ids"],
+                    attention_mask=inputs["attention_mask"],
+                    max_new_tokens=20,
+                    do_sample=True,
+                    temperature=1,
+                    top_k=50,
+                    top_p=0.92,
+                    num_beams=args.num_beams, # 使用的是beam search，并非sampling，所以会输出num_beams个结果
+                    num_return_sequences=args.num_beams,
+                    output_scores=True, # 返回每个token的score
+                    return_dict_in_generate=True,
+                    early_stopping=True
+                    )
 
                 # 获取H3 index和duration预测
                 output_ids = output["sequences"]  # torch.Size([batch_size * num_beams, seq_len])

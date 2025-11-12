@@ -14,7 +14,7 @@ logger = get_logger(__name__)
 logger.info("==== QT_Mob runner started ====")
 
 # 开关
-TRAIN = True
+TRAIN = False
 TEST = True
 CUDA_VISIBLE_DEVICES = "0,1"  # ✅ 单进程只使用一个GPU
 PATH_TO_SFT_SAVE_DIR = "autodl-tmp/checkpoint"

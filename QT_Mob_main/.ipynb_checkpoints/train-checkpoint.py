@@ -158,8 +158,8 @@ def main(args):
                 logger.info(f"Sample[{idx}]: {train_data[idx]}")
 
         # ================= Collator =================
-        # response_template_with_context = "<|im_end|>"
-        # response_template_ids = tokenizer.encode(response_template_with_context, add_special_tokens=False)[2:]
+        response_template_with_context = "<|im_end|>"
+        response_template_ids = tokenizer.encode(response_template_with_context, add_special_tokens=False)[2:]
         # collator = DataCollatorForCompletionOnlyLM(response_template_ids, tokenizer=tokenizer)
         logger.info("Data collator initialized.")
 
@@ -207,11 +207,7 @@ def main(args):
                 weight_decay=args.weight_decay,
                 gradient_checkpointing=True,
                 dataset_num_proc=4,
-                packing=False,
-                save_total_limit=args.save_total_limit,
-                save_only_model=args.save_only_model,
-                save_safetensors=True
-                
+                packing=False
             )
 
             logger.info("Data collator initialized.")
@@ -267,9 +263,6 @@ def main(args):
                 per_device_train_batch_size=args.per_device_train_batch_size,
                 weight_decay=args.weight_decay,
                 gradient_checkpointing=True,
-                save_total_limit=args.save_total_limit,
-                save_only_model=args.save_only_model,
-                save_safetensors=True
             )
             logger.info("Trainer configuration created.")   
             

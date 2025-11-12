@@ -65,7 +65,9 @@ seq_prompt = []
 prompt = (
     "{profile}The following is a time-ordered trajectory for user {user}: {inters} "
     "At {time}, predict the next H3 cell (resolution 9, Tokyo) the user will move into "
-    "and how long he/she will stay there (in seconds). "
+    "and how long he/she will stay there (in minutes). "
+    "Return ONLY JSON with keys:\n"
+    '{{"h3_index","stay_duration"}}.\n'
 )
 seq_prompt.append(prompt)
 
@@ -73,7 +75,9 @@ seq_prompt.append(prompt)
 
 prompt = (
     "{profile}Given the continuous trajectory of user {user}: {inters} "
-    "Forecast at {time} the most probable next H3 index (r=9, Tokyo) and the stay duration (seconds). "
+    "Forecast at {time} the most probable next H3 index (r=9, Tokyo) and the stay duration (minutes). "
+    "Respond strictly in JSON using keys:\n"
+    '{{"h3_index","stay_duration"}}.\n'
 )
 seq_prompt.append(prompt)
 
