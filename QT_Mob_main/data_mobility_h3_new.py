@@ -1,6 +1,7 @@
 from math import log
 import random
 import os
+import re
 from torch.utils.data import Dataset
 from tqdm import tqdm
 import json
@@ -20,6 +21,10 @@ from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor, as_compl
 logger = get_logger(__name__)
 logger.info("==== Dataset module initialized ====")
 
+EXPECTED_H3_PREFIXES = ("a", "b", "c", "d", "e", "f", "g")
+H3_TOKEN_PATTERN = re.compile(r"<([a-g])_(\d+)>")
+DURATION_TOKEN_PATTERN = re.compile(r"(\d+)\s*min", re.IGNORECASE)
+ALLOWED_DURATION_MINUTES = {minutes for minutes in range(30, 601, 30)}
 
 # # ---------- 无状态任务函数（可用于进程/线程池） ----------
 
@@ -614,6 +619,87 @@ class BaseDataset(Dataset):
             return []
 
         return prefix_allowed_tokens_fn
+
+    def validate_output_constraints(self, output, raise_on_error=False):
+        """
+        校验大模型生成的文本是否满足 H3 index 及 duration 的输出格式要求。
+
+        参数:
+            output: 可以是字符串、序列或字典，函数会自动转换为字符串后再进行校验。
+            raise_on_error: 如果为 True，且存在校验错误，则直接抛出 ValueError。
+
+        返回:
+            dict，包含以下字段:
+                - valid: bool，是否全部校验通过
+                - errors: list[str]，校验失败信息
+                - h3_indices: list[str]，按照出现顺序提取出的 H3 index 片段
+                - durations: list[str]，合法的 duration 片段（统一格式为 "xxx min"）
+        """
+        if isinstance(output, str):
+            text = output
+        elif isinstance(output, (list, tuple, set)):
+            text = " ".join(map(str, output))
+        elif isinstance(output, dict):
+            try:
+                text = json.dumps(output, ensure_ascii=False)
+            except TypeError:
+                text = str(output)
+        else:
+            text = str(output)
+
+        errors = []
+
+        # —— 校验 H3 index —— #
+        h3_matches = list(H3_TOKEN_PATTERN.finditer(text))
+        h3_tokens = [match.group(0) for match in h3_matches]
+        h3_prefixes = [match.group(1) for match in h3_matches]
+        ordered_h3_tokens = []
+
+        if not h3_tokens:
+            errors.append("未检测到符合 `<a_123>` 形式的 H3 index。")
+        else:
+            missing_prefixes = [prefix for prefix in EXPECTED_H3_PREFIXES if prefix not in h3_prefixes]
+            if missing_prefixes:
+                errors.append(
+                    "H3 index 需要依次包含 <a_*>, <b_*>, ..., <g_*> 形式的 7 个片段，缺失: "
+                    + ", ".join(f"<{p}_*>" for p in missing_prefixes)
+                )
+            else:
+                first_positions = [h3_prefixes.index(prefix) for prefix in EXPECTED_H3_PREFIXES]
+                if first_positions != sorted(first_positions):
+                    errors.append("H3 index 片段的顺序需要依次为 a→b→c→d→e→f→g。")
+                else:
+                    first_seen = {}
+                    for match in h3_matches:
+                        prefix = match.group(1)
+                        if prefix not in first_seen:
+                            first_seen[prefix] = match.group(0)
+                    ordered_h3_tokens = [first_seen[prefix] for prefix in EXPECTED_H3_PREFIXES]
+
+        # —— 校验 duration —— #
+        duration_matches = [int(match.group(1)) for match in DURATION_TOKEN_PATTERN.finditer(text)]
+        duration_tokens = []
+        if not duration_matches:
+            errors.append("未检测到任何符合 `xx min` 形式的 duration。")
+        else:
+            for minutes in duration_matches:
+                if minutes not in ALLOWED_DURATION_MINUTES:
+                    errors.append(
+                        f"duration `{minutes} min` 不在允许范围 (30min-600min，并以 30min 为步长) 内。"
+                    )
+                else:
+                    duration_tokens.append(f"{minutes} min")
+
+        valid = len(errors) == 0
+        if raise_on_error and not valid:
+            raise ValueError("; ".join(errors))
+
+        return {
+            "valid": valid,
+            "errors": errors,
+            "h3_indices": ordered_h3_tokens or h3_tokens,
+            "durations": duration_tokens,
+        }
 
  
     # def get_prefix_allowed_tokens_fn(self, tokenizer, test_task):
