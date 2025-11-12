@@ -1,0 +1,6 @@
+The name of this location is "IHOP" and its POI category is Breakfast Spot, belonging to the parent category Food.
+The geographic coordinates for this location are (40.76439893, -73.80937645), with the corresponding geohash code dr5xbkvtufez.
+The address is 155-17 Northern Blvd, Flushing, NY 11354, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 2(avg: 5); Hospital, 1(avg: 2); Chinese Restaurant, 1(avg: 7); Café, 1(avg: 42); Other Great Outdoors, 1(avg: 13); Residential Building (Apartment / Condo), 1(avg: 1); Deli / Bodega, 1(avg: 10).
+The 10 nearest POIs and their distances are: Flushing Hospital, distance 1.16 km; LIRR - Auburndale Station, distance 1.67 km; Joe's Shanghai, distance 1.80 km; MTA Subway -Main St (7), distance 1.84 km; Starbucks, distance 1.85 km; Kissena Lake, distance 1.86 km; New York Hospital Medical Center of Queens, distance 2.37 km; Cherry Valley Deli & Grill, distance 2.86 km.
+The 10 representative nearby POIs and their distances are: Kissena Lake, distance 1.86 km; MTA Subway -Main St (7), distance 1.84 km; Flushing Hospital, distance 1.16 km; New York Hospital Medical Center of Queens, distance 2.37 km; Starbucks, distance 1.85 km; Cherry Valley Deli & Grill, distance 2.86 km; LIRR - Auburndale Station, distance 1.67 km; Joe's Shanghai, distance 1.80 km.

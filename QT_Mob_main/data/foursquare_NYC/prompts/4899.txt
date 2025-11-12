@@ -1,0 +1,6 @@
+The name of this location is "Starbucks" and its POI category is Café, belonging to the parent category Food.
+The geographic coordinates for this location are (40.97215437, -73.96090508), with the corresponding geohash code dr73hfz21gpu.
+The address is 242 Closter Dock Rd, Closter, NJ 07624, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are:.
+The 10 nearest POIs and their distances are:.
+The 10 representative nearby POIs and their distances are:.

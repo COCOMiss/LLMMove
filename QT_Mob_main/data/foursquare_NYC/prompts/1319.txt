@@ -1,0 +1,6 @@
+The name of this location is "Town of Kearny" and its POI category is Building, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.76923178, -74.13883209), with the corresponding geohash code dr5rbvvcbp8h.
+The address is 502 Davis Ave, Kearny, NJ 07032, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 1(avg: 51); Department Store, 1(avg: 4).
+The 10 nearest POIs and their distances are: Applebee's, distance 2.24 km; Walmart, distance 2.44 km.
+The 10 representative nearby POIs and their distances are: Applebee's, distance 2.24 km; Walmart, distance 2.44 km.

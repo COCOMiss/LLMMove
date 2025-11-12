@@ -1,0 +1,6 @@
+The name of this location is "White Manna Hamburgers" and its POI category is Burger Joint, belonging to the parent category Food.
+The geographic coordinates for this location are (40.88917465, -74.03852016), with the corresponding geohash code dr72e5wu9qtg.
+The address is 358 River St, Hackensack, NJ 07601, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Miscellaneous Shop, 1(avg: 6); Hospital, 1(avg: 2); Wings Joint, 1(avg: 1); American Restaurant, 1(avg: 51); Bookstore, 1(avg: 7); Shopping Mall, 1(avg: 1); Asian Restaurant, 1(avg: 18); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Costco Wholesale Club, distance 1.44 km; Hackensack University Medical Center, distance 1.58 km; Hooters of Hackensack, distance 1.74 km; The Cheesecake Factory, distance 1.87 km; Barnes & Noble, distance 1.89 km; The Shops at Riverside, distance 1.95 km; P.F. Chang's, distance 2.12 km; Retro Fitness, distance 2.64 km.
+The 10 representative nearby POIs and their distances are: Hackensack University Medical Center, distance 1.58 km; The Shops at Riverside, distance 1.95 km; The Cheesecake Factory, distance 1.87 km; Retro Fitness, distance 2.64 km; Costco Wholesale Club, distance 1.44 km; Barnes & Noble, distance 1.89 km; P.F. Chang's, distance 2.12 km; Hooters of Hackensack, distance 1.74 km.

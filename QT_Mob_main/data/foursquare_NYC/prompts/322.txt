@@ -1,0 +1,6 @@
+The name of this location is "Best Buy" and its POI category is Electronics Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.65146057, -73.8721454), with the corresponding geohash code dr5rqbrgym2p.
+The address is 369 Gateway Dr, Brooklyn, NY 11239, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Electronics Store, 1(avg: 5); Department Store, 1(avg: 4); Beach, 1(avg: 1).
+The 10 nearest POIs and their distances are: Best Buy, distance 0.04 km; Target, distance 0.23 km; Howard Beach, distance 2.10 km.
+The 10 representative nearby POIs and their distances are: Target, distance 0.23 km; Howard Beach, distance 2.10 km; Best Buy, distance 0.04 km.

@@ -1,0 +1,6 @@
+The name of this location is "Jollibee" and its POI category is Fried Chicken Joint, belonging to the parent category Fried Chicken Joint.
+The geographic coordinates for this location are (40.70398501, -74.09881353), with the corresponding geohash code dr5r9cfvusb0.
+The address is 393 Danforth Ave, Jersey City, NJ 07305, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 2(avg: 1); University, 1(avg: 5).
+The 10 nearest POIs and their distances are: New Jersey City University, distance 1.18 km; Casciano Memorial Bridge, distance 1.95 km; Rt. 440 & Communipaw, distance 2.13 km.
+The 10 representative nearby POIs and their distances are: Casciano Memorial Bridge, distance 1.95 km; New Jersey City University, distance 1.18 km; Rt. 440 & Communipaw, distance 2.13 km.

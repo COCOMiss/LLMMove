@@ -1,0 +1,6 @@
+The name of this location is "Starbucks" and its POI category is Coffee Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.94609778, -74.07149792), with the corresponding geohash code dr72fqnb2czg.
+The address is 370 NJ-17, Paramus, NJ 07652, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Coffee Shop, 3(avg: 63); Grocery Store, 2(avg: 9); Office, 1(avg: 72); Shopping Mall, 1(avg: 1); Community College, 1(avg: 1); Furniture / Home Store, 1(avg: 7); Road, 1(avg: 1); American Restaurant, 1(avg: 51); Department Store, 1(avg: 4).
+The 10 nearest POIs and their distances are: Starbucks, distance 0.00 km; Trader Joe's, distance 0.23 km; CUnet Headquarters, distance 0.62 km; Paramus Park Mall, distance 1.19 km; Starbucks, distance 1.48 km; Bergen Community College, distance 1.56 km; Fairway Market, distance 2.34 km; IKEA, distance 2.46 km; NJ Route 4, distance 2.74 km; Houlihan's, distance 2.93 km.
+The 10 representative nearby POIs and their distances are: Bergen Community College, distance 1.56 km; Paramus Park Mall, distance 1.19 km; IKEA, distance 2.46 km; Houlihan's, distance 2.93 km; NJ Route 4, distance 2.74 km; Fairway Market, distance 2.34 km; Nordstrom, distance 2.94 km; Starbucks, distance 0.00 km; CUnet Headquarters, distance 0.62 km; Starbucks, distance 1.48 km.

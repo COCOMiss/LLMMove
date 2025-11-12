@@ -1,0 +1,6 @@
+The name of this location is "Holy Name Medical Center" and its POI category is Medical Center, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.88371135, -74.0108329), with the corresponding geohash code dr72efduys5j.
+The address is 718 Teaneck Rd, Teaneck, NJ 07666, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Medical Center, 1(avg: 1).
+The 10 nearest POIs and their distances are: Holy Name Medical Center, distance 0.12 km.
+The 10 representative nearby POIs and their distances are: Holy Name Medical Center, distance 0.12 km.

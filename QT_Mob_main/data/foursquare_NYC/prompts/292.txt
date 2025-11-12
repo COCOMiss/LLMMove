@@ -1,0 +1,6 @@
+The name of this location is "Jackie Robinson Parkway" and its POI category is Road, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.68779755, -73.89198303), with the corresponding geohash code dr5rqwcx850n.
+The address is New York State Rte 908B, Glendale, NY 11385, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 3(avg: 19); Train Station, 2(avg: 5); Lighthouse, 1(avg: 1).
+The 10 nearest POIs and their distances are: MTA - Broadway Junction (A/C/L/J/Z), distance 1.35 km; MTA - Fresh Pond Road (M), distance 2.06 km; MTA - Myrtle-Wyckoff (L/M), distance 2.08 km; MTA - Halsey St. Station (J/Z), distance 2.11 km; MTA - Forest Ave Station (M), distance 2.11 km; MTA Subway - Metropolitan Ave (M), distance 2.70 km.
+The 10 representative nearby POIs and their distances are: MTA - Broadway Junction (A/C/L/J/Z), distance 1.35 km; MTA - Myrtle-Wyckoff (L/M), distance 2.08 km; MTA - Forest Ave Station (M), distance 2.11 km; MTA Subway - Metropolitan Ave (M), distance 2.70 km; MTA - Halsey St. Station (J/Z), distance 2.11 km; MTA - Fresh Pond Road (M), distance 2.06 km.

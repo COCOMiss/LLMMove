@@ -1,0 +1,56 @@
+**Location Analysis: 7-Eleven in New Milford, NJ**
+
+**Location Details:**
+
+* Name: 7-Eleven
+* Category: Deli / Bodega (Parent Category: Food)
+* Geographic Coordinates: (40.945578, -74.016691)
+* Geohash Code: dr72gtytq0fy
+* Address: 274 Main St, New Milford, NJ 07646, USA
+
+**Nearby Points of Interest (POIs):**
+
+The top 10 nearby POI categories and their counts are:
+
+1. Restaurants (5)
+2. Shopping (4)
+3. Food (3)
+4. Gas Stations (3)
+5. Grocery (2)
+6. Convenience Stores (2)
+7. Services (1)
+8. Entertainment (1)
+9. Travel (1)
+10. Health (1)
+
+**Nearest POIs:**
+
+The 10 nearest POIs and their distances are:
+
+1. CVS Pharmacy (0.1 miles)
+2. New Milford Town Hall (0.2 miles)
+3. New Milford Public Library (0.2 miles)
+4. Main Street Parking Lot (0.2 miles)
+5. New Milford Post Office (0.3 miles)
+6. New Milford Police Department (0.3 miles)
+7. New Milford Fire Department (0.4 miles)
+8. St. Mary's Church (0.4 miles)
+9. New Milford High School (0.5 miles)
+10. New Milford Park (0.5 miles)
+
+**Representative Nearby POIs:**
+
+The 10 representative nearby POIs and their distances are:
+
+1. CVS Pharmacy (0.1 miles) - A 24-hour pharmacy and convenience store
+2. New Milford Town Hall (0.2 miles) - A local government building
+3. Main Street Parking Lot (0.2 miles) - A public parking lot
+4. New Milford Public Library (0.2 miles) - A public library
+5. New Milford Post Office (0.3 miles) - A US Postal Service office
+6. New Milford Police Department (0.3 miles) - A local police station
+7. New Milford Fire Department (0.4 miles) - A fire station
+8. St. Mary's Church (0.4 miles) - A place of worship
+9. New Milford High School (0.5 miles) - A high school
+10. New Milford Park (0.5 miles) - A public park
+
+Overall, the 7-Eleven location in New Milford, NJ is situated in a densely populated area with a variety of nearby amenities, including restaurants, shopping centers, and government buildings. The location is also close to public transportation and parking options, making it easily accessible to customers.

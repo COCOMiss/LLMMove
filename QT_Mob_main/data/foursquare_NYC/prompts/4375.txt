@@ -1,0 +1,6 @@
+The name of this location is "Hackensack, NJ" and its POI category is Plaza, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.88595663, -74.04349566), with the corresponding geohash code dr72e551vqxz.
+The address is State St at Salem St, Hackensack, NJ 07601, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Hospital, 1(avg: 2); Miscellaneous Shop, 1(avg: 6); Wings Joint, 1(avg: 1); American Restaurant, 1(avg: 51); Bookstore, 1(avg: 7); Shopping Mall, 1(avg: 1); Asian Restaurant, 1(avg: 18); Gym / Fitness Center, 1(avg: 7).
+The 10 nearest POIs and their distances are: Hackensack University Medical Center, distance 1.07 km; Costco Wholesale Club, distance 1.15 km; Hooters of Hackensack, distance 2.23 km; The Cheesecake Factory, distance 2.35 km; Barnes & Noble, distance 2.38 km; The Shops at Riverside, distance 2.44 km; P.F. Chang's, distance 2.60 km; Golds Gym, distance 2.79 km.
+The 10 representative nearby POIs and their distances are: Hackensack University Medical Center, distance 1.07 km; The Shops at Riverside, distance 2.44 km; The Cheesecake Factory, distance 2.35 km; Golds Gym, distance 2.79 km; Costco Wholesale Club, distance 1.15 km; Barnes & Noble, distance 2.38 km; P.F. Chang's, distance 2.60 km; Hooters of Hackensack, distance 2.23 km.

@@ -1,0 +1,6 @@
+The name of this location is "Eagle Rock Reservation" and its POI category is Park, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.80306419, -74.23854074), with the corresponding geohash code dr70nevphd7y.
+The address is Crest Dr, West Orange, NJ 07052, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 2(avg: 9); Multiplex, 1(avg: 4); Gym, 1(avg: 25); Coffee Shop, 1(avg: 63); Breakfast Spot, 1(avg: 20); Music Venue, 1(avg: 10); Spanish Restaurant, 1(avg: 4); Bar, 1(avg: 124).
+The 10 nearest POIs and their distances are: Whole Foods, distance 0.86 km; AMC Essex Green Cinema 9, distance 1.83 km; New York Sports Club, distance 1.96 km; Starbucks, distance 2.00 km; Raymond's, distance 2.05 km; Wellmont Theatre, distance 2.13 km; Cuban Pete's, distance 2.14 km; Whole Foods, distance 2.17 km; Just Jake's, distance 2.23 km.
+The 10 representative nearby POIs and their distances are: Just Jake's, distance 2.23 km; Cuban Pete's, distance 2.14 km; Wellmont Theatre, distance 2.13 km; Starbucks, distance 2.00 km; New York Sports Club, distance 1.96 km; Whole Foods, distance 0.86 km; Raymond's, distance 2.05 km; Whole Foods, distance 2.17 km; AMC Essex Green Cinema 9, distance 1.83 km.

@@ -1,0 +1,31 @@
+**Location Analysis: Empress Diner**
+
+**Category and Address**
+The Empress Diner is a type of POI categorized as a Diner, which falls under the broader category of Food. The location is situated at 13-44 6th St, Fair Lawn, NJ 07410, USA.
+
+**Geographic Coordinates and Geohash**
+The Empress Diner has geographic coordinates of (40.93527025, -74.13415432), which corresponds to the geohash code dr72ch11hzry. These coordinates provide a precise location for navigation and mapping purposes.
+
+**Nearby Points-of-Interest (POIs)**
+The Empress Diner is surrounded by various POIs, with the top 10 categories and their counts being:
+
+1.  Bakery (1) (avg: 16)
+
+This suggests that the area around the Empress Diner has a relatively low concentration of bakeries, with an average of 16 bakeries in the surrounding area.
+
+**Nearest POIs**
+The 10 nearest POIs to the Empress Diner are:
+
+1. Nabisco Factory Scent Cloud (distance: 0.98 km)
+
+This indicates that the Empress Diner is relatively close to the Nabisco Factory Scent Cloud, which might be a notable landmark or a popular destination in the area.
+
+**Representative Nearby POIs**
+The 10 representative nearby POIs to the Empress Diner are:
+
+1. Nabisco Factory Scent Cloud (distance: 0.98 km)
+
+This further emphasizes the proximity of the Empress Diner to the Nabisco Factory Scent Cloud, suggesting that this POI is a significant reference point for the surrounding area.
+
+**Conclusion**
+The Empress Diner is a Diner located in Fair Lawn, NJ 07410, USA, with a relatively low concentration of bakeries in the surrounding area. The nearby Nabisco Factory Scent Cloud is a notable landmark, with the Empress Diner being situated approximately 0.98 km away. This information can be useful for those planning to visit the Empress Diner or navigating the surrounding area.

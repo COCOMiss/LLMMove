@@ -1,0 +1,6 @@
+The name of this location is "Snug Harbor Cultural Center" and its POI category is Garden, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.643233, -74.102937), with the corresponding geohash code dr5r1wzgurv2.
+The address is Weissglass Gazebo, 1000 Richmond Ter, Staten Island, NY 10301, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bar, 1(avg: 124); Hospital, 1(avg: 2); Gym, 1(avg: 25); Lake, 1(avg: 2); Baseball Field, 1(avg: 1); Home (private), 1(avg: 14); University, 1(avg: 5).
+The 10 nearest POIs and their distances are: Adobe Blues Restaurant and Bar, distance 0.64 km; Richmond University Medical Center, distance 0.84 km; Planet Fitness, distance 1.54 km; Silver Lake Park, distance 1.81 km; Richmond County Bank Ballpark at St George, distance 2.19 km; 108 Targee, distance 2.62 km; St John's University, distance 2.68 km.
+The 10 representative nearby POIs and their distances are: Silver Lake Park, distance 1.81 km; 108 Targee, distance 2.62 km; Richmond University Medical Center, distance 0.84 km; Planet Fitness, distance 1.54 km; St John's University, distance 2.68 km; Richmond County Bank Ballpark at St George, distance 2.19 km; Adobe Blues Restaurant and Bar, distance 0.64 km.

@@ -1,0 +1,6 @@
+The name of this location is "Dunwoodie Dairy and Deli" and its POI category is Deli / Bodega, belonging to the parent category Food.
+The geographic coordinates for this location are (40.93342226, -73.8731432), with the corresponding geohash code dr72ygxnqyzy.
+The address is 325 Yonkers Ave, Yonkers, NY 10701, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1).
+The 10 nearest POIs and their distances are: Cross County Mall, distance 1.69 km.
+The 10 representative nearby POIs and their distances are: Cross County Mall, distance 1.69 km.

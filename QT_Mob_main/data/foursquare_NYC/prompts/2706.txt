@@ -1,0 +1,6 @@
+The name of this location is "Bacari Grill" and its POI category is American Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.96536873, -74.06283225), with the corresponding geohash code dr7349t0dfjx.
+The address is 673 Rutgers Pl, Paramus, NJ 07652, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 2(avg: 9); Shopping Mall, 1(avg: 1); Office, 1(avg: 72); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Fairway Market, distance 1.05 km; Paramus Park Mall, distance 1.10 km; CUnet Headquarters, distance 1.65 km; Trader Joe's, distance 2.04 km; Starbucks, distance 2.26 km.
+The 10 representative nearby POIs and their distances are: Paramus Park Mall, distance 1.10 km; Fairway Market, distance 1.05 km; Starbucks, distance 2.26 km; CUnet Headquarters, distance 1.65 km; Trader Joe's, distance 2.04 km.

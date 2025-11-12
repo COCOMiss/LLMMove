@@ -1,0 +1,6 @@
+The name of this location is "IHOP" and its POI category is Breakfast Spot, belonging to the parent category Food.
+The geographic coordinates for this location are (40.79395053, -73.68800958), with the corresponding geohash code dr7854q1bzt9.
+The address is 1586 Northern Blvd, Manhasset, NY 11030, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Electronics Store, 1(avg: 5); Train, 1(avg: 4); Shopping Mall, 1(avg: 1); Grocery Store, 1(avg: 9); Emergency Room, 1(avg: 2).
+The 10 nearest POIs and their distances are: Apple Store, distance 0.94 km; LIRR - Manhasset Train Station, distance 1.03 km; Americana Manhasset, distance 1.44 km; Whole Foods, distance 1.52 km; North Shore University Hospital, distance 2.23 km.
+The 10 representative nearby POIs and their distances are: North Shore University Hospital, distance 2.23 km; Apple Store, distance 0.94 km; Americana Manhasset, distance 1.44 km; LIRR - Manhasset Train Station, distance 1.03 km; Whole Foods, distance 1.52 km.

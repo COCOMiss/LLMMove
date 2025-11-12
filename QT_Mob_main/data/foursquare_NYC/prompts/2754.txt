@@ -1,0 +1,6 @@
+The name of this location is "New Jersey Turnpike - Elizabeth" and its POI category is Road, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.66605625, -74.18260574), with the corresponding geohash code dr5prgjbun24.
+The address is MR88+CX Elizabeth, NJ, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); Movie Theater, 1(avg: 5); Shopping Mall, 1(avg: 1); Department Store, 1(avg: 4); Airport Terminal, 1(avg: 3); Building, 1(avg: 13); Plane, 1(avg: 1).
+The 10 nearest POIs and their distances are: New Jersey Turnpike - Elizabeth, distance 0.00 km; AMC Loews Jersey Gardens 20, distance 1.24 km; Jersey Gardens Mall, distance 1.24 km; IKEA, distance 1.42 km; Terminal B, distance 2.78 km; Newark Liberty International Airport - Building One, distance 2.89 km; Newark Liberty International Airport (EWR), distance 2.91 km.
+The 10 representative nearby POIs and their distances are: Newark Liberty International Airport (EWR), distance 2.91 km; Jersey Gardens Mall, distance 1.24 km; New Jersey Turnpike - Elizabeth, distance 0.00 km; IKEA, distance 1.42 km; Terminal B, distance 2.78 km; Newark Liberty International Airport - Building One, distance 2.89 km; AMC Loews Jersey Gardens 20, distance 1.24 km.

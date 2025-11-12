@@ -1,0 +1,6 @@
+The name of this location is "Teterboro Jeep" and its POI category is Automotive Shop, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.85675005, -74.05059814), with the corresponding geohash code dr726vwpb40p.
+The address is 449 US-46, Little Ferry, NJ 07643, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 2(avg: 51); Coffee Shop, 1(avg: 63); Gym / Fitness Center, 1(avg: 7); Airport, 1(avg: 1); Gym, 1(avg: 25); Other Great Outdoors, 1(avg: 13); Miscellaneous Shop, 1(avg: 6).
+The 10 nearest POIs and their distances are: Starbucks, distance 0.62 km; Golds Gym, distance 0.78 km; Teterboro Airport (TEB), distance 1.12 km; 24 Hour Fitness, distance 1.52 km; Starbucks, distance 1.65 km; SONIC Drive-In, distance 1.75 km; Houlihan's, distance 2.28 km; Costco Wholesale Club, distance 2.38 km.
+The 10 representative nearby POIs and their distances are: 24 Hour Fitness, distance 1.52 km; Teterboro Airport (TEB), distance 1.12 km; Starbucks, distance 1.65 km; SONIC Drive-In, distance 1.75 km; Golds Gym, distance 0.78 km; Costco Wholesale Club, distance 2.38 km; Houlihan's, distance 2.28 km; Starbucks, distance 0.62 km.

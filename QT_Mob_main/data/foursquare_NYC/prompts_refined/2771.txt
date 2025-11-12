@@ -1,0 +1,31 @@
+**Analysis of Kean University Location**
+
+Kean University is a university located in Union, New Jersey, USA. The geographic coordinates of the location are (40.68041021, -74.23444748), which places it in a urban setting. The geohash code dr5pqv8hefpg provides a unique identifier for the location.
+
+**Physical Address and Surroundings**
+
+The physical address of Kean University is Science Building, 1000 Morris Ave, Union, NJ 07083, USA. The university is situated near major transportation hubs, including train stations and highways. The nearby points-of-interest (POIs) suggest that the area is densely populated with educational and transportation facilities.
+
+**Nearby Points-of-Interest (POIs)**
+
+The top 10 nearby POIs and their counts indicate that the area is primarily composed of educational institutions and transportation infrastructure. The top POI categories are:
+
+1. University (1, avg: 5) - Kean University is the primary POI in this category.
+2. Train Station (1, avg: 5) - NJ Transit Rail - Union Station and NJ Transit Rail - Elizabeth Station are nearby train stations.
+3. General Travel (1, avg: 1) - This category is represented by U.S. Route 22 - New Jersey, a major highway.
+4. Train (1, avg: 4) - This category is represented by the NJ Transit Rail - Union Station and NJ Transit Rail - Elizabeth Station.
+5. Road (1, avg: 1) - U.S. Route 22 - New Jersey is also classified as a road.
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs and their distances suggest that Kean University is surrounded by major transportation hubs and educational institutions. The top representative POIs are:
+
+1. Kean University (0.05 km) - The university is located in the heart of the area.
+2. NJ Transit Rail - Elizabeth Station (2.15 km) - This train station is a major transportation hub in the area.
+3. U.S. Route 22 - New Jersey (2.09 km) - This highway provides easy access to the surrounding areas.
+4. Union Toll Plaza (2.66 km) - This toll plaza is a major transportation hub in the area.
+5. NJ Transit Rail - Union Station (0.50 km) - This train station is a major transportation hub in the area.
+
+**Conclusion**
+
+Kean University is a university located in a densely populated urban area with easy access to major transportation hubs and educational institutions. The surrounding area is characterized by a mix of educational and transportation infrastructure, making it an ideal location for students and commuters alike.

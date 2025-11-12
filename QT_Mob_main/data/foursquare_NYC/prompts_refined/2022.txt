@@ -1,0 +1,44 @@
+**Location Analysis: TGI Friday's**
+
+**Overview**
+
+TGI Friday's, located at 3181 Harkness Ave, Brooklyn, NY 11235, USA, is an American Restaurant within the broader category of Food. The location's geographic coordinates are (40.58676062, -73.92899288), with a geohash code of dr5qvswe18e3.
+
+**Surrounding Environment**
+
+The surrounding area of TGI Friday's is characterized by a mix of commercial and residential properties. The top 10 nearby points-of-interest (POI) categories and their counts are:
+
+1.  Movie Theater (1, avg: 5)
+2.  Fast Food Restaurant (1, avg: 5)
+3.  College Classroom (1, avg: 1)
+4.  Park (1, avg: 8)
+5.  Gym (1, avg: 25)
+6.  Metro Station (1, avg: 19)
+7.  Shopping Mall (1, avg: 1)
+
+The 10 nearest POIs and their distances are:
+
+1.  United Artists Sheepshead Bay Stadium 14 & IMAX (0.11 km)
+2.  Roll N Roaster (0.93 km)
+3.  Kingsborough Community College (1.11 km)
+4.  Marine Park (1.41 km)
+5.  Bally Total Fitness (1.95 km)
+6.  MTA - Sheepshead Bay (B/Q) (2.14 km)
+7.  Kings Plaza Mall (2.69 km)
+
+**Key Observations**
+
+1.  The nearest POI, United Artists Sheepshead Bay Stadium 14 & IMAX, is a movie theater, indicating that the area is likely to have a lively evening atmosphere.
+2.  The presence of Kingsborough Community College suggests that the area is home to a significant student population, potentially contributing to a diverse and vibrant community.
+3.  Marine Park, a nearby park, offers a green oasis in the midst of the urban environment, providing a peaceful escape for locals.
+4.  The presence of a gym, Bally Total Fitness, and a fast food restaurant, Roll N Roaster, suggests that the area caters to a wide range of lifestyle needs.
+
+**Recommendations**
+
+Based on the analysis, TGI Friday's appears to be situated in a dynamic and diverse neighborhood with a mix of commercial and residential properties. The nearby POIs suggest that the area is well-suited for individuals who value convenience, entertainment, and community amenities. Potential customers may include:
+
+1.  Young professionals and students attending Kingsborough Community College
+2.  Families with children, drawn to the movie theater and park
+3.  Fitness enthusiasts, attracted to the gym and nearby park
+
+Overall, TGI Friday's is well-positioned to cater to a broad range of customers, offering a welcoming atmosphere and convenient access to local amenities.

@@ -1,0 +1,50 @@
+**Location Analysis: Sprague Library**
+
+**Overview**
+
+Sprague Library is a college library located at 1 Normal Ave, Montclair, NJ 07043, USA. It is situated within the Montclair State University campus, a public research university in New Jersey. The library serves as a vital resource for students, faculty, and staff, providing access to a vast collection of books, journals, and digital resources.
+
+**Geographic Location**
+
+The library is situated in the heart of the Montclair State University campus, with the exact geographic coordinates of (40.86035289, -74.19816256). This location is easily accessible by car or on foot, with several nearby parking options available. The geohash code dr70rw6sc3zg provides a unique identifier for this location.
+
+**Nearby Points of Interest (POIs)**
+
+The surrounding area is characterized by a mix of academic and commercial establishments. The top 10 nearby POI categories and their counts are:
+
+1.  College Auditorium (1)
+2.  College Communications Building (1)
+3.  Diner (1)
+4.  American Restaurant (1)
+5.  Bar (1)
+6.  Taco Place (1)
+7.  Coffee Shop (1)
+8.  Grocery Store (1)
+
+The top 10 nearest POIs and their distances are:
+
+1.  Montclair State University (0.07 km)
+2.  University Hall (0.25 km)
+3.  Six Brothers Diner (1.36 km)
+4.  Pub 46 (1.91 km)
+5.  Bliss Lounge (1.98 km)
+6.  Chipotle Mexican Grill (2.21 km)
+7.  Starbucks (2.44 km)
+8.  ShopRite (2.80 km)
+
+**Representative Nearby POIs**
+
+The representative nearby POIs and their distances are:
+
+1.  Montclair State University (0.07 km)
+2.  University Hall (0.25 km)
+3.  Bliss Lounge (1.98 km)
+4.  Pub 46 (1.91 km)
+5.  Chipotle Mexican Grill (2.21 km)
+6.  Six Brothers Diner (1.36 km)
+7.  Starbucks (2.44 km)
+8.  ShopRite (2.80 km)
+
+**Conclusion**
+
+Sprague Library is a vital component of the Montclair State University campus, providing students, faculty, and staff with access to a wide range of academic resources. The library's location in the heart of the campus makes it easily accessible, and the surrounding area offers a variety of amenities, including dining options, entertainment venues, and shopping centers.

@@ -1,0 +1,6 @@
+The name of this location is "Lowe's" and its POI category is Hardware Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.82827747, -74.0917325), with the corresponding geohash code dr726081cw81.
+The address is 150 NJ-17, East Rutherford, NJ 07073, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bakery, 1(avg: 16); Café, 1(avg: 42); Music Venue, 1(avg: 10); Beer Garden, 1(avg: 4); Indie Theater, 1(avg: 2); American Restaurant, 1(avg: 51).
+The 10 nearest POIs and their distances are: Panera Bread, distance 0.14 km; Starbucks, distance 0.39 km; The Bamboozle Festival 2011, distance 2.11 km; New Meadowlands Stadium, distance 2.19 km; Medieval Times, distance 2.55 km; Houlihan's, distance 2.73 km.
+The 10 representative nearby POIs and their distances are: New Meadowlands Stadium, distance 2.19 km; The Bamboozle Festival 2011, distance 2.11 km; Medieval Times, distance 2.55 km; Starbucks, distance 0.39 km; Panera Bread, distance 0.14 km; Houlihan's, distance 2.73 km.

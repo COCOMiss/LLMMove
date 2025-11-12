@@ -1,0 +1,6 @@
+The name of this location is "New Roc City" and its POI category is Movie Theater, belonging to the parent category Arts & Entertainment.
+The geographic coordinates for this location are (40.91143695, -73.77997398), with the corresponding geohash code dr789pen6h85.
+The address is 33 Lecount Pl, New Rochelle, NY 10801, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Movie Theater, 1(avg: 5); American Restaurant, 1(avg: 51); Multiplex, 1(avg: 4); Train Station, 1(avg: 5); University, 1(avg: 5).
+The 10 nearest POIs and their distances are: New Roc City, distance 0.00 km; Buffalo Wild Wings, distance 0.02 km; Regal Cinemas New Roc City Stadium 18 + IMAX, distance 0.08 km; Metro North - New Rochelle Train Station, distance 0.35 km; Iona College, distance 1.75 km.
+The 10 representative nearby POIs and their distances are: Metro North - New Rochelle Train Station, distance 0.35 km; Regal Cinemas New Roc City Stadium 18 + IMAX, distance 0.08 km; Buffalo Wild Wings, distance 0.02 km; New Roc City, distance 0.00 km; Iona College, distance 1.75 km.

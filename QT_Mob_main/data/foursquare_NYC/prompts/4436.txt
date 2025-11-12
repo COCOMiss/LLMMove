@@ -1,0 +1,6 @@
+The name of this location is "Chase Bank" and its POI category is Bank, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.63855505, -73.895153), with the corresponding geohash code dr5rnqp0wpsr.
+The address is 1764 Rockaway Pkwy, Brooklyn, NY 11236, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 1(avg: 19); Other Nightlife, 1(avg: 7); Electronics Store, 1(avg: 5).
+The 10 nearest POIs and their distances are: MTA - Canarsie/Rockaway Pkwy (L), distance 1.05 km; Stella Artois Socialite Event, distance 1.66 km; Best Buy, distance 2.39 km.
+The 10 representative nearby POIs and their distances are: MTA - Canarsie/Rockaway Pkwy (L), distance 1.05 km; Stella Artois Socialite Event, distance 1.66 km; Best Buy, distance 2.39 km.

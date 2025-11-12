@@ -1,0 +1,6 @@
+The name of this location is "Mill Basin Drawbridge" and its POI category is Road, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.60287514, -73.90108109), with the corresponding geohash code dr5qyrdbguxb.
+The address is J33X+5H New York, NY, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Skating Rink, 1(avg: 1); Park, 1(avg: 8); Shopping Mall, 1(avg: 1).
+The 10 nearest POIs and their distances are: Aviator Sports and Events Center, distance 1.54 km; Marine Park, distance 1.77 km; Kings Plaza Mall, distance 1.81 km.
+The 10 representative nearby POIs and their distances are: Kings Plaza Mall, distance 1.81 km; Marine Park, distance 1.77 km; Aviator Sports and Events Center, distance 1.54 km.

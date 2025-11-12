@@ -1,0 +1,60 @@
+**Location Analysis: Starbucks at Broadway/W 168 St, New York, NY 10032**
+
+**Location Overview**
+
+The Starbucks location at Broadway/W 168 St, New York, NY 10032 is situated in the heart of New York City, specifically in the Washington Heights neighborhood. The location falls under the category of a Coffee Shop, which is part of the broader Food category.
+
+**Geographic Coordinates and Address**
+
+The Starbucks location has the following geographic coordinates: (40.84118443, -73.93985407), with a corresponding geohash code dr72m6yths8f. The address is Broadway/W 168 St, New York, NY 10032, USA.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs and their counts are:
+
+1.  Metro Station (5, avg: 19)
+2.  Hospital (3, avg: 2)
+3.  Road (3, avg: 1)
+4.  Coffee Shop (2, avg: 63)
+5.  Train Station (2, avg: 5)
+6.  Bar (2, avg: 124)
+7.  Gym (2, avg: 25)
+8.  Park (2, avg: 8)
+9.  Medical School (1, avg: 1)
+10. College Library (1, avg: 3)
+
+The top 10 nearest POIs and their distances are:
+
+1.  Starbucks (0.01 km)
+2.  MTA Subway - 168th Street (A/C/1) (0.05 km)
+3.  New York Presbyterian - Columbia University Medical Center (0.13 km)
+4.  Morgan Stanley Children's Hospital (0.20 km)
+5.  Milstein Hospital Building (0.23 km)
+6.  Hammer Health Sciences Library (0.25 km)
+7.  Port Authority - GWB Bus Terminal (0.86 km)
+8.  MTA Subway - 157th Street (1) (0.90 km)
+9.  Washington Heights (1.04 km)
+10. Starbucks (1.13 km)
+
+The 10 representative nearby POIs and their distances are:
+
+1.  Yankee Stadium (1.69 km)
+2.  George Washington Bridge (1.52 km)
+3.  MTA Subway - 161st St/Yankee Stadium (4/B/D) (1.89 km)
+4.  The City College of New York (2.54 km)
+5.  New York Presbyterian - Columbia University Medical Center (0.13 km)
+6.  The Cloisters (2.50 km)
+7.  MTA Subway - 137th Street/City College (1) (2.51 km)
+8.  New York Sports Club (2.01 km)
+9.  Stan's Sports Bar (1.97 km)
+10. Port Authority - GWB Bus Terminal (0.86 km)
+
+**Insights and Observations**
+
+* The Starbucks location is situated near several major transportation hubs, including the MTA Subway - 168th Street (A/C/1) and Port Authority - GWB Bus Terminal.
+* The location is also close to several hospitals and medical facilities, including New York Presbyterian - Columbia University Medical Center and Morgan Stanley Children's Hospital.
+* The area is densely populated with a mix of residential and commercial properties.
+* The location is relatively close to several parks and open spaces, including Washington Heights and The Cloisters.
+* The area is also home to several educational institutions, including The City College of New York and Columbia University Medical Center.
+
+Overall, the Starbucks location at Broadway/W 168 St, New York, NY 10032 is a convenient and accessible spot for coffee lovers and travelers alike, with a mix of transportation options, medical facilities, and educational institutions nearby.

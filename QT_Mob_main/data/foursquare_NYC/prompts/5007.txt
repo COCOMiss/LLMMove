@@ -1,0 +1,6 @@
+The name of this location is "Dunkin' Donuts" and its POI category is Donut Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.802794, -74.169468), with the corresponding geohash code dr7205zmw0h4.
+The address is 392 Franklin Ave, Belleville, NJ 07109, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Medical Center, 1(avg: 1); Gym / Fitness Center, 1(avg: 7); Grocery Store, 1(avg: 9); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Retro Fitness, distance 0.04 km; Clara Maass Medical Center, distance 1.99 km; Signature Fitness, distance 2.07 km; ShopRite, distance 2.32 km; Starbucks, distance 2.50 km.
+The 10 representative nearby POIs and their distances are: Signature Fitness, distance 2.07 km; Starbucks, distance 2.50 km; Retro Fitness, distance 0.04 km; Clara Maass Medical Center, distance 1.99 km; ShopRite, distance 2.32 km.

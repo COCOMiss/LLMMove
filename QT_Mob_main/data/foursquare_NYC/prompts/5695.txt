@@ -1,0 +1,6 @@
+The name of this location is "Algieris pizza" and its POI category is Pizza Place, belonging to the parent category Pizza Place.
+The geographic coordinates for this location are (40.80087841, -74.15413678), with the corresponding geohash code dr720edd775b.
+The address is 502 Union Ave, Belleville, NJ 07109, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym / Fitness Center, 1(avg: 7); Gym, 1(avg: 25); Home (private), 1(avg: 14); Grocery Store, 1(avg: 9); Coffee Shop, 1(avg: 63); Medical Center, 1(avg: 1).
+The 10 nearest POIs and their distances are: Signature Fitness, distance 0.81 km; Retro Fitness, distance 1.33 km; Riverwatch Condos, distance 1.61 km; ShopRite, distance 2.34 km; Starbucks, distance 2.46 km; Clara Maass Medical Center, distance 2.51 km.
+The 10 representative nearby POIs and their distances are: Signature Fitness, distance 0.81 km; Starbucks, distance 2.46 km; Retro Fitness, distance 1.33 km; Clara Maass Medical Center, distance 2.51 km; ShopRite, distance 2.34 km; Riverwatch Condos, distance 1.61 km.

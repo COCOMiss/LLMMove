@@ -1,0 +1,6 @@
+The name of this location is "Little Bay Park Dog Run" and its POI category is Other Great Outdoors, belonging to the parent category Other Great Outdoors.
+The geographic coordinates for this location are (40.78785598, -73.79333211), with the corresponding geohash code dr780c1q6xrq.
+The address is Q6Q4+4M New York, NY, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); American Restaurant, 1(avg: 51); Shopping Mall, 1(avg: 1); Deli / Bodega, 1(avg: 10); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Throgs Neck Bridge, distance 1.33 km; Panera Bread, distance 1.70 km; Bay Terrace Shopping Center, distance 1.71 km; Cherry Valley Deli & Grill, distance 1.78 km; LIRR - Auburndale Station, distance 2.95 km.
+The 10 representative nearby POIs and their distances are: Throgs Neck Bridge, distance 1.33 km; Bay Terrace Shopping Center, distance 1.71 km; Cherry Valley Deli & Grill, distance 1.78 km; Panera Bread, distance 1.70 km; LIRR - Auburndale Station, distance 2.95 km.

@@ -1,0 +1,65 @@
+**Location Analysis: Dunkin' Donuts / Dunkin' Deli / Baskin-Robbins**
+
+**Location Details:**
+
+* Name: Dunkin' Donuts / Dunkin' Deli / Baskin-Robbins
+* POI Category: Coffee Shop
+* Parent Category: Food
+* Geographic Coordinates: (40.72935205, -74.00692507)
+* Geohash Code: dr5reytc9tt0
+* Address: 400 Hudson St, New York, NY 10014, USA
+
+**Neighboring Points of Interest (POIs):**
+
+The location is situated in a bustling area of New York City, surrounded by various points of interest. The top 10 nearby POI categories and their counts are:
+
+1. Bar (211) - Average count: 124
+2. Coffee Shop (92) - Average count: 63
+3. American Restaurant (87) - Average count: 51
+4. Office (80) - Average count: 72
+5. Café (54) - Average count: 42
+6. Lounge (51) - Average count: 35
+7. Italian Restaurant (50) - Average count: 28
+8. Mexican Restaurant (38) - Average count: 28
+9. Gym (37) - Average count: 25
+10. Pub (36) - Average count: 24
+
+**Nearest POIs:**
+
+The 10 nearest POIs to Dunkin' Donuts / Dunkin' Deli / Baskin-Robbins are:
+
+1. Printing House Fitness & Racquet Club (0.07 km)
+2. Saatchi & Saatchi (0.10 km)
+3. Penguin Group (USA) Inc. (0.10 km)
+4. ZenithMedia (0.12 km)
+5. Lelabar (0.12 km)
+6. EN Japanese Brasserie (0.14 km)
+7. New York Sports Club (0.14 km)
+8. Getting Hungry (0.15 km)
+9. Radical Media (0.16 km)
+10. SOBs (0.17 km)
+
+**Representative Nearby POIs:**
+
+The 10 representative nearby POIs and their distances are:
+
+1. New York Penn Station (2.68 km)
+2. Madison Square Garden (2.62 km)
+3. Union Square Park (1.52 km)
+4. Brooklyn Bridge (2.82 km)
+5. Union Square Greenmarket (1.60 km)
+6. Madison Square Park (2.15 km)
+7. PATH: World Trade Center Station (1.90 km)
+8. Eataly (2.01 km)
+9. The High Line (1.98 km)
+10. Regal Union Square Stadium 14 (1.48 km)
+
+**Insights:**
+
+* The location is situated in a densely populated area with a mix of office buildings, restaurants, and entertainment venues.
+* The presence of multiple coffee shops and restaurants suggests a high foot traffic and demand for food and beverages.
+* The nearby offices and gyms indicate a busy and active community.
+* The location's proximity to major transportation hubs like New York Penn Station and PATH: World Trade Center Station makes it easily accessible.
+* The nearby Union Square Park and Madison Square Park provide green spaces for recreation and relaxation.
+
+Overall, Dunkin' Donuts / Dunkin' Deli / Baskin-Robbins is well-positioned in a vibrant and bustling area of New York City, with a mix of office workers, students, and tourists as potential customers.

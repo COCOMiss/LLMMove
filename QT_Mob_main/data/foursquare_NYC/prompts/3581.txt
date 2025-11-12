@@ -1,0 +1,6 @@
+The name of this location is "Leonia High School" and its POI category is High School, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.87081138, -73.98883224), with the corresponding geohash code dr72s26cxpry.
+The address is 100 Christie Heights St, Leonia, NJ 07605, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Medical Center, 1(avg: 1); Bus Station, 1(avg: 1).
+The 10 nearest POIs and their distances are: Holy Name Medical Center, distance 2.24 km; Bridge Plaza, distance 2.52 km.
+The 10 representative nearby POIs and their distances are: Bridge Plaza, distance 2.52 km; Holy Name Medical Center, distance 2.24 km.

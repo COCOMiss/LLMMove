@@ -1,0 +1,6 @@
+The name of this location is "East Orange Toll Plaza" and its POI category is General Travel, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.75912297, -74.20852661), with the corresponding geohash code dr5pz7gp050p.
+The address is 26 N Oraton Pkwy, East Orange, NJ 07018, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Other Great Outdoors, 1(avg: 13).
+The 10 nearest POIs and their distances are: Interstate 280, distance 2.41 km.
+The 10 representative nearby POIs and their distances are: Interstate 280, distance 2.41 km.

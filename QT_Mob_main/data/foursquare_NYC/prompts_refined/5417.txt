@@ -1,0 +1,45 @@
+**Location Analysis: Homegoods**
+
+**Location Overview**
+
+Homegoods is a department store located at 200 Petersville Rd, New Rochelle, NY 10801, USA. The store falls under the parent category of Shop & Service and has a geohash code of dr78c3b3gn3d.
+
+**Geographic Coordinates and Nearby Points of Interest**
+
+The location is situated at the geographic coordinates (40.92303335, -73.77271901), which places it in the city of New Rochelle, New York. The top 10 nearby points-of-interest categories and their counts indicate a mix of local amenities, with a strong presence of dining and entertainment options.
+
+**Top Nearby POI Categories and Counts**
+
+1.  Train Station (2) - averaging 5 points of interest per location
+2.  University (1) - averaging 5 points of interest per location
+3.  American Restaurant (1) - averaging 51 points of interest per location
+4.  Movie Theater (1) - averaging 5 points of interest per location
+5.  Multiplex (1) - averaging 4 points of interest per location
+
+This suggests that the area surrounding Homegoods has a good balance of transportation, education, dining, and entertainment options, making it a convenient location for residents and visitors alike.
+
+**Nearest POIs and Distances**
+
+The 10 nearest points-of-interest to Homegoods are:
+
+1.  Iona College - 1.27 km
+2.  Buffalo Wild Wings - 1.42 km
+3.  New Roc City - 1.43 km
+4.  Regal Cinemas New Roc City Stadium 18 + IMAX - 1.50 km
+5.  Metro North - Larchmont Train Station - 1.61 km
+6.  Metro North - New Rochelle Train Station - 1.65 km
+
+**Representative Nearby POIs and Distances**
+
+The 10 representative nearby points-of-interest to Homegoods are:
+
+1.  Metro North - New Rochelle Train Station - 1.65 km
+2.  Metro North - Larchmont Train Station - 1.61 km
+3.  Regal Cinemas New Roc City Stadium 18 + IMAX - 1.50 km
+4.  Buffalo Wild Wings - 1.42 km
+5.  New Roc City - 1.43 km
+6.  Iona College - 1.27 km
+
+These representative points-of-interest suggest that Homegoods is situated in a convenient location, with easy access to public transportation, entertainment options, and local amenities. The proximity to Iona College and other nearby universities may also indicate a student-friendly environment, which could be beneficial for the department store's target market.
+
+Overall, Homegoods appears to be located in a prime area with a mix of local amenities and convenient access to transportation and entertainment options, making it an attractive location for both residents and visitors.

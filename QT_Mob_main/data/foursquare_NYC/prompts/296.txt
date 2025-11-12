@@ -1,0 +1,6 @@
+The name of this location is "Joseph P. Addabbo Memorial Bridge" and its POI category is Bridge, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.64131201, -73.83439064), with the corresponding geohash code dr5rpye2y18j.
+The address is 165 Cross Bay Blvd, Queens, NY, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train, 1(avg: 4); Light Rail Station, 1(avg: 1); Coffee Shop, 1(avg: 63); Beach, 1(avg: 1).
+The 10 nearest POIs and their distances are: MTA - Howard Beach - JFK Station, distance 2.14 km; JFK AirTrain - Howard Beach, distance 2.22 km; Starbucks, distance 2.28 km; Howard Beach, distance 2.30 km.
+The 10 representative nearby POIs and their distances are: JFK AirTrain - Howard Beach, distance 2.22 km; Starbucks, distance 2.28 km; MTA - Howard Beach - JFK Station, distance 2.14 km; Howard Beach, distance 2.30 km.

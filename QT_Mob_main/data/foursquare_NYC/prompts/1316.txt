@@ -1,0 +1,6 @@
+The name of this location is "NJCU Westside Parking Lot" and its POI category is Parking, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.71164771, -74.09326885), with the corresponding geohash code dr5r9gqft9nq.
+The address is 26 University Pl Blvd, Jersey City, NJ 07305, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: University, 1(avg: 5); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: New Jersey City University, distance 0.66 km; Rt. 440 & Communipaw, distance 1.20 km.
+The 10 representative nearby POIs and their distances are: New Jersey City University, distance 0.66 km; Rt. 440 & Communipaw, distance 1.20 km.

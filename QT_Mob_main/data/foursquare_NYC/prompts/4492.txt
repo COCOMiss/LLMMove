@@ -1,0 +1,6 @@
+The name of this location is "AMC Loews Theatres - Ridgefield Park 12" and its POI category is Movie Theater, belonging to the parent category Arts & Entertainment.
+The geographic coordinates for this location are (40.84878091, -74.0127039), with the corresponding geohash code dr727u396uxv.
+The address is 65 Challenger Rd #125, Ridgefield Park, NJ 07660, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are:.
+The 10 nearest POIs and their distances are:.
+The 10 representative nearby POIs and their distances are:.

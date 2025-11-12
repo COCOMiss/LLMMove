@@ -1,0 +1,6 @@
+The name of this location is "Best Buy" and its POI category is Electronics Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.90203869, -73.81900932), with the corresponding geohash code dr788jyxskth.
+The address is 581 E Sandford Blvd, Mt Vernon, NY 10553, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Video Game Store, 1(avg: 1); Wine Shop, 1(avg: 1); Train Station, 1(avg: 5); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Target, distance 0.18 km; Fairway Market, distance 0.94 km; Metro North - Pelham Train Station, distance 1.17 km; Hutchinson River Parkway, distance 2.53 km.
+The 10 representative nearby POIs and their distances are: Metro North - Pelham Train Station, distance 1.17 km; Hutchinson River Parkway, distance 2.53 km; Fairway Market, distance 0.94 km; Target, distance 0.18 km.

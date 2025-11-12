@@ -1,0 +1,6 @@
+The name of this location is "Kings Supermarket" and its POI category is Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.94103369, -73.96065053), with the corresponding geohash code dr72uvp6zcvf.
+The address is 54-70 Union Ave, Cresskill, NJ 07626, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are:.
+The 10 nearest POIs and their distances are:.
+The 10 representative nearby POIs and their distances are:.

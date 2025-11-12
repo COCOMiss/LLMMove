@@ -1,0 +1,6 @@
+The name of this location is "Bagel Supreme" and its POI category is Bagel Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.61639572, -74.03059959), with the corresponding geohash code dr5r53uxdhbj.
+The address is Fort Hamilton Triangle, 5 Ave., 4 Ave, 94th St, Brooklyn, NY 11209, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Road, 2(avg: 1); Donut Shop, 1(avg: 2); New American Restaurant, 1(avg: 6); Department Store, 1(avg: 4); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Dunkin Donuts - 4th Ave Bay Ridge, distance 0.08 km; MTA - R - 95th Street-Bay Ridge, distance 0.09 km; Cebu, distance 0.63 km; Century 21 - Brooklyn, distance 0.68 km; New York Sports Club, distance 0.71 km; Bay Ridge, Brooklyn, distance 1.50 km; Verrazano-Narrows Bridge, distance 1.59 km; MTA Subway - 8th Ave (N), distance 2.62 km.
+The 10 representative nearby POIs and their distances are: Verrazano-Narrows Bridge, distance 1.59 km; MTA Subway - 8th Ave (N), distance 2.62 km; Bay Ridge, Brooklyn, distance 1.50 km; MTA - R - 95th Street-Bay Ridge, distance 0.09 km; New York Sports Club, distance 0.71 km; Century 21 - Brooklyn, distance 0.68 km; Dunkin Donuts - 4th Ave Bay Ridge, distance 0.08 km; Cebu, distance 0.63 km.

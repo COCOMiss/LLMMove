@@ -1,0 +1,6 @@
+The name of this location is "NJ Transit Rail - Elizabeth Station" and its POI category is Train, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.66748039, -74.21548963), with the corresponding geohash code dr5pr5mcjxzc.
+The address is 216 E Broad St, Elizabeth, NJ 07201, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train, 1(avg: 4); University, 1(avg: 5).
+The 10 nearest POIs and their distances are: NJ Transit Rail - Elizabeth Station, distance 0.00 km; Kean University, distance 2.18 km.
+The 10 representative nearby POIs and their distances are: Kean University, distance 2.18 km; NJ Transit Rail - Elizabeth Station, distance 0.00 km.

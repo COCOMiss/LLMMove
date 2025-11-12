@@ -1,0 +1,60 @@
+**Location Analysis: CUPS Frozen Yogurt**
+
+**Overview**
+
+CUPS Frozen Yogurt is an ice cream shop located at 852 NJ-3 Suite 202 A, Clifton, NJ 07012, USA. It is situated at the geographic coordinates (40.83887901, -74.15544033), which corresponds to the geohash code dr722d3xtnb4.
+
+**Proximity to Nearby Points of Interest (POIs)**
+
+The location is surrounded by various POIs, with the top 10 categories and their counts being:
+
+1.  Burger Joint (2), avg: 17
+2.  American Restaurant (2), avg: 51
+3.  Pharmacy (2), avg: 4
+4.  Coffee Shop (2), avg: 63
+5.  Grocery Store (2), avg: 9
+6.  Ice Cream Shop (1), avg: 6
+7.  Gym Pool (1), avg: 1
+8.  Diner (1), avg: 9
+9.  Road (1), avg: 1
+10. Gym (1), avg: 25
+
+This indicates that CUPS Frozen Yogurt is situated in a densely populated area with a mix of food establishments, including restaurants, diners, and grocery stores.
+
+**Nearest POIs**
+
+The 10 nearest POIs to CUPS Frozen Yogurt are:
+
+1.  CUPS Frozen Yogurt (distance: 0.00 km)
+2.  Zinburger (distance: 0.01 km)
+3.  LA Fitness (distance: 0.09 km)
+4.  T.G.I. Friday's (distance: 0.11 km)
+5.  Tick Tock Diner (distance: 0.35 km)
+6.  NJ Route 3 (distance: 0.57 km)
+7.  New York Sports Club (distance: 1.54 km)
+8.  AMC Clifton Commons 16 (distance: 1.72 km)
+9.  Barnes & Noble (distance: 1.73 km)
+10. Costco Wholesale Club (distance: 1.77 km)
+
+These POIs include a mix of food establishments, gyms, and retail stores, indicating a vibrant and diverse neighborhood.
+
+**Representative POIs**
+
+The 10 representative POIs near CUPS Frozen Yogurt are:
+
+1.  LA Fitness (distance: 0.09 km)
+2.  Target (distance: 2.30 km)
+3.  The Shannon Rose Irish Pub (distance: 2.10 km)
+4.  AMC Clifton Commons 16 (distance: 1.72 km)
+5.  Barnes & Noble (distance: 1.73 km)
+6.  NJ Route 3 (distance: 0.57 km)
+7.  Starbucks (distance: 1.86 km)
+8.  CUPS Frozen Yogurt (distance: 0.00 km)
+9.  Tick Tock Diner (distance: 0.35 km)
+10. Starbucks (distance: 1.77 km)
+
+These representative POIs indicate that CUPS Frozen Yogurt is situated near popular shopping destinations and entertainment options, making it a convenient location for customers.
+
+**Conclusion**
+
+CUPS Frozen Yogurt is a centrally located ice cream shop in Clifton, NJ, surrounded by various food establishments, gyms, and retail stores. Its proximity to popular POIs and representative locations makes it an attractive destination for customers seeking a sweet treat or a convenient shopping experience.

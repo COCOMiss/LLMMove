@@ -1,0 +1,6 @@
+The name of this location is "Tinga Fresh Mexican" and its POI category is Burrito Place, belonging to the parent category Food.
+The geographic coordinates for this location are (40.84106126, -74.20727937), with the corresponding geohash code dr70r6gumjdh.
+The address is 215-217 Bellevue Ave, Montclair, NJ 07043, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Coffee Shop, 1(avg: 63); Baseball Field, 1(avg: 1); Gym / Fitness Center, 1(avg: 7); Grocery Store, 1(avg: 9); College Auditorium, 1(avg: 1); College Communications Building, 1(avg: 1); Pub, 1(avg: 24).
+The 10 nearest POIs and their distances are: Starbucks, distance 0.17 km; Brookdale Park, distance 1.63 km; Platinum Fitness, distance 1.86 km; ShopRite, distance 2.01 km; Montclair State University, distance 2.30 km; University Hall, distance 2.48 km; Egan & Sons, distance 2.63 km.
+The 10 representative nearby POIs and their distances are: Montclair State University, distance 2.30 km; University Hall, distance 2.48 km; Platinum Fitness, distance 1.86 km; Egan & Sons, distance 2.63 km; Brookdale Park, distance 1.63 km; Starbucks, distance 0.17 km; ShopRite, distance 2.01 km.

@@ -1,0 +1,6 @@
+The name of this location is "JFK AirTrain - Howard Beach" and its POI category is Light Rail Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.66104097, -73.82962304), with the corresponding geohash code dr5rrfngtp6v.
+The address is Howard Beach, Queens, NY 11430, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Light Rail Station, 1(avg: 1); Train, 1(avg: 4); Coffee Shop, 1(avg: 63); Beach, 1(avg: 1); Airport Tram, 1(avg: 1); Metro Station, 1(avg: 19).
+The 10 nearest POIs and their distances are: JFK AirTrain - Howard Beach, distance 0.01 km; MTA - Howard Beach - JFK Station, distance 0.09 km; Starbucks, distance 0.89 km; Howard Beach, distance 1.68 km; JFK AirTrain - Federal Circle Station, distance 2.21 km; MTA - Rockaway Boulevard Subway Station (A), distance 2.47 km.
+The 10 representative nearby POIs and their distances are: JFK AirTrain - Howard Beach, distance 0.01 km; JFK AirTrain - Federal Circle Station, distance 2.21 km; MTA - Rockaway Boulevard Subway Station (A), distance 2.47 km; Starbucks, distance 0.89 km; MTA - Howard Beach - JFK Station, distance 0.09 km; Howard Beach, distance 1.68 km.

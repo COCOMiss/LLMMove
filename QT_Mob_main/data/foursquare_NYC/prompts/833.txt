@@ -1,0 +1,6 @@
+The name of this location is "Cross Island Parkway" and its POI category is Road, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.74335535, -73.73199463), with the corresponding geohash code dr5xf1jgpzzv.
+The address is P7V9+86 New York, NY, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); Hospital, 1(avg: 2).
+The 10 nearest POIs and their distances are: Cross Island Parkway, distance 0.00 km; Long Island Jewish Medical Center, distance 2.36 km.
+The 10 representative nearby POIs and their distances are: Long Island Jewish Medical Center, distance 2.36 km; Cross Island Parkway, distance 0.00 km.

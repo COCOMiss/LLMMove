@@ -1,0 +1,6 @@
+The name of this location is "Louis Seafood" and its POI category is Italian Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.8314335, -73.82718283), with the corresponding geohash code dr78210smfys.
+The address is 3482 E Tremont Ave, Bronx, NY 10465, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 3(avg: 19); Indie Theater, 1(avg: 2); Gym, 1(avg: 25); General Travel, 1(avg: 1); Hospital, 1(avg: 2).
+The 10 nearest POIs and their distances are: MTA Subway - Middletown Road (6), distance 1.56 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 1.63 km; Socialite, distance 1.72 km; Planet Fitness, distance 1.88 km; Whitestone Bridge Toll Plaza, distance 1.98 km; MTA Subway - Pelham Bay Park (6), distance 2.40 km; Montefiore Medical Center, distance 2.48 km.
+The 10 representative nearby POIs and their distances are: Socialite, distance 1.72 km; Whitestone Bridge Toll Plaza, distance 1.98 km; MTA Subway - Pelham Bay Park (6), distance 2.40 km; Planet Fitness, distance 1.88 km; MTA Subway - Middletown Road (6), distance 1.56 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 1.63 km; Montefiore Medical Center, distance 2.48 km.

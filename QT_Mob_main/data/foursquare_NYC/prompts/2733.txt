@@ -1,0 +1,6 @@
+The name of this location is "Il Sapore Pizza" and its POI category is Italian Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.76596946, -73.7451109), with the corresponding geohash code dr5xcvhqyreb.
+The address is 25327 Northern Blvd, Flushing, NY 11362, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 1(avg: 5); College Communications Building, 1(avg: 1); Dessert Shop, 1(avg: 12); Light Rail Station, 1(avg: 1); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: LIRR - Douglaston Station, distance 0.43 km; Queensborough Community College, distance 1.57 km; Martha's Country Bakery, distance 2.19 km; LIRR - Bayside Station, distance 2.23 km; Cross Island Parkway, distance 2.74 km.
+The 10 representative nearby POIs and their distances are: LIRR - Bayside Station, distance 2.23 km; Queensborough Community College, distance 1.57 km; Cross Island Parkway, distance 2.74 km; LIRR - Douglaston Station, distance 0.43 km; Martha's Country Bakery, distance 2.19 km.

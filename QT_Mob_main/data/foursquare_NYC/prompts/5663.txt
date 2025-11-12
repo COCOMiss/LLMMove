@@ -1,0 +1,6 @@
+The name of this location is "midland beach" and its POI category is Beach, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.57393519, -74.08428669), with the corresponding geohash code dr5qf4m2qcxy.
+The address is 3 Iroquois St, Staten Island, NY 10305, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bar, 1(avg: 124); Café, 1(avg: 42); Beach, 1(avg: 1).
+The 10 nearest POIs and their distances are: Rab's Country Lanes, distance 1.79 km; Starbucks, distance 2.21 km; South Beach Boardwalk, distance 2.36 km.
+The 10 representative nearby POIs and their distances are: Starbucks, distance 2.21 km; Rab's Country Lanes, distance 1.79 km; South Beach Boardwalk, distance 2.36 km.

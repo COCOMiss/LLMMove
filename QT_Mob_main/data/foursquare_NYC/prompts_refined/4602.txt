@@ -1,0 +1,69 @@
+**Location Analysis: Planet Fitness**
+
+**General Overview**
+
+Planet Fitness is a gym located at 2245 D Westchester Ave, Bronx, NY 10462, USA. The gym is situated in the Bronx, a borough of New York City, and is easily accessible by public transportation.
+
+**Geographic Location**
+
+The geographic coordinates of Planet Fitness are (40.83451924, -73.85034595), which corresponds to the geohash code dr72r3xy64ng. This location is in the northeastern part of the Bronx, near the intersection of Westchester Avenue and East 224th Street.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs and their counts are:
+
+1. Metro Station (3) - Average distance: 19
+2. Indie Theater (1) - Average distance: 2
+3. Road (1) - Average distance: 1
+4. Hospital (1) - Average distance: 2
+5. Train Station (1) - Average distance: 5
+6. Gym (1) - Average distance: 25 (this is the location itself)
+7. Emergency Room (1) - Average distance: 2
+8. General Travel (1) - Average distance: 1
+
+The 10 nearest POIs and their distances are:
+
+1. Socialite (0.86 km)
+2. MTA Subway - Westchester Square/East Tremont Ave (6) (0.88 km)
+3. MTA Subway - 177th Street/Parkchester (6) (0.91 km)
+4. Bruckner Expressway (1.25 km)
+5. MTA Subway - Middletown Road (6) (1.51 km)
+6. Montefiore Medical Center (1.63 km)
+7. MTA - East 180th Street (2,5) (2.15 km)
+8. Planet Fitness (2.23 km)
+9. Jacobi Medical Center (2.36 km)
+10. Whitestone Bridge Toll Plaza (2.45 km)
+
+The 10 representative nearby POIs and their distances are:
+
+1. Socialite (0.86 km)
+2. MTA Subway - 177th Street/Parkchester (6) (0.91 km)
+3. Whitestone Bridge Toll Plaza (2.45 km)
+4. MTA - East 180th Street (2,5) (2.15 km)
+5. Planet Fitness (2.23 km)
+6. Bruckner Expressway (1.25 km)
+7. MTA Subway - Middletown Road (6) (1.51 km)
+8. Jacobi Medical Center (2.36 km)
+9. MTA Subway - Westchester Square/East Tremont Ave (6) (0.88 km)
+10. Montefiore Medical Center (1.63 km)
+
+**Accessibility**
+
+Planet Fitness is easily accessible by public transportation, with several nearby subway stations, including MTA Subway - Westchester Square/East Tremont Ave (6) and MTA Subway - 177th Street/Parkchester (6). The gym is also located near several major roads, including the Bruckner Expressway.
+
+**Healthcare Options**
+
+There are several healthcare options nearby, including:
+
+* Montefiore Medical Center (1.63 km)
+* Jacobi Medical Center (2.36 km)
+* MTA - East 180th Street (2,5) (2.15 km)
+* Emergency Room (1) (average distance: 2)
+
+**Demographics**
+
+The demographics of the surrounding area are likely to be diverse, given the location in the Bronx. The area is home to a mix of residential and commercial properties, with a high foot traffic due to the nearby subway stations.
+
+**Conclusion**
+
+Planet Fitness is a convenient location for individuals looking for a gym in the Bronx. The gym is easily accessible by public transportation and is surrounded by several healthcare options and other points of interest. The demographics of the surrounding area are diverse, making it a great location for individuals of all backgrounds.

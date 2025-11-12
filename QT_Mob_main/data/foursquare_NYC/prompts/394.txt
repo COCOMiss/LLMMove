@@ -1,0 +1,6 @@
+The name of this location is "Retro Fitness" and its POI category is Gym, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.91195587, -74.02976274), with the corresponding geohash code dr72erv1mt24.
+The address is 100 Commerce Way, Hackensack, NJ 07601, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Asian Restaurant, 1(avg: 18); Shopping Mall, 1(avg: 1); Bookstore, 1(avg: 7); American Restaurant, 1(avg: 51); Wings Joint, 1(avg: 1).
+The 10 nearest POIs and their distances are: Retro Fitness, distance 0.00 km; P.F. Chang's, distance 0.52 km; The Shops at Riverside, distance 0.69 km; Barnes & Noble, distance 0.74 km; The Cheesecake Factory, distance 0.77 km; Hooters of Hackensack, distance 0.91 km.
+The 10 representative nearby POIs and their distances are: The Shops at Riverside, distance 0.69 km; The Cheesecake Factory, distance 0.77 km; Retro Fitness, distance 0.00 km; Barnes & Noble, distance 0.74 km; P.F. Chang's, distance 0.52 km; Hooters of Hackensack, distance 0.91 km.

@@ -1,0 +1,6 @@
+The name of this location is "Subway Restaurant" and its POI category is Sandwich Place, belonging to the parent category Food.
+The geographic coordinates for this location are (40.82678036, -73.82261076), with the corresponding geohash code dr7820k10rrx.
+The address is 3714 E Tremont Ave, Bronx, NY 10465, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 3(avg: 19); General Travel, 2(avg: 1); Indie Theater, 1(avg: 2); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Whitestone Bridge Toll Plaza, distance 1.75 km; Throgs Neck Bridge Toll Plaza, distance 1.89 km; Socialite, distance 2.04 km; MTA Subway - Middletown Road (6), distance 2.20 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 2.26 km; Planet Fitness, distance 2.47 km; MTA Subway - Pelham Bay Park (6), distance 2.94 km.
+The 10 representative nearby POIs and their distances are: Socialite, distance 2.04 km; Throgs Neck Bridge Toll Plaza, distance 1.89 km; Whitestone Bridge Toll Plaza, distance 1.75 km; MTA Subway - Pelham Bay Park (6), distance 2.94 km; Planet Fitness, distance 2.47 km; MTA Subway - Middletown Road (6), distance 2.20 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 2.26 km.

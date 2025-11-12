@@ -1,0 +1,6 @@
+The name of this location is "Stop & Shop" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.66732577, -74.1044569), with the corresponding geohash code dr5r3eqb34bp.
+The address is 131-139 Lefante Way, Bayonne, NJ 07002, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Bar, 1(avg: 124).
+The 10 nearest POIs and their distances are: Forum Fitness Club, distance 1.13 km; Adobe Blues Restaurant and Bar, distance 2.78 km.
+The 10 representative nearby POIs and their distances are: Forum Fitness Club, distance 1.13 km; Adobe Blues Restaurant and Bar, distance 2.78 km.

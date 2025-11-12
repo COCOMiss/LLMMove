@@ -1,0 +1,53 @@
+**Location Analysis: 440 West 34th Street, New York, NY 10001, USA**
+
+**Geographic Information**
+
+- The location is situated at the geographic coordinates (40.75265863, -74.00063278) in the geohash code dr5ru4f3kq0v.
+- The address is 440 West 34th Street, with a nearby intersection at 10th Avenue and West 30th Street.
+
+**Points of Interest (POIs)**
+
+- The location falls under the category of Home (private), which is a subcategory of Residence.
+- The top 10 nearby POI categories and their counts are:
+  1. Bar (173), with an average of 124 establishments within a certain radius.
+  2. Office (105), with an average of 72 establishments within a certain radius.
+  3. Coffee Shop (101), with an average of 63 establishments within a certain radius.
+  4. American Restaurant (92), with an average of 51 establishments within a certain radius.
+  5. Café (64), with an average of 42 establishments within a certain radius.
+  6. Lounge (46), with an average of 35 establishments within a certain radius.
+  7. Mexican Restaurant (40), with an average of 28 establishments within a certain radius.
+  8. Hotel (40), with an average of 28 establishments within a certain radius.
+  9. Gym (39), with an average of 25 establishments within a certain radius.
+  10. Italian Restaurant (35), with an average of 28 establishments within a certain radius.
+
+**Nearby POIs**
+
+- The 10 nearest POIs to 440 West 34th Street, along with their distances, are:
+  1. Starbucks (0.11 km)
+  2. The Lot on Tap (0.13 km)
+  3. Associated Press (0.17 km)
+  4. Fashion Institute of Technology (FIT) - Kaufman Hall (0.19 km)
+  5. Quo (0.24 km)
+  6. M-2 Lounge (0.26 km)
+  7. MegaBus NYC Stop (0.29 km)
+  8. Buddy Media HQ (0.31 km)
+  9. The Eagle (0.33 km)
+  10. Corner Apartment Building (0.33 km)
+
+**Representative Nearby POIs**
+
+- The 10 representative nearby POIs, along with their distances from 440 West 34th Street, are:
+  1. New York Penn Station (0.71 km)
+  2. Madison Square Garden (0.76 km)
+  3. NBC Studio 1A - Today Show (1.91 km)
+  4. Times Square (1.26 km)
+  5. Port Authority Bus Terminal (0.92 km)
+  6. Union Square Park (2.11 km)
+  7. MoMA - Museum of Modern Art (2.18 km)
+  8. Bryant Park (1.44 km)
+  9. Lincoln Tunnel (1.41 km)
+  10. Union Square Greenmarket (1.98 km)
+
+**Conclusion**
+
+440 West 34th Street is a location in New York, NY 10001, surrounded by various points of interest, including restaurants, offices, coffee shops, and more. The area is densely populated with establishments, making it a bustling and vibrant neighborhood. The nearby POIs suggest that the location is in a central area with easy access to public transportation and popular attractions.

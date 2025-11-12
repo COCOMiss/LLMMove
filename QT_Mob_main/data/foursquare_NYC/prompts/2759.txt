@@ -1,0 +1,6 @@
+The name of this location is "Seton Hall University" and its POI category is School, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.74303701, -74.24579646), with the corresponding geohash code dr5py3pc7s9d.
+The address is 400 S Orange Ave, South Orange, NJ 07079, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: School, 1(avg: 1); American Restaurant, 1(avg: 51); Train, 1(avg: 4); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Seton Hall University, distance 0.06 km; Starbucks, distance 1.25 km; NJ Transit Rail - South Orange Station, distance 1.26 km; Garden State Parkway - Irvington, distance 2.60 km.
+The 10 representative nearby POIs and their distances are: Seton Hall University, distance 0.06 km; NJ Transit Rail - South Orange Station, distance 1.26 km; Starbucks, distance 1.25 km; Garden State Parkway - Irvington, distance 2.60 km.

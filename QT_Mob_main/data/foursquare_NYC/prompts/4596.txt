@@ -1,0 +1,6 @@
+The name of this location is "Brookdale Dog Park" and its POI category is Dog Run, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.83250291, -74.19236903), with the corresponding geohash code dr70r9qf86pz.
+The address is Brookdale Dog Park, W Circuit Dr, Montclair, NJ 07043, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Baseball Field, 1(avg: 1); Grocery Store, 1(avg: 9); Coffee Shop, 1(avg: 63); Pub, 1(avg: 24); Taco Place, 1(avg: 4).
+The 10 nearest POIs and their distances are: Brookdale Park, distance 0.29 km; ShopRite, distance 0.91 km; Starbucks, distance 1.56 km; Egan & Sons, distance 2.32 km; Chipotle Mexican Grill, distance 2.58 km.
+The 10 representative nearby POIs and their distances are: Egan & Sons, distance 2.32 km; Chipotle Mexican Grill, distance 2.58 km; Brookdale Park, distance 0.29 km; Starbucks, distance 1.56 km; ShopRite, distance 0.91 km.

@@ -1,0 +1,6 @@
+The name of this location is "Paramus Food Center" and its POI category is Deli / Bodega, belonging to the parent category Deli / Bodega.
+The geographic coordinates for this location are (40.96293528, -74.09249425), with the corresponding geohash code dr731cp6rsxf.
+The address is 548 Paramus Rd, Paramus, NJ 07652, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 2(avg: 9); Community College, 1(avg: 1); Shopping Mall, 1(avg: 1); Office, 1(avg: 72); Spiritual Center, 1(avg: 1); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Bergen Community College, distance 1.40 km; Fairway Market, distance 1.53 km; Paramus Park Mall, distance 2.09 km; CUnet Headquarters, distance 2.38 km; The Valley Hospital, distance 2.39 km; Trader Joe's, distance 2.43 km; Starbucks, distance 2.57 km.
+The 10 representative nearby POIs and their distances are: Bergen Community College, distance 1.40 km; Paramus Park Mall, distance 2.09 km; Fairway Market, distance 1.53 km; The Valley Hospital, distance 2.39 km; Starbucks, distance 2.57 km; CUnet Headquarters, distance 2.38 km; Trader Joe's, distance 2.43 km.

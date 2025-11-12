@@ -1,0 +1,23 @@
+**Analysis of LaGuardia Airport (LGA)**
+
+LaGuardia Airport (LGA) is a major airport located in the East Elmhurst neighborhood of Queens, New York City, USA. The airport is situated at the geographic coordinates (40.773839, -73.87122) and has a geohash code of dr5rzn8sgf6p.
+
+**Address and Location**
+
+The airport's address is 100 LaGuardia Rd, East Elmhurst, NY 11371, USA. Its proximity to the Grand Central Parkway (2.11 km) and the MTA Subway - Junction Blvd (7) station (2.75 km) makes it easily accessible by car and public transportation.
+
+**Top 10 Nearby Points-of-Interest (POI) Categories and Counts**
+
+The top 10 nearby POI categories and their counts are dominated by airport-related facilities, with Airport Terminal being the most common category (6 instances on average). Other notable categories include Lounge (1 instance), Airport Gate (1 instance), Home (private) (1 instance), and Latin American Restaurant (1 instance).
+
+**10 Nearest POIs and Distances**
+
+The 10 nearest POIs to LaGuardia Airport (LGA) are primarily airport facilities, with the airport itself being the closest (0.08 km). Other nearby POIs include airport terminals, lounges, and a Latin American restaurant. The distances between these POIs range from 0.08 km to 1.03 km.
+
+**10 Representative Nearby POIs and Distances**
+
+The 10 representative nearby POIs to LaGuardia Airport (LGA) are also primarily airport facilities, with a mix of terminals, lounges, and a highway. These POIs are spread out over a larger area, with the farthest point being the MTA Subway - Junction Blvd (7) station (2.75 km).
+
+**Key Takeaways**
+
+LaGuardia Airport (LGA) is a major transportation hub in New York City, with a range of airport facilities and amenities nearby. Its proximity to public transportation and highways makes it easily accessible. The airport's POIs are dominated by airport-related facilities, with a mix of terminals, lounges, and other amenities.

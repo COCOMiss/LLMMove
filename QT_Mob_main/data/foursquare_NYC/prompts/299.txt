@@ -1,0 +1,6 @@
+The name of this location is "Target" and its POI category is Department Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.78322232, -73.8334465), with the corresponding geohash code dr72pbk5kp8j.
+The address is 135-5 20th Ave, College Point, NY 11356, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Department Store, 1(avg: 4); Spa, 1(avg: 4); Multiplex, 1(avg: 4); Deli / Bodega, 1(avg: 10); Road, 1(avg: 1); Chinese Restaurant, 1(avg: 7); Train Station, 1(avg: 5); Café, 1(avg: 42).
+The 10 nearest POIs and their distances are: Target, distance 0.04 km; Spa Castle, distance 0.60 km; College Point Multiplex Cinemas, distance 1.32 km; Cherry Valley Deli & Grill, distance 1.79 km; Bronx-Whitestone Bridge, distance 1.93 km; Joe's Shanghai, distance 2.38 km; MTA Subway -Main St (7), distance 2.66 km; Starbucks, distance 2.81 km.
+The 10 representative nearby POIs and their distances are: MTA Subway -Main St (7), distance 2.66 km; Bronx-Whitestone Bridge, distance 1.93 km; Target, distance 0.04 km; College Point Multiplex Cinemas, distance 1.32 km; Starbucks, distance 2.81 km; Spa Castle, distance 0.60 km; Cherry Valley Deli & Grill, distance 1.79 km; Joe's Shanghai, distance 2.38 km.

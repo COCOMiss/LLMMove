@@ -1,0 +1,6 @@
+The name of this location is "Breininger Park" and its POI category is Playground, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.72644571, -73.72920513), with the corresponding geohash code dr5xdq009p8p.
+The address is 23819 Braddock Ave, Queens, NY 11426, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Other Great Outdoors, 1(avg: 13); Road, 1(avg: 1); Light Rail Station, 1(avg: 1).
+The 10 nearest POIs and their distances are: Belmont Park Racetrack, distance 1.59 km; Cross Island Parkway, distance 1.89 km; LIRR - Floral Park Station, distance 1.94 km.
+The 10 representative nearby POIs and their distances are: Belmont Park Racetrack, distance 1.59 km; LIRR - Floral Park Station, distance 1.94 km; Cross Island Parkway, distance 1.89 km.

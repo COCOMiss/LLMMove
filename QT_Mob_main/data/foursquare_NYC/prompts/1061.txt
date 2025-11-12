@@ -1,0 +1,6 @@
+The name of this location is "Classic Athletic Club" and its POI category is Gym, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.7991943, -74.09895296), with the corresponding geohash code dr721g6b9301.
+The address is 205A Chubb Ave, Lyndhurst, NJ 07071, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Indie Theater, 1(avg: 2); Train Station, 1(avg: 5); Grocery Store, 1(avg: 9); Music Venue, 1(avg: 10).
+The 10 nearest POIs and their distances are: Medieval Times, distance 1.19 km; NJ Transit Rail - Kingsland Station, distance 1.97 km; ShopRite, distance 2.23 km; The Bamboozle Festival 2011, distance 2.39 km.
+The 10 representative nearby POIs and their distances are: The Bamboozle Festival 2011, distance 2.39 km; Medieval Times, distance 1.19 km; NJ Transit Rail - Kingsland Station, distance 1.97 km; ShopRite, distance 2.23 km.

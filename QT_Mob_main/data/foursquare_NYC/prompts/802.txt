@@ -1,0 +1,6 @@
+The name of this location is "H Mart" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.7632808, -73.8091237), with the corresponding geohash code dr5xbktz6f23.
+The address is 156- 30 Northern Blvd, Flushing, NY 11354, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 2(avg: 5); Hospital, 1(avg: 2); Other Great Outdoors, 1(avg: 13); Chinese Restaurant, 1(avg: 7); Café, 1(avg: 42); Residential Building (Apartment / Condo), 1(avg: 1); General College & University, 1(avg: 2).
+The 10 nearest POIs and their distances are: Flushing Hospital, distance 1.07 km; LIRR - Auburndale Station, distance 1.63 km; Kissena Lake, distance 1.73 km; Joe's Shanghai, distance 1.80 km; Starbucks, distance 1.82 km; MTA Subway -Main St (7), distance 1.83 km; New York Hospital Medical Center of Queens, distance 2.29 km; Queens College, distance 2.94 km.
+The 10 representative nearby POIs and their distances are: Kissena Lake, distance 1.73 km; Queens College, distance 2.94 km; MTA Subway -Main St (7), distance 1.83 km; Flushing Hospital, distance 1.07 km; New York Hospital Medical Center of Queens, distance 2.29 km; Starbucks, distance 1.82 km; LIRR - Auburndale Station, distance 1.63 km; Joe's Shanghai, distance 1.80 km.

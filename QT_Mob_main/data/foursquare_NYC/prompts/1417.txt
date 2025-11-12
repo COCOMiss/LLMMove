@@ -1,0 +1,6 @@
+The name of this location is "Barnes & Noble" and its POI category is Café, belonging to the parent category Food.
+The geographic coordinates for this location are (40.78011898, -73.77649784), with the corresponding geohash code dr5xcpv97j0j.
+The address is 23-88 Bell Blvd, Bayside, NY 11360, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 1(avg: 51); Shopping Mall, 1(avg: 1); Dessert Shop, 1(avg: 12); Light Rail Station, 1(avg: 1); Train Station, 1(avg: 5); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Panera Bread, distance 0.04 km; Bay Terrace Shopping Center, distance 0.06 km; Martha's Country Bakery, distance 1.91 km; LIRR - Bayside Station, distance 1.94 km; LIRR - Auburndale Station, distance 2.37 km; Throgs Neck Bridge, distance 2.61 km.
+The 10 representative nearby POIs and their distances are: Throgs Neck Bridge, distance 2.61 km; LIRR - Bayside Station, distance 1.94 km; Bay Terrace Shopping Center, distance 0.06 km; Martha's Country Bakery, distance 1.91 km; Panera Bread, distance 0.04 km; LIRR - Auburndale Station, distance 2.37 km.

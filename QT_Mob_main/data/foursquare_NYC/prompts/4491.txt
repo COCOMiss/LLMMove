@@ -1,0 +1,6 @@
+The name of this location is "Park West Diner Cafe" and its POI category is Diner, belonging to the parent category Food.
+The geographic coordinates for this location are (40.88424299, -74.2121575), with the corresponding geohash code dr70x68rgrk9.
+The address is 1400 US-46, Little Falls, NJ 07424, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Department Store, 1(avg: 4); Travel & Transport, 1(avg: 1); American Restaurant, 1(avg: 51); Lounge, 1(avg: 35); Diner, 1(avg: 9); Burger Joint, 1(avg: 17); College Communications Building, 1(avg: 1); College Auditorium, 1(avg: 1).
+The 10 nearest POIs and their distances are: Best Buy, distance 0.32 km; U.S. Route 46, distance 0.48 km; Sonic Drive-In, distance 1.83 km; 46 Lounge, distance 1.88 km; Six Brothers Diner, distance 1.91 km; Applebee's Neighborhood Bar & Grill, distance 2.23 km; University Hall, distance 2.65 km; Montclair State University, distance 2.84 km.
+The 10 representative nearby POIs and their distances are: Montclair State University, distance 2.84 km; University Hall, distance 2.65 km; Sonic Drive-In, distance 1.83 km; U.S. Route 46, distance 0.48 km; 46 Lounge, distance 1.88 km; Best Buy, distance 0.32 km; Six Brothers Diner, distance 1.91 km; Applebee's Neighborhood Bar & Grill, distance 2.23 km.

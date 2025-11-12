@@ -1,0 +1,6 @@
+The name of this location is "Retro Fitness" and its POI category is Gym, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.80168342, -74.17055454), with the corresponding geohash code dr7205wxhc44.
+The address is 345 Franklin Ave, Belleville, NJ 07109, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Medical Center, 1(avg: 1); Gym / Fitness Center, 1(avg: 7); Grocery Store, 1(avg: 9); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Retro Fitness, distance 0.11 km; Clara Maass Medical Center, distance 1.85 km; Signature Fitness, distance 2.12 km; ShopRite, distance 2.47 km; Starbucks, distance 2.65 km.
+The 10 representative nearby POIs and their distances are: Signature Fitness, distance 2.12 km; Starbucks, distance 2.65 km; Retro Fitness, distance 0.11 km; Clara Maass Medical Center, distance 1.85 km; ShopRite, distance 2.47 km.

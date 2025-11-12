@@ -1,0 +1,6 @@
+The name of this location is "Cross Island Plaza" and its POI category is Office, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.6741287, -73.73220921), with the corresponding geohash code dr5x6hmzfzpu.
+The address is 133-33 Brookville Blvd Suite #229C, Rosedale, NY 11422, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1).
+The 10 nearest POIs and their distances are: Green Acres Mall, distance 1.67 km.
+The 10 representative nearby POIs and their distances are: Green Acres Mall, distance 1.67 km.

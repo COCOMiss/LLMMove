@@ -1,0 +1,6 @@
+The name of this location is "Maple Gardens" and its POI category is Building, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.72944309, -74.22167264), with the corresponding geohash code dr5pxn96jwmx.
+The address is 18 Marshall St, Irvington, NJ 07111, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 2(avg: 1); Hospital, 1(avg: 2).
+The 10 nearest POIs and their distances are: Garden State Parkway - Irvington, distance 1.11 km; Interstate 78, distance 1.72 km; Newark Beth Israel Medical Center, distance 2.30 km.
+The 10 representative nearby POIs and their distances are: Interstate 78, distance 1.72 km; Garden State Parkway - Irvington, distance 1.11 km; Newark Beth Israel Medical Center, distance 2.30 km.

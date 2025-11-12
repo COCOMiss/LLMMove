@@ -1,0 +1,6 @@
+The name of this location is "Hutchinson River Park Greenway" and its POI category is Other Great Outdoors, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.85626726, -73.83417857), with the corresponding geohash code dr72rvet4bnp.
+The address is 4061 Bronx and Pelham Pkwy, Bronx, NY 10461, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 3(avg: 19); Gym, 1(avg: 25); Emergency Room, 1(avg: 2); Hospital, 1(avg: 2).
+The 10 nearest POIs and their distances are: MTA Subway - Pelham Bay Park (6), distance 0.70 km; Planet Fitness, distance 0.95 km; Jacobi Medical Center, distance 1.02 km; Montefiore Medical Center, distance 1.29 km; MTA Subway - Middletown Road (6), distance 1.44 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 1.95 km.
+The 10 representative nearby POIs and their distances are: MTA Subway - Pelham Bay Park (6), distance 0.70 km; Planet Fitness, distance 0.95 km; MTA Subway - Middletown Road (6), distance 1.44 km; Jacobi Medical Center, distance 1.02 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 1.95 km; Montefiore Medical Center, distance 1.29 km.

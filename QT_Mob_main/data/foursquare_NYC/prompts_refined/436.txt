@@ -1,0 +1,45 @@
+**Bonefish Grill Location Analysis**
+
+Bonefish Grill is a Seafood Restaurant located in Secaucus, New Jersey, USA. The restaurant's address is 115 Lighting Way, Secaucus, NJ 07094. The geographic coordinates are (40.79152859, -74.05036004), with the corresponding geohash code dr724cy5vs1d.
+
+**Neighboring Points of Interest (POIs)**
+
+The top 10 nearby POIs and their counts are categorized as follows:
+
+1.  **Burger Joint (1)**: Cheeseburger in Paradise (0.58 km)
+2.  **College Gym (1)**: LA fitness (0.62 km)
+3.  **Department Store (1)**: Walmart (0.73 km)
+4.  **American Restaurant (1)**: Houlihan's - Secaucus (0.74 km)
+5.  **Movie Theater (1)**: Kerasotes Showplace 14 (0.76 km)
+6.  **Gym / Fitness Center (1)**: Bally Total Fitness (2.18 km)
+7.  **Arcade (1)**: None
+8.  **Basketball Stadium (1)**: None
+9.  **Other (1)**: Union City (2.51 km)
+10. **Sports Arena (1)**: IZOD Center (2.68 km)
+
+**Representative Nearby POIs**
+
+The top 10 representative nearby POIs and their distances are:
+
+1.  Walmart (0.73 km)
+2.  Kerasotes Showplace 14 (0.76 km)
+3.  Cheeseburger in Paradise (0.58 km)
+4.  Houlihan's - Secaucus (0.74 km)
+5.  LA fitness (0.62 km)
+6.  Union City (2.51 km)
+7.  Bally Total Fitness (2.18 km)
+8.  IZOD Center (2.68 km)
+9.  IZOD Center (2.68 km)
+10. Union City (2.51 km)
+
+**Observations**
+
+- The Bonefish Grill is surrounded by various dining and shopping options, including American Restaurants, Burger Joints, and Department Stores.
+- The restaurant is relatively close to several fitness centers, including LA fitness and Bally Total Fitness.
+- The IZOD Center, a sports arena, is the farthest POI from Bonefish Grill, located approximately 2.68 km away.
+- The Union City area is also relatively far from Bonefish Grill, located approximately 2.51 km away.
+- The Bonefish Grill has a mix of nearby POIs that cater to different interests, including entertainment (Kerasotes Showplace 14), fitness (LA fitness, Bally Total Fitness), and shopping (Walmart).
+
+**Conclusion**
+
+Bonefish Grill is a Seafood Restaurant located in Secaucus, New Jersey, surrounded by various dining and shopping options. The restaurant is relatively close to several fitness centers and entertainment venues, making it a convenient location for those looking for a meal after a workout or a night out.

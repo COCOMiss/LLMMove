@@ -1,0 +1,6 @@
+The name of this location is "NJ Transit Rail - Bloomfield Station" and its POI category is Train Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.79263096, -74.20009375), with the corresponding geohash code dr70pd14k3xf.
+The address is 270 Glenwood Ave, Bloomfield, NJ 07003, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 2(avg: 5); Coffee Shop, 1(avg: 63); Medical Center, 1(avg: 1); Music Venue, 1(avg: 10); Spanish Restaurant, 1(avg: 4).
+The 10 nearest POIs and their distances are: NJ Transit Rail - Bloomfield Station, distance 0.00 km; Starbucks, distance 0.53 km; NJ Transit Rail - Bay Street Station, distance 1.87 km; Clara Maass Medical Center, distance 2.18 km; Wellmont Theatre, distance 2.63 km; Cuban Pete's, distance 2.69 km.
+The 10 representative nearby POIs and their distances are: NJ Transit Rail - Bloomfield Station, distance 0.00 km; Cuban Pete's, distance 2.69 km; Wellmont Theatre, distance 2.63 km; NJ Transit Rail - Bay Street Station, distance 1.87 km; Starbucks, distance 0.53 km; Clara Maass Medical Center, distance 2.18 km.

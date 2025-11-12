@@ -1,0 +1,6 @@
+The name of this location is "MTA Subway - Baychester ave (5)" and its POI category is Metro Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.87873731, -73.83842468), with the corresponding geohash code dr72xc8xbhbn.
+The address is 3399 Baychester Ave, Bronx, NY 10469, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); Wine Shop, 1(avg: 1); Emergency Room, 1(avg: 2).
+The 10 nearest POIs and their distances are: Hutchinson River Parkway, distance 1.75 km; Fairway Market, distance 2.16 km; Jacobi Medical Center, distance 2.66 km.
+The 10 representative nearby POIs and their distances are: Hutchinson River Parkway, distance 1.75 km; Fairway Market, distance 2.16 km; Jacobi Medical Center, distance 2.66 km.

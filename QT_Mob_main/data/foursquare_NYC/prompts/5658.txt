@@ -1,0 +1,6 @@
+The name of this location is "Panera Bread" and its POI category is Sandwich Place, belonging to the parent category Food.
+The geographic coordinates for this location are (40.86770403, -73.82829666), with the corresponding geohash code dr72rzxzsh0n.
+The address is 340 Baychester Ave, Bronx, NY 10475, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Road, 1(avg: 1); Emergency Room, 1(avg: 2); Gym, 1(avg: 25); Hospital, 1(avg: 2); Wine Shop, 1(avg: 1).
+The 10 nearest POIs and their distances are: Hutchinson River Parkway, distance 1.57 km; MTA Subway - Pelham Bay Park (6), distance 1.64 km; Jacobi Medical Center, distance 2.03 km; Planet Fitness, distance 2.18 km; Montefiore Medical Center, distance 2.57 km; MTA Subway - Middletown Road (6), distance 2.79 km; Fairway Market, distance 2.96 km.
+The 10 representative nearby POIs and their distances are: MTA Subway - Pelham Bay Park (6), distance 1.64 km; Hutchinson River Parkway, distance 1.57 km; Planet Fitness, distance 2.18 km; Fairway Market, distance 2.96 km; MTA Subway - Middletown Road (6), distance 2.79 km; Jacobi Medical Center, distance 2.03 km; Montefiore Medical Center, distance 2.57 km.

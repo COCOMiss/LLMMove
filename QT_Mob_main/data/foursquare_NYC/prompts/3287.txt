@@ -1,0 +1,6 @@
+The name of this location is "Walmart" and its POI category is Department Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.86679532, -74.10016537), with the corresponding geohash code dr723z9fkfzc.
+The address is 174 Passaic St, Garfield, NJ 07026, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Department Store, 1(avg: 4); Grocery Store, 1(avg: 9); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Walmart, distance 0.00 km; ShopRite, distance 1.06 km; Bally Total Fitness, distance 2.56 km.
+The 10 representative nearby POIs and their distances are: Bally Total Fitness, distance 2.56 km; Walmart, distance 0.00 km; ShopRite, distance 1.06 km.

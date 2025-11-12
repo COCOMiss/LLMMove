@@ -1,0 +1,6 @@
+The name of this location is "Teaneck, NJ" and its POI category is City, belonging to the parent category City.
+The geographic coordinates for this location are (40.8963349, -74.00847444), with the corresponding geohash code dr72euuwmt3s.
+The address is Queen Anne Rd at Forest Ave, Teaneck, NJ 07666, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Medical Center, 1(avg: 1); Wings Joint, 1(avg: 1); Shopping Mall, 1(avg: 1); American Restaurant, 1(avg: 51); Bookstore, 1(avg: 7); Asian Restaurant, 1(avg: 18); Gym, 1(avg: 25); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Holy Name Medical Center, distance 1.52 km; Hooters of Hackensack, distance 2.10 km; The Shops at Riverside, distance 2.17 km; The Cheesecake Factory, distance 2.19 km; Barnes & Noble, distance 2.21 km; P.F. Chang's, distance 2.32 km; Retro Fitness, distance 2.50 km; Dunkin Donuts/Baskin Robbins, distance 2.65 km.
+The 10 representative nearby POIs and their distances are: The Shops at Riverside, distance 2.17 km; The Cheesecake Factory, distance 2.19 km; Retro Fitness, distance 2.50 km; Barnes & Noble, distance 2.21 km; Dunkin Donuts/Baskin Robbins, distance 2.65 km; Holy Name Medical Center, distance 1.52 km; P.F. Chang's, distance 2.32 km; Hooters of Hackensack, distance 2.10 km.

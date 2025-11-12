@@ -1,0 +1,6 @@
+The name of this location is "BJ's Wholesale Club" and its POI category is Department Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.8939213, -73.81838322), with the corresponding geohash code dr788hx06gry.
+The address is 1-25,2-24 Rusciano Blvd, Pelham, NY 10803, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Wine Shop, 1(avg: 1); Video Game Store, 1(avg: 1); Road, 1(avg: 1); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Fairway Market, distance 0.33 km; Target, distance 0.82 km; Hutchinson River Parkway, distance 1.63 km; Metro North - Pelham Train Station, distance 1.94 km.
+The 10 representative nearby POIs and their distances are: Metro North - Pelham Train Station, distance 1.94 km; Hutchinson River Parkway, distance 1.63 km; Fairway Market, distance 0.33 km; Target, distance 0.82 km.

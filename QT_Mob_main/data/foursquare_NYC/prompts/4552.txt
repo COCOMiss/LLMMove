@@ -1,0 +1,6 @@
+The name of this location is "South Beach Boardwalk" and its POI category is Beach, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.59029693, -74.06643391), with the corresponding geohash code dr5qft4rwgzb.
+The address is 280 Father Capodanno Blvd, Staten Island, NY 10305, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Beach, 1(avg: 1); Bridge, 1(avg: 1); Racetrack, 1(avg: 1); Bar, 1(avg: 124).
+The 10 nearest POIs and their distances are: South Beach Boardwalk, distance 0.00 km; Verrazanno-Narrows Bridge Toll Plaza, distance 1.37 km; 2010 ING NYC Marathon STARTING Line - New York Road Runners, distance 1.45 km; Rab's Country Lanes, distance 1.94 km.
+The 10 representative nearby POIs and their distances are: Verrazanno-Narrows Bridge Toll Plaza, distance 1.37 km; 2010 ING NYC Marathon STARTING Line - New York Road Runners, distance 1.45 km; Rab's Country Lanes, distance 1.94 km; South Beach Boardwalk, distance 0.00 km.

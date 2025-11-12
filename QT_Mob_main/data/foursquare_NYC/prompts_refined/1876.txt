@@ -1,0 +1,43 @@
+**Location Analysis: Raymond's**
+
+**Overview**
+
+Raymond's is a breakfast spot located in the heart of Montclair, New Jersey, USA. With its address at 24 Church St, Montclair, NJ 07042, this eatery caters to the local community's morning cravings. As per the provided data, Raymond's has a geohash code of dr70pjgw2y5z and geographic coordinates of (40.813942, -74.218789).
+
+**Surrounding Environment**
+
+Raymond's is situated in a densely populated area, with various points of interest nearby. The top 10 nearby POI categories and their counts reveal a mix of food establishments, entertainment venues, and services. Notably, the area is dominated by coffee shops (2), indicating a strong demand for morning coffee and breakfast options.
+
+**Nearby Points of Interest**
+
+The 10 nearest POIs to Raymond's are:
+
+1. **Raymond's** (distance: 0.01 km) - the subject location itself
+2. **Starbucks** (distance: 0.11 km) - a popular coffee shop
+3. **New York Sports Club** (distance: 0.12 km) - a gym and fitness center
+4. **Cuban Pete's** (distance: 0.18 km) - a Spanish restaurant
+5. **Wellmont Theatre** (distance: 0.23 km) - a music venue
+6. **Just Jake's** (distance: 0.25 km) - a breakfast spot
+7. **Whole Foods** (distance: 0.63 km) - a grocery store
+8. **Egan & Sons** (distance: 0.73 km) - a pub
+9. **NJ Transit Rail - Bay Street Station** (distance: 1.07 km) - a train station
+10. **Platinum Fitness** (distance: 2.32 km) - a gym and fitness center
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs, which provide a more balanced view of the area, are:
+
+1. **Just Jake's** (distance: 0.25 km) - a breakfast spot
+2. **Cuban Pete's** (distance: 0.18 km) - a Spanish restaurant
+3. **Wellmont Theatre** (distance: 0.23 km) - a music venue
+4. **Platinum Fitness** (distance: 2.32 km) - a gym and fitness center
+5. **Starbucks** (distance: 0.11 km) - a coffee shop
+6. **New York Sports Club** (distance: 0.12 km) - a gym and fitness center
+7. **Raymond's** (distance: 0.01 km) - the subject location itself
+8. **Egan & Sons** (distance: 0.73 km) - a pub
+9. **NJ Transit Rail - Bay Street Station** (distance: 1.07 km) - a train station
+10. **Whole Foods** (distance: 0.63 km) - a grocery store
+
+**Conclusion**
+
+Raymond's is situated in a bustling area of Montclair, surrounded by various points of interest, including coffee shops, restaurants, entertainment venues, and services. The nearby points of interest and representative POIs provide a comprehensive view of the area, highlighting the diversity of options available to locals and visitors alike.

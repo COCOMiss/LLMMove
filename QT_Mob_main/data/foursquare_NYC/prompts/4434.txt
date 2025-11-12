@@ -1,0 +1,6 @@
+The name of this location is "Starrett City | Spring Creek Towers" and its POI category is Home (private), belonging to the parent category Residence.
+The geographic coordinates for this location are (40.64256911, -73.88731056), with the corresponding geohash code dr5rnwubhuh0.
+The address is 10542 Flatlands 5th St, Brooklyn, NY 11236, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 1(avg: 19); Electronics Store, 1(avg: 5); Department Store, 1(avg: 4); Other Nightlife, 1(avg: 7).
+The 10 nearest POIs and their distances are: MTA - Canarsie/Rockaway Pkwy (L), distance 1.36 km; Best Buy, distance 1.59 km; Target, distance 1.85 km; Stella Artois Socialite Event, distance 2.16 km.
+The 10 representative nearby POIs and their distances are: Target, distance 1.85 km; MTA - Canarsie/Rockaway Pkwy (L), distance 1.36 km; Stella Artois Socialite Event, distance 2.16 km; Best Buy, distance 1.59 km.

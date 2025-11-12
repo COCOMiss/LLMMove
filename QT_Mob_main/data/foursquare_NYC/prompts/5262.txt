@@ -1,0 +1,6 @@
+The name of this location is "Mignosi's Supermarket" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.61210484, -74.09979036), with the corresponding geohash code dr5r1c4nttp9.
+The address is 1490 Clove Rd, Staten Island, NY 10301, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: General College & University, 1(avg: 2); University, 1(avg: 5); Lake, 1(avg: 2); Home (private), 1(avg: 14); Pizza Place, 1(avg: 20); Gym, 1(avg: 25); Bar, 1(avg: 124); Hospital, 1(avg: 2).
+The 10 nearest POIs and their distances are: Wagner College, distance 0.56 km; St John's University, distance 1.24 km; Silver Lake Park, distance 1.82 km; 108 Targee, distance 1.90 km; Joe and Pat's Pizzeria, distance 1.91 km; Planet Fitness, distance 2.15 km; Rab's Country Lanes, distance 2.66 km; Richmond University Medical Center, distance 2.73 km.
+The 10 representative nearby POIs and their distances are: Silver Lake Park, distance 1.82 km; 108 Targee, distance 1.90 km; Richmond University Medical Center, distance 2.73 km; Planet Fitness, distance 2.15 km; St John's University, distance 1.24 km; Joe and Pat's Pizzeria, distance 1.91 km; Rab's Country Lanes, distance 2.66 km; Wagner College, distance 0.56 km.

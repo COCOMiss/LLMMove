@@ -1,0 +1,6 @@
+The name of this location is "Secaucus Junction Station" and its POI category is Train Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.76147966, -74.0755105), with the corresponding geohash code dr5rfk7ugd81.
+The address is 203 Front St, Jersey City, NJ 07097, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 1(avg: 5); Bridge, 1(avg: 1).
+The 10 nearest POIs and their distances are: Secaucus Junction Station, distance 0.02 km; Pulaski Skyway, distance 2.61 km.
+The 10 representative nearby POIs and their distances are: Secaucus Junction Station, distance 0.02 km; Pulaski Skyway, distance 2.61 km.

@@ -14,12 +14,21 @@ logger = get_logger(__name__)
 logger.info("==== QT_Mob runner started ====")
 
 # 开关
+<<<<<<< HEAD
 TRAIN = False
 TEST = True
 CUDA_VISIBLE_DEVICES = "0,1,2,3"  # ✅ 单进程只使用一个GPU
 PATH_TO_SFT_SAVE_DIR = "checkpoints"
 # 你的 train.py 路径（优先用项目内的，若不存在则用上传的）
 TRAIN_SCRIPT_PATH = "QT_Mob_main/train.py"
+=======
+TRAIN = True
+TEST = True
+CUDA_VISIBLE_DEVICES = "0,1"  # ✅ 单进程只使用一个GPU
+PATH_TO_SFT_SAVE_DIR = "autodl-tmp/checkpoint"
+# 你的 train.py 路径（优先用项目内的，若不存在则用上传的）
+TRAIN_SCRIPT_PATH = "LLMMove/QT_Mob_main/train.py"
+>>>>>>> 754e9ca864e4e90e70c8c16b2d0529fbfb0aea97
 # if not Path(TRAIN_SCRIPT_PATH).exists() and Path("/mnt/data/train.py").exists():
 #     TRAIN_SCRIPT_PATH = "/mnt/data/train.py"
 
@@ -106,16 +115,28 @@ if __name__ == "__main__":
     logger.info(f"CUDA_VISIBLE_DEVICES = {CUDA_VISIBLE_DEVICES}")
 
     BASE_MODEL = "qwen"
+<<<<<<< HEAD
     args.base_model = "./Qwen3-8B"  # 本地模型路径
     args.index_file = "data/h3_emb/location.index.json"
     DATASET_PATH = "./zdc_h3_index"
 
     TRAIN_TASKS = ["recovery","index","location",]
+=======
+    args.base_model = "autodl-tmp/Qwen/Qwen3-8B"  # 本地模型路径
+    args.index_file = "LLMMove/QT_Mob_main/dataset/location.index.json"
+    # DATASET_PATH = "./zdc_h3_index"
+
+    TRAIN_TASKS = ["seq"]
+>>>>>>> 754e9ca864e4e90e70c8c16b2d0529fbfb0aea97
     TEST_TASK = "seq"
     CUSTOM_NAME = "tokyo_latest"
 
     args.tasks = ",".join(TRAIN_TASKS)
+<<<<<<< HEAD
     args.data_path = DATASET_PATH
+=======
+    # args.data_path = DATASET_PATH
+>>>>>>> 754e9ca864e4e90e70c8c16b2d0529fbfb0aea97
     args.experiment_name = BASE_MODEL + "_" + CUSTOM_NAME
     # args.num_workers=8
     # args.parallel_backend="process"

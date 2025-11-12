@@ -1,0 +1,30 @@
+**Location Analysis: Cross County Mall**
+
+**Overview**
+
+The Cross County Mall is a shopping mall located in Yonkers, New York, USA. The mall's geographic coordinates are (40.92664586, -73.85567665), and its geohash code is dr72z67yypb0. The mall's address is 808 Central Park Ave, Yonkers, NY 10704.
+
+**Category and Parent Category**
+
+The Cross County Mall falls under the category of Shopping Mall and belongs to the parent category of Shop & Service. This indicates that the mall is a primary destination for shopping and related services.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs and their counts are:
+
+1.  Shopping Mall (1) - This is the primary category of the mall itself, indicating that it is a prominent shopping destination in the area.
+2.  Train Station (1) - The presence of a train station nearby suggests that public transportation is easily accessible, making it convenient for visitors to reach the mall.
+
+The 10 nearest POIs and their distances are:
+
+1.  Cross County Mall (0.22 km) - This is the mall itself, indicating that it is the closest POI to the mall.
+2.  Metro North - Bronxville Train Station (2.34 km) - This train station is the second closest POI, suggesting that public transportation is readily available in the area.
+
+The 10 representative nearby POIs and their distances are:
+
+1.  Cross County Mall (0.22 km) - This is the mall itself, indicating that it is a prominent feature in the area.
+2.  Metro North - Bronxville Train Station (2.34 km) - This train station is a representative POI, suggesting that public transportation is easily accessible in the area.
+
+**Conclusion**
+
+The Cross County Mall is a shopping destination in Yonkers, New York, with easy access to public transportation. The mall's proximity to the Metro North - Bronxville Train Station makes it convenient for visitors to reach the area. The mall's primary category is Shopping Mall, indicating that it is a primary destination for shopping and related services. Overall, the Cross County Mall is a convenient and accessible shopping destination in the Yonkers area.

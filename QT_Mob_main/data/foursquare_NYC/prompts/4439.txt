@@ -1,0 +1,6 @@
+The name of this location is "UPS Brooklyn" and its POI category is Building, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.6529928, -73.90020088), with the corresponding geohash code dr5rq2esbe0k.
+The address is 10502 Avenue D, Brooklyn, NY 11236, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 1(avg: 19); Other Nightlife, 1(avg: 7); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: MTA - Canarsie/Rockaway Pkwy (L), distance 0.79 km; Stella Artois Socialite Event, distance 1.33 km; MTA - Broadway Junction (A/C/L/J/Z), distance 2.89 km.
+The 10 representative nearby POIs and their distances are: MTA - Broadway Junction (A/C/L/J/Z), distance 2.89 km; MTA - Canarsie/Rockaway Pkwy (L), distance 0.79 km; Stella Artois Socialite Event, distance 1.33 km.

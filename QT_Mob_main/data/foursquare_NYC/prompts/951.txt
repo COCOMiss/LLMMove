@@ -1,0 +1,6 @@
+The name of this location is "Staten Island Ferry - St George Terminal" and its POI category is Boat or Ferry, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.64440554, -74.07295704), with the corresponding geohash code dr5r4rjdyfrf.
+The address is 1 Richmond Ter, Staten Island, NY 10301, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Boat or Ferry, 2(avg: 2); Baseball Field, 1(avg: 1); Bar, 1(avg: 124); Home (private), 1(avg: 14).
+The 10 nearest POIs and their distances are: Staten Island Ferry - St George Terminal, distance 0.00 km; Staten Island Ferry Boat - Samuel I. Newhouse, distance 0.20 km; Richmond County Bank Ballpark at St George, distance 0.40 km; Adobe Blues Restaurant and Bar, distance 1.90 km; 108 Targee, distance 2.41 km.
+The 10 representative nearby POIs and their distances are: Staten Island Ferry - St George Terminal, distance 0.00 km; 108 Targee, distance 2.41 km; Staten Island Ferry Boat - Samuel I. Newhouse, distance 0.20 km; Richmond County Bank Ballpark at St George, distance 0.40 km; Adobe Blues Restaurant and Bar, distance 1.90 km.

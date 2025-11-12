@@ -1,0 +1,6 @@
+The name of this location is "Whitestone Bridge Toll Plaza" and its POI category is General Travel, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.81510842, -73.83662224), with the corresponding geohash code dr72py1v1zxv.
+The address is 12 Hutchinson Riv Pkwy, Bronx, NY 10465, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 2(avg: 1); General Travel, 1(avg: 1); Indie Theater, 1(avg: 2); Metro Station, 1(avg: 19).
+The 10 nearest POIs and their distances are: Whitestone Bridge Toll Plaza, distance 0.00 km; Socialite, distance 1.60 km; Bronx-Whitestone Bridge, distance 1.78 km; Bruckner Expressway, distance 2.32 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 2.82 km.
+The 10 representative nearby POIs and their distances are: Bronx-Whitestone Bridge, distance 1.78 km; Socialite, distance 1.60 km; Whitestone Bridge Toll Plaza, distance 0.00 km; Bruckner Expressway, distance 2.32 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 2.82 km.

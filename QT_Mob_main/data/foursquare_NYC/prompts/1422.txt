@@ -1,0 +1,6 @@
+The name of this location is "QuickChek" and its POI category is Deli / Bodega, belonging to the parent category Food.
+The geographic coordinates for this location are (40.68378079, -74.09997964), with the corresponding geohash code dr5r3y601q6m.
+The address is 20/38 E 53rd St, Bayonne, NJ 07002, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Casciano Memorial Bridge, distance 2.02 km; Forum Fitness Club, distance 2.48 km.
+The 10 representative nearby POIs and their distances are: Casciano Memorial Bridge, distance 2.02 km; Forum Fitness Club, distance 2.48 km.

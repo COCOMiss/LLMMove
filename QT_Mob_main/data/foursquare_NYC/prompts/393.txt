@@ -1,0 +1,6 @@
+The name of this location is "Dusty Old Clap Trap" and its POI category is Home (private), belonging to the parent category Residence.
+The geographic coordinates for this location are (40.82998414, -73.98887973), with the corresponding geohash code dr72k2fgyhsw.
+The address is 704 Grove Ave, Cliffside Park, NJ 07010, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bakery, 1(avg: 16); Grocery Store, 1(avg: 9); Food Court, 1(avg: 2); Coffee Shop, 1(avg: 63); Department Store, 1(avg: 4); Movie Theater, 1(avg: 5); Sandwich Place, 1(avg: 18).
+The 10 nearest POIs and their distances are: Whole Foods, distance 1.38 km; Trader Joe's, distance 1.51 km; Mitsuwa Marketplace, distance 1.69 km; Starbucks, distance 1.91 km; Target, distance 1.92 km; Edgewater Multiplex Cinemas, distance 2.47 km; Panera Bread, distance 2.57 km.
+The 10 representative nearby POIs and their distances are: Mitsuwa Marketplace, distance 1.69 km; Starbucks, distance 1.91 km; Whole Foods, distance 1.38 km; Edgewater Multiplex Cinemas, distance 2.47 km; Trader Joe's, distance 1.51 km; Target, distance 1.92 km; Panera Bread, distance 2.57 km.

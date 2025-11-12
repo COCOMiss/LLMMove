@@ -1,0 +1,64 @@
+**Location Analysis: Top Line Supermarket**
+
+**Overview**
+
+Top Line Supermarket is a grocery store located in the Elmhurst neighborhood of Queens, New York, USA. The store's address is Elmhurst Av, Elmhurst Ave, Queens, NY 11373. This analysis aims to provide an overview of the surrounding area, including nearby points of interest, distances, and categorization.
+
+**Geographic Location**
+
+Top Line Supermarket is situated at the geographic coordinates (40.74296924, -73.88276696), with a geohash code of dr5ryc00yzbn. This location is in the heart of the Elmhurst neighborhood, which is a diverse and densely populated area in Queens.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs to Top Line Supermarket are:
+
+1. **Metro Station** (3 occurrences, avg: 19)
+2. **Department Store** (2 occurrences, avg: 4)
+3. **Grocery Store** (2 occurrences, avg: 9)
+4. **Train Station** (2 occurrences, avg: 5)
+5. **Doctor's Office** (1 occurrence, avg: 1)
+6. **Light Rail Station** (1 occurrence, avg: 1)
+7. **Bowling Alley** (1 occurrence, avg: 1)
+8. **Bus Station** (1 occurrence, avg: 1)
+9. **Diner** (1 occurrence, avg: 9)
+10. **Plaza** (1 occurrence, avg: 9)
+
+These POIs indicate that Top Line Supermarket is surrounded by a mix of transportation hubs, shopping centers, and local businesses.
+
+**Nearest POIs**
+
+The 10 nearest POIs to Top Line Supermarket are:
+
+1. **Elmhurst Hospital Center** (0.34 km)
+2. **MTA - 7 Train** (0.53 km)
+3. **Play Bowling & Lounge** (0.55 km)
+4. **MTA Subway - 74th St-Broadway/Roosevelt Av (7/E/F/M/G/R)** (0.86 km)
+5. **Georgia Diner** (0.96 km)
+6. **Jackson Heights, NY** (1.06 km)
+7. **Best Buy** (1.07 km)
+8. **Target** (1.13 km)
+9. **MTA Subway - Junction Blvd (7)** (1.31 km)
+10. **Queens Center Mall** (1.37 km)
+
+These POIs are all within a 1.37 km radius, indicating that Top Line Supermarket is surrounded by a dense network of shopping centers, transportation hubs, and local businesses.
+
+**Representative POIs**
+
+The 10 representative nearby POIs to Top Line Supermarket are:
+
+1. **Queens Center Mall** (1.37 km)
+2. **MTA - 7 Train** (0.53 km)
+3. **MTA Subway - 74th St-Broadway/Roosevelt Av (7/E/F/M/G/R)** (0.86 km)
+4. **LIRR - Woodside Station** (1.73 km)
+5. **Target** (1.13 km)
+6. **MTA Subway - 61st St-Woodside (7)** (1.77 km)
+7. **Sripraphai Thai Restaurant** (1.46 km)
+8. **MTA Subway - Junction Blvd (7)** (1.31 km)
+9. **Play Bowling & Lounge** (0.55 km)
+10. **Georgia Diner** (0.96 km)
+
+These representative POIs are a mix of transportation hubs, shopping centers, and local businesses that are easily accessible from Top Line Supermarket.
+
+**Conclusion**
+
+Top Line Supermarket is a grocery store located in the heart of the Elmhurst neighborhood in Queens, New York. The surrounding area is densely populated with transportation hubs, shopping centers, and local businesses, making it an ideal location for a grocery store. The nearest POIs include Elmhurst Hospital Center and MTA - 7 Train, while the representative POIs include Queens Center Mall and Target. Overall, Top Line Supermarket is well-positioned to serve the needs of the local community.

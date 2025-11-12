@@ -1,0 +1,6 @@
+The name of this location is "Meadowlands Racetrack" and its POI category is Racetrack, belonging to the parent category Arts & Entertainment.
+The geographic coordinates for this location are (40.81721954, -74.07673359), with the corresponding geohash code dr724qdcwcpy.
+The address is RW8F+V8 East Rutherford, NJ, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Beer Garden, 1(avg: 4); Music Venue, 1(avg: 10); Basketball Stadium, 1(avg: 1); Bakery, 1(avg: 16); Café, 1(avg: 42).
+The 10 nearest POIs and their distances are: New Meadowlands Stadium, distance 0.45 km; The Bamboozle Festival 2011, distance 0.48 km; IZOD Center, distance 0.98 km; Panera Bread, distance 1.89 km; Starbucks, distance 1.89 km.
+The 10 representative nearby POIs and their distances are: New Meadowlands Stadium, distance 0.45 km; IZOD Center, distance 0.98 km; The Bamboozle Festival 2011, distance 0.48 km; Starbucks, distance 1.89 km; Panera Bread, distance 1.89 km.

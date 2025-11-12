@@ -1,0 +1,47 @@
+**Location Analysis: Queens College - I Building**
+
+**Introduction**
+
+Queens College - I Building is a college academic building located in Kew Gardens Hills, Queens, New York, USA. This analysis will provide an overview of the location, its surroundings, and nearby points of interest.
+
+**Geographic Location**
+
+The geographic coordinates of Queens College - I Building are (40.73707977, -73.81808281), which corresponds to the geohash code dr5x8pzq9ypf. The address is 64-50 Kissena Blvd, Kew Gardens Hills, NY 11367, USA.
+
+**Surroundings**
+
+The location is situated in a densely populated area with a mix of college buildings, residential apartments, and commercial establishments. The nearby points of interest (POIs) are primarily categorized under College Academic Building, with two instances, followed by General College & University, Residential Building (Apartment / Condo), Other Great Outdoors, Bus Line, Hospital, Lake, Café, Train Station, and Coffee Shop.
+
+**Nearby Points of Interest**
+
+The top 10 nearest POIs to Queens College - I Building are:
+
+1. Queens College (distance: 0.28 km)
+2. Queens College - Powdermaker (distance: 0.33 km)
+3. New York Hospital Medical Center of Queens (distance: 1.24 km)
+4. Kissena Lake (distance: 1.60 km)
+5. MTA - Q46 Bus (distance: 2.07 km)
+6. Flushing Hospital (distance: 2.07 km)
+7. Flushing Meadows Corona Park (distance: 2.33 km)
+8. D'Angelo Center (distance: 2.48 km)
+9. Starbucks (distance: 2.53 km)
+10. MTA Subway -Main St (7) (distance: 2.68 km)
+
+**Representative Nearby POIs**
+
+The top 10 representative nearby POIs to Queens College - I Building are:
+
+1. Kissena Lake (distance: 1.60 km)
+2. Queens College (distance: 0.28 km)
+3. MTA Subway - Union Turnpike-Kew Gardens (E,F) (distance: 2.76 km)
+4. MTA Subway -Main St (7) (distance: 2.68 km)
+5. Starbucks (distance: 2.75 km)
+6. Flushing Hospital (distance: 2.07 km)
+7. D'Angelo Center (distance: 2.48 km)
+8. New York Hospital Medical Center of Queens (distance: 1.24 km)
+9. MTA - Q46 Bus (distance: 2.07 km)
+10. Starbucks (distance: 2.53 km)
+
+**Conclusion**
+
+Queens College - I Building is a college academic building located in a densely populated area with a mix of college buildings, residential apartments, and commercial establishments. The nearby points of interest are primarily categorized under College Academic Building, with a range of other categories including General College & University, Residential Building (Apartment / Condo), Other Great Outdoors, Bus Line, Hospital, Lake, Café, Train Station, and Coffee Shop. The location is well-connected to public transportation, with nearby bus and subway lines.

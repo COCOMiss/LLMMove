@@ -1,0 +1,6 @@
+The name of this location is "New Park Pizzeria" and its POI category is Pizza Place, belonging to the parent category Food.
+The geographic coordinates for this location are (40.66273436, -73.84045041), with the corresponding geohash code dr5rrdrj8g1d.
+The address is Parking lot, 156-71 Cross Bay Blvd, Howard Beach, NY 11414, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Coffee Shop, 1(avg: 63); Beach, 1(avg: 1); Train, 1(avg: 4); Light Rail Station, 1(avg: 1).
+The 10 nearest POIs and their distances are: Starbucks, distance 0.15 km; Howard Beach, distance 0.87 km; MTA - Howard Beach - JFK Station, distance 0.91 km; JFK AirTrain - Howard Beach, distance 0.94 km; MTA - Rockaway Boulevard Subway Station (A), distance 1.99 km; MTA - 80-Hudson Street Subway - A, distance 2.39 km.
+The 10 representative nearby POIs and their distances are: JFK AirTrain - Howard Beach, distance 0.94 km; MTA - Rockaway Boulevard Subway Station (A), distance 1.99 km; Starbucks, distance 0.15 km; MTA - Howard Beach - JFK Station, distance 0.91 km; Howard Beach, distance 0.87 km; MTA - 80-Hudson Street Subway - A, distance 2.39 km.

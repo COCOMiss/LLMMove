@@ -1,0 +1,6 @@
+The name of this location is "Target" and its POI category is Pharmacy, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.66426585, -73.72010708), with the corresponding geohash code dr5x66wwsbxf.
+The address is 520 Sunrise Hwy, Valley Stream, NY 11581, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Green Acres Mall, distance 0.22 km; LIRR - Valley Stream Station, distance 1.33 km.
+The 10 representative nearby POIs and their distances are: LIRR - Valley Stream Station, distance 1.33 km; Green Acres Mall, distance 0.22 km.

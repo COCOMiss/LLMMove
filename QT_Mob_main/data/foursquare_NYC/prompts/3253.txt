@@ -1,0 +1,6 @@
+The name of this location is "Sam's Club #4774" and its POI category is Department Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.7917339, -74.04303933), with the corresponding geohash code dr7251gt04k6.
+The address is 300 Park Plaza Dr, Secaucus, NJ 07094, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Department Store, 1(avg: 4); College Gym, 1(avg: 2); Burger Joint, 1(avg: 17); American Restaurant, 1(avg: 51); Movie Theater, 1(avg: 5); Gym / Fitness Center, 1(avg: 7); Arcade, 1(avg: 3).
+The 10 nearest POIs and their distances are: Walmart, distance 0.14 km; LA fitness, distance 0.27 km; Cheeseburger in Paradise, distance 0.57 km; Houlihan's - Secaucus, distance 0.71 km; Kerasotes Showplace 14, distance 0.77 km; Bally Total Fitness, distance 1.91 km; Union City, distance 2.25 km.
+The 10 representative nearby POIs and their distances are: Walmart, distance 0.14 km; Kerasotes Showplace 14, distance 0.77 km; Cheeseburger in Paradise, distance 0.57 km; Houlihan's - Secaucus, distance 0.71 km; LA fitness, distance 0.27 km; Union City, distance 2.25 km; Bally Total Fitness, distance 1.91 km.

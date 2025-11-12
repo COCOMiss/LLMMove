@@ -1,0 +1,6 @@
+The name of this location is "Panera Bread" and its POI category is American Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.93899093, -74.11943383), with the corresponding geohash code dr72ckeyuj03.
+The address is 23-02 Fair Lawn Ave, Fair Lawn, NJ 07410, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bakery, 1(avg: 16); Café, 1(avg: 42).
+The 10 nearest POIs and their distances are: Nabisco Factory Scent Cloud, distance 1.10 km; Starbucks, distance 2.75 km.
+The 10 representative nearby POIs and their distances are: Starbucks, distance 2.75 km; Nabisco Factory Scent Cloud, distance 1.10 km.

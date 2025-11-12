@@ -1,0 +1,6 @@
+The name of this location is "Starbucks" and its POI category is Coffee Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.787226, -74.046446), with the corresponding geohash code dr725114bf00.
+The address is 700 Plaza Dr Suite 208, Secaucus, NJ 07094, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Burger Joint, 1(avg: 17); American Restaurant, 1(avg: 51); Movie Theater, 1(avg: 5); College Gym, 1(avg: 2); Department Store, 1(avg: 4); Gym / Fitness Center, 1(avg: 7); Arcade, 1(avg: 3); Diner, 1(avg: 9).
+The 10 nearest POIs and their distances are: Cheeseburger in Paradise, distance 0.01 km; Houlihan's - Secaucus, distance 0.17 km; Kerasotes Showplace 14, distance 0.21 km; LA fitness, distance 0.33 km; Walmart, distance 0.71 km; Bally Total Fitness, distance 1.60 km; Union City, distance 1.93 km; Coach House, distance 2.99 km.
+The 10 representative nearby POIs and their distances are: Walmart, distance 0.71 km; Kerasotes Showplace 14, distance 0.21 km; Cheeseburger in Paradise, distance 0.01 km; Houlihan's - Secaucus, distance 0.17 km; Coach House, distance 2.99 km; LA fitness, distance 0.33 km; Union City, distance 1.93 km; Bally Total Fitness, distance 1.60 km.

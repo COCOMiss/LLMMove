@@ -1,0 +1,6 @@
+The name of this location is "Kohl's" and its POI category is Department Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.62776391, -74.16406631), with the corresponding geohash code dr5r0k53uh05.
+The address is 2161 Forest Ave, Staten Island, NY 10303, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Multiplex, 1(avg: 4).
+The 10 nearest POIs and their distances are: Regal/UA Staten Island Stadium 16, distance 0.74 km.
+The 10 representative nearby POIs and their distances are: Regal/UA Staten Island Stadium 16, distance 0.74 km.

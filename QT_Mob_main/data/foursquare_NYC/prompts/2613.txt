@@ -1,0 +1,6 @@
+The name of this location is "Mourad's Deli & Grocery Inc." and its POI category is Deli / Bodega, belonging to the parent category Deli / Bodega.
+The geographic coordinates for this location are (40.89642621, -73.87242678), with the corresponding geohash code dr72wuzwzwqh.
+The address is 4207 Oneida Ave, Bronx, NY 10470, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train, 1(avg: 4); Emergency Room, 1(avg: 2); Baseball Field, 1(avg: 1); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: MTA Subway - Woodlawn (4), distance 1.22 km; Montefiore Medical Center, distance 1.80 km; Van Cortlandt Park, distance 1.83 km; MTA Subway - Gun Hill Road (2/5), distance 2.13 km.
+The 10 representative nearby POIs and their distances are: Montefiore Medical Center, distance 1.80 km; MTA Subway - Woodlawn (4), distance 1.22 km; MTA Subway - Gun Hill Road (2/5), distance 2.13 km; Van Cortlandt Park, distance 1.83 km.

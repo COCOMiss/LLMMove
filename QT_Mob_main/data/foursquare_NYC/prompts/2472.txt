@@ -1,0 +1,6 @@
+The name of this location is "NJT West Side Ave Light Rail" and its POI category is Light Rail Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.71442794, -74.08736086), with the corresponding geohash code dr5rd5g4xr7w.
+The address is 346 Claremont Ave, Jersey City, NJ 07305, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: University, 1(avg: 5); Road, 1(avg: 1); Residential Building (Apartment / Condo), 1(avg: 1); Bridge, 1(avg: 1).
+The 10 nearest POIs and their distances are: New Jersey City University, distance 0.63 km; Rt. 440 & Communipaw, distance 0.95 km; The Beacon (Rialto-Capitol Condos), distance 2.20 km; Pulaski Skyway, distance 2.82 km.
+The 10 representative nearby POIs and their distances are: Pulaski Skyway, distance 2.82 km; New Jersey City University, distance 0.63 km; The Beacon (Rialto-Capitol Condos), distance 2.20 km; Rt. 440 & Communipaw, distance 0.95 km.

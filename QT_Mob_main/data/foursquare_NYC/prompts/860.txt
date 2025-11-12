@@ -1,0 +1,6 @@
+The name of this location is "Newark Screens" and its POI category is Movie Theater, belonging to the parent category Arts & Entertainment.
+The geographic coordinates for this location are (40.73332912, -74.19582586), with the corresponding geohash code dr5pxxk0zfyk.
+The address is Springfield Ave at Bergen St, Newark, NJ 07103, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: University, 2(avg: 5); Office, 1(avg: 72); Music Venue, 1(avg: 10); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: NJIT, distance 1.73 km; Prudential Financial, distance 1.88 km; Rutgers University, distance 1.94 km; Prudential Center, distance 2.19 km; Interstate 78, distance 2.28 km.
+The 10 representative nearby POIs and their distances are: Prudential Center, distance 2.19 km; Interstate 78, distance 2.28 km; Rutgers University, distance 1.94 km; Prudential Financial, distance 1.88 km; NJIT, distance 1.73 km.

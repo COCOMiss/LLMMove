@@ -1,0 +1,6 @@
+The name of this location is "Blink Fitness" and its POI category is Gym, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.92609036, -73.85365392), with the corresponding geohash code dr72z6m7v0hq.
+The address is 8000 Mall Walk, Yonkers, NY 10704, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Cross County Mall, distance 0.25 km; Metro North - Bronxville Train Station, distance 2.26 km.
+The 10 representative nearby POIs and their distances are: Cross County Mall, distance 0.25 km; Metro North - Bronxville Train Station, distance 2.26 km.

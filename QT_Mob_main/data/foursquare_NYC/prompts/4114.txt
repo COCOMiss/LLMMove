@@ -1,0 +1,6 @@
+The name of this location is "Branch Brook Park" and its POI category is Arcade, belonging to the parent category Arts & Entertainment.
+The geographic coordinates for this location are (40.77381437, -74.17543888), with the corresponding geohash code dr5rbnehejbh.
+The address is QRFF+GR Newark, NJ, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 2(avg: 51); Medical Center, 1(avg: 1); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Clara Maass Medical Center, distance 1.30 km; Applebee's, distance 1.99 km; Tops Diner, distance 2.83 km; Newark Broad Street Station, distance 2.93 km.
+The 10 representative nearby POIs and their distances are: Newark Broad Street Station, distance 2.93 km; Tops Diner, distance 2.83 km; Applebee's, distance 1.99 km; Clara Maass Medical Center, distance 1.30 km.

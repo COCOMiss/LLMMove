@@ -1,0 +1,63 @@
+**Location Analysis: Subway Restaurant**
+
+**Location Details**
+
+- Name: Subway Restaurant
+- Category: Sandwich Place (Parent Category: Food)
+- Address: 176-61 Union Tpke, Fresh Meadows, NY 11366, USA
+- Geographic Coordinates: (40.726045, -73.79091154)
+- Geohash Code: dr5x8vgn7jh3
+
+**Nearby Points-of-Interest (POI)**
+
+The Subway Restaurant is surrounded by various points-of-interest, categorized into different types. The top 10 nearby POI categories and their counts are:
+
+1.  College Academic Building (3)
+2.  University (2)
+3.  Metro Station (2)
+4.  Café (1)
+5.  Playground (1)
+6.  Restaurant (1)
+7.  Bus Line (1)
+8.  Multiplex (1)
+9.  General College & University (1)
+10. Other Great Outdoors (1)
+
+**Nearest POIs and Distances**
+
+The 10 nearest POIs to Subway Restaurant are:
+
+1.  St. Louise de Marillac Hall (0.51 km)
+2.  St John's Hall (0.57 km)
+3.  St. John's University (0.58 km)
+4.  D'Angelo Center (0.65 km)
+5.  Starbucks (1.56 km)
+6.  Cunningham Park (1.57 km)
+7.  MTA Subway - Jamaica 179th St. Station (F) (1.60 km)
+8.  Hooters (1.75 km)
+9.  MTA - Q46 Bus (1.95 km)
+10. AMC Loews Fresh Meadows 7 (1.99 km)
+
+**Representative Nearby POIs and Distances**
+
+The 10 representative nearby POIs to Subway Restaurant are:
+
+1.  Kissena Lake (2.73 km)
+2.  St. John's University (0.58 km)
+3.  Queens College (2.36 km)
+4.  MTA Subway - Jamaica 179th St. Station (F) (1.60 km)
+5.  MTA Subway - Jamaica Center-Parsons/Archer Avenue  (E/J/Z) (2.73 km)
+6.  Hooters (1.75 km)
+7.  St. Louise de Marillac Hall (0.51 km)
+8.  D'Angelo Center (0.65 km)
+9.  MTA - Q46 Bus (1.95 km)
+10. York College CUNY (2.67 km)
+
+**Insights**
+
+- Subway Restaurant is located in a densely populated area with various educational institutions, making it a convenient spot for students and locals.
+- The presence of multiple metro stations and bus lines indicates good public transportation connectivity.
+- The nearby parks and recreational areas, such as Cunningham Park, suggest a mix of urban and green spaces.
+- The variety of restaurants and cafes in the area indicates a vibrant food scene.
+- The presence of a multiplex cinema and a Hooters restaurant suggests a mix of entertainment options.
+- The nearby universities and colleges suggest a high concentration of young professionals and students, making Subway Restaurant a popular spot for quick meals and snacks.

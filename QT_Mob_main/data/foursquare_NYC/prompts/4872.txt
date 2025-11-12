@@ -1,0 +1,6 @@
+The name of this location is "Mizumi" and its POI category is Seafood Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.76379699, -73.748958), with the corresponding geohash code dr5xcucdkdx0.
+The address is 23110 Northern Blvd, Douglaston, NY 11362, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 1(avg: 5); College Communications Building, 1(avg: 1); Dessert Shop, 1(avg: 12); Light Rail Station, 1(avg: 1); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: LIRR - Douglaston Station, distance 0.48 km; Queensborough Community College, distance 1.18 km; Martha's Country Bakery, distance 1.85 km; LIRR - Bayside Station, distance 1.88 km; Cross Island Parkway, distance 2.68 km.
+The 10 representative nearby POIs and their distances are: LIRR - Bayside Station, distance 1.88 km; Queensborough Community College, distance 1.18 km; Cross Island Parkway, distance 2.68 km; LIRR - Douglaston Station, distance 0.48 km; Martha's Country Bakery, distance 1.85 km.

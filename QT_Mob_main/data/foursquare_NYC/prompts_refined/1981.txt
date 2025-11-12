@@ -1,0 +1,61 @@
+**Location Analysis: Vogue Magazine Office**
+
+**Geographic Information**
+
+- **Geohash Code:** dr5ru7mm0dfh
+- **Geographic Coordinates:** 40.75603128, -73.98568597
+- **Address:** 4 Times Sq, New York, NY 10036, USA
+
+**POI Analysis**
+
+Vogue Magazine's office is located in the heart of Manhattan, specifically at 4 Times Square. The surrounding area is bustling with various points-of-interest, including bars, offices, coffee shops, and restaurants. The top 10 POI categories and their counts indicate a mix of entertainment, dining, and professional establishments.
+
+**Top 10 POI Categories:**
+
+1. Bar (148, avg: 124)
+2. Office (106, avg: 72)
+3. Coffee Shop (102, avg: 63)
+4. American Restaurant (77, avg: 51)
+5. Café (57, avg: 42)
+6. Gym (45, avg: 25)
+7. Lounge (44, avg: 35)
+8. Hotel (44, avg: 28)
+9. Mexican Restaurant (41, avg: 28)
+10. Theater (34, avg: 19)
+
+**Nearest POIs**
+
+The nearest POIs to Vogue Magazine's office are primarily located within a short walking distance, indicating a high concentration of businesses and attractions in the area. The top 10 nearest POIs and their distances are:
+
+1. Condé Nast Building (0.02 km)
+2. Heartland Brewery (0.03 km)
+3. Stephen Sondheim Theatre (0.04 km)
+4. Bon Appetit Magazine (0.04 km)
+5. Tony's DiNapoli (0.04 km)
+6. Brooklyn Diner (0.05 km)
+7. HB Burger (0.05 km)
+8. Sephora (0.06 km)
+9. Starbucks (0.06 km)
+10. Times Square (0.07 km)
+
+**Representative POIs**
+
+The 10 representative nearby POIs and their distances provide a broader understanding of the area's attractions and facilities. These POIs are slightly farther away from Vogue Magazine's office but still within a reasonable walking distance:
+
+1. New York Penn Station (0.81 km)
+2. Madison Square Garden (0.86 km)
+3. NBC Studio 1A - Today Show (0.60 km)
+4. Times Square (0.07 km)
+5. Port Authority Bus Terminal (0.52 km)
+6. Union Square Park (2.35 km)
+7. MoMA - Museum of Modern Art (0.91 km)
+8. Apple Store (1.37 km)
+9. Bryant Park (0.31 km)
+10. Lincoln Tunnel (2.24 km)
+
+**Key Takeaways**
+
+- Vogue Magazine's office is situated in the heart of Manhattan, surrounded by various businesses, restaurants, and attractions.
+- The area is a hub for entertainment, dining, and professional services.
+- The nearest POIs are primarily located within a short walking distance, indicating a high concentration of businesses and attractions.
+- The representative POIs provide a broader understanding of the area's attractions and facilities, including transportation hubs and popular destinations.

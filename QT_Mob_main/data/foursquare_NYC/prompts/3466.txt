@@ -1,0 +1,6 @@
+The name of this location is "West Orange Diner" and its POI category is Diner, belonging to the parent category Food.
+The geographic coordinates for this location are (40.78668416, -74.23211393), with the corresponding geohash code dr70nbczdmh0.
+The address is 270 Main St, West Orange, NJ 07052, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Other Great Outdoors, 1(avg: 13); Multiplex, 1(avg: 4); Grocery Store, 1(avg: 9).
+The 10 nearest POIs and their distances are: Interstate 280, distance 1.78 km; AMC Essex Green Cinema 9, distance 2.15 km; Whole Foods, distance 2.39 km.
+The 10 representative nearby POIs and their distances are: Whole Foods, distance 2.39 km; Interstate 280, distance 1.78 km; AMC Essex Green Cinema 9, distance 2.15 km.

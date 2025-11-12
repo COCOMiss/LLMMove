@@ -1,0 +1,56 @@
+**Location Analysis: Century 21**
+
+**Location Details**
+
+Century 21 is a department store located at 200 Paramus, NJ 07652, USA, with geographic coordinates (40.91552327, -74.05737877). It falls under the parent category of Shop & Service and has a geohash code of dr72fb3n1yrg.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POI categories and their counts are:
+
+1. **Department Store** (2) - Average count: 4
+2. **Coffee Shop** (2) - Average count: 63
+3. **Burger Joint** (1) - Average count: 17
+4. **Food & Drink Shop** (1) - Average count: 4
+5. **Café** (1) - Average count: 42
+6. **Miscellaneous Shop** (1) - Average count: 6
+7. **Burrito Place** (1) - Average count: 6
+8. **American Restaurant** (1) - Average count: 51
+9. **Electronics Store** (1) - Average count: 5
+10. **Shopping Mall** (1) - Average count: 1
+
+The top 10 nearest POIs and their distances are:
+
+1. **Bergen Town Center** - 0.10 km
+2. **Bobby's Burger Palace** - 0.19 km
+3. **Whole Foods Market** - 0.21 km
+4. **Panera Bread** - 0.28 km
+5. **Target** - 0.30 km
+6. **Chipotle Mexican Grill** - 0.75 km
+7. **Starbucks** - 0.90 km
+8. **Houlihan's** - 0.92 km
+9. **Apple Store** - 1.55 km
+10. **Garden State Plaza** - 1.55 km
+
+The 10 representative nearby POIs and their distances are:
+
+1. **Garden State Plaza** - 1.55 km
+2. **AMC Garden State 16** - 1.63 km
+3. **Whole Foods Market** - 0.21 km
+4. **IKEA** - 1.69 km
+5. **Bergen Town Center** - 0.10 km
+6. **Apple Store** - 1.55 km
+7. **ShopRite** - 1.94 km
+8. **Target** - 0.30 km
+9. **Grand Lux Cafe** - 1.62 km
+10. **Bobby's Burger Palace** - 0.19 km
+
+**Insights**
+
+* Century 21 is located in a densely populated area with various shopping and dining options within a short distance.
+* The nearby POIs suggest a mix of retail, food, and entertainment options, making it a popular destination for shoppers and visitors.
+* The presence of a department store, coffee shops, and restaurants indicates a vibrant commercial area with a high foot traffic.
+* The proximity to Bergen Town Center and Garden State Plaza suggests that Century 21 is part of a larger shopping district.
+* The variety of nearby POIs, including a movie theater, IKEA, and AMC Garden State 16, indicates that the area offers a range of entertainment options for visitors.
+
+Overall, Century 21 appears to be a strategic location for a department store, with a diverse range of nearby POIs that cater to different needs and interests.

@@ -1,0 +1,6 @@
+The name of this location is "Medieval Times" and its POI category is Indie Theater, belonging to the parent category Arts & Entertainment.
+The geographic coordinates for this location are (40.80822245, -74.10651684), with the corresponding geohash code dr721svm0upb.
+The address is 149 Polito Ave, Lyndhurst, NJ 07071, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Indie Theater, 1(avg: 2); Train Station, 1(avg: 5); Grocery Store, 1(avg: 9); Hot Dog Joint, 1(avg: 2); Bakery, 1(avg: 16).
+The 10 nearest POIs and their distances are: Medieval Times, distance 0.00 km; NJ Transit Rail - Kingsland Station, distance 0.94 km; ShopRite, distance 1.14 km; Rutt's Hut, distance 2.52 km; Panera Bread, distance 2.65 km.
+The 10 representative nearby POIs and their distances are: Medieval Times, distance 0.00 km; Rutt's Hut, distance 2.52 km; NJ Transit Rail - Kingsland Station, distance 0.94 km; Panera Bread, distance 2.65 km; ShopRite, distance 1.14 km.

@@ -1,0 +1,6 @@
+The name of this location is "Spellman Hall" and its POI category is College Residence Hall, belonging to the parent category College & University.
+The geographic coordinates for this location are (40.91163004, -73.90776816), with the corresponding geohash code dr72wpwp80tg.
+The address is Mastronardi Hall (R), 744 W 261st St, Bronx, NY 10471, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: University, 2(avg: 5); Train, 1(avg: 4); Bar, 1(avg: 124).
+The 10 nearest POIs and their distances are: College of Mount Saint Vincent, distance 0.12 km; Manhattan College, distance 2.50 km; Metro North - Yonkers Train Station, distance 2.71 km; An Beal Bocht Cafe, distance 2.73 km.
+The 10 representative nearby POIs and their distances are: Metro North - Yonkers Train Station, distance 2.71 km; Manhattan College, distance 2.50 km; College of Mount Saint Vincent, distance 0.12 km; An Beal Bocht Cafe, distance 2.73 km.

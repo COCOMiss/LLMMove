@@ -1,0 +1,6 @@
+The name of this location is "H Mart" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.86109414, -73.9707466), with the corresponding geohash code dr72ky81hsj8.
+The address is 158 Linwood Dr Unit 317, Fort Lee, NJ 07024, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 3(avg: 1); Bus Station, 1(avg: 1).
+The 10 nearest POIs and their distances are: Bridge Plaza, distance 0.76 km; George Washington Bridge Toll Plaza, distance 1.01 km; New York/New Jersey State Line, distance 1.89 km; George Washington Bridge, distance 1.92 km.
+The 10 representative nearby POIs and their distances are: George Washington Bridge, distance 1.92 km; George Washington Bridge Toll Plaza, distance 1.01 km; Bridge Plaza, distance 0.76 km; New York/New Jersey State Line, distance 1.89 km.

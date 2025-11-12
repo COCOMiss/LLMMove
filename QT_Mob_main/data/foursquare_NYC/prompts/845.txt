@@ -1,0 +1,6 @@
+The name of this location is "Dunkin Donuts of Bayside" and its POI category is Donut Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.761105, -73.762071), with the corresponding geohash code dr5xcs24ehtq.
+The address is 21920 NY-25A, Bayside, NY 11361, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Dessert Shop, 1(avg: 12); Light Rail Station, 1(avg: 1); College Communications Building, 1(avg: 1); Train Station, 1(avg: 5); American Restaurant, 1(avg: 51); Shopping Mall, 1(avg: 1); Multiplex, 1(avg: 4).
+The 10 nearest POIs and their distances are: Martha's Country Bakery, distance 0.79 km; LIRR - Bayside Station, distance 0.81 km; Queensborough Community College, distance 0.82 km; LIRR - Douglaston Station, distance 1.32 km; Panera Bread, distance 2.40 km; Bay Terrace Shopping Center, distance 2.41 km; AMC Loews Fresh Meadows 7, distance 2.63 km.
+The 10 representative nearby POIs and their distances are: LIRR - Bayside Station, distance 0.81 km; Queensborough Community College, distance 0.82 km; LIRR - Douglaston Station, distance 1.32 km; Bay Terrace Shopping Center, distance 2.41 km; Martha's Country Bakery, distance 0.79 km; AMC Loews Fresh Meadows 7, distance 2.63 km; Panera Bread, distance 2.40 km.

@@ -1,0 +1,6 @@
+The name of this location is "Regal Cinemas New Roc City Stadium 18 + IMAX" and its POI category is Multiplex, belonging to the parent category Arts & Entertainment.
+The geographic coordinates for this location are (40.91193999, -73.77949835), with the corresponding geohash code dr789pg3m46s.
+The address is 33 Lecount Pl, New Rochelle, NY 10801, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 1(avg: 51); Movie Theater, 1(avg: 5); Multiplex, 1(avg: 4); Train Station, 1(avg: 5); University, 1(avg: 5).
+The 10 nearest POIs and their distances are: Buffalo Wild Wings, distance 0.07 km; New Roc City, distance 0.07 km; Regal Cinemas New Roc City Stadium 18 + IMAX, distance 0.14 km; Metro North - New Rochelle Train Station, distance 0.40 km; Iona College, distance 1.71 km.
+The 10 representative nearby POIs and their distances are: Metro North - New Rochelle Train Station, distance 0.40 km; Regal Cinemas New Roc City Stadium 18 + IMAX, distance 0.14 km; Buffalo Wild Wings, distance 0.07 km; New Roc City, distance 0.07 km; Iona College, distance 1.71 km.

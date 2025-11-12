@@ -1,0 +1,6 @@
+The name of this location is "Weather Up" and its POI category is Cocktail Bar, belonging to the parent category Nightlife Spot.
+The geographic coordinates for this location are (40.67998546, -73.96803753), with the corresponding geohash code dr5rkvd45fct.
+The address is Vanderbilt Av/Dean St, Brooklyn, NY 11238, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bar, 34(avg: 124); Coffee Shop, 21(avg: 63); Gym, 12(avg: 25); Metro Station, 12(avg: 19); Sandwich Place, 9(avg: 18); Mexican Restaurant, 8(avg: 28); Burger Joint, 7(avg: 17); American Restaurant, 6(avg: 51); Breakfast Spot, 6(avg: 20); Bookstore, 6(avg: 7).
+The 10 nearest POIs and their distances are: Weather Up, distance 0.00 km; Woodwork, distance 0.01 km; The Vanderbilt, distance 0.06 km; Pequeña, distance 0.06 km; Beast, distance 0.07 km; Branded Saloon, distance 0.09 km; Cornelius, distance 0.11 km; Soda Bar, distance 0.19 km; Hot Bird, distance 0.24 km; Milk Bar, distance 0.26 km.
+The 10 representative nearby POIs and their distances are: Brooklyn Museum, distance 1.01 km; Prospect Park, distance 2.05 km; Target, distance 0.95 km; The Bell House, distance 2.12 km; Trader Joe's, distance 2.33 km; Connecticut Muffin, distance 1.46 km; Pizza Town, distance 0.82 km; Union Hall, distance 1.10 km; Soda Bar, distance 0.19 km; Fort Greene Park, distance 1.43 km.

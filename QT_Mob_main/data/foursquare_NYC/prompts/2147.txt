@@ -1,0 +1,6 @@
+The name of this location is "Staten Island Ferry Boat - Spirit Of America" and its POI category is Boat or Ferry, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.654193, -74.056156), with the corresponding geohash code dr5r6bcgy6zg.
+The address is MW3V+MG Bayonne, NJ, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Boat or Ferry, 5(avg: 2); Baseball Field, 1(avg: 1).
+The 10 nearest POIs and their distances are: Staten Island Ferry Boat - Andrew J. Barberi, distance 1.49 km; Staten Island Ferry Boat - Samuel I. Newhouse, distance 1.69 km; Staten Island Ferry - St George Terminal, distance 1.79 km; Staten Island Ferry Boat - John J. Marchi, distance 1.91 km; Richmond County Bank Ballpark at St George, distance 2.01 km; Staten Island Ferry Boat - Spirit Of America, distance 2.77 km.
+The 10 representative nearby POIs and their distances are: Staten Island Ferry - St George Terminal, distance 1.79 km; Staten Island Ferry Boat - Andrew J. Barberi, distance 1.49 km; Staten Island Ferry Boat - John J. Marchi, distance 1.91 km; Staten Island Ferry Boat - Spirit Of America, distance 2.77 km; Staten Island Ferry Boat - Samuel I. Newhouse, distance 1.69 km; Richmond County Bank Ballpark at St George, distance 2.01 km.

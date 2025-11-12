@@ -1,0 +1,6 @@
+The name of this location is "Crosstown Diner" and its POI category is Diner, belonging to the parent category Food.
+The geographic coordinates for this location are (40.83248957, -73.82868768), with the corresponding geohash code dr72rcrd6zsr.
+The address is 2880 Bruckner Blvd, Bronx, NY 10465, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 3(avg: 19); Indie Theater, 1(avg: 2); Gym, 1(avg: 25); General Travel, 1(avg: 1); Hospital, 1(avg: 2).
+The 10 nearest POIs and their distances are: MTA Subway - Middletown Road (6), distance 1.40 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 1.46 km; Socialite, distance 1.63 km; Planet Fitness, distance 1.75 km; Whitestone Bridge Toll Plaza, distance 2.04 km; MTA Subway - Pelham Bay Park (6), distance 2.28 km; Montefiore Medical Center, distance 2.31 km.
+The 10 representative nearby POIs and their distances are: Socialite, distance 1.63 km; Whitestone Bridge Toll Plaza, distance 2.04 km; MTA Subway - Pelham Bay Park (6), distance 2.28 km; Planet Fitness, distance 1.75 km; MTA Subway - Middletown Road (6), distance 1.40 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 1.46 km; Montefiore Medical Center, distance 2.31 km.

@@ -1,0 +1,6 @@
+The name of this location is "Pelham Bay Park" and its POI category is Baseball Field, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.85196219, -73.82696629), with the corresponding geohash code dr782hbgfvxy.
+The address is Bruckner Blvd/Wilkinson Av, Bronx, NY 10461, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 3(avg: 19); Gym, 1(avg: 25); Hospital, 1(avg: 2); Emergency Room, 1(avg: 2).
+The 10 nearest POIs and their distances are: MTA Subway - Pelham Bay Park (6), distance 0.12 km; Planet Fitness, distance 0.54 km; MTA Subway - Middletown Road (6), distance 1.26 km; Montefiore Medical Center, distance 1.63 km; Jacobi Medical Center, distance 1.67 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 1.89 km.
+The 10 representative nearby POIs and their distances are: MTA Subway - Pelham Bay Park (6), distance 0.12 km; Planet Fitness, distance 0.54 km; MTA Subway - Middletown Road (6), distance 1.26 km; Jacobi Medical Center, distance 1.67 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 1.89 km; Montefiore Medical Center, distance 1.63 km.

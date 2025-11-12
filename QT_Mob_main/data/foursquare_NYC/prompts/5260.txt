@@ -1,0 +1,6 @@
+The name of this location is "Quick Chek" and its POI category is Convenience Store, belonging to the parent category Convenience Store.
+The geographic coordinates for this location are (40.98139343, -74.0244994), with the corresponding geohash code dr735s3jbjkw.
+The address is 354 Kinderkamack Rd, Emerson, NJ 07630, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are:.
+The 10 nearest POIs and their distances are:.
+The 10 representative nearby POIs and their distances are:.

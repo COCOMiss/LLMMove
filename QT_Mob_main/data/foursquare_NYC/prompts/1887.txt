@@ -1,0 +1,6 @@
+The name of this location is "Nevada Diner" and its POI category is Diner, belonging to the parent category Food.
+The geographic coordinates for this location are (40.80381274, -74.19446), with the corresponding geohash code dr70psj5rvbz.
+The address is 293 Broad St, Bloomfield, NJ 07003, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 2(avg: 5); Coffee Shop, 1(avg: 63); Gym, 1(avg: 25); Pub, 1(avg: 24); Music Venue, 1(avg: 10); Spanish Restaurant, 1(avg: 4); Breakfast Spot, 1(avg: 20); Medical Center, 1(avg: 1).
+The 10 nearest POIs and their distances are: Starbucks, distance 0.90 km; NJ Transit Rail - Bay Street Station, distance 1.29 km; NJ Transit Rail - Bloomfield Station, distance 1.33 km; Retro Fitness, distance 2.09 km; Egan & Sons, distance 2.11 km; Wellmont Theatre, distance 2.12 km; Cuban Pete's, distance 2.16 km; Raymond's, distance 2.35 km; Clara Maass Medical Center, distance 2.56 km.
+The 10 representative nearby POIs and their distances are: NJ Transit Rail - Bloomfield Station, distance 1.33 km; Retro Fitness, distance 2.09 km; Cuban Pete's, distance 2.16 km; Wellmont Theatre, distance 2.12 km; Raymond's, distance 2.35 km; Egan & Sons, distance 2.11 km; NJ Transit Rail - Bay Street Station, distance 1.29 km; Starbucks, distance 0.90 km; Clara Maass Medical Center, distance 2.56 km.

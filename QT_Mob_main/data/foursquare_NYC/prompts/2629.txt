@@ -1,0 +1,6 @@
+The name of this location is "Sears" and its POI category is Department Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.954435, -74.066724), with the corresponding geohash code dr72fxd2bhp8.
+The address is 585 From Rd, Paramus, NJ 07652, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 2(avg: 9); Coffee Shop, 2(avg: 63); Shopping Mall, 1(avg: 1); Office, 1(avg: 72); Community College, 1(avg: 1); Home (private), 1(avg: 14).
+The 10 nearest POIs and their distances are: Paramus Park Mall, distance 0.32 km; CUnet Headquarters, distance 0.39 km; Trader Joe's, distance 0.79 km; Starbucks, distance 1.01 km; Fairway Market, distance 1.56 km; Bergen Community College, distance 1.93 km; Starbucks, distance 2.43 km; The Lair, distance 2.49 km.
+The 10 representative nearby POIs and their distances are: Bergen Community College, distance 1.93 km; Paramus Park Mall, distance 0.32 km; Fairway Market, distance 1.56 km; Starbucks, distance 1.01 km; The Lair, distance 2.49 km; CUnet Headquarters, distance 0.39 km; Starbucks, distance 2.43 km; Trader Joe's, distance 0.79 km.

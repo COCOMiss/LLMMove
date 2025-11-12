@@ -1,0 +1,6 @@
+The name of this location is "Colosseum Gym" and its POI category is Gym, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.7362294, -74.25023802), with the corresponding geohash code dr5pwru9sp99.
+The address is 491-543 Irvington Ave, Newark, NJ 07106, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train, 2(avg: 4); School, 1(avg: 1); American Restaurant, 1(avg: 51); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Seton Hall University, distance 0.79 km; NJ Transit Rail - South Orange Station, distance 1.37 km; Starbucks, distance 1.38 km; NJ Transit Rail - Maplewood Station, distance 2.21 km; Garden State Parkway - Irvington, distance 2.22 km.
+The 10 representative nearby POIs and their distances are: NJ Transit Rail - Maplewood Station, distance 2.21 km; Seton Hall University, distance 0.79 km; NJ Transit Rail - South Orange Station, distance 1.37 km; Starbucks, distance 1.38 km; Garden State Parkway - Irvington, distance 2.22 km.

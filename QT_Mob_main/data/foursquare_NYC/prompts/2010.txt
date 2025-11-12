@@ -1,0 +1,6 @@
+The name of this location is "B6/B82 Bay Parkway Bus Stop" and its POI category is Bus Line, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.60217461, -73.99372458), with the corresponding geohash code dr5quprkv3bj.
+The address is Bay Pkwy, Bay Pkwy, Brooklyn, NY 11214, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 2(avg: 25); Electronics Store, 1(avg: 5); Light Rail Station, 1(avg: 1); Ice Cream Shop, 1(avg: 6); Metro Station, 1(avg: 19); Other Great Outdoors, 1(avg: 13); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Bally Total Fitness, distance 0.64 km; New York Sports Club, distance 0.97 km; Best Buy, distance 1.04 km; MTA Subway - Kings Highway (N), distance 1.17 km; L&B Spumoni Gardens, distance 1.33 km; MTA - N - Bay Parkway, distance 1.58 km; Gravesend, Brooklyn, distance 2.30 km; Starbucks, distance 2.42 km.
+The 10 representative nearby POIs and their distances are: L&B Spumoni Gardens, distance 1.33 km; Best Buy, distance 1.04 km; MTA Subway - Kings Highway (N), distance 1.17 km; Starbucks, distance 2.42 km; MTA - N - Bay Parkway, distance 1.58 km; Gravesend, Brooklyn, distance 2.30 km; New York Sports Club, distance 0.97 km; Bally Total Fitness, distance 0.64 km.

@@ -1,0 +1,6 @@
+The name of this location is "May May Restaurant" and its POI category is Chinese Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.67284344, -73.87066385), with the corresponding geohash code dr5rrh302z89.
+The address is 1284 Sutter Ave, Brooklyn, NY 11208, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 1(avg: 19); Department Store, 1(avg: 4); Electronics Store, 1(avg: 5); Beach, 1(avg: 1).
+The 10 nearest POIs and their distances are: MTA - 80-Hudson Street Subway - A, distance 1.28 km; Target, distance 2.22 km; Best Buy, distance 2.38 km; Howard Beach, distance 2.40 km.
+The 10 representative nearby POIs and their distances are: Target, distance 2.22 km; Howard Beach, distance 2.40 km; MTA - 80-Hudson Street Subway - A, distance 1.28 km; Best Buy, distance 2.38 km.

@@ -1,0 +1,6 @@
+The name of this location is "7-Eleven" and its POI category is Food & Drink Shop, belonging to the parent category Food & Drink Shop.
+The geographic coordinates for this location are (40.72992554, -73.74508381), with the corresponding geohash code dr5x9ysmnbrv.
+The address is Queens Village, Queens, NY 11427, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); Other Great Outdoors, 1(avg: 13).
+The 10 nearest POIs and their distances are: Cross Island Parkway, distance 1.86 km; Belmont Park Racetrack, distance 2.59 km.
+The 10 representative nearby POIs and their distances are: Belmont Park Racetrack, distance 2.59 km; Cross Island Parkway, distance 1.86 km.

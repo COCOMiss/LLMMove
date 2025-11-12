@@ -1,0 +1,6 @@
+The name of this location is "Lollipops Diner" and its POI category is Diner, belonging to the parent category Food.
+The geographic coordinates for this location are (40.78770495, -73.80941091), with the corresponding geohash code dr7803jts561.
+The address is 15327 Cross Island Pkwy, Whitestone, NY 11357, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 2(avg: 1); Deli / Bodega, 1(avg: 10); Department Store, 1(avg: 4).
+The 10 nearest POIs and their distances are: Cherry Valley Deli & Grill, distance 0.47 km; Throgs Neck Bridge, distance 1.91 km; Target, distance 2.09 km; Bronx-Whitestone Bridge, distance 2.15 km.
+The 10 representative nearby POIs and their distances are: Throgs Neck Bridge, distance 1.91 km; Bronx-Whitestone Bridge, distance 2.15 km; Target, distance 2.09 km; Cherry Valley Deli & Grill, distance 0.47 km.

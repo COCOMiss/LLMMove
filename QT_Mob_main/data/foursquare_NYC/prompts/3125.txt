@@ -1,0 +1,6 @@
+The name of this location is "Kenn and Diane's" and its POI category is Home (private), belonging to the parent category Home (private).
+The geographic coordinates for this location are (40.85040529, -73.71836391), with the corresponding geohash code dr786kxfve7z.
+The address is 3 Bridle Ln, Port Washington, NY 11050, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are:.
+The 10 nearest POIs and their distances are:.
+The 10 representative nearby POIs and their distances are:.

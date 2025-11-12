@@ -1,0 +1,6 @@
+The name of this location is "ShopRite" and its POI category is Miscellaneous Shop, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.79467579, -74.25571203), with the corresponding geohash code dr70n62whw8p.
+The address is 1 Rooney Cir, West Orange, NJ 07052, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Multiplex, 1(avg: 4); Grocery Store, 1(avg: 9).
+The 10 nearest POIs and their distances are: AMC Essex Green Cinema 9, distance 0.14 km; Whole Foods, distance 1.21 km.
+The 10 representative nearby POIs and their distances are: Whole Foods, distance 1.21 km; AMC Essex Green Cinema 9, distance 0.14 km.

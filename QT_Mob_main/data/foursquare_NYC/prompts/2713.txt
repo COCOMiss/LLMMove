@@ -1,0 +1,6 @@
+The name of this location is "Zap Lube Fairlawn" and its POI category is Automotive Shop, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.92571083, -74.09905893), with the corresponding geohash code dr72cf69wc3n.
+The address is 37-14 Broadway, Fair Lawn, NJ 07410, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); Pharmacy, 1(avg: 4); Restaurant, 1(avg: 10); Department Store, 1(avg: 4); Furniture / Home Store, 1(avg: 7); Electronics Store, 1(avg: 5); Multiplex, 1(avg: 4); Shopping Mall, 1(avg: 1); Community College, 1(avg: 1).
+The 10 nearest POIs and their distances are: NJ Route 4, distance 1.98 km; ShopRite, distance 1.99 km; Grand Lux Cafe, distance 2.09 km; Nordstrom, distance 2.10 km; IKEA, distance 2.12 km; Apple Store, distance 2.16 km; AMC Garden State 16, distance 2.17 km; Garden State Plaza, distance 2.18 km; Bergen Community College, distance 2.89 km.
+The 10 representative nearby POIs and their distances are: Garden State Plaza, distance 2.18 km; AMC Garden State 16, distance 2.17 km; Bergen Community College, distance 2.89 km; IKEA, distance 2.12 km; Apple Store, distance 2.16 km; ShopRite, distance 1.99 km; Grand Lux Cafe, distance 2.09 km; NJ Route 4, distance 1.98 km; Nordstrom, distance 2.10 km.

@@ -1,0 +1,6 @@
+The name of this location is "Marine Park" and its POI category is Park, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.59792235, -73.9209938), with the corresponding geohash code dr5qvyskh10p.
+The address is H3XH+5J New York, NY, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Park, 1(avg: 8); Shopping Mall, 1(avg: 1); Movie Theater, 1(avg: 5); Skating Rink, 1(avg: 1); Fast Food Restaurant, 1(avg: 5); College Classroom, 1(avg: 1).
+The 10 nearest POIs and their distances are: Marine Park, distance 0.00 km; Kings Plaza Mall, distance 1.34 km; United Artists Sheepshead Bay Stadium 14 & IMAX, distance 1.51 km; Aviator Sports and Events Center, distance 2.04 km; Roll N Roaster, distance 2.19 km; Kingsborough Community College, distance 2.52 km.
+The 10 representative nearby POIs and their distances are: Kingsborough Community College, distance 2.52 km; Kings Plaza Mall, distance 1.34 km; United Artists Sheepshead Bay Stadium 14 & IMAX, distance 1.51 km; Roll N Roaster, distance 2.19 km; Marine Park, distance 0.00 km; Aviator Sports and Events Center, distance 2.04 km.

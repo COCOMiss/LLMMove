@@ -1,0 +1,6 @@
+The name of this location is "Rockaway Plaza Delicatessen" and its POI category is Deli / Bodega, belonging to the parent category Food.
+The geographic coordinates for this location are (40.66221498, -73.7758112), with the corresponding geohash code dr5x34q4dfrb.
+The address is 16207 Rockaway Blvd, Jamaica, NY 11434, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Airport Terminal, 6(avg: 3); General Travel, 3(avg: 1); Airport, 2(avg: 1); American Restaurant, 1(avg: 51); Plane, 1(avg: 1).
+The 10 nearest POIs and their distances are: Terminal 7, distance 1.55 km; JetBlue Lounge, distance 1.80 km; Terminal 5, distance 1.87 km; John F Kennedy International Airport (JFK), distance 2.01 km; American Airlines Admirals Club, distance 2.02 km; Terminal 8, distance 2.07 km; JFK Runway, distance 2.14 km; Terminal 4, distance 2.15 km; Terminal 1, distance 2.53 km; Terminal 3, distance 2.64 km.
+The 10 representative nearby POIs and their distances are: John F Kennedy International Airport (JFK), distance 2.01 km; Terminal 5, distance 1.87 km; Terminal 8, distance 2.07 km; Terminal 4, distance 2.15 km; Terminal 3, distance 2.64 km; Terminal 7, distance 1.55 km; Terminal 2, distance 2.65 km; Terminal 1, distance 2.53 km; American Airlines Admirals Club, distance 2.02 km; Delta Sky Club, distance 2.67 km.

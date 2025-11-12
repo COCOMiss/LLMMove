@@ -1,0 +1,6 @@
+The name of this location is "Applebee's Neighborhood Grill & Bar" and its POI category is American Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.91010722, -74.03248787), with the corresponding geohash code dr72er7ntuxz.
+The address is 450 Hackensack Ave, Hackensack, NJ 07601, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Asian Restaurant, 1(avg: 18); Gym, 1(avg: 25); Shopping Mall, 1(avg: 1); Bookstore, 1(avg: 7); American Restaurant, 1(avg: 51); Wings Joint, 1(avg: 1); Food & Drink Shop, 1(avg: 4); Department Store, 1(avg: 4).
+The 10 nearest POIs and their distances are: P.F. Chang's, distance 0.29 km; Retro Fitness, distance 0.31 km; The Shops at Riverside, distance 0.50 km; Barnes & Noble, distance 0.52 km; The Cheesecake Factory, distance 0.56 km; Hooters of Hackensack, distance 0.70 km; Whole Foods Market, distance 2.19 km; Bergen Town Center, distance 2.24 km.
+The 10 representative nearby POIs and their distances are: Whole Foods Market, distance 2.19 km; Bergen Town Center, distance 2.24 km; The Shops at Riverside, distance 0.50 km; The Cheesecake Factory, distance 0.56 km; Retro Fitness, distance 0.31 km; Barnes & Noble, distance 0.52 km; P.F. Chang's, distance 0.29 km; Hooters of Hackensack, distance 0.70 km.

@@ -1,0 +1,6 @@
+The name of this location is "Staten Island University Hospital North" and its POI category is Medical Center, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.58475655, -74.08510208), with the corresponding geohash code dr5qfhhzk4bn.
+The address is 502 Seaview Ave, Staten Island, NY 10305, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bar, 1(avg: 124); Beach, 1(avg: 1).
+The 10 nearest POIs and their distances are: Rab's Country Lanes, distance 0.64 km; South Beach Boardwalk, distance 1.70 km.
+The 10 representative nearby POIs and their distances are: Rab's Country Lanes, distance 0.64 km; South Beach Boardwalk, distance 1.70 km.

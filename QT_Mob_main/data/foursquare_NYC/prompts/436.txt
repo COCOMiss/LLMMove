@@ -1,0 +1,6 @@
+The name of this location is "Bonefish Grill" and its POI category is Seafood Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.79152859, -74.05036004), with the corresponding geohash code dr724cy5vs1d.
+The address is 115 Lighting Way, Secaucus, NJ 07094, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Burger Joint, 1(avg: 17); College Gym, 1(avg: 2); Department Store, 1(avg: 4); American Restaurant, 1(avg: 51); Movie Theater, 1(avg: 5); Gym / Fitness Center, 1(avg: 7); Arcade, 1(avg: 3); Basketball Stadium, 1(avg: 1).
+The 10 nearest POIs and their distances are: Cheeseburger in Paradise, distance 0.58 km; LA fitness, distance 0.62 km; Walmart, distance 0.73 km; Houlihan's - Secaucus, distance 0.74 km; Kerasotes Showplace 14, distance 0.76 km; Bally Total Fitness, distance 2.18 km; Union City, distance 2.51 km; IZOD Center, distance 2.68 km.
+The 10 representative nearby POIs and their distances are: IZOD Center, distance 2.68 km; Walmart, distance 0.73 km; Kerasotes Showplace 14, distance 0.76 km; Cheeseburger in Paradise, distance 0.58 km; Houlihan's - Secaucus, distance 0.74 km; LA fitness, distance 0.62 km; Union City, distance 2.51 km; Bally Total Fitness, distance 2.18 km.

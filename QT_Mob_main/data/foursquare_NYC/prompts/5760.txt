@@ -1,0 +1,6 @@
+The name of this location is "The Greeks" and its POI category is Breakfast Spot, belonging to the parent category Food.
+The geographic coordinates for this location are (40.76880801, -74.14129445), with the corresponding geohash code dr5rbvezw8eu.
+The address is 170 Midland Ave, Kearny, NJ 07032, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 1(avg: 51); Department Store, 1(avg: 4).
+The 10 nearest POIs and their distances are: Applebee's, distance 2.03 km; Walmart, distance 2.41 km.
+The 10 representative nearby POIs and their distances are: Applebee's, distance 2.03 km; Walmart, distance 2.41 km.

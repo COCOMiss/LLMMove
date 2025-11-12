@@ -1,0 +1,6 @@
+The name of this location is "Terminal 4" and its POI category is Plane, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.64396594, -73.78272057), with the corresponding geohash code dr5x1p103bru.
+The address is Terminal 4, Queens, NY 11430, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Airport Terminal, 6(avg: 3); General Travel, 3(avg: 1); Airport, 2(avg: 1); Plane, 1(avg: 1); American Restaurant, 1(avg: 51); Airport Tram, 1(avg: 1).
+The 10 nearest POIs and their distances are: Terminal 4, distance 0.06 km; John F Kennedy International Airport (JFK), distance 0.14 km; Terminal 5, distance 0.45 km; Terminal 3, distance 0.55 km; JetBlue Lounge, distance 0.57 km; Terminal 7, distance 0.59 km; Terminal 2, distance 0.67 km; Delta Sky Club, distance 0.67 km; Delta Sky Club, distance 0.68 km; Terminal 1, distance 0.69 km.
+The 10 representative nearby POIs and their distances are: John F Kennedy International Airport (JFK), distance 0.14 km; Terminal 5, distance 0.45 km; Terminal 8, distance 0.71 km; Terminal 4, distance 0.06 km; Terminal 3, distance 0.55 km; Terminal 7, distance 0.59 km; Terminal 2, distance 0.67 km; Terminal 1, distance 0.69 km; American Airlines Admirals Club, distance 0.94 km; JFK AirTrain - Federal Circle Station, distance 2.48 km.

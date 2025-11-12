@@ -1,0 +1,6 @@
+The name of this location is "Empire City Yonkers Raceway" and its POI category is Racetrack, belonging to the parent category Arts & Entertainment.
+The geographic coordinates for this location are (40.91861784, -73.86543813), with the corresponding geohash code dr72z1hb4x1r.
+The address is 560 Central Park Ave, Yonkers, NY 10704, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1).
+The 10 nearest POIs and their distances are: Cross County Mall, distance 1.43 km.
+The 10 representative nearby POIs and their distances are: Cross County Mall, distance 1.43 km.

@@ -1,0 +1,6 @@
+The name of this location is "Yummy Taco" and its POI category is Mexican Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.63861726, -73.89557183), with the corresponding geohash code dr5rnqnch77f.
+The address is 9621 Avenue L, Brooklyn, NY 11236, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 1(avg: 19); Other Nightlife, 1(avg: 7); Electronics Store, 1(avg: 5).
+The 10 nearest POIs and their distances are: MTA - Canarsie/Rockaway Pkwy (L), distance 1.03 km; Stella Artois Socialite Event, distance 1.63 km; Best Buy, distance 2.41 km.
+The 10 representative nearby POIs and their distances are: MTA - Canarsie/Rockaway Pkwy (L), distance 1.03 km; Stella Artois Socialite Event, distance 1.63 km; Best Buy, distance 2.41 km.

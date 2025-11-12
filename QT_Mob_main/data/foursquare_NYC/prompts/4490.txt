@@ -1,0 +1,6 @@
+The name of this location is "7-Eleven" and its POI category is Food & Drink Shop, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.967639, -74.073357), with the corresponding geohash code dr7343vmv9mv.
+The address is 67c E Ridgewood Ave, Paramus, NJ 07652, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 2(avg: 9); Shopping Mall, 1(avg: 1); Office, 1(avg: 72); Community College, 1(avg: 1); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Fairway Market, distance 0.17 km; Paramus Park Mall, distance 1.27 km; CUnet Headquarters, distance 1.86 km; Trader Joe's, distance 2.17 km; Bergen Community College, distance 2.31 km; Starbucks, distance 2.40 km.
+The 10 representative nearby POIs and their distances are: Bergen Community College, distance 2.31 km; Paramus Park Mall, distance 1.27 km; Fairway Market, distance 0.17 km; Starbucks, distance 2.40 km; CUnet Headquarters, distance 1.86 km; Trader Joe's, distance 2.17 km.

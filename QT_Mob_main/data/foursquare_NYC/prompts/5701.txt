@@ -1,0 +1,6 @@
+The name of this location is "Nightmare" and its POI category is Home (private), belonging to the parent category Residence.
+The geographic coordinates for this location are (40.84594087, -73.82426211), with the corresponding geohash code dr7825fbf522.
+The address is 1557 Dwight Pl, Bronx, NY 10465, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 3(avg: 19); Gym, 1(avg: 25); Hospital, 1(avg: 2); Emergency Room, 1(avg: 2).
+The 10 nearest POIs and their distances are: Planet Fitness, distance 0.60 km; MTA Subway - Pelham Bay Park (6), distance 0.82 km; MTA Subway - Middletown Road (6), distance 1.09 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 1.70 km; Montefiore Medical Center, distance 1.84 km; Jacobi Medical Center, distance 2.14 km.
+The 10 representative nearby POIs and their distances are: MTA Subway - Pelham Bay Park (6), distance 0.82 km; Planet Fitness, distance 0.60 km; MTA Subway - Middletown Road (6), distance 1.09 km; Jacobi Medical Center, distance 2.14 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 1.70 km; Montefiore Medical Center, distance 1.84 km.

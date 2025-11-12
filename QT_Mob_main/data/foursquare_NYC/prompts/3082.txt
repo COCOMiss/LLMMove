@@ -1,0 +1,6 @@
+The name of this location is "ShopRite" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.89606235, -73.97549629), with the corresponding geohash code dr72ssusy484.
+The address is 39 Nathaniel Pl, Englewood, NJ 07631, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Coffee Shop, 1(avg: 63); Medical Center, 1(avg: 1).
+The 10 nearest POIs and their distances are: Starbucks, distance 0.27 km; Englewood Hospital & Medical Center, distance 1.08 km.
+The 10 representative nearby POIs and their distances are: Starbucks, distance 0.27 km; Englewood Hospital & Medical Center, distance 1.08 km.

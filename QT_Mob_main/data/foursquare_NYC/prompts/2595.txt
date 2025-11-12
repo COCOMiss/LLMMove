@@ -1,0 +1,6 @@
+The name of this location is "New Image Unisex Saloon" and its POI category is Salon / Barbershop, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.89674586, -73.87049158), with the corresponding geohash code dr72xj10uccp.
+The address is E 233 St/Kepler Av, Bronx, NY 10470, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train, 1(avg: 4); Emergency Room, 1(avg: 2); Baseball Field, 1(avg: 1); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: MTA Subway - Woodlawn (4), distance 1.32 km; Montefiore Medical Center, distance 1.91 km; Van Cortlandt Park, distance 2.00 km; MTA Subway - Gun Hill Road (2/5), distance 2.14 km.
+The 10 representative nearby POIs and their distances are: Montefiore Medical Center, distance 1.91 km; MTA Subway - Woodlawn (4), distance 1.32 km; MTA Subway - Gun Hill Road (2/5), distance 2.14 km; Van Cortlandt Park, distance 2.00 km.

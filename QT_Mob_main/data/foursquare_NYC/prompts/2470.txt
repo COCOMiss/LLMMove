@@ -1,0 +1,6 @@
+The name of this location is "Stephen R. Gregg Bayonne County Park" and its POI category is Park, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.68061463, -74.11436096), with the corresponding geohash code dr5r3mxtf0ny.
+The address is Rocky Stairs/flag pole/ gazebos, JFK Blvd at, W 42nd St, Bayonne, NJ 07002, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Forum Fitness Club, distance 1.64 km; Casciano Memorial Bridge, distance 1.65 km.
+The 10 representative nearby POIs and their distances are: Casciano Memorial Bridge, distance 1.65 km; Forum Fitness Club, distance 1.64 km.

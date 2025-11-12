@@ -1,0 +1,6 @@
+The name of this location is "MTA Subway - 6 - Morrison-Sound View Avs Station" and its POI category is Metro Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.82951142, -73.87452185), with the corresponding geohash code dr72qby1nus4.
+The address is Westchester Av/Morrison Av, Bronx, NY 10472, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Road, 1(avg: 1); Train Station, 1(avg: 5); Other Great Outdoors, 1(avg: 13).
+The 10 nearest POIs and their distances are: MTA Subway - 177th Street/Parkchester (6), distance 1.21 km; Bruckner Expressway, distance 1.28 km; MTA Subway - West Farms Square/East Tremont Avenue (2/5), distance 1.28 km; MTA - East 180th Street (2,5), distance 1.32 km; Bronx Zoo, distance 2.39 km.
+The 10 representative nearby POIs and their distances are: Bronx Zoo, distance 2.39 km; MTA Subway - 177th Street/Parkchester (6), distance 1.21 km; MTA - East 180th Street (2,5), distance 1.32 km; Bruckner Expressway, distance 1.28 km; MTA Subway - West Farms Square/East Tremont Avenue (2/5), distance 1.28 km.

@@ -1,0 +1,6 @@
+The name of this location is "U.S. Post Office" and its POI category is Post Office, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.94892338, -74.06972184), with the corresponding geohash code dr72fw80f2s6.
+The address is 33 E Midland Ave, Paramus, NJ 07652, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 2(avg: 9); Coffee Shop, 2(avg: 63); Office, 1(avg: 72); Shopping Mall, 1(avg: 1); Community College, 1(avg: 1); Furniture / Home Store, 1(avg: 7).
+The 10 nearest POIs and their distances are: Trader Joe's, distance 0.15 km; CUnet Headquarters, distance 0.27 km; Starbucks, distance 0.35 km; Paramus Park Mall, distance 0.86 km; Bergen Community College, distance 1.64 km; Starbucks, distance 1.79 km; Fairway Market, distance 2.06 km; IKEA, distance 2.78 km.
+The 10 representative nearby POIs and their distances are: Bergen Community College, distance 1.64 km; Paramus Park Mall, distance 0.86 km; IKEA, distance 2.78 km; Fairway Market, distance 2.06 km; Starbucks, distance 0.35 km; CUnet Headquarters, distance 0.27 km; Starbucks, distance 1.79 km; Trader Joe's, distance 0.15 km.

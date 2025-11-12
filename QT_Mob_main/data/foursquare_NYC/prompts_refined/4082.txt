@@ -1,0 +1,60 @@
+**Location Analysis: Umi Sushi**
+
+**Overview**
+
+Umi Sushi is a sushi restaurant located at 112 E 31st St, New York, NY 10016, USA. The geographic coordinates of this location are (40.74476768, -73.98205429), with a geohash code of dr5ru3rgmpnn.
+
+**Surrounding Environment**
+
+The surrounding area of Umi Sushi is densely populated with various points of interest (POIs). The top 10 nearby POI categories and their counts are:
+
+1.  Bar (253) - 124% above average
+2.  Office (115) - 59% above average
+3.  Coffee Shop (114) - 85% above average
+4.  American Restaurant (100) - 99% above average
+5.  Café (82) - 96% above average
+6.  Lounge (62) - 77% above average
+7.  Mexican Restaurant (54) - 93% above average
+8.  Italian Restaurant (53) - 88% above average
+9.  Hotel (48) - 71% above average
+10.  Gym (47) - 88% above average
+
+The presence of a high number of bars, coffee shops, and restaurants suggests that the area is lively and popular among locals and visitors alike.
+
+**Nearest POIs**
+
+The 10 nearest POIs to Umi Sushi are:
+
+1.  Vezzo Thin Crust Pizza (0.07 km)
+2.  Chipotle Mexican Grill (0.09 km)
+3.  Brother Jimmy's BBQ (0.09 km)
+4.  PS 450 (0.10 km)
+5.  Desmond's Tavern (0.11 km)
+6.  Penelope (0.11 km)
+7.  Resto (0.13 km)
+8.  California Pizza Kitchen (0.13 km)
+9.  Equinox (0.14 km)
+10.  wine:30 (0.14 km)
+
+These nearby POIs are within walking distance, indicating that Umi Sushi is situated in a convenient location for customers looking for a quick meal or drink.
+
+**Representative POIs**
+
+The 10 representative nearby POIs and their distances are:
+
+1.  New York Penn Station (1.12 km)
+2.  Madison Square Garden (1.05 km)
+3.  NBC Studio 1A - Today Show (1.53 km)
+4.  Times Square (1.33 km)
+5.  Port Authority Bus Terminal (1.60 km)
+6.  Union Square Park (1.29 km)
+7.  MoMA - Museum of Modern Art (1.88 km)
+8.  Apple Store (2.25 km)
+9.  Bryant Park (1.01 km)
+10.  Union Square Greenmarket (1.16 km)
+
+These representative POIs are popular attractions in the area, suggesting that Umi Sushi is situated in a desirable location for both locals and tourists.
+
+**Conclusion**
+
+Umi Sushi is situated in a lively and densely populated area with a variety of nearby POIs. The restaurant's proximity to popular attractions and entertainment venues makes it an attractive location for customers looking for a convenient dining experience. The surrounding environment suggests a high demand for food and drink services, making Umi Sushi a suitable location for a sushi restaurant.

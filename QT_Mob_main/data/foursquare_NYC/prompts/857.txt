@@ -1,0 +1,6 @@
+The name of this location is "Clara Maass Medical Center" and its POI category is Medical Center, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.78514256, -74.17647257), with the corresponding geohash code dr7200dqdvth.
+The address is 1 Clara Maass Dr, Belleville, NJ 07109, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Medical Center, 1(avg: 1); Gym, 1(avg: 25); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Clara Maass Medical Center, distance 0.06 km; Retro Fitness, distance 2.01 km; NJ Transit Rail - Bloomfield Station, distance 2.16 km.
+The 10 representative nearby POIs and their distances are: NJ Transit Rail - Bloomfield Station, distance 2.16 km; Retro Fitness, distance 2.01 km; Clara Maass Medical Center, distance 0.06 km.

@@ -1,0 +1,6 @@
+The name of this location is "Riverview East" and its POI category is Burger Joint, belonging to the parent category Food.
+The geographic coordinates for this location are (40.90634572, -74.12985407), with the corresponding geohash code dr729nu29pw3.
+The address is 455 River Dr, Elmwood Park, NJ 07407, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Electronics Store, 1(avg: 5); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Micro Center, distance 0.40 km; I-80 -- Bergen/Passaic, distance 1.86 km.
+The 10 representative nearby POIs and their distances are: I-80 -- Bergen/Passaic, distance 1.86 km; Micro Center, distance 0.40 km.

@@ -1,0 +1,6 @@
+The name of this location is "Xanadu‎ Meadowlands" and its POI category is Shopping Mall, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.80991152, -74.06785011), with the corresponding geohash code dr724t1qynbh.
+The address is 1 American Dream Wy Space D231, East Rutherford, NJ 07073, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Basketball Stadium, 1(avg: 1); Beer Garden, 1(avg: 4); Music Venue, 1(avg: 10).
+The 10 nearest POIs and their distances are: IZOD Center, distance 0.20 km; New Meadowlands Stadium, distance 0.69 km; The Bamboozle Festival 2011, distance 0.84 km.
+The 10 representative nearby POIs and their distances are: New Meadowlands Stadium, distance 0.69 km; IZOD Center, distance 0.20 km; The Bamboozle Festival 2011, distance 0.84 km.

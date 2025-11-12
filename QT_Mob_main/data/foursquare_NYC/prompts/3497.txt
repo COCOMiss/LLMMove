@@ -1,0 +1,6 @@
+The name of this location is "Belmont Park Racetrack" and its POI category is Other Great Outdoors, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.71202034, -73.72373343), with the corresponding geohash code dr5xd7kh8qxu.
+The address is 2150 Hempstead Turnpike, Elmont, NY 11001, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Other Great Outdoors, 1(avg: 13); Light Rail Station, 1(avg: 1).
+The 10 nearest POIs and their distances are: Belmont Park Racetrack, distance 0.10 km; LIRR - Floral Park Station, distance 2.03 km.
+The 10 representative nearby POIs and their distances are: Belmont Park Racetrack, distance 0.10 km; LIRR - Floral Park Station, distance 2.03 km.

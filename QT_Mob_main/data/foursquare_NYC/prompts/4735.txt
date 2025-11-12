@@ -1,0 +1,6 @@
+The name of this location is "Howard Beach" and its POI category is Beach, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.6586665, -73.84919643), with the corresponding geohash code dr5rr98tvhb0.
+The address is 158-29 83rd St, Jamaica, NY 11414, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Beach, 1(avg: 1); Coffee Shop, 1(avg: 63); Train, 1(avg: 4); Light Rail Station, 1(avg: 1); Department Store, 1(avg: 4); Electronics Store, 1(avg: 5).
+The 10 nearest POIs and their distances are: Howard Beach, distance 0.00 km; Starbucks, distance 0.83 km; MTA - Howard Beach - JFK Station, distance 1.63 km; JFK AirTrain - Howard Beach, distance 1.68 km; Target, distance 1.88 km; Best Buy, distance 2.13 km; MTA - 80-Hudson Street Subway - A, distance 2.43 km; MTA - Rockaway Boulevard Subway Station (A), distance 2.47 km.
+The 10 representative nearby POIs and their distances are: JFK AirTrain - Howard Beach, distance 1.68 km; MTA - Rockaway Boulevard Subway Station (A), distance 2.47 km; Target, distance 1.88 km; Starbucks, distance 0.83 km; MTA - Howard Beach - JFK Station, distance 1.63 km; Howard Beach, distance 0.00 km; MTA - 80-Hudson Street Subway - A, distance 2.43 km; Best Buy, distance 2.13 km.

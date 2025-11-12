@@ -1,0 +1,6 @@
+The name of this location is "Botulli's Catering Food Truck" and its POI category is Italian Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.67342077, -73.73306215), with the corresponding geohash code dr5x6hm5z55v.
+The address is 134-15 241st St, Jamaica, NY 11422, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1).
+The 10 nearest POIs and their distances are: Green Acres Mall, distance 1.66 km.
+The 10 representative nearby POIs and their distances are: Green Acres Mall, distance 1.66 km.

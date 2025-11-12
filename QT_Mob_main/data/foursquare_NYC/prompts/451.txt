@@ -1,0 +1,6 @@
+The name of this location is "Terminal C" and its POI category is Airport Terminal, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.69576976, -74.17732716), with the corresponding geohash code dr5r803wncrf.
+The address is Terminal C, Newark, NJ 07114, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Airport Terminal, 2(avg: 3); Lounge, 1(avg: 35); Plane, 1(avg: 1); Building, 1(avg: 13); Train, 1(avg: 4); Department Store, 1(avg: 4).
+The 10 nearest POIs and their distances are: Terminal C, distance 0.00 km; Continental Airlines President's Club, distance 0.07 km; Newark Liberty International Airport (EWR), distance 0.43 km; Newark Liberty International Airport - Building One, distance 0.54 km; Terminal B, distance 0.58 km; NJ Transit Rail - Newark Airport Station, distance 1.48 km; IKEA, distance 2.39 km.
+The 10 representative nearby POIs and their distances are: Newark Liberty International Airport (EWR), distance 0.43 km; Terminal C, distance 0.00 km; IKEA, distance 2.39 km; NJ Transit Rail - Newark Airport Station, distance 1.48 km; Continental Airlines President's Club, distance 0.07 km; Terminal B, distance 0.58 km; Newark Liberty International Airport - Building One, distance 0.54 km.

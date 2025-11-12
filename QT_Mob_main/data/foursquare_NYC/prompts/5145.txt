@@ -1,0 +1,6 @@
+The name of this location is "Mangiamo! Pizza & Restaurant" and its POI category is Italian Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.95575677, -74.07437325), with the corresponding geohash code dr72fru8tfrv.
+The address is 501 NJ-17, Paramus, NJ 07652, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 2(avg: 9); Coffee Shop, 2(avg: 63); Shopping Mall, 1(avg: 1); Office, 1(avg: 72); Community College, 1(avg: 1).
+The 10 nearest POIs and their distances are: Paramus Park Mall, distance 0.46 km; CUnet Headquarters, distance 0.68 km; Trader Joe's, distance 0.89 km; Starbucks, distance 1.10 km; Fairway Market, distance 1.25 km; Bergen Community College, distance 1.36 km; Starbucks, distance 2.56 km.
+The 10 representative nearby POIs and their distances are: Bergen Community College, distance 1.36 km; Paramus Park Mall, distance 0.46 km; Fairway Market, distance 1.25 km; Starbucks, distance 1.10 km; CUnet Headquarters, distance 0.68 km; Starbucks, distance 2.56 km; Trader Joe's, distance 0.89 km.

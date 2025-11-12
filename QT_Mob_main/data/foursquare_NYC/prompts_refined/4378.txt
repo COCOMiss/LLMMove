@@ -1,0 +1,60 @@
+**Wyckoff Heights Medical Center Location Analysis**
+
+**Overview**
+
+Wyckoff Heights Medical Center is a hospital located in Brooklyn, New York, USA. The location is situated at 374 Stockholm St, Brooklyn, NY 11237, with geographic coordinates (40.70385487, -73.91794682). This analysis will provide an overview of the surrounding area, highlighting the nearby points-of-interest (POIs) and their categories.
+
+**Nearby Points-of-Interest (POIs)**
+
+The top 10 nearby POIs are categorized as follows:
+
+1.  **Bar** (7) - Average rating: 124
+2.  **Metro Station** (6) - Average rating: 19
+3.  **Train Station** (3) - Average rating: 5
+4.  **Hospital** (2) - Average rating: 2 (This is the location itself)
+5.  **American Restaurant** (2) - Average rating: 51
+6.  **Café** (2) - Average rating: 42
+7.  **Mexican Restaurant** (1) - Average rating: 28
+8.  **Art Gallery** (1) - Average rating: 5
+9.  **Deli / Bodega** (1) - Average rating: 10
+10. **Pizza Place** (1) - Average rating: 20
+
+These POIs indicate a diverse range of amenities and services available in the surrounding area, catering to various needs and preferences.
+
+**Nearest POIs**
+
+The 10 nearest POIs to Wyckoff Heights Medical Center are:
+
+1.  **Wyckoff Heights Medical Center** (0.00 km)
+2.  **Tortilleria Mexicana Tres Hermanos** (0.46 km)
+3.  **Northeast Kingdom** (0.50 km)
+4.  **MTA - Myrtle-Wyckoff (L/M)** (0.75 km)
+5.  **Tandem** (0.77 km)
+6.  **Brooklyn Fire Proof East** (1.05 km)
+7.  **MTA - Morgan Ave (L)** (1.21 km)
+8.  **Pine Box Rock Shop** (1.26 km)
+9.  **Life Cafe 983** (1.31 km)
+10. **Little Skips** (1.32 km)
+
+These nearby POIs suggest a mix of local businesses, transportation options, and entertainment venues.
+
+**Representative POIs**
+
+The 10 representative nearby POIs are:
+
+1.  **Roberta's Pizza** (1.34 km)
+2.  **MTA - Myrtle Ave/Broadway J/M/Z** (1.65 km)
+3.  **Legion** (2.39 km)
+4.  **MTA - Myrtle-Wyckoff (L/M)** (0.75 km)
+5.  **Kosciuszko Bridge** (2.83 km)
+6.  **Duck Duck** (2.14 km)
+7.  **Tandem** (0.77 km)
+8.  **Brooklyn's Natural** (1.33 km)
+9.  **Beauty Bar Brooklyn** (1.67 km)
+10. **MTA Utica Avenue Train Station A/C** (2.89 km)
+
+These representative POIs highlight popular destinations and attractions in the area, offering a range of options for dining, entertainment, and transportation.
+
+**Conclusion**
+
+Wyckoff Heights Medical Center is located in a vibrant and diverse area of Brooklyn, with a mix of local businesses, transportation options, and entertainment venues. The surrounding POIs cater to various needs and preferences, making it an attractive location for residents and visitors alike.

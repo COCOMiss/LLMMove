@@ -1,0 +1,35 @@
+**Location Analysis: Algieris Pizza**
+
+**Overview**
+
+Algieris Pizza is a pizza place located at 502 Union Ave, Belleville, NJ 07109, USA. The location has a geohash code of dr720edd775b and geographic coordinates of (40.80087841, -74.15413678).
+
+**Proximity to Nearby Points-of-Interest (POIs)**
+
+Algieris Pizza is situated in a residential and commercial area, with a mix of nearby POIs that cater to various needs. The top 10 nearby POIs, based on their categories and average counts, indicate a predominantly residential area with some commercial establishments.
+
+1.  **Gym / Fitness Center**: 1 instance (avg: 7) - Signature Fitness (0.81 km)
+2.  **Gym**: 1 instance (avg: 25) - Retro Fitness (1.33 km)
+3.  **Home (private)**: 1 instance (avg: 14) - Riverwatch Condos (1.61 km)
+4.  **Grocery Store**: 1 instance (avg: 9) - ShopRite (2.34 km)
+5.  **Coffee Shop**: 1 instance (avg: 63) - Starbucks (2.46 km)
+6.  **Medical Center**: 1 instance (avg: 1) - Clara Maass Medical Center (2.51 km)
+
+The representative nearby POIs, which are the top 5 POIs based on their distances, are:
+
+1.  **Signature Fitness** (0.81 km)
+2.  **Starbucks** (2.46 km)
+3.  **Retro Fitness** (1.33 km)
+4.  **Clara Maass Medical Center** (2.51 km)
+5.  **ShopRite** (2.34 km)
+
+**Key Observations**
+
+- Algieris Pizza is close to a fitness center (Signature Fitness) and a gym (Retro Fitness), suggesting that the area is popular for health-conscious individuals.
+- The presence of a coffee shop (Starbucks) and a grocery store (ShopRite) indicates that the area has a good balance of amenities for daily needs.
+- The medical center (Clara Maass Medical Center) nearby provides access to healthcare services.
+- The residential area, represented by Riverwatch Condos, suggests a mix of residential and commercial properties.
+
+**Conclusion**
+
+Algieris Pizza is situated in a neighborhood with a mix of residential and commercial properties. The nearby POIs cater to various needs, including fitness, food, shopping, and healthcare. The location's proximity to these amenities makes it an attractive spot for residents and visitors alike.

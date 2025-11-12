@@ -1,0 +1,6 @@
+The name of this location is "Outback Steakhouse" and its POI category is American Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.7888437, -74.04461682), with the corresponding geohash code dr72516k5ref.
+The address is 455 Harmon Meadow Blvd., Secaucus, NJ 07094, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: College Gym, 1(avg: 2); Burger Joint, 1(avg: 17); American Restaurant, 1(avg: 51); Movie Theater, 1(avg: 5); Department Store, 1(avg: 4); Gym / Fitness Center, 1(avg: 7); Arcade, 1(avg: 3).
+The 10 nearest POIs and their distances are: LA fitness, distance 0.10 km; Cheeseburger in Paradise, distance 0.24 km; Houlihan's - Secaucus, distance 0.36 km; Kerasotes Showplace 14, distance 0.43 km; Walmart, distance 0.48 km; Bally Total Fitness, distance 1.67 km; Union City, distance 2.01 km.
+The 10 representative nearby POIs and their distances are: Walmart, distance 0.48 km; Kerasotes Showplace 14, distance 0.43 km; Cheeseburger in Paradise, distance 0.24 km; Houlihan's - Secaucus, distance 0.36 km; LA fitness, distance 0.10 km; Union City, distance 2.01 km; Bally Total Fitness, distance 1.67 km.

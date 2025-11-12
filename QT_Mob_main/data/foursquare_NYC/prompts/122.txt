@@ -1,0 +1,6 @@
+The name of this location is "MTA - Howard Beach - JFK Station" and its POI category is Train, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.66047384, -73.83029109), with the corresponding geohash code dr5rrfn2mt8y.
+The address is Howard Beach - JFK Airport, Queens, NY, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train, 1(avg: 4); Light Rail Station, 1(avg: 1); Coffee Shop, 1(avg: 63); Beach, 1(avg: 1); Airport Tram, 1(avg: 1); Metro Station, 1(avg: 19).
+The 10 nearest POIs and their distances are: MTA - Howard Beach - JFK Station, distance 0.02 km; JFK AirTrain - Howard Beach, distance 0.08 km; Starbucks, distance 0.84 km; Howard Beach, distance 1.61 km; JFK AirTrain - Federal Circle Station, distance 2.26 km; MTA - Rockaway Boulevard Subway Station (A), distance 2.49 km.
+The 10 representative nearby POIs and their distances are: JFK AirTrain - Howard Beach, distance 0.08 km; JFK AirTrain - Federal Circle Station, distance 2.26 km; MTA - Rockaway Boulevard Subway Station (A), distance 2.49 km; Starbucks, distance 0.84 km; MTA - Howard Beach - JFK Station, distance 0.02 km; Howard Beach, distance 1.61 km.

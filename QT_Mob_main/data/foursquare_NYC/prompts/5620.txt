@@ -1,0 +1,6 @@
+The name of this location is "A&P" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.85601972, -73.96592617), with the corresponding geohash code dr72kveet404.
+The address is 2151 Hudson St, Fort Lee, NJ 07024, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 3(avg: 1); Bus Station, 1(avg: 1).
+The 10 nearest POIs and their distances are: Bridge Plaza, distance 0.24 km; George Washington Bridge Toll Plaza, distance 0.31 km; New York/New Jersey State Line, distance 1.26 km; George Washington Bridge, distance 1.28 km.
+The 10 representative nearby POIs and their distances are: George Washington Bridge, distance 1.28 km; George Washington Bridge Toll Plaza, distance 0.31 km; Bridge Plaza, distance 0.24 km; New York/New Jersey State Line, distance 1.26 km.

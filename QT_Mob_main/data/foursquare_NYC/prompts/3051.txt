@@ -1,0 +1,6 @@
+The name of this location is "Palisades Park, NJ" and its POI category is Park, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.84816411, -73.99766207), with the corresponding geohash code dr72khhtc3xy.
+The address is Broad Ave at West Central Blvd, Palisades Park, NJ 07650, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are:.
+The 10 nearest POIs and their distances are:.
+The 10 representative nearby POIs and their distances are:.

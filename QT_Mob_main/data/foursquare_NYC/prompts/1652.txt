@@ -1,0 +1,6 @@
+The name of this location is "Metro North - Yonkers Train Station" and its POI category is Train, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.935651, -73.902079), with the corresponding geohash code dr72yk45kwrv.
+The address is 1-9 Buena Vista Ave, Yonkers, NY 10701, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train, 1(avg: 4); Road, 1(avg: 1); University, 1(avg: 5).
+The 10 nearest POIs and their distances are: Metro North - Yonkers Train Station, distance 0.05 km; Palisades Interstate Parkway, distance 1.89 km; College of Mount Saint Vincent, distance 2.60 km.
+The 10 representative nearby POIs and their distances are: Metro North - Yonkers Train Station, distance 0.05 km; Palisades Interstate Parkway, distance 1.89 km; College of Mount Saint Vincent, distance 2.60 km.

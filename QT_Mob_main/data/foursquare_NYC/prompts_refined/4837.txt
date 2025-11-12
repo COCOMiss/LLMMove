@@ -1,0 +1,64 @@
+**Location Analysis: Court Deli**
+
+**Overview**
+
+The Court Deli is a deli/bodega located at 96 E 161st St, Bronx, NY 10451, USA. With a geohash code of dr72mb65488q and geographic coordinates (40.8270873, -73.92414762), this location is situated in the heart of the Bronx, a borough in New York City.
+
+**Neighborhood and Surroundings**
+
+The Court Deli is surrounded by various points of interest, including:
+
+1. **Metro Station**: The nearest metro station is MTA Subway - 161st St/Yankee Stadium (4/B/D), located just 0.18 km away.
+2. **Hospital**: The nearest hospital is Bronx County Supreme Court, situated 0.09 km away.
+3. **Train Station**: The Metro North - Yankees E. 153rd Street Train Station is 0.53 km away.
+4. **Sports Venues**: The iconic Yankee Stadium is 0.36 km away, and Stan's Sports Bar is 0.19 km away.
+5. **Shopping**: Target is 0.63 km away, offering a range of retail options.
+
+**POI Categories and Frequencies**
+
+The top 10 nearby POI categories and their counts are:
+
+1. Metro Station (7)
+2. Hospital (4)
+3. Train Station (3)
+4. Bar (2)
+5. Coffee Shop (2)
+6. Government Building (1)
+7. Sports Bar (1)
+8. American Restaurant (1)
+9. Stadium (1)
+10. Light Rail Station (1)
+
+**Key POIs**
+
+The 10 nearest POIs and their distances are:
+
+1. Bronx County Supreme Court (0.09 km)
+2. Dugout (0.17 km)
+3. Billy's Sports Bar (0.17 km)
+4. MTA Subway - 161st St/Yankee Stadium (4/B/D) (0.18 km)
+5. Stan's Sports Bar (0.19 km)
+6. Hard Rock Cafe Yankee Stadium (0.22 km)
+7. Yankee Stadium (0.36 km)
+8. Metro North - Yankees E. 153rd Street Train Station (0.53 km)
+9. Target (0.63 km)
+10. MTA Subway - 3rd Ave / 149th St Station (2 5) (1.32 km)
+
+**Representative POIs**
+
+The 10 representative nearby POIs and their distances are:
+
+1. Yankee Stadium (0.36 km)
+2. Metro North - Harlem 125th Station (2.75 km)
+3. MTA Subway - 161st St/Yankee Stadium (4/B/D) (0.18 km)
+4. The City College of New York (2.34 km)
+5. New York Presbyterian - Columbia University Medical Center (2.07 km)
+6. New York Sports Club (1.58 km)
+7. Stan's Sports Bar (0.19 km)
+8. Port Authority - GWB Bus Terminal (2.70 km)
+9. MTA Subway - 157th Street (1) (1.91 km)
+10. MTA Subway - 125 St (4/5/6) (2.76 km)
+
+**Insights**
+
+The Court Deli is situated in a densely populated area with a mix of residential, commercial, and recreational spaces. The nearby POIs suggest a vibrant and lively atmosphere, with various options for food, entertainment, and transportation. The proximity to Yankee Stadium and other sports venues makes it an ideal location for sports enthusiasts. The availability of hospitals and medical centers nearby ensures that residents and visitors have access to quality healthcare services. Overall, the Court Deli is a convenient and accessible location for those living or visiting the Bronx.

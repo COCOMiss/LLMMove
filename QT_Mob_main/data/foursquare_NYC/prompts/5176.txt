@@ -1,0 +1,6 @@
+The name of this location is "MTA - Broad Channel Subway Station" and its POI category is Metro Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.60837737, -73.81592631), with the corresponding geohash code dr5x028buq0n.
+The address is 616 W Rd, Broad Channel, NY 11693, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Mexican Restaurant, 1(avg: 28).
+The 10 nearest POIs and their distances are: Rockaway Taco, distance 2.53 km.
+The 10 representative nearby POIs and their distances are: Rockaway Taco, distance 2.53 km.

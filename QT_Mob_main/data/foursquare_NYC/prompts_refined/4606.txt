@@ -1,0 +1,56 @@
+**Location Analysis: Victoria's Secret**
+
+**Overview**
+
+Victoria's Secret is a women's store located at 34 St-Herald Sq, New York, NY 10001, USA. It falls under the category of Shop & Service, specifically Women's Store. The location has a geohash code of dr5ru67c7kxz and geographic coordinates (40.74990427, -73.98762002).
+
+**Geographic Context**
+
+Victoria's Secret is situated in the heart of New York City, specifically in the Herald Square area. The location is surrounded by various points of interest, including shopping centers, restaurants, and entertainment venues.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs, categorized and counted, are:
+
+1.  Bar (223, avg: 124)
+2.  Office (112, avg: 72)
+3.  Coffee Shop (112, avg: 63)
+4.  American Restaurant (99, avg: 51)
+5.  Café (76, avg: 42)
+6.  Lounge (55, avg: 35)
+7.  Mexican Restaurant (52, avg: 28)
+8.  Gym (48, avg: 25)
+9.  Hotel (47, avg: 28)
+10. Italian Restaurant (45, avg: 28)
+
+The 10 nearest POIs, listed in order of proximity, are:
+
+1.  H&M (0.01 km)
+2.  JCPenney (0.02 km)
+3.  Victoria's Secret (0.02 km)
+4.  Macy's Parade Celebrity Rehearsals (0.03 km)
+5.  Publicis NY (0.03 km)
+6.  Forever 21 (0.04 km)
+7.  Herald Square (0.04 km)
+8.  Gap (0.04 km)
+9.  Herald Towers (0.05 km)
+10. New York State DMV (0.06 km)
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs, listed in order of proximity, are:
+
+1.  New York Penn Station (0.43 km)
+2.  Madison Square Garden (0.39 km)
+3.  NBC Studio 1A - Today Show (1.17 km)
+4.  Times Square (0.71 km)
+5.  Port Authority Bus Terminal (0.88 km)
+6.  Union Square Park (1.65 km)
+7.  MoMA - Museum of Modern Art (1.53 km)
+8.  Apple Store (1.98 km)
+9.  Bryant Park (0.55 km)
+10. Lincoln Tunnel (2.42 km)
+
+**Insights**
+
+Victoria's Secret is situated in a bustling area with a high concentration of shopping centers, restaurants, and entertainment venues. The location is surrounded by various points of interest, making it an attractive destination for tourists and locals alike. The nearby POIs suggest a mix of shopping, dining, and entertainment options, catering to a diverse range of interests and preferences.

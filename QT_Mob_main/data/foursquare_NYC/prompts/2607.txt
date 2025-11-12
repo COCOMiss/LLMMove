@@ -1,0 +1,6 @@
+The name of this location is "Dunkin' Donuts" and its POI category is Donut Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.89847154, -73.85450962), with the corresponding geohash code dr72xmkfc5wj.
+The address is Nereid Av, Bronx, NY, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train, 1(avg: 4); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: MTA Subway - Woodlawn (4), distance 2.42 km; MTA Subway - Gun Hill Road (2/5), distance 2.51 km.
+The 10 representative nearby POIs and their distances are: MTA Subway - Woodlawn (4), distance 2.42 km; MTA Subway - Gun Hill Road (2/5), distance 2.51 km.

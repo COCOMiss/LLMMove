@@ -1,0 +1,6 @@
+The name of this location is "U.S. Route 46" and its POI category is Travel & Transport, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.88224162, -74.20962095), with the corresponding geohash code dr70x66hqd0n.
+The address is 218 Browertown Rd, Little Falls, NJ 07424, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Department Store, 1(avg: 4); Travel & Transport, 1(avg: 1); Diner, 1(avg: 9); American Restaurant, 1(avg: 51); Lounge, 1(avg: 35); College Communications Building, 1(avg: 1); College Auditorium, 1(avg: 1).
+The 10 nearest POIs and their distances are: Best Buy, distance 0.61 km; U.S. Route 46, distance 0.79 km; Six Brothers Diner, distance 1.61 km; Sonic Drive-In, distance 2.13 km; 46 Lounge, distance 2.18 km; University Hall, distance 2.37 km; Montclair State University, distance 2.55 km.
+The 10 representative nearby POIs and their distances are: Montclair State University, distance 2.55 km; University Hall, distance 2.37 km; Sonic Drive-In, distance 2.13 km; U.S. Route 46, distance 0.79 km; 46 Lounge, distance 2.18 km; Best Buy, distance 0.61 km; Six Brothers Diner, distance 1.61 km.

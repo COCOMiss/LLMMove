@@ -1,0 +1,6 @@
+The name of this location is "CVS Pharmacy" and its POI category is Pharmacy, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.80921402, -74.00200718), with the corresponding geohash code dr72hj16ukb5.
+The address is 9105 Bergenline Ave, North Bergen, NJ 07047, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 2(avg: 9); Coffee Shop, 2(avg: 63); Park, 1(avg: 8); Movie Theater, 1(avg: 5); Sandwich Place, 1(avg: 18); Department Store, 1(avg: 4); Food Court, 1(avg: 2).
+The 10 nearest POIs and their distances are: James L Braddock North Hudson County Park, distance 0.83 km; Edgewater Multiplex Cinemas, distance 1.02 km; Walmart Supercenter, distance 1.04 km; Panera Bread, distance 1.08 km; Starbucks, distance 1.52 km; Target, distance 1.73 km; Mitsuwa Marketplace, distance 1.98 km; Trader Joe's, distance 2.36 km; Starbucks, distance 2.95 km.
+The 10 representative nearby POIs and their distances are: Mitsuwa Marketplace, distance 1.98 km; Starbucks, distance 1.52 km; Walmart Supercenter, distance 1.04 km; Edgewater Multiplex Cinemas, distance 1.02 km; Starbucks, distance 2.95 km; Trader Joe's, distance 2.36 km; Target, distance 1.73 km; Panera Bread, distance 1.08 km; James L Braddock North Hudson County Park, distance 0.83 km.

@@ -1,0 +1,6 @@
+The name of this location is "Burger King" and its POI category is Fast Food Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.66768384, -73.7805748), with the corresponding geohash code dr5x356d7vxz.
+The address is Rockaway Blvd/N Conduit Av, Queens, NY 11434, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Airport Terminal, 3(avg: 3); Airport, 2(avg: 1); Airport Tram, 1(avg: 1); General Travel, 1(avg: 1); American Restaurant, 1(avg: 51); Plane, 1(avg: 1).
+The 10 nearest POIs and their distances are: Terminal 7, distance 2.05 km; JFK AirTrain - Federal Circle Station, distance 2.13 km; American Airlines Admirals Club, distance 2.31 km; Terminal 8, distance 2.42 km; JetBlue Lounge, distance 2.43 km; Terminal 5, distance 2.48 km; John F Kennedy International Airport (JFK), distance 2.52 km; Terminal 4, distance 2.67 km; JFK Runway, distance 2.81 km.
+The 10 representative nearby POIs and their distances are: John F Kennedy International Airport (JFK), distance 2.52 km; Terminal 5, distance 2.48 km; Terminal 8, distance 2.42 km; Terminal 4, distance 2.67 km; Terminal 7, distance 2.05 km; American Airlines Admirals Club, distance 2.31 km; JFK AirTrain - Federal Circle Station, distance 2.13 km; JetBlue Lounge, distance 2.43 km; JFK Runway, distance 2.81 km.

@@ -1,0 +1,6 @@
+The name of this location is "Target" and its POI category is Department Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.80179056, -74.02150154), with the corresponding geohash code dr725eepwj01.
+The address is 7101 Tonnelle Ave, North Bergen, NJ 07047, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 1(avg: 9); Park, 1(avg: 8); Department Store, 1(avg: 4); College Gym, 1(avg: 2); Road, 1(avg: 1); Coffee Shop, 1(avg: 63); Asian Restaurant, 1(avg: 18).
+The 10 nearest POIs and their distances are: Walmart Supercenter, distance 1.44 km; James L Braddock North Hudson County Park, distance 1.92 km; Walmart, distance 2.00 km; LA fitness, distance 2.32 km; Vince Lombardi Service Area, distance 2.40 km; Starbucks, distance 2.42 km; P.F. Chang's, distance 2.60 km.
+The 10 representative nearby POIs and their distances are: Walmart, distance 2.00 km; Walmart Supercenter, distance 1.44 km; Vince Lombardi Service Area, distance 2.40 km; P.F. Chang's, distance 2.60 km; Starbucks, distance 2.42 km; LA fitness, distance 2.32 km; James L Braddock North Hudson County Park, distance 1.92 km.

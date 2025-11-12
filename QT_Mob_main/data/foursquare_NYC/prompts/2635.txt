@@ -1,0 +1,6 @@
+The name of this location is "Houlihan's" and its POI category is American Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.6680419, -74.10415649), with the corresponding geohash code dr5r3erh802p.
+The address is 1 Lefante Way, Bayonne, NJ 07002, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Bar, 1(avg: 124).
+The 10 nearest POIs and their distances are: Forum Fitness Club, distance 1.17 km; Adobe Blues Restaurant and Bar, distance 2.84 km.
+The 10 representative nearby POIs and their distances are: Forum Fitness Club, distance 1.17 km; Adobe Blues Restaurant and Bar, distance 2.84 km.

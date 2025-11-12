@@ -1,0 +1,6 @@
+The name of this location is "Canarsie Pier" and its POI category is Scenic Lookout, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.63103757, -73.88500801), with the corresponding geohash code dr5rnswsfw2g.
+The address is Shore Parkway Bike Connector, Shore Pkwy, Brooklyn, NY 11236, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 1(avg: 19); Electronics Store, 1(avg: 5); Department Store, 1(avg: 4).
+The 10 nearest POIs and their distances are: MTA - Canarsie/Rockaway Pkwy (L), distance 2.24 km; Best Buy, distance 2.50 km; Target, distance 2.73 km.
+The 10 representative nearby POIs and their distances are: Target, distance 2.73 km; MTA - Canarsie/Rockaway Pkwy (L), distance 2.24 km; Best Buy, distance 2.50 km.

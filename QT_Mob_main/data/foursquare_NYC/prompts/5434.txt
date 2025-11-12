@@ -1,0 +1,6 @@
+The name of this location is "Subway - Englewood" and its POI category is Sandwich Place, belonging to the parent category Food.
+The geographic coordinates for this location are (40.89652821, -73.97421323), with the corresponding geohash code dr72ssvxeckt.
+The address is 59 Nathaniel Pl, Englewood, NJ 07631, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Coffee Shop, 1(avg: 63); Medical Center, 1(avg: 1).
+The 10 nearest POIs and their distances are: Starbucks, distance 0.30 km; Englewood Hospital & Medical Center, distance 0.98 km.
+The 10 representative nearby POIs and their distances are: Starbucks, distance 0.30 km; Englewood Hospital & Medical Center, distance 0.98 km.

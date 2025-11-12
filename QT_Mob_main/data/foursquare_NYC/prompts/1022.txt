@@ -1,0 +1,6 @@
+The name of this location is "Pequeña" and its POI category is Mexican Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.6794709, -73.968224), with the corresponding geohash code dr5rkv3zp7n8.
+The address is Vanderbilt Av/Bergen St, Brooklyn, NY 11238, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bar, 34(avg: 124); Coffee Shop, 21(avg: 63); Gym, 12(avg: 25); Metro Station, 12(avg: 19); Sandwich Place, 9(avg: 18); Mexican Restaurant, 8(avg: 28); Burger Joint, 7(avg: 17); Breakfast Spot, 6(avg: 20); American Restaurant, 6(avg: 51); Bookstore, 6(avg: 7).
+The 10 nearest POIs and their distances are: Beast, distance 0.01 km; The Vanderbilt, distance 0.03 km; Pequeña, distance 0.03 km; Branded Saloon, distance 0.04 km; Woodwork, distance 0.06 km; Weather Up, distance 0.06 km; Soda Bar, distance 0.13 km; Cornelius, distance 0.16 km; Milk Bar, distance 0.20 km; James, distance 0.30 km.
+The 10 representative nearby POIs and their distances are: Brooklyn Museum, distance 0.96 km; Prospect Park, distance 1.99 km; Target, distance 0.97 km; The Bell House, distance 2.09 km; Trader Joe's, distance 2.35 km; Connecticut Muffin, distance 1.52 km; Pizza Town, distance 0.81 km; Union Hall, distance 1.07 km; Soda Bar, distance 0.13 km; Fort Greene Park, distance 1.48 km.

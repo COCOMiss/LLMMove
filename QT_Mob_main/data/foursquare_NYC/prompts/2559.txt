@@ -1,0 +1,6 @@
+The name of this location is "Walgreens" and its POI category is Department Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.61742186, -74.03377533), with the corresponding geohash code dr5r564jxupz.
+The address is 284 95th St, Brooklyn, NY 11209, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 2(avg: 1); Metro Station, 1(avg: 19); Donut Shop, 1(avg: 2); New American Restaurant, 1(avg: 6); Department Store, 1(avg: 4); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: MTA - R - 95th Street-Bay Ridge, distance 0.29 km; Dunkin Donuts - 4th Ave Bay Ridge, distance 0.30 km; Cebu, distance 0.54 km; Century 21 - Brooklyn, distance 0.76 km; New York Sports Club, distance 0.77 km; Verrazano-Narrows Bridge, distance 1.49 km; Bay Ridge, Brooklyn, distance 1.53 km.
+The 10 representative nearby POIs and their distances are: Verrazano-Narrows Bridge, distance 1.49 km; Bay Ridge, Brooklyn, distance 1.53 km; MTA - R - 95th Street-Bay Ridge, distance 0.29 km; New York Sports Club, distance 0.77 km; Century 21 - Brooklyn, distance 0.76 km; Dunkin Donuts - 4th Ave Bay Ridge, distance 0.30 km; Cebu, distance 0.54 km.

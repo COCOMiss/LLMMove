@@ -1,0 +1,6 @@
+The name of this location is "Metro North - New Rochelle Train Station" and its POI category is Train Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.91095047, -73.78409386), with the corresponding geohash code dr789p859czv.
+The address is New Rochelle, 1 Penn Central Railroad, New Rochelle, NY 10801, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 2(avg: 5); American Restaurant, 1(avg: 51); Multiplex, 1(avg: 4); Movie Theater, 1(avg: 5); University, 1(avg: 5).
+The 10 nearest POIs and their distances are: Metro North - New Rochelle Train Station, distance 0.00 km; Buffalo Wild Wings, distance 0.34 km; Regal Cinemas New Roc City Stadium 18 + IMAX, distance 0.35 km; New Roc City, distance 0.35 km; Iona College, distance 1.72 km; Metro North - Pelham Train Station, distance 2.20 km.
+The 10 representative nearby POIs and their distances are: Metro North - New Rochelle Train Station, distance 0.00 km; Metro North - Pelham Train Station, distance 2.20 km; Regal Cinemas New Roc City Stadium 18 + IMAX, distance 0.35 km; Buffalo Wild Wings, distance 0.34 km; New Roc City, distance 0.35 km; Iona College, distance 1.72 km.

@@ -1,0 +1,6 @@
+The name of this location is "Douglaston Parkway" and its POI category is Road, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.76305616, -73.74328136), with the corresponding geohash code dr5xcuty102j.
+The address is 46-32 Douglaston Pkwy, Flushing, NY 11362, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 1(avg: 5); College Communications Building, 1(avg: 1); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: LIRR - Douglaston Station, distance 0.76 km; Queensborough Community College, distance 1.45 km; Cross Island Parkway, distance 2.39 km.
+The 10 representative nearby POIs and their distances are: Queensborough Community College, distance 1.45 km; Cross Island Parkway, distance 2.39 km; LIRR - Douglaston Station, distance 0.76 km.

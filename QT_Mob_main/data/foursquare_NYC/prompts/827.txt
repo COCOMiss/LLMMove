@@ -1,0 +1,6 @@
+The name of this location is "Francis Lewis Boulevard" and its POI category is Road, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.78016772, -73.80259037), with the corresponding geohash code dr5xbxf9en0p.
+The address is 2014 Francis Lewis Blvd, Whitestone, NY 11357, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Deli / Bodega, 1(avg: 10); American Restaurant, 1(avg: 51); Shopping Mall, 1(avg: 1); Road, 1(avg: 1); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Cherry Valley Deli & Grill, distance 1.46 km; Panera Bread, distance 2.23 km; Bay Terrace Shopping Center, distance 2.26 km; Throgs Neck Bridge, distance 2.32 km; LIRR - Auburndale Station, distance 2.34 km.
+The 10 representative nearby POIs and their distances are: Throgs Neck Bridge, distance 2.32 km; Bay Terrace Shopping Center, distance 2.26 km; Cherry Valley Deli & Grill, distance 1.46 km; Panera Bread, distance 2.23 km; LIRR - Auburndale Station, distance 2.34 km.

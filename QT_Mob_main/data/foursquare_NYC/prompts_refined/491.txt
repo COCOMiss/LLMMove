@@ -1,0 +1,49 @@
+**Location Analysis: Del Posto**
+
+Del Posto is an Italian restaurant located at 85 10th Ave, New York, NY 10011, USA. The geographic coordinates of the location are (40.74348541, -74.00755405), which corresponds to the geohash code dr5rgcjk500j.
+
+**POI Analysis**
+
+Del Posto is categorized as an Italian Restaurant, which is the 4th most common type of POI in the area, with an average count of 28. The top 5 most common POI categories in the area are:
+
+1. Bar (187, avg: 124)
+2. American Restaurant (93, avg: 51)
+3. Office (88, avg: 72)
+4. Italian Restaurant (42, avg: 28)
+5. Coffee Shop (87, avg: 63)
+
+**Nearest POIs**
+
+The 10 nearest POIs to Del Posto are:
+
+1. Del Posto (0.00 km)
+2. Colicchio & Sons (0.01 km)
+3. Equinox (0.04 km)
+4. Publicis Modem USA (0.04 km)
+5. Morimoto (0.05 km)
+6. Artichoke Basille's Pizza (0.09 km)
+7. 1 Oak (0.11 km)
+8. Avenue (0.11 km)
+9. The Park (0.13 km)
+10. Highline Ballroom (0.15 km)
+
+**Representative POIs**
+
+The 10 representative POIs in the area, which are farther away from Del Posto, are:
+
+1. New York Penn Station (1.51 km)
+2. Madison Square Garden (1.49 km)
+3. Times Square (2.27 km)
+4. Port Authority Bus Terminal (2.04 km)
+5. Union Square Park (1.69 km)
+6. Bryant Park (2.32 km)
+7. Lincoln Tunnel (2.16 km)
+8. Union Square Greenmarket (1.63 km)
+9. Madison Square Park (1.67 km)
+10. Macy's (1.79 km)
+
+These representative POIs are likely popular tourist attractions or major transportation hubs, which may influence the foot traffic and customer base of Del Posto.
+
+**Conclusion**
+
+Del Posto is a prominent Italian restaurant in the heart of New York City, with a high concentration of food and entertainment POIs in the surrounding area. The nearby POIs suggest a vibrant and bustling neighborhood with a mix of restaurants, bars, and office spaces. The representative POIs indicate that Del Posto is located in a strategic area with easy access to major transportation hubs and tourist attractions.

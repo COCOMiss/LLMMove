@@ -1,0 +1,6 @@
+The name of this location is "South Ozone Park, NY" and its POI category is Other Great Outdoors, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.67002749, -73.81902695), with the corresponding geohash code dr5x25y85fxg.
+The address is 121-04 135th Ave, Jamaica, NY 11420, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Light Rail Station, 1(avg: 1); Train, 1(avg: 4); Airport Tram, 1(avg: 1); Coffee Shop, 1(avg: 63); Metro Station, 1(avg: 19); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: JFK AirTrain - Howard Beach, distance 1.35 km; MTA - Howard Beach - JFK Station, distance 1.43 km; JFK AirTrain - Federal Circle Station, distance 1.74 km; Starbucks, distance 2.02 km; MTA - Rockaway Boulevard Subway Station (A), distance 2.39 km; Van Wyck Expressway, distance 2.69 km.
+The 10 representative nearby POIs and their distances are: JFK AirTrain - Howard Beach, distance 1.35 km; Van Wyck Expressway, distance 2.69 km; JFK AirTrain - Federal Circle Station, distance 1.74 km; MTA - Rockaway Boulevard Subway Station (A), distance 2.39 km; Starbucks, distance 2.02 km; MTA - Howard Beach - JFK Station, distance 1.43 km.

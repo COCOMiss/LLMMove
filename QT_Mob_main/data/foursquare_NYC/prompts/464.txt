@@ -1,0 +1,6 @@
+The name of this location is "Hot Bird" and its POI category is Beer Garden, belonging to the parent category Nightlife Spot.
+The geographic coordinates for this location are (40.68183918, -73.96677481), with the corresponding geohash code dr5rkvghchrp.
+The address is 825 Atlantic Ave, Brooklyn, NY 11238, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bar, 32(avg: 124); Coffee Shop, 20(avg: 63); Gym, 10(avg: 25); Metro Station, 10(avg: 19); Sandwich Place, 8(avg: 18); Mexican Restaurant, 7(avg: 28); American Restaurant, 6(avg: 51); Breakfast Spot, 6(avg: 20); Burger Joint, 6(avg: 17); Bookstore, 6(avg: 7).
+The 10 nearest POIs and their distances are: Hot Bird, distance 0.02 km; Cornelius, distance 0.13 km; Weather Up, distance 0.23 km; Woodwork, distance 0.23 km; Pequeña, distance 0.28 km; The Vanderbilt, distance 0.29 km; Beast, distance 0.30 km; Branded Saloon, distance 0.31 km; Soda Bar, distance 0.42 km; The Fulton Grand, distance 0.46 km.
+The 10 representative nearby POIs and their distances are: Brooklyn Museum, distance 1.17 km; Prospect Park, distance 2.26 km; Target, distance 0.96 km; The Bell House, distance 2.30 km; Trader Joe's, distance 2.34 km; Connecticut Muffin, distance 1.27 km; Pizza Town, distance 0.95 km; Union Hall, distance 1.29 km; Soda Bar, distance 0.42 km; Fort Greene Park, distance 1.31 km.

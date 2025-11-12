@@ -1,0 +1,6 @@
+The name of this location is "Pickles & Pies Food Market & Deli" and its POI category is Deli / Bodega, belonging to the parent category Food.
+The geographic coordinates for this location are (40.5799462, -73.83733749), with the corresponding geohash code dr5qzg373668.
+The address is 203 116 St, Rockaway Park, NY 11694, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Beach, 1(avg: 1); Mexican Restaurant, 1(avg: 28).
+The 10 nearest POIs and their distances are: Rockaway Beach, distance 0.67 km; Rockaway Taco, distance 1.80 km.
+The 10 representative nearby POIs and their distances are: Rockaway Beach, distance 0.67 km; Rockaway Taco, distance 1.80 km.

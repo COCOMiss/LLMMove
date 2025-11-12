@@ -1,0 +1,6 @@
+The name of this location is "Vince Lombardi Service Area" and its POI category is Road, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.82238338, -74.03017044), with the corresponding geohash code dr725rkzs5b4.
+The address is 166 NJ Tpke, Ridgefield, NJ 07657, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); Grocery Store, 1(avg: 9).
+The 10 nearest POIs and their distances are: Vince Lombardi Service Area, distance 0.00 km; Walmart Supercenter, distance 1.76 km.
+The 10 representative nearby POIs and their distances are: Walmart Supercenter, distance 1.76 km; Vince Lombardi Service Area, distance 0.00 km.

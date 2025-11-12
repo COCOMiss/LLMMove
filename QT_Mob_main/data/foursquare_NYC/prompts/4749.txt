@@ -1,0 +1,6 @@
+The name of this location is "ShopRite" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.83778432, -74.18405059), with the corresponding geohash code dr70rfkc66f8.
+The address is 1409 Broad St, Bloomfield, NJ 07003, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 1(avg: 9); Baseball Field, 1(avg: 1); Taco Place, 1(avg: 4); Road, 1(avg: 1); Bar, 1(avg: 124); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: ShopRite, distance 0.03 km; Brookdale Park, distance 0.63 km; Chipotle Mexican Grill, distance 1.72 km; NJ Route 3, distance 1.90 km; Bliss Lounge, distance 1.98 km; Starbucks, distance 2.05 km.
+The 10 representative nearby POIs and their distances are: NJ Route 3, distance 1.90 km; Bliss Lounge, distance 1.98 km; Chipotle Mexican Grill, distance 1.72 km; Brookdale Park, distance 0.63 km; Starbucks, distance 2.05 km; ShopRite, distance 0.03 km.

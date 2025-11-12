@@ -1,0 +1,47 @@
+**Location Analysis: Dunkin' Donuts, New Rochelle, NY 10801**
+
+**Overview**
+
+The Dunkin' Donuts located at 99 E Main St, New Rochelle, NY 10801, USA, is a popular donut shop situated in the heart of New Rochelle. This location falls under the parent category of Food, specifically a Donut Shop.
+
+**Geographic Coordinates and Address**
+
+The geographic coordinates for this Dunkin' Donuts are (40.91802034, -73.76782894), with the corresponding geohash code dr78c2gutpb4. The address is easily accessible at 99 E Main St, making it a convenient location for locals and visitors alike.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs and their counts are:
+
+1.  Train Station (2) - avg: 5
+2.  Movie Theater (1) - avg: 5
+3.  American Restaurant (1) - avg: 51
+4.  Multiplex (1) - avg: 4
+5.  University (1) - avg: 5
+
+The 10 nearest POIs and their distances are:
+
+1.  New Roc City - 1.26 km
+2.  Buffalo Wild Wings - 1.26 km
+3.  Regal Cinemas New Roc City Stadium 18 + IMAX - 1.31 km
+4.  Metro North - New Rochelle Train Station - 1.58 km
+5.  Metro North - Larchmont Train Station - 1.86 km
+6.  Iona College - 1.87 km
+
+The 10 representative nearby POIs and their distances are:
+
+1.  Metro North - New Rochelle Train Station - 1.58 km
+2.  Metro North - Larchmont Train Station - 1.86 km
+3.  Regal Cinemas New Roc City Stadium 18 + IMAX - 1.31 km
+4.  Buffalo Wild Wings - 1.26 km
+5.  New Roc City - 1.26 km
+6.  Iona College - 1.87 km
+
+**Analysis**
+
+The Dunkin' Donuts location in New Rochelle appears to be situated in a densely populated area with various nearby amenities. The presence of multiple train stations, a movie theater, and a university within a short distance suggests that the location is well-connected and convenient for commuters and students.
+
+The nearby POIs also indicate a mix of entertainment, dining, and education options, making it an attractive location for both locals and visitors. The proximity to the train stations and university also suggests that the location may be popular with students and commuters.
+
+However, the lack of other food establishments or shopping centers in the immediate vicinity may limit the appeal of the location for those seeking a broader range of dining or shopping options.
+
+Overall, the Dunkin' Donuts location in New Rochelle appears to be a convenient and accessible spot for those seeking a quick donut or coffee fix, with a range of nearby amenities to explore.

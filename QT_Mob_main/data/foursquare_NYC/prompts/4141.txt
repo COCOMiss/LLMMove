@@ -1,0 +1,6 @@
+The name of this location is "Dunkin' Donuts" and its POI category is Donut Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.791647, -74.145696), with the corresponding geohash code dr720cbu841u.
+The address is 366 Main St, Belleville, NJ 07109, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym / Fitness Center, 1(avg: 7); Home (private), 1(avg: 14); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Signature Fitness, distance 0.56 km; Riverwatch Condos, distance 1.98 km; Retro Fitness, distance 2.36 km.
+The 10 representative nearby POIs and their distances are: Signature Fitness, distance 0.56 km; Retro Fitness, distance 2.36 km; Riverwatch Condos, distance 1.98 km.

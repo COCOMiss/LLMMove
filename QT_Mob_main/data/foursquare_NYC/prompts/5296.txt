@@ -1,0 +1,6 @@
+The name of this location is "Top Banana" and its POI category is Deli / Bodega, belonging to the parent category Food.
+The geographic coordinates for this location are (40.82677782, -73.849831), with the corresponding geohash code dr72r821npnb.
+The address is 947 Castle Hill Ave, Bronx, NY 10473, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 3(avg: 19); Indie Theater, 1(avg: 2); Road, 1(avg: 1); General Travel, 1(avg: 1); Hospital, 1(avg: 2).
+The 10 nearest POIs and their distances are: Socialite, distance 0.26 km; Bruckner Expressway, distance 0.87 km; MTA Subway - 177th Street/Parkchester (6), distance 1.17 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 1.58 km; Whitestone Bridge Toll Plaza, distance 1.71 km; MTA Subway - Middletown Road (6), distance 2.15 km; Montefiore Medical Center, distance 2.46 km.
+The 10 representative nearby POIs and their distances are: Socialite, distance 0.26 km; MTA Subway - 177th Street/Parkchester (6), distance 1.17 km; Whitestone Bridge Toll Plaza, distance 1.71 km; Bruckner Expressway, distance 0.87 km; MTA Subway - Middletown Road (6), distance 2.15 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 1.58 km; Montefiore Medical Center, distance 2.46 km.

@@ -1,0 +1,6 @@
+The name of this location is "Olive Garden" and its POI category is Italian Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.79073599, -74.05210412), with the corresponding geohash code dr724cszkbm4.
+The address is 500 Flanagan Way, Secaucus, NJ 07094, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Burger Joint, 1(avg: 17); College Gym, 1(avg: 2); American Restaurant, 1(avg: 51); Movie Theater, 1(avg: 5); Department Store, 1(avg: 4); Gym / Fitness Center, 1(avg: 7); Arcade, 1(avg: 3); Basketball Stadium, 1(avg: 1).
+The 10 nearest POIs and their distances are: Cheeseburger in Paradise, distance 0.61 km; LA fitness, distance 0.73 km; Houlihan's - Secaucus, distance 0.76 km; Kerasotes Showplace 14, distance 0.76 km; Walmart, distance 0.89 km; Bally Total Fitness, distance 2.20 km; Union City, distance 2.53 km; IZOD Center, distance 2.68 km.
+The 10 representative nearby POIs and their distances are: IZOD Center, distance 2.68 km; Walmart, distance 0.89 km; Kerasotes Showplace 14, distance 0.76 km; Cheeseburger in Paradise, distance 0.61 km; Houlihan's - Secaucus, distance 0.76 km; LA fitness, distance 0.73 km; Union City, distance 2.53 km; Bally Total Fitness, distance 2.20 km.

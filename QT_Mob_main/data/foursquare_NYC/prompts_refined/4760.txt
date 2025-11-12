@@ -1,0 +1,62 @@
+**Location Analysis: T.G.I. Friday's**
+
+**Location Details:**
+
+* Name: T.G.I. Friday's
+* Category: American Restaurant
+* Parent Category: Food
+* Geographic Coordinates: (40.83803484, -74.15475368)
+* Geohash Code: dr722d64v12n
+* Address: 355 Allwood Rd, Clifton, NJ 07012, USA
+
+**Surrounding Environment:**
+
+* The location is situated in a densely populated area with a mix of commercial and residential properties.
+* The nearest points of interest (POIs) are primarily restaurants, cafes, and retail stores, indicating a bustling shopping and dining district.
+* The presence of a gym (LA Fitness) and a diner (Tick Tock Diner) suggests a mix of entertainment and leisure activities in the area.
+
+**Nearby Points of Interest:**
+
+* Top 10 POI categories:
+	+ American Restaurant (2)
+	+ Burger Joint (2)
+	+ Pharmacy (2)
+	+ Coffee Shop (2)
+	+ Grocery Store (2)
+	+ Ice Cream Shop (1)
+	+ Gym Pool (1)
+	+ Diner (1)
+	+ Road (1)
+	+ Gym (1)
+* 10 nearest POIs:
+	+ T.G.I. Friday's (0.00 km)
+	+ Zinburger (0.10 km)
+	+ CUPS Frozen Yogurt (0.11 km)
+	+ LA Fitness (0.19 km)
+	+ Tick Tock Diner (0.24 km)
+	+ NJ Route 3 (0.66 km)
+	+ New York Sports Club (1.45 km)
+	+ AMC Clifton Commons 16 (1.61 km)
+	+ Barnes & Noble (1.62 km)
+	+ Clifton Commons (1.67 km)
+* 10 representative nearby POIs:
+	+ LA Fitness (0.19 km)
+	+ Target (2.20 km)
+	+ The Shannon Rose Irish Pub (1.99 km)
+	+ AMC Clifton Commons 16 (1.61 km)
+	+ Barnes & Noble (1.62 km)
+	+ NJ Route 3 (0.66 km)
+	+ Starbucks (1.76 km)
+	+ CUPS Frozen Yogurt (0.11 km)
+	+ Tick Tock Diner (0.24 km)
+	+ Starbucks (1.68 km)
+
+**Insights:**
+
+* T.G.I. Friday's is situated in a densely populated area with a mix of commercial and residential properties, making it a convenient location for locals and visitors alike.
+* The presence of various restaurants and cafes in the area suggests a vibrant food scene, with options for different cuisines and dining experiences.
+* The proximity to LA Fitness and other gyms indicates a focus on health and wellness in the area.
+* The nearby retail stores, such as Target and Barnes & Noble, suggest a strong retail presence in the area.
+* The presence of a movie theater (AMC Clifton Commons 16) and a pub (The Shannon Rose Irish Pub) indicates a mix of entertainment options in the area.
+
+Overall, T.G.I. Friday's is situated in a bustling commercial area with a mix of dining, entertainment, and retail options, making it a convenient and lively location for locals and visitors.

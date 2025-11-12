@@ -1,0 +1,6 @@
+The name of this location is "Planet Fitness" and its POI category is Gym / Fitness Center, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.64668884, -73.91399171), with the corresponding geohash code dr5rnp92p5vp.
+The address is 8925 Avenue D, Brooklyn, NY 11236, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Other Nightlife, 1(avg: 7); Metro Station, 1(avg: 19); Hospital, 1(avg: 2).
+The 10 nearest POIs and their distances are: Stella Artois Socialite Event, distance 0.18 km; MTA - Canarsie/Rockaway Pkwy (L), distance 0.96 km; Kingsbrook Jewish Medical Center, distance 2.20 km.
+The 10 representative nearby POIs and their distances are: Kingsbrook Jewish Medical Center, distance 2.20 km; MTA - Canarsie/Rockaway Pkwy (L), distance 0.96 km; Stella Artois Socialite Event, distance 0.18 km.

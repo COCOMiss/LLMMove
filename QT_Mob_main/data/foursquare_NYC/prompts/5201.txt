@@ -1,0 +1,6 @@
+The name of this location is "New Gookies" and its POI category is Chinese Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.67440772, -73.73511819), with the corresponding geohash code dr5x6he9x5nu.
+The address is Merrick Blvd/Laurelton Pkwy, Queens, NY 11422, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1).
+The 10 nearest POIs and their distances are: Green Acres Mall, distance 1.86 km.
+The 10 representative nearby POIs and their distances are: Green Acres Mall, distance 1.86 km.

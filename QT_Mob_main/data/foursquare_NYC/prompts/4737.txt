@@ -1,0 +1,6 @@
+The name of this location is "Target" and its POI category is Video Game Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.90122521, -73.817176), with the corresponding geohash code dr788jzfzjh0.
+The address is 600 E Sandford Blvd, Mt Vernon, NY 10550, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Video Game Store, 1(avg: 1); Wine Shop, 1(avg: 1); Train Station, 1(avg: 5); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Target, distance 0.00 km; Fairway Market, distance 0.92 km; Metro North - Pelham Train Station, distance 1.16 km; Hutchinson River Parkway, distance 2.44 km.
+The 10 representative nearby POIs and their distances are: Metro North - Pelham Train Station, distance 1.16 km; Hutchinson River Parkway, distance 2.44 km; Fairway Market, distance 0.92 km; Target, distance 0.00 km.

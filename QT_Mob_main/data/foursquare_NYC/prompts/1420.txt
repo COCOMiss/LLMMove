@@ -1,0 +1,6 @@
+The name of this location is "Douglaston Movieworld" and its POI category is Movie Theater, belonging to the parent category Arts & Entertainment.
+The geographic coordinates for this location are (40.75406342, -73.73820397), with the corresponding geohash code dr5xf513xk1c.
+The address is 6337A Douglaston Pkwy, Douglaston, NY 11362, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); College Communications Building, 1(avg: 1); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Cross Island Parkway, distance 1.30 km; Queensborough Community College, distance 1.56 km; LIRR - Douglaston Station, distance 1.82 km.
+The 10 representative nearby POIs and their distances are: Queensborough Community College, distance 1.56 km; Cross Island Parkway, distance 1.30 km; LIRR - Douglaston Station, distance 1.82 km.

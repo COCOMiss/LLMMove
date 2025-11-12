@@ -1,0 +1,60 @@
+**Location Analysis: Thai Select**
+
+**Location Overview**
+
+Thai Select is a Thai restaurant located at 9th Ave & W 36th St, New York, NY 10018, USA. The geographic coordinates of the location are (40.7549772, -73.99526423), with a geohash code of dr5ru5nqcq7u.
+
+**POI Category Analysis**
+
+The top 10 nearby points-of-interest (POI) categories and their counts are:
+
+1.  Bar (174, avg: 124)
+2.  Office (107, avg: 72)
+3.  Coffee Shop (103, avg: 63)
+4.  American Restaurant (88, avg: 51)
+5.  Café (64, avg: 42)
+6.  Lounge (47, avg: 35)
+7.  Hotel (46, avg: 28)
+8.  Gym (45, avg: 25)
+9.  Mexican Restaurant (42, avg: 28)
+10. Pub (34, avg: 24)
+
+The dominant POI category near Thai Select is Bars, indicating that the area is densely populated with nightlife options. The average count of bars in the area is 124, suggesting a high concentration of bars and pubs.
+
+**Nearby POIs**
+
+The 10 nearest POIs to Thai Select are:
+
+1.  Emerald Green (0.19 km)
+2.  R/GA 353 (0.20 km)
+3.  R/GA (0.21 km)
+4.  Skylight Diner (0.21 km)
+5.  H.K. Hell's Kitchen (0.22 km)
+6.  Hell's Kitchen Flea Market (0.23 km)
+7.  Hudson Yards (0.24 km)
+8.  B&H Photo-Video (0.24 km)
+9.  R/GA 333 (0.26 km)
+10.  Scheman & Grant Hardware (0.26 km)
+
+The nearest POIs are primarily located in the Hell's Kitchen and Midtown West areas of Manhattan, suggesting that Thai Select is situated in a densely populated urban area with a mix of residential, commercial, and entertainment options.
+
+**Representative POIs**
+
+The 10 representative nearby POIs and their distances are:
+
+1.  New York Penn Station (0.50 km)
+2.  Madison Square Garden (0.59 km)
+3.  NBC Studio 1A - Today Show (1.40 km)
+4.  Times Square (0.75 km)
+5.  Port Authority Bus Terminal (0.40 km)
+6.  Union Square Park (2.23 km)
+7.  MoMA - Museum of Modern Art (1.66 km)
+8.  Apple Store (2.12 km)
+9.  Bryant Park (0.99 km)
+10.  Lincoln Tunnel (1.56 km)
+
+These representative POIs are a mix of transportation hubs, entertainment venues, and cultural institutions, indicating that Thai Select is located in a vibrant and dynamic area with easy access to various amenities and attractions.
+
+**Conclusion**
+
+Thai Select is a Thai restaurant located in the heart of Manhattan, surrounded by a diverse range of POIs, including bars, offices, coffee shops, and entertainment venues. The area is densely populated, with a high concentration of nightlife options and a mix of residential, commercial, and entertainment spaces. The nearby POIs suggest that Thai Select is situated in a convenient and accessible location, with easy access to transportation hubs, cultural institutions, and popular attractions.

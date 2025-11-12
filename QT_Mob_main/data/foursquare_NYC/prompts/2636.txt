@@ -1,0 +1,6 @@
+The name of this location is "Dunkin Donuts/Baskin Robbins" and its POI category is Coffee Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.91845514, -73.99684239), with the corresponding geohash code dr72u0vpk8gh.
+The address is 275 S Washington Ave, Bergenfield, NJ 07621, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Coffee Shop, 1(avg: 63); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Dunkin Donuts/Baskin Robbins, distance 0.01 km; Fitness II, distance 1.05 km.
+The 10 representative nearby POIs and their distances are: Fitness II, distance 1.05 km; Dunkin Donuts/Baskin Robbins, distance 0.01 km.

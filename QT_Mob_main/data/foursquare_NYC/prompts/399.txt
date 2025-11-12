@@ -1,0 +1,6 @@
+The name of this location is "Englewood Hospital & Medical Center" and its POI category is Medical Center, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.90400959, -73.96841526), with the corresponding geohash code dr72sy3g5h01.
+The address is 350 Engle St 5th Floor, Englewood, NJ 07631, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Medical Center, 1(avg: 1); Coffee Shop, 1(avg: 63); Office, 1(avg: 72).
+The 10 nearest POIs and their distances are: Englewood Hospital & Medical Center, distance 0.03 km; Starbucks, distance 1.23 km; Unilever, distance 2.52 km.
+The 10 representative nearby POIs and their distances are: Unilever, distance 2.52 km; Starbucks, distance 1.23 km; Englewood Hospital & Medical Center, distance 0.03 km.

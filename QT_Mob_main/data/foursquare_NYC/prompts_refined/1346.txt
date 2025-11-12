@@ -1,0 +1,45 @@
+**Terminal 7 Analysis**
+
+**Location Overview**
+
+Terminal 7 is an airport terminal located in Jamaica, New York, USA. It has a geographic coordinate of (40.64925721, -73.78267765) and a geohash code of dr5x1pcp54b0. The address is 1 Central Terminal Area, Jamaica, NY 11430, USA.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs to Terminal 7 are primarily related to airports and transportation. The categories and counts are as follows:
+
+1. **Airport Terminal**: 6 (average distance: 3 km)
+2. **General Travel**: 3 (average distance: 1 km)
+3. **Airport**: 2 (average distance: 1 km)
+4. **Plane**: 1 (average distance: 1 km)
+5. **American Restaurant**: 1 (average distance: 51 km)
+6. **Airport Tram**: 1 (average distance: 1 km)
+
+The nearest POIs to Terminal 7 are:
+
+1. **Terminal 7** (0.00 km)
+2. **John F Kennedy International Airport (JFK)** (0.46 km)
+3. **Terminal 5** (0.60 km)
+4. **Terminal 4** (0.62 km)
+5. **JetBlue Lounge** (0.63 km)
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs to Terminal 7 are:
+
+1. **John F Kennedy International Airport (JFK)** (0.46 km)
+2. **Terminal 5** (0.60 km)
+3. **Terminal 8** (0.67 km)
+4. **Terminal 4** (0.62 km)
+5. **Terminal 3** (1.09 km)
+6. **Terminal 7** (0.00 km)
+7. **Terminal 2** (1.10 km)
+8. **Terminal 1** (1.01 km)
+9. **American Airlines Admirals Club** (0.78 km)
+10. **JFK AirTrain - Federal Circle Station** (2.11 km)
+
+**Key Takeaways**
+
+* Terminal 7 is located within John F Kennedy International Airport (JFK) in Jamaica, New York.
+* The area is densely populated with airport-related POIs, indicating a high concentration of transportation services.
+* The nearest POIs are primarily airport terminals, lounges, and transportation services, making it a hub for travel and transportation.

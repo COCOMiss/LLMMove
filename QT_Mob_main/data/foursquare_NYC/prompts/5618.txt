@@ -1,0 +1,6 @@
+The name of this location is "Linwood Pizza" and its POI category is Pizza Place, belonging to the parent category Food.
+The geographic coordinates for this location are (40.86122111, -73.97026062), with the corresponding geohash code dr72ky89b58n.
+The address is 158 Linwood Plaza #204, Fort Lee, NJ 07024, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 3(avg: 1); Bus Station, 1(avg: 1).
+The 10 nearest POIs and their distances are: Bridge Plaza, distance 0.77 km; George Washington Bridge Toll Plaza, distance 1.00 km; New York/New Jersey State Line, distance 1.86 km; George Washington Bridge, distance 1.89 km.
+The 10 representative nearby POIs and their distances are: George Washington Bridge, distance 1.89 km; George Washington Bridge Toll Plaza, distance 1.00 km; Bridge Plaza, distance 0.77 km; New York/New Jersey State Line, distance 1.86 km.

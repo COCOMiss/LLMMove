@@ -1,0 +1,6 @@
+The name of this location is "Union Hall" and its POI category is Pub, belonging to the parent category Nightlife Spot.
+The geographic coordinates for this location are (40.67625244, -73.98015261), with the corresponding geohash code dr5rksck37pc.
+The address is 696 Union St, Brooklyn, NY 11215, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bar, 42(avg: 124); Coffee Shop, 23(avg: 63); Metro Station, 13(avg: 19); Gym, 12(avg: 25); Mexican Restaurant, 11(avg: 28); Sandwich Place, 9(avg: 18); American Restaurant, 8(avg: 51); Burger Joint, 8(avg: 17); Pub, 7(avg: 24); Grocery Store, 7(avg: 9).
+The 10 nearest POIs and their distances are: Union Hall, distance 0.01 km; Body Reserve, distance 0.03 km; Press 195, distance 0.06 km; Bierkraft, distance 0.06 km; 200 Fifth, distance 0.06 km; Associated Supermarket, distance 0.07 km; Lobo Park Slope, distance 0.09 km; Al Di La, distance 0.16 km; High Dive, distance 0.17 km; Fornino, distance 0.19 km.
+The 10 representative nearby POIs and their distances are: Brooklyn Museum, distance 1.51 km; Prospect Park, distance 1.85 km; Target, distance 0.93 km; The Bell House, distance 1.02 km; Trader Joe's, distance 1.82 km; Connecticut Muffin, distance 2.11 km; Pizza Town, distance 0.46 km; Union Hall, distance 0.01 km; Soda Bar, distance 1.00 km; Fort Greene Park, distance 1.75 km.

@@ -1,0 +1,62 @@
+**Location Analysis: Outback Steakhouse**
+
+**Overview**
+
+Outback Steakhouse is an American restaurant located at 539 River Rd, Edgewater, NJ 07020, USA. The location falls under the parent category of Food and has a geohash code of dr72hmxyhkvx.
+
+**Geographic Location**
+
+The location is situated at the geographic coordinates (40.81251919, -73.982087), indicating its position in Edgewater, New Jersey.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs, categorized and counted, provide insight into the surrounding area:
+
+1.  **Coffee Shop** (7) - Average distance: 63 meters
+2.  **Bar** (6) - Average distance: 124 meters
+3.  **American Restaurant** (6) - Average distance: 51 meters (Outback Steakhouse is included in this category)
+4.  **Metro Station** (5) - Average distance: 19 meters
+5.  **Grocery Store** (4) - Average distance: 9 meters
+6.  **Movie Theater** (2) - Average distance: 5 meters
+7.  **Bagel Shop** (2) - Average distance: 4 meters
+8.  **Italian Restaurant** (2) - Average distance: 28 meters
+9.  **College Residence Hall** (2) - Average distance: 6 meters
+10. **Gym** (2) - Average distance: 25 meters
+
+**Nearest POIs**
+
+The 10 nearest POIs and their distances are:
+
+1.  **Target** - 0.11 km
+2.  **Starbucks** - 0.23 km
+3.  **Mitsuwa Marketplace** - 0.43 km
+4.  **Edgewater Multiplex Cinemas** - 0.86 km
+5.  **Trader Joe's** - 0.86 km
+6.  **Panera Bread** - 0.89 km
+7.  **Whole Foods** - 1.53 km
+8.  **Interchurch Center** - 1.53 km
+9.  **The Heights Bar and Grill** - 1.55 km
+10. **Starbucks** - 1.56 km
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs and their distances are:
+
+1.  **Whole Foods** - 2.40 km
+2.  **Michael's Arts & Crafts** - 2.37 km
+3.  **Dinosaur Bar-B-Que** - 1.90 km
+4.  **Columbia University** - 1.76 km
+5.  **Village Pourhouse** - 1.87 km
+6.  **MTA Subway - 96th Street (1/2/3)** - 2.16 km
+7.  **GameStop** - 2.82 km
+8.  **Boat Basin Café** - 2.99 km
+9.  **Mitsuwa Marketplace** - 0.43 km
+10. **MTA Subway - 125 St (1)** - 2.04 km
+
+**Insights**
+
+- Outback Steakhouse is surrounded by various dining options, including coffee shops, bars, and other American restaurants.
+- The presence of a Target and multiple grocery stores indicates a mix of shopping and dining options in the area.
+- The nearby presence of a movie theater suggests a lively entertainment scene.
+- The presence of a college residence hall and a university nearby indicates a student population in the area.
+- The variety of nearby POIs suggests a diverse and vibrant community in Edgewater, New Jersey.

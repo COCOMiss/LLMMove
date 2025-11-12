@@ -1,0 +1,6 @@
+The name of this location is "Rosebank Animal Hospital" and its POI category is Hospital, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.61323643, -74.06553805), with the corresponding geohash code dr5r497j7b5b.
+The address is 1230a Bay St, Staten Island, NY 10305, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bridge, 1(avg: 1); Racetrack, 1(avg: 1); Road, 1(avg: 1); Home (private), 1(avg: 14); University, 1(avg: 5); Beach, 1(avg: 1).
+The 10 nearest POIs and their distances are: Verrazanno-Narrows Bridge Toll Plaza, distance 1.21 km; 2010 ING NYC Marathon STARTING Line - New York Road Runners, distance 1.38 km; Verrazano-Narrows Bridge, distance 1.90 km; 108 Targee, distance 2.01 km; St John's University, distance 2.30 km; South Beach Boardwalk, distance 2.55 km.
+The 10 representative nearby POIs and their distances are: Verrazano-Narrows Bridge, distance 1.90 km; Verrazanno-Narrows Bridge Toll Plaza, distance 1.21 km; 108 Targee, distance 2.01 km; St John's University, distance 2.30 km; 2010 ING NYC Marathon STARTING Line - New York Road Runners, distance 1.38 km; South Beach Boardwalk, distance 2.55 km.

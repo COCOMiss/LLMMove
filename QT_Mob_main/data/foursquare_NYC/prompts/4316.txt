@@ -1,0 +1,6 @@
+The name of this location is "Coach House Diner & Restaurant" and its POI category is Coffee Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.90456099, -74.03265953), with the corresponding geohash code dr72eq7n64b4.
+The address is 4 Hackensack Ave, Bergenfield, NJ 07621, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 1(avg: 51); Bookstore, 1(avg: 7); Wings Joint, 1(avg: 1); Shopping Mall, 1(avg: 1); Asian Restaurant, 1(avg: 18); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: The Cheesecake Factory, distance 0.11 km; Barnes & Noble, distance 0.12 km; Hooters of Hackensack, distance 0.13 km; The Shops at Riverside, distance 0.20 km; P.F. Chang's, distance 0.34 km; Retro Fitness, distance 0.86 km.
+The 10 representative nearby POIs and their distances are: The Shops at Riverside, distance 0.20 km; The Cheesecake Factory, distance 0.11 km; Retro Fitness, distance 0.86 km; Barnes & Noble, distance 0.12 km; P.F. Chang's, distance 0.34 km; Hooters of Hackensack, distance 0.13 km.

@@ -1,0 +1,60 @@
+**Location Analysis: PetSmart - 626 Broadway, New York, NY 10012, USA**
+
+**Overview**
+
+Located at 626 Broadway, New York, NY 10012, USA, PetSmart is a pet store situated in the heart of Manhattan. The store's geographic coordinates are (40.72607881, -73.99625703), and its geohash code is dr5rsjvwd5re.
+
+**Surrounding Neighborhood**
+
+The surrounding area is bustling with various points of interest, including bars, coffee shops, restaurants, and retail stores. The top 10 nearby point-of-interest (POI) categories and their counts are:
+
+1. Bar (224)
+2. Coffee Shop (100)
+3. American Restaurant (88)
+4. Office (79)
+5. Café (58)
+6. Lounge (58)
+7. Italian Restaurant (50)
+8. Mexican Restaurant (41)
+9. Gym (40)
+10. Pub (36)
+
+These categories suggest that the area is a popular spot for socializing and dining, with a mix of casual and upscale establishments.
+
+**Nearby POIs**
+
+The 10 nearest POIs to PetSmart, along with their distances, are:
+
+1. Meetup HQ (0.01 km)
+2. Iris (0.01 km)
+3. Urban Outfitters (0.02 km)
+4. Best Buy (0.02 km)
+5. Gonzalez y Gonzalez (0.05 km)
+6. blip.tv HQ (0.06 km)
+7. Two Boots (0.06 km)
+8. Angelika Film Center (0.07 km)
+9. Café Angelique (0.07 km)
+10. Crate & Barrel (0.07 km)
+
+These nearby POIs indicate that the area is a hub for shopping, entertainment, and dining options.
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs, along with their distances, are:
+
+1. New York Penn Station (2.78 km)
+2. Madison Square Garden (2.70 km)
+3. MTA Subway - Manhattan Bridge (B/D/N/Q) (2.12 km)
+4. Union Square Park (1.12 km)
+5. Brooklyn Bridge (2.30 km)
+6. Union Square Greenmarket (1.26 km)
+7. Madison Square Park (1.93 km)
+8. Macy's (2.80 km)
+9. PATH: World Trade Center Station (1.99 km)
+10. Snowpocalypse 2010 (2.84 km)
+
+These representative POIs suggest that the area is well-connected to major transportation hubs, parks, and popular attractions, making it an attractive location for both locals and tourists.
+
+**Conclusion**
+
+PetSmart, located at 626 Broadway, New York, NY 10012, USA, is situated in a vibrant and diverse neighborhood with a mix of shopping, dining, and entertainment options. The surrounding area is bustling with activity, and the nearby POIs suggest that it is a popular spot for both locals and tourists.

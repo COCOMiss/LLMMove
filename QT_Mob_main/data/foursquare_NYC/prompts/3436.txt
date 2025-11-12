@@ -1,0 +1,6 @@
+The name of this location is "Signature Fitness" and its POI category is Gym / Fitness Center, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.79751876, -74.14632914), with the corresponding geohash code dr720fbqc29y.
+The address is 471 Cortlandt St, Belleville, NJ 07109, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym / Fitness Center, 1(avg: 7); Home (private), 1(avg: 14); Gym, 1(avg: 25); Grocery Store, 1(avg: 9).
+The 10 nearest POIs and their distances are: Signature Fitness, distance 0.09 km; Riverwatch Condos, distance 1.41 km; Retro Fitness, distance 2.05 km; ShopRite, distance 2.86 km.
+The 10 representative nearby POIs and their distances are: Signature Fitness, distance 0.09 km; Retro Fitness, distance 2.05 km; ShopRite, distance 2.86 km; Riverwatch Condos, distance 1.41 km.

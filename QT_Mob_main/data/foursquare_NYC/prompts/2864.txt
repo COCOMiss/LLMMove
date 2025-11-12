@@ -1,0 +1,6 @@
+The name of this location is "Café Angelique" and its POI category is Café, belonging to the parent category Food.
+The geographic coordinates for this location are (40.92469, -73.9647), with the corresponding geohash code dr72ufhe9e4k.
+The address is 1 Piermont Rd, Tenafly, NJ 07670, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Medical Center, 1(avg: 1).
+The 10 nearest POIs and their distances are: Englewood Hospital & Medical Center, distance 2.30 km.
+The 10 representative nearby POIs and their distances are: Englewood Hospital & Medical Center, distance 2.30 km.

@@ -1,0 +1,6 @@
+The name of this location is "ShopRite" and its POI category is Food & Drink Shop, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.57168595, -74.1083622), with the corresponding geohash code dr5qc9ggjyrv.
+The address is Hylan Blvd/Burbank Av, Staten Island, NY 10306, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Café, 1(avg: 42); Bar, 1(avg: 124).
+The 10 nearest POIs and their distances are: Starbucks, distance 0.27 km; Rab's Country Lanes, distance 2.56 km.
+The 10 representative nearby POIs and their distances are: Starbucks, distance 0.27 km; Rab's Country Lanes, distance 2.56 km.

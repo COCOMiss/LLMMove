@@ -1,0 +1,6 @@
+The name of this location is "Friendly's" and its POI category is Diner, belonging to the parent category Food.
+The geographic coordinates for this location are (40.89273311, -74.1147553), with the corresponding geohash code dr729kr33jby.
+The address is 240 US-46, Elmwood Park, NJ 07407, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Electronics Store, 1(avg: 5).
+The 10 nearest POIs and their distances are: Bally Total Fitness, distance 1.67 km; Micro Center, distance 2.34 km.
+The 10 representative nearby POIs and their distances are: Bally Total Fitness, distance 1.67 km; Micro Center, distance 2.34 km.

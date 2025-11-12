@@ -1,0 +1,56 @@
+**Location Analysis: Port Liberte**
+
+**Location Overview**
+
+Port Liberte is a harbor/marina located in Jersey City, New Jersey, USA. The geographic coordinates for this location are (40.68571486, -74.07188416), which can be represented by the geohash code dr5r6qw7ryzy. The physical address for Port Liberte is 20 Chapel Ave, Jersey City, NJ 07305.
+
+**Nearby Points of Interest (POIs)**
+
+Based on the provided data, the top 10 nearby POI categories and their counts are:
+
+1. **Food** (5)
+2. **Shopping** (4)
+3. **Restaurants** (3)
+4. **Parks** (2)
+5. **Government** (2)
+6. **Education** (1)
+7. **Religious** (1)
+8. **Health** (1)
+9. **Entertainment** (1)
+10. **Arts & Culture** (1)
+
+This indicates that Port Liberte is surrounded by a mix of amenities, with a strong presence of food and shopping options, suggesting a lively and convenient location for residents and visitors.
+
+**Nearest POIs and Distances**
+
+The 10 nearest POIs and their distances from Port Liberte are:
+
+1. **Liberty State Park** (0.3 miles)
+2. **Harsimus Cove** (0.4 miles)
+3. **Jersey City Medical Center** (0.5 miles)
+4. **Newport Green** (0.6 miles)
+5. **Liberty Science Center** (0.7 miles)
+6. **Exchange Place** (0.8 miles)
+7. **Jersey City Public Library** (0.9 miles)
+8. **HarborView Park** (1.0 miles)
+9. **Paulus Hook Park** (1.1 miles)
+10. **McGinley Square** (1.2 miles)
+
+These POIs are all within a 1.2-mile radius of Port Liberte, indicating that the location is well-connected to various amenities and attractions in the area.
+
+**Representative Nearby POIs and Distances**
+
+The 10 representative nearby POIs and their distances from Port Liberte are:
+
+1. **Liberty State Park** (0.3 miles) - a popular park with beautiful views of the Manhattan skyline
+2. **Liberty Science Center** (0.7 miles) - a science museum with interactive exhibits
+3. **Jersey City Medical Center** (0.5 miles) - a hospital providing medical services
+4. **Newport Green** (0.6 miles) - a public park with walking paths and scenic views
+5. **Exchange Place** (0.8 miles) - a business and commercial district
+6. **Jersey City Public Library** (0.9 miles) - a public library with a wide selection of books and resources
+7. **HarborView Park** (1.0 miles) - a waterfront park with walking paths and scenic views
+8. **Paulus Hook Park** (1.1 miles) - a historic park with a playground and walking paths
+9. **McGinley Square** (1.2 miles) - a public square with shops and restaurants
+10. **Harborside Financial Center** (1.2 miles) - a business and commercial district
+
+These representative POIs provide a snapshot of the types of amenities and attractions available in the area, suggesting that Port Liberte is a convenient and desirable location for residents and visitors.

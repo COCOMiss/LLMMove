@@ -1,0 +1,6 @@
+The name of this location is "ShopRite" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.85215695, -74.0043354), with the corresponding geohash code dr727uztn400.
+The address is 501 Roosevelt Pl, Palisades Park, NJ 07650, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are:.
+The 10 nearest POIs and their distances are:.
+The 10 representative nearby POIs and their distances are:.

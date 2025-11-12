@@ -1,0 +1,62 @@
+**Location Analysis: Vesta Trattoria & Wine Bar**
+
+**Location Overview**
+
+Vesta Trattoria & Wine Bar is an Italian restaurant located at 21-4 30th Ave., Astoria, NY 11102, USA. The restaurant's geographic coordinates are (40.769771, -73.927716), which corresponds to the geohash code dr5rvtzmpk5t.
+
+**POI Analysis**
+
+The top 10 nearby points-of-interest (POI) categories and their counts are:
+
+1.  Bar (19, avg: 124)
+2.  Metro Station (10, avg: 19)
+3.  Gym (7, avg: 25)
+4.  Coffee Shop (7, avg: 63)
+5.  American Restaurant (4, avg: 51)
+6.  Sports Bar (4, avg: 8)
+7.  Mexican Restaurant (4, avg: 28)
+8.  Home (private) (4, avg: 14)
+9.  Diner (3, avg: 9)
+10. Burger Joint (3, avg: 17)
+
+The presence of a high number of bars and coffee shops suggests that the area is a popular spot for nightlife and social gatherings. The proximity of multiple metro stations indicates that the area is well-connected to other parts of the city.
+
+**Nearest POIs**
+
+The 10 nearest POIs to Vesta Trattoria & Wine Bar are:
+
+1.  Vesta Trattoria & Wine Bar (distance: 0.02 km)
+2.  Bel Aire Diner (distance: 0.58 km)
+3.  Astoria Brewhouse (distance: 0.60 km)
+4.  MTA Subway - 30th Ave - Grand Ave (N/Q) (distance: 0.63 km)
+5.  Socrates Sculpture Park (distance: 0.73 km)
+6.  Key Food (distance: 0.77 km)
+7.  Astoria Park Track (distance: 0.81 km)
+8.  MTA Subway - Astoria Blvd (N/Q) (distance: 0.82 km)
+9.  Brick Cafe (distance: 0.84 km)
+10. Ovelia (distance: 0.86 km)
+
+**Representative POIs**
+
+The 10 representative nearby POIs to Vesta Trattoria & Wine Bar are:
+
+1.  MTA - Queensboro Plaza (N/Q/7) (distance: 2.36 km)
+2.  MTA Subway - Astoria/Ditmars Blvd (N/Q) (distance: 1.39 km)
+3.  The Garden at Studio Square (distance: 1.68 km)
+4.  Bohemian Hall and Beer Garden (distance: 1.04 km)
+5.  MTA Subway - Astoria Blvd (N/Q) (distance: 0.82 km)
+6.  MTA Subway - 30th Ave - Grand Ave (N/Q) (distance: 0.63 km)
+7.  UA Kaufman Astoria Stadium 14 (distance: 1.71 km)
+8.  MTA Subway - Broadway (N/Q) (distance: 0.89 km)
+9.  Planet Fitness (distance: 1.29 km)
+10. Astoria Park (distance: 1.41 km)
+
+**Insights**
+
+* Vesta Trattoria & Wine Bar is located in a densely populated area with a variety of nearby restaurants, bars, and shops.
+* The presence of multiple metro stations indicates that the area is well-connected to other parts of the city.
+* The area is popular for nightlife, with several bars and coffee shops nearby.
+* The proximity of parks and gyms suggests that the area is also popular for outdoor activities and fitness.
+* The variety of nearby restaurants suggests that the area has a diverse dining scene.
+
+Overall, Vesta Trattoria & Wine Bar is a well-connected and vibrant location with a mix of restaurants, bars, and shops.

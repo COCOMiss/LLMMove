@@ -1,0 +1,6 @@
+The name of this location is "Terminal 5" and its POI category is Airport Terminal, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.64557779, -73.77643347), with the corresponding geohash code dr5x1pm9skzg.
+The address is JFK Airport (Terminal 5 Departure. (Service provided via Van)), Queens, NY 11430, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Airport Terminal, 6(avg: 3); General Travel, 3(avg: 1); Airport, 2(avg: 1); American Restaurant, 1(avg: 51); Plane, 1(avg: 1).
+The 10 nearest POIs and their distances are: JetBlue Lounge, distance 0.05 km; Terminal 5, distance 0.11 km; JFK Runway, distance 0.42 km; John F Kennedy International Airport (JFK), distance 0.60 km; Terminal 4, distance 0.62 km; Terminal 7, distance 0.67 km; Terminal 3, distance 1.04 km; Delta Sky Club, distance 1.11 km; Terminal 8, distance 1.17 km; Terminal 2, distance 1.22 km.
+The 10 representative nearby POIs and their distances are: John F Kennedy International Airport (JFK), distance 0.60 km; Terminal 5, distance 0.11 km; Terminal 8, distance 1.17 km; Terminal 4, distance 0.62 km; Terminal 3, distance 1.04 km; Terminal 7, distance 0.67 km; Terminal 2, distance 1.22 km; Terminal 1, distance 1.25 km; American Airlines Admirals Club, distance 1.35 km; Delta Sky Club, distance 1.23 km.

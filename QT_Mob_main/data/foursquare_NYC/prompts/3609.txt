@@ -1,0 +1,6 @@
+The name of this location is "Super Stop & Shop" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.74137194, -73.69822025), with the corresponding geohash code dr5xfbwxen0n.
+The address is 669 Hillside Ave., North New Hyde Park, NY 11040, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Hospital, 1(avg: 2); Train, 1(avg: 4); Light Rail Station, 1(avg: 1).
+The 10 nearest POIs and their distances are: LA Fitness, distance 1.50 km; Long Island Jewish Medical Center, distance 1.71 km; LIRR - New Hyde Park Station, distance 1.88 km; LIRR - Floral Park Station, distance 1.98 km.
+The 10 representative nearby POIs and their distances are: LA Fitness, distance 1.50 km; Long Island Jewish Medical Center, distance 1.71 km; LIRR - Floral Park Station, distance 1.98 km; LIRR - New Hyde Park Station, distance 1.88 km.

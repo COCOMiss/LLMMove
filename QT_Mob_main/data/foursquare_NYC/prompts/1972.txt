@@ -1,0 +1,6 @@
+The name of this location is "Harbor Fitness (formerly Gold's Gym)" and its POI category is Gym, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.61252119, -73.91296404), with the corresponding geohash code dr5rn161p4em.
+The address is 6119 Strickland Ave, Brooklyn, NY 11234, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1); Park, 1(avg: 8); Skating Rink, 1(avg: 1).
+The 10 nearest POIs and their distances are: Kings Plaza Mall, distance 0.68 km; Marine Park, distance 1.76 km; Aviator Sports and Events Center, distance 2.84 km.
+The 10 representative nearby POIs and their distances are: Kings Plaza Mall, distance 0.68 km; Marine Park, distance 1.76 km; Aviator Sports and Events Center, distance 2.84 km.

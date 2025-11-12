@@ -1,0 +1,61 @@
+**Location Analysis: Bourbon Street**
+
+**Overview**
+
+Bourbon Street is a sports bar located in the Nightlife Spot category, situated at 40-12 Bell Blvd, Bayside, NY 11361, USA. The location has geographic coordinates of (40.763921, -73.771199) and a corresponding geohash code of dr5xckc7n3xh.
+
+**Neighborhood Insights**
+
+Bourbon Street is situated in the Bayside area of Queens, New York. The surrounding neighborhood appears to be a mix of residential and commercial areas, with a few notable points of interest nearby.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs to Bourbon Street are:
+
+1. **Train Station** (2 occurrences, avg distance: 5 km)
+2. **Dessert Shop** (1 occurrence, avg distance: 12 km)
+3. **Light Rail Station** (1 occurrence, avg distance: 1 km)
+4. **College Communications Building** (1 occurrence, avg distance: 1 km)
+5. **American Restaurant** (1 occurrence, avg distance: 51 km)
+6. **Shopping Mall** (1 occurrence, avg distance: 1 km)
+7. **Multiplex** (1 occurrence, avg distance: 4 km)
+8. **Restaurant** (1 occurrence, avg distance: 10 km)
+9. **Bakery** (1 occurrence, distance: 0.06 km)
+10. **Multiplex** (1 occurrence, avg distance: 4 km)
+
+The 10 nearest POIs to Bourbon Street are:
+
+1. **Martha's Country Bakery** (distance: 0.06 km)
+2. **LIRR - Bayside Station** (distance: 0.09 km)
+3. **Queensborough Community College** (distance: 1.58 km)
+4. **LIRR - Auburndale Station** (distance: 1.61 km)
+5. **Panera Bread** (distance: 1.82 km)
+6. **Bay Terrace Shopping Center** (distance: 1.84 km)
+7. **LIRR - Douglaston Station** (distance: 1.90 km)
+8. **AMC Loews Fresh Meadows 7** (distance: 2.54 km)
+9. **Hooters** (distance: 2.79 km)
+10. **LIRR - Douglaston Station** (distance: 1.90 km)
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs to Bourbon Street are:
+
+1. **LIRR - Bayside Station** (distance: 0.09 km)
+2. **Queensborough Community College** (distance: 1.58 km)
+3. **Hooters** (distance: 2.79 km)
+4. **LIRR - Douglaston Station** (distance: 1.90 km)
+5. **Bay Terrace Shopping Center** (distance: 1.84 km)
+6. **Martha's Country Bakery** (distance: 0.06 km)
+7. **AMC Loews Fresh Meadows 7** (distance: 2.54 km)
+8. **Panera Bread** (distance: 1.82 km)
+9. **LIRR - Auburndale Station** (distance: 1.61 km)
+10. **LIRR - Douglaston Station** (distance: 1.90 km)
+
+**Key Findings**
+
+* Bourbon Street is located near several transportation hubs, including train stations and a light rail station.
+* The area is also home to a mix of educational institutions, including Queensborough Community College.
+* The nearby points of interest suggest a relatively suburban or residential area with some commercial activity.
+* The presence of several restaurants and a multiplex cinema indicates that the area has a relatively high foot traffic.
+
+Overall, Bourbon Street appears to be a sports bar located in a relatively quiet suburban area with access to various transportation options and amenities.

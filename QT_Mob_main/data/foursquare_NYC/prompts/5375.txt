@@ -1,0 +1,6 @@
+The name of this location is "Taco Bell" and its POI category is Taco Place, belonging to the parent category Food.
+The geographic coordinates for this location are (40.89750557, -74.10345539), with the corresponding geohash code dr729tpt0rdg.
+The address is 622 Market St, Elmwood Park, NJ 07407, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Diner, 1(avg: 9).
+The 10 nearest POIs and their distances are: Bally Total Fitness, distance 1.11 km; Saddle Brook Diner, distance 1.97 km.
+The 10 representative nearby POIs and their distances are: Bally Total Fitness, distance 1.11 km; Saddle Brook Diner, distance 1.97 km.

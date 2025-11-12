@@ -1,0 +1,6 @@
+The name of this location is "Lot M" and its POI category is College Football Field, belonging to the parent category College & University.
+The geographic coordinates for this location are (40.81829848, -74.07686943), with the corresponding geohash code dr724qdzgf6d.
+The address is RW9F+87 East Rutherford, NJ, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Beer Garden, 1(avg: 4); Music Venue, 1(avg: 10); Basketball Stadium, 1(avg: 1); Café, 1(avg: 42); Bakery, 1(avg: 16).
+The 10 nearest POIs and their distances are: New Meadowlands Stadium, distance 0.56 km; The Bamboozle Festival 2011, distance 0.60 km; IZOD Center, distance 1.06 km; Starbucks, distance 1.79 km; Panera Bread, distance 1.80 km.
+The 10 representative nearby POIs and their distances are: New Meadowlands Stadium, distance 0.56 km; IZOD Center, distance 1.06 km; The Bamboozle Festival 2011, distance 0.60 km; Starbucks, distance 1.79 km; Panera Bread, distance 1.80 km.

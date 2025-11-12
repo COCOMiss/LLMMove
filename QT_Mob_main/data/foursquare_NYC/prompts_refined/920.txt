@@ -1,0 +1,60 @@
+**Analysis of MTA Subway - Woodhaven Blvd (E M R)**
+
+**Location Overview**
+
+The MTA Subway - Woodhaven Blvd (E M R) is a metro station located in Queens, New York, USA. The geographic coordinates for this location are (40.73343771, -73.8697958), with a geohash code of dr5rxp39kzpu. The address is Woodhaven Blvd, Queens, NY 11373, USA.
+
+**POI Category Analysis**
+
+The parent category for this location is Travel & Transport, and the specific category is Metro Station. The top 10 nearby points-of-interest (POI) categories and their counts are:
+
+1.  Metro Station (2)
+2.  Department Store (2)
+3.  Grocery Store (2)
+4.  Gym (2)
+5.  Bookstore (2)
+6.  Food & Drink Shop (1)
+7.  Electronics Store (1)
+8.  Bar (1)
+9.  Diner (1)
+10. Bowling Alley (1)
+
+The most common nearby POI categories are Metro Station, Department Store, and Grocery Store, with an average count of 19, 4, and 9, respectively.
+
+**Nearby POIs**
+
+The 10 nearest POIs and their distances are:
+
+1.  MTA Subway - Woodhaven Blvd (E M R) (0.00 km)
+2.  Queens Center Mall (0.16 km)
+3.  Queens Center Mall Food Court (0.22 km)
+4.  Target (0.43 km)
+5.  Best Buy (0.48 km)
+6.  Dallas BBQ (0.52 km)
+7.  Costco Wholesale Club (0.53 km)
+8.  Georgia Diner (0.58 km)
+9.  Super Stop & Shop (1.52 km)
+10. New York Sports Club (1.52 km)
+
+The nearest POIs are primarily shopping and dining options, with a mix of department stores, grocery stores, and restaurants.
+
+**Representative POIs**
+
+The 10 representative nearby POIs and their distances are:
+
+1.  Queens Center Mall (0.16 km)
+2.  MTA - 7 Train (1.98 km)
+3.  MTA Subway - 74th St-Broadway/Roosevelt Av (7/E/F/M/G/R) (2.36 km)
+4.  Target (0.43 km)
+5.  New York Hall of Science (2.12 km)
+6.  Trader Joe's (2.67 km)
+7.  New York Sports Club (2.36 km)
+8.  MTA Subway - Junction Blvd (7) (1.74 km)
+9.  Michael's Arts & Crafts (2.66 km)
+10. The Shops at Atlas Park (2.78 km)
+
+The representative POIs are a mix of shopping, dining, and entertainment options, with a focus on nearby shopping centers and attractions.
+
+**Conclusion**
+
+The MTA Subway - Woodhaven Blvd (E M R) is a metro station in Queens, New York, with a mix of nearby shopping and dining options. The top nearby POI categories are Metro Station, Department Store, and Grocery Store, with an average count of 19, 4, and 9, respectively. The nearest POIs are primarily shopping and dining options, while the representative POIs are a mix of shopping, dining, and entertainment options.

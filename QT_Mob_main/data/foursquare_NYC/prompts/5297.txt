@@ -1,0 +1,6 @@
+The name of this location is "Soundview Park" and its POI category is Park, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.81904683, -73.87123235), with the corresponding geohash code dr72pnbs5tbf.
+The address is R49H+JG New York, NY, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Road, 1(avg: 1); Indie Theater, 1(avg: 2); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Bruckner Expressway, distance 1.22 km; MTA Subway - 177th Street/Parkchester (6), distance 1.78 km; Socialite, distance 2.26 km; MTA Subway - West Farms Square/East Tremont Avenue (2/5), distance 2.47 km; MTA - East 180th Street (2,5), distance 2.49 km.
+The 10 representative nearby POIs and their distances are: Socialite, distance 2.26 km; MTA Subway - 177th Street/Parkchester (6), distance 1.78 km; MTA - East 180th Street (2,5), distance 2.49 km; Bruckner Expressway, distance 1.22 km; MTA Subway - West Farms Square/East Tremont Avenue (2/5), distance 2.47 km.

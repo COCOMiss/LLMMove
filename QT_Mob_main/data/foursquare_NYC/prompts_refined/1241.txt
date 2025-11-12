@@ -1,0 +1,58 @@
+**Location Analysis: MTA Subway - N Train, Astoria, New York**
+
+**Overview**
+
+The MTA Subway - N Train is a metro station located in the heart of Astoria, New York, with a POI category of Metro Station. This location falls under the broader category of Travel & Transport. The address of this station is 22-55 31st St, Astoria, NY 11105, USA.
+
+**Geographic Coordinates and Nearby Points of Interest**
+
+The geographic coordinates of the MTA Subway - N Train are (40.77500059, -73.91200304), with a corresponding geohash code of dr5rynfgte00. The station is situated in a densely populated area with various points of interest nearby.
+
+**Nearby POI Categories and Counts**
+
+The top 10 nearby points-of-interest (POI) categories and their counts are:
+
+1. Metro Station (8, avg: 19)
+2. Bar (8, avg: 124)
+3. Gym (5, avg: 25)
+4. Bakery (3, avg: 16)
+5. Coffee Shop (3, avg: 63)
+6. Mexican Restaurant (2, avg: 28)
+7. Diner (2, avg: 9)
+8. Sports Bar (2, avg: 8)
+9. Burger Joint (2, avg: 17)
+10. American Restaurant (2, avg: 51)
+
+**Nearest POIs and Distances**
+
+The 10 nearest POIs and their distances from the MTA Subway - N Train are:
+
+1. The Giving Tree Yoga Studio (0.01 km)
+2. Mojave NYC (0.03 km)
+3. MTA Subway - Astoria/Ditmars Blvd (N/Q) (0.07 km)
+4. Key Food (0.08 km)
+5. Igloo Ice Cream Cafe (0.09 km)
+6. The Rock Health & Fitness Club (0.10 km)
+7. Starbucks (0.15 km)
+8. MTA Subway - N Train (0.16 km)
+9. Brooklyn Bagel & Coffee Co. (0.29 km)
+10. Martha's Country Bakery (0.39 km)
+
+**Representative Nearby POIs and Distances**
+
+The 10 representative nearby POIs and their distances from the MTA Subway - N Train are:
+
+1. MTA Subway - Astoria/Ditmars Blvd (N/Q) (0.07 km)
+2. The Garden at Studio Square (2.49 km)
+3. Bohemian Hall and Beer Garden (0.42 km)
+4. MTA Subway - Astoria Blvd (N/Q) (0.74 km)
+5. MTA Subway - 30th Ave - Grand Ave (N/Q) (1.22 km)
+6. Robert F. Kennedy Bridge (2.53 km)
+7. UA Kaufman Astoria Stadium 14 (2.45 km)
+8. MTA Subway - Broadway (N/Q) (1.83 km)
+9. Planet Fitness (1.38 km)
+10. Astoria Park (1.00 km)
+
+**Conclusion**
+
+The MTA Subway - N Train is a central transportation hub in Astoria, New York, with a variety of nearby points of interest, including bars, gyms, bakeries, coffee shops, and restaurants. The location is well-connected to other metro stations and popular attractions in the area.

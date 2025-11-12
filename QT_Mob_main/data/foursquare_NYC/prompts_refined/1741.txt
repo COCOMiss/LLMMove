@@ -1,0 +1,56 @@
+**Location Analysis: Amish Market**
+
+**Overview**
+
+The Amish Market is an American restaurant located at 728 9th Ave, New York, NY 10019, USA. The geographic coordinates of this location are (40.76298968, -73.98904329), with a geohash code of dr5rukdvdk48.
+
+**Geographic Context**
+
+The Amish Market is situated in the heart of New York City, specifically in the Midtown West neighborhood. The location is within walking distance to several popular attractions, including Times Square, Madison Square Garden, and the Museum of Modern Art (MoMA).
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs, categorized by type, are:
+
+1. **Bar** (109, avg: 124)
+2. **Office** (98, avg: 72)
+3. **Coffee Shop** (91, avg: 63)
+4. **American Restaurant** (71, avg: 51)
+5. **Café** (51, avg: 42)
+6. **Hotel** (43, avg: 28)
+7. **Gym** (39, avg: 25)
+8. **Lounge** (38, avg: 35)
+9. **Theater** (35, avg: 19)
+10. **General Entertainment** (33, avg: 21)
+
+The 10 nearest POIs, listed in order of proximity, are:
+
+1. **Starbucks - 49th & 8th-World Wide Plaza** (0.03 km)
+2. **Mother Burger** (0.03 km)
+3. **Amish Market** (0.04 km)
+4. **Gossip** (0.05 km)
+5. **Pam Real Thai** (0.06 km)
+6. **TACocina** (0.06 km)
+7. **Lime Jungle** (0.08 km)
+8. **Kyotofu** (0.09 km)
+9. **Hibernia Irish Bar And Grill** (0.09 km)
+10. **Bally Total Fitness** (0.10 km)
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs, listed in order of proximity, are:
+
+1. **New York Penn Station** (1.37 km)
+2. **Madison Square Garden** (1.45 km)
+3. **NBC Studio 1A - Today Show** (0.97 km)
+4. **Times Square** (0.78 km)
+5. **Port Authority Bus Terminal** (0.67 km)
+6. **MoMA - Museum of Modern Art** (0.99 km)
+7. **Apple Store** (1.35 km)
+8. **Bryant Park** (1.12 km)
+9. **Lincoln Tunnel** (1.83 km)
+10. **Union Square Greenmarket** (2.94 km)
+
+**Conclusion**
+
+The Amish Market is a popular American restaurant located in the heart of New York City, surrounded by a diverse range of POIs, including bars, offices, coffee shops, and entertainment venues. The location is within walking distance to several iconic landmarks, making it an ideal spot for tourists and locals alike.

@@ -1,0 +1,6 @@
+The name of this location is "NJ Transit Rail - Kingsland Station" and its POI category is Train Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.81011453, -74.11735296), with the corresponding geohash code dr721mm2hs8p.
+The address is Kingsland, Lyndhurst, NJ 07071, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 1(avg: 5); Grocery Store, 1(avg: 9); Indie Theater, 1(avg: 2); Home (private), 1(avg: 14); Hot Dog Joint, 1(avg: 2); Pharmacy, 1(avg: 4); Burger Joint, 1(avg: 17); Restaurant, 1(avg: 10).
+The 10 nearest POIs and their distances are: NJ Transit Rail - Kingsland Station, distance 0.00 km; ShopRite, distance 0.28 km; Medieval Times, distance 0.94 km; Riverwatch Condos, distance 1.74 km; Rutt's Hut, distance 1.92 km; Target, distance 2.23 km; Red Robin Gourmet Burgers, distance 2.40 km; The Shannon Rose Irish Pub, distance 2.43 km.
+The 10 representative nearby POIs and their distances are: Target, distance 2.23 km; The Shannon Rose Irish Pub, distance 2.43 km; Medieval Times, distance 0.94 km; Red Robin Gourmet Burgers, distance 2.40 km; Rutt's Hut, distance 1.92 km; NJ Transit Rail - Kingsland Station, distance 0.00 km; ShopRite, distance 0.28 km; Riverwatch Condos, distance 1.74 km.

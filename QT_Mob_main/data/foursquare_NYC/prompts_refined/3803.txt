@@ -1,0 +1,53 @@
+**Location Analysis: McDonald's at 16504 Rockaway Blvd, Jamaica, NY 11434, USA**
+
+**Overview**
+
+The location in question is a McDonald's fast food restaurant situated at 16504 Rockaway Blvd, Jamaica, NY 11434, USA. This location falls under the parent category of Food and the subcategory of Fast Food Restaurant.
+
+**Geographic Coordinates and Address**
+
+The geographic coordinates of this location are (40.66020904, -73.77383934), with a corresponding geohash code of dr5x31zwbuq6. The address is 16504 Rockaway Blvd, Jamaica, NY 11434, USA.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearest POIs to McDonald's are primarily related to John F. Kennedy International Airport (JFK). The top 10 POIs and their distances are:
+
+1. Terminal 7 - 1.43 km
+2. JetBlue Lounge - 1.59 km
+3. Terminal 5 - 1.68 km
+4. John F Kennedy International Airport (JFK) - 1.86 km
+5. JFK Runway - 1.91 km
+6. American Airlines Admirals Club - 1.99 km
+7. Terminal 8 - 2.00 km
+8. Terminal 4 - 2.00 km
+9. Terminal 1 - 2.43 km
+10. Terminal 3 - 2.50 km
+
+The top 10 representative nearby POIs, which are likely to be of interest to visitors, are:
+
+1. John F Kennedy International Airport (JFK) - 1.86 km
+2. Terminal 5 - 1.68 km
+3. Terminal 8 - 2.00 km
+4. Terminal 4 - 2.00 km
+5. Terminal 3 - 2.50 km
+6. Terminal 7 - 1.43 km
+7. Terminal 2 - 2.53 km
+8. Terminal 1 - 2.43 km
+9. American Airlines Admirals Club - 1.99 km
+10. Delta Sky Club - 2.55 km
+
+**POI Category Analysis**
+
+The top POI categories near McDonald's are:
+
+1. Airport Terminal - 6 instances (avg: 3)
+2. General Travel - 3 instances (avg: 1)
+3. Airport - 2 instances (avg: 1)
+4. American Restaurant - 1 instance (avg: 51)
+5. Plane - 1 instance (avg: 1)
+
+The presence of multiple airport-related POIs indicates that McDonald's is likely a popular stop for travelers and airport staff.
+
+**Conclusion**
+
+In conclusion, McDonald's at 16504 Rockaway Blvd, Jamaica, NY 11434, USA, is situated near John F. Kennedy International Airport, making it a convenient option for travelers and airport staff. The location's proximity to various airport terminals and lounges suggests that it is a popular spot for quick meals and snacks.

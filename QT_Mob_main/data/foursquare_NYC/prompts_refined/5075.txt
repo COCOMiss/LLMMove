@@ -1,0 +1,53 @@
+**Location Analysis: White Castle**
+
+**Overview**
+
+The location in question is White Castle, a fast-food restaurant situated in Hasbrouck Heights, New Jersey, USA. The restaurant's address is 37 NJ-17, Hasbrouck Heights, NJ 07604.
+
+**Geographic Coordinates and Nearby Points of Interest**
+
+The location's geographic coordinates are (40.85013622, -74.07553196), with a geohash code of dr726kec6crf. The nearest points of interest (POIs) to White Castle are primarily fast-food restaurants, gyms, and a small airport.
+
+**Top 10 Nearby POI Categories**
+
+The top 10 nearby POI categories and their counts are:
+
+1.  American Restaurant (2, avg: 51)
+2.  Other Great Outdoors (1, avg: 13)
+3.  Airport (1, avg: 1)
+4.  Gym (1, avg: 25)
+5.  Gym / Fitness Center (1, avg: 7)
+6.  Café (1, avg: 42)
+7.  Bakery (1, avg: 16)
+
+**10 Nearest POIs and their Distances**
+
+The 10 nearest POIs to White Castle and their distances are:
+
+1.  Houlihan's (0.06 km)
+2.  SONIC Drive-In (0.62 km)
+3.  Starbucks (0.88 km)
+4.  Teterboro Airport (TEB) (1.21 km)
+5.  24 Hour Fitness (1.82 km)
+6.  Golds Gym (2.17 km)
+7.  Starbucks (2.40 km)
+8.  Panera Bread (2.69 km)
+
+**10 Representative Nearby POIs and their Distances**
+
+The 10 representative nearby POIs to White Castle and their distances are:
+
+1.  24 Hour Fitness (1.82 km)
+2.  Teterboro Airport (TEB) (1.21 km)
+3.  Starbucks (0.88 km)
+4.  SONIC Drive-In (0.62 km)
+5.  Starbucks (2.40 km)
+6.  Golds Gym (2.17 km)
+7.  Panera Bread (2.69 km)
+8.  Houlihan's (0.06 km)
+
+**Insights**
+
+White Castle is located in a densely populated area with multiple fast-food restaurants, gyms, and a small airport nearby. The presence of multiple Starbucks locations suggests a high demand for coffee and quick bites in the area. The proximity of 24 Hour Fitness and Golds Gym indicates a focus on health and wellness in the community. The location's accessibility to Teterboro Airport (TEB) may also make it a convenient stop for travelers.
+
+Overall, White Castle is situated in a bustling area with a mix of fast-food options, gyms, and a small airport, catering to the needs of both locals and travelers.

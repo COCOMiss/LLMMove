@@ -1,0 +1,6 @@
+The name of this location is "4 West Diner" and its POI category is Diner, belonging to the parent category Food.
+The geographic coordinates for this location are (40.88306452, -73.98623118), with the corresponding geohash code dr72s6sc5ge7.
+The address is 412 S Van Brunt St, Englewood, NJ 07631, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Coffee Shop, 1(avg: 63); Medical Center, 1(avg: 1).
+The 10 nearest POIs and their distances are: Starbucks, distance 1.57 km; Holy Name Medical Center, distance 2.02 km.
+The 10 representative nearby POIs and their distances are: Starbucks, distance 1.57 km; Holy Name Medical Center, distance 2.02 km.

@@ -1,0 +1,6 @@
+The name of this location is "CNBC Headquarters" and its POI category is Office, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.89501929, -73.94258076), with the corresponding geohash code dr72tkswubps.
+The address is 900 Sylvan Ave, Englewood Cliffs, NJ 07632, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Office, 2(avg: 72); Train Station, 1(avg: 5); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: CNBC Headquarters, distance 0.10 km; Unilever, distance 0.73 km; Metro North - Spuyten Duyvil Train Station, distance 2.57 km; Henry Hudson Bridge, distance 2.58 km.
+The 10 representative nearby POIs and their distances are: CNBC Headquarters, distance 0.10 km; Unilever, distance 0.73 km; Henry Hudson Bridge, distance 2.58 km; Metro North - Spuyten Duyvil Train Station, distance 2.57 km.

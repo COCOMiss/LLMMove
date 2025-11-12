@@ -1,0 +1,6 @@
+The name of this location is "'sNice" and its POI category is Vegetarian / Vegan Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.672855, -73.983155), with the corresponding geohash code dr5rkkr0e99q.
+The address is 315 5th Ave, Brooklyn, NY 11215, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bar, 40(avg: 124); Coffee Shop, 23(avg: 63); Metro Station, 13(avg: 19); Gym, 12(avg: 25); Mexican Restaurant, 11(avg: 28); Sandwich Place, 9(avg: 18); Burger Joint, 8(avg: 17); American Restaurant, 7(avg: 51); Pub, 7(avg: 24); Grocery Store, 7(avg: 9).
+The 10 nearest POIs and their distances are: 'sNice, distance 0.02 km; Stone Park Café, distance 0.03 km; The Gate, distance 0.03 km; Loki Lounge, distance 0.07 km; Song, distance 0.08 km; Great Lakes, distance 0.15 km; Bonnie's Grill, distance 0.17 km; Blue Ribbon Brasserie, distance 0.17 km; Perch Cafe, distance 0.19 km; Juventino, distance 0.20 km.
+The 10 representative nearby POIs and their distances are: Brooklyn Museum, distance 1.69 km; Prospect Park, distance 1.68 km; Target, distance 1.37 km; The Bell House, distance 0.73 km; Trader Joe's, distance 2.03 km; Connecticut Muffin, distance 2.56 km; Pizza Town, distance 0.91 km; Union Hall, distance 0.45 km; Soda Bar, distance 1.37 km; Fort Greene Park, distance 2.18 km.

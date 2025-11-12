@@ -1,0 +1,6 @@
+The name of this location is "Forever 21 kings plaza" and its POI category is Women's Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.60978238, -73.92232418), with the corresponding geohash code dr5rjbg3jh05.
+The address is Av U/Flatbush Av, Brooklyn, NY 11234, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1); Park, 1(avg: 8); Movie Theater, 1(avg: 5).
+The 10 nearest POIs and their distances are: Kings Plaza Mall, distance 0.18 km; Marine Park, distance 1.32 km; United Artists Sheepshead Bay Stadium 14 & IMAX, distance 2.71 km.
+The 10 representative nearby POIs and their distances are: Kings Plaza Mall, distance 0.18 km; United Artists Sheepshead Bay Stadium 14 & IMAX, distance 2.71 km; Marine Park, distance 1.32 km.

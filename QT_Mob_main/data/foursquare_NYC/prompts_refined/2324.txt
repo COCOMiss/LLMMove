@@ -1,0 +1,64 @@
+**Location Analysis: Percy's Tavern**
+
+Percy's Tavern, located at 211 Avenue A, New York, NY 10009, USA, is a New American Restaurant situated in the heart of the city. This analysis will provide an overview of the surrounding area, highlighting the nearby points-of-interest (POIs), their categories, and distances.
+
+**Geographic Information**
+
+- **Geographic Coordinates:** 40.72975423, -73.98083639
+- **Geohash Code:** dr5rsw8u186p
+- **Address:** 211 Avenue A, New York, NY 10009, USA
+
+**Nearby Points-of-Interest (POIs)**
+
+The top 10 nearby POIs, categorized and counted, reveal a diverse range of establishments:
+
+1. **Bar:** 241 (avg: 124)
+2. **Coffee Shop:** 98 (avg: 63)
+3. **Office:** 83 (avg: 72)
+4. **American Restaurant:** 74 (avg: 51)
+5. **Café:** 68 (avg: 42)
+6. **Lounge:** 53 (avg: 35)
+7. **Italian Restaurant:** 48 (avg: 28)
+8. **Mexican Restaurant:** 46 (avg: 28)
+9. **Gym:** 39 (avg: 25)
+10. **Pub:** 36 (avg: 24)
+
+These categories suggest that Percy's Tavern is situated in a densely populated area with a mix of entertainment, dining, and commercial establishments.
+
+**10 Nearest POIs**
+
+The 10 nearest POIs, listed in order of distance, are:
+
+1. **Fat Buddha** (0.01 km)
+2. **Destination** (0.02 km)
+3. **Drop Off Service** (0.02 km)
+4. **Common Ground Bar & Restaurant** (0.02 km)
+5. **Zaragosa Mexican Deli-Grocery** (0.03 km)
+6. **The HorseBox** (0.04 km)
+7. **Planet Rose** (0.04 km)
+8. **Phoenix** (0.04 km)
+9. **Heathers** (0.05 km)
+10. **Keybar** (0.09 km)
+
+These POIs are relatively close to Percy's Tavern, indicating a high concentration of establishments in the surrounding area.
+
+**10 Representative Nearby POIs**
+
+The 10 representative nearby POIs, listed in order of distance, are:
+
+1. **New York Penn Station** (2.55 km)
+2. **Madison Square Garden** (2.47 km)
+3. **MTA Subway - Manhattan Bridge (B/D/N/Q)** (2.62 km)
+4. **Union Square Park** (1.03 km)
+5. **Bryant Park** (2.68 km)
+6. **Union Square Greenmarket** (1.11 km)
+7. **Madison Square Park** (1.51 km)
+8. **Macy's** (2.41 km)
+9. **Snowpocalypse 2010** (2.45 km)
+10. **Eataly** (1.57 km)
+
+These POIs are more spread out, but still within a reasonable distance from Percy's Tavern, indicating that the area is densely populated with various attractions and amenities.
+
+**Conclusion**
+
+Percy's Tavern is situated in a vibrant area with a mix of entertainment, dining, and commercial establishments. The surrounding area is densely populated, with a variety of POIs within walking distance. The nearby POIs suggest that the area is a hub for socializing, shopping, and dining, making it an attractive location for a restaurant like Percy's Tavern.

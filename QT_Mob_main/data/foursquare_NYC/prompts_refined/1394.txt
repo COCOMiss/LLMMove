@@ -1,0 +1,58 @@
+**Location Analysis: Starbucks**
+
+**Location Information:**
+
+- **Name:** Starbucks
+- **POI Category:** Coffee Shop
+- **Parent Category:** Food
+- **Geographic Coordinates:** (40.78580561, -73.95094872)
+- **Geohash Code:** dr72j0yd9cpz
+- **Address:** 96 St, New York, NY 10029, USA
+
+**Nearby Points of Interest (POIs):**
+
+The top 10 POI categories and their counts near Starbucks are:
+
+1.  **Bar** (28) - Average distance: 124 meters
+2.  **Coffee Shop** (18) - Average distance: 63 meters
+3.  **Metro Station** (14) - Average distance: 19 meters
+4.  **American Restaurant** (12) - Average distance: 51 meters
+5.  **Park** (10) - Average distance: 8 meters
+6.  **Yoga Studio** (8) - Average distance: 14 meters
+7.  **Home (private)** (7) - Average distance: 14 meters
+8.  **Café** (6) - Average distance: 42 meters
+9.  **Gym** (6) - Average distance: 25 meters
+10. **Art Gallery** (5) - Average distance: 5 meters
+
+**Nearest POIs:**
+
+The 10 nearest POIs to Starbucks are:
+
+1.  **MTA Subway - 96th St (6)** - Distance: 0.01 km
+2.  **Kinsale Tavern** - Distance: 0.22 km
+3.  **Aron Hall** - Distance: 0.30 km
+4.  **Fetch Bar and Grill** - Distance: 0.31 km
+5.  **Brother Jimmy's BBQ** - Distance: 0.34 km
+6.  **Icahn Medical Institute** - Distance: 0.37 km
+7.  **92nd Street Y** - Distance: 0.38 km
+8.  **Starbucks** - Distance: 0.32 km (Note: This appears to be the same location, likely a duplicate entry)
+9.  **Starbucks** - Distance: 0.36 km (Note: This appears to be the same location, likely a duplicate entry)
+10. **Starbucks** - Distance: 0.36 km (Note: This appears to be the same location, likely a duplicate entry)
+
+**Representative Nearby POIs:**
+
+The 10 representative POIs near Starbucks are:
+
+1.  **Metropolitan Museum of Art** - Distance: 1.25 km
+2.  **Central Park** - Distance: 1.32 km
+3.  **American Museum of Natural History** - Distance: 1.95 km
+4.  **Central Park - The Lake** - Distance: 2.10 km
+5.  **Metro North - Harlem 125th Station** - Distance: 2.36 km
+6.  **Shake Shack** - Distance: 2.23 km
+7.  **Central Park - Hernshead** - Distance: 2.10 km
+8.  **Brother Jimmy's BBQ** - Distance: 1.55 km
+9.  **Guggenheim Museum** - Distance: 0.74 km
+10. **Whole Foods** - Distance: 1.65 km
+
+**Conclusion:**
+The Starbucks location at 96 St, New York, NY 10029, USA, is situated in a densely populated area with various points of interest nearby. The location is surrounded by bars, coffee shops, metro stations, and restaurants, making it a convenient spot for both locals and tourists. The nearby Central Park and Metropolitan Museum of Art make it an attractive location for those looking to combine a coffee break with a visit to these popular attractions.

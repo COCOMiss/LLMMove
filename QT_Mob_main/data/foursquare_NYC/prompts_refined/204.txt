@@ -1,0 +1,54 @@
+**Location Analysis: Ennju**
+
+**Geographic Location and Coordinates**
+
+Ennju is a Japanese restaurant located at 15 E 17th St, New York, NY 10003, USA. The geographic coordinates for this location are (40.73753053, -73.99120113), which corresponds to the geohash code dr5ru213241e.
+
+**Surrounding Points of Interest (POIs)**
+
+The top 10 nearby POIs and their counts in the surrounding area are:
+
+1.  Bar (261) - average distance: 124 meters
+2.  Office (117) - average distance: 72 meters
+3.  Coffee Shop (116) - average distance: 63 meters
+4.  American Restaurant (103) - average distance: 51 meters
+5.  Café (74) - average distance: 42 meters
+6.  Lounge (69) - average distance: 35 meters
+7.  Italian Restaurant (53) - average distance: 28 meters
+8.  Mexican Restaurant (52) - average distance: 28 meters
+9.  Gym (44) - average distance: 25 meters
+10.  Pub (42) - average distance: 24 meters
+
+**Nearest POIs**
+
+The 10 nearest POIs to Ennju, along with their distances, are:
+
+1.  Laut (0.01 km)
+2.  Lillie's Victorian Bar & Restaurant (0.02 km)
+3.  Havana Central Union Square (0.02 km)
+4.  Cafe Medina (0.03 km)
+5.  Dogmatic Gourmet Sausage System (0.04 km)
+6.  Chop't (0.05 km)
+7.  Republic (0.06 km)
+8.  Pret A Manger (0.07 km)
+9.  Heartland Brewery (0.07 km)
+10.  Tarallucci e Vino (0.07 km)
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs, along with their distances, are:
+
+1.  New York Penn Station (1.49 km)
+2.  Madison Square Garden (1.41 km)
+3.  NBC Studio 1A - Today Show (2.52 km)
+4.  Times Square (2.11 km)
+5.  Port Authority Bus Terminal (2.19 km)
+6.  Union Square Park (0.26 km)
+7.  Bryant Park (1.91 km)
+8.  Union Square Greenmarket (0.12 km)
+9.  Madison Square Park (0.60 km)
+10.  Macy's (1.47 km)
+
+**Insights**
+
+Ennju is a Japanese restaurant located in the heart of New York City, surrounded by a diverse range of POIs. The restaurant is situated near several popular bars, coffee shops, and restaurants, making it an ideal location for dining and entertainment. The nearby Union Square Park and Madison Square Park offer opportunities for outdoor activities and relaxation. The proximity to New York Penn Station and Madison Square Garden also makes it convenient for tourists and locals alike.

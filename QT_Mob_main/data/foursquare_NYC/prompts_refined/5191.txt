@@ -1,0 +1,25 @@
+**Location Analysis: Cross Island Plaza**
+
+**Location Information:**
+
+* Name: Cross Island Plaza
+* Category: Office
+* Parent Category: Professional & Other Places
+* Geographic Coordinates: (40.6741287, -73.73220921)
+* Geohash Code: dr5x6hmzfzpu
+* Address: 133-33 Brookville Blvd Suite #229C, Rosedale, NY 11422, USA
+
+**Surrounding Environment:**
+
+* The location is situated in Rosedale, NY, a neighborhood in Queens, New York City.
+* The nearest major point of interest is Green Acres Mall, located approximately 1.67 km away.
+
+**Points of Interest (POIs):**
+
+* The top 10 nearby POI categories are dominated by a single category: Shopping Mall, with an average count of 1.
+* The 10 nearest POIs to Cross Island Plaza are primarily related to shopping and retail.
+* The representative nearby POIs are also centered around shopping and retail, with Green Acres Mall being the most prominent.
+
+**Conclusion:**
+
+Cross Island Plaza appears to be a commercial office complex located in a primarily residential area of Rosedale, NY. The surrounding environment is characterized by a mix of residential and commercial properties, with a strong presence of shopping and retail POIs. The proximity to Green Acres Mall suggests that the area is well-suited for businesses and organizations in the retail and service sectors. Overall, Cross Island Plaza seems to be a convenient and accessible location for both businesses and customers.

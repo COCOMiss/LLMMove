@@ -1,0 +1,42 @@
+**Location Analysis: Bloomingdale's Bergen County**
+
+**Overview**
+
+Bloomingdale's Bergen County is an arcade located in Hackensack, New Jersey, USA. It is situated at The Shops at Riverside, 400 Hackensack Ave, Hackensack, NJ 07601. The location falls under the category of Arts & Entertainment, with a specific focus on Arcade.
+
+**Geographic Coordinates and Nearby Points of Interest**
+
+The location's geographic coordinates are (40.90651116, -74.03141512), which corresponds to the geohash code dr72eqgcwyrg. The nearby points of interest (POIs) are diverse, with a mix of shopping, dining, and recreational options.
+
+**Top 10 Nearby POI Categories and Counts**
+
+1.  **Shopping Mall** (1) - This category is dominated by a single POI, The Shops at Riverside, which is the location itself.
+2.  **Asian Restaurant** (1) - P.F. Chang's is the sole representation of this category.
+3.  **Bookstore** (1) - Barnes & Noble is the only bookstore in the vicinity.
+4.  **American Restaurant** (1) - The Cheesecake Factory is the only American restaurant listed.
+5.  **Wings Joint** (1) - Hooters of Hackensack is the sole representative of this category.
+6.  **Gym** (1) - Retro Fitness is the only gym in the area.
+
+**10 Nearest POIs and Distances**
+
+1.  **The Shops at Riverside** (0.09 km) - This is the location itself.
+2.  **P.F. Chang's** (0.12 km) - An Asian restaurant.
+3.  **Barnes & Noble** (0.12 km) - A bookstore.
+4.  **The Cheesecake Factory** (0.15 km) - An American restaurant.
+5.  **Hooters of Hackensack** (0.30 km) - A wings joint.
+6.  **Retro Fitness** (0.62 km) - A gym.
+
+**10 Representative Nearby POIs and Distances**
+
+The representative POIs are a subset of the nearest POIs, with a focus on a mix of shopping, dining, and recreational options. The representative POIs are:
+
+1.  **The Shops at Riverside** (0.09 km) - This is the location itself.
+2.  **The Cheesecake Factory** (0.15 km) - An American restaurant.
+3.  **Retro Fitness** (0.62 km) - A gym.
+4.  **Barnes & Noble** (0.12 km) - A bookstore.
+5.  **P.F. Chang's** (0.12 km) - An Asian restaurant.
+6.  **Hooters of Hackensack** (0.30 km) - A wings joint.
+
+**Conclusion**
+
+Bloomingdale's Bergen County is an arcade located in the heart of Hackensack, New Jersey, surrounded by a variety of shopping, dining, and recreational options. The location is part of The Shops at Riverside, a shopping mall that offers a mix of high-end and affordable retail stores. The nearby POIs cater to different tastes and preferences, making it an attractive destination for both locals and visitors.

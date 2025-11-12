@@ -1,0 +1,63 @@
+**Location Analysis: Sky Thai**
+
+**Location Details**
+
+- **Name:** Sky Thai
+- **Category:** Thai Restaurant
+- **Parent Category:** Food
+- **Geographic Coordinates:** (40.71366078, -74.036338)
+- **Geohash Code:** dr5re78qk23n
+- **Address:** 60 Morris St, Jersey City, NJ 07302, USA
+
+**Nearby Points-of-Interest (POIs)**
+
+The top 10 nearby POIs to Sky Thai are categorized as follows:
+
+1.  **Coffee Shop** (15, avg: 63)
+2.  **American Restaurant** (12, avg: 51)
+3.  **Bar** (12, avg: 124)
+4.  **Office** (11, avg: 72)
+5.  **Boat or Ferry** (7, avg: 2)
+6.  **Hotel** (7, avg: 28)
+7.  **Gym** (7, avg: 25)
+8.  **Park** (7, avg: 8)
+9.  **Light Rail Station** (6, avg: 1)
+10. **Metro Station** (6, avg: 19)
+
+**Nearest POIs**
+
+The 10 nearest POIs to Sky Thai are:
+
+1.  **NY Waterway Ferry Terminal Paulus Hook** (0.15 km)
+2.  **Goldman Sachs** (0.19 km)
+3.  **Iron Monkey** (0.26 km)
+4.  **Exchange Place NJ Transit Hudson-Bergen Light Rail Station** (0.31 km)
+5.  **Exchange Place PATH Station** (0.34 km)
+6.  **Hyatt Regency Jersey City** (0.48 km)
+7.  **50 Columbus** (0.59 km)
+8.  **Club H Fitness** (0.64 km)
+9.  **Taqueria Downtown** (0.75 km)
+10. **Starbucks** (0.76 km)
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs to Sky Thai are:
+
+1.  **PATH: World Trade Center Station** (2.07 km)
+2.  **Staten Island Ferry - Whitehall Terminal** (2.46 km)
+3.  **Whole Foods** (2.12 km)
+4.  **Statue of Liberty** (2.80 km)
+5.  **Holland Tunnel** (2.01 km)
+6.  **Hoboken Terminal** (2.50 km)
+7.  **American Express Tower** (1.83 km)
+8.  **Ground Zero** (2.05 km)
+9.  **Hoboken PATH Station** (2.56 km)
+10. **One World Trade Center Freedom Tower** (2.06 km)
+
+**Key Observations**
+
+- Sky Thai is located in the heart of Jersey City, with several nearby POIs in the finance, food, and entertainment sectors.
+- The presence of multiple coffee shops, restaurants, and bars within close proximity suggests a lively and bustling neighborhood.
+- The nearby hotels and office buildings indicate a significant business presence in the area.
+- The proximity to the NY Waterway Ferry Terminal and PATH stations makes it easily accessible by public transportation.
+- The location's closeness to iconic landmarks like the Statue of Liberty and One World Trade Center Freedom Tower makes it a desirable spot for tourists and locals alike.

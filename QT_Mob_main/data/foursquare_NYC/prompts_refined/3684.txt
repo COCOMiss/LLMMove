@@ -1,0 +1,50 @@
+**Location Analysis: Cheap Shots**
+
+**Location Information**
+
+* Name: Cheap Shots
+* Category: Bar
+* Parent Category: Nightlife Spot
+* Geographic Coordinates: (40.71893254, -73.81361961)
+* Geohash Code: dr5x8kdsfp0j
+* Address: 149-05 Union Tpke, Kew Gardens Hills, NY 11367, USA
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs, along with their counts and average ratings, are:
+
+1. **College Academic Building (4, avg: 5)**: This suggests that there is a significant presence of educational institutions in the area, which could be a draw for students and young professionals.
+2. **Metro Station (4, avg: 19)**: The presence of a metro station indicates that the area is well-connected to the city's public transportation network, making it easily accessible.
+3. **Bus Line (2, avg: 3)**: The availability of bus lines provides additional transportation options for residents and visitors.
+4. **University (2, avg: 5)**: This highlights the presence of a university in the area, which could contribute to the local nightlife and entertainment scene.
+5. **Road (2, avg: 1)**: The presence of a road indicates that the area is easily accessible by car.
+6. **Coffee Shop (1, avg: 63)**: The high average rating of this POI suggests that there is a popular coffee shop in the area, which could be a popular spot for locals and visitors alike.
+7. **Courthouse (1, avg: 2)**: The presence of a courthouse indicates that the area is a hub for legal activities.
+8. **Bar (1, avg: 124)**: As the location is a bar itself, this is not surprising, but it highlights the area's focus on nightlife.
+9. **Train (1, avg: 4)**: The presence of a train station indicates that the area is well-connected to the city's rail network.
+10. **Gym (1, avg: 25)**: The presence of a gym suggests that the area has a health-conscious community.
+
+**Nearest POIs**
+
+The 10 nearest POIs, along with their distances, are:
+
+1. **MTA - Q46 Bus (0.14 km)**: This bus line is the closest POI to Cheap Shots, indicating that it is easily accessible on foot.
+2. **D'Angelo Center (1.49 km)**: This center is a popular spot for students and locals, and its proximity to Cheap Shots suggests that it is a key hub for the area.
+3. **MTA Subway - Union Turnpike-Kew Gardens (E,F) (1.55 km)**: This subway station is a major transportation hub, making it easily accessible to visitors.
+4. **Starbucks (1.62 km)**: This coffee shop is a popular spot for coffee and snacks, and its proximity to Cheap Shots suggests that it is a convenient option for patrons.
+5. **St. Louise de Marillac Hall (1.62 km)**: This hall is part of a university, indicating that the area is home to a significant educational institution.
+6. **St. John's University (1.62 km)**: This university is a key presence in the area, contributing to the local nightlife and entertainment scene.
+7. **St John's Hall (1.65 km)**: This hall is part of the university, suggesting that it is a hub for student life.
+8. **Queens Civil Court (1.68 km)**: This courthouse is a key institution in the area, indicating that it is a hub for legal activities.
+9. **Queens College - Powdermaker (1.72 km)**: This college is a part of the university, contributing to the area's educational and cultural scene.
+10. **Austin's Ale House (1.73 km)**: This bar is a nearby competitor to Cheap Shots, indicating that the area is a hub for nightlife.
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs, along with their distances, are:
+
+1. **LIRR - Jamaica Station (2.19 km)**: This train station is a major transportation hub, making it easily accessible to visitors.
+2. **St. John's University (1.62 km)**: This university is a key presence in the area, contributing to the local nightlife and entertainment scene.
+3. **JFK AirTrain - Jamaica Station (2.27 km)**: This train station is a major transportation hub, making it easily accessible to visitors.
+4. **Queens College (2.03 km)**: This college is a part of the university, contributing to the area's educational and cultural scene.
+5. **MTA Subway - Union Turnpike-Kew Gardens (E,F) (1.55 km)**:

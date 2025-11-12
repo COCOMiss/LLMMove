@@ -1,0 +1,40 @@
+**Location Analysis: Long Island Jewish Medical Center**
+
+**Overview**
+
+The Long Island Jewish Medical Center is a hospital located at 269-01 76th Ave, Glen Oaks, NY 11004, USA. The medical center's geographic coordinates are (40.75450686, -73.70915294), with a geohash code of dr5xfenshnxy.
+
+**Geographic Context**
+
+The Long Island Jewish Medical Center is situated in the Glen Oaks neighborhood of Queens, New York. The nearby geographic features and points of interest (POIs) provide insight into the area's character and accessibility.
+
+**Nearby POIs**
+
+The top 10 POIs near the Long Island Jewish Medical Center are categorized as follows:
+
+1. **Hospital** (1): The medical center itself is the primary point of interest, with an average count of 2 hospitals in the area.
+2. **Gym** (1): LA Fitness is the nearest gym, located approximately 0.73 km away, with an average count of 25 gyms in the area.
+3. **Road** (1): Cross Island Parkway is a nearby road, approximately 2.29 km away, with an average count of 1 road in the area.
+4. **Emergency Room** (1): The Long Island Jewish Medical Center also serves as an emergency room, with an average count of 2 emergency rooms in the area.
+
+**Nearest POIs**
+
+The 10 nearest POIs to the Long Island Jewish Medical Center are:
+
+1. **Long Island Jewish Medical Center** (0.07 km)
+2. **LA Fitness** (0.73 km)
+3. **Cross Island Parkway** (2.29 km)
+4. **North Shore University Hospital** (2.56 km)
+
+**Representative POIs**
+
+The 10 representative POIs near the Long Island Jewish Medical Center are:
+
+1. **LA Fitness** (0.73 km)
+2. **North Shore University Hospital** (2.56 km)
+3. **Long Island Jewish Medical Center** (0.07 km)
+4. **Cross Island Parkway** (2.29 km)
+
+**Insights**
+
+The Long Island Jewish Medical Center is a critical healthcare facility in the Glen Oaks neighborhood of Queens. The nearby POIs suggest a mix of residential and commercial areas, with a focus on healthcare services. The presence of a gym and emergency room services indicates a high demand for healthcare and wellness services in the area. The nearby road and highway provide easy access to other parts of the city.

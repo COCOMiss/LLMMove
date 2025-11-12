@@ -1,0 +1,6 @@
+The name of this location is "Splish Splash Laundromat" and its POI category is Building, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.81265281, -74.19083264), with the corresponding geohash code dr70ptxyumct.
+The address is 7 Mill St, Bloomfield, NJ 07003, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 2(avg: 5); Pub, 1(avg: 24); Coffee Shop, 1(avg: 63); Gym, 1(avg: 25); Music Venue, 1(avg: 10); Spanish Restaurant, 1(avg: 4); Baseball Field, 1(avg: 1); Grocery Store, 1(avg: 9).
+The 10 nearest POIs and their distances are: NJ Transit Rail - Bay Street Station, distance 1.59 km; Egan & Sons, distance 1.84 km; Starbucks, distance 1.90 km; Retro Fitness, distance 2.11 km; Wellmont Theatre, distance 2.18 km; Cuban Pete's, distance 2.20 km; NJ Transit Rail - Bloomfield Station, distance 2.36 km; Brookdale Park, distance 2.42 km; ShopRite, distance 2.83 km.
+The 10 representative nearby POIs and their distances are: NJ Transit Rail - Bloomfield Station, distance 2.36 km; Retro Fitness, distance 2.11 km; Cuban Pete's, distance 2.20 km; Wellmont Theatre, distance 2.18 km; Egan & Sons, distance 1.84 km; NJ Transit Rail - Bay Street Station, distance 1.59 km; Brookdale Park, distance 2.42 km; Starbucks, distance 1.90 km; ShopRite, distance 2.83 km.

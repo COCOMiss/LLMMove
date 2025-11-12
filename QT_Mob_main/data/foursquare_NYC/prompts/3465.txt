@@ -1,0 +1,6 @@
+The name of this location is "Powerhouse Fitness Family Gym" and its POI category is Gym, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.78939508, -74.19575707), with the corresponding geohash code dr70p9kr3w3e.
+The address is 428 Bloomfield Ave, Bloomfield, NJ 07003, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 2(avg: 5); Coffee Shop, 1(avg: 63); Medical Center, 1(avg: 1).
+The 10 nearest POIs and their distances are: NJ Transit Rail - Bloomfield Station, distance 0.51 km; Starbucks, distance 0.99 km; Clara Maass Medical Center, distance 1.72 km; NJ Transit Rail - Bay Street Station, distance 2.35 km.
+The 10 representative nearby POIs and their distances are: NJ Transit Rail - Bloomfield Station, distance 0.51 km; NJ Transit Rail - Bay Street Station, distance 2.35 km; Starbucks, distance 0.99 km; Clara Maass Medical Center, distance 1.72 km.

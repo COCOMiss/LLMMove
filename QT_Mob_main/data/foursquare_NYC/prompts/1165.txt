@@ -1,0 +1,6 @@
+The name of this location is "Wyndham Garden" and its POI category is Hotel, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.70413141, -74.18608189), with the corresponding geohash code dr5pxcgqfbpc.
+The address is 270-286 Haynes Ave, Newark, NJ 07114, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Airport Terminal, 2(avg: 3); Train, 1(avg: 4); Lounge, 1(avg: 35); Building, 1(avg: 13); Plane, 1(avg: 1).
+The 10 nearest POIs and their distances are: NJ Transit Rail - Newark Airport Station, distance 0.39 km; Continental Airlines President's Club, distance 1.16 km; Terminal C, distance 1.19 km; Newark Liberty International Airport - Building One, distance 1.40 km; Newark Liberty International Airport (EWR), distance 1.47 km; Terminal B, distance 1.73 km.
+The 10 representative nearby POIs and their distances are: Newark Liberty International Airport (EWR), distance 1.47 km; Terminal C, distance 1.19 km; NJ Transit Rail - Newark Airport Station, distance 0.39 km; Continental Airlines President's Club, distance 1.16 km; Terminal B, distance 1.73 km; Newark Liberty International Airport - Building One, distance 1.40 km.

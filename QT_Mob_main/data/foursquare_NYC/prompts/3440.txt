@@ -1,0 +1,6 @@
+The name of this location is "Starbucks" and its POI category is Café, belonging to the parent category Food.
+The geographic coordinates for this location are (40.83128114, -74.08943653), with the corresponding geohash code dr72611ern2p.
+The address is 40 NJ-17, East Rutherford, NJ 07073, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Café, 1(avg: 42); Bakery, 1(avg: 16); Music Venue, 1(avg: 10); Beer Garden, 1(avg: 4); American Restaurant, 1(avg: 51).
+The 10 nearest POIs and their distances are: Starbucks, distance 0.00 km; Panera Bread, distance 0.31 km; The Bamboozle Festival 2011, distance 2.30 km; New Meadowlands Stadium, distance 2.34 km; Houlihan's, distance 2.34 km.
+The 10 representative nearby POIs and their distances are: New Meadowlands Stadium, distance 2.34 km; The Bamboozle Festival 2011, distance 2.30 km; Starbucks, distance 0.00 km; Panera Bread, distance 0.31 km; Houlihan's, distance 2.34 km.

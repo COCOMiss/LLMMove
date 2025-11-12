@@ -1,0 +1,56 @@
+**Analysis of Bally Total Fitness Location**
+
+**Location Overview**
+
+Bally Total Fitness is a gym located at 50-40 Jacobus St, Elmhurst, NY 11373, USA. The geographic coordinates for this location are (40.73714913, -73.88753449), with the corresponding geohash code dr5rwxuxpej0.
+
+**Nearby Points of Interest (POI)**
+
+The top 10 nearby POI categories and their counts are:
+
+1.  Metro Station (4) - Average distance 19
+2.  Grocery Store (2) - Average distance 9
+3.  Department Store (2) - Average distance 4
+4.  Train Station (2) - Average distance 5
+5.  Bowling Alley (1) - Average distance 1
+6.  Doctor's Office (1) - Average distance 1
+7.  Diner (1) - Average distance 9
+8.  Road (1) - Average distance 1
+9.  Electronics Store (1) - Average distance 5
+10. Bus Station (1) - Average distance 1
+
+The nearby POIs are a mix of transportation hubs, shopping centers, and dining options, indicating that Bally Total Fitness is located in a densely populated area with easy access to various amenities.
+
+**Top 10 Nearest POIs**
+
+The top 10 nearest POIs to Bally Total Fitness are:
+
+1.  Play Bowling & Lounge (0.22 km)
+2.  Super Stop & Shop (0.72 km)
+3.  Elmhurst Hospital Center (0.89 km)
+4.  Georgia Diner (1.01 km)
+5.  Queens Boulevard (1.05 km)
+6.  Best Buy (1.08 km)
+7.  MTA Subway - 74th St-Broadway/Roosevelt Av (7/E/F/M/G/R) (1.13 km)
+8.  Target (1.13 km)
+9.  MTA - 7 Train (1.20 km)
+10. Queens Center Mall (1.39 km)
+
+These POIs are primarily located within a 1.5 km radius of Bally Total Fitness, indicating that the gym is situated in a densely populated area with easy access to various amenities.
+
+**Top 10 Representative POIs**
+
+The top 10 representative POIs to Bally Total Fitness are:
+
+1.  Queens Center Mall (1.39 km)
+2.  MTA - 7 Train (1.20 km)
+3.  MTA Subway - 74th St-Broadway/Roosevelt Av (7/E/F/M/G/R) (1.13 km)
+4.  LIRR - Woodside Station (1.62 km)
+5.  Target (1.13 km)
+6.  MTA Subway - 61st St-Woodside (7) (1.63 km)
+7.  Michael's Arts & Crafts (2.53 km)
+8.  Sripraphai Thai Restaurant (1.44 km)
+9.  MTA Subway - Junction Blvd (7) (2.02 km)
+10. Play Bowling & Lounge (0.22 km)
+
+These POIs are representative of the surrounding area and provide a mix of shopping, dining, and transportation options, indicating that Bally Total Fitness is located in a convenient and accessible location.

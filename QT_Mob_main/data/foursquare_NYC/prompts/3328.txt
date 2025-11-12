@@ -1,0 +1,6 @@
+The name of this location is "City Island" and its POI category is Other Great Outdoors, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.84727137, -73.78656149), with the corresponding geohash code dr782un287rb.
+The address is 311 City Island Ave, Bronx, NY 10464, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Other Great Outdoors, 1(avg: 13).
+The 10 nearest POIs and their distances are: City Island, distance 0.03 km.
+The 10 representative nearby POIs and their distances are: City Island, distance 0.03 km.

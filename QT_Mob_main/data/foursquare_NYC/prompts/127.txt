@@ -1,0 +1,6 @@
+The name of this location is "Bronx-Whitestone Bridge" and its POI category is Road, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.80023122, -73.82881165), with the corresponding geohash code dr72pgrqxfrg.
+The address is R52C+3F New York, NY, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); Spa, 1(avg: 4); Deli / Bodega, 1(avg: 10); General Travel, 1(avg: 1); Department Store, 1(avg: 4).
+The 10 nearest POIs and their distances are: Bronx-Whitestone Bridge, distance 0.00 km; Spa Castle, distance 1.56 km; Cherry Valley Deli & Grill, distance 1.68 km; Whitestone Bridge Toll Plaza, distance 1.78 km; Target, distance 1.96 km.
+The 10 representative nearby POIs and their distances are: Bronx-Whitestone Bridge, distance 0.00 km; Target, distance 1.96 km; Whitestone Bridge Toll Plaza, distance 1.78 km; Spa Castle, distance 1.56 km; Cherry Valley Deli & Grill, distance 1.68 km.

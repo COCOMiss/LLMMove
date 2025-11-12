@@ -1,0 +1,6 @@
+The name of this location is "Bella's Crib" and its POI category is Home (private), belonging to the parent category Residence.
+The geographic coordinates for this location are (40.66336175, -73.85954899), with the corresponding geohash code dr5rr6917b09.
+The address is 803-867 Wortman Ave, Brooklyn, NY 11208, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Beach, 1(avg: 1); Department Store, 1(avg: 4); Coffee Shop, 1(avg: 63); Electronics Store, 1(avg: 5).
+The 10 nearest POIs and their distances are: Howard Beach, distance 1.02 km; Target, distance 1.47 km; Starbucks, distance 1.66 km; Best Buy, distance 1.72 km; MTA - 80-Hudson Street Subway - A, distance 1.79 km; MTA - Rockaway Boulevard Subway Station (A), distance 2.32 km.
+The 10 representative nearby POIs and their distances are: MTA - Rockaway Boulevard Subway Station (A), distance 2.32 km; Target, distance 1.47 km; Starbucks, distance 1.66 km; Howard Beach, distance 1.02 km; MTA - 80-Hudson Street Subway - A, distance 1.79 km; Best Buy, distance 1.72 km.

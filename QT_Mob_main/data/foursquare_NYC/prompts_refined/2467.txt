@@ -1,0 +1,54 @@
+**Location Analysis: Wings To Go**
+
+**Location Overview**
+
+Wings To Go is a Wings Joint located at 400 Newark St., Hoboken, NJ 07030, USA. The geographic coordinates of this location are (40.737259, -74.037061), with a corresponding geohash code of dr5repzzerqp.
+
+**Surrounding Area**
+
+The surrounding area of Wings To Go is characterized by a mix of commercial and residential properties. The top 10 nearby points-of-interest (POI) categories and their counts indicate a high concentration of bars and restaurants, suggesting a lively nightlife scene. The average distances to these POIs are:
+
+- Bar: 124 (avg: 0.45 km)
+- American Restaurant: 51 (avg: 0.36 km)
+- Coffee Shop: 63 (avg: 0.43 km)
+- Gym: 25 (avg: 0.52 km)
+- Light Rail Station: 1 (avg: 0.42 km)
+- Other Great Outdoors: 13 (avg: 0.46 km)
+- Pub: 24 (avg: 0.48 km)
+- Grocery Store: 9 (avg: 0.45 km)
+- Office: 72 (avg: 0.54 km)
+- Home (private): 14 (avg: 0.51 km)
+
+**Nearest POIs**
+
+The 10 nearest POIs to Wings To Go are:
+
+1. Archstone Hoboken (0.31 km)
+2. Village Pourhouse (0.35 km)
+3. Mulligan's Pub (0.41 km)
+4. Buskers (0.44 km)
+5. McSwiggan's Pub (0.47 km)
+6. A&P (0.48 km)
+7. The Shannon (0.49 km)
+8. La Isla (0.51 km)
+9. CVS Pharmacy (0.51 km)
+10. Carlo's City Hall Bake Shop (0.54 km)
+
+**Representative POIs**
+
+The 10 representative nearby POIs to Wings To Go are:
+
+1. Journal Square PATH Station (2.26 km)
+2. Holland Tunnel (1.79 km)
+3. Hoboken Terminal (0.69 km)
+4. Hoboken PATH Station (0.66 km)
+5. Zeppelin Hall Biergarten (2.61 km)
+6. Newport Centre Mall (1.15 km)
+7. Grove Street PATH Station (2.03 km)
+8. Newport PATH Station (1.17 km)
+9. Hoboken (1.15 km)
+10. Holland Tunnel Toll Plaza (0.85 km)
+
+**Conclusion**
+
+Wings To Go is a Wings Joint located in the heart of Hoboken, NJ, surrounded by a lively mix of bars, restaurants, and other commercial establishments. The location is easily accessible by public transportation, with several PATH stations and bus routes nearby. The surrounding area offers a variety of amenities, including grocery stores, gyms, and office buildings. The nearest POIs are primarily bars and restaurants, indicating a vibrant nightlife scene.

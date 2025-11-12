@@ -1,0 +1,6 @@
+The name of this location is "MTA - Rockaway Boulevard Subway Station (A)" and its POI category is Metro Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.6804753, -73.84372473), with the corresponding geohash code dr5rrtssuqpz.
+The address is 95-04 Liberty Ave, Jamaica, NY 11417, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Coffee Shop, 1(avg: 63); Beach, 1(avg: 1); Light Rail Station, 1(avg: 1); Train, 1(avg: 4); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: MTA - Rockaway Boulevard Subway Station (A), distance 0.00 km; MTA - 80-Hudson Street Subway - A, distance 1.23 km; Starbucks, distance 2.14 km; Howard Beach, distance 2.47 km; JFK AirTrain - Howard Beach, distance 2.48 km; MTA - Howard Beach - JFK Station, distance 2.52 km; Jackie Robinson Parkway, distance 2.77 km.
+The 10 representative nearby POIs and their distances are: JFK AirTrain - Howard Beach, distance 2.48 km; MTA - Rockaway Boulevard Subway Station (A), distance 0.00 km; Starbucks, distance 2.14 km; MTA - Howard Beach - JFK Station, distance 2.52 km; Howard Beach, distance 2.47 km; MTA - 80-Hudson Street Subway - A, distance 1.23 km; Jackie Robinson Parkway, distance 2.77 km.

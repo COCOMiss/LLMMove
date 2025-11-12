@@ -1,0 +1,6 @@
+The name of this location is "Bayonne, New Jersey" and its POI category is Home (private), belonging to the parent category Residence.
+The geographic coordinates for this location are (40.67334754, -74.11102295), with the corresponding geohash code dr5r3s3grvxb.
+The address is 10 W 34th St., Bayonne, NJ 07002, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Forum Fitness Club, distance 0.99 km; Casciano Memorial Bridge, distance 2.50 km.
+The 10 representative nearby POIs and their distances are: Casciano Memorial Bridge, distance 2.50 km; Forum Fitness Club, distance 0.99 km.

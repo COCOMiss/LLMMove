@@ -1,0 +1,6 @@
+The name of this location is "Gotham City Diner" and its POI category is Diner, belonging to the parent category Food.
+The geographic coordinates for this location are (40.92607839, -74.09735271), with the corresponding geohash code dr72cf7gwtcq.
+The address is 39-10 Broadway, Fair Lawn, NJ 07410, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); Pharmacy, 1(avg: 4); Restaurant, 1(avg: 10); Department Store, 1(avg: 4); Furniture / Home Store, 1(avg: 7); Electronics Store, 1(avg: 5); Multiplex, 1(avg: 4); Shopping Mall, 1(avg: 1); Community College, 1(avg: 1).
+The 10 nearest POIs and their distances are: NJ Route 4, distance 1.85 km; ShopRite, distance 1.91 km; Grand Lux Cafe, distance 1.98 km; Nordstrom, distance 1.98 km; IKEA, distance 1.98 km; Apple Store, distance 2.05 km; AMC Garden State 16, distance 2.07 km; Garden State Plaza, distance 2.07 km; Bergen Community College, distance 2.81 km.
+The 10 representative nearby POIs and their distances are: Garden State Plaza, distance 2.07 km; AMC Garden State 16, distance 2.07 km; Bergen Community College, distance 2.81 km; IKEA, distance 1.98 km; Apple Store, distance 2.05 km; ShopRite, distance 1.91 km; Grand Lux Cafe, distance 1.98 km; NJ Route 4, distance 1.85 km; Nordstrom, distance 1.98 km.

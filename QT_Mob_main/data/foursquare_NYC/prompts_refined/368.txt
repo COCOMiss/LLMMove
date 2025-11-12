@@ -1,0 +1,50 @@
+**Analysis of Qi Asian Eatery Location**
+
+Qi Asian Eatery is a Thai restaurant located at 1 W 14th St, New York, NY 10011, USA. The location has a geohash code of dr5rspymhj6w and geographic coordinates (40.736819, -73.995148).
+
+**Surrounding Environment**
+
+The surrounding area is densely populated with various points of interest (POIs), indicating a vibrant and lively neighborhood. The top 10 nearby POI categories and their counts reveal a mix of food, entertainment, and services. The most common categories are:
+
+1.  Bar (254) - suggesting a lively nightlife scene
+2.  Coffee Shop (114) - indicating a high concentration of cafes and coffee shops
+3.  Office (104) - suggesting a strong presence of businesses and offices
+4.  American Restaurant (100) - indicating a diverse food scene
+5.  Café (71) - adding to the food and beverage options
+6.  Lounge (67) - suggesting a relaxed atmosphere
+7.  Italian Restaurant (53) - offering another dining option
+8.  Mexican Restaurant (50) - providing more international cuisine
+9.  Gym (43) - catering to fitness enthusiasts
+10. Pub (42) - adding to the nightlife and social scene
+
+**Nearby POIs**
+
+The 10 nearest POIs and their distances indicate a mix of local businesses, entertainment, and services. Some notable nearby POIs include:
+
+1.  CLAY Health Club + Spa (0.01 km) - a health and wellness center
+2.  Qi Asian Eatery (0.01 km) - the location itself
+3.  Guitar Center (0.02 km) - a music store
+4.  Beach Bum Tanning (0.02 km) - a tanning salon
+5.  Red Mango (0.02 km) - a frozen yogurt shop
+6.  New York Sports Club (0.07 km) - a gym and fitness center
+7.  Heatpocalypse NYC (0.09 km) - a bar or nightclub
+8.  Quad Cinema (0.11 km) - a movie theater
+9.  Starbucks (0.12 km) - a coffee shop
+10.  Arnhold Hall (The New School for Jazz & Contemporary Music) (0.13 km) - a music school
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs and their distances indicate a mix of popular tourist attractions, public spaces, and shopping areas. Some notable representative POIs include:
+
+1.  New York Penn Station (1.58 km) - a major transportation hub
+2.  Madison Square Garden (1.50 km) - a famous entertainment venue
+3.  NBC Studio 1A - Today Show (2.74 km) - a TV studio
+4.  Times Square (2.27 km) - a iconic public square
+5.  Port Authority Bus Terminal (2.29 km) - a major bus station
+6.  Union Square Park (0.42 km) - a public park
+7.  Bryant Park (2.12 km) - a public park
+8.  Union Square Greenmarket (0.39 km) - a farmers' market
+9.  Madison Square Park (0.86 km) - a public park
+10.  Macy's (1.63 km) - a department store
+
+Overall, Qi Asian Eatery is located in a vibrant and densely populated area with a mix of food, entertainment, and services. The surrounding environment is lively, with many nearby POIs catering to various interests and needs.

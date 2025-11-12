@@ -1,0 +1,6 @@
+The name of this location is "City Line Pizza & Pasta" and its POI category is Pizza Place, belonging to the parent category Food.
+The geographic coordinates for this location are (40.679037, -73.86382), with the corresponding geohash code dr5rrjqh84pg.
+The address is 1226 Liberty Ave, Brooklyn, NY 11208, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Beach, 1(avg: 1); Road, 1(avg: 1); Department Store, 1(avg: 4).
+The 10 nearest POIs and their distances are: MTA - 80-Hudson Street Subway - A, distance 0.48 km; MTA - Rockaway Boulevard Subway Station (A), distance 1.71 km; Howard Beach, distance 2.58 km; Jackie Robinson Parkway, distance 2.65 km; Target, distance 2.95 km.
+The 10 representative nearby POIs and their distances are: MTA - Rockaway Boulevard Subway Station (A), distance 1.71 km; Target, distance 2.95 km; Howard Beach, distance 2.58 km; MTA - 80-Hudson Street Subway - A, distance 0.48 km; Jackie Robinson Parkway, distance 2.65 km.

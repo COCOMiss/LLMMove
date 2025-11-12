@@ -1,0 +1,6 @@
+The name of this location is "Snap Fitness Ridgefield" and its POI category is Gym, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.82715714, -73.99534464), with the corresponding geohash code dr72k0q5rmxy.
+The address is 574 Bergen Blvd, Ridgefield, NJ 07657, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 2(avg: 9); Food Court, 1(avg: 2); Coffee Shop, 1(avg: 63); Bakery, 1(avg: 16); Department Store, 1(avg: 4); Movie Theater, 1(avg: 5); Sandwich Place, 1(avg: 18); Park, 1(avg: 8).
+The 10 nearest POIs and their distances are: Trader Joe's, distance 1.73 km; Mitsuwa Marketplace, distance 1.75 km; Starbucks, distance 1.80 km; Whole Foods, distance 1.82 km; Target, distance 1.88 km; Walmart Supercenter, distance 2.17 km; Edgewater Multiplex Cinemas, distance 2.20 km; Panera Bread, distance 2.31 km; James L Braddock North Hudson County Park, distance 2.80 km.
+The 10 representative nearby POIs and their distances are: Mitsuwa Marketplace, distance 1.75 km; Starbucks, distance 1.80 km; Walmart Supercenter, distance 2.17 km; Whole Foods, distance 1.82 km; Edgewater Multiplex Cinemas, distance 2.20 km; Trader Joe's, distance 1.73 km; Target, distance 1.88 km; Panera Bread, distance 2.31 km; James L Braddock North Hudson County Park, distance 2.80 km.

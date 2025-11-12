@@ -1,0 +1,6 @@
+The name of this location is "Garden State Parkway - Irvington" and its POI category is Road, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.72247782, -74.23110008), with the corresponding geohash code dr5pwv69dh04.
+The address is 48-50 W Stratford Pl, Irvington, NJ 07111, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 3(avg: 1); Hospital, 1(avg: 2); School, 1(avg: 1); General Travel, 1(avg: 1).
+The 10 nearest POIs and their distances are: Garden State Parkway - Irvington, distance 0.00 km; Interstate 78, distance 1.84 km; Newark Beth Israel Medical Center, distance 2.09 km; Seton Hall University, distance 2.57 km; Union Toll Plaza, distance 2.61 km; U.S. Route 22 - New Jersey, distance 2.69 km.
+The 10 representative nearby POIs and their distances are: Interstate 78, distance 1.84 km; Seton Hall University, distance 2.57 km; Garden State Parkway - Irvington, distance 0.00 km; U.S. Route 22 - New Jersey, distance 2.69 km; Newark Beth Israel Medical Center, distance 2.09 km; Union Toll Plaza, distance 2.61 km.

@@ -1,0 +1,6 @@
+The name of this location is "Costco" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.89656885, -73.79472807), with the corresponding geohash code dr788ubrf0yx.
+The address is 1 Industrial Ln, New Rochelle, NY 10805, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 2(avg: 5); Video Game Store, 1(avg: 1); Multiplex, 1(avg: 4); Movie Theater, 1(avg: 5); American Restaurant, 1(avg: 51).
+The 10 nearest POIs and their distances are: Metro North - New Rochelle Train Station, distance 1.83 km; Target, distance 1.96 km; Metro North - Pelham Train Station, distance 2.00 km; Regal Cinemas New Roc City Stadium 18 + IMAX, distance 2.00 km; New Roc City, distance 2.07 km; Buffalo Wild Wings, distance 2.07 km.
+The 10 representative nearby POIs and their distances are: Metro North - New Rochelle Train Station, distance 1.83 km; Metro North - Pelham Train Station, distance 2.00 km; Regal Cinemas New Roc City Stadium 18 + IMAX, distance 2.00 km; Buffalo Wild Wings, distance 2.07 km; New Roc City, distance 2.07 km; Target, distance 1.96 km.

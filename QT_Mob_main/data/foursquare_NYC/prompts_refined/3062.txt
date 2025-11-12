@@ -1,0 +1,67 @@
+**Location Analysis: The Kettle**
+
+**Overview**
+
+The Kettle, located at 50-24 Skillman Ave, Flushing, NY 11377, USA, is an American restaurant situated in the heart of Queens, New York. The location's geographic coordinates are (40.74586959, -73.9134463), with a corresponding geohash code of dr5ry19cgueg.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs are categorized as follows:
+
+1.  Metro Station (11)
+2.  Bar (6)
+3.  Gym (5)
+4.  Coffee Shop (4)
+5.  Train Station (3)
+6.  Road (2)
+7.  American Restaurant (2)
+8.  Burger Joint (2)
+9.  Bakery (2)
+10. Sports Bar (2)
+
+The average number of POIs in each category within a certain distance from The Kettle is as follows:
+
+- Metro Station: 19
+- Bar: 124
+- Gym: 25
+- Coffee Shop: 63
+- Train Station: 5
+- Road: 1
+- American Restaurant: 51
+- Burger Joint: 17
+- Bakery: 16
+- Sports Bar: 8
+
+**Nearest POIs**
+
+The 10 nearest POIs to The Kettle are:
+
+1.  MTA - 52nd St-Lincoln Ave (7) - 0.21 km
+2.  Starbucks - 0.48 km
+3.  MTA Subway - 46th St-Bliss St (7) - 0.53 km
+4.  Home Depot - 0.73 km
+5.  Michael's Arts & Crafts - 0.79 km
+6.  MTA Subway - 61st St-Woodside (7) - 0.85 km
+7.  LIRR - Woodside Station - 0.88 km
+8.  Best Buy - 0.92 km
+9.  MTA - 40th St/Lowery (7) - 0.95 km
+10. MTA - Northern Blvd (R/M) - 1.01 km
+
+**Representative POIs**
+
+The 10 representative POIs near The Kettle are:
+
+1.  MTA - Queensboro Plaza (N/Q/7) - 2.30 km
+2.  The Garden at Studio Square - 1.37 km
+3.  MTA Subway - Astoria Blvd (N/Q) - 2.72 km
+4.  MTA Subway - 30th Ave - Grand Ave (N/Q) - 2.41 km
+5.  MTA Subway - 74th St-Broadway/Roosevelt Av (7/E/F/M/G/R) - 1.85 km
+6.  UA Kaufman Astoria Stadium 14 - 1.30 km
+7.  MTA Subway - Broadway (N/Q) - 2.05 km
+8.  Planet Fitness - 1.89 km
+9.  New York Sports Club - 2.01 km
+10. Sweet Afton - 2.21 km
+
+**Conclusion**
+
+The Kettle is situated in a densely populated area with a variety of nearby POIs, including restaurants, bars, gyms, coffee shops, and shopping centers. The location is easily accessible by public transportation, with multiple metro stations and train stations within a short distance. The Kettle's proximity to these amenities makes it an attractive location for customers looking for a convenient dining experience.

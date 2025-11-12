@@ -1,0 +1,6 @@
+The name of this location is "Fette Ford" and its POI category is Automotive Shop, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.86942051, -74.18371234), with the corresponding geohash code dr70xbj1dhnv.
+The address is 1137 US-46 Suite B, Clifton, NJ 07013, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 1(avg: 51); Diner, 1(avg: 9); College Communications Building, 1(avg: 1); College Auditorium, 1(avg: 1); Bar, 1(avg: 124); Taco Place, 1(avg: 4).
+The 10 nearest POIs and their distances are: Pub 46, distance 0.33 km; Six Brothers Diner, distance 1.06 km; University Hall, distance 1.51 km; Montclair State University, distance 1.60 km; Bliss Lounge, distance 1.78 km; Chipotle Mexican Grill, distance 2.13 km.
+The 10 representative nearby POIs and their distances are: Montclair State University, distance 1.60 km; University Hall, distance 1.51 km; Bliss Lounge, distance 1.78 km; Pub 46, distance 0.33 km; Chipotle Mexican Grill, distance 2.13 km; Six Brothers Diner, distance 1.06 km.

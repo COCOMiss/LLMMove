@@ -1,0 +1,6 @@
+The name of this location is "Home Wine & Liquors" and its POI category is Liquor Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.863164, -74.09843446), with the corresponding geohash code dr723ygjjmfs.
+The address is 75 Saddle River Ave, Garfield, NJ 07026, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Department Store, 1(avg: 4); Grocery Store, 1(avg: 9); American Restaurant, 1(avg: 51); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Walmart, distance 0.43 km; ShopRite, distance 1.02 km; Houlihan's, distance 2.40 km; Bally Total Fitness, distance 2.94 km.
+The 10 representative nearby POIs and their distances are: Bally Total Fitness, distance 2.94 km; Walmart, distance 0.43 km; Houlihan's, distance 2.40 km; ShopRite, distance 1.02 km.

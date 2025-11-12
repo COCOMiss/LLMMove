@@ -1,0 +1,6 @@
+The name of this location is "University Hall" and its POI category is College Communications Building, belonging to the parent category College & University.
+The geographic coordinates for this location are (40.8624788, -74.19912815), with the corresponding geohash code dr70rwcc5n0h.
+The address is University Hall, University Promenade, Montclair, NJ 07043, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: College Communications Building, 1(avg: 1); College Auditorium, 1(avg: 1); Diner, 1(avg: 9); American Restaurant, 1(avg: 51); Bar, 1(avg: 124); Taco Place, 1(avg: 4); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: University Hall, distance 0.00 km; Montclair State University, distance 0.19 km; Six Brothers Diner, distance 1.14 km; Pub 46, distance 1.84 km; Bliss Lounge, distance 2.15 km; Chipotle Mexican Grill, distance 2.40 km; Starbucks, distance 2.64 km.
+The 10 representative nearby POIs and their distances are: Montclair State University, distance 0.19 km; University Hall, distance 0.00 km; Bliss Lounge, distance 2.15 km; Pub 46, distance 1.84 km; Chipotle Mexican Grill, distance 2.40 km; Six Brothers Diner, distance 1.14 km; Starbucks, distance 2.64 km.

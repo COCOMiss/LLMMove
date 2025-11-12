@@ -1,0 +1,6 @@
+The name of this location is "Little Bay Park" and its POI category is Skating Rink, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.78976972, -73.78866434), with the corresponding geohash code dr780cs9xs0n.
+The address is Q6Q6+WG New York, NY, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); American Restaurant, 1(avg: 51); Shopping Mall, 1(avg: 1); Deli / Bodega, 1(avg: 10).
+The 10 nearest POIs and their distances are: Throgs Neck Bridge, distance 1.18 km; Panera Bread, distance 1.53 km; Bay Terrace Shopping Center, distance 1.53 km; Cherry Valley Deli & Grill, distance 2.16 km.
+The 10 representative nearby POIs and their distances are: Throgs Neck Bridge, distance 1.18 km; Bay Terrace Shopping Center, distance 1.53 km; Cherry Valley Deli & Grill, distance 2.16 km; Panera Bread, distance 1.53 km.

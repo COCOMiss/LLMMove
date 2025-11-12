@@ -1,0 +1,6 @@
+The name of this location is "ShopRite" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.66687005, -74.1192627), with the corresponding geohash code dr5r375vxypc.
+The address is Ave C at W 25th St, Bayonne, NJ 07002, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 2(avg: 25).
+The 10 nearest POIs and their distances are: Forum Fitness Club, distance 0.16 km; Planet Fitness, distance 2.06 km.
+The 10 representative nearby POIs and their distances are: Planet Fitness, distance 2.06 km; Forum Fitness Club, distance 0.16 km.

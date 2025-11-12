@@ -1,0 +1,6 @@
+The name of this location is "Taco Bell" and its POI category is Mexican Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.8641532, -74.03604538), with the corresponding geohash code dr727r0dgn72.
+The address is 500 S River St Suite 9, Hackensack, NJ 07601, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Coffee Shop, 1(avg: 63); Miscellaneous Shop, 1(avg: 6); Gym / Fitness Center, 1(avg: 7).
+The 10 nearest POIs and their distances are: Starbucks, distance 1.18 km; Costco Wholesale Club, distance 1.36 km; Golds Gym, distance 1.67 km.
+The 10 representative nearby POIs and their distances are: Golds Gym, distance 1.67 km; Costco Wholesale Club, distance 1.36 km; Starbucks, distance 1.18 km.

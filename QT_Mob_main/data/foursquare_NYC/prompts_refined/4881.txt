@@ -1,0 +1,52 @@
+**Location Analysis: Xtreme Fitness**
+
+**Overview**
+
+Xtreme Fitness is a gym located in Astoria, Queens, New York. It is situated at 25-09 34th Ave, Astoria, NY 11106, USA, with geographic coordinates (40.76112918, -73.93004343). This analysis will provide an overview of the surrounding area, including nearby points-of-interest (POIs), their categories, and distances from the gym.
+
+**Nearby POIs**
+
+The top 10 nearby POIs, along with their categories and counts, are:
+
+1. **Metro Station** (15, avg: 19)
+2. **Bar** (11, avg: 124)
+3. **Gym** (7, avg: 25) - Xtreme Fitness is part of this category
+4. **Coffee Shop** (7, avg: 63)
+5. **Home (private)** (5, avg: 14)
+6. **Diner** (3, avg: 9)
+7. **Burger Joint** (3, avg: 17)
+8. **Bakery** (3, avg: 16)
+9. **Lounge** (3, avg: 35)
+10. **American Restaurant** (2, avg: 51)
+
+The top 10 nearest POIs, sorted by distance, are:
+
+1. **Sanford's** (0.39 km)
+2. **MTA Subway - Broadway (N/Q)** (0.41 km)
+3. **Break Bar & Billiards** (0.47 km)
+4. **Club Fitness** (0.48 km)
+5. **Bel Aire Diner** (0.49 km)
+6. **MTA Subway - 36th Ave (N/Q)** (0.52 km)
+7. **Gleason's** (0.54 km)
+8. **Mad Donkey Beer Bar & Grille** (0.57 km)
+9. **Sunswick 35/35** (0.64 km)
+10. **5 Napkin Burger** (0.64 km)
+
+**Representative POIs**
+
+The top 10 representative POIs, sorted by distance, are:
+
+1. **MTA - Queensboro Plaza (N/Q/7)** (1.43 km)
+2. **MoMA PS1 Contemporary Art Center** (2.26 km)
+3. **MTA Subway - Astoria/Ditmars Blvd (N/Q)** (2.10 km)
+4. **Queensboro Bridge / 59th Street Bridge** (2.12 km)
+5. **The Garden at Studio Square** (0.84 km)
+6. **Bohemian Hall and Beer Garden** (1.75 km)
+7. **MTA Subway - Astoria Blvd (N/Q)** (1.42 km)
+8. **MTA Subway - 30th Ave - Grand Ave (N/Q)** (0.95 km)
+9. **UA Kaufman Astoria Stadium 14** (0.90 km)
+10. **MTA Subway - Broadway (N/Q)** (0.41 km)
+
+**Conclusion**
+
+Xtreme Fitness is situated in a densely populated area with various points-of-interest, including gyms, bars, coffee shops, and restaurants. The gym is surrounded by several other gyms, including Club Fitness, which is located just 0.48 km away. The area is also home to various entertainment options, such as bars, restaurants, and a movie theater. However, the closest metro station, MTA Subway - Broadway (N/Q), is just 0.41 km away, making it easily accessible by public transportation. Overall, Xtreme Fitness is well-connected to the surrounding community, making it an ideal location for fitness enthusiasts in the area.

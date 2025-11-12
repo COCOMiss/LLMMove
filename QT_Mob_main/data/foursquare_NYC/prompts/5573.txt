@@ -1,0 +1,6 @@
+The name of this location is "Dunkin' Donuts" and its POI category is Donut Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.91802034, -73.76782894), with the corresponding geohash code dr78c2gutpb4.
+The address is 99 E Main St, New Rochelle, NY 10801, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 2(avg: 5); Movie Theater, 1(avg: 5); American Restaurant, 1(avg: 51); Multiplex, 1(avg: 4); University, 1(avg: 5).
+The 10 nearest POIs and their distances are: New Roc City, distance 1.26 km; Buffalo Wild Wings, distance 1.26 km; Regal Cinemas New Roc City Stadium 18 + IMAX, distance 1.31 km; Metro North - New Rochelle Train Station, distance 1.58 km; Metro North - Larchmont Train Station, distance 1.86 km; Iona College, distance 1.87 km.
+The 10 representative nearby POIs and their distances are: Metro North - New Rochelle Train Station, distance 1.58 km; Metro North - Larchmont Train Station, distance 1.86 km; Regal Cinemas New Roc City Stadium 18 + IMAX, distance 1.31 km; Buffalo Wild Wings, distance 1.26 km; New Roc City, distance 1.26 km; Iona College, distance 1.87 km.

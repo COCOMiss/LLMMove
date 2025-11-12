@@ -1,0 +1,6 @@
+The name of this location is "Bally Total Fitness" and its POI category is Gym, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.87050658, -73.95693684), with the corresponding geohash code dr72t04pyqwu.
+The address is 150 Sylvan Ave, Englewood Cliffs, NJ 07632, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 3(avg: 1); Bus Station, 1(avg: 1); Scenic Lookout, 1(avg: 2); Park, 1(avg: 8); Office, 1(avg: 72); Tea Room, 1(avg: 5).
+The 10 nearest POIs and their distances are: George Washington Bridge Toll Plaza, distance 1.94 km; Bridge Plaza, distance 2.01 km; New York/New Jersey State Line, distance 2.14 km; George Washington Bridge, distance 2.18 km; The Cloisters, distance 2.19 km; Fort Tryon Park, distance 2.21 km; Unilever, distance 2.25 km; Starbucks, distance 2.64 km.
+The 10 representative nearby POIs and their distances are: George Washington Bridge, distance 2.18 km; The Cloisters, distance 2.19 km; Unilever, distance 2.25 km; George Washington Bridge Toll Plaza, distance 1.94 km; Bridge Plaza, distance 2.01 km; New York/New Jersey State Line, distance 2.14 km; Fort Tryon Park, distance 2.21 km; Starbucks, distance 2.64 km.

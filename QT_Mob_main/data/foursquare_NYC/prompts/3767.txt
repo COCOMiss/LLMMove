@@ -1,0 +1,6 @@
+The name of this location is "Staten Island Boardwalk" and its POI category is Beach, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.57882457, -74.07686234), with the corresponding geohash code dr5qf74ugcpv.
+The address is HWHF+G7 New York, NY, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Beach, 1(avg: 1); Bar, 1(avg: 124).
+The 10 nearest POIs and their distances are: South Beach Boardwalk, distance 1.55 km; Rab's Country Lanes, distance 1.59 km.
+The 10 representative nearby POIs and their distances are: Rab's Country Lanes, distance 1.59 km; South Beach Boardwalk, distance 1.55 km.

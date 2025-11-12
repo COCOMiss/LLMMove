@@ -1,0 +1,6 @@
+The name of this location is "Teaneck Armory" and its POI category is Building, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.91036248, -73.99783518), with the corresponding geohash code dr72sps2jkqc.
+The address is Teaneck Rd at Ward Plaza, Teaneck, NJ 07666, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Coffee Shop, 1(avg: 63); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Dunkin Donuts/Baskin Robbins, distance 0.90 km; Fitness II, distance 1.95 km.
+The 10 representative nearby POIs and their distances are: Fitness II, distance 1.95 km; Dunkin Donuts/Baskin Robbins, distance 0.90 km.

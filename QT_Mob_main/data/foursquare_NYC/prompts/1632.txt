@@ -1,0 +1,6 @@
+The name of this location is "NJ Transit Rail - Watsessing Station" and its POI category is Train Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.78275114, -74.19844151), with the corresponding geohash code dr70p862dzzf.
+The address is Watsessing Avenue (Bloomfield), Bloomfield, NJ 07003, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 1(avg: 5); Coffee Shop, 1(avg: 63); Medical Center, 1(avg: 1).
+The 10 nearest POIs and their distances are: NJ Transit Rail - Bloomfield Station, distance 1.11 km; Starbucks, distance 1.64 km; Clara Maass Medical Center, distance 1.92 km.
+The 10 representative nearby POIs and their distances are: NJ Transit Rail - Bloomfield Station, distance 1.11 km; Starbucks, distance 1.64 km; Clara Maass Medical Center, distance 1.92 km.

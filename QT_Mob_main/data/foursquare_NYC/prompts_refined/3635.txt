@@ -1,0 +1,64 @@
+**Location Analysis: Just Salad**
+
+**Location Overview**
+
+Just Salad is a salad place located at 99 Maiden Ln, New York, NY 10038, USA. The geographic coordinates of this location are (40.70706934, -74.007142), with a geohash code of dr5refmxueep.
+
+**Surrounding Environment**
+
+The surrounding area of Just Salad is a densely populated business district, with a mix of office buildings, restaurants, and shops. The location is situated in the Financial District of Manhattan, New York City.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs and their counts are:
+
+1. Bar, 110 (avg: 124)
+2. Coffee Shop, 54 (avg: 63)
+3. Office, 42 (avg: 72)
+4. American Restaurant, 36 (avg: 51)
+5. Café, 32 (avg: 42)
+6. Italian Restaurant, 27 (avg: 28)
+7. Metro Station, 26 (avg: 19)
+8. Lounge, 23 (avg: 35)
+9. Pizza Place, 20 (avg: 20)
+10. Gym, 19 (avg: 25)
+
+The nearby POIs indicate a high concentration of food and beverage establishments, with a mix of casual and upscale options. The presence of office buildings and metro stations suggests a high foot traffic and a busy business environment.
+
+**Nearest POIs**
+
+The 10 nearest POIs and their distances are:
+
+1. Chipotle Mexican Grill, 0.02 km
+2. Harry's Italian Pizza Bar, 0.03 km
+3. 2 Gold Street Apartments, 0.03 km
+4. 100 Maiden Lane, 0.04 km
+5. Starbucks, 0.09 km
+6. Gild Hall-A Thompson Hotel, 0.09 km
+7. goodburger, 0.09 km
+8. Bon Chon Chicken, 0.10 km
+9. Open Door Gastropub, 0.10 km
+10. Financier Patisserie - Liberty, 0.11 km
+
+The nearest POIs are a mix of restaurants, cafes, and hotels, indicating a high concentration of food and beverage options within a short walking distance.
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs and their distances are:
+
+1. MTA Subway - Manhattan Bridge (B/D/N/Q), 1.38 km
+2. Brooklyn Bridge, 0.96 km
+3. PATH: World Trade Center Station, 0.74 km
+4. Washington Square Park, 2.76 km
+5. Apple Store, 2.11 km
+6. Staten Island Ferry - Whitehall Terminal, 0.90 km
+7. Whole Foods, 2.27 km
+8. Whole Foods, 0.99 km
+9. Uniqlo, 1.98 km
+10. Manhattan Bridge, 1.39 km
+
+The representative nearby POIs include major landmarks, transportation hubs, and shopping destinations, indicating a high level of accessibility and connectivity to other parts of the city.
+
+**Conclusion**
+
+Just Salad is located in a busy business district in the Financial District of Manhattan, with a high concentration of food and beverage establishments, office buildings, and transportation hubs. The surrounding area offers a mix of casual and upscale options, making it an attractive location for both locals and tourists.

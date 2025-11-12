@@ -1,0 +1,6 @@
+The name of this location is "The Oasis @ Englewood" and its POI category is Home (private), belonging to the parent category Residence.
+The geographic coordinates for this location are (40.90886903, -73.98887973), with the corresponding geohash code dr72sr4zqjut.
+The address is 518 Liberty Rd, Englewood, NJ 07631, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Coffee Shop, 2(avg: 63); Medical Center, 1(avg: 1); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Dunkin Donuts/Baskin Robbins, distance 1.25 km; Englewood Hospital & Medical Center, distance 1.78 km; Starbucks, distance 2.08 km; Fitness II, distance 2.19 km.
+The 10 representative nearby POIs and their distances are: Starbucks, distance 2.08 km; Englewood Hospital & Medical Center, distance 1.78 km; Fitness II, distance 2.19 km; Dunkin Donuts/Baskin Robbins, distance 1.25 km.

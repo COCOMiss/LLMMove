@@ -1,0 +1,6 @@
+The name of this location is "Boston Market" and its POI category is American Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.9707588, -74.08036577), with the corresponding geohash code dr73462rfr58.
+The address is 743 NJ-17, Paramus, NJ 07652, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 2(avg: 9); Shopping Mall, 1(avg: 1); Spiritual Center, 1(avg: 1); Community College, 1(avg: 1); Office, 1(avg: 72); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Fairway Market, distance 0.61 km; Paramus Park Mall, distance 1.83 km; The Valley Hospital, distance 2.21 km; Bergen Community College, distance 2.36 km; CUnet Headquarters, distance 2.37 km; Trader Joe's, distance 2.63 km; Starbucks, distance 2.84 km.
+The 10 representative nearby POIs and their distances are: Bergen Community College, distance 2.36 km; Paramus Park Mall, distance 1.83 km; Fairway Market, distance 0.61 km; The Valley Hospital, distance 2.21 km; Starbucks, distance 2.84 km; CUnet Headquarters, distance 2.37 km; Trader Joe's, distance 2.63 km.

@@ -1,0 +1,6 @@
+The name of this location is "Kohl's" and its POI category is Clothing Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.88555107, -74.21260357), with the corresponding geohash code dr70x6bp8gpu.
+The address is 1710 US-46, Woodland Park, NJ 07424, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Department Store, 1(avg: 4); Travel & Transport, 1(avg: 1); American Restaurant, 1(avg: 51); Lounge, 1(avg: 35); Diner, 1(avg: 9); Burger Joint, 1(avg: 17); College Communications Building, 1(avg: 1).
+The 10 nearest POIs and their distances are: Best Buy, distance 0.17 km; U.S. Route 46, distance 0.37 km; Sonic Drive-In, distance 1.72 km; 46 Lounge, distance 1.77 km; Six Brothers Diner, distance 2.04 km; Applebee's Neighborhood Bar & Grill, distance 2.12 km; University Hall, distance 2.80 km.
+The 10 representative nearby POIs and their distances are: University Hall, distance 2.80 km; Sonic Drive-In, distance 1.72 km; U.S. Route 46, distance 0.37 km; 46 Lounge, distance 1.77 km; Best Buy, distance 0.17 km; Six Brothers Diner, distance 2.04 km; Applebee's Neighborhood Bar & Grill, distance 2.12 km.

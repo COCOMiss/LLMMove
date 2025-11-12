@@ -1,0 +1,6 @@
+The name of this location is "Starbucks" and its POI category is Coffee Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.78195703, -73.82981211), with the corresponding geohash code dr72pbnu0evc.
+The address is 138-11 20th Ave, Flushing, NY 11356, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Department Store, 1(avg: 4); Spa, 1(avg: 4); Multiplex, 1(avg: 4); Deli / Bodega, 1(avg: 10); Road, 1(avg: 1); Chinese Restaurant, 1(avg: 7); Train Station, 1(avg: 5); Café, 1(avg: 42).
+The 10 nearest POIs and their distances are: Target, distance 0.32 km; Spa Castle, distance 0.91 km; College Point Multiplex Cinemas, distance 1.28 km; Cherry Valley Deli & Grill, distance 1.59 km; Bronx-Whitestone Bridge, distance 2.03 km; Joe's Shanghai, distance 2.23 km; MTA Subway -Main St (7), distance 2.51 km; Starbucks, distance 2.65 km.
+The 10 representative nearby POIs and their distances are: MTA Subway -Main St (7), distance 2.51 km; Bronx-Whitestone Bridge, distance 2.03 km; Target, distance 0.32 km; College Point Multiplex Cinemas, distance 1.28 km; Starbucks, distance 2.65 km; Spa Castle, distance 0.91 km; Cherry Valley Deli & Grill, distance 1.59 km; Joe's Shanghai, distance 2.23 km.

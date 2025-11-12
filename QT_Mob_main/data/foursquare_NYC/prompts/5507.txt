@@ -1,0 +1,6 @@
+The name of this location is "Lukoil" and its POI category is Gas Station, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.80349088, -74.169678), with the corresponding geohash code dr720hp394p8.
+The address is 395 Franklin Ave, Belleville, NJ 07109, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Medical Center, 1(avg: 1); Gym / Fitness Center, 1(avg: 7); Grocery Store, 1(avg: 9); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Retro Fitness, distance 0.11 km; Clara Maass Medical Center, distance 2.06 km; Signature Fitness, distance 2.11 km; ShopRite, distance 2.26 km; Starbucks, distance 2.44 km.
+The 10 representative nearby POIs and their distances are: Signature Fitness, distance 2.11 km; Starbucks, distance 2.44 km; Retro Fitness, distance 0.11 km; Clara Maass Medical Center, distance 2.06 km; ShopRite, distance 2.26 km.

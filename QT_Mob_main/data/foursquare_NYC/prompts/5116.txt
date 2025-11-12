@@ -1,0 +1,6 @@
+The name of this location is "Gamestop" and its POI category is Video Game Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.86118054, -73.97008896), with the corresponding geohash code dr72ky89eupu.
+The address is 158 Linwood Plaza #204, Fort Lee, NJ 07024, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 3(avg: 1); Bus Station, 1(avg: 1).
+The 10 nearest POIs and their distances are: Bridge Plaza, distance 0.76 km; George Washington Bridge Toll Plaza, distance 0.98 km; New York/New Jersey State Line, distance 1.85 km; George Washington Bridge, distance 1.88 km.
+The 10 representative nearby POIs and their distances are: George Washington Bridge, distance 1.88 km; George Washington Bridge Toll Plaza, distance 0.98 km; Bridge Plaza, distance 0.76 km; New York/New Jersey State Line, distance 1.85 km.

@@ -1,0 +1,6 @@
+The name of this location is "taco bell" and its POI category is Fast Food Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.79803684, -74.14761933), with the corresponding geohash code dr720ep3g1rc.
+The address is 508 Washington Ave, Belleville, NJ 07109, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym / Fitness Center, 1(avg: 7); Home (private), 1(avg: 14); Gym, 1(avg: 25); Grocery Store, 1(avg: 9); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Signature Fitness, distance 0.19 km; Riverwatch Condos, distance 1.42 km; Retro Fitness, distance 1.93 km; ShopRite, distance 2.77 km; Starbucks, distance 2.86 km.
+The 10 representative nearby POIs and their distances are: Signature Fitness, distance 0.19 km; Starbucks, distance 2.86 km; Retro Fitness, distance 1.93 km; ShopRite, distance 2.77 km; Riverwatch Condos, distance 1.42 km.

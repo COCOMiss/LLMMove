@@ -1,0 +1,6 @@
+The name of this location is "Burger King" and its POI category is Fast Food Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.935941, -73.99509685), with the corresponding geohash code dr72uhnmjk2z.
+The address is 250 N Washington Ave, Bergenfield, NJ 07621, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Fitness II, distance 0.90 km; Dunkin Donuts/Baskin Robbins, distance 1.95 km.
+The 10 representative nearby POIs and their distances are: Fitness II, distance 0.90 km; Dunkin Donuts/Baskin Robbins, distance 1.95 km.

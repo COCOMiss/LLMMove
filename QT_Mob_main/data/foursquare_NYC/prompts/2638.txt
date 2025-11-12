@@ -1,0 +1,6 @@
+The name of this location is "Bergenfield" and its POI category is Other Great Outdoors, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.92376506, -73.99755973), with the corresponding geohash code dr72u1uw5ysr.
+The address is 7 W Clinton Ave, Bergenfield, NJ 07621, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Fitness II, distance 0.47 km; Dunkin Donuts/Baskin Robbins, distance 0.59 km.
+The 10 representative nearby POIs and their distances are: Fitness II, distance 0.47 km; Dunkin Donuts/Baskin Robbins, distance 0.59 km.

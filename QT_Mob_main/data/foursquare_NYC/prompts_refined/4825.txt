@@ -1,0 +1,54 @@
+**Location Analysis: Courtyard Marriott**
+
+**Overview**
+
+The Courtyard Marriott is a hotel located in the 92nd Street area of Manhattan, New York City, USA. With a POI category of Hotel and a parent category of Travel & Transport, it serves as a convenient accommodation option for travelers visiting the city.
+
+**Geographic Location**
+
+The hotel's geographic coordinates are (40.78029771, -73.94612074), which puts it in the Upper East Side neighborhood. The corresponding geohash code is dr5rvrf46qrz. The address is 410 E 92nd St, New York, NY 10128, USA.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs, categorized by their frequency and average distance, are:
+
+1. **Bar (18)**: The proximity to bars and nightlife options suggests that the hotel is a popular choice for travelers looking to experience the city's vibrant nightlife.
+2. **Coffee Shop (11)**: The high number of coffee shops nearby indicates that the area is well-equipped to cater to the needs of travelers who require a quick caffeine fix.
+3. **Park (9)**: The presence of parks nearby, such as Asphalt Green, suggests that the area is relatively green and offers a peaceful escape from the hustle and bustle of the city.
+4. **Metro Station (9)**: The proximity to metro stations implies that the hotel is well-connected to the city's public transportation network, making it easy for guests to explore the city.
+5. **Café (8)**: The number of cafes nearby indicates that the area has a relaxed and casual atmosphere, perfect for guests to grab a coffee or snack.
+6. **Home (private) (6)**: The presence of private homes nearby suggests that the area is residential, with a mix of residential and commercial properties.
+7. **Yoga Studio (6)**: The number of yoga studios nearby indicates that the area is health-conscious and offers a range of wellness options for guests.
+8. **American Restaurant (5)**: The presence of American restaurants nearby suggests that the area offers a range of dining options, catering to different tastes and preferences.
+9. **Art Gallery (5)**: The number of art galleries nearby indicates that the area is culturally rich and offers a range of artistic and creative experiences.
+10. **Other Great Outdoors (5)**: The presence of outdoor spaces nearby suggests that the area offers opportunities for outdoor activities and exploration.
+
+**Nearest POIs**
+
+The 10 nearest POIs to the Courtyard Marriott are:
+
+1. **Starbucks (0.16 km)**: A convenient coffee shop for a quick coffee fix.
+2. **Asphalt Green (0.18 km)**: A nearby park offering a peaceful escape from the city.
+3. **The Gaf - Upper East Side (0.25 km)**: A bar and restaurant serving American cuisine.
+4. **Manny's on Second (0.26 km)**: A bar and restaurant serving American cuisine.
+5. **The Bullpen (0.33 km)**: A bar and restaurant serving American cuisine.
+6. **Cilantro (0.35 km)**: A restaurant serving Mexican cuisine.
+7. **Genesis (0.36 km)**: A restaurant serving American cuisine.
+8. **East End Bar & Grill (0.36 km)**: A bar and restaurant serving American cuisine.
+9. **Rathbone's (0.38 km)**: A bar and restaurant serving American cuisine.
+10. **Pat O'Brien's (0.42 km)**: A bar and restaurant serving American cuisine.
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs, categorized by their distance, are:
+
+1. **Metropolitan Museum of Art (1.41 km)**: A world-renowned museum offering a range of art and cultural experiences.
+2. **Central Park (1.67 km)**: A large public park offering a range of outdoor activities and scenic views.
+3. **American Museum of Natural History (2.28 km)**: A museum showcasing a range of natural history exhibits.
+4. **Central Park - The Lake (2.23 km)**: A scenic lake within Central Park offering a peaceful escape.
+5. **Metro North - Harlem 125th Station (2.82 km)**: A train station offering easy access to other parts of the city.
+6. **Queensboro Bridge / 59th Street Bridge (2.71 km)**: A bridge offering a scenic view of the city and access to other boroughs.
+7. **Brother Jimmy's BBQ (1.21 km)**: A restaurant serving barbecue cuisine.
+8. **Guggenheim Museum (1.12 km)**: A museum showcasing modern and contemporary art.
+9. **Whole Foods (2.35 km)**: A grocery store offering a range of healthy and organic food options.
+10. **Hunter College (2.04 km)**: A

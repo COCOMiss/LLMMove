@@ -1,0 +1,6 @@
+The name of this location is "Edison's ale house" and its POI category is American Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.79985939, -73.70091856), with the corresponding geohash code dr784gkskj5c.
+The address is 550 Plandome Rd, Manhasset, NY 11030, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train, 1(avg: 4); Electronics Store, 1(avg: 5); Emergency Room, 1(avg: 2).
+The 10 nearest POIs and their distances are: LIRR - Manhasset Train Station, distance 0.33 km; Apple Store, distance 2.10 km; North Shore University Hospital, distance 2.55 km.
+The 10 representative nearby POIs and their distances are: North Shore University Hospital, distance 2.55 km; Apple Store, distance 2.10 km; LIRR - Manhasset Train Station, distance 0.33 km.

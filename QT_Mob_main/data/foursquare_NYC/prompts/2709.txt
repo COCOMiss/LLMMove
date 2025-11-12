@@ -1,0 +1,6 @@
+The name of this location is "Bonefish Grill" and its POI category is Seafood Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.95998594, -74.06716333), with the corresponding geohash code dr73489cnnb1.
+The address is 601 From Rd, Paramus, NJ 07652, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 2(avg: 9); Shopping Mall, 1(avg: 1); Office, 1(avg: 72); Coffee Shop, 1(avg: 63); Community College, 1(avg: 1).
+The 10 nearest POIs and their distances are: Paramus Park Mall, distance 0.40 km; CUnet Headquarters, distance 0.98 km; Fairway Market, distance 1.03 km; Trader Joe's, distance 1.36 km; Starbucks, distance 1.58 km; Bergen Community College, distance 2.12 km.
+The 10 representative nearby POIs and their distances are: Bergen Community College, distance 2.12 km; Paramus Park Mall, distance 0.40 km; Fairway Market, distance 1.03 km; Starbucks, distance 1.58 km; CUnet Headquarters, distance 0.98 km; Trader Joe's, distance 1.36 km.

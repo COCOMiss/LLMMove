@@ -1,0 +1,31 @@
+**Analysis of Maple Gardens Location**
+
+Maple Gardens is a building located in Irvington, New Jersey, USA, with the address 18 Marshall St, 07111. This location falls under the category of Professional & Other Places, specifically categorized as a Building.
+
+**Geographic Coordinates and Geohash Code**
+
+The location is situated at the geographic coordinates (40.72944309, -74.22167264), which corresponds to the geohash code dr5pxn96jwmx. This information provides a precise identification of the location on the map.
+
+**Nearby Points of Interest**
+
+The top 10 nearby points of interest (POIs) for Maple Gardens are primarily categorized as Road and Hospital. The Road category has a frequency of 2, with an average distance of 1 km, indicating that the location is near major roadways. The Hospital category has a frequency of 1, with an average distance of 2 km, suggesting that there is a hospital nearby, which is a significant amenity for residents and visitors.
+
+**Nearest POIs and Representative POIs**
+
+The 10 nearest POIs to Maple Gardens are:
+
+1.  Garden State Parkway - Irvington (1.11 km)
+2.  Interstate 78 (1.72 km)
+3.  Newark Beth Israel Medical Center (2.30 km)
+
+The 10 representative POIs, which are the closest and most relevant to the location, are:
+
+1.  Interstate 78 (1.72 km)
+2.  Garden State Parkway - Irvington (1.11 km)
+3.  Newark Beth Israel Medical Center (2.30 km)
+
+These POIs indicate that Maple Gardens is situated near major roadways and a hospital, making it a convenient location for commuters and those seeking medical services.
+
+**Conclusion**
+
+In conclusion, Maple Gardens is a building located in Irvington, New Jersey, with a convenient location near major roadways and a hospital. The nearby POIs suggest that the area is well-connected and has access to essential amenities. This analysis provides a comprehensive understanding of the location's characteristics and its surroundings.

@@ -1,0 +1,6 @@
+The name of this location is "A&P" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.89883304, -74.09218477), with the corresponding geohash code dr729vrsyznf.
+The address is 75 Mayhill St, Saddle Brook, NJ 07663, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Diner, 1(avg: 9); Pharmacy, 1(avg: 4); Multiplex, 1(avg: 4); Shopping Mall, 1(avg: 1); Restaurant, 1(avg: 10); Electronics Store, 1(avg: 5); Department Store, 1(avg: 4).
+The 10 nearest POIs and their distances are: Bally Total Fitness, distance 1.06 km; Saddle Brook Diner, distance 1.09 km; ShopRite, distance 2.02 km; AMC Garden State 16, distance 2.31 km; Garden State Plaza, distance 2.48 km; Grand Lux Cafe, distance 2.52 km; Apple Store, distance 2.57 km; Nordstrom, distance 2.72 km.
+The 10 representative nearby POIs and their distances are: Garden State Plaza, distance 2.48 km; AMC Garden State 16, distance 2.31 km; Apple Store, distance 2.57 km; ShopRite, distance 2.02 km; Grand Lux Cafe, distance 2.52 km; Nordstrom, distance 2.72 km; Bally Total Fitness, distance 1.06 km; Saddle Brook Diner, distance 1.09 km.

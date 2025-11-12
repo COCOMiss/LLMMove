@@ -1,0 +1,6 @@
+The name of this location is "McDonald's" and its POI category is Fast Food Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.95977553, -73.84250164), with the corresponding geohash code dr73p8mxcp84.
+The address is 1789 Central Park Ave, Yonkers, NY 10710, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train, 2(avg: 4); Train Station, 1(avg: 5); Pizza Place, 1(avg: 20); Grocery Store, 1(avg: 9).
+The 10 nearest POIs and their distances are: Metro North - Tuckahoe Train Station, distance 1.56 km; Metro North - Crestwood Train Station, distance 1.81 km; Metro North - Bronxville Train Station, distance 2.20 km; Costco Wholesale Club, distance 2.25 km; Stew Leonard's, distance 2.44 km.
+The 10 representative nearby POIs and their distances are: Stew Leonard's, distance 2.44 km; Metro North - Bronxville Train Station, distance 2.20 km; Metro North - Crestwood Train Station, distance 1.81 km; Metro North - Tuckahoe Train Station, distance 1.56 km; Costco Wholesale Club, distance 2.25 km.

@@ -1,0 +1,6 @@
+The name of this location is "Dunkin Donuts" and its POI category is Donut Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.65490435, -73.90746961), with the corresponding geohash code dr5rq0ypzpkq.
+The address is 1407 Linden Blvd, Brooklyn, NY 11212, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 1(avg: 19); Other Nightlife, 1(avg: 7); Hospital, 1(avg: 2); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: MTA - Canarsie/Rockaway Pkwy (L), distance 1.06 km; Stella Artois Socialite Event, distance 1.12 km; Kingsbrook Jewish Medical Center, distance 2.28 km; MTA - Broadway Junction (A/C/L/J/Z), distance 2.69 km.
+The 10 representative nearby POIs and their distances are: MTA - Broadway Junction (A/C/L/J/Z), distance 2.69 km; Kingsbrook Jewish Medical Center, distance 2.28 km; MTA - Canarsie/Rockaway Pkwy (L), distance 1.06 km; Stella Artois Socialite Event, distance 1.12 km.

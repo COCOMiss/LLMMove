@@ -1,0 +1,6 @@
+The name of this location is "Goethals Bridge" and its POI category is General Travel, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.63580843, -74.19698238), with the corresponding geohash code dr5ppte2tp8p.
+The address is Goethals Bridge, 2777 Goethals Rd N, Staten Island, NY 10303, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: General Travel, 1(avg: 1); Multiplex, 1(avg: 4).
+The 10 nearest POIs and their distances are: Goethals Bridge, distance 0.00 km; Regal/UA Staten Island Stadium 16, distance 2.31 km.
+The 10 representative nearby POIs and their distances are: Goethals Bridge, distance 0.00 km; Regal/UA Staten Island Stadium 16, distance 2.31 km.

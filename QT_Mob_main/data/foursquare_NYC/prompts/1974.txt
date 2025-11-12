@@ -1,0 +1,6 @@
+The name of this location is "Breezy Point, NY" and its POI category is Surf Spot, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.56284271, -73.91834636), with the corresponding geohash code dr5qvbnr9tyj.
+The address is 972 Bayside Walk, Breezy Point, NY 11697, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: College Classroom, 1(avg: 1); Movie Theater, 1(avg: 5).
+The 10 nearest POIs and their distances are: Kingsborough Community College, distance 2.29 km; United Artists Sheepshead Bay Stadium 14 & IMAX, distance 2.76 km.
+The 10 representative nearby POIs and their distances are: Kingsborough Community College, distance 2.29 km; United Artists Sheepshead Bay Stadium 14 & IMAX, distance 2.76 km.

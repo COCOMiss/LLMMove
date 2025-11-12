@@ -1,0 +1,6 @@
+The name of this location is "New York Sports Club" and its POI category is Gym Pool, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.91205316, -73.78117561), with the corresponding geohash code dr789pf1yp2p.
+The address is 31 Lecount Pl, New Rochelle, NY 10801, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 1(avg: 51); Movie Theater, 1(avg: 5); Multiplex, 1(avg: 4); Train Station, 1(avg: 5); University, 1(avg: 5).
+The 10 nearest POIs and their distances are: Buffalo Wild Wings, distance 0.11 km; New Roc City, distance 0.12 km; Regal Cinemas New Roc City Stadium 18 + IMAX, distance 0.18 km; Metro North - New Rochelle Train Station, distance 0.27 km; Iona College, distance 1.65 km.
+The 10 representative nearby POIs and their distances are: Metro North - New Rochelle Train Station, distance 0.27 km; Regal Cinemas New Roc City Stadium 18 + IMAX, distance 0.18 km; Buffalo Wild Wings, distance 0.11 km; New Roc City, distance 0.12 km; Iona College, distance 1.65 km.

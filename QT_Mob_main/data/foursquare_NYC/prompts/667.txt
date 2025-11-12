@@ -1,0 +1,6 @@
+The name of this location is "Au Bon Pain" and its POI category is Bakery, belonging to the parent category Food.
+The geographic coordinates for this location are (40.64411739, -74.0728138), with the corresponding geohash code dr5r4rjc4kdu.
+The address is 2 Bay St, Staten Island, NY 10301, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Boat or Ferry, 2(avg: 2); Baseball Field, 1(avg: 1); Bar, 1(avg: 124); Home (private), 1(avg: 14).
+The 10 nearest POIs and their distances are: Staten Island Ferry - St George Terminal, distance 0.03 km; Staten Island Ferry Boat - Samuel I. Newhouse, distance 0.18 km; Richmond County Bank Ballpark at St George, distance 0.42 km; Adobe Blues Restaurant and Bar, distance 1.91 km; 108 Targee, distance 2.39 km.
+The 10 representative nearby POIs and their distances are: Staten Island Ferry - St George Terminal, distance 0.03 km; 108 Targee, distance 2.39 km; Staten Island Ferry Boat - Samuel I. Newhouse, distance 0.18 km; Richmond County Bank Ballpark at St George, distance 0.42 km; Adobe Blues Restaurant and Bar, distance 1.91 km.

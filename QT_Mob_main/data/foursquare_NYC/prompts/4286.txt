@@ -1,0 +1,6 @@
+The name of this location is "The Fireplace Restaurant" and its POI category is Burger Joint, belonging to the parent category Food.
+The geographic coordinates for this location are (40.96926646, -74.0786165), with the corresponding geohash code dr73461x70gc.
+The address is 718 NJ-17, Paramus, NJ 07652, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 2(avg: 9); Shopping Mall, 1(avg: 1); Office, 1(avg: 72); Community College, 1(avg: 1); Spiritual Center, 1(avg: 1); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Fairway Market, distance 0.39 km; Paramus Park Mall, distance 1.61 km; CUnet Headquarters, distance 2.16 km; Bergen Community College, distance 2.25 km; Trader Joe's, distance 2.43 km; The Valley Hospital, distance 2.43 km; Starbucks, distance 2.64 km.
+The 10 representative nearby POIs and their distances are: Bergen Community College, distance 2.25 km; Paramus Park Mall, distance 1.61 km; Fairway Market, distance 0.39 km; The Valley Hospital, distance 2.43 km; Starbucks, distance 2.64 km; CUnet Headquarters, distance 2.16 km; Trader Joe's, distance 2.43 km.

@@ -1,0 +1,6 @@
+The name of this location is "McDonalds" and its POI category is Fast Food Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.69841797, -74.25208338), with the corresponding geohash code dr5pw2gm3ncx.
+The address is Milepost, 142.2 Garden State Pkwy, Union, NJ 07083, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); General Travel, 1(avg: 1); Train Station, 1(avg: 5); University, 1(avg: 5).
+The 10 nearest POIs and their distances are: Union Toll Plaza, distance 0.61 km; U.S. Route 22 - New Jersey, distance 1.12 km; NJ Transit Rail - Union Station, distance 2.00 km; Kean University, distance 2.48 km.
+The 10 representative nearby POIs and their distances are: Kean University, distance 2.48 km; U.S. Route 22 - New Jersey, distance 1.12 km; Union Toll Plaza, distance 0.61 km; NJ Transit Rail - Union Station, distance 2.00 km.

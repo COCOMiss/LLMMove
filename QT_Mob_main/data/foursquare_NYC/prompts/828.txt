@@ -1,0 +1,6 @@
+The name of this location is "Queens Village" and its POI category is Other Great Outdoors, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.72445001, -73.74550164), with the corresponding geohash code dr5x9vsjj78q.
+The address is 89-96 216th St, Queens Village, NY 11427, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Other Great Outdoors, 1(avg: 13); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Belmont Park Racetrack, distance 2.20 km; Cross Island Parkway, distance 2.39 km.
+The 10 representative nearby POIs and their distances are: Belmont Park Racetrack, distance 2.20 km; Cross Island Parkway, distance 2.39 km.

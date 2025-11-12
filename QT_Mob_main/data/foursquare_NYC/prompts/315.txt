@@ -1,0 +1,6 @@
+The name of this location is "Del Rio Diner" and its POI category is Diner, belonging to the parent category Food.
+The geographic coordinates for this location are (40.60570192, -73.98525554), with the corresponding geohash code dr5rh2j96e6y.
+The address is 171 Kings Hwy, Brooklyn, NY 11223, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 2(avg: 25); Light Rail Station, 1(avg: 1); Metro Station, 1(avg: 19); Ice Cream Shop, 1(avg: 6); Electronics Store, 1(avg: 5); Other Great Outdoors, 1(avg: 13); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: MTA Subway - Kings Highway (N), distance 0.40 km; MTA - N - Bay Parkway, distance 0.88 km; Bally Total Fitness, distance 1.23 km; L&B Spumoni Gardens, distance 1.28 km; New York Sports Club, distance 1.62 km; Best Buy, distance 1.77 km; Gravesend, Brooklyn, distance 2.01 km; Starbucks, distance 2.71 km.
+The 10 representative nearby POIs and their distances are: L&B Spumoni Gardens, distance 1.28 km; Best Buy, distance 1.77 km; MTA Subway - Kings Highway (N), distance 0.40 km; Starbucks, distance 2.71 km; MTA - N - Bay Parkway, distance 0.88 km; Gravesend, Brooklyn, distance 2.01 km; New York Sports Club, distance 1.62 km; Bally Total Fitness, distance 1.23 km.

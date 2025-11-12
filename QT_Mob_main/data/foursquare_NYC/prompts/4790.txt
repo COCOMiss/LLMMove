@@ -1,0 +1,6 @@
+The name of this location is "Richmond University Medical Center" and its POI category is Hospital, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.63535651, -74.10638621), with the corresponding geohash code dr5r1tmqh53r.
+The address is 1740 Richmond Ter, Staten Island, NY 10310, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Hospital, 1(avg: 2); Gym, 1(avg: 25); Lake, 1(avg: 2); Bar, 1(avg: 124); University, 1(avg: 5); Home (private), 1(avg: 14); General College & University, 1(avg: 2).
+The 10 nearest POIs and their distances are: Richmond University Medical Center, distance 0.09 km; Planet Fitness, distance 0.62 km; Silver Lake Park, distance 1.26 km; Adobe Blues Restaurant and Bar, distance 1.28 km; St John's University, distance 2.07 km; 108 Targee, distance 2.23 km; Wagner College, distance 2.53 km.
+The 10 representative nearby POIs and their distances are: Silver Lake Park, distance 1.26 km; 108 Targee, distance 2.23 km; Richmond University Medical Center, distance 0.09 km; Planet Fitness, distance 0.62 km; St John's University, distance 2.07 km; Wagner College, distance 2.53 km; Adobe Blues Restaurant and Bar, distance 1.28 km.

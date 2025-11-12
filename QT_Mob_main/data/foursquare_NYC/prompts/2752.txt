@@ -1,0 +1,6 @@
+The name of this location is "Casciano Memorial Bridge" and its POI category is Road, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.6953793, -74.11895156), with the corresponding geohash code dr5r92k5z0xc.
+The address is 129 Newark Bay Brg, Bayonne, NJ 07002, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Casciano Memorial Bridge, distance 0.04 km.
+The 10 representative nearby POIs and their distances are: Casciano Memorial Bridge, distance 0.04 km.

@@ -1,0 +1,6 @@
+The name of this location is "Biggie's Restaurant Raw Bar Tavern" and its POI category is Seafood Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.83561202, -74.08631691), with the corresponding geohash code dr7261guxty4.
+The address is 430 NJ-17, Carlstadt, NJ 07072, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 2(avg: 51); Café, 1(avg: 42); Bakery, 1(avg: 16); Beer Garden, 1(avg: 4); Music Venue, 1(avg: 10); Other Great Outdoors, 1(avg: 13).
+The 10 nearest POIs and their distances are: Starbucks, distance 0.55 km; Panera Bread, distance 0.84 km; Houlihan's, distance 1.79 km; SONIC Drive-In, distance 2.47 km; New Meadowlands Stadium, distance 2.64 km; The Bamboozle Festival 2011, distance 2.64 km; Starbucks, distance 2.74 km.
+The 10 representative nearby POIs and their distances are: New Meadowlands Stadium, distance 2.64 km; Starbucks, distance 2.74 km; SONIC Drive-In, distance 2.47 km; The Bamboozle Festival 2011, distance 2.64 km; Starbucks, distance 0.55 km; Panera Bread, distance 0.84 km; Houlihan's, distance 1.79 km.

@@ -1,0 +1,6 @@
+The name of this location is "SONIC Drive-In" and its POI category is American Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.85446166, -74.07096148), with the corresponding geohash code dr726mr4mrxu.
+The address is 156 NJ-17, Hasbrouck Heights, NJ 07604, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 2(avg: 51); Other Great Outdoors, 1(avg: 13); Airport, 1(avg: 1); Gym, 1(avg: 25); Gym / Fitness Center, 1(avg: 7).
+The 10 nearest POIs and their distances are: SONIC Drive-In, distance 0.02 km; Starbucks, distance 0.29 km; Teterboro Airport (TEB), distance 0.64 km; Houlihan's, distance 0.68 km; 24 Hour Fitness, distance 1.22 km; Golds Gym, distance 1.57 km.
+The 10 representative nearby POIs and their distances are: 24 Hour Fitness, distance 1.22 km; Teterboro Airport (TEB), distance 0.64 km; Starbucks, distance 0.29 km; SONIC Drive-In, distance 0.02 km; Golds Gym, distance 1.57 km; Houlihan's, distance 0.68 km.

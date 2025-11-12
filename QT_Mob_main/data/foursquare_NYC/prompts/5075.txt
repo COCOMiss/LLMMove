@@ -1,0 +1,6 @@
+The name of this location is "White Castle" and its POI category is Fast Food Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.85013622, -74.07553196), with the corresponding geohash code dr726kec6crf.
+The address is 37 NJ-17, Hasbrouck Heights, NJ 07604, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 2(avg: 51); Other Great Outdoors, 1(avg: 13); Airport, 1(avg: 1); Gym, 1(avg: 25); Gym / Fitness Center, 1(avg: 7); Café, 1(avg: 42); Bakery, 1(avg: 16).
+The 10 nearest POIs and their distances are: Houlihan's, distance 0.06 km; SONIC Drive-In, distance 0.62 km; Starbucks, distance 0.88 km; Teterboro Airport (TEB), distance 1.21 km; 24 Hour Fitness, distance 1.82 km; Golds Gym, distance 2.17 km; Starbucks, distance 2.40 km; Panera Bread, distance 2.69 km.
+The 10 representative nearby POIs and their distances are: 24 Hour Fitness, distance 1.82 km; Teterboro Airport (TEB), distance 1.21 km; Starbucks, distance 0.88 km; SONIC Drive-In, distance 0.62 km; Starbucks, distance 2.40 km; Golds Gym, distance 2.17 km; Panera Bread, distance 2.69 km; Houlihan's, distance 0.06 km.

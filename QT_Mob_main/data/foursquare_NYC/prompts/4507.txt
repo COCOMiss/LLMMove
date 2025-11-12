@@ -1,0 +1,6 @@
+The name of this location is "Sunrise Multiplex Cinemas" and its POI category is Movie Theater, belonging to the parent category Arts & Entertainment.
+The geographic coordinates for this location are (40.66351713, -73.72697353), with the corresponding geohash code dr5x669djj00.
+The address is 750 Sunrise Hwy, Valley Stream, NY 11581, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Green Acres Mall, distance 0.61 km; LIRR - Valley Stream Station, distance 1.89 km.
+The 10 representative nearby POIs and their distances are: LIRR - Valley Stream Station, distance 1.89 km; Green Acres Mall, distance 0.61 km.

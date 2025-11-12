@@ -1,0 +1,6 @@
+The name of this location is "JFK AirTrain - Lefferts Boulevard" and its POI category is Light Rail Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.66176329, -73.82457107), with the corresponding geohash code dr5x244xfy44.
+The address is Lefferts Blvd, Queens, NY 11430, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Light Rail Station, 1(avg: 1); Train, 1(avg: 4); Coffee Shop, 1(avg: 63); Airport Tram, 1(avg: 1); Beach, 1(avg: 1); Metro Station, 1(avg: 19).
+The 10 nearest POIs and their distances are: JFK AirTrain - Howard Beach, distance 0.43 km; MTA - Howard Beach - JFK Station, distance 0.49 km; Starbucks, distance 1.31 km; JFK AirTrain - Federal Circle Station, distance 1.79 km; Howard Beach, distance 2.11 km; MTA - Rockaway Boulevard Subway Station (A), distance 2.63 km.
+The 10 representative nearby POIs and their distances are: JFK AirTrain - Howard Beach, distance 0.43 km; JFK AirTrain - Federal Circle Station, distance 1.79 km; MTA - Rockaway Boulevard Subway Station (A), distance 2.63 km; Starbucks, distance 1.31 km; MTA - Howard Beach - JFK Station, distance 0.49 km; Howard Beach, distance 2.11 km.

@@ -1,0 +1,6 @@
+The name of this location is "Throgs Neck Bridge" and its POI category is Road, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.79981702, -73.79351377), with the corresponding geohash code dr780g3hnt0h.
+The address is Throgs Nck Brg, Queens, NY, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); Deli / Bodega, 1(avg: 10); General Travel, 1(avg: 1); Shopping Mall, 1(avg: 1); American Restaurant, 1(avg: 51).
+The 10 nearest POIs and their distances are: Throgs Neck Bridge, distance 0.01 km; Cherry Valley Deli & Grill, distance 2.06 km; Throgs Neck Bridge Toll Plaza, distance 2.17 km; Bay Terrace Shopping Center, distance 2.65 km; Panera Bread, distance 2.66 km.
+The 10 representative nearby POIs and their distances are: Throgs Neck Bridge, distance 0.01 km; Throgs Neck Bridge Toll Plaza, distance 2.17 km; Bay Terrace Shopping Center, distance 2.65 km; Cherry Valley Deli & Grill, distance 2.06 km; Panera Bread, distance 2.66 km.

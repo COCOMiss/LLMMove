@@ -1,0 +1,6 @@
+The name of this location is "East Side Fitness" and its POI category is Gym, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.720677, -74.269471), with the corresponding geohash code dr5ptuyx5uke.
+The address is 1865 NJ-124, Maplewood, NJ 07040, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train, 2(avg: 4); Grocery Store, 2(avg: 9); Department Store, 1(avg: 4).
+The 10 nearest POIs and their distances are: NJ Transit Rail - Maplewood Station, distance 1.27 km; Target, distance 1.47 km; Whole Foods, distance 1.48 km; Trader Joe's, distance 2.25 km; NJ Transit Rail - South Orange Station, distance 2.92 km.
+The 10 representative nearby POIs and their distances are: NJ Transit Rail - Maplewood Station, distance 1.27 km; NJ Transit Rail - South Orange Station, distance 2.92 km; Whole Foods, distance 1.48 km; Target, distance 1.47 km; Trader Joe's, distance 2.25 km.

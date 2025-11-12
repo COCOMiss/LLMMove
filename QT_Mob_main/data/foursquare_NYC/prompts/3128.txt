@@ -1,0 +1,6 @@
+The name of this location is "Green Acres Mall" and its POI category is Shopping Mall, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.66266423, -73.72021008), with the corresponding geohash code dr5x66qt4w50.
+The address is 1106 Green Acres Rd S, Valley Stream, NY 11581, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Green Acres Mall, distance 0.04 km; LIRR - Valley Stream Station, distance 1.31 km.
+The 10 representative nearby POIs and their distances are: LIRR - Valley Stream Station, distance 1.31 km; Green Acres Mall, distance 0.04 km.

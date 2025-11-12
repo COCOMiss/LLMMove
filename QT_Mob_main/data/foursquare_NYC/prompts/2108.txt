@@ -1,0 +1,6 @@
+The name of this location is "Sammy's Fishbox Restaurant" and its POI category is Seafood Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.83903632, -73.78356011), with the corresponding geohash code dr783482wkju.
+The address is City Island Av/Rochelle St, Bronx, NY 10464, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Other Great Outdoors, 1(avg: 13).
+The 10 nearest POIs and their distances are: City Island, distance 0.98 km.
+The 10 representative nearby POIs and their distances are: City Island, distance 0.98 km.

@@ -1,0 +1,6 @@
+The name of this location is "Best Buy" and its POI category is Electronics Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.78138633, -74.04604912), with the corresponding geohash code dr725012ccrv.
+The address is 925 Paterson Plank Rd, Secaucus, NJ 07094, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Movie Theater, 1(avg: 5); American Restaurant, 1(avg: 51); Burger Joint, 1(avg: 17); College Gym, 1(avg: 2); Gym / Fitness Center, 1(avg: 7); Department Store, 1(avg: 4); Arcade, 1(avg: 3); Diner, 1(avg: 9).
+The 10 nearest POIs and their distances are: Kerasotes Showplace 14, distance 0.44 km; Houlihan's - Secaucus, distance 0.48 km; Cheeseburger in Paradise, distance 0.65 km; LA fitness, distance 0.91 km; Bally Total Fitness, distance 1.11 km; Walmart, distance 1.30 km; Union City, distance 1.41 km; Coach House, distance 2.34 km.
+The 10 representative nearby POIs and their distances are: Walmart, distance 1.30 km; Kerasotes Showplace 14, distance 0.44 km; Cheeseburger in Paradise, distance 0.65 km; Houlihan's - Secaucus, distance 0.48 km; Coach House, distance 2.34 km; LA fitness, distance 0.91 km; Union City, distance 1.41 km; Bally Total Fitness, distance 1.11 km.

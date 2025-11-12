@@ -1,0 +1,6 @@
+The name of this location is "McDonald's" and its POI category is American Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.85577271, -73.96678055), with the corresponding geohash code dr72kve41h4c.
+The address is 2140 Lemoine Ave, Fort Lee, NJ 07024, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 3(avg: 1); Bus Station, 1(avg: 1).
+The 10 nearest POIs and their distances are: Bridge Plaza, distance 0.17 km; George Washington Bridge Toll Plaza, distance 0.34 km; New York/New Jersey State Line, distance 1.32 km; George Washington Bridge, distance 1.34 km.
+The 10 representative nearby POIs and their distances are: George Washington Bridge, distance 1.34 km; George Washington Bridge Toll Plaza, distance 0.34 km; Bridge Plaza, distance 0.17 km; New York/New Jersey State Line, distance 1.32 km.

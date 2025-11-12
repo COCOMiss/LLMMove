@@ -1,0 +1,38 @@
+**Location Analysis: Dunkin' Donuts**
+
+**Overview**
+
+Dunkin' Donuts is a coffee shop located at 28 S Harrison St, East Orange, NJ 07018, USA. The geographic coordinates for this location are (40.76619953, -74.2195805), with the corresponding geohash code dr5pzj6bq6ms.
+
+**Category and Parent Category**
+
+The location falls under the category "Coffee Shop" and its parent category is also "Coffee Shop". This indicates that Dunkin' Donuts is a specialized coffee shop that primarily serves coffee and related beverages.
+
+**Geographic Location**
+
+The location is situated in East Orange, New Jersey, USA. The nearby geohash code, dr5pzj6bq6ms, provides a unique identifier for this location, allowing for precise navigation and identification.
+
+**Address**
+
+The official address of Dunkin' Donuts is 28 S Harrison St, East Orange, NJ 07018, USA. This address is a specific and easily identifiable location that can be used for navigation and communication.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POI categories and their counts are:
+
+1.  Other Great Outdoors, 1 (avg: 13)
+   - This suggests that the surrounding area of Dunkin' Donuts is primarily residential or has a mix of residential and commercial spaces, with limited outdoor recreational activities.
+
+The 10 nearest POIs and their distances are:
+
+1.  Interstate 280, distance 1.21 km
+   - This indicates that the location is relatively close to a major highway, which may contribute to its accessibility and visibility.
+
+The 10 representative nearby POIs and their distances are:
+
+1.  Interstate 280, distance 1.21 km
+   - This further emphasizes the proximity of the location to a major highway, highlighting its accessibility and connectivity to surrounding areas.
+
+**Conclusion**
+
+In conclusion, Dunkin' Donuts is a coffee shop located in East Orange, New Jersey, with a specific address and geohash code. The surrounding area is primarily residential, and the location is relatively close to a major highway, making it easily accessible.

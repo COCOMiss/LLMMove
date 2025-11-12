@@ -1,0 +1,6 @@
+The name of this location is "Dunkin Donuts" and its POI category is Coffee Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.81890636, -74.00073895), with the corresponding geohash code dr72hnf73g9s.
+The address is 222 Bergen Blvd #8, Fairview, NJ 07022, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 2(avg: 9); Coffee Shop, 1(avg: 63); Movie Theater, 1(avg: 5); Sandwich Place, 1(avg: 18); Department Store, 1(avg: 4); Food Court, 1(avg: 2); Park, 1(avg: 8).
+The 10 nearest POIs and their distances are: Walmart Supercenter, distance 1.24 km; Starbucks, distance 1.50 km; Edgewater Multiplex Cinemas, distance 1.53 km; Panera Bread, distance 1.63 km; Target, distance 1.67 km; Mitsuwa Marketplace, distance 1.74 km; James L Braddock North Hudson County Park, distance 1.87 km; Trader Joe's, distance 1.96 km.
+The 10 representative nearby POIs and their distances are: Mitsuwa Marketplace, distance 1.74 km; Starbucks, distance 1.50 km; Walmart Supercenter, distance 1.24 km; Edgewater Multiplex Cinemas, distance 1.53 km; Trader Joe's, distance 1.96 km; Target, distance 1.67 km; Panera Bread, distance 1.63 km; James L Braddock North Hudson County Park, distance 1.87 km.

@@ -1,0 +1,6 @@
+The name of this location is "Gsub-NJCU" and its POI category is Student Center, belonging to the parent category College & University.
+The geographic coordinates for this location are (40.71045924, -74.08764192), with the corresponding geohash code dr5rd5558gdh.
+The address is Gilligan Student Union Building, 2039 John F. Kennedy Blvd FL 2, Jersey City, NJ 07305, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: University, 1(avg: 5); Road, 1(avg: 1); Residential Building (Apartment / Condo), 1(avg: 1).
+The 10 nearest POIs and their distances are: New Jersey City University, distance 0.21 km; Rt. 440 & Communipaw, distance 1.36 km; The Beacon (Rialto-Capitol Condos), distance 2.44 km.
+The 10 representative nearby POIs and their distances are: New Jersey City University, distance 0.21 km; The Beacon (Rialto-Capitol Condos), distance 2.44 km; Rt. 440 & Communipaw, distance 1.36 km.

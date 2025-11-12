@@ -1,0 +1,6 @@
+The name of this location is "Planet Fitness" and its POI category is Gym, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.63007814, -74.1092711), with the corresponding geohash code dr5r1s7r2gd2.
+The address is 448 Forest Ave, Staten Island, NY 10310, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Hospital, 1(avg: 2); Lake, 1(avg: 2); University, 1(avg: 5); Bar, 1(avg: 124); General College & University, 1(avg: 2); Pizza Place, 1(avg: 20); Home (private), 1(avg: 14).
+The 10 nearest POIs and their distances are: Planet Fitness, distance 0.03 km; Richmond University Medical Center, distance 0.72 km; Silver Lake Park, distance 1.23 km; St John's University, distance 1.86 km; Adobe Blues Restaurant and Bar, distance 1.88 km; Wagner College, distance 2.15 km; Joe and Pat's Pizzeria, distance 2.19 km; 108 Targee, distance 2.21 km.
+The 10 representative nearby POIs and their distances are: Silver Lake Park, distance 1.23 km; 108 Targee, distance 2.21 km; Richmond University Medical Center, distance 0.72 km; Planet Fitness, distance 0.03 km; St John's University, distance 1.86 km; Joe and Pat's Pizzeria, distance 2.19 km; Wagner College, distance 2.15 km; Adobe Blues Restaurant and Bar, distance 1.88 km.

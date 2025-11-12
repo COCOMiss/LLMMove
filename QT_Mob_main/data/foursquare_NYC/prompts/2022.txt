@@ -1,0 +1,6 @@
+The name of this location is "TGI Friday's" and its POI category is American Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.58676062, -73.92899288), with the corresponding geohash code dr5qvswe18e3.
+The address is 3181 Harkness Ave, Brooklyn, NY 11235, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Movie Theater, 1(avg: 5); Fast Food Restaurant, 1(avg: 5); College Classroom, 1(avg: 1); Park, 1(avg: 8); Gym, 1(avg: 25); Metro Station, 1(avg: 19); Shopping Mall, 1(avg: 1).
+The 10 nearest POIs and their distances are: United Artists Sheepshead Bay Stadium 14 & IMAX, distance 0.11 km; Roll N Roaster, distance 0.93 km; Kingsborough Community College, distance 1.11 km; Marine Park, distance 1.41 km; Bally Total Fitness, distance 1.95 km; MTA - Sheepshead Bay (B/Q), distance 2.14 km; Kings Plaza Mall, distance 2.69 km.
+The 10 representative nearby POIs and their distances are: Kingsborough Community College, distance 1.11 km; Kings Plaza Mall, distance 2.69 km; United Artists Sheepshead Bay Stadium 14 & IMAX, distance 0.11 km; MTA - Sheepshead Bay (B/Q), distance 2.14 km; Roll N Roaster, distance 0.93 km; Bally Total Fitness, distance 1.95 km; Marine Park, distance 1.41 km.

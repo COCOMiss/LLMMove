@@ -1,0 +1,6 @@
+The name of this location is "U.S. Post Office" and its POI category is Post Office, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.67282676, -73.87262821), with the corresponding geohash code dr5rqur87h2n.
+The address is 1223 Sutter Ave #80239, Brooklyn, NY 11208, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 1(avg: 19); Department Store, 1(avg: 4); Electronics Store, 1(avg: 5).
+The 10 nearest POIs and their distances are: MTA - 80-Hudson Street Subway - A, distance 1.42 km; Target, distance 2.22 km; Best Buy, distance 2.37 km.
+The 10 representative nearby POIs and their distances are: Target, distance 2.22 km; MTA - 80-Hudson Street Subway - A, distance 1.42 km; Best Buy, distance 2.37 km.

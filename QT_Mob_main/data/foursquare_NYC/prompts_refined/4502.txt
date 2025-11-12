@@ -1,0 +1,56 @@
+**Location Analysis: Mexicue Taco Truck**
+
+**Overview**
+
+The Mexicue Taco Truck is a Mexican restaurant located at 87 E 55th St, New York, NY 10016, USA. The location has a geohash code of dr5rusq8rupu and geographic coordinates of (40.76071578, -73.97266388). This analysis will provide an overview of the surrounding area, highlighting the nearest and representative points of interest (POIs), as well as the top POI categories in the area.
+
+**Surrounding Area**
+
+The Mexicue Taco Truck is situated in the heart of Manhattan, New York City. The area is densely populated with various types of businesses, including restaurants, offices, hotels, and entertainment venues. The location is close to several major landmarks, such as Times Square, Madison Square Garden, and Central Park.
+
+**Nearby Points of Interest (POIs)**
+
+The 10 nearest POIs to the Mexicue Taco Truck are:
+
+1.  Mexicue Taco Truck (distance: 0.00 km)
+2.  Chop't (distance: 0.06 km)
+3.  Sony (distance: 0.07 km)
+4.  Starbucks (distance: 0.07 km)
+5.  Papillon (distance: 0.14 km)
+6.  The St. Regis New York (distance: 0.14 km)
+7.  Four Seasons Hotel New York (distance: 0.16 km)
+8.  Dishes (distance: 0.17 km)
+9.  Adour (distance: 0.18 km)
+10. The Volstead (distance: 0.19 km)
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs that are farther away but still within a reasonable distance are:
+
+1.  New York Penn Station (distance: 2.00 km)
+2.  Madison Square Garden (distance: 2.03 km)
+3.  NBC Studio 1A - Today Show (distance: 0.62 km)
+4.  Times Square (distance: 1.27 km)
+5.  Port Authority Bus Terminal (distance: 1.64 km)
+6.  Metropolitan Museum of Art (distance: 2.20 km)
+7.  MoMA - Museum of Modern Art (distance: 0.42 km)
+8.  Apple Store (distance: 0.35 km)
+9.  Bryant Park (distance: 1.20 km)
+10. Central Park (distance: 2.43 km)
+
+**Top POI Categories**
+
+The top 10 POI categories in the area, along with their average counts, are:
+
+1.  Bar (113, avg: 124)
+2.  Office (83, avg: 72)
+3.  Coffee Shop (83, avg: 63)
+4.  American Restaurant (55, avg: 51)
+5.  Café (46, avg: 42)
+6.  Hotel (42, avg: 28)
+7.  Gym (35, avg: 25)
+8.  Theater (35, avg: 19)
+9.  Lounge (30, avg: 35)
+10. Mexican Restaurant (29, avg: 28)
+
+The Mexicue Taco Truck is surrounded by a diverse range of businesses and attractions, making it an ideal location for those looking for a unique dining experience in the heart of Manhattan.

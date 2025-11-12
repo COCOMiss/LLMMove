@@ -1,0 +1,63 @@
+**Location Analysis: Grounded**
+
+**Location Information:**
+
+* Name: Grounded
+* Category: Internet Cafe
+* Parent Category: Shop & Service
+* Geographic Coordinates: (40.73819586, -74.00347051)
+* Geohash Code: dr5ru00m4nhu
+* Address: 25 Jane St, New York, NY 10014, USA
+
+**Neighboring Points of Interest (POIs):**
+
+The area around Grounded is densely populated with various types of businesses and attractions. The top 10 nearby POI categories and their counts are:
+
+1.  Bar (241, avg: 124)
+2.  Coffee Shop (100, avg: 63)
+3.  American Restaurant (98, avg: 51)
+4.  Office (93, avg: 72)
+5.  Café (64, avg: 42)
+6.  Lounge (63, avg: 35)
+7.  Italian Restaurant (52, avg: 28)
+8.  Mexican Restaurant (45, avg: 28)
+9.  Gym (39, avg: 25)
+10.  Pub (38, avg: 24)
+
+This suggests that the area is a vibrant and bustling neighborhood with a mix of entertainment, dining, and service-oriented businesses.
+
+**Nearby POIs:**
+
+The 10 nearest POIs to Grounded are:
+
+1.  Art Bar (distance: 0.02 km)
+2.  Corner Bistro (distance: 0.03 km)
+3.  Grounded (distance: 0.03 km)
+4.  Li-Lac Chocolates (distance: 0.05 km)
+5.  dell' anima (distance: 0.05 km)
+6.  'sNice (distance: 0.06 km)
+7.  Cubby Hole (distance: 0.06 km)
+8.  Anfora (distance: 0.06 km)
+9.  Tavern on Jane (distance: 0.07 km)
+10.  F.S.C. Barber (distance: 0.08 km)
+
+These nearby POIs are mostly located within a 0.08 km radius, indicating a high concentration of businesses and attractions in the immediate area.
+
+**Representative Nearby POIs:**
+
+The 10 representative nearby POIs and their distances are:
+
+1.  New York Penn Station (distance: 1.69 km)
+2.  Madison Square Garden (distance: 1.63 km)
+3.  Times Square (distance: 2.46 km)
+4.  Port Authority Bus Terminal (distance: 2.34 km)
+5.  Union Square Park (distance: 1.13 km)
+6.  Bryant Park (distance: 2.41 km)
+7.  Lincoln Tunnel (distance: 2.80 km)
+8.  Union Square Greenmarket (distance: 1.11 km)
+9.  Madison Square Park (distance: 1.39 km)
+10.  Macy's (distance: 1.87 km)
+
+These representative POIs are located at a slightly greater distance from Grounded, but are still within a reasonable walking distance or a short ride away. They provide a glimpse into the larger neighborhood and surrounding area, indicating a mix of transportation hubs, parks, and shopping centers.
+
+Overall, Grounded is situated in a vibrant and densely populated area with a mix of entertainment, dining, and service-oriented businesses. The nearby POIs suggest a convenient location for those looking to access various amenities and attractions in the surrounding neighborhood.

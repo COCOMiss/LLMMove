@@ -1,0 +1,6 @@
+The name of this location is "MTA - Canarsie/Rockaway Pkwy (L)" and its POI category is Metro Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.64609878, -73.90266895), with the corresponding geohash code dr5rnr3sxjbp.
+The address is 1389 Rockaway Pkwy, Brooklyn, NY 11236, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 1(avg: 19); Other Nightlife, 1(avg: 7).
+The 10 nearest POIs and their distances are: MTA - Canarsie/Rockaway Pkwy (L), distance 0.00 km; Stella Artois Socialite Event, distance 0.84 km.
+The 10 representative nearby POIs and their distances are: MTA - Canarsie/Rockaway Pkwy (L), distance 0.00 km; Stella Artois Socialite Event, distance 0.84 km.

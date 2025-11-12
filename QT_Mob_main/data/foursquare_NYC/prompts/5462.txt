@@ -1,0 +1,6 @@
+The name of this location is "The Village at Little Falls" and its POI category is College Residence Hall, belonging to the parent category College & University.
+The geographic coordinates for this location are (40.87036516, -74.19895649), with the corresponding geohash code dr70x81znurb.
+The address is Abbott and Costello Center, 139 Clove Rd, Little Falls, NJ 07424, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Diner, 1(avg: 9); College Communications Building, 1(avg: 1); College Auditorium, 1(avg: 1); American Restaurant, 1(avg: 51); Department Store, 1(avg: 4); Travel & Transport, 1(avg: 1).
+The 10 nearest POIs and their distances are: Six Brothers Diner, distance 0.36 km; University Hall, distance 0.88 km; Montclair State University, distance 1.07 km; Pub 46, distance 1.58 km; Best Buy, distance 2.21 km; U.S. Route 46, distance 2.37 km.
+The 10 representative nearby POIs and their distances are: Montclair State University, distance 1.07 km; University Hall, distance 0.88 km; U.S. Route 46, distance 2.37 km; Pub 46, distance 1.58 km; Best Buy, distance 2.21 km; Six Brothers Diner, distance 0.36 km.

@@ -1,0 +1,6 @@
+The name of this location is "24 Hour Fitness" and its POI category is Gym, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.86494453, -74.06521287), with the corresponding geohash code dr726x5re3y3.
+The address is 459 NJ-17, Hasbrouck Heights, NJ 07604, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 2(avg: 51); Gym, 1(avg: 25); Gym / Fitness Center, 1(avg: 7); Airport, 1(avg: 1); Other Great Outdoors, 1(avg: 13); Coffee Shop, 1(avg: 63); Hospital, 1(avg: 2).
+The 10 nearest POIs and their distances are: 24 Hour Fitness, distance 0.04 km; Golds Gym, distance 0.84 km; Teterboro Airport (TEB), distance 0.94 km; Starbucks, distance 0.98 km; SONIC Drive-In, distance 1.25 km; Houlihan's, distance 1.92 km; Starbucks, distance 2.12 km; Hackensack University Medical Center, distance 2.22 km.
+The 10 representative nearby POIs and their distances are: 24 Hour Fitness, distance 0.04 km; Hackensack University Medical Center, distance 2.22 km; Teterboro Airport (TEB), distance 0.94 km; Starbucks, distance 0.98 km; SONIC Drive-In, distance 1.25 km; Golds Gym, distance 0.84 km; Houlihan's, distance 1.92 km; Starbucks, distance 2.12 km.

@@ -1,0 +1,54 @@
+**Location Analysis: CVS Pharmacy, 565 W 235th St, Bronx, NY 10463, USA**
+
+**Geographic Location and Accessibility:**
+
+The CVS Pharmacy is situated at the intersection of 565 W 235th St and its surrounding area, with a geohash code of dr72w5h13d6j. Its geographic coordinates (40.88584772, -73.9104551) place it in the Bronx, New York City, USA.
+
+**Nearby Points of Interest:**
+
+The surrounding area offers a mix of commercial, educational, and recreational facilities. The top 10 nearby points-of-interest categories and their counts are:
+
+1.  Metro Station (4) with an average distance of 19 km
+2.  Road (2) with an average distance of 1 km
+3.  Bar (2) with an average distance of 124 km
+4.  University (2) with an average distance of 5 km
+5.  Gym (2) with an average distance of 25 km
+6.  Train Station (1) with an average distance of 5 km
+7.  Department Store (1) with an average distance of 4 km
+8.  Café (1) with an average distance of 42 km
+9.  Baseball Field (1) with an average distance of 1 km
+10.  College Administrative Building (1) with an average distance of 1 km
+
+**Nearest POIs:**
+
+The 10 nearest POIs to the CVS Pharmacy are:
+
+1.  Henry Hudson Parkway (0.44 km)
+2.  An Beal Bocht Cafe (0.51 km)
+3.  Manhattan College (0.83 km)
+4.  MTA Subway - 231st Street (1) (0.91 km)
+5.  Bronx Ale House (0.92 km)
+6.  MTA Subway - 225th Street/Marble Hill (1) (1.26 km)
+7.  Metro North - Spuyten Duyvil Train Station (1.26 km)
+8.  Planet Fitness (1.30 km)
+9.  Henry Hudson Bridge (1.34 km)
+10.  Target (1.37 km)
+
+**Representative POIs:**
+
+The 10 representative nearby POIs to the CVS Pharmacy are:
+
+1.  Sofa Lounge (2.62 km)
+2.  Target (1.37 km)
+3.  Lehman College, CUNY (1.91 km)
+4.  Planet Fitness (2.72 km)
+5.  Bronx Ale House (0.92 km)
+6.  Planet Fitness (1.30 km)
+7.  Manhattan College (0.83 km)
+8.  Henry Hudson Bridge (1.34 km)
+9.  Henry Hudson Parkway (0.44 km)
+10.  Indian Road Cafe (1.61 km)
+
+**Conclusion:**
+
+The CVS Pharmacy at 565 W 235th St, Bronx, NY 10463, USA, is situated in a densely populated area with a mix of commercial, educational, and recreational facilities. The nearby points-of-interest categories and POIs indicate a high level of accessibility and convenience for residents and visitors. The pharmacy is close to public transportation options, educational institutions, and recreational facilities, making it an ideal location for a pharmacy.

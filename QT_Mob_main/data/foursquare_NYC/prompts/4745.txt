@@ -1,0 +1,6 @@
+The name of this location is "cresskill hot bagels" and its POI category is Bagel Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.9419836, -73.96169518), with the corresponding geohash code dr72uvq8rdfv.
+The address is 23 Union Ave, Cresskill, NJ 07626, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are:.
+The 10 nearest POIs and their distances are:.
+The 10 representative nearby POIs and their distances are:.

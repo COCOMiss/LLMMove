@@ -1,0 +1,6 @@
+The name of this location is "Bridge Plaza" and its POI category is Bus Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.85452658, -73.96802902), with the corresponding geohash code dr72kv64u58p.
+The address is Fort Lee, NJ (Bus Shelter in the highway leading eastbound towards the George Washington Bridge. Stair access to this bus stop from Lemoine Avenue.), Fort Lee, NJ 07024, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 3(avg: 1); Bus Station, 1(avg: 1).
+The 10 nearest POIs and their distances are: Bridge Plaza, distance 0.00 km; George Washington Bridge Toll Plaza, distance 0.38 km; New York/New Jersey State Line, distance 1.38 km; George Washington Bridge, distance 1.40 km.
+The 10 representative nearby POIs and their distances are: George Washington Bridge, distance 1.40 km; George Washington Bridge Toll Plaza, distance 0.38 km; Bridge Plaza, distance 0.00 km; New York/New Jersey State Line, distance 1.38 km.

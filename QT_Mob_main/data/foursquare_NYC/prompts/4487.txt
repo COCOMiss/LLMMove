@@ -1,0 +1,6 @@
+The name of this location is "The Clif Tavern" and its POI category is Bar, belonging to the parent category Nightlife Spot.
+The geographic coordinates for this location are (40.87277786, -74.15178802), with the corresponding geohash code dr7288sm4n52.
+The address is Clifton Ave at Jewett Ave, Clifton, NJ 07011, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bar, 1(avg: 124); Dive Bar, 1(avg: 16).
+The 10 nearest POIs and their distances are: Sharky's Wings and Raw bar, distance 0.84 km; Loop Lounge, distance 2.37 km.
+The 10 representative nearby POIs and their distances are: Loop Lounge, distance 2.37 km; Sharky's Wings and Raw bar, distance 0.84 km.

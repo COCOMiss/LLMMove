@@ -1,0 +1,6 @@
+The name of this location is "ShopRite" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.88227407, -74.21217442), with the corresponding geohash code dr70x62kdbrb.
+The address is 171 Browertown Rd, Little Falls, NJ 07424, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Department Store, 1(avg: 4); Travel & Transport, 1(avg: 1); Diner, 1(avg: 9); American Restaurant, 1(avg: 51); Lounge, 1(avg: 35); Burger Joint, 1(avg: 17); College Communications Building, 1(avg: 1); College Auditorium, 1(avg: 1).
+The 10 nearest POIs and their distances are: Best Buy, distance 0.53 km; U.S. Route 46, distance 0.65 km; Six Brothers Diner, distance 1.77 km; Sonic Drive-In, distance 1.96 km; 46 Lounge, distance 2.01 km; Applebee's Neighborhood Bar & Grill, distance 2.36 km; University Hall, distance 2.46 km; Montclair State University, distance 2.64 km.
+The 10 representative nearby POIs and their distances are: Montclair State University, distance 2.64 km; University Hall, distance 2.46 km; Sonic Drive-In, distance 1.96 km; U.S. Route 46, distance 0.65 km; 46 Lounge, distance 2.01 km; Best Buy, distance 0.53 km; Six Brothers Diner, distance 1.77 km; Applebee's Neighborhood Bar & Grill, distance 2.36 km.

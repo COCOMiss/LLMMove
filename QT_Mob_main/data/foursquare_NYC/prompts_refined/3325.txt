@@ -1,0 +1,46 @@
+**Location Analysis: John & Joe's Pizzeria**
+
+**Overview**
+
+John & Joe's Pizzeria is a pizza place located in the Bronx, New York, USA. The pizzeria has a specific address at 749 Lydig Ave, Bronx, NY 10462, and its geohash code is dr72rjkd9pn0. This analysis will provide an overview of the location, its proximity to nearby points-of-interest (POIs), and the types of POIs that are present in the surrounding area.
+
+**Geographic Location**
+
+The pizzeria is situated at the geographic coordinates (40.85450113, -73.86583937), which places it in the Bronx, a borough in New York City. The location is relatively close to several other POIs, as evident from the provided data.
+
+**Nearby Points-of-Interest (POIs)**
+
+The top 10 nearby POIs and their counts are categorized as follows:
+
+1.  Metro Station (3, avg: 19) - This suggests that the pizzeria is located near a major transportation hub, which could be beneficial for attracting customers.
+2.  Train Station (3, avg: 5) - The presence of multiple train stations in the area indicates that the pizzeria is accessible by public transportation, making it convenient for customers.
+3.  Emergency Room (2, avg: 2) - The proximity to emergency rooms suggests that the pizzeria is located in a populated area with a high demand for medical services.
+4.  College Academic Building (2, avg: 5) - The presence of college academic buildings indicates that the pizzeria is near a university or college, which could be a potential target market.
+5.  Farmers Market (1, avg: 1) - The presence of a farmers market suggests that the pizzeria is located in an area with a strong focus on local produce and community-based commerce.
+6.  Other Great Outdoors (1, avg: 13) - The presence of outdoor spaces indicates that the pizzeria is surrounded by parks or other outdoor recreational areas.
+7.  College Communications Building (1, avg: 1) - The presence of a college communications building suggests that the pizzeria is near a university or college with a strong focus on communication studies.
+8.  Student Center (1, avg: 1) - The presence of a student center indicates that the pizzeria is near a university or college, which could be a potential target market.
+9.  Hospital (1, avg: 2) - The proximity to hospitals suggests that the pizzeria is located in a populated area with a high demand for medical services.
+10. College Math Building (1, avg: 1) - The presence of a college math building suggests that the pizzeria is near a university or college with a strong focus on mathematics.
+
+**10 Nearest POIs**
+
+The 10 nearest POIs and their distances are:
+
+1.  MTA Subway (2,5) - Pelham Parkway, distance 0.34 km - This subway station is the closest POI to the pizzeria, indicating that it is easily accessible by public transportation.
+2.  New York Botanical Garden, distance 1.27 km - This botanical garden is a popular tourist destination and could attract customers to the pizzeria.
+3.  Bronx Zoo, distance 1.29 km - The Bronx Zoo is a popular attraction and could draw customers to the pizzeria.
+4.  Faculty Memorial Hall (FMH), distance 1.50 km - This building is likely part of a university or college, indicating that the pizzeria is near a potential target market.
+5.  MTA - East 180th Street (2,5), distance 1.62 km - This train station is another major transportation hub near the pizzeria.
+6.  Jacobi Medical Center, distance 1.66 km - This hospital is a major medical facility and could attract customers to the pizzeria.
+7.  Keating Hall, distance 1.66 km - This building is likely part of a university or college, indicating that the pizzeria is near a potential target market.
+8.  McGinley Student Center, distance 1.79 km - This student center is part of a university or college, which could be a potential target market.
+9.  Montefiore Medical Center, distance 1.81 km - This hospital is another major medical facility near the pizzeria.
+10. Fordham University - Rose Hill, distance 1.86 km - This university is a potential target market for the pizzeria.
+
+**10 Representative Nearby POIs**
+
+The 10 representative nearby POIs and their distances are:
+
+1.  Bronx Zoo, distance 1.29 km - This attraction is a popular destination and could draw customers to the pizzeria.
+2.  MTA Subway - 177th

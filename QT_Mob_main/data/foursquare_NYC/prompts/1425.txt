@@ -1,0 +1,6 @@
+The name of this location is "Forum Fitness Club" and its POI category is Gym, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.666351, -74.117888), with the corresponding geohash code dr5r37j48j30.
+The address is 21 W 25th St, Bayonne, NJ 07002, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 2(avg: 25).
+The 10 nearest POIs and their distances are: Forum Fitness Club, distance 0.03 km; Planet Fitness, distance 2.11 km.
+The 10 representative nearby POIs and their distances are: Planet Fitness, distance 2.11 km; Forum Fitness Club, distance 0.03 km.

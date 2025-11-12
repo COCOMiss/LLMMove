@@ -1,0 +1,60 @@
+**Location Analysis: Razorfish NYC**
+
+**Overview**
+
+Razorfish NYC is an office located at 1442 Broadway, New York, NY 10018, USA. The geographic coordinates for this location are (40.75453842, -73.98646648), which corresponds to the geohash code dr5ru7hsqks5.
+
+**POI Analysis**
+
+The top 10 nearby points-of-interest (POI) categories and their counts are:
+
+1.  Bar (168, avg: 124)
+2.  Coffee Shop (108, avg: 63)
+3.  Office (108, avg: 72)
+4.  American Restaurant (84, avg: 51)
+5.  Café (60, avg: 42)
+6.  Gym (46, avg: 25)
+7.  Lounge (45, avg: 35)
+8.  Hotel (45, avg: 28)
+9.  Mexican Restaurant (44, avg: 28)
+10. Theater (35, avg: 19)
+
+This suggests that Razorfish NYC is surrounded by a diverse range of businesses and entertainment options, with a high concentration of bars and coffee shops in the area.
+
+**Nearest POIs**
+
+The 10 nearest POIs to Razorfish NYC are:
+
+1.  Cafe Duke (distance: 0.02 km)
+2.  Razorfish NYC (distance: 0.03 km)
+3.  Circle Nightclub (distance: 0.06 km)
+4.  Starbucks (distance: 0.07 km)
+5.  Baja Fresh (distance: 0.08 km)
+6.  Pulse Karaoke (distance: 0.09 km)
+7.  Chop't (distance: 0.09 km)
+8.  Yahoo! NY HQ (distance: 0.10 km)
+9.  Ruby Tuesday (distance: 0.11 km)
+10. Gap (distance: 0.11 km)
+
+These POIs are primarily located within a short walking distance, indicating that Razorfish NYC is situated in a densely populated area with easy access to amenities and services.
+
+**Representative POIs**
+
+The 10 representative nearby POIs and their distances are:
+
+1.  New York Penn Station (distance: 0.65 km)
+2.  Madison Square Garden (distance: 0.69 km)
+3.  NBC Studio 1A - Today Show (distance: 0.74 km)
+4.  Times Square (distance: 0.19 km)
+5.  Port Authority Bus Terminal (distance: 0.53 km)
+6.  Union Square Park (distance: 2.17 km)
+7.  MoMA - Museum of Modern Art (distance: 1.07 km)
+8.  Apple Store (distance: 1.53 km)
+9.  Bryant Park (distance: 0.26 km)
+10. Lincoln Tunnel (distance: 2.24 km)
+
+These POIs represent a mix of popular destinations, public transportation hubs, and cultural attractions, indicating that Razorfish NYC is located in a vibrant and accessible area.
+
+**Conclusion**
+
+Razorfish NYC is situated in a densely populated area of New York City, surrounded by a diverse range of businesses and entertainment options. The location offers easy access to public transportation, cultural attractions, and amenities, making it an ideal location for a professional office space.

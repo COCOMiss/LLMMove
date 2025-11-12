@@ -1,0 +1,6 @@
+The name of this location is "Arlington Diner" and its POI category is Diner, belonging to the parent category Food.
+The geographic coordinates for this location are (40.7861374, -74.14618005), with the corresponding geohash code dr720bbkkz0f.
+The address is 1 River Rd, North Arlington, NJ 07031, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym / Fitness Center, 1(avg: 7); Home (private), 1(avg: 14).
+The 10 nearest POIs and their distances are: Signature Fitness, distance 1.17 km; Riverwatch Condos, distance 2.58 km.
+The 10 representative nearby POIs and their distances are: Signature Fitness, distance 1.17 km; Riverwatch Condos, distance 2.58 km.

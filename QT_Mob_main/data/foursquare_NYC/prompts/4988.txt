@@ -1,0 +1,6 @@
+The name of this location is "A&P" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.82118177, -73.99176121), with the corresponding geohash code dr72hr2bdgzf.
+The address is 425-435 Anderson Ave, Fairview, NJ 07022, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 2(avg: 9); Coffee Shop, 1(avg: 63); Food Court, 1(avg: 2); Department Store, 1(avg: 4); Movie Theater, 1(avg: 5); Bakery, 1(avg: 16); Sandwich Place, 1(avg: 18); Park, 1(avg: 8).
+The 10 nearest POIs and their distances are: Starbucks, distance 1.08 km; Mitsuwa Marketplace, distance 1.11 km; Target, distance 1.17 km; Trader Joe's, distance 1.22 km; Edgewater Multiplex Cinemas, distance 1.50 km; Whole Foods, distance 1.56 km; Panera Bread, distance 1.60 km; Walmart Supercenter, distance 2.02 km; James L Braddock North Hudson County Park, distance 2.20 km.
+The 10 representative nearby POIs and their distances are: Mitsuwa Marketplace, distance 1.11 km; Starbucks, distance 1.08 km; Walmart Supercenter, distance 2.02 km; Whole Foods, distance 1.56 km; Edgewater Multiplex Cinemas, distance 1.50 km; Trader Joe's, distance 1.22 km; Target, distance 1.17 km; Panera Bread, distance 1.60 km; James L Braddock North Hudson County Park, distance 2.20 km.

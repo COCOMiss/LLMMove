@@ -1,0 +1,6 @@
+The name of this location is "The Cottage Bar" and its POI category is Sports Bar, belonging to the parent category Nightlife Spot.
+The geographic coordinates for this location are (40.88591812, -74.01265768), with the corresponding geohash code dr72eg19spd3.
+The address is 176b Cedar Ln, Teaneck, NJ 07666, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Medical Center, 1(avg: 1); Wings Joint, 1(avg: 1).
+The 10 nearest POIs and their distances are: Holy Name Medical Center, distance 0.41 km; Hooters of Hackensack, distance 2.54 km.
+The 10 representative nearby POIs and their distances are: Holy Name Medical Center, distance 0.41 km; Hooters of Hackensack, distance 2.54 km.

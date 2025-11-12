@@ -1,0 +1,6 @@
+The name of this location is "Duffys Chalét" and its POI category is Home (private), belonging to the parent category Residence.
+The geographic coordinates for this location are (40.78078734, -74.12986841), with the corresponding geohash code dr5rcpum2cgb.
+The address is 68-70 Elm St, North Arlington, NJ 07031, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym / Fitness Center, 1(avg: 7).
+The 10 nearest POIs and their distances are: Signature Fitness, distance 2.25 km.
+The 10 representative nearby POIs and their distances are: Signature Fitness, distance 2.25 km.

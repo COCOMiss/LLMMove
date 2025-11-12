@@ -1,0 +1,6 @@
+The name of this location is "Pathmark" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.87828304, -74.06579018), with the corresponding geohash code dr72d9dvmbrb.
+The address is 387 NJ-17, Hackensack, NJ 07601, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Hospital, 1(avg: 2); Gym, 1(avg: 25); Gym / Fitness Center, 1(avg: 7); Diner, 1(avg: 9); Other Great Outdoors, 1(avg: 13); Airport, 1(avg: 1); American Restaurant, 1(avg: 51).
+The 10 nearest POIs and their distances are: Hackensack University Medical Center, distance 1.03 km; 24 Hour Fitness, distance 1.52 km; Golds Gym, distance 1.94 km; Saddle Brook Diner, distance 2.24 km; Starbucks, distance 2.40 km; Teterboro Airport (TEB), distance 2.42 km; SONIC Drive-In, distance 2.67 km.
+The 10 representative nearby POIs and their distances are: 24 Hour Fitness, distance 1.52 km; Hackensack University Medical Center, distance 1.03 km; Teterboro Airport (TEB), distance 2.42 km; Starbucks, distance 2.40 km; SONIC Drive-In, distance 2.67 km; Golds Gym, distance 1.94 km; Saddle Brook Diner, distance 2.24 km.

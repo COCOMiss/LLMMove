@@ -1,0 +1,6 @@
+The name of this location is "OPM Restaurant and Ultra Lounge" and its POI category is Asian Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.58384788, -73.93279322), with the corresponding geohash code dr5qvs5f119d.
+The address is 2901 Bragg St, Brooklyn, NY 11235, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Movie Theater, 1(avg: 5); Fast Food Restaurant, 1(avg: 5); College Classroom, 1(avg: 1); Gym, 1(avg: 25); Park, 1(avg: 8); Metro Station, 1(avg: 19).
+The 10 nearest POIs and their distances are: United Artists Sheepshead Bay Stadium 14 & IMAX, distance 0.35 km; Roll N Roaster, distance 0.57 km; Kingsborough Community College, distance 0.67 km; Bally Total Fitness, distance 1.63 km; Marine Park, distance 1.85 km; MTA - Sheepshead Bay (B/Q), distance 1.86 km.
+The 10 representative nearby POIs and their distances are: Kingsborough Community College, distance 0.67 km; United Artists Sheepshead Bay Stadium 14 & IMAX, distance 0.35 km; MTA - Sheepshead Bay (B/Q), distance 1.86 km; Roll N Roaster, distance 0.57 km; Bally Total Fitness, distance 1.63 km; Marine Park, distance 1.85 km.

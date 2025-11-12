@@ -1,0 +1,6 @@
+The name of this location is "Trader Joe's" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.9481399, -74.07117605), with the corresponding geohash code dr72fqrh0w81.
+The address is 404 NJ-17, Paramus, NJ 07652, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 2(avg: 9); Coffee Shop, 2(avg: 63); Office, 1(avg: 72); Shopping Mall, 1(avg: 1); Community College, 1(avg: 1); Furniture / Home Store, 1(avg: 7); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Trader Joe's, distance 0.00 km; Starbucks, distance 0.23 km; CUnet Headquarters, distance 0.40 km; Paramus Park Mall, distance 0.96 km; Bergen Community College, distance 1.53 km; Starbucks, distance 1.70 km; Fairway Market, distance 2.12 km; IKEA, distance 2.68 km; NJ Route 4, distance 2.96 km.
+The 10 representative nearby POIs and their distances are: Bergen Community College, distance 1.53 km; Paramus Park Mall, distance 0.96 km; IKEA, distance 2.68 km; NJ Route 4, distance 2.96 km; Fairway Market, distance 2.12 km; Starbucks, distance 0.23 km; CUnet Headquarters, distance 0.40 km; Starbucks, distance 1.70 km; Trader Joe's, distance 0.00 km.

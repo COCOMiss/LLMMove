@@ -1,0 +1,6 @@
+The name of this location is "AMC Loews Jersey Gardens 20" and its POI category is Movie Theater, belonging to the parent category Arts & Entertainment.
+The geographic coordinates for this location are (40.65930581, -74.1687657), with the corresponding geohash code dr5r21zcw7zy.
+The address is 651 Kapkowski Rd, Elizabeth, NJ 07201, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Movie Theater, 1(avg: 5); Shopping Mall, 1(avg: 1); Road, 1(avg: 1); Department Store, 1(avg: 4).
+The 10 nearest POIs and their distances are: AMC Loews Jersey Gardens 20, distance 0.17 km; Jersey Gardens Mall, distance 0.17 km; New Jersey Turnpike - Elizabeth, distance 1.39 km; IKEA, distance 1.73 km.
+The 10 representative nearby POIs and their distances are: Jersey Gardens Mall, distance 0.17 km; New Jersey Turnpike - Elizabeth, distance 1.39 km; IKEA, distance 1.73 km; AMC Loews Jersey Gardens 20, distance 0.17 km.

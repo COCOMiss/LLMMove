@@ -1,0 +1,6 @@
+The name of this location is "ShopRite" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.86264108, -74.14067745), with the corresponding geohash code dr722yu6jh2h.
+The address is 481-563 Paulison Ave, Passaic, NJ 07055, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bar, 1(avg: 124); Dive Bar, 1(avg: 16).
+The 10 nearest POIs and their distances are: Sharky's Wings and Raw bar, distance 0.73 km; Loop Lounge, distance 0.97 km.
+The 10 representative nearby POIs and their distances are: Loop Lounge, distance 0.97 km; Sharky's Wings and Raw bar, distance 0.73 km.

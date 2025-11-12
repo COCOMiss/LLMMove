@@ -1,0 +1,6 @@
+The name of this location is "Joyce Bakeshop" and its POI category is Bakery, belonging to the parent category Food.
+The geographic coordinates for this location are (40.676917, -73.969129), with the corresponding geohash code dr5rkv124qgv.
+The address is 669 Vanderbilt Ave, Brooklyn, NY 11238, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bar, 36(avg: 124); Coffee Shop, 21(avg: 63); Gym, 11(avg: 25); Metro Station, 11(avg: 19); Sandwich Place, 9(avg: 18); Mexican Restaurant, 8(avg: 28); Burger Joint, 7(avg: 17); Breakfast Spot, 6(avg: 20); Grocery Store, 6(avg: 9); Bookstore, 6(avg: 7).
+The 10 nearest POIs and their distances are: Joyce Bakeshop, distance 0.02 km; Milk Bar, distance 0.10 km; Soda Bar, distance 0.16 km; Crunch Fitness, distance 0.24 km; Sharlene's, distance 0.27 km; Branded Saloon, distance 0.27 km; Blue Marble, distance 0.28 km; MTA Subway - 7th Ave (B/Q), distance 0.28 km; Beast, distance 0.28 km; Albaz, distance 0.29 km.
+The 10 representative nearby POIs and their distances are: Brooklyn Museum, distance 0.77 km; Prospect Park, distance 1.70 km; Target, distance 1.10 km; The Bell House, distance 1.94 km; Trader Joe's, distance 2.43 km; Connecticut Muffin, distance 1.80 km; Pizza Town, distance 0.80 km; Union Hall, distance 0.93 km; Soda Bar, distance 0.16 km; Fort Greene Park, distance 1.72 km.

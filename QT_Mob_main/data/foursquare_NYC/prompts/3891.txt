@@ -1,0 +1,6 @@
+The name of this location is "Noches De Colombia" and its POI category is Spanish Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.82055964, -74.00762516), with the corresponding geohash code dr725zjkcrfg.
+The address is 172 Broad Ave, Fairview, NJ 07022, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 1(avg: 9); Road, 1(avg: 1); Movie Theater, 1(avg: 5); Coffee Shop, 1(avg: 63); Sandwich Place, 1(avg: 18); Park, 1(avg: 8); Department Store, 1(avg: 4).
+The 10 nearest POIs and their distances are: Walmart Supercenter, distance 0.96 km; Vince Lombardi Service Area, distance 1.91 km; Edgewater Multiplex Cinemas, distance 2.05 km; Starbucks, distance 2.11 km; Panera Bread, distance 2.15 km; James L Braddock North Hudson County Park, distance 2.18 km; Target, distance 2.28 km.
+The 10 representative nearby POIs and their distances are: Starbucks, distance 2.11 km; Walmart Supercenter, distance 0.96 km; Vince Lombardi Service Area, distance 1.91 km; Edgewater Multiplex Cinemas, distance 2.05 km; Target, distance 2.28 km; Panera Bread, distance 2.15 km; James L Braddock North Hudson County Park, distance 2.18 km.

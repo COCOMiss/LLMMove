@@ -1,0 +1,6 @@
+The name of this location is "New Overpeck Park" and its POI category is Playground, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.85871379, -74.00925994), with the corresponding geohash code dr727yh570rc.
+The address is VX5R+F7 Ridgefield Park, NJ, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Medical Center, 1(avg: 1).
+The 10 nearest POIs and their distances are: Holy Name Medical Center, distance 2.67 km.
+The 10 representative nearby POIs and their distances are: Holy Name Medical Center, distance 2.67 km.

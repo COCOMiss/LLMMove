@@ -1,0 +1,6 @@
+The name of this location is "7-Eleven" and its POI category is Deli / Bodega, belonging to the parent category Food.
+The geographic coordinates for this location are (40.945578, -74.016691), with the corresponding geohash code dr72gtytq0fy.
+The address is 274 Main St, New Milford, NJ 07646, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are:.
+The 10 nearest POIs and their distances are:.
+The 10 representative nearby POIs and their distances are:.

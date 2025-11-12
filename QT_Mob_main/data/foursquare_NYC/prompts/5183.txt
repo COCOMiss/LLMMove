@@ -1,0 +1,6 @@
+The name of this location is "CollegeBound Network" and its POI category is College Administrative Building, belonging to the parent category College & University.
+The geographic coordinates for this location are (40.60522108, -74.17977333), with the corresponding geohash code dr5nzzzyw1b4.
+The address is 2 Teleport Dr, Staten Island, NY 10314, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bookstore, 1(avg: 7); Multiplex, 1(avg: 4); Electronics Store, 1(avg: 5); Shopping Mall, 1(avg: 1).
+The 10 nearest POIs and their distances are: Barnes & Noble, distance 2.00 km; Regal/UA Staten Island Stadium 16, distance 2.43 km; Apple Store, distance 2.83 km; Staten Island Mall, distance 2.84 km.
+The 10 representative nearby POIs and their distances are: Staten Island Mall, distance 2.84 km; Regal/UA Staten Island Stadium 16, distance 2.43 km; Barnes & Noble, distance 2.00 km; Apple Store, distance 2.83 km.

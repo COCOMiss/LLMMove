@@ -1,0 +1,6 @@
+The name of this location is "Gulf Ft Lee" and its POI category is Gas Station, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.85709344, -73.98227693), with the corresponding geohash code dr72kmz9zfpz.
+The address is 1651 US-46, Fort Lee, NJ 07024, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bus Station, 1(avg: 1); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Bridge Plaza, distance 1.23 km; George Washington Bridge Toll Plaza, distance 1.62 km.
+The 10 representative nearby POIs and their distances are: George Washington Bridge Toll Plaza, distance 1.62 km; Bridge Plaza, distance 1.23 km.

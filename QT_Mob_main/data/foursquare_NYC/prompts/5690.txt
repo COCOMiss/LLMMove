@@ -1,0 +1,6 @@
+The name of this location is "Dunkin Donuts" and its POI category is Coffee Shop, belonging to the parent category Coffee Shop.
+The geographic coordinates for this location are (40.76619953, -74.2195805), with the corresponding geohash code dr5pzj6bq6ms.
+The address is 28 S Harrison St, East Orange, NJ 07018, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Other Great Outdoors, 1(avg: 13).
+The 10 nearest POIs and their distances are: Interstate 280, distance 1.21 km.
+The 10 representative nearby POIs and their distances are: Interstate 280, distance 1.21 km.

@@ -1,0 +1,54 @@
+**Location Analysis: Mary Queen of Scots**
+
+**Overview**
+
+Mary Queen of Scots is a gastropub located at Allen St/Delancey St, New York, NY 10002, USA. The location has a geohash code of dr5rskcbh565 and is situated at geographic coordinates (40.71947, -73.990342).
+
+**Surrounding Environment**
+
+The area surrounding Mary Queen of Scots is densely populated with various points of interest. The top 10 nearby points-of-interest categories and their counts are:
+
+1. **Bar** (212, avg: 124) - This suggests that the area is a popular nightlife destination.
+2. **Coffee Shop** (92, avg: 63) - The presence of coffee shops indicates a high foot traffic and a busy area.
+3. **American Restaurant** (81, avg: 51) - This category is consistent with the gastropub theme of Mary Queen of Scots.
+4. **Office** (72, avg: 72) - The high count of offices suggests a mix of residential and commercial areas.
+5. **Café** (53, avg: 42) - Cafes and coffee shops often attract a diverse crowd, adding to the area's vibrancy.
+6. **Lounge** (50, avg: 35) - Lounges and bars contribute to the area's nightlife scene.
+7. **Italian Restaurant** (49, avg: 28) - The presence of Italian restaurants indicates a diverse dining option for locals and visitors.
+8. **Mexican Restaurant** (38, avg: 28) - Mexican cuisine is another popular option in the area.
+9. **Gym** (37, avg: 25) - The presence of gyms suggests a healthy and active community.
+10. **Wine Bar** (36, avg: 21) - Wine bars cater to those seeking a more sophisticated nightlife experience.
+
+**Nearest Points of Interest**
+
+The 10 nearest points-of-interest to Mary Queen of Scots are:
+
+1. **Mary Queen of Scots** (distance: 0.02 km) - The gastropub itself.
+2. **Starbucks** (distance: 0.04 km) - A popular coffee chain.
+3. **Lucky Jack's** (distance: 0.07 km) - Another bar in the area.
+4. **White Slab Palace** (distance: 0.08 km) - A bar with a unique name.
+5. **Gallery Bar** (distance: 0.09 km) - A bar with a focus on art.
+6. **Congee Village** (distance: 0.10 km) - A restaurant serving Chinese cuisine.
+7. **Milk & Honey** (distance: 0.12 km) - A bar with a speakeasy-style vibe.
+8. **Mehanata Bulgarian Bar** (distance: 0.12 km) - A bar serving Bulgarian cuisine.
+9. **Lolita** (distance: 0.12 km) - A restaurant with a focus on Japanese cuisine.
+10. **Los Feliz** (distance: 0.13 km) - A bar with a focus on cocktails.
+
+**Representative Nearby Points of Interest**
+
+The 10 representative nearby points-of-interest to Mary Queen of Scots are:
+
+1. **MTA Subway - Manhattan Bridge (B/D/N/Q)** (distance: 1.34 km) - A major transportation hub.
+2. **Union Square Park** (distance: 1.75 km) - A popular public park.
+3. **Brooklyn Bridge** (distance: 1.64 km) - A iconic landmark.
+4. **Union Square Greenmarket** (distance: 1.89 km) - A weekly market with fresh produce and goods.
+5. **Madison Square Park** (distance: 2.54 km) - A public park.
+6. **PATH: World Trade Center Station** (distance: 1.97 km) - A major transportation hub.
+7. **Eataly** (distance: 2.51 km) - An Italian market and restaurant.
+8. **Regal Union Square Stadium 14** (distance: 1.61 km) - A movie theater.
+9. **Chelsea Market** (distance: 2.78 km) - A food hall with various vendors.
+10. **Shake Shack** (distance: 2.43 km) - A popular burger chain.
+
+**Conclusion**
+
+Mary Queen of Scots is a gastropub located in a densely populated area with a mix of residential and commercial properties. The surrounding environment is characterized by a high concentration of bars, coffee shops, and restaurants, indicating a lively nightlife and a diverse dining scene. The area is also home to various offices, gyms, and cultural attractions, making it an attractive location for both locals and visitors.

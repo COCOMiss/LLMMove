@@ -1,0 +1,6 @@
+The name of this location is "Starbucks" and its POI category is Coffee Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.612287, -74.1324905), with the corresponding geohash code dr5r114rez08.
+The address is Parking lot, 2070 Victory Blvd, Staten Island, NY 10314, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); Pizza Place, 1(avg: 20); College Academic Building, 1(avg: 5).
+The 10 nearest POIs and their distances are: Staten Island Expressway, distance 0.63 km; Joe and Pat's Pizzeria, distance 0.87 km; College of Staten Island, distance 1.86 km.
+The 10 representative nearby POIs and their distances are: Staten Island Expressway, distance 0.63 km; College of Staten Island, distance 1.86 km; Joe and Pat's Pizzeria, distance 0.87 km.

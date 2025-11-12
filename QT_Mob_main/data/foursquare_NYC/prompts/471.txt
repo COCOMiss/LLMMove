@@ -1,0 +1,6 @@
+The name of this location is "Branded Saloon" and its POI category is Whisky Bar, belonging to the parent category Nightlife Spot.
+The geographic coordinates for this location are (40.67939403, -73.96815806), with the corresponding geohash code dr5rkv6n8uxv.
+The address is 603 Vanderbilt Ave, Brooklyn, NY 11238, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bar, 34(avg: 124); Coffee Shop, 21(avg: 63); Metro Station, 12(avg: 19); Gym, 11(avg: 25); Sandwich Place, 9(avg: 18); Mexican Restaurant, 8(avg: 28); Burger Joint, 7(avg: 17); Breakfast Spot, 6(avg: 20); American Restaurant, 6(avg: 51); Bookstore, 6(avg: 7).
+The 10 nearest POIs and their distances are: Beast, distance 0.01 km; Branded Saloon, distance 0.03 km; Pequeña, distance 0.03 km; The Vanderbilt, distance 0.04 km; Weather Up, distance 0.07 km; Woodwork, distance 0.07 km; Soda Bar, distance 0.13 km; Cornelius, distance 0.17 km; Milk Bar, distance 0.19 km; James, distance 0.30 km.
+The 10 representative nearby POIs and their distances are: Brooklyn Museum, distance 0.95 km; Prospect Park, distance 1.98 km; Target, distance 0.98 km; The Bell House, distance 2.09 km; Trader Joe's, distance 2.35 km; Connecticut Muffin, distance 1.53 km; Pizza Town, distance 0.81 km; Union Hall, distance 1.07 km; Soda Bar, distance 0.13 km; Fort Greene Park, distance 1.49 km.

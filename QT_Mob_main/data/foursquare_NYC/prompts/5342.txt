@@ -1,0 +1,6 @@
+The name of this location is "Mark's Homemade Ice Cream" and its POI category is Ice Cream Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.80396498, -74.00513467), with the corresponding geohash code dr725uph76kh.
+The address is 8205 Bergenline Ave, North Bergen, NJ 07047, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Coffee Shop, 2(avg: 63); Park, 1(avg: 8); Grocery Store, 1(avg: 9); Movie Theater, 1(avg: 5); Sandwich Place, 1(avg: 18); Department Store, 1(avg: 4); Asian Restaurant, 1(avg: 18).
+The 10 nearest POIs and their distances are: James L Braddock North Hudson County Park, distance 0.57 km; Walmart Supercenter, distance 1.22 km; Edgewater Multiplex Cinemas, distance 1.34 km; Panera Bread, distance 1.35 km; Starbucks, distance 2.00 km; Target, distance 2.19 km; Starbucks, distance 2.34 km; P.F. Chang's, distance 2.69 km.
+The 10 representative nearby POIs and their distances are: Starbucks, distance 2.00 km; Walmart Supercenter, distance 1.22 km; Edgewater Multiplex Cinemas, distance 1.34 km; P.F. Chang's, distance 2.69 km; Starbucks, distance 2.34 km; Target, distance 2.19 km; Panera Bread, distance 1.35 km; James L Braddock North Hudson County Park, distance 0.57 km.

@@ -1,0 +1,6 @@
+The name of this location is "New way grocery" and its POI category is Deli / Bodega, belonging to the parent category Food.
+The geographic coordinates for this location are (40.68339282, -73.88350359), with the corresponding geohash code dr5rqwptvw4e.
+The address is 51 Essex St, Brooklyn, NY 11208, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 2(avg: 5); Metro Station, 1(avg: 19).
+The 10 nearest POIs and their distances are: MTA - Broadway Junction (A/C/L/J/Z), distance 1.72 km; MTA - 80-Hudson Street Subway - A, distance 2.18 km; MTA - Fresh Pond Road (M), distance 2.75 km.
+The 10 representative nearby POIs and their distances are: MTA - Broadway Junction (A/C/L/J/Z), distance 1.72 km; MTA - 80-Hudson Street Subway - A, distance 2.18 km; MTA - Fresh Pond Road (M), distance 2.75 km.

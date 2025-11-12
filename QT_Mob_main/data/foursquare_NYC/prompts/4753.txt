@@ -1,0 +1,6 @@
+The name of this location is "Great Notch Inn" and its POI category is Bar, belonging to the parent category Nightlife Spot.
+The geographic coordinates for this location are (40.87429177, -74.19719696), with the corresponding geohash code dr70x8gq000p.
+The address is 400 US-46, Woodland Park, NJ 07424, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Diner, 1(avg: 9); College Communications Building, 1(avg: 1); American Restaurant, 1(avg: 51); College Auditorium, 1(avg: 1); Department Store, 1(avg: 4); Travel & Transport, 1(avg: 1).
+The 10 nearest POIs and their distances are: Six Brothers Diner, distance 0.25 km; University Hall, distance 1.32 km; Pub 46, distance 1.49 km; Montclair State University, distance 1.51 km; Best Buy, distance 1.96 km; U.S. Route 46, distance 2.16 km.
+The 10 representative nearby POIs and their distances are: Montclair State University, distance 1.51 km; University Hall, distance 1.32 km; U.S. Route 46, distance 2.16 km; Pub 46, distance 1.49 km; Best Buy, distance 1.96 km; Six Brothers Diner, distance 0.25 km.

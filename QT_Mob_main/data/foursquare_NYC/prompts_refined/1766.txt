@@ -1,0 +1,77 @@
+**Location Analysis: Michael's Arts & Crafts**
+
+**Overview**
+
+Michael's Arts & Crafts is an Arts & Crafts Store located at 9030 Metropolitan Ave Suite 3, Rego Park, NY 11374, USA. The store is situated in a densely populated area with a mix of commercial and residential properties.
+
+**Geographic Location**
+
+The store's geographic coordinates are (40.71112576, -73.85838032), which places it in the Rego Park neighborhood of Queens, New York. The geohash code dr5rx71zqzzu provides a unique identifier for the location.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POI categories and their counts are:
+
+1. Restaurant (2, avg: 10)
+2. Bookstore (2, avg: 7)
+3. Movie Theater (2, avg: 5)
+4. Gym (2, avg: 25)
+5. Coffee Shop (2, avg: 63)
+6. Arts & Crafts Store (1, avg: 2) - This is the category of the store itself
+7. Bakery (1, avg: 16)
+8. Road (1, avg: 1)
+9. American Restaurant (1, avg: 51)
+10. Cupcake Shop (1, avg: 3)
+
+The 10 nearest POIs and their distances are:
+
+1. Michael's Arts & Crafts (0.00 km)
+2. Trader Joe's (0.03 km)
+3. Panera Bread (0.16 km)
+4. Super Stop & Shop (0.55 km)
+5. The Shops at Atlas Park (0.89 km)
+6. Regal Cinemas Atlas Park Stadium 8 (0.93 km)
+7. Jackie Robinson Parkway (0.95 km)
+8. Chili's Grill & Bar (0.96 km)
+9. Barnes & Noble (1.44 km)
+10. New York Sports Club (1.46 km)
+
+The 10 representative nearby POIs and their distances are:
+
+1. Queens Center Mall (2.78 km)
+2. MTA Subway - 71st & Continental Ave (E/F/M/R) (1.69 km)
+3. Trader Joe's (0.03 km)
+4. New York Sports Club (1.46 km)
+5. Starbucks (2.27 km)
+6. Michael's Arts & Crafts (0.00 km)
+7. LIRR - Forest Hills Station (1.48 km)
+8. The Shops at Atlas Park (0.89 km)
+9. UA Midway Stadium 9 Theater (1.67 km)
+10. Starbucks (1.62 km)
+
+**Accessibility and Amenities**
+
+The store is located near several amenities, including:
+
+* Trader Joe's (0.03 km)
+* Panera Bread (0.16 km)
+* Super Stop & Shop (0.55 km)
+* The Shops at Atlas Park (0.89 km)
+* Regal Cinemas Atlas Park Stadium 8 (0.93 km)
+* MTA Subway - 71st & Continental Ave (E/F/M/R) (1.69 km)
+* LIRR - Forest Hills Station (1.48 km)
+
+The store is also close to several restaurants, including:
+
+* Chili's Grill & Bar (0.96 km)
+* Panera Bread (0.16 km)
+* Starbucks (2.27 km)
+* American Restaurant (1.44 km)
+
+**Demographics and Foot Traffic**
+
+The store is located in a densely populated area with a mix of commercial and residential properties. The high foot traffic in the area, particularly around The Shops at Atlas Park, suggests a strong potential for customer flow and visibility for the store.
+
+**Conclusion**
+
+Michael's Arts & Crafts is a well-located Arts & Crafts Store in the Rego Park neighborhood of Queens, New York. The store is situated near several amenities, including Trader Joe's, Panera Bread, and The Shops at Atlas Park, making it a convenient destination for customers. The high foot traffic in the area and the presence of several nearby restaurants suggest a strong potential for customer flow and visibility for the store.

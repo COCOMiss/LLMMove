@@ -1,0 +1,6 @@
+The name of this location is "Rockaway Beach" and its POI category is Beach, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.58400693, -73.82424116), with the corresponding geohash code dr5wbh4ffx0p.
+The address is 10302 Rockaway Beach Blvd, Far Rockaway, NY 11694, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Beach, 1(avg: 1); Mexican Restaurant, 1(avg: 28).
+The 10 nearest POIs and their distances are: Rockaway Beach, distance 0.59 km; Rockaway Taco, distance 0.61 km.
+The 10 representative nearby POIs and their distances are: Rockaway Beach, distance 0.59 km; Rockaway Taco, distance 0.61 km.

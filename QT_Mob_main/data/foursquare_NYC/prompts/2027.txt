@@ -1,0 +1,6 @@
+The name of this location is "Dunkin Bay Pkwy" and its POI category is Donut Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.60456355, -73.99252107), with the corresponding geohash code dr5qurb69r32.
+The address is 2152 82nd St, Brooklyn, NY 11214, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 2(avg: 25); Light Rail Station, 1(avg: 1); Metro Station, 1(avg: 19); Electronics Store, 1(avg: 5); Ice Cream Shop, 1(avg: 6); Other Great Outdoors, 1(avg: 13); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Bally Total Fitness, distance 0.63 km; MTA Subway - Kings Highway (N), distance 1.01 km; New York Sports Club, distance 1.25 km; MTA - N - Bay Parkway, distance 1.31 km; Best Buy, distance 1.32 km; L&B Spumoni Gardens, distance 1.45 km; Gravesend, Brooklyn, distance 2.36 km; Starbucks, distance 2.65 km.
+The 10 representative nearby POIs and their distances are: L&B Spumoni Gardens, distance 1.45 km; Best Buy, distance 1.32 km; MTA Subway - Kings Highway (N), distance 1.01 km; Starbucks, distance 2.65 km; MTA - N - Bay Parkway, distance 1.31 km; Gravesend, Brooklyn, distance 2.36 km; New York Sports Club, distance 1.25 km; Bally Total Fitness, distance 0.63 km.

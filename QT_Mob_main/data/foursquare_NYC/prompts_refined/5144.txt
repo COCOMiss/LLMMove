@@ -1,0 +1,45 @@
+**Location Analysis: Pathmark**
+
+**Overview**
+
+Pathmark is a grocery store located in Hackensack, New Jersey, USA, with a POI category of Shop & Service. The location's geographic coordinates are (40.87828304, -74.06579018), and its geohash code is dr72d9dvmbrb. The address is 387 NJ-17, Hackensack, NJ 07601.
+
+**Surrounding Environment**
+
+The surrounding environment of Pathmark appears to be a mix of residential and commercial areas. The nearby points-of-interest (POIs) suggest a variety of services and amenities within walking or driving distance. The top 10 nearby POI categories include:
+
+1. Hospital (1) - indicating the presence of a nearby medical facility, Hackensack University Medical Center, which is 1.03 km away.
+2. Gym (1) - with 24 Hour Fitness and Golds Gym within 1.52 km and 1.94 km respectively.
+3. Gym / Fitness Center (1) - further emphasizing the availability of fitness options in the area.
+4. Diner (1) - with Saddle Brook Diner located 2.24 km away.
+5. Other Great Outdoors (1) - suggesting nearby parks or outdoor recreational areas.
+6. Airport (1) - Teterboro Airport (TEB) is 2.42 km away.
+7. American Restaurant (1) - with SONIC Drive-In and Starbucks within 2.67 km and 2.40 km respectively.
+
+**Nearest POIs**
+
+The 10 nearest POIs to Pathmark are:
+
+1. Hackensack University Medical Center (1.03 km)
+2. 24 Hour Fitness (1.52 km)
+3. Golds Gym (1.94 km)
+4. Saddle Brook Diner (2.24 km)
+5. Starbucks (2.40 km)
+6. Teterboro Airport (TEB) (2.42 km)
+7. SONIC Drive-In (2.67 km)
+
+**Representative POIs**
+
+The 10 representative nearby POIs, which are likely the most relevant to the average visitor, are:
+
+1. 24 Hour Fitness (1.52 km)
+2. Hackensack University Medical Center (1.03 km)
+3. Teterboro Airport (TEB) (2.42 km)
+4. Starbucks (2.40 km)
+5. SONIC Drive-In (2.67 km)
+6. Golds Gym (1.94 km)
+7. Saddle Brook Diner (2.24 km)
+
+**Conclusion**
+
+Pathmark appears to be a convenient location for residents and visitors in the Hackensack area, with a range of services and amenities within walking or driving distance. The nearby medical facility, fitness centers, and restaurants make it an attractive location for those seeking a mix of convenience and leisure activities.

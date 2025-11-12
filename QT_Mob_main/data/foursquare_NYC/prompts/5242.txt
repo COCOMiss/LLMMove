@@ -1,0 +1,6 @@
+The name of this location is "Nick's Lobsters Restaurant & Seafood Market" and its POI category is Seafood Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.60354829, -73.91515), with the corresponding geohash code dr5qyp8su4j2.
+The address is 2777 Flatbush Ave, Brooklyn, NY 11234, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Park, 1(avg: 8); Shopping Mall, 1(avg: 1); Skating Rink, 1(avg: 1); Movie Theater, 1(avg: 5).
+The 10 nearest POIs and their distances are: Marine Park, distance 0.80 km; Kings Plaza Mall, distance 0.84 km; Aviator Sports and Events Center, distance 2.07 km; United Artists Sheepshead Bay Stadium 14 & IMAX, distance 2.31 km.
+The 10 representative nearby POIs and their distances are: Kings Plaza Mall, distance 0.84 km; United Artists Sheepshead Bay Stadium 14 & IMAX, distance 2.31 km; Marine Park, distance 0.80 km; Aviator Sports and Events Center, distance 2.07 km.

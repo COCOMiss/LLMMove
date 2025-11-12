@@ -1,0 +1,6 @@
+The name of this location is "College of Mount Saint Vincent" and its POI category is University, belonging to the parent category College & University.
+The geographic coordinates for this location are (40.91253964, -73.90704632), with the corresponding geohash code dr72wpysbfpv.
+The address is Science Hall, Bronx, NY 10471, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: University, 2(avg: 5); Train, 1(avg: 4); Bar, 1(avg: 124).
+The 10 nearest POIs and their distances are: College of Mount Saint Vincent, distance 0.00 km; Manhattan College, distance 2.58 km; Metro North - Yonkers Train Station, distance 2.61 km; An Beal Bocht Cafe, distance 2.82 km.
+The 10 representative nearby POIs and their distances are: Metro North - Yonkers Train Station, distance 2.61 km; Manhattan College, distance 2.58 km; College of Mount Saint Vincent, distance 0.00 km; An Beal Bocht Cafe, distance 2.82 km.

@@ -1,0 +1,6 @@
+The name of this location is "Pathmark" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.62629821, -74.13488388), with the corresponding geohash code dr5r15b9k4bh.
+The address is 1351 Forest Ave, Staten Island, NY 10302, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Pizza Place, 1(avg: 20); Road, 1(avg: 1); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Joe and Pat's Pizzeria, distance 1.82 km; Staten Island Expressway, distance 2.09 km; Planet Fitness, distance 2.24 km.
+The 10 representative nearby POIs and their distances are: Staten Island Expressway, distance 2.09 km; Planet Fitness, distance 2.24 km; Joe and Pat's Pizzeria, distance 1.82 km.

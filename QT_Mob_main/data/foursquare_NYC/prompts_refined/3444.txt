@@ -1,0 +1,56 @@
+**Comedy Cellar Location Analysis**
+
+**Overview**
+
+The Comedy Cellar is a comedy club located in the heart of New York City, specifically at 126 MacDougal St, New York, NY 10012, USA. This location falls under the category of Arts & Entertainment, with a POI category of Comedy Club.
+
+**Geographic Location**
+
+The Comedy Cellar is situated at the geographic coordinates (40.73006968, -74.00035446), with a geohash code of dr5rsndtfg23. This location is in the Greenwich Village neighborhood of Manhattan, an area known for its vibrant arts and cultural scene.
+
+**Nearby Points of Interest**
+
+The Comedy Cellar is surrounded by a variety of points of interest, including:
+
+1.  **Bars**: 225 establishments (avg: 124) within a 1 km radius, indicating a lively nightlife scene.
+2.  **Coffee Shops**: 98 establishments (avg: 63) within a 1 km radius, suggesting a high concentration of coffee culture.
+3.  **American Restaurants**: 86 establishments (avg: 51) within a 1 km radius, reflecting the area's diverse food options.
+4.  **Offices**: 82 establishments (avg: 72) within a 1 km radius, indicating a mix of commercial and residential areas.
+5.  **Cafes**: 60 establishments (avg: 42) within a 1 km radius, further emphasizing the area's coffee culture.
+6.  **Lounges**: 58 establishments (avg: 35) within a 1 km radius, suggesting a relaxed atmosphere.
+7.  **Italian Restaurants**: 50 establishments (avg: 28) within a 1 km radius, highlighting the area's culinary diversity.
+8.  **Mexican Restaurants**: 41 establishments (avg: 28) within a 1 km radius, adding to the area's food options.
+9.  **Gyms**: 40 establishments (avg: 25) within a 1 km radius, indicating a focus on health and wellness.
+10. **Pubs**: 35 establishments (avg: 24) within a 1 km radius, contributing to the area's lively atmosphere.
+
+**Nearest Points of Interest**
+
+The top 10 nearest POIs to the Comedy Cellar are:
+
+1.  **124 Old Rabbit Club** (0.01 km)
+2.  **Caffe Reggio** (0.02 km)
+3.  **Mamoun's Falafel** (0.02 km)
+4.  **Minetta Tavern** (0.02 km)
+5.  **Comedy Cellar** (0.03 km)
+6.  **Macdougal St. Ale House** (0.03 km)
+7.  **Off the Wagon** (0.04 km)
+8.  **Third Rail Coffee** (0.05 km)
+9.  **Sullivan Hall** (0.07 km)
+10. **The Kati Roll Company** (0.07 km)
+
+**Representative Nearby Points of Interest**
+
+The top 10 representative POIs to the Comedy Cellar are:
+
+1.  **New York Penn Station** (2.41 km)
+2.  **Madison Square Garden** (2.34 km)
+3.  **MTA Subway - Manhattan Bridge (B/D/N/Q)** (2.64 km)
+4.  **Union Square Park** (1.00 km)
+5.  **Brooklyn Bridge** (2.77 km)
+6.  **Union Square Greenmarket** (1.09 km)
+7.  **Madison Square Park** (1.72 km)
+8.  **Macy's** (2.49 km)
+9.  **PATH: World Trade Center Station** (2.17 km)
+10. **Snowpocalypse 2010** (2.53 km)
+
+Overall, the Comedy Cellar is situated in a vibrant and diverse neighborhood with a wide range of points of interest, making it an attractive location for comedy enthusiasts and locals alike.

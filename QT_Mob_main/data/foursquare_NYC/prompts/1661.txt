@@ -1,0 +1,6 @@
+The name of this location is "LIRR - Broadway Station" and its POI category is Light Rail Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.76162, -73.801885), with the corresponding geohash code dr5xbs7jekty.
+The address is Broadway, Queens, NY 11358, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 1(avg: 5); Hospital, 1(avg: 2); Other Great Outdoors, 1(avg: 13); Restaurant, 1(avg: 10).
+The 10 nearest POIs and their distances are: LIRR - Auburndale Station, distance 1.01 km; Flushing Hospital, distance 1.43 km; Kissena Lake, distance 1.55 km; Hooters, distance 2.71 km.
+The 10 representative nearby POIs and their distances are: Kissena Lake, distance 1.55 km; Hooters, distance 2.71 km; Flushing Hospital, distance 1.43 km; LIRR - Auburndale Station, distance 1.01 km.

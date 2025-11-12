@@ -1,0 +1,6 @@
+The name of this location is "Fairway Market" and its POI category is Wine Shop, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.89180981, -73.82010067), with the corresponding geohash code dr788hju4cz6.
+The address is 4767-4787 Boston Post Rd, Pelham, NY 10803, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Wine Shop, 1(avg: 1); Video Game Store, 1(avg: 1); Road, 1(avg: 1); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Fairway Market, distance 0.30 km; Target, distance 1.07 km; Hutchinson River Parkway, distance 1.41 km; Metro North - Pelham Train Station, distance 2.21 km.
+The 10 representative nearby POIs and their distances are: Metro North - Pelham Train Station, distance 2.21 km; Hutchinson River Parkway, distance 1.41 km; Fairway Market, distance 0.30 km; Target, distance 1.07 km.

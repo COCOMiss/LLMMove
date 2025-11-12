@@ -1,0 +1,6 @@
+The name of this location is "Macy's" and its POI category is Department Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.78830758, -73.70306969), with the corresponding geohash code dr784c711gxu.
+The address is 1100 Northern Blvd, Manhasset, NY 11030, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train, 2(avg: 4); Emergency Room, 1(avg: 2); Electronics Store, 1(avg: 5).
+The 10 nearest POIs and their distances are: LIRR - Manhasset Train Station, distance 1.02 km; North Shore University Hospital, distance 1.27 km; LIRR - Great Neck Station, distance 1.94 km; Apple Store, distance 2.32 km.
+The 10 representative nearby POIs and their distances are: North Shore University Hospital, distance 1.27 km; LIRR - Great Neck Station, distance 1.94 km; Apple Store, distance 2.32 km; LIRR - Manhasset Train Station, distance 1.02 km.

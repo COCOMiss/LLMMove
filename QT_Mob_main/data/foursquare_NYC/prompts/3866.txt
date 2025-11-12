@@ -1,0 +1,6 @@
+The name of this location is "Pelham bay" and its POI category is Park, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.85035208, -73.82837752), with the corresponding geohash code dr72ruxfd1e9.
+The address is 3145 Arnow Pl, Bronx, NY 10461, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 3(avg: 19); Gym, 1(avg: 25); Hospital, 1(avg: 2); Emergency Room, 1(avg: 2).
+The 10 nearest POIs and their distances are: MTA Subway - Pelham Bay Park (6), distance 0.32 km; Planet Fitness, distance 0.32 km; MTA Subway - Middletown Road (6), distance 1.04 km; Montefiore Medical Center, distance 1.48 km; Jacobi Medical Center, distance 1.61 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 1.68 km.
+The 10 representative nearby POIs and their distances are: MTA Subway - Pelham Bay Park (6), distance 0.32 km; Planet Fitness, distance 0.32 km; MTA Subway - Middletown Road (6), distance 1.04 km; Jacobi Medical Center, distance 1.61 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 1.68 km; Montefiore Medical Center, distance 1.48 km.

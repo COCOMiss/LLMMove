@@ -1,0 +1,6 @@
+The name of this location is "Salgado residence" and its POI category is Home (private), belonging to the parent category Home (private).
+The geographic coordinates for this location are (40.92039063, -74.00063278), with the corresponding geohash code dr72u166s38y.
+The address is Bergenfeild, Bergenfield, NJ 07621, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Coffee Shop, 1(avg: 63); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Dunkin Donuts/Baskin Robbins, distance 0.39 km; Fitness II, distance 0.91 km.
+The 10 representative nearby POIs and their distances are: Fitness II, distance 0.91 km; Dunkin Donuts/Baskin Robbins, distance 0.39 km.

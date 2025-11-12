@@ -1,0 +1,60 @@
+**Location Analysis: Qdoba Mexican Grill**
+
+**Location Overview**
+
+Qdoba Mexican Grill is a Mexican restaurant located at 120 University Pl, New York, NY 10003, USA. The geographic coordinates for this location are (40.73470595, -73.99236202), with a geohash code of dr5rsr82v581.
+
+**Category and Surroundings**
+
+Qdoba Mexican Grill falls under the parent category "Food" and is specifically categorized as a Mexican Restaurant. The surrounding area is densely populated with various points-of-interest (POIs) of different categories. The top 10 nearby POI categories and their counts are:
+
+1. Bar (250, avg: 124)
+2. Coffee Shop (110, avg: 63)
+3. Office (102, avg: 72)
+4. American Restaurant (98, avg: 51)
+5. Café (70, avg: 42)
+6. Lounge (67, avg: 35)
+7. Italian Restaurant (53, avg: 28)
+8. Mexican Restaurant (48, avg: 28)
+9. Gym (43, avg: 25)
+10. Pub (41, avg: 24)
+
+The abundance of bars and coffee shops in the area suggests a lively and bustling atmosphere, making it an ideal location for a Mexican restaurant like Qdoba.
+
+**Nearest POIs**
+
+The 10 nearest POIs to Qdoba Mexican Grill are:
+
+1. Crumbs Bake Shop (0.02 km)
+2. Jamba Juice (0.02 km)
+3. Lannam (0.03 km)
+4. Bar 13 (0.04 km)
+5. Spice (0.05 km)
+6. New York Health & Racquet Club (0.05 km)
+7. Vapiano (0.05 km)
+8. News Bar Cafe (0.07 km)
+9. Carnival NYC (0.07 km)
+10. Bowlmor Lanes (0.07 km)
+
+These nearby POIs offer a mix of dining, entertainment, and recreational options, making Qdoba Mexican Grill a convenient choice for locals and visitors alike.
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs, which are farther away but still within a reasonable distance, are:
+
+1. New York Penn Station (1.80 km)
+2. Madison Square Garden (1.72 km)
+3. NBC Studio 1A - Today Show (2.85 km)
+4. Times Square (2.44 km)
+5. Port Authority Bus Terminal (2.50 km)
+6. Union Square Park (0.15 km)
+7. Bryant Park (2.24 km)
+8. Union Square Greenmarket (0.25 km)
+9. Madison Square Park (0.92 km)
+10. Macy's (1.80 km)
+
+These POIs highlight the location's proximity to major transportation hubs, entertainment venues, and shopping centers, making it an attractive location for both locals and tourists.
+
+**Conclusion**
+
+Qdoba Mexican Grill is situated in a vibrant and diverse area of New York City, surrounded by various POIs that cater to different interests and needs. The abundance of bars, coffee shops, and restaurants in the area creates a lively atmosphere, making it an ideal location for a Mexican restaurant like Qdoba. The nearby POIs offer a range of options for dining, entertainment, and recreation, making Qdoba Mexican Grill a convenient choice for locals and visitors alike.

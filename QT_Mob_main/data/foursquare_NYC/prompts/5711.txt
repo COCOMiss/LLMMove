@@ -1,0 +1,6 @@
+The name of this location is "Harp 'n Bard" and its POI category is Bar, belonging to the parent category Nightlife Spot.
+The geographic coordinates for this location are (40.88742755, -74.13846282), with the corresponding geohash code dr728gq488gm.
+The address is 363 Lakeview Ave, Clifton, NJ 07011, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); Electronics Store, 1(avg: 5); Bar, 1(avg: 124).
+The 10 nearest POIs and their distances are: I-80 -- Bergen/Passaic, distance 1.83 km; Micro Center, distance 2.28 km; Sharky's Wings and Raw bar, distance 2.55 km.
+The 10 representative nearby POIs and their distances are: I-80 -- Bergen/Passaic, distance 1.83 km; Sharky's Wings and Raw bar, distance 2.55 km; Micro Center, distance 2.28 km.

@@ -75,7 +75,11 @@ def main(args):
                 peft_config.base_model_name_or_path,   # 你已经是绝对路径 ✅
                 dtype=torch.bfloat16,                  # 用 dtype（替代 torch_dtype）
                 quantization_config=quantization_config if args.quantize else None,  # BitsAndBytesConfig 或 None
+<<<<<<< HEAD
                 device_map="auto",                     # ✅ 关键修复：不要用 {0:1}
+=======
+                device_map="balanced",                     # ✅ 关键修复：不要用 {0:1}
+>>>>>>> 754e9ca864e4e90e70c8c16b2d0529fbfb0aea97
                 trust_remote_code=True,
             )
             
@@ -158,8 +162,13 @@ def main(args):
                 logger.info(f"Sample[{idx}]: {train_data[idx]}")
 
         # ================= Collator =================
+<<<<<<< HEAD
         response_template_with_context = "<|im_end|>"
         response_template_ids = tokenizer.encode(response_template_with_context, add_special_tokens=False)[2:]
+=======
+        # response_template_with_context = "<|im_end|>"
+        # response_template_ids = tokenizer.encode(response_template_with_context, add_special_tokens=False)[2:]
+>>>>>>> 754e9ca864e4e90e70c8c16b2d0529fbfb0aea97
         # collator = DataCollatorForCompletionOnlyLM(response_template_ids, tokenizer=tokenizer)
         logger.info("Data collator initialized.")
 
@@ -171,6 +180,10 @@ def main(args):
         
 
        
+<<<<<<< HEAD
+=======
+       
+>>>>>>> 754e9ca864e4e90e70c8c16b2d0529fbfb0aea97
 
         # apply_liger_kernel_to_llama()  # 可选
         
@@ -207,7 +220,15 @@ def main(args):
                 weight_decay=args.weight_decay,
                 gradient_checkpointing=True,
                 dataset_num_proc=4,
+<<<<<<< HEAD
                 packing=False
+=======
+                packing=False,
+                save_total_limit=args.save_total_limit,
+                save_only_model=args.save_only_model,
+                save_safetensors=True
+                
+>>>>>>> 754e9ca864e4e90e70c8c16b2d0529fbfb0aea97
             )
 
             logger.info("Data collator initialized.")
@@ -263,6 +284,12 @@ def main(args):
                 per_device_train_batch_size=args.per_device_train_batch_size,
                 weight_decay=args.weight_decay,
                 gradient_checkpointing=True,
+<<<<<<< HEAD
+=======
+                save_total_limit=args.save_total_limit,
+                save_only_model=args.save_only_model,
+                save_safetensors=True
+>>>>>>> 754e9ca864e4e90e70c8c16b2d0529fbfb0aea97
             )
             logger.info("Trainer configuration created.")   
             

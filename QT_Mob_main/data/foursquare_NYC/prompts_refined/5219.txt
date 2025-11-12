@@ -1,0 +1,61 @@
+**Location Analysis: Labella Nail And Spa**
+
+**Location Overview**
+
+Labella Nail And Spa is a spa located in the Duarte Triangle area of New York, NY 10032, USA. The location is situated at the coordinates (40.84220516, -73.93913652) and has a geohash code of dr72m7p5j4zg.
+
+**Category Analysis**
+
+The location falls under the category of Spa, which is a subcategory of Shop & Service. This indicates that the primary function of the location is to provide beauty and wellness services.
+
+**Neighboring POIs**
+
+The top 10 nearby points-of-interest (POI) categories and their counts are:
+
+1. **Metro Station** (5), with an average distance of 19 km
+2. **Coffee Shop** (2), with an average distance of 63 km
+3. **Hospital** (2), with an average distance of 2 km
+4. **Train Station** (2), with an average distance of 5 km
+5. **Road** (2), with an average distance of 1 km
+6. **Bar** (2), with an average distance of 124 km
+7. **Gym** (2), with an average distance of 25 km
+8. **Park** (2), with an average distance of 8 km
+9. **Medical School** (1), with an average distance of 1 km
+10. **College Library** (1), with an average distance of 3 km
+
+The 10 nearest POIs and their distances are:
+
+1. **Starbucks** (0.13 km)
+2. **MTA Subway - 168th Street (A/C/1)** (0.16 km)
+3. **New York Presbyterian - Columbia University Medical Center** (0.25 km)
+4. **Hammer Health Sciences Library** (0.28 km)
+5. **Milstein Hospital Building** (0.30 km)
+6. **Morgan Stanley Children's Hospital** (0.33 km)
+7. **Port Authority - GWB Bus Terminal** (0.74 km)
+8. **Washington Heights** (0.91 km)
+9. **Starbucks** (1.01 km)
+10. **MTA Subway - 157th Street (1)** (1.03 km)
+
+The 10 representative nearby POIs and their distances are:
+
+1. **Yankee Stadium** (1.75 km)
+2. **George Washington Bridge** (1.48 km)
+3. **MTA Subway - 161st St/Yankee Stadium (4/B/D)** (1.94 km)
+4. **The City College of New York** (2.67 km)
+5. **New York Presbyterian - Columbia University Medical Center** (0.25 km)
+6. **The Cloisters** (2.37 km)
+7. **MTA Subway - 137th Street/City College (1)** (2.64 km)
+8. **New York Sports Club** (2.13 km)
+9. **Stan's Sports Bar** (2.03 km)
+10. **Port Authority - GWB Bus Terminal** (0.74 km)
+
+**Key Observations**
+
+* The location is surrounded by various types of businesses and services, including coffee shops, hospitals, train stations, and gyms.
+* The presence of multiple hospitals and medical facilities in the area suggests a high demand for healthcare services.
+* The proximity to educational institutions, such as the City College of New York, indicates a high foot traffic of students and professionals.
+* The location is also close to popular attractions like Yankee Stadium and the George Washington Bridge.
+
+**Conclusion**
+
+Labella Nail And Spa is situated in a densely populated area with a mix of residential, commercial, and educational establishments. The presence of multiple hospitals and medical facilities suggests a high demand for healthcare services in the area. The location's proximity to popular attractions and educational institutions indicates a high foot traffic and potential for business opportunities.

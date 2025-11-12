@@ -1,0 +1,6 @@
+The name of this location is "Alexus Steak House & Tavern" and its POI category is Steakhouse, belonging to the parent category Food.
+The geographic coordinates for this location are (40.86842312, -74.19068985), with the corresponding geohash code dr70rxzgzdhp.
+The address is 955 Valley Rd, Clifton, NJ 07013, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Diner, 1(avg: 9); American Restaurant, 1(avg: 51); College Communications Building, 1(avg: 1); College Auditorium, 1(avg: 1); Bar, 1(avg: 124); Taco Place, 1(avg: 4).
+The 10 nearest POIs and their distances are: Six Brothers Diner, distance 0.61 km; Pub 46, distance 0.92 km; University Hall, distance 0.97 km; Montclair State University, distance 1.09 km; Bliss Lounge, distance 1.98 km; Chipotle Mexican Grill, distance 2.31 km.
+The 10 representative nearby POIs and their distances are: Montclair State University, distance 1.09 km; University Hall, distance 0.97 km; Bliss Lounge, distance 1.98 km; Pub 46, distance 0.92 km; Chipotle Mexican Grill, distance 2.31 km; Six Brothers Diner, distance 0.61 km.

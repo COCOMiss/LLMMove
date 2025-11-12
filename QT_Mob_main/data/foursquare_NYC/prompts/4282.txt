@@ -1,0 +1,6 @@
+The name of this location is "The Joker's Child Comics" and its POI category is Bookstore, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.931951, -74.132019), with the corresponding geohash code dr72c56tyu8n.
+The address is 12-23 River Rd, Fair Lawn, NJ 07410, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bakery, 1(avg: 16); Electronics Store, 1(avg: 5).
+The 10 nearest POIs and their distances are: Nabisco Factory Scent Cloud, distance 1.31 km; Micro Center, distance 2.69 km.
+The 10 representative nearby POIs and their distances are: Micro Center, distance 2.69 km; Nabisco Factory Scent Cloud, distance 1.31 km.

@@ -1,0 +1,28 @@
+**Location Analysis: Alta**
+
+**Overview**
+
+Alta is a tapas restaurant located in the heart of New York City, specifically at the Lillian Vernon Center for International Affairs, 66 W 10th St, New York, NY 10011, USA. The geographic coordinates for this location are (40.73452445, -73.99826559), which can be represented by the geohash code dr5rspkpg3tz.
+
+**Surrounding Environment**
+
+Alta is situated in a densely populated area with a variety of nearby points-of-interest (POIs) in the categories of Bar, Coffee Shop, American Restaurant, Office, Café, Lounge, Italian Restaurant, Mexican Restaurant, Gym, and Pub. The top 10 nearby POIs and their counts indicate a vibrant and bustling atmosphere, with a mix of dining, entertainment, and commercial establishments.
+
+**Proximity to Other POIs**
+
+The 10 nearest POIs to Alta are within a short walking distance, with Sammy's Noodle Shop being the closest at 0.05 km. The 10 representative nearby POIs are slightly farther away, with New York Penn Station being the farthest at 1.88 km. This suggests that Alta is well-connected to other popular destinations in the area, making it an attractive option for both locals and tourists.
+
+**Key Features**
+
+* Location: Lillian Vernon Center for International Affairs, 66 W 10th St, New York, NY 10011, USA
+* Geographic coordinates: (40.73452445, -73.99826559)
+* Geohash code: dr5rspkpg3tz
+* Category: Tapas Restaurant
+* Parent category: Food
+* Nearby POIs: Bar, Coffee Shop, American Restaurant, Office, Café, Lounge, Italian Restaurant, Mexican Restaurant, Gym, Pub
+* Nearest POIs: Sammy's Noodle Shop (0.05 km), Citarella (0.07 km), 9th Street PATH Station (0.07 km)
+* Representative POIs: New York Penn Station (1.88 km), Madison Square Garden (1.81 km), Times Square (2.60 km)
+
+**Conclusion**
+
+Alta is a tapas restaurant located in a bustling area of New York City, surrounded by a variety of POIs that cater to different tastes and interests. Its proximity to other popular destinations makes it an attractive option for those looking for a convenient dining experience. The mix of nearby POIs suggests a vibrant and dynamic environment, making Alta a great choice for those seeking a lively atmosphere and a taste of Spanish cuisine.

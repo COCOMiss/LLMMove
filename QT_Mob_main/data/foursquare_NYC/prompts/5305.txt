@@ -1,0 +1,6 @@
+The name of this location is "Sprague Library" and its POI category is College Library, belonging to the parent category College & University.
+The geographic coordinates for this location are (40.86035289, -74.19816256), with the corresponding geohash code dr70rw6sc3zg.
+The address is 1 Normal Ave, Montclair, NJ 07043, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: College Auditorium, 1(avg: 1); College Communications Building, 1(avg: 1); Diner, 1(avg: 9); American Restaurant, 1(avg: 51); Bar, 1(avg: 124); Taco Place, 1(avg: 4); Coffee Shop, 1(avg: 63); Grocery Store, 1(avg: 9).
+The 10 nearest POIs and their distances are: Montclair State University, distance 0.07 km; University Hall, distance 0.25 km; Six Brothers Diner, distance 1.36 km; Pub 46, distance 1.91 km; Bliss Lounge, distance 1.98 km; Chipotle Mexican Grill, distance 2.21 km; Starbucks, distance 2.44 km; ShopRite, distance 2.80 km.
+The 10 representative nearby POIs and their distances are: Montclair State University, distance 0.07 km; University Hall, distance 0.25 km; Bliss Lounge, distance 1.98 km; Pub 46, distance 1.91 km; Chipotle Mexican Grill, distance 2.21 km; Six Brothers Diner, distance 1.36 km; Starbucks, distance 2.44 km; ShopRite, distance 2.80 km.

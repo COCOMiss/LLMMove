@@ -1,0 +1,60 @@
+**Location Analysis: Cafe OST**
+
+**Geographic Information:**
+
+- Address: 347 E 12th St, New York, NY 10009, USA
+- Geographic Coordinates: (40.72913025, -73.98130701)
+- Geohash Code: dr5rsw82qs5j
+
+**POI Category and Nearby Points of Interest:**
+
+- Category: Coffee Shop
+- Parent Category: Food
+- Top 10 nearby POI categories and their counts:
+  1. Bar (239)
+  2. Coffee Shop (95)
+  3. Office (84)
+  4. American Restaurant (76)
+  5. Café (66)
+  6. Lounge (55)
+  7. Italian Restaurant (47)
+  8. Mexican Restaurant (46)
+  9. Gym (38)
+  10. Pub (36)
+
+**Nearby Points of Interest:**
+
+- The 10 nearest POIs to Cafe OST with their distances:
+  1. Cafe OST (0.05 km)
+  2. Common Ground Bar & Restaurant (0.06 km)
+  3. Northern Spy Food Co. (0.06 km)
+  4. Heathers (0.08 km)
+  5. Fat Buddha (0.09 km)
+  6. Phoenix (0.10 km)
+  7. Destination (0.10 km)
+  8. Drop Off Service (0.10 km)
+  9. Westville East (0.10 km)
+  10. Keybar (0.10 km)
+
+**Representative Nearby Points of Interest:**
+
+- The 10 representative nearby POIs with their distances:
+  1. New York Penn Station (2.60 km)
+  2. Madison Square Garden (2.51 km)
+  3. MTA Subway - Manhattan Bridge (B/D/N/Q) (2.54 km)
+  4. Union Square Park (1.04 km)
+  5. Bryant Park (2.74 km)
+  6. Union Square Greenmarket (1.13 km)
+  7. Madison Square Park (1.56 km)
+  8. Macy's (2.46 km)
+  9. Snowpocalypse 2010 (2.51 km)
+  10. Eataly (1.61 km)
+
+**Insights:**
+
+- Cafe OST is located in a densely populated area with a high concentration of bars, coffee shops, and restaurants.
+- The nearby points of interest suggest that the area is a bustling commercial district with a mix of food, entertainment, and shopping options.
+- The presence of Union Square Park and Madison Square Park nearby indicates that the area has a strong connection to public spaces and community areas.
+- The nearby New York Penn Station and Madison Square Garden suggest that the area is easily accessible by public transportation and is a hub for events and activities.
+
+Overall, Cafe OST is situated in a vibrant and dynamic area with a wide range of amenities and attractions.

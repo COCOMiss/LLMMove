@@ -1,0 +1,6 @@
+The name of this location is "LIRR - Manhasset Train Station" and its POI category is Train, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.79670228, -73.69991541), with the corresponding geohash code dr784fv652xb.
+The address is 295 Plandome Rd, Manhasset, NY 11030, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train, 1(avg: 4); Electronics Store, 1(avg: 5); Emergency Room, 1(avg: 2).
+The 10 nearest POIs and their distances are: LIRR - Manhasset Train Station, distance 0.05 km; Apple Store, distance 1.95 km; North Shore University Hospital, distance 2.21 km.
+The 10 representative nearby POIs and their distances are: North Shore University Hospital, distance 2.21 km; Apple Store, distance 1.95 km; LIRR - Manhasset Train Station, distance 0.05 km.

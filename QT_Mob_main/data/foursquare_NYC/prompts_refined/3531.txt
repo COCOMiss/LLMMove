@@ -1,0 +1,56 @@
+**Location Analysis: MTA Subway - 116 St - Columbia University (1)**
+
+**Overview**
+
+The location "MTA Subway - 116 St - Columbia University (1)" is a metro station situated in the heart of New York City, specifically in the Upper West Side neighborhood. It is a significant transportation hub, with the address 116 St - Columbia University, New York, NY 10027, USA.
+
+**Geographic Location**
+
+The location has the geographic coordinates (40.80824173, -73.96360651), which places it in the northern part of Manhattan. The geohash code dr72huvm5p9e corresponds to this location.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs are categorized as follows:
+
+1. **Metro Station** (14) - The location itself is a metro station, and there are 14 other nearby metro stations, with an average count of 19.
+2. **Coffee Shop** (10) - There are 10 coffee shops nearby, with an average count of 63.
+3. **Bar** (9) - 9 bars are located nearby, with an average count of 124.
+4. **American Restaurant** (6) - 6 American restaurants are nearby, with an average count of 51.
+5. **Grocery Store** (6) - 6 grocery stores are nearby, with an average count of 9.
+6. **Gym** (5) - 5 gyms are located nearby, with an average count of 25.
+7. **Southern / Soul Food Restaurant** (4) - 4 southern/soul food restaurants are nearby, with an average count of 1.
+8. **University** (3) - 3 universities are nearby, with an average count of 5.
+9. **Movie Theater** (3) - 3 movie theaters are nearby, with an average count of 5.
+10. **Park** (3) - 3 parks are nearby, with an average count of 8.
+
+**Nearest POIs**
+
+The 10 nearest POIs to the location are:
+
+1. **MTA Subway - 116 St - Columbia University (1)** (distance: 0.03 km)
+2. **Columbia University: Graduate School of Journalism** (distance: 0.09 km)
+3. **Columbia University** (distance: 0.13 km)
+4. **Dodge Physical Fitness Center - Columbia University** (distance: 0.13 km)
+5. **Lerner Hall - Columbia University** (distance: 0.14 km)
+6. **Low Steps - Columbia University** (distance: 0.14 km)
+7. **Starbucks** (distance: 0.17 km)
+8. **Columbia Business School** (distance: 0.18 km)
+9. **Butler Library - Columbia University** (distance: 0.20 km)
+10. **Havana Central at The West End** (distance: 0.22 km)
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs are:
+
+1. **Central Park** (distance: 2.92 km)
+2. **Metro North - Harlem 125th Station** (distance: 2.09 km)
+3. **Guggenheim Museum** (distance: 2.83 km)
+4. **Whole Foods** (distance: 1.60 km)
+5. **Michael's Arts & Crafts** (distance: 1.53 km)
+6. **Harlem Heritage and Cultural Center** (distance: 1.39 km)
+7. **Metropolis Studios** (distance: 2.19 km)
+8. **Dinosaur Bar-B-Que** (distance: 1.12 km)
+9. **Columbia University** (distance: 0.13 km)
+10. **Village Pourhouse** (distance: 0.68 km)
+
+Overall, the location is situated in a densely populated area with a mix of educational institutions, restaurants, shops, and entertainment venues. The nearby POIs offer a range of services and activities, making it an attractive location for students, professionals, and tourists alike.

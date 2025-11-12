@@ -1,0 +1,6 @@
+The name of this location is "Metro Honda" and its POI category is Automotive Shop, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.7146859, -74.09590157), with the corresponding geohash code dr5r9gvh0re3.
+The address is 540 NJ-440, Jersey City, NJ 07305, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); University, 1(avg: 5).
+The 10 nearest POIs and their distances are: Rt. 440 & Communipaw, distance 0.92 km; New Jersey City University, distance 1.04 km.
+The 10 representative nearby POIs and their distances are: New Jersey City University, distance 1.04 km; Rt. 440 & Communipaw, distance 0.92 km.

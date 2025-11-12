@@ -1,0 +1,54 @@
+**Location Analysis: WD50**
+
+WD50 is a restaurant located at 52 Clinton St, New York, NY 10002, USA. The location has a geohash code of dr5rsky11swt and geographic coordinates of (40.71964855, -73.98460702). 
+
+**Nearby Points of Interest (POIs)**
+
+WD50 is situated in a densely populated area with a variety of nearby POIs. The top 10 POI categories and their counts are:
+
+1.  Bar (209, avg: 124)
+2.  Coffee Shop (87, avg: 63)
+3.  American Restaurant (73, avg: 51)
+4.  Office (61, avg: 72)
+5.  Café (52, avg: 42)
+6.  Lounge (44, avg: 35)
+7.  Italian Restaurant (42, avg: 28)
+8.  Mexican Restaurant (34, avg: 28)
+9.  Gym (34, avg: 25)
+10. Wine Bar (32, avg: 21)
+
+The diversity of POIs suggests that WD50 is located in a vibrant and bustling neighborhood with a mix of entertainment, dining, and commercial activities.
+
+**Nearest POIs**
+
+The 10 nearest POIs to WD50 are:
+
+1.  WD50 (distance: 0.01 km)
+2.  Barramundi (distance: 0.05 km)
+3.  Atlas Cafe (distance: 0.05 km)
+4.  Donnybrook (distance: 0.06 km)
+5.  Tapeo 29 (distance: 0.09 km)
+6.  Falai Panetteria (distance: 0.09 km)
+7.  Alias (distance: 0.09 km)
+8.  151 (distance: 0.09 km)
+9.  St. Jerome (distance: 0.10 km)
+10. Bondi Road (distance: 0.11 km)
+
+The proximity of these POIs indicates that WD50 is situated in a highly populated area with a high concentration of restaurants, cafes, and bars.
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs and their distances are:
+
+1.  MTA Subway - Manhattan Bridge (B/D/N/Q) (distance: 1.45 km)
+2.  Union Square Park (distance: 1.80 km)
+3.  Brooklyn Bridge (distance: 1.86 km)
+4.  Union Square Greenmarket (distance: 1.94 km)
+5.  Madison Square Park (distance: 2.53 km)
+6.  Eataly (distance: 2.53 km)
+7.  Regal Union Square Stadium 14 (distance: 1.66 km)
+8.  Shake Shack (distance: 2.43 km)
+9.  Washington Square Park (distance: 1.66 km)
+10. Brooklyn Bowl (distance: 2.29 km)
+
+These POIs are representative of the larger area surrounding WD50, including public transportation hubs, parks, and popular attractions.

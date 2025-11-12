@@ -1,0 +1,6 @@
+The name of this location is "Lucy's Asian Bistro" and its POI category is Asian Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.64572694, -73.77540779), with the corresponding geohash code dr5x1pq6s2sv.
+The address is 1 Central Terminal Area, Jamaica, NY 11430, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Airport Terminal, 6(avg: 3); General Travel, 3(avg: 1); Airport, 2(avg: 1); American Restaurant, 1(avg: 51); Plane, 1(avg: 1).
+The 10 nearest POIs and their distances are: JetBlue Lounge, distance 0.11 km; Terminal 5, distance 0.20 km; JFK Runway, distance 0.37 km; John F Kennedy International Airport (JFK), distance 0.69 km; Terminal 4, distance 0.71 km; Terminal 7, distance 0.73 km; Terminal 3, distance 1.12 km; Delta Sky Club, distance 1.18 km; Terminal 8, distance 1.25 km; Terminal 2, distance 1.31 km.
+The 10 representative nearby POIs and their distances are: John F Kennedy International Airport (JFK), distance 0.69 km; Terminal 5, distance 0.20 km; Terminal 8, distance 1.25 km; Terminal 4, distance 0.71 km; Terminal 3, distance 1.12 km; Terminal 7, distance 0.73 km; Terminal 2, distance 1.31 km; Terminal 1, distance 1.34 km; American Airlines Admirals Club, distance 1.43 km; Delta Sky Club, distance 1.32 km.

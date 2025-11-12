@@ -1,0 +1,6 @@
+The name of this location is "Aviator Sports and Events Center" and its POI category is Skating Rink, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.59024369, -73.8989492), with the corresponding geohash code dr5qymhrm9vd.
+The address is 3159 Flatbush Ave, Brooklyn, NY 11234, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Skating Rink, 1(avg: 1); Park, 1(avg: 8).
+The 10 nearest POIs and their distances are: Aviator Sports and Events Center, distance 0.16 km; Marine Park, distance 2.05 km.
+The 10 representative nearby POIs and their distances are: Marine Park, distance 2.05 km; Aviator Sports and Events Center, distance 0.16 km.

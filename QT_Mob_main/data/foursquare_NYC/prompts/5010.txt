@@ -1,0 +1,6 @@
+The name of this location is "QuickChek" and its POI category is Food & Drink Shop, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.80547929, -74.19283338), with the corresponding geohash code dr70psqmjstt.
+The address is 357 Broad St, Bloomfield, NJ 07003, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 2(avg: 5); Coffee Shop, 1(avg: 63); Gym, 1(avg: 25); Pub, 1(avg: 24); Music Venue, 1(avg: 10); Spanish Restaurant, 1(avg: 4); Medical Center, 1(avg: 1).
+The 10 nearest POIs and their distances are: Starbucks, distance 1.13 km; NJ Transit Rail - Bay Street Station, distance 1.37 km; NJ Transit Rail - Bloomfield Station, distance 1.55 km; Retro Fitness, distance 1.98 km; Egan & Sons, distance 2.08 km; Wellmont Theatre, distance 2.17 km; Cuban Pete's, distance 2.20 km; Clara Maass Medical Center, distance 2.63 km.
+The 10 representative nearby POIs and their distances are: NJ Transit Rail - Bloomfield Station, distance 1.55 km; Retro Fitness, distance 1.98 km; Cuban Pete's, distance 2.20 km; Wellmont Theatre, distance 2.17 km; Egan & Sons, distance 2.08 km; NJ Transit Rail - Bay Street Station, distance 1.37 km; Starbucks, distance 1.13 km; Clara Maass Medical Center, distance 2.63 km.

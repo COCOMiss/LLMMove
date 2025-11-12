@@ -1,0 +1,6 @@
+The name of this location is "Walgreens" and its POI category is Pharmacy, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.69363699, -73.71728062), with the corresponding geohash code dr5xd809wgg8.
+The address is 2095 Dutch Broadway, Elmont, NY 11003, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Other Great Outdoors, 1(avg: 13).
+The 10 nearest POIs and their distances are: Belmont Park Racetrack, distance 2.19 km.
+The 10 representative nearby POIs and their distances are: Belmont Park Racetrack, distance 2.19 km.

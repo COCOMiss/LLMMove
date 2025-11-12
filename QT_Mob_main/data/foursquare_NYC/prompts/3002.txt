@@ -1,0 +1,6 @@
+The name of this location is "A&J Seabra's" and its POI category is Spanish Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.75543084, -74.144715), with the corresponding geohash code dr5rbg33wfvq.
+The address is 186 Schuyler Ave, Kearny, NJ 07032, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 2(avg: 51); Department Store, 1(avg: 4); Train Station, 1(avg: 5); Soccer Stadium, 1(avg: 1); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Walmart, distance 1.12 km; Applebee's, distance 1.50 km; Tops Diner, distance 1.77 km; PATH: Harrison Station, distance 2.08 km; Red Bull Arena, distance 2.12 km; NJ Route 21 (McCarter Highway), distance 2.31 km.
+The 10 representative nearby POIs and their distances are: PATH: Harrison Station, distance 2.08 km; Tops Diner, distance 1.77 km; NJ Route 21 (McCarter Highway), distance 2.31 km; Applebee's, distance 1.50 km; Red Bull Arena, distance 2.12 km; Walmart, distance 1.12 km.

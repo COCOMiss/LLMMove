@@ -1,0 +1,6 @@
+The name of this location is "UPS" and its POI category is Post Office, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.78143609, -74.05677403), with the corresponding geohash code dr724b1904dy.
+The address is 575 Windsor Dr, Secaucus, NJ 07094, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Movie Theater, 1(avg: 5); American Restaurant, 1(avg: 51); Burger Joint, 1(avg: 17); College Gym, 1(avg: 2); Department Store, 1(avg: 4); Gym / Fitness Center, 1(avg: 7); Arcade, 1(avg: 3); Diner, 1(avg: 9).
+The 10 nearest POIs and their distances are: Kerasotes Showplace 14, distance 0.96 km; Houlihan's - Secaucus, distance 1.03 km; Cheeseburger in Paradise, distance 1.08 km; LA fitness, distance 1.41 km; Walmart, distance 1.77 km; Bally Total Fitness, distance 1.93 km; Union City, distance 2.16 km; Coach House, distance 2.58 km.
+The 10 representative nearby POIs and their distances are: Walmart, distance 1.77 km; Kerasotes Showplace 14, distance 0.96 km; Cheeseburger in Paradise, distance 1.08 km; Houlihan's - Secaucus, distance 1.03 km; Coach House, distance 2.58 km; LA fitness, distance 1.41 km; Union City, distance 2.16 km; Bally Total Fitness, distance 1.93 km.

@@ -1,0 +1,36 @@
+**Location Analysis: NJCU Westside Parking Lot**
+
+**Overview**
+
+The NJCU Westside Parking Lot is a parking facility located in Jersey City, New Jersey, USA. It is situated at the address 26 University Pl Blvd, Jersey City, NJ 07305. The location is categorized as a parking facility under the broader category of Professional & Other Places.
+
+**Geographic Coordinates and Geohash Code**
+
+The location's geographic coordinates are (40.71164771, -74.09326885), which can be used for navigation and mapping purposes. The corresponding geohash code is dr5r9gqft9nq.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POI categories and their counts are:
+
+1.  University (1) - with an average distance of 5 units
+2.  Road (1) - with an average distance of 1 unit
+
+The 10 nearest POIs and their distances are:
+
+1. New Jersey City University - 0.66 km
+2. Rt. 440 & Communipaw - 1.20 km
+
+The 10 representative nearby POIs and their distances are:
+
+1. New Jersey City University - 0.66 km
+2. Rt. 440 & Communipaw - 1.20 km
+
+**Key Insights**
+
+* The NJCU Westside Parking Lot is located near New Jersey City University, which suggests a strong connection to the university.
+* The presence of a road (Rt. 440 & Communipaw) nearby indicates that the parking lot may serve as a parking facility for commuters or visitors to the area.
+* The limited number of nearby POIs suggests that the area is relatively quiet and residential, with a focus on the university and surrounding infrastructure.
+
+**Conclusion**
+
+The NJCU Westside Parking Lot is a parking facility located in a relatively quiet area near New Jersey City University. Its proximity to the university and a nearby road suggests that it serves as a convenient parking option for students, faculty, and visitors.

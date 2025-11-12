@@ -1,0 +1,6 @@
+The name of this location is "L.S.E. Douglaston Laundromat, Inc." and its POI category is Laundry Service, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.76583, -73.744953), with the corresponding geohash code dr5xcvhw4j98.
+The address is 44-30 Douglaston Pkwy, Douglaston, NY 11363, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 1(avg: 5); College Communications Building, 1(avg: 1); Dessert Shop, 1(avg: 12); Light Rail Station, 1(avg: 1); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: LIRR - Douglaston Station, distance 0.45 km; Queensborough Community College, distance 1.56 km; Martha's Country Bakery, distance 2.21 km; LIRR - Bayside Station, distance 2.24 km; Cross Island Parkway, distance 2.73 km.
+The 10 representative nearby POIs and their distances are: LIRR - Bayside Station, distance 2.24 km; Queensborough Community College, distance 1.56 km; Cross Island Parkway, distance 2.73 km; LIRR - Douglaston Station, distance 0.45 km; Martha's Country Bakery, distance 2.21 km.

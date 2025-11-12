@@ -1,0 +1,6 @@
+The name of this location is "AMF Wallington Lanes" and its POI category is Bowling Alley, belonging to the parent category Arts & Entertainment.
+The geographic coordinates for this location are (40.84666902, -74.11012566), with the corresponding geohash code dr723efthfvp.
+The address is 299 Paterson Ave, Wallington, NJ 07057, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 1(avg: 9); Department Store, 1(avg: 4); Bakery, 1(avg: 16); Café, 1(avg: 42); Hot Dog Joint, 1(avg: 2).
+The 10 nearest POIs and their distances are: ShopRite, distance 1.61 km; Walmart, distance 2.39 km; Panera Bread, distance 2.43 km; Starbucks, distance 2.44 km; Rutt's Hut, distance 2.49 km.
+The 10 representative nearby POIs and their distances are: Starbucks, distance 2.44 km; Rutt's Hut, distance 2.49 km; Walmart, distance 2.39 km; Panera Bread, distance 2.43 km; ShopRite, distance 1.61 km.

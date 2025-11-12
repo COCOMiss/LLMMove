@@ -1,0 +1,56 @@
+**Location Analysis: Luke's Lobster**
+
+**Location Overview**
+
+Luke's Lobster is a seafood restaurant located at 90 E 7th St, New York, NY 10009, USA. It has a geohash code of dr5rsqj6vw46 and geographic coordinates (40.726823, -73.98547098). This analysis will explore the surrounding area, nearby points-of-interest (POIs), and representative POIs to provide a comprehensive understanding of the location.
+
+**Nearby Points-of-Interest (POIs)**
+
+The top 10 nearby POIs in the area are categorized into various types, with the following frequencies:
+
+1.  Bar (232) - 2.5 times more frequent than the average
+2.  Coffee Shop (95) - 1.5 times more frequent than the average
+3.  American Restaurant (88) - 1.7 times more frequent than the average
+4.  Office (80) - 1.1 times more frequent than the average
+5.  Café (64) - 1.5 times more frequent than the average
+6.  Lounge (57) - 1.6 times more frequent than the average
+7.  Italian Restaurant (48) - 1.7 times more frequent than the average
+8.  Mexican Restaurant (43) - 1.5 times more frequent than the average
+9.  Gym (37) - 1.5 times more frequent than the average
+10. Pub (36) - 1.5 times more frequent than the average
+
+**Nearest POIs**
+
+The 10 nearest POIs to Luke's Lobster are:
+
+1.  Luke's Lobster (0.02 km)
+2.  Caracas Arepa Bar (0.02 km)
+3.  International Bar (0.02 km)
+4.  South Brooklyn Pizza (0.03 km)
+5.  Lunasa (0.05 km)
+6.  WCOU Radio / Tile Bar (0.05 km)
+7.  Abraço (0.06 km)
+8.  Vbar (0.07 km)
+9.  Krystal's Cafe 81 (0.08 km)
+10. Porchetta (0.08 km)
+
+**Representative POIs**
+
+The 10 representative POIs in the area, which are farther away but still within a reasonable distance, are:
+
+1.  New York Penn Station (2.74 km)
+2.  Madison Square Garden (2.66 km)
+3.  MTA Subway - Manhattan Bridge (B/D/N/Q) (2.20 km)
+4.  Union Square Park (1.03 km)
+5.  Bryant Park (3.00 km)
+6.  Brooklyn Bridge (2.54 km)
+7.  Union Square Greenmarket (1.16 km)
+8.  Madison Square Park (1.73 km)
+9.  Macy's (2.65 km)
+10. Snowpocalypse 2010 (2.70 km)
+
+**Insights**
+
+Based on the analysis, Luke's Lobster is located in a vibrant and densely populated area with a variety of restaurants, bars, and cafes nearby. The high frequency of bars and restaurants suggests that the area is popular for nightlife and dining. The presence of a gym and office buildings indicates a mix of residential and commercial activities. The nearby Union Square Park and Madison Square Park provide green spaces for recreation and relaxation. The area's proximity to major landmarks like New York Penn Station, Madison Square Garden, and the Brooklyn Bridge makes it an attractive location for tourists and locals alike.
+
+Overall, Luke's Lobster appears to be situated in a bustling and convenient location, with a diverse range of amenities and attractions within walking distance.

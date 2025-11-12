@@ -1,0 +1,6 @@
+The name of this location is "McDonald's" and its POI category is Fast Food Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.7806274, -73.80233962), with the corresponding geohash code dr5xbxfu2gfy.
+The address is 160-1 Willets Point Blvd, Whitestone, NY 11357, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Deli / Bodega, 1(avg: 10); American Restaurant, 1(avg: 51); Shopping Mall, 1(avg: 1); Road, 1(avg: 1); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Cherry Valley Deli & Grill, distance 1.44 km; Panera Bread, distance 2.21 km; Bay Terrace Shopping Center, distance 2.24 km; Throgs Neck Bridge, distance 2.26 km; LIRR - Auburndale Station, distance 2.37 km.
+The 10 representative nearby POIs and their distances are: Throgs Neck Bridge, distance 2.26 km; Bay Terrace Shopping Center, distance 2.24 km; Cherry Valley Deli & Grill, distance 1.44 km; Panera Bread, distance 2.21 km; LIRR - Auburndale Station, distance 2.37 km.

@@ -1,0 +1,6 @@
+The name of this location is "Cross County Mall" and its POI category is Shopping Mall, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.92664586, -73.85567665), with the corresponding geohash code dr72z67yypb0.
+The address is 808 Central Park Ave, Yonkers, NY 10704, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Cross County Mall, distance 0.22 km; Metro North - Bronxville Train Station, distance 2.34 km.
+The 10 representative nearby POIs and their distances are: Cross County Mall, distance 0.22 km; Metro North - Bronxville Train Station, distance 2.34 km.

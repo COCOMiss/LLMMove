@@ -1,0 +1,6 @@
+The name of this location is "Corrados Family Market" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.88775728, -74.15166378), with the corresponding geohash code dr728ekkmn2h.
+The address is 1578 Main Ave, Clifton, NJ 07011, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); Emergency Room, 1(avg: 2); Bar, 1(avg: 124); Electronics Store, 1(avg: 5).
+The 10 nearest POIs and their distances are: I-80 -- Bergen/Passaic, distance 1.48 km; St. Joseph's Regional Medical Center, distance 2.06 km; Sharky's Wings and Raw bar, distance 2.46 km; Micro Center, distance 2.66 km.
+The 10 representative nearby POIs and their distances are: I-80 -- Bergen/Passaic, distance 1.48 km; St. Joseph's Regional Medical Center, distance 2.06 km; Sharky's Wings and Raw bar, distance 2.46 km; Micro Center, distance 2.66 km.

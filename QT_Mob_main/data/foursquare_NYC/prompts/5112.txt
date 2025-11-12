@@ -1,0 +1,6 @@
+The name of this location is "Empress Diner" and its POI category is Diner, belonging to the parent category Food.
+The geographic coordinates for this location are (40.93527025, -74.13415432), with the corresponding geohash code dr72ch11hzry.
+The address is 13-44 6th St, Fair Lawn, NJ 07410, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bakery, 1(avg: 16).
+The 10 nearest POIs and their distances are: Nabisco Factory Scent Cloud, distance 0.98 km.
+The 10 representative nearby POIs and their distances are: Nabisco Factory Scent Cloud, distance 0.98 km.

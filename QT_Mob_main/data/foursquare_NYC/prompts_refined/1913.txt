@@ -1,0 +1,58 @@
+**Location Analysis: Morton Williams Supermarket**
+
+**Location Overview**
+
+Morton Williams Supermarket is a retail food establishment located at 3 E Kingsbridge Rd, Bronx, NY 10468, USA. It is situated in the heart of the Bronx, a borough in New York City. The supermarket is categorized under the parent category of Food, specifically as a Restaurant.
+
+**Geographic Coordinates and Geohash Code**
+
+The geographic coordinates of Morton Williams Supermarket are (40.867459, -73.896905), with the corresponding geohash code dr72qrtyjq9b. This information can be used for navigation and mapping purposes.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs are categorized as follows:
+
+1.  Metro Station (4)
+2.  Train Station (2)
+3.  Train (2)
+4.  College Academic Building (2)
+5.  Emergency Room (2)
+6.  Bar (2)
+7.  Road (2)
+8.  College Administrative Building (1)
+9.  College Math Building (1)
+10. Department Store (1)
+
+The average distance of these POIs from Morton Williams Supermarket is relatively short, with the closest being MTA - Kingsbridge Road (0.04 km) and the farthest being Department Store (1.28 km).
+
+**Nearest and Representative POIs**
+
+The 10 nearest POIs to Morton Williams Supermarket are:
+
+1.  MTA - Kingsbridge Road (0.04 km)
+2.  MTA - Fordham Road (0.65 km)
+3.  Metro North - Fordham Train Station (0.85 km)
+4.  Metro North - Harlem Line Train (0.90 km)
+5.  Lehman College, CUNY (0.91 km)
+6.  Fordham University - Rose Hill (1.14 km)
+7.  Dealy Hall (1.15 km)
+8.  Target (1.17 km)
+9.  McGinley Student Center (1.20 km)
+10. Planet Fitness (1.28 km)
+
+The 10 representative POIs to Morton Williams Supermarket are:
+
+1.  Bronx Zoo (2.34 km)
+2.  Sofa Lounge (1.33 km)
+3.  Cross Bronx Expressway (2.59 km)
+4.  Target (1.17 km)
+5.  Fordham University - Rose Hill (1.14 km)
+6.  New York Botanical Garden (1.80 km)
+7.  Metro North - Fordham Train Station (0.85 km)
+8.  Lehman College, CUNY (0.91 km)
+9.  Metro North - Harlem Line Train (0.90 km)
+10. Bronx Ale House (1.94 km)
+
+**Conclusion**
+
+Morton Williams Supermarket is a conveniently located food establishment in the heart of the Bronx, with a variety of nearby POIs catering to different needs and interests. The supermarket's proximity to public transportation options, educational institutions, and entertainment venues makes it an attractive location for residents and visitors alike.

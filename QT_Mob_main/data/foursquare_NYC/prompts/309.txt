@@ -1,0 +1,6 @@
+The name of this location is "Starbucks" and its POI category is Coffee Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.60486403, -73.99864434), with the corresponding geohash code dr5qupgu6x78.
+The address is 1975 86th St, Brooklyn, NY 11214, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 2(avg: 25); Electronics Store, 1(avg: 5); Light Rail Station, 1(avg: 1); Metro Station, 1(avg: 19); Ice Cream Shop, 1(avg: 6); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Bally Total Fitness, distance 0.13 km; Best Buy, distance 1.23 km; New York Sports Club, distance 1.27 km; MTA Subway - Kings Highway (N), distance 1.53 km; MTA - N - Bay Parkway, distance 1.69 km; L&B Spumoni Gardens, distance 1.84 km; Starbucks, distance 2.84 km.
+The 10 representative nearby POIs and their distances are: L&B Spumoni Gardens, distance 1.84 km; Best Buy, distance 1.23 km; MTA Subway - Kings Highway (N), distance 1.53 km; Starbucks, distance 2.84 km; MTA - N - Bay Parkway, distance 1.69 km; New York Sports Club, distance 1.27 km; Bally Total Fitness, distance 0.13 km.

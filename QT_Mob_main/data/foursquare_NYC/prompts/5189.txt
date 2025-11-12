@@ -1,0 +1,6 @@
+The name of this location is "Pathmark" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.67917348, -73.75508308), with the corresponding geohash code dr5x3tmjq581.
+The address is 62 Springfield Blvd, St. Albans, NY 11413, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are:.
+The 10 nearest POIs and their distances are:.
+The 10 representative nearby POIs and their distances are:.

@@ -1,0 +1,6 @@
+The name of this location is "Lobster House" and its POI category is Seafood Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.85694779, -73.79164315), with the corresponding geohash code dr782vf8fp4f.
+The address is Parking lot, 699 Bridge St, Bronx, NY 10464, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Other Great Outdoors, 1(avg: 13).
+The 10 nearest POIs and their distances are: City Island, distance 1.12 km.
+The 10 representative nearby POIs and their distances are: City Island, distance 1.12 km.

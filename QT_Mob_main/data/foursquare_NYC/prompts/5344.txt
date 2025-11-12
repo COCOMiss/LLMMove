@@ -1,0 +1,6 @@
+The name of this location is "Applebee's Neighborhood Grill & Bar" and its POI category is American Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.81328955, -74.01137352), with the corresponding geohash code dr725vfd9uxg.
+The address is 2100 88th St, North Bergen, NJ 07047, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 1(avg: 9); Park, 1(avg: 8); Road, 1(avg: 1); Movie Theater, 1(avg: 5); Sandwich Place, 1(avg: 18); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Walmart Supercenter, distance 0.16 km; James L Braddock North Hudson County Park, distance 1.63 km; Vince Lombardi Service Area, distance 1.88 km; Edgewater Multiplex Cinemas, distance 1.90 km; Panera Bread, distance 1.97 km; Starbucks, distance 2.25 km.
+The 10 representative nearby POIs and their distances are: Starbucks, distance 2.25 km; Walmart Supercenter, distance 0.16 km; Vince Lombardi Service Area, distance 1.88 km; Edgewater Multiplex Cinemas, distance 1.90 km; Panera Bread, distance 1.97 km; James L Braddock North Hudson County Park, distance 1.63 km.

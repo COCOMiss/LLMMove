@@ -1,0 +1,6 @@
+The name of this location is "IHOP" and its POI category is American Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.92610478, -74.09925695), with the corresponding geohash code dr72cf6ef4vk.
+The address is 37-13 Broadway, Fair Lawn, NJ 07410, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); Pharmacy, 1(avg: 4); Restaurant, 1(avg: 10); Department Store, 1(avg: 4); Furniture / Home Store, 1(avg: 7); Electronics Store, 1(avg: 5); Multiplex, 1(avg: 4); Shopping Mall, 1(avg: 1); Community College, 1(avg: 1).
+The 10 nearest POIs and their distances are: NJ Route 4, distance 2.00 km; ShopRite, distance 2.03 km; Grand Lux Cafe, distance 2.12 km; Nordstrom, distance 2.13 km; IKEA, distance 2.14 km; Apple Store, distance 2.19 km; AMC Garden State 16, distance 2.21 km; Garden State Plaza, distance 2.21 km; Bergen Community College, distance 2.85 km.
+The 10 representative nearby POIs and their distances are: Garden State Plaza, distance 2.21 km; AMC Garden State 16, distance 2.21 km; Bergen Community College, distance 2.85 km; IKEA, distance 2.14 km; Apple Store, distance 2.19 km; ShopRite, distance 2.03 km; Grand Lux Cafe, distance 2.12 km; NJ Route 4, distance 2.00 km; Nordstrom, distance 2.13 km.

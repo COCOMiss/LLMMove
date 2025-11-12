@@ -1,0 +1,6 @@
+The name of this location is "CleanCity Laundromat" and its POI category is Building, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.877383, -73.846316), with the corresponding geohash code dr72x9db007z.
+The address is 3428 Eastchester Rd, Bronx, NY 10469, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 1(avg: 5); Emergency Room, 1(avg: 2).
+The 10 nearest POIs and their distances are: MTA Subway - Gun Hill Road (2/5), distance 1.69 km; Jacobi Medical Center, distance 2.43 km.
+The 10 representative nearby POIs and their distances are: Jacobi Medical Center, distance 2.43 km; MTA Subway - Gun Hill Road (2/5), distance 1.69 km.

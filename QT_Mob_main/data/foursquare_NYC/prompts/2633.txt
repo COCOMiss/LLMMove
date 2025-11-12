@@ -1,0 +1,6 @@
+The name of this location is "Wendy's" and its POI category is Burger Joint, belonging to the parent category Food.
+The geographic coordinates for this location are (40.93253037, -73.99601027), with the corresponding geohash code dr72u5t9rbxw.
+The address is 148 N Washington Ave, Bergenfield, NJ 07621, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Fitness II, distance 0.52 km; Dunkin Donuts/Baskin Robbins, distance 1.56 km.
+The 10 representative nearby POIs and their distances are: Fitness II, distance 0.52 km; Dunkin Donuts/Baskin Robbins, distance 1.56 km.

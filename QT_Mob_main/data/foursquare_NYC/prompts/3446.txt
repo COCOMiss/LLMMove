@@ -1,0 +1,6 @@
+The name of this location is "Barnes & Noble" and its POI category is Bookstore, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.86565942, -73.82941246), with the corresponding geohash code dr72rzr5dp01.
+The address is 300 Baychester Ave, Bronx, NY 10475, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Road, 1(avg: 1); Emergency Room, 1(avg: 2); Gym, 1(avg: 25); Hospital, 1(avg: 2).
+The 10 nearest POIs and their distances are: MTA Subway - Pelham Bay Park (6), distance 1.42 km; Hutchinson River Parkway, distance 1.81 km; Jacobi Medical Center, distance 1.81 km; Planet Fitness, distance 1.95 km; Montefiore Medical Center, distance 2.33 km; MTA Subway - Middletown Road (6), distance 2.54 km.
+The 10 representative nearby POIs and their distances are: MTA Subway - Pelham Bay Park (6), distance 1.42 km; Hutchinson River Parkway, distance 1.81 km; Planet Fitness, distance 1.95 km; MTA Subway - Middletown Road (6), distance 2.54 km; Jacobi Medical Center, distance 1.81 km; Montefiore Medical Center, distance 2.33 km.

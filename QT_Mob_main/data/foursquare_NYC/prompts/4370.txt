@@ -1,0 +1,6 @@
+The name of this location is "White Castle" and its POI category is Fast Food Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.85841124, -74.035714), with the corresponding geohash code dr727q0c6zfk.
+The address is 310 Bergen Turnpike, Little Ferry, NJ 07643, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Coffee Shop, 1(avg: 63); Gym / Fitness Center, 1(avg: 7); Miscellaneous Shop, 1(avg: 6).
+The 10 nearest POIs and their distances are: Starbucks, distance 0.75 km; Golds Gym, distance 1.75 km; Costco Wholesale Club, distance 2.00 km.
+The 10 representative nearby POIs and their distances are: Golds Gym, distance 1.75 km; Costco Wholesale Club, distance 2.00 km; Starbucks, distance 0.75 km.

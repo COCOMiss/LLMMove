@@ -1,0 +1,6 @@
+The name of this location is "Kings Plaza Mall" and its POI category is Shopping Mall, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.61001858, -73.92026424), with the corresponding geohash code dr5rjbuft00h.
+The address is 5252 Avenue U, Brooklyn, NY 11234, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1); Park, 1(avg: 8); Movie Theater, 1(avg: 5).
+The 10 nearest POIs and their distances are: Kings Plaza Mall, distance 0.00 km; Marine Park, distance 1.34 km; United Artists Sheepshead Bay Stadium 14 & IMAX, distance 2.78 km.
+The 10 representative nearby POIs and their distances are: Kings Plaza Mall, distance 0.00 km; United Artists Sheepshead Bay Stadium 14 & IMAX, distance 2.78 km; Marine Park, distance 1.34 km.

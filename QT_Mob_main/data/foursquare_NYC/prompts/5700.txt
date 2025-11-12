@@ -1,0 +1,6 @@
+The name of this location is "Co-Op City" and its POI category is Home (private), belonging to the parent category Residence.
+The geographic coordinates for this location are (40.86565638, -73.82426211), with the corresponding geohash code dr782p6gdn2r.
+The address is Hutchinson River Pkwy/Einstein Loop North, Bronx, NY 10475, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Road, 1(avg: 1); Gym, 1(avg: 25); Emergency Room, 1(avg: 2).
+The 10 nearest POIs and their distances are: MTA Subway - Pelham Bay Park (6), distance 1.42 km; Hutchinson River Parkway, distance 1.61 km; Planet Fitness, distance 2.02 km; Jacobi Medical Center, distance 2.17 km; MTA Subway - Middletown Road (6), distance 2.68 km.
+The 10 representative nearby POIs and their distances are: MTA Subway - Pelham Bay Park (6), distance 1.42 km; Hutchinson River Parkway, distance 1.61 km; Planet Fitness, distance 2.02 km; MTA Subway - Middletown Road (6), distance 2.68 km; Jacobi Medical Center, distance 2.17 km.

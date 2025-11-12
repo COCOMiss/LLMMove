@@ -1,0 +1,60 @@
+**Location Analysis: Key Food**
+
+**Overview**
+
+Key Food is a grocery store located at 28-45 43rd St, Astoria, NY 11103, USA. The store falls under the category of Shop & Service, specifically a Grocery Store. The geographic coordinates for this location are (40.76288747, -73.91232676), with a geohash code of dr5ryhdtjbyx.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs and their counts are:
+
+1.  Metro Station (12) - Average distance: 19
+2.  Bar (8) - Average distance: 124
+3.  Gym (6) - Average distance: 25
+4.  Coffee Shop (4) - Average distance: 63
+5.  Bakery (3) - Average distance: 16
+6.  Train Station (3) - Average distance: 5
+7.  Sports Bar (2) - Average distance: 8
+8.  Mexican Restaurant (2) - Average distance: 28
+9.  Burger Joint (2) - Average distance: 17
+10. American Restaurant (2) - Average distance: 51
+
+The variety of nearby POIs suggests that Key Food is located in a densely populated area with a mix of commercial and residential properties. The presence of multiple bars, gyms, and restaurants indicates a lively atmosphere, while the proximity to metro stations and train stations suggests good connectivity to other parts of the city.
+
+**Nearest POIs**
+
+The 10 nearest POIs and their distances are:
+
+1.  Canz Bar & Grill (0.21 km)
+2.  MTA Subway - 21st Street/Queensbridge (F) (0.22 km)
+3.  New York Sports Club (0.26 km)
+4.  Planet Fitness (0.26 km)
+5.  Dillingers Pub & Grill (0.29 km)
+6.  MexiQ Kitchen & Draught (0.36 km)
+7.  Grand Cafe Astoria (0.41 km)
+8.  Brooklyn Bagel & Coffee Co. (0.44 km)
+9.  Starbucks (0.57 km)
+10. Sweet Afton (0.62 km)
+
+The nearest POIs are primarily focused on food and beverage, with several bars, restaurants, and coffee shops within walking distance. This suggests that Key Food is situated in a bustling neighborhood with a strong focus on dining and entertainment.
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs and their distances are:
+
+1.  MTA Subway - Astoria/Ditmars Blvd (N/Q) (1.29 km)
+2.  The Garden at Studio Square (1.38 km)
+3.  Bohemian Hall and Beer Garden (1.14 km)
+4.  MTA Subway - Astoria Blvd (N/Q) (0.93 km)
+5.  MTA Subway - 30th Ave - Grand Ave (N/Q) (0.88 km)
+6.  MTA Subway - 74th St-Broadway/Roosevelt Av (7/E/F/M/G/R) (2.50 km)
+7.  UA Kaufman Astoria Stadium 14 (1.31 km)
+8.  MTA Subway - Broadway (N/Q) (1.10 km)
+9.  Planet Fitness (0.26 km)
+10. Astoria Park (2.15 km)
+
+The representative POIs include a mix of transportation hubs, entertainment venues, and recreational spaces. This suggests that Key Food is situated in a neighborhood with a strong sense of community and access to various amenities.
+
+**Conclusion**
+
+Key Food is a grocery store located in a densely populated area of Astoria, Queens, with a mix of commercial and residential properties. The store is surrounded by a variety of POIs, including bars, gyms, restaurants, and transportation hubs. The nearest POIs are primarily focused on food and beverage, while the representative POIs include a mix of entertainment venues, recreational spaces, and transportation hubs. Overall, Key Food appears to be situated in a lively and accessible neighborhood with a strong sense of community.

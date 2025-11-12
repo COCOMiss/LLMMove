@@ -1,0 +1,6 @@
+The name of this location is "Simply Vietnamese" and its POI category is Vietnamese Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.92587654, -73.96373537), with the corresponding geohash code dr72ufm6803d.
+The address is 27 Highwood Ave, Tenafly, NJ 07670, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Medical Center, 1(avg: 1).
+The 10 nearest POIs and their distances are: Englewood Hospital & Medical Center, distance 2.44 km.
+The 10 representative nearby POIs and their distances are: Englewood Hospital & Medical Center, distance 2.44 km.

@@ -1,0 +1,6 @@
+The name of this location is "Home Depot" and its POI category is Furniture / Home Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.67653808, -73.82681523), with the corresponding geohash code dr5x2hbyn829.
+The address is 11220 Rockaway Blvd, South Ozone Park, NY 11420, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 1(avg: 19); Light Rail Station, 1(avg: 1); Train, 1(avg: 4); Coffee Shop, 1(avg: 63); Road, 1(avg: 1); Doctor's Office, 1(avg: 1).
+The 10 nearest POIs and their distances are: MTA - Rockaway Boulevard Subway Station (A), distance 1.49 km; JFK AirTrain - Howard Beach, distance 1.75 km; MTA - Howard Beach - JFK Station, distance 1.82 km; Starbucks, distance 2.02 km; Van Wyck Expressway, distance 2.29 km; Jamaica Hospital Medical Center, distance 2.77 km.
+The 10 representative nearby POIs and their distances are: JFK AirTrain - Howard Beach, distance 1.75 km; Van Wyck Expressway, distance 2.29 km; MTA - Rockaway Boulevard Subway Station (A), distance 1.49 km; Jamaica Hospital Medical Center, distance 2.77 km; Starbucks, distance 2.02 km; MTA - Howard Beach - JFK Station, distance 1.82 km.

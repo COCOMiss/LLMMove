@@ -1,0 +1,56 @@
+**Location Analysis: Sullivan Room**
+
+**Overview**
+
+The Sullivan Room is a nightclub located at 218 Sullivan St, New York, NY 10012, USA, with a geohash code of dr5rsndfk6s6. It falls under the parent category of Nightlife Spot and has a specific category of Nightclub.
+
+**Geographic Location**
+
+The Sullivan Room is situated in the heart of New York City, with geographic coordinates of (40.729465, -73.99994128). This location is within the Greenwich Village neighborhood, known for its vibrant nightlife, arts, and culture.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POI categories and their counts indicate a high concentration of nightlife and dining options. The top categories are:
+
+1. **Bar** (226, avg: 124) - indicating a high number of bars and pubs in the surrounding area.
+2. **Coffee Shop** (99, avg: 63) - suggesting a lively coffee culture in the neighborhood.
+3. **American Restaurant** (86, avg: 51) - pointing to a diverse range of dining options.
+4. **Office** (82, avg: 72) - indicating a mix of residential and commercial spaces.
+5. **Lounge** (58, avg: 35) - adding to the nightlife scene.
+6. **Café** (58, avg: 42) - further emphasizing the neighborhood's coffee culture.
+7. **Italian Restaurant** (50, avg: 28) - highlighting the presence of international cuisine.
+8. **Mexican Restaurant** (41, avg: 28) - adding to the diversity of dining options.
+9. **Gym** (40, avg: 25) - suggesting a focus on health and wellness.
+10. **Pub** (35, avg: 24) - rounding out the nightlife options.
+
+**Nearest POIs**
+
+The 10 nearest POIs to the Sullivan Room are:
+
+1. **Sullivan Hall** (0.02 km)
+2. **Vbar** (0.04 km)
+3. **Third Rail Coffee** (0.04 km)
+4. **Macdougal St. Ale House** (0.05 km)
+5. **Peanut Butter & Co** (0.06 km)
+6. **Village Lantern** (0.06 km)
+7. **Pinkberry** (0.07 km)
+8. **Triona's** (0.07 km)
+9. **Thunder Jackson's** (0.08 km)
+10. **1849** (0.08 km)
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs, which are farther away but still within a reasonable distance, are:
+
+1. **New York Penn Station** (2.46 km)
+2. **Madison Square Garden** (2.39 km)
+3. **MTA Subway - Manhattan Bridge (B/D/N/Q)** (2.56 km)
+4. **Union Square Park** (1.01 km)
+5. **Brooklyn Bridge** (2.70 km)
+6. **Union Square Greenmarket** (1.11 km)
+7. **Madison Square Park** (1.75 km)
+8. **Macy's** (2.54 km)
+9. **PATH: World Trade Center Station** (2.12 km)
+10. **Snowpocalypse 2010** (2.58 km)
+
+Overall, the Sullivan Room is situated in a vibrant and diverse neighborhood with a high concentration of nightlife, dining, and cultural attractions.

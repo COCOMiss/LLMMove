@@ -1,0 +1,6 @@
+The name of this location is "IHOP" and its POI category is American Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.63544512, -73.74035), with the corresponding geohash code dr5x1vrytk1b.
+The address is 254-2 Rock Blvd, Rosedale, NY 11422, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Electronics Store, 1(avg: 5).
+The 10 nearest POIs and their distances are: Best Buy, distance 1.00 km.
+The 10 representative nearby POIs and their distances are: Best Buy, distance 1.00 km.

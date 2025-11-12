@@ -1,0 +1,6 @@
+The name of this location is "Paterson Broadway Bus Terminal" and its POI category is Bus Station, belonging to the parent category Bus Station.
+The geographic coordinates for this location are (40.91907427, -74.17415142), with the corresponding geohash code dr72b1h4ch21.
+The address is 31 W Broadway, Paterson, NJ 07505, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Emergency Room, 1(avg: 2).
+The 10 nearest POIs and their distances are: St. Joseph's Regional Medical Center, distance 1.93 km.
+The 10 representative nearby POIs and their distances are: St. Joseph's Regional Medical Center, distance 1.93 km.

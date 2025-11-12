@@ -1,0 +1,6 @@
+The name of this location is "Bayway Circle" and its POI category is Other Great Outdoors, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.65064101, -74.22077894), with the corresponding geohash code dr5pr04p4s8p.
+The address is 857 Bayway Cir, Elizabeth, NJ 07202, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train, 1(avg: 4).
+The 10 nearest POIs and their distances are: NJ Transit Rail - Elizabeth Station, distance 1.92 km.
+The 10 representative nearby POIs and their distances are: NJ Transit Rail - Elizabeth Station, distance 1.92 km.

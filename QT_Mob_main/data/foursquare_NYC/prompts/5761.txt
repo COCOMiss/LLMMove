@@ -1,0 +1,6 @@
+The name of this location is "North Arlington Pizza" and its POI category is Pizza Place, belonging to the parent category Food.
+The geographic coordinates for this location are (40.77855819, -74.13016948), with the corresponding geohash code dr5rcps03f5q.
+The address is 25 Schuyler Ave, North Arlington, NJ 07031, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym / Fitness Center, 1(avg: 7).
+The 10 nearest POIs and their distances are: Signature Fitness, distance 2.43 km.
+The 10 representative nearby POIs and their distances are: Signature Fitness, distance 2.43 km.

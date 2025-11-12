@@ -1,0 +1,6 @@
+The name of this location is "My Castle" and its POI category is Home (private), belonging to the parent category Home (private).
+The geographic coordinates for this location are (40.67200392, -74.12986841), with the corresponding geohash code dr5r3hh78g5c.
+The address is MVCC+R3 Bayonne, NJ, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 2(avg: 25); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Forum Fitness Club, distance 1.22 km; Planet Fitness, distance 2.07 km; Casciano Memorial Bridge, distance 2.73 km.
+The 10 representative nearby POIs and their distances are: Planet Fitness, distance 2.07 km; Casciano Memorial Bridge, distance 2.73 km; Forum Fitness Club, distance 1.22 km.

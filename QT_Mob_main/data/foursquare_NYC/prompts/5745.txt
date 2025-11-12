@@ -1,0 +1,6 @@
+The name of this location is "Pathmark" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.77910925, -74.18373527), with the corresponding geohash code dr5pzzt598vv.
+The address is 81 Belmont Ave, Belleville, NJ 07109, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Medical Center, 1(avg: 1); Train Station, 1(avg: 5); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Clara Maass Medical Center, distance 0.97 km; NJ Transit Rail - Bloomfield Station, distance 2.04 km; Starbucks, distance 2.50 km.
+The 10 representative nearby POIs and their distances are: NJ Transit Rail - Bloomfield Station, distance 2.04 km; Starbucks, distance 2.50 km; Clara Maass Medical Center, distance 0.97 km.

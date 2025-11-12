@@ -1,0 +1,6 @@
+The name of this location is "MTA Subway - 233rd Street (2/5)" and its POI category is Train, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.89330492, -73.85726452), with the corresponding geohash code dr72xk6ubbxc.
+The address is 233 St, Bronx, NY 10466, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 1(avg: 5); Train, 1(avg: 4); Emergency Room, 1(avg: 2).
+The 10 nearest POIs and their distances are: MTA Subway - Gun Hill Road (2/5), distance 1.89 km; MTA Subway - Woodlawn (4), distance 1.94 km; Montefiore Medical Center, distance 2.40 km.
+The 10 representative nearby POIs and their distances are: Montefiore Medical Center, distance 2.40 km; MTA Subway - Woodlawn (4), distance 1.94 km; MTA Subway - Gun Hill Road (2/5), distance 1.89 km.

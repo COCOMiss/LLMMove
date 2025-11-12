@@ -1,0 +1,6 @@
+The name of this location is "Boulevard Bar & Grill" and its POI category is Bar, belonging to the parent category Nightlife Spot.
+The geographic coordinates for this location are (40.90444404, -74.11822947), with the corresponding geohash code dr729qkv8j43.
+The address is Mola Blvd at Linden Ave, Elmwood Park, NJ 07407, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Electronics Store, 1(avg: 5).
+The 10 nearest POIs and their distances are: Micro Center, distance 1.39 km.
+The 10 representative nearby POIs and their distances are: Micro Center, distance 1.39 km.

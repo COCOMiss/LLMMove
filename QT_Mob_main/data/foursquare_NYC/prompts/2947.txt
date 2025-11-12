@@ -1,0 +1,6 @@
+The name of this location is "Queens Long Island Med Grp" and its POI category is Doctor's Office, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.66338524, -73.85418802), with the corresponding geohash code dr5rr6t12sqj.
+The address is 155- 23 79th St, Howard Beach, NY 11414, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Beach, 1(avg: 1); Coffee Shop, 1(avg: 63); Department Store, 1(avg: 4); Electronics Store, 1(avg: 5); Train, 1(avg: 4); Light Rail Station, 1(avg: 1).
+The 10 nearest POIs and their distances are: Howard Beach, distance 0.67 km; Starbucks, distance 1.21 km; Target, distance 1.78 km; MTA - 80-Hudson Street Subway - A, distance 1.81 km; Best Buy, distance 2.04 km; MTA - Howard Beach - JFK Station, distance 2.06 km; MTA - Rockaway Boulevard Subway Station (A), distance 2.09 km; JFK AirTrain - Howard Beach, distance 2.10 km.
+The 10 representative nearby POIs and their distances are: JFK AirTrain - Howard Beach, distance 2.10 km; MTA - Rockaway Boulevard Subway Station (A), distance 2.09 km; Target, distance 1.78 km; Starbucks, distance 1.21 km; MTA - Howard Beach - JFK Station, distance 2.06 km; Howard Beach, distance 0.67 km; MTA - 80-Hudson Street Subway - A, distance 1.81 km; Best Buy, distance 2.04 km.

@@ -1,0 +1,6 @@
+The name of this location is "Dunkin Donuts" and its POI category is Donut Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.92451717, -74.103646), with the corresponding geohash code dr72cdp6efut.
+The address is 32-02 Broadway, Fair Lawn, NJ 07410, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Pharmacy, 1(avg: 4).
+The 10 nearest POIs and their distances are: ShopRite, distance 2.24 km.
+The 10 representative nearby POIs and their distances are: ShopRite, distance 2.24 km.

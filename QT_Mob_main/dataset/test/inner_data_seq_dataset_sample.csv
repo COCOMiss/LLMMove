@@ -1,0 +1,10 @@
+0
+7
+"At time 2012-08-29 20:28:25+09:00, user 7 will stay at h3 index "
+<a_16><b_56><c_10><d_20><e_13><f_62><g_27> for 10856.0 seconds.
+"At time 2012-08-29 10:23:31+09:00, user 7 stayed at H3 index <a_210><b_5><c_11><d_1><e_4><f_58><g_16> for 15910.0 seconds. At time 2012-08-29 23:54:24+09:00, user 7 stayed at H3 index <a_164><b_20><c_34><d_31><e_18><f_62><g_7> for 1198.0 seconds. At time 2012-08-30 00:19:22+09:00, user 7 stayed at H3 index <a_16><b_56><c_10><d_20><e_13><f_62><g_27> for 5956.0 seconds. At time 2012-08-30 02:33:31+09:00, user 7 stayed at H3 index <a_16><b_56><c_10><d_20><e_13><f_62><g_27> for 6307.0 seconds. At time 2012-08-30 05:03:26+09:00, user 7 stayed at H3 index <a_16><b_54><c_11><d_31><e_13><f_3><g_53> for 1221.0 seconds. At time 2012-08-30 05:53:26+09:00, user 7 stayed at H3 index <a_16><b_56><c_10><d_20><e_13><f_62><g_27> for 5100.0 seconds. At time 2012-08-29 14:53:41+09:00, user 7 stayed at H3 index <a_210><b_5><c_11><d_1><e_4><f_58><g_16> for 10781.0 seconds. At time 2012-08-29 18:38:41+09:00, user 7 stayed at H3 index <a_16><b_56><c_10><d_20><e_13><f_62><g_27> for 4481.0 seconds."
+2012-08-29 20:28:25+09:00
+"User 7: The user with ID 7 has taken 173 stay behaviors in total.
+1. The top hours and frequencies for this user are: 9:00-9:59 for 29 times; 10:00-10:59 for 25 times; 12:00-12:59 for 24 times; 19:00-19:59 for 24 times; 13:00-13:59 for 22 times.
+2. The top locations and frequencies are: <a_16><b_56><c_10><d_20><e_13><f_62><g_27> for 166 times; <a_210><b_5><c_11><d_1><e_4><f_58><g_16> for 42 times; <a_16><b_11><c_52><d_10><e_8><f_10><g_51> for 32 times; <a_16><b_62><c_62><d_11><e_3><f_56><g_46> for 26 times; <a_16><b_62><c_62><d_23><e_3><f_3><g_20> for 14 times.
+3. The top categories and scores are: 'Wellness, Sports & Outdoors' with score 0.257; 'Parking' with score 0.249; 'Mobility & Public Transport' with score 0.192; 'Food' with score 0.18; 'Retail: Daily Goods & Lifestyle' with score 0.131. "

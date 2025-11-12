@@ -1,0 +1,6 @@
+The name of this location is "NJT - 8th St. Light Rail Station" and its POI category is Light Rail Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.65449923, -74.12866116), with the corresponding geohash code dr5r30vjsgzy.
+The address is 8th Street, Bayonne, NJ 07002, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 2(avg: 25).
+The 10 nearest POIs and their distances are: Planet Fitness, distance 0.71 km; Forum Fitness Club, distance 1.58 km.
+The 10 representative nearby POIs and their distances are: Planet Fitness, distance 0.71 km; Forum Fitness Club, distance 1.58 km.

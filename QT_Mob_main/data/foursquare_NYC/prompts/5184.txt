@@ -1,0 +1,6 @@
+The name of this location is "CSI 3N Building" and its POI category is College Academic Building, belonging to the parent category College & University.
+The geographic coordinates for this location are (40.60183248, -74.15012956), with the corresponding geohash code dr5qbxmdbdpu.
+The address is Business, B St, Staten Island, NY 10314, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: College Academic Building, 1(avg: 5); Bookstore, 1(avg: 7); Road, 1(avg: 1); Electronics Store, 1(avg: 5); Shopping Mall, 1(avg: 1).
+The 10 nearest POIs and their distances are: College of Staten Island, distance 0.08 km; Barnes & Noble, distance 1.51 km; Staten Island Expressway, distance 2.09 km; Apple Store, distance 2.58 km; Staten Island Mall, distance 2.61 km.
+The 10 representative nearby POIs and their distances are: Staten Island Mall, distance 2.61 km; Staten Island Expressway, distance 2.09 km; College of Staten Island, distance 0.08 km; Barnes & Noble, distance 1.51 km; Apple Store, distance 2.58 km.

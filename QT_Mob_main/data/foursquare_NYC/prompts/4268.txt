@@ -1,0 +1,6 @@
+The name of this location is "Interstate 280" and its POI category is Other Great Outdoors, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.75286759, -74.19430096), with the corresponding geohash code dr5pzdv6empk.
+The address is 9-11 Humboldt St, Newark, NJ 07107, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: University, 2(avg: 5); Office, 2(avg: 72); Train Station, 1(avg: 5); College Academic Building, 1(avg: 5).
+The 10 nearest POIs and their distances are: NJIT, distance 1.71 km; Newark Broad Street Station, distance 1.98 km; Rutgers University, distance 2.09 km; Rutgers Business School, distance 2.19 km; Audible Inc, distance 2.19 km; Prudential Financial, distance 2.40 km.
+The 10 representative nearby POIs and their distances are: Newark Broad Street Station, distance 1.98 km; Rutgers University, distance 2.09 km; Rutgers Business School, distance 2.19 km; Audible Inc, distance 2.19 km; Prudential Financial, distance 2.40 km; NJIT, distance 1.71 km.

@@ -1,0 +1,6 @@
+The name of this location is "22ND St. Light Rail Stop" and its POI category is Light Rail Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.66130995, -74.11637131), with the corresponding geohash code dr5r36nj73ec.
+The address is 43 Prospect Ave, Bayonne, NJ 07002, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 2(avg: 25); Hospital, 1(avg: 2).
+The 10 nearest POIs and their distances are: Forum Fitness Club, distance 0.54 km; Planet Fitness, distance 1.92 km; Richmond University Medical Center, distance 2.91 km.
+The 10 representative nearby POIs and their distances are: Planet Fitness, distance 1.92 km; Richmond University Medical Center, distance 2.91 km; Forum Fitness Club, distance 0.54 km.

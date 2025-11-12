@@ -1,0 +1,6 @@
+The name of this location is "Staten Island Ferry Boat - Andrew J. Barberi" and its POI category is Boat or Ferry, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.66605625, -74.04785156), with the corresponding geohash code dr5r7500bn24.
+The address is MX82+CV Jersey City, NJ, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Boat or Ferry, 3(avg: 2); Park, 1(avg: 8).
+The 10 nearest POIs and their distances are: Staten Island Ferry Boat - Andrew J. Barberi, distance 0.00 km; Staten Island Ferry Boat - John J. Marchi, distance 0.42 km; Staten Island Ferry Boat - Spirit Of America, distance 1.28 km; Statue of Liberty, distance 2.58 km.
+The 10 representative nearby POIs and their distances are: Statue of Liberty, distance 2.58 km; Staten Island Ferry Boat - Andrew J. Barberi, distance 0.00 km; Staten Island Ferry Boat - John J. Marchi, distance 0.42 km; Staten Island Ferry Boat - Spirit Of America, distance 1.28 km.

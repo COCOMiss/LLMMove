@@ -1,0 +1,6 @@
+The name of this location is "Student Recreation Center" and its POI category is College Gym, belonging to the parent category College & University.
+The geographic coordinates for this location are (40.86552149, -74.19462204), with the corresponding geohash code dr70rxm4gvrg.
+The address is Student Recreation Center, Valley Rd, Montclair, NJ 07043, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: College Communications Building, 1(avg: 1); College Auditorium, 1(avg: 1); Diner, 1(avg: 9); American Restaurant, 1(avg: 51); Bar, 1(avg: 124); Taco Place, 1(avg: 4).
+The 10 nearest POIs and their distances are: University Hall, distance 0.51 km; Montclair State University, distance 0.64 km; Six Brothers Diner, distance 0.77 km; Pub 46, distance 1.35 km; Bliss Lounge, distance 1.99 km; Chipotle Mexican Grill, distance 2.29 km.
+The 10 representative nearby POIs and their distances are: Montclair State University, distance 0.64 km; University Hall, distance 0.51 km; Bliss Lounge, distance 1.99 km; Pub 46, distance 1.35 km; Chipotle Mexican Grill, distance 2.29 km; Six Brothers Diner, distance 0.77 km.

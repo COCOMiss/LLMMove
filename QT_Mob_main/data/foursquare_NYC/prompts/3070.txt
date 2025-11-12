@@ -1,0 +1,6 @@
+The name of this location is "Sushi Village" and its POI category is Japanese Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.76758875, -73.79101697), with the corresponding geohash code dr5xbve02tmg.
+The address is 32-50 Francis Lewis Blvd, Flushing, NY 11358, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 1(avg: 5); Light Rail Station, 1(avg: 1); Dessert Shop, 1(avg: 12); American Restaurant, 1(avg: 51); Shopping Mall, 1(avg: 1); Other Great Outdoors, 1(avg: 13).
+The 10 nearest POIs and their distances are: LIRR - Auburndale Station, distance 0.69 km; LIRR - Bayside Station, distance 1.74 km; Martha's Country Bakery, distance 1.76 km; Panera Bread, distance 1.85 km; Bay Terrace Shopping Center, distance 1.89 km; Kissena Lake, distance 2.51 km.
+The 10 representative nearby POIs and their distances are: Kissena Lake, distance 2.51 km; LIRR - Bayside Station, distance 1.74 km; Bay Terrace Shopping Center, distance 1.89 km; Martha's Country Bakery, distance 1.76 km; Panera Bread, distance 1.85 km; LIRR - Auburndale Station, distance 0.69 km.

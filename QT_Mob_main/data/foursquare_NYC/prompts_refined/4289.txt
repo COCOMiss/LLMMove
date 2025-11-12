@@ -1,0 +1,54 @@
+**Location Analysis: Cody's Bar & Grill**
+
+Cody's Bar & Grill is a pub located in the heart of New York City, specifically at 121 Varick St # 801, New York, NY 10013, USA. The location's geographic coordinates are (40.72514743, -74.00752187), with the corresponding geohash code dr5revv35txz.
+
+**Category and Surroundings**
+
+Cody's Bar & Grill falls under the category of "Pub," which is a subcategory of "Nightlife Spot." This categorization suggests that the location is a popular spot for social gatherings, drinking, and entertainment. The surrounding area is densely populated with various points of interest, including bars, coffee shops, restaurants, and offices.
+
+**Nearby Points of Interest**
+
+The top 10 nearby points of interest (POIs) by category and count are:
+
+1.  Bar (196) - This is not surprising, given the location's category as a pub.
+2.  Coffee Shop (85) - This suggests that the area is also popular for casual, daytime gatherings.
+3.  American Restaurant (81) - This indicates that the location is surrounded by a variety of dining options.
+4.  Office (74) - The presence of offices nearby suggests that the area is a commercial hub.
+5.  Café (51) - This category overlaps with coffee shops, indicating a high concentration of casual dining options.
+6.  Italian Restaurant (49) - This suggests that the area has a diverse range of cuisines available.
+7.  Lounge (47) - This category is similar to bars, indicating a high concentration of nightlife spots.
+8.  Gym (36) - The presence of a gym suggests that the area is also a popular spot for fitness enthusiasts.
+9.  Mexican Restaurant (33) - This indicates that the area has a variety of international cuisines available.
+10. Pub (32) - This category is the same as the location's category, suggesting that the area is a hub for nightlife and social gatherings.
+
+**Nearest POIs**
+
+The 10 nearest POIs to Cody's Bar & Grill are:
+
+1.  Edelman NY (distance: 0.05 km)
+2.  Momentum Worldwide (distance: 0.05 km)
+3.  Antarctica (distance: 0.05 km) - This POI is likely a mislabeling or a joke, as Antarctica is a continent, not a location in New York City.
+4.  The Emerald Pub (distance: 0.10 km)
+5.  Sway (distance: 0.12 km)
+6.  Don Hill's (distance: 0.14 km)
+7.  Edelman 12th Floor (distance: 0.16 km)
+8.  Starbucks (distance: 0.16 km)
+9.  Ear Inn (distance: 0.18 km)
+10. City Winery (distance: 0.19 km)
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs are:
+
+1.  MTA Subway - Manhattan Bridge (B/D/N/Q) (distance: 2.42 km)
+2.  Union Square Park (distance: 1.81 km)
+3.  Brooklyn Bridge (distance: 2.40 km)
+4.  Union Square Greenmarket (distance: 1.91 km)
+5.  Madison Square Park (distance: 2.52 km)
+6.  PATH: World Trade Center Station (distance: 1.43 km)
+7.  Eataly (distance: 2.39 km)
+8.  The High Line (distance: 2.45 km)
+9.  Regal Union Square Stadium 14 (distance: 1.74 km)
+10. Chelsea Market (distance: 1.88 km)
+
+These representative POIs suggest that Cody's Bar & Grill is located in a densely populated area with a mix of commercial, residential, and recreational activities. The presence of public transportation options, parks, and entertainment venues indicates that the area is a popular spot for both locals and tourists.

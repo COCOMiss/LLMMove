@@ -1,0 +1,46 @@
+**Location Analysis: East Rutherford, NJ**
+
+**Overview**
+
+East Rutherford, NJ, located at the geographic coordinates (40.84825445, -74.11812338), is a residential area with a POI category of Home (private) under the parent category Residence. The address is 83 River St, East Rutherford, NJ 07073, USA.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs in East Rutherford, NJ, and their counts, along with their average ratings, are:
+
+1.  **Grocery Store** (1, avg: 9)
+2.  **Dive Bar** (1, avg: 16)
+3.  **Pharmacy** (1, avg: 4)
+4.  **Hot Dog Joint** (1, avg: 2)
+5.  **Gym** (1, avg: 25)
+6.  **Department Store** (1, avg: 4)
+7.  **Coffee Shop** (1, avg: 63)
+8.  **Burger Joint** (1, avg: 17)
+
+The top 10 nearest POIs to the location are:
+
+1.  ShopRite (1.58 km)
+2.  Loop Lounge (1.82 km)
+3.  Costco Wholesale Club (2.43 km)
+4.  Rutt's Hut (2.44 km)
+5.  New York Sports Club (2.46 km)
+6.  Walmart (2.56 km)
+7.  Starbucks (2.60 km)
+8.  Red Robin Gourmet Burgers (2.70 km)
+9.  Whole Foods Market (2.72 km)
+10. Target (2.73 km)
+
+The representative nearby POIs are:
+
+1.  Starbucks (2.60 km)
+2.  Red Robin Gourmet Burgers (2.70 km)
+3.  Costco Wholesale Club (2.43 km)
+4.  New York Sports Club (2.46 km)
+5.  Loop Lounge (1.82 km)
+6.  Rutt's Hut (2.44 km)
+7.  Walmart (2.56 km)
+8.  ShopRite (1.58 km)
+
+**Insights**
+
+Based on the analysis, East Rutherford, NJ, is a residential area with a mix of local shops and services. The presence of a grocery store, pharmacy, and gym suggests a convenient location for daily needs. The high rating of the coffee shop and the presence of a dive bar and hot dog joint indicate a lively atmosphere. The proximity to a department store and burger joint also suggests a convenient location for shopping and dining.

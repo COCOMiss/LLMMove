@@ -1,0 +1,6 @@
+The name of this location is "Shopper's Express" and its POI category is Deli / Bodega, belonging to the parent category Deli / Bodega.
+The geographic coordinates for this location are (40.7910226, -74.1509775), with the corresponding geohash code dr7209ubuvxx.
+The address is 296 Washington Ave, Belleville, NJ 07109, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym / Fitness Center, 1(avg: 7); Gym, 1(avg: 25); Medical Center, 1(avg: 1); Home (private), 1(avg: 14).
+The 10 nearest POIs and their distances are: Signature Fitness, distance 0.74 km; Retro Fitness, distance 2.03 km; Clara Maass Medical Center, distance 2.20 km; Riverwatch Condos, distance 2.23 km.
+The 10 representative nearby POIs and their distances are: Signature Fitness, distance 0.74 km; Retro Fitness, distance 2.03 km; Clara Maass Medical Center, distance 2.20 km; Riverwatch Condos, distance 2.23 km.

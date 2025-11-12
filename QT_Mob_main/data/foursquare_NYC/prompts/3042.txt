@@ -1,0 +1,6 @@
+The name of this location is "Chick-fil-A" and its POI category is Fast Food Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.95634016, -74.06896591), with the corresponding geohash code dr72fxbeup0j.
+The address is 1460 Paramus Pk Mall, Paramus, NJ 07652, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 2(avg: 9); Coffee Shop, 2(avg: 63); Shopping Mall, 1(avg: 1); Office, 1(avg: 72); Community College, 1(avg: 1).
+The 10 nearest POIs and their distances are: Paramus Park Mall, distance 0.04 km; CUnet Headquarters, distance 0.56 km; Trader Joe's, distance 0.93 km; Starbucks, distance 1.16 km; Fairway Market, distance 1.29 km; Bergen Community College, distance 1.81 km; Starbucks, distance 2.62 km.
+The 10 representative nearby POIs and their distances are: Bergen Community College, distance 1.81 km; Paramus Park Mall, distance 0.04 km; Fairway Market, distance 1.29 km; Starbucks, distance 1.16 km; CUnet Headquarters, distance 0.56 km; Starbucks, distance 2.62 km; Trader Joe's, distance 0.93 km.

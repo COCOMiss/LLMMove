@@ -1,0 +1,6 @@
+The name of this location is "ShopRite" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.76633906, -74.21865463), with the corresponding geohash code dr5pzj79hh2h.
+The address is 14 S Harrison St, East Orange, NJ 07018, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Other Great Outdoors, 1(avg: 13).
+The 10 nearest POIs and their distances are: Interstate 280, distance 1.27 km.
+The 10 representative nearby POIs and their distances are: Interstate 280, distance 1.27 km.

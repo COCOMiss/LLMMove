@@ -1,0 +1,6 @@
+The name of this location is "Wendy's" and its POI category is Fast Food Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.75379303, -74.21435864), with the corresponding geohash code dr5pz5nb01ek.
+The address is 275 Central Ave, East Orange, NJ 07018, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Other Great Outdoors, 1(avg: 13).
+The 10 nearest POIs and their distances are: Interstate 280, distance 2.43 km.
+The 10 representative nearby POIs and their distances are: Interstate 280, distance 2.43 km.

@@ -1,0 +1,6 @@
+The name of this location is "Lowes" and its POI category is Hardware Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.90588444, -74.13398875), with the corresponding geohash code dr729n9q0ce3.
+The address is 265 McLean Blvd, Paterson, NJ 07504, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Electronics Store, 1(avg: 5); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Micro Center, distance 0.21 km; I-80 -- Bergen/Passaic, distance 1.51 km.
+The 10 representative nearby POIs and their distances are: I-80 -- Bergen/Passaic, distance 1.51 km; Micro Center, distance 0.21 km.

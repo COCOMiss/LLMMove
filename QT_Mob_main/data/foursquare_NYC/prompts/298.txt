@@ -1,0 +1,6 @@
+The name of this location is "BJ's Wholesale Club" and its POI category is Miscellaneous Shop, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.78292986, -73.83085012), with the corresponding geohash code dr72pbq1b90h.
+The address is 137-05 20th Ave, College Point, NY 11356, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Department Store, 1(avg: 4); Spa, 1(avg: 4); Multiplex, 1(avg: 4); Deli / Bodega, 1(avg: 10); Road, 1(avg: 1); Chinese Restaurant, 1(avg: 7); Train Station, 1(avg: 5); Café, 1(avg: 42).
+The 10 nearest POIs and their distances are: Target, distance 0.21 km; Spa Castle, distance 0.77 km; College Point Multiplex Cinemas, distance 1.35 km; Cherry Valley Deli & Grill, distance 1.60 km; Bronx-Whitestone Bridge, distance 1.93 km; Joe's Shanghai, distance 2.33 km; MTA Subway -Main St (7), distance 2.62 km; Starbucks, distance 2.76 km.
+The 10 representative nearby POIs and their distances are: MTA Subway -Main St (7), distance 2.62 km; Bronx-Whitestone Bridge, distance 1.93 km; Target, distance 0.21 km; College Point Multiplex Cinemas, distance 1.35 km; Starbucks, distance 2.76 km; Spa Castle, distance 0.77 km; Cherry Valley Deli & Grill, distance 1.60 km; Joe's Shanghai, distance 2.33 km.

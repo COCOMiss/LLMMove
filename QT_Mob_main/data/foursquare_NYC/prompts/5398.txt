@@ -1,0 +1,6 @@
+The name of this location is "Villa De BFW <3" and its POI category is Home (private), belonging to the parent category Home (private).
+The geographic coordinates for this location are (40.85072846, -73.78896895), with the corresponding geohash code dr782uss8rsz.
+The address is 435 City Island Ave, Bronx, NY 10464, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Other Great Outdoors, 1(avg: 13).
+The 10 nearest POIs and their distances are: City Island, distance 0.40 km.
+The 10 representative nearby POIs and their distances are: City Island, distance 0.40 km.

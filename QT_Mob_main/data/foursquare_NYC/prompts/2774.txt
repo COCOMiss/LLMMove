@@ -1,0 +1,6 @@
+The name of this location is "Barnes & Noble" and its POI category is Bookstore, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.88555107, -74.21359062), with the corresponding geohash code dr70x4zrd50h.
+The address is VQPP+6H Woodland Park, NJ, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Department Store, 1(avg: 4); Travel & Transport, 1(avg: 1); American Restaurant, 1(avg: 51); Lounge, 1(avg: 35); Burger Joint, 1(avg: 17); Diner, 1(avg: 9).
+The 10 nearest POIs and their distances are: Best Buy, distance 0.15 km; U.S. Route 46, distance 0.30 km; Sonic Drive-In, distance 1.65 km; 46 Lounge, distance 1.70 km; Applebee's Neighborhood Bar & Grill, distance 2.05 km; Six Brothers Diner, distance 2.10 km.
+The 10 representative nearby POIs and their distances are: Sonic Drive-In, distance 1.65 km; U.S. Route 46, distance 0.30 km; 46 Lounge, distance 1.70 km; Best Buy, distance 0.15 km; Six Brothers Diner, distance 2.10 km; Applebee's Neighborhood Bar & Grill, distance 2.05 km.

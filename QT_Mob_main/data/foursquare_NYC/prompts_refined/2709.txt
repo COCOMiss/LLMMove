@@ -1,0 +1,41 @@
+**Location Analysis: Bonefish Grill**
+
+**Introduction**
+
+Bonefish Grill is a seafood restaurant located at 601 From Rd, Paramus, NJ 07652, USA. This analysis will provide an overview of the location, including its geographic coordinates, nearby points of interest (POIs), and distances to nearby establishments.
+
+**Geographic Coordinates and Address**
+
+Bonefish Grill is situated at the geographic coordinates (40.95998594, -74.06716333), which is a geohash code of dr73489cnnb1. The restaurant's address is 601 From Rd, Paramus, NJ 07652, USA.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs, categorized by their average count, are:
+
+1. **Grocery Store**: 2 (avg: 9)
+2. **Shopping Mall**: 1 (avg: 1)
+3. **Office**: 1 (avg: 72)
+4. **Coffee Shop**: 1 (avg: 63)
+5. **Community College**: 1 (avg: 1)
+
+The 10 nearest POIs to Bonefish Grill, along with their distances, are:
+
+1. **Paramus Park Mall**: 0.40 km
+2. **CUnet Headquarters**: 0.98 km
+3. **Fairway Market**: 1.03 km
+4. **Trader Joe's**: 1.36 km
+5. **Starbucks**: 1.58 km
+6. **Bergen Community College**: 2.12 km
+
+The 10 representative nearby POIs, along with their distances, are:
+
+1. **Bergen Community College**: 2.12 km
+2. **Paramus Park Mall**: 0.40 km
+3. **Fairway Market**: 1.03 km
+4. **Starbucks**: 1.58 km
+5. **CUnet Headquarters**: 0.98 km
+6. **Trader Joe's**: 1.36 km
+
+**Conclusion**
+
+Bonefish Grill is located in Paramus, NJ, surrounded by various establishments that cater to different needs. The nearby POIs include shopping malls, grocery stores, offices, coffee shops, and a community college. The restaurant's proximity to Paramus Park Mall and other nearby POIs makes it an attractive dining option for locals and visitors alike.

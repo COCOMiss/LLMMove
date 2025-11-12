@@ -1,0 +1,54 @@
+**Terrace Club Location Analysis**
+
+The Terrace Club is a building located at 50 Rockefeller Plaza, New York, NY 10020, USA. It falls under the category of Professional & Other Places, specifically categorized as a Building. The geographic coordinates for this location are (40.75953472, -73.97844887), with a geohash code of dr5rus493pyr.
+
+**Geographic Context**
+
+The Terrace Club is situated in Midtown Manhattan, a bustling area known for its iconic skyscrapers, entertainment venues, and cultural institutions. The location is within walking distance to several prominent landmarks, including Times Square, Madison Square Garden, and the Museum of Modern Art (MoMA).
+
+**Nearby Points of Interest**
+
+The top 10 nearby points of interest (POIs) by category are:
+
+1.  **Bar (117)**: The area is surrounded by various bars, indicating a lively nightlife scene.
+2.  **Office (91)**: The presence of numerous offices suggests a high concentration of businesses and corporate activities.
+3.  **Coffee Shop (91)**: The abundance of coffee shops provides a convenient option for locals and visitors to grab a quick cup of coffee or snack.
+4.  **American Restaurant (65)**: The variety of American restaurants indicates a diverse range of dining options for those in the area.
+5.  **Café (48)**: The number of cafes suggests a casual, relaxed atmosphere for socializing or working.
+6.  **Hotel (43)**: The presence of hotels implies a high demand for accommodations in the area, possibly due to its proximity to popular attractions.
+7.  **Gym (37)**: The number of gyms indicates a focus on health and wellness in the community.
+8.  **Theater (35)**: The presence of theaters suggests a vibrant cultural scene, with various performances and events taking place in the area.
+9.  **Lounge (35)**: The number of lounges provides a sophisticated atmosphere for socializing or relaxing.
+10.  **Mexican Restaurant (32)**: The variety of Mexican restaurants offers a unique dining experience for those in the area.
+
+**Nearest Points of Interest**
+
+The 10 nearest POIs to the Terrace Club are:
+
+1.  **Anthropologie** (0.02 km): A fashion boutique offering a range of clothing and home decor items.
+2.  **Warner Music Group** (0.04 km): A music industry company with a presence in the area.
+3.  **75 Rockefeller Plaza** (0.04 km): A nearby building with various offices and businesses.
+4.  **NBC Universal Ad Sales** (0.06 km): A media company with a focus on advertising and sales.
+5.  **Starbucks** (0.07 km): A popular coffee shop chain with a location nearby.
+6.  **Hale & Hearty- Rockefeller Plaza** (0.08 km): A soup and salad restaurant with a casual atmosphere.
+7.  **NBCUniversal** (0.08 km): A media and entertainment company with a significant presence in the area.
+8.  **theGrio** (0.08 km): A digital media company focused on news and entertainment.
+9.  **NBC Experience Store** (0.08 km): A retail store offering NBC-themed merchandise.
+10. **BRAVO Media** (0.08 km): A media company with a focus on television programming.
+
+**Representative Nearby Points of Interest**
+
+The 10 representative nearby POIs are:
+
+1.  **New York Penn Station** (1.53 km): A major transportation hub with access to various train lines.
+2.  **Madison Square Garden** (1.56 km): A iconic sports and entertainment venue.
+3.  **NBC Studio 1A - Today Show** (0.15 km): A television studio for the popular morning show.
+4.  **Times Square** (0.78 km): A world-famous area known for its bright lights, billboards, and entertainment options.
+5.  **Port Authority Bus Terminal** (1.14 km): A major bus station with connections to various destinations.
+6.  **Metropolitan Museum of Art** (2.54 km): A world-renowned art museum with a vast collection of art and artifacts.
+7.  **MoMA - Museum of Modern Art** (0.22 km): A modern art museum with a diverse collection of contemporary art.
+8.  **Apple Store** (0.66 km): A flagship store for the tech company, offering a range of products and services.
+9.  **Bryant Park** (0.78 km): A public park with a relaxed atmosphere and various amenities.
+10. **Central Park** (2.71 km): A large urban park with walking paths, lakes, and plenty of green space.
+
+In conclusion, the Terrace Club is situated in the heart of Midtown Manhattan, surrounded by a

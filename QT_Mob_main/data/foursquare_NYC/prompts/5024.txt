@@ -1,0 +1,6 @@
+The name of this location is "MTA Subway - Atlantic Ave (L)" and its POI category is Metro Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.67520278, -73.90318394), with the corresponding geohash code dr5rqk9q4zrg.
+The address is 1764 E New York Ave, Brooklyn, NY 11207, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 2(avg: 5); Metro Station, 2(avg: 19).
+The 10 nearest POIs and their distances are: MTA - Broadway Junction (A/C/L/J/Z), distance 0.41 km; MTA - Halsey St. Station (J/Z), distance 1.70 km; MTA Utica Avenue Train Station A/C, distance 2.23 km; MTA - Myrtle-Wyckoff (L/M), distance 2.79 km.
+The 10 representative nearby POIs and their distances are: MTA - Broadway Junction (A/C/L/J/Z), distance 0.41 km; MTA - Myrtle-Wyckoff (L/M), distance 2.79 km; MTA Utica Avenue Train Station A/C, distance 2.23 km; MTA - Halsey St. Station (J/Z), distance 1.70 km.

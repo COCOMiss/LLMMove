@@ -1,0 +1,6 @@
+The name of this location is "4Sixty6 Lounge" and its POI category is Lounge, belonging to the parent category Nightlife Spot.
+The geographic coordinates for this location are (40.79117632, -74.25445596), with the corresponding geohash code dr70n3c9cf2s.
+The address is 466-01 Prospect Ave, West Orange, NJ 07052, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Multiplex, 1(avg: 4); Grocery Store, 1(avg: 9).
+The 10 nearest POIs and their distances are: AMC Essex Green Cinema 9, distance 0.28 km; Whole Foods, distance 1.52 km.
+The 10 representative nearby POIs and their distances are: Whole Foods, distance 1.52 km; AMC Essex Green Cinema 9, distance 0.28 km.

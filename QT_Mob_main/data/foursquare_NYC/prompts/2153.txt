@@ -1,0 +1,6 @@
+The name of this location is "Calandra's Pizza" and its POI category is Pizza Place, belonging to the parent category Food.
+The geographic coordinates for this location are (40.81272757, -74.19071798), with the corresponding geohash code dr70ptxzqgz5.
+The address is 9 Mill St, Bloomfield, NJ 07003, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 2(avg: 5); Pub, 1(avg: 24); Coffee Shop, 1(avg: 63); Gym, 1(avg: 25); Music Venue, 1(avg: 10); Spanish Restaurant, 1(avg: 4); Baseball Field, 1(avg: 1); Grocery Store, 1(avg: 9).
+The 10 nearest POIs and their distances are: NJ Transit Rail - Bay Street Station, distance 1.60 km; Egan & Sons, distance 1.85 km; Starbucks, distance 1.91 km; Retro Fitness, distance 2.10 km; Wellmont Theatre, distance 2.19 km; Cuban Pete's, distance 2.21 km; NJ Transit Rail - Bloomfield Station, distance 2.37 km; Brookdale Park, distance 2.41 km; ShopRite, distance 2.82 km.
+The 10 representative nearby POIs and their distances are: NJ Transit Rail - Bloomfield Station, distance 2.37 km; Retro Fitness, distance 2.10 km; Cuban Pete's, distance 2.21 km; Wellmont Theatre, distance 2.19 km; Egan & Sons, distance 1.85 km; NJ Transit Rail - Bay Street Station, distance 1.60 km; Brookdale Park, distance 2.41 km; Starbucks, distance 1.91 km; ShopRite, distance 2.82 km.

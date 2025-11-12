@@ -1,0 +1,6 @@
+The name of this location is "Taco Bell" and its POI category is Mexican Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.75740453, -73.7934987), with the corresponding geohash code dr5xbg9jnfgh.
+The address is 172-12 Northern Blvd, Flushing, NY 11358, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 1(avg: 5); Other Great Outdoors, 1(avg: 13); Restaurant, 1(avg: 10); Light Rail Station, 1(avg: 1); Hospital, 1(avg: 2); Multiplex, 1(avg: 4); Dessert Shop, 1(avg: 12); Café, 1(avg: 42).
+The 10 nearest POIs and their distances are: LIRR - Auburndale Station, distance 0.54 km; Kissena Lake, distance 1.47 km; Hooters, distance 1.97 km; LIRR - Bayside Station, distance 1.98 km; Flushing Hospital, distance 1.99 km; AMC Loews Fresh Meadows 7, distance 2.00 km; Martha's Country Bakery, distance 2.02 km; Starbucks, distance 2.11 km.
+The 10 representative nearby POIs and their distances are: Kissena Lake, distance 1.47 km; LIRR - Bayside Station, distance 1.98 km; Hooters, distance 1.97 km; Flushing Hospital, distance 1.99 km; Martha's Country Bakery, distance 2.02 km; AMC Loews Fresh Meadows 7, distance 2.00 km; Starbucks, distance 2.11 km; LIRR - Auburndale Station, distance 0.54 km.

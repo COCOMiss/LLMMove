@@ -1,0 +1,6 @@
+The name of this location is "Metro North - Wakefield Station" and its POI category is Train Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.90537187, -73.8546896), with the corresponding geohash code dr72xqsehczz.
+The address is 500 E 241st St, Bronx, NY 10704, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1).
+The 10 nearest POIs and their distances are: Cross County Mall, distance 2.54 km.
+The 10 representative nearby POIs and their distances are: Cross County Mall, distance 2.54 km.

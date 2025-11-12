@@ -1,0 +1,62 @@
+**Location Analysis: Negril Village**
+
+**Overview**
+
+Negril Village, located at 234 Thompson St, New York, NY 10012, USA, is a Caribbean restaurant situated in the heart of New York City. The restaurant's geohash code is dr5rsns4cjbc, and its geographic coordinates are (40.72956803, -73.99836888).
+
+**Surrounding Environment**
+
+Negril Village is nestled in a vibrant neighborhood with a mix of restaurants, bars, and entertainment venues. The nearby points-of-interest (POIs) suggest a lively atmosphere, with a high concentration of bars (226), coffee shops (99), and restaurants (88). This area appears to be a popular spot for both locals and tourists.
+
+**Top 10 Nearby POIs**
+
+The top 10 nearby POIs, along with their counts and averages, provide insight into the local environment:
+
+1. **Bar (226, avg: 124)**: A high number of bars in the vicinity indicates a lively nightlife scene.
+2. **Coffee Shop (99, avg: 63)**: The presence of multiple coffee shops suggests a hub for coffee lovers and a bustling atmosphere.
+3. **American Restaurant (88, avg: 51)**: A moderate number of American restaurants indicates a mix of local and international cuisine options.
+4. **Office (82, avg: 72)**: The presence of offices suggests a blend of residential and commercial areas.
+5. **Café (59, avg: 42)**: A moderate number of cafes indicates a relaxed atmosphere and a popular spot for casual dining.
+6. **Lounge (58, avg: 35)**: The presence of lounges adds to the lively atmosphere and entertainment options.
+7. **Italian Restaurant (50, avg: 28)**: A moderate number of Italian restaurants suggests a variety of international cuisine options.
+8. **Gym (42, avg: 25)**: The presence of gyms indicates a focus on health and wellness.
+9. **Mexican Restaurant (41, avg: 28)**: A moderate number of Mexican restaurants adds to the diversity of cuisine options.
+10. **Pub (36, avg: 24)**: The presence of pubs contributes to the lively atmosphere and social scene.
+
+**Nearest POIs**
+
+The 10 nearest POIs to Negril Village are:
+
+1. **The Half Pint** (0.02 km)
+2. **The Dove Parlour** (0.05 km)
+3. **Amity Hall** (0.05 km)
+4. **Cuba** (0.07 km)
+5. **Skirball Center for the Performing Arts** (0.07 km)
+6. **Kimmel Center for University Life** (0.08 km)
+7. **Vbar** (0.09 km)
+8. **Triona's** (0.10 km)
+9. **Peanut Butter & Co** (0.10 km)
+10. **BareBurger** (0.10 km)
+
+These nearby POIs are all within a short distance from Negril Village, indicating a densely populated area with a variety of entertainment and dining options.
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs, along with their distances, provide insight into the larger context:
+
+1. **New York Penn Station** (2.42 km)
+2. **Madison Square Garden** (2.35 km)
+3. **MTA Subway - Manhattan Bridge (B/D/N/Q)** (2.54 km)
+4. **Union Square Park** (0.90 km)
+5. **Brooklyn Bridge** (2.69 km)
+6. **Union Square Greenmarket** (1.02 km)
+7. **Madison Square Park** (1.67 km)
+8. **Macy's** (2.48 km)
+9. **PATH: World Trade Center Station** (2.20 km)
+10. **Snowpocalypse 2010** (2.52 km)
+
+These representative POIs are slightly farther away from Negril Village, indicating a larger neighborhood with a mix of commercial and recreational areas.
+
+**Conclusion**
+
+Negril Village is a Caribbean restaurant located in a vibrant neighborhood with a mix of bars, coffee shops, restaurants, and entertainment venues. The surrounding area is densely populated, with a variety of options for dining, entertainment, and socializing. The nearby POIs suggest a lively atmosphere, with a blend of local and international cuisine options.

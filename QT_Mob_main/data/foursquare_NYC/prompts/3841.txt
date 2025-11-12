@@ -1,0 +1,6 @@
+The name of this location is "RELL Memorial Park North Field" and its POI category is Baseball Field, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.93732556, -74.03737075), with the corresponding geohash code dr72ghrthnx4.
+The address is Baseball field, 210 Webb Ave, River Edge, NJ 07661, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Home (private), 1(avg: 14); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: The Lair, distance 0.64 km; Retro Fitness, distance 2.89 km.
+The 10 representative nearby POIs and their distances are: Retro Fitness, distance 2.89 km; The Lair, distance 0.64 km.

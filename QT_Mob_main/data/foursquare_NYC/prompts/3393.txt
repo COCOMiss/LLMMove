@@ -1,0 +1,6 @@
+The name of this location is "MTA Subway - Euclid Ave Station (A/C)" and its POI category is Metro Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.67537671, -73.87210652), with the corresponding geohash code dr5rquxzppv1.
+The address is Pitkin Ave/Euclid Ave, Brooklyn, NY 11208, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 1(avg: 19); Department Store, 1(avg: 4); Electronics Store, 1(avg: 5).
+The 10 nearest POIs and their distances are: MTA - 80-Hudson Street Subway - A, distance 1.26 km; Target, distance 2.50 km; Best Buy, distance 2.65 km.
+The 10 representative nearby POIs and their distances are: Target, distance 2.50 km; MTA - 80-Hudson Street Subway - A, distance 1.26 km; Best Buy, distance 2.65 km.

@@ -1,0 +1,43 @@
+**Location Analysis: Wild Project**
+
+**Location Overview**
+
+Wild Project is a theater located in the heart of New York City, specifically at 191 E 3rd St, New York, NY 10009, USA. The geographic coordinates of this location are (40.72301578, -73.983394), which corresponds to the geohash code dr5rsmquvbr5.
+
+**POI Analysis**
+
+The location is categorized under the Arts & Entertainment category, with a specific POI category of Theater. The surrounding area is densely populated with various establishments, indicating a vibrant and lively atmosphere. The top 10 nearby POI categories and their counts reveal a mix of bars, restaurants, and cafes, suggesting a diverse range of options for visitors.
+
+**Top 10 Nearby POIs**
+
+The 10 nearest POIs to Wild Project are primarily bars and restaurants, with the following distances:
+
+1. No Malice Palace (0.02 km)
+2. Mama's Bar (0.04 km)
+3. Affaire (0.05 km)
+4. Poco (0.06 km)
+5. Croxley's Ale House (0.06 km)
+6. In Vino (0.08 km)
+7. Kate's Joint (0.08 km)
+8. Max (0.08 km)
+9. Idle Hands Bar (0.09 km)
+10. Billy Hurricanes (0.09 km)
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs, which are farther away but still within a reasonable distance, include:
+
+1. MTA Subway - Manhattan Bridge (B/D/N/Q) (1.84 km)
+2. Union Square Park (1.49 km)
+3. Brooklyn Bridge (2.23 km)
+4. Union Square Greenmarket (1.62 km)
+5. Madison Square Park (2.17 km)
+6. Eataly (2.19 km)
+7. Regal Union Square Stadium 14 (1.35 km)
+8. Shake Shack (2.08 km)
+9. Washington Square Park (1.48 km)
+10. Brooklyn Bowl (2.18 km)
+
+**Observations**
+
+Based on the analysis, Wild Project is situated in a busy and lively area with a mix of entertainment, dining, and shopping options. The proximity to various subway stations and parks suggests that visitors can easily access the location using public transportation or on foot. The presence of a diverse range of POIs indicates that Wild Project is likely to attract a wide range of audiences, from foodies to entertainment seekers.

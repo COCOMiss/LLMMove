@@ -1,0 +1,48 @@
+**Location Analysis: Au Bon Pain #220**
+
+**Location Overview**
+
+Au Bon Pain #220 is a coffee shop located at 1400 Pelham Pkwy S, Bronx, NY 10461, USA. The location is situated at the geographic coordinates (40.85642864, -73.84682542), with a geohash code of dr72rtdmunrf.
+
+**Surrounding Environment**
+
+The coffee shop is situated in a densely populated area with various nearby points-of-interest (POI) categories. The top 10 POI categories and their counts are:
+
+1.  Metro Station (4, avg: 19)
+2.  Emergency Room (1, avg: 2)
+3.  Hospital (1, avg: 2)
+4.  Gym (1, avg: 25)
+
+This indicates that the area is a mix of residential, commercial, and healthcare facilities, with a high concentration of transportation options and a nearby gym.
+
+**Nearby POIs**
+
+The 10 nearest POIs to Au Bon Pain #220 are:
+
+1.  Jacobi Medical Center (0.11 km)
+2.  Montefiore Medical Center (0.86 km)
+3.  Planet Fitness (1.63 km)
+4.  MTA Subway - Middletown Road (6) (1.67 km)
+5.  MTA Subway - Pelham Bay Park (6) (1.71 km)
+6.  MTA Subway (2,5) - Pelham Parkway (1.76 km)
+7.  MTA Subway - Westchester Square/East Tremont Ave (6) (1.85 km)
+
+These POIs indicate that the location is close to major healthcare facilities, public transportation options, and a gym, making it a convenient spot for commuters and locals alike.
+
+**Representative POIs**
+
+The 10 representative nearby POIs and their distances are:
+
+1.  MTA Subway - Pelham Bay Park (6) (1.71 km)
+2.  Planet Fitness (1.63 km)
+3.  MTA Subway - Middletown Road (6) (1.67 km)
+4.  Jacobi Medical Center (0.11 km)
+5.  MTA Subway - Westchester Square/East Tremont Ave (6) (1.85 km)
+6.  MTA Subway (2,5) - Pelham Parkway (1.76 km)
+7.  Montefiore Medical Center (0.86 km)
+
+These POIs represent the most relevant and accessible options for customers and visitors of Au Bon Pain #220, offering a range of transportation, healthcare, and fitness options.
+
+**Conclusion**
+
+Au Bon Pain #220 is strategically located in a densely populated area with a mix of residential, commercial, and healthcare facilities. The nearby POIs offer a range of options for transportation, healthcare, and fitness, making it a convenient spot for commuters and locals alike. The representative POIs highlight the most accessible and relevant options for customers and visitors, increasing the appeal and usability of the location.

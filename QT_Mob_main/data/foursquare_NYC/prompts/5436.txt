@@ -1,0 +1,6 @@
+The name of this location is "Bagel Buffet" and its POI category is Sandwich Place, belonging to the parent category Food.
+The geographic coordinates for this location are (40.79155674, -74.05641317), with the corresponding geohash code dr724ccu0924.
+The address is 127 Plaza Center, Secaucus, NJ 07094, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Burger Joint, 1(avg: 17); Movie Theater, 1(avg: 5); American Restaurant, 1(avg: 51); College Gym, 1(avg: 2); Department Store, 1(avg: 4); Basketball Stadium, 1(avg: 1); Gym / Fitness Center, 1(avg: 7).
+The 10 nearest POIs and their distances are: Cheeseburger in Paradise, distance 0.96 km; Kerasotes Showplace 14, distance 1.08 km; Houlihan's - Secaucus, distance 1.09 km; LA fitness, distance 1.10 km; Walmart, distance 1.23 km; IZOD Center, distance 2.43 km; Bally Total Fitness, distance 2.51 km.
+The 10 representative nearby POIs and their distances are: IZOD Center, distance 2.43 km; Walmart, distance 1.23 km; Kerasotes Showplace 14, distance 1.08 km; Cheeseburger in Paradise, distance 0.96 km; Houlihan's - Secaucus, distance 1.09 km; LA fitness, distance 1.10 km; Bally Total Fitness, distance 2.51 km.

@@ -1,0 +1,6 @@
+The name of this location is "Montclair State University" and its POI category is College Auditorium, belonging to the parent category College & University.
+The geographic coordinates for this location are (40.8607586, -74.19882774), with the corresponding geohash code dr70rw6p4j2p.
+The address is 1 E Normal Ave, Montclair, NJ 07043, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: College Auditorium, 1(avg: 1); College Communications Building, 1(avg: 1); Diner, 1(avg: 9); American Restaurant, 1(avg: 51); Bar, 1(avg: 124); Taco Place, 1(avg: 4); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Montclair State University, distance 0.00 km; University Hall, distance 0.19 km; Six Brothers Diner, distance 1.32 km; Pub 46, distance 1.92 km; Bliss Lounge, distance 2.05 km; Chipotle Mexican Grill, distance 2.28 km; Starbucks, distance 2.47 km.
+The 10 representative nearby POIs and their distances are: Montclair State University, distance 0.00 km; University Hall, distance 0.19 km; Bliss Lounge, distance 2.05 km; Pub 46, distance 1.92 km; Chipotle Mexican Grill, distance 2.28 km; Six Brothers Diner, distance 1.32 km; Starbucks, distance 2.47 km.

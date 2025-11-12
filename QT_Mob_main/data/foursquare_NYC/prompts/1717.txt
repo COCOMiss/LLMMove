@@ -1,0 +1,6 @@
+The name of this location is "Dairy Queen" and its POI category is Ice Cream Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.91990119, -74.02652264), with the corresponding geohash code dr72g3px8yry.
+The address is 1037 River Rd, New Milford, NJ 07646, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Asian Restaurant, 1(avg: 18); Shopping Mall, 1(avg: 1); Bookstore, 1(avg: 7); American Restaurant, 1(avg: 51); Wings Joint, 1(avg: 1); Home (private), 1(avg: 14).
+The 10 nearest POIs and their distances are: Retro Fitness, distance 0.92 km; P.F. Chang's, distance 1.44 km; The Shops at Riverside, distance 1.61 km; Barnes & Noble, distance 1.67 km; The Cheesecake Factory, distance 1.70 km; Hooters of Hackensack, distance 1.83 km; The Lair, distance 2.68 km.
+The 10 representative nearby POIs and their distances are: The Shops at Riverside, distance 1.61 km; The Cheesecake Factory, distance 1.70 km; Retro Fitness, distance 0.92 km; The Lair, distance 2.68 km; Barnes & Noble, distance 1.67 km; P.F. Chang's, distance 1.44 km; Hooters of Hackensack, distance 1.83 km.

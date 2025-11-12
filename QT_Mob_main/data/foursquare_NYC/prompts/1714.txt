@@ -1,0 +1,6 @@
+The name of this location is "Pancho's Burritos" and its POI category is Mexican Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.945582, -74.019574), with the corresponding geohash code dr72gtut6ctq.
+The address is 216 Main St, New Milford, NJ 07646, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Home (private), 1(avg: 14).
+The 10 nearest POIs and their distances are: The Lair, distance 2.15 km.
+The 10 representative nearby POIs and their distances are: The Lair, distance 2.15 km.

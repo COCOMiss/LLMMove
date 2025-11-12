@@ -1,0 +1,6 @@
+The name of this location is "Clearview Expressway (35 Avenue - Exit 6a)" and its POI category is Road, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.78684822, -73.78910395), with the corresponding geohash code dr780ch2t784.
+The address is 12 Willets Point Blvd, Bayside, NY 11360, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 1(avg: 51); Shopping Mall, 1(avg: 1); Road, 1(avg: 1); Deli / Bodega, 1(avg: 10); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Panera Bread, distance 1.34 km; Bay Terrace Shopping Center, distance 1.35 km; Throgs Neck Bridge, distance 1.48 km; Cherry Valley Deli & Grill, distance 2.15 km; LIRR - Auburndale Station, distance 2.82 km.
+The 10 representative nearby POIs and their distances are: Throgs Neck Bridge, distance 1.48 km; Bay Terrace Shopping Center, distance 1.35 km; Cherry Valley Deli & Grill, distance 2.15 km; Panera Bread, distance 1.34 km; LIRR - Auburndale Station, distance 2.82 km.

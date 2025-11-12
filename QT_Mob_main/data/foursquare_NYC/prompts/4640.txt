@@ -1,0 +1,6 @@
+The name of this location is "34th St. Light Rail Station" and its POI category is Light Rail Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.67190135, -74.10740137), with the corresponding geohash code dr5r3shdurum.
+The address is 34th Street, Bayonne, NJ 07002, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Forum Fitness Club, distance 1.09 km; Casciano Memorial Bridge, distance 2.75 km.
+The 10 representative nearby POIs and their distances are: Casciano Memorial Bridge, distance 2.75 km; Forum Fitness Club, distance 1.09 km.

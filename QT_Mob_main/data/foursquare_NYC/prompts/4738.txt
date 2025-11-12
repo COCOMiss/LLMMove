@@ -1,0 +1,6 @@
+The name of this location is "Paddy's On The Bay" and its POI category is Bar, belonging to the parent category Nightlife Spot.
+The geographic coordinates for this location are (40.81010861, -73.80350574), with the corresponding geohash code dr780t3bjetk.
+The address is 50 Pennyfield Ave, Bronx, NY 10465, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: General Travel, 1(avg: 1); Road, 1(avg: 1); Deli / Bodega, 1(avg: 10).
+The 10 nearest POIs and their distances are: Throgs Neck Bridge Toll Plaza, distance 0.85 km; Throgs Neck Bridge, distance 1.43 km; Cherry Valley Deli & Grill, distance 2.42 km.
+The 10 representative nearby POIs and their distances are: Throgs Neck Bridge, distance 1.43 km; Throgs Neck Bridge Toll Plaza, distance 0.85 km; Cherry Valley Deli & Grill, distance 2.42 km.

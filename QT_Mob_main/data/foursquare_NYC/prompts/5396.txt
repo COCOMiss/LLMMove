@@ -1,0 +1,6 @@
+The name of this location is "Seashore Restaurant & Marina" and its POI category is Seafood Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.85416477, -73.79113761), with the corresponding geohash code dr782v6bvb7c.
+The address is 591 City Island Ave, Bronx, NY 10464, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Other Great Outdoors, 1(avg: 13).
+The 10 nearest POIs and their distances are: City Island, distance 0.83 km.
+The 10 representative nearby POIs and their distances are: City Island, distance 0.83 km.

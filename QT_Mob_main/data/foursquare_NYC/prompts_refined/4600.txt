@@ -1,0 +1,34 @@
+**Location Analysis: T.G.I. Friday's**
+
+**Location Overview**
+
+T.G.I. Friday's is an American restaurant located at 495 Prospect Ave, West Orange, NJ 07052, USA. The restaurant's geographic coordinates are (40.7920441, -74.25504684), which corresponds to the geohash code dr70n3cnuh0j.
+
+**Category and Parent Category**
+
+The POI category for T.G.I. Friday's is American Restaurant, which falls under the parent category of Food. This suggests that the restaurant serves American cuisine and is a popular dining destination for locals and visitors alike.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs and their counts indicate that the area around T.G.I. Friday's has a mix of entertainment and shopping options. The top 2 POIs are:
+
+1. Multiplex (1) - This suggests that there are movie theaters in the area, providing entertainment options for locals and visitors.
+2. Grocery Store (1) - The presence of a grocery store indicates that there are amenities for daily needs, such as grocery shopping.
+
+The 10 nearest POIs and their distances reveal that:
+
+1. AMC Essex Green Cinema 9 is the closest POI, located 0.17 km away.
+2. Whole Foods is the second closest POI, located 1.45 km away.
+
+The 10 representative nearby POIs and their distances are similar to the nearest POIs, with Whole Foods and AMC Essex Green Cinema 9 being the top two POIs.
+
+**Insights**
+
+Based on the analysis, the following insights can be drawn:
+
+1. T.G.I. Friday's is located in a commercial area with nearby entertainment and shopping options.
+2. The restaurant is close to a multiplex, indicating that it may attract moviegoers and families.
+3. The presence of a grocery store suggests that the area has a mix of daily needs and entertainment options.
+4. Whole Foods is a nearby POI, indicating that the area has access to upscale grocery shopping options.
+
+Overall, T.G.I. Friday's is a convenient dining option in a commercial area with a mix of entertainment and shopping options.

@@ -1,0 +1,36 @@
+**Location Analysis: Costco Wholesale Club in Hackensack, NJ**
+
+**Location Overview**
+
+The location in question is the Costco Wholesale Club, situated at 80 S River St, Hackensack, NJ 07601, USA. It is a Miscellaneous Shop, belonging to the parent category Shop & Service. This location has a geohash code of dr72e1q9e4q3 and geographic coordinates of (40.87627697, -74.03878791).
+
+**Surrounding Environment**
+
+The Costco Wholesale Club is surrounded by various points of interest (POIs) that cater to different needs and preferences. The top 10 nearby POI categories and their counts indicate a mix of shopping, healthcare, and fitness options. The top categories are:
+
+1.  Miscellaneous Shop (1), which includes the Costco Wholesale Club itself
+2. Hospital (1), represented by the Hackensack University Medical Center
+3. Gym / Fitness Center (1), represented by Golds Gym
+4. Coffee Shop (1), represented by Starbucks
+
+**Nearest POIs**
+
+The 10 nearest POIs to the Costco Wholesale Club are:
+
+1. Costco Wholesale Club (0.00 km) - the subject location itself
+2. Hackensack University Medical Center (1.64 km) - a hospital providing medical services
+3. Golds Gym (2.09 km) - a fitness center for exercise and wellness
+4. Starbucks (2.38 km) - a coffee shop for food and beverages
+
+**Representative POIs**
+
+The 10 representative nearby POIs, in order of distance, are:
+
+1. Hackensack University Medical Center (1.64 km) - a hospital
+2. Golds Gym (2.09 km) - a fitness center
+3. Costco Wholesale Club (0.00 km) - the subject location itself
+4. Starbucks (2.38 km) - a coffee shop
+
+**Insights**
+
+The surrounding environment of the Costco Wholesale Club suggests a mix of shopping, healthcare, and fitness options. The presence of a hospital and a fitness center indicates that the area caters to the needs of residents and visitors for medical services and physical activity. The nearby coffee shop offers a convenient spot for a quick break or social gathering. Overall, the location appears to be well-connected to various amenities, making it a convenient spot for residents and visitors alike.

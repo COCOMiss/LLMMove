@@ -1,0 +1,6 @@
+The name of this location is "Rosedale, Queens" and its POI category is General Travel, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.6619871, -73.73549223), with the corresponding geohash code dr5x6473nrzc.
+The address is 142-11 248th St, Jamaica, NY 11422, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1).
+The 10 nearest POIs and their distances are: Green Acres Mall, distance 1.32 km.
+The 10 representative nearby POIs and their distances are: Green Acres Mall, distance 1.32 km.

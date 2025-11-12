@@ -1,0 +1,58 @@
+**Location Analysis: Dugout**
+
+**Overview**
+
+Dugout is a bar located at 880 River Ave # B, Bronx, NY 10452, USA. It falls under the category of Nightlife Spot and is a specific type of POI (Point of Interest) called a Bar. The geohash code for this location is dr72mb94epys.
+
+**Geographic Coordinates and Location**
+
+Dugout is situated at the geographic coordinates (40.82841336, -73.92549099), placing it in the Bronx area of New York City. This location is relatively close to several other notable points of interest in the area.
+
+**Nearby Points of Interest**
+
+The top 10 nearby POI categories and their counts indicate a mix of transportation hubs, restaurants, and other nightlife spots. The most frequent categories are:
+
+1. Metro Station (avg: 19)
+2. Hospital (avg: 2)
+3. Train Station (avg: 5)
+4. Bar (avg: 124)
+5. Coffee Shop (avg: 63)
+6. American Restaurant (avg: 51)
+7. Sports Bar (avg: 8)
+8. Stadium (avg: 1)
+9. Government Building (avg: 1)
+10. Light Rail Station (avg: 1)
+
+**Nearest Points of Interest**
+
+The 10 nearest POIs to Dugout are:
+
+1. Dugout (distance: 0.03 km)
+2. Hard Rock Cafe Yankee Stadium (distance: 0.05 km)
+3. MTA Subway - 161st St/Yankee Stadium (4/B/D) (distance: 0.08 km)
+4. Billy's Sports Bar (distance: 0.08 km)
+5. Yankee Stadium (distance: 0.17 km)
+6. Stan's Sports Bar (distance: 0.20 km)
+7. Bronx County Supreme Court (distance: 0.28 km)
+8. Metro North - Yankees E. 153rd Street Train Station (distance: 0.51 km)
+9. Target (distance: 0.67 km)
+10. MTA Subway - 3rd Ave / 149th St Station (2 5) (distance: 1.50 km)
+
+**Representative Nearby Points of Interest**
+
+The 10 representative nearby POIs and their distances indicate a mix of popular locations in the area, including:
+
+1. Yankee Stadium (distance: 0.17 km)
+2. Metro North - Harlem 125th Station (distance: 2.83 km)
+3. MTA Subway - 161st St/Yankee Stadium (4/B/D) (distance: 0.08 km)
+4. The City College of New York (distance: 2.29 km)
+5. New York Presbyterian - Columbia University Medical Center (distance: 1.89 km)
+6. New York Sports Club (distance: 1.52 km)
+7. Stan's Sports Bar (distance: 0.20 km)
+8. Port Authority - GWB Bus Terminal (distance: 2.52 km)
+9. MTA Subway - 157th Street (1) (distance: 1.75 km)
+10. MTA Subway - 125 St (4/5/6) (distance: 2.85 km)
+
+**Conclusion**
+
+Dugout is a bar located in the Bronx area of New York City, surrounded by various points of interest, including transportation hubs, restaurants, and other nightlife spots. The location is within walking distance to Yankee Stadium and other popular attractions in the area.

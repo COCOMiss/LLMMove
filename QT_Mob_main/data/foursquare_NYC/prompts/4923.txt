@@ -1,0 +1,6 @@
+The name of this location is "Town Pub" and its POI category is Pub, belonging to the parent category Nightlife Spot.
+The geographic coordinates for this location are (40.80634901, -74.19287924), with the corresponding geohash code dr70psw6hwg9.
+The address is 378 County Rd 509, Bloomfield, NJ 07003, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 2(avg: 5); Coffee Shop, 1(avg: 63); Gym, 1(avg: 25); Pub, 1(avg: 24); Music Venue, 1(avg: 10); Spanish Restaurant, 1(avg: 4); Medical Center, 1(avg: 1).
+The 10 nearest POIs and their distances are: Starbucks, distance 1.21 km; NJ Transit Rail - Bay Street Station, distance 1.35 km; NJ Transit Rail - Bloomfield Station, distance 1.64 km; Retro Fitness, distance 2.00 km; Egan & Sons, distance 2.02 km; Wellmont Theatre, distance 2.13 km; Cuban Pete's, distance 2.16 km; Clara Maass Medical Center, distance 2.71 km.
+The 10 representative nearby POIs and their distances are: NJ Transit Rail - Bloomfield Station, distance 1.64 km; Retro Fitness, distance 2.00 km; Cuban Pete's, distance 2.16 km; Wellmont Theatre, distance 2.13 km; Egan & Sons, distance 2.02 km; NJ Transit Rail - Bay Street Station, distance 1.35 km; Starbucks, distance 1.21 km; Clara Maass Medical Center, distance 2.71 km.

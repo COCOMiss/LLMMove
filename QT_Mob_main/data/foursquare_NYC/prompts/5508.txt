@@ -1,0 +1,6 @@
+The name of this location is "The Venetian" and its POI category is Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.87742363, -74.11600426), with the corresponding geohash code dr7293w27bjd.
+The address is 546 River Dr, Garfield, NJ 07026, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Department Store, 1(avg: 4); Grocery Store, 1(avg: 9); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Walmart, distance 1.78 km; ShopRite, distance 1.87 km; Bally Total Fitness, distance 2.20 km.
+The 10 representative nearby POIs and their distances are: Bally Total Fitness, distance 2.20 km; Walmart, distance 1.78 km; ShopRite, distance 1.87 km.

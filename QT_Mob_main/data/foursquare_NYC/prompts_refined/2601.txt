@@ -1,0 +1,37 @@
+**Analysis of Buffalo Wild Wings Location**
+
+**Location Overview**
+
+Buffalo Wild Wings is an American Restaurant located at 33 Lecount Pl, New Rochelle, NY 10801, USA. The geographic coordinates of this location are (40.91156668, -73.78010273), with a geohash code of dr789pdznuzc.
+
+**Proximity to Other Points of Interest (POIs)**
+
+The surrounding area of Buffalo Wild Wings is characterized by a mix of entertainment, education, and transportation hubs. The top 10 nearby POI categories and their counts indicate a high concentration of American Restaurants (1) and Movie Theaters (1), suggesting a lively and entertainment-focused neighborhood. The presence of a Multiplex (1) and Train Station (1) implies a convenient and accessible location for visitors.
+
+**Nearest POIs and Distances**
+
+The 10 nearest POIs to Buffalo Wild Wings are:
+
+1. Buffalo Wild Wings (0.00 km)
+2. New Roc City (0.02 km)
+3. Regal Cinemas New Roc City Stadium 18 + IMAX (0.10 km)
+4. Metro North - New Rochelle Train Station (0.34 km)
+5. Iona College (1.73 km)
+
+These POIs are all within a reasonable walking distance or a short drive away, making Buffalo Wild Wings an attractive location for both locals and visitors.
+
+**Representative POIs and Distances**
+
+The 10 representative nearby POIs and their distances are:
+
+1. Metro North - New Rochelle Train Station (0.34 km)
+2. Regal Cinemas New Roc City Stadium 18 + IMAX (0.10 km)
+3. Buffalo Wild Wings (0.00 km)
+4. New Roc City (0.02 km)
+5. Iona College (1.73 km)
+
+These POIs are representative of the area's entertainment, transportation, and educational offerings, making Buffalo Wild Wings a great location for a night out or a quick bite.
+
+**Conclusion**
+
+Buffalo Wild Wings is situated in a vibrant and accessible area, with a mix of entertainment, education, and transportation options nearby. The high concentration of American Restaurants and Movie Theaters suggests a lively atmosphere, while the presence of a Train Station and Multiplex implies convenience and accessibility. Overall, Buffalo Wild Wings is an attractive location for both locals and visitors looking for a fun and convenient dining experience.

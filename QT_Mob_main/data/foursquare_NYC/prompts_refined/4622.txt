@@ -1,0 +1,56 @@
+**Location Analysis: Eyebeam**
+
+**Overview**
+
+Eyebeam is an art gallery located at 548 W 21st St, New York, NY 10011, USA. It falls under the category of Art Gallery, which is a subcategory of Arts & Entertainment.
+
+**Geographic Location**
+
+Eyebeam is situated at the geographic coordinates (40.747141, -74.00717854), which corresponds to the geohash code dr5rgcv97c85. This location is in the heart of New York City, providing easy access to various attractions and amenities.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs are categorized as follows:
+
+1.  **Bar** (178, avg: 124) - indicating a high concentration of bars in the area.
+2.  **Office** (90, avg: 72) - suggesting a mix of commercial and office spaces nearby.
+3.  **American Restaurant** (88, avg: 51) - implying a variety of dining options in the area.
+4.  **Coffee Shop** (82, avg: 63) - showing a moderate number of coffee shops and cafes.
+5.  **Café** (53, avg: 42) - further emphasizing the presence of food and beverage establishments.
+6.  **Lounge** (49, avg: 35) - adding to the mix of bars and restaurants.
+7.  **Mexican Restaurant** (38, avg: 28) - indicating a specific type of cuisine available in the area.
+8.  **Italian Restaurant** (37, avg: 28) - suggesting another type of cuisine nearby.
+9.  **Pub** (36, avg: 24) - reinforcing the presence of bars and pubs.
+10. **Gym** (34, avg: 25) - indicating a mix of recreational and fitness activities.
+
+**Nearest POIs**
+
+The 10 nearest POIs to Eyebeam are:
+
+1.  **Juliet Supper Club** (0.02 km)
+2.  **Eyebeam** (0.02 km)
+3.  **Boutique Eat Shop (BES)** (0.11 km)
+4.  **Sky Rink at Chelsea Piers** (0.14 km)
+5.  **Chelsea Piers Sports Center** (0.15 km)
+6.  **Chelsea Waterside Park Dog Run** (0.16 km)
+7.  **Pavel Zoubok Gallery** (0.18 km)
+8.  **The High Line** (0.19 km)
+9.  **Chelsea Piers Golf Club** (0.20 km)
+10. **Tia Pol** (0.20 km)
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs, which are a bit farther away but still within a reasonable distance, are:
+
+1.  **New York Penn Station** (1.30 km)
+2.  **Madison Square Garden** (1.30 km)
+3.  **Times Square** (2.01 km)
+4.  **Port Authority Bus Terminal** (1.73 km)
+5.  **Union Square Park** (1.92 km)
+6.  **Bryant Park** (2.12 km)
+7.  **Lincoln Tunnel** (1.76 km)
+8.  **Union Square Greenmarket** (1.83 km)
+9.  **Madison Square Park** (1.72 km)
+10. **Macy's** (1.62 km)
+
+These POIs provide a mix of entertainment, shopping, and transportation options for visitors to Eyebeam.

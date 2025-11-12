@@ -1,0 +1,6 @@
+The name of this location is "Jacob Riis Park" and its POI category is Beach, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.56708945, -73.86546135), with the corresponding geohash code dr5qz1hb3vxf.
+The address is 25 Rockaway Beach Blvd, Neponsit, NY 11694, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are:.
+The 10 nearest POIs and their distances are:.
+The 10 representative nearby POIs and their distances are:.

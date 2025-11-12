@@ -1,0 +1,42 @@
+**Location Analysis: CoCo Fresh Tea & Juice**
+
+**Overview**
+
+CoCo Fresh Tea & Juice is a juice bar located at 50 Lexington Ave #292, New York, NY 10010, USA. The location falls under the category of Food, specifically a juice bar, providing a refreshing and healthy beverage option for those in the area. The geographic coordinates (40.740349, -73.984267) and geohash code dr5ru2w39xs0 pinpoint its exact location.
+
+**Surrounding Environment**
+
+The juice bar is situated in a bustling area of Manhattan, surrounded by various points of interest. The top 10 nearby POI categories and their counts indicate a mix of food, entertainment, and educational institutions. The average count for each category provides insight into the local demographics and preferences:
+
+1.  Bar (271), indicating a lively nightlife scene
+2.  Office (125), suggesting a high concentration of workplaces in the area
+3.  Coffee Shop (118), hinting at a coffee culture that complements the juice bar
+4.  American Restaurant (103), implying a diverse range of dining options
+5.  Café (82), further emphasizing the area's coffee and food culture
+6.  Lounge (66), suggesting a relaxed atmosphere for socializing
+7.  Italian Restaurant (56), indicating an international flavor in the local cuisine
+8.  Mexican Restaurant (55), adding to the variety of dining options
+9.  Gym (49), highlighting a focus on health and wellness
+10. Hotel (48), indicating a high demand for accommodations in the area
+
+**Nearby Points of Interest**
+
+The 10 nearest POIs and their distances provide a clear picture of the surrounding environment:
+
+1.  The People's Improv Theater (PIT) and Mashable HQ are just 50 meters away, suggesting a hub for entertainment and media.
+2.  Baruch College is 70 meters away, indicating a nearby educational institution.
+3.  Chipotle Mexican Grill and Baoguette are within 90 meters, offering convenient dining options.
+4.  Gramercy Theatre and Bread & Butter are slightly farther away, within a 100-120 meter radius.
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs and their distances provide a broader understanding of the area's attractions:
+
+1.  New York Penn Station and Madison Square Garden are within a 1.37-1.28 km radius, indicating a central location for transportation and entertainment.
+2.  NBC Studio 1A - Today Show and Times Square are slightly farther away, within a 2.05-1.77 km radius, suggesting a hub for media and tourism.
+3.  Union Square Park, MoMA - Museum of Modern Art, and Bryant Park are within a 0.68-1.49 km radius, offering cultural and recreational options.
+4.  Apple Store and Port Authority Bus Terminal are within a 2.77-1.97 km radius, providing shopping and transportation options.
+
+**Conclusion**
+
+In conclusion, CoCo Fresh Tea & Juice is situated in a vibrant area of Manhattan, surrounded by a diverse range of points of interest. The juice bar benefits from its proximity to entertainment, educational institutions, and dining options, making it an attractive spot for those seeking a refreshing beverage in a lively atmosphere. The surrounding environment and nearby POIs suggest a high demand for convenience, entertainment, and cultural experiences, positioning CoCo Fresh Tea & Juice as a popular destination for locals and visitors alike.

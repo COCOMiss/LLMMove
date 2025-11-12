@@ -1,0 +1,6 @@
+The name of this location is "Robison Annex FDU" and its POI category is College Science Building, belonging to the parent category College & University.
+The geographic coordinates for this location are (40.89839491, -74.02952167), with the corresponding geohash code dr72emm67j7u.
+The address is Robison Hall, 1000 River Rd 4th FL, Teaneck, NJ 07666, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Wings Joint, 1(avg: 1); American Restaurant, 1(avg: 51); Bookstore, 1(avg: 7); Shopping Mall, 1(avg: 1); Asian Restaurant, 1(avg: 18); Gym, 1(avg: 25); Medical Center, 1(avg: 1); Miscellaneous Shop, 1(avg: 6).
+The 10 nearest POIs and their distances are: Hooters of Hackensack, distance 0.62 km; The Cheesecake Factory, distance 0.77 km; Barnes & Noble, distance 0.81 km; The Shops at Riverside, distance 0.83 km; P.F. Chang's, distance 1.03 km; Retro Fitness, distance 1.51 km; Holy Name Medical Center, distance 2.38 km; Costco Wholesale Club, distance 2.58 km.
+The 10 representative nearby POIs and their distances are: The Shops at Riverside, distance 0.83 km; The Cheesecake Factory, distance 0.77 km; Retro Fitness, distance 1.51 km; Costco Wholesale Club, distance 2.58 km; Barnes & Noble, distance 0.81 km; Holy Name Medical Center, distance 2.38 km; P.F. Chang's, distance 1.03 km; Hooters of Hackensack, distance 0.62 km.

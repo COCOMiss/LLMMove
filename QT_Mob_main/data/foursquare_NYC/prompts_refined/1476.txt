@@ -1,0 +1,47 @@
+**Location Analysis: Ovelia**
+
+**Overview**
+
+Ovelia is a breakfast spot located at 2855 34th St #2, Astoria, NY 11103, USA. With a geohash code of dr5rvvjvgdyt and geographic coordinates (40.76577328, -73.9189463), this location is situated in the heart of Astoria, a bustling neighborhood in Queens, New York.
+
+**Neighborhood and Surroundings**
+
+Astoria is a diverse and vibrant neighborhood with a mix of residential, commercial, and entertainment areas. Ovelia is surrounded by various points of interest, including:
+
+1. **Metro Stations:** The nearest metro stations are MTA Subway - 30th Ave - Grand Ave (N/Q) and MTA Subway - Astoria Blvd (N/Q), which are within a 0.24 km and 0.48 km distance, respectively.
+2. **Food and Drink:** The area is known for its diverse dining options, including Sweet Afton, Key Food, Brooklyn Bagel & Coffee Co., Grand Cafe Astoria, and MexiQ Kitchen & Draught, all within a 0.24-0.33 km distance.
+3. **Entertainment:** Astoria has a lively nightlife scene, with bars like Rapture Lounge and Astoria Brewhouse within a 0.22-0.27 km distance.
+
+**POI Categories and Counts**
+
+The top 10 nearby points-of-interest categories and their counts are:
+
+1. **Metro Station** (12, avg: 19)
+2. **Bar** (8, avg: 124)
+3. **Gym** (6, avg: 25)
+4. **Coffee Shop** (4, avg: 63)
+5. **Bakery** (3, avg: 16)
+6. **Train Station** (3, avg: 5)
+7. **Mexican Restaurant** (2, avg: 28)
+8. **Burger Joint** (2, avg: 17)
+9. **Sports Bar** (2, avg: 8)
+10. **American Restaurant** (2, avg: 51)
+
+**Representative POIs**
+
+The 10 representative nearby POIs and their distances are:
+
+1. **MTA - Queensboro Plaza (N/Q/7)** (2.44 km)
+2. **MTA Subway - Astoria/Ditmars Blvd (N/Q)** (1.11 km)
+3. **The Garden at Studio Square** (1.31 km)
+4. **Bohemian Hall and Beer Garden** (0.82 km)
+5. **MTA Subway - Astoria Blvd (N/Q)** (0.48 km)
+6. **MTA Subway - 30th Ave - Grand Ave (N/Q)** (0.24 km)
+7. **UA Kaufman Astoria Stadium 14** (1.28 km)
+8. **MTA Subway - Broadway (N/Q)** (0.68 km)
+9. **Planet Fitness** (0.44 km)
+10. **Astoria Park** (1.72 km)
+
+**Insights**
+
+Ovelia is a breakfast spot in the heart of Astoria, surrounded by a diverse range of restaurants, bars, and entertainment options. The area is easily accessible by public transportation, with several metro stations nearby. The presence of gyms, coffee shops, and bakeries suggests a lively and active community. The nearby parks and entertainment venues make Astoria an attractive destination for both locals and visitors.

@@ -1,0 +1,6 @@
+The name of this location is "Canarsie, Brooklyn" and its POI category is Home (private), belonging to the parent category Residence.
+The geographic coordinates for this location are (40.64365659, -73.90067339), with the corresponding geohash code dr5rnqgnmqxz.
+The address is 1506 Rockaway Pkwy, Brooklyn, NY 11236, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 1(avg: 19); Other Nightlife, 1(avg: 7).
+The 10 nearest POIs and their distances are: MTA - Canarsie/Rockaway Pkwy (L), distance 0.32 km; Stella Artois Socialite Event, distance 1.02 km.
+The 10 representative nearby POIs and their distances are: MTA - Canarsie/Rockaway Pkwy (L), distance 0.32 km; Stella Artois Socialite Event, distance 1.02 km.

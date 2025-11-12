@@ -1,0 +1,58 @@
+**Location Analysis: Café Angelique**
+
+**Overview**
+
+Café Angelique is a café located at 71 Bleecker St, New York, NY 10012, USA. The geographic coordinates of the location are (40.726414, -73.995526), which corresponds to the geohash code dr5rsnn0e3bf. This analysis will provide an overview of the location's characteristics, nearby points of interest, and its surroundings.
+
+**Geographic Location**
+
+Café Angelique is situated in the heart of New York City, specifically in the Greenwich Village neighborhood. The location is surrounded by a mix of residential and commercial areas.
+
+**Nearby Points of Interest**
+
+The top 10 nearby points of interest (POIs) categories and their counts are:
+
+1.  **Bar**: 225 (avg: 124)
+2.  **Coffee Shop**: 101 (avg: 63)
+3.  **American Restaurant**: 89 (avg: 51)
+4.  **Office**: 79 (avg: 72)
+5.  **Lounge**: 58 (avg: 35)
+6.  **Café**: 57 (avg: 42)
+7.  **Italian Restaurant**: 50 (avg: 28)
+8.  **Mexican Restaurant**: 41 (avg: 28)
+9.  **Gym**: 41 (avg: 25)
+10. **Pub**: 37 (avg: 24)
+
+The top 10 nearest POIs and their distances are:
+
+1.  Café Angelique (distance: 0.01 km)
+2.  Two Boots (distance: 0.03 km)
+3.  blip.tv HQ (distance: 0.03 km)
+4.  Urban Outfitters (distance: 0.06 km)
+5.  Han's Deli (distance: 0.06 km)
+6.  Bleecker Street Bar (distance: 0.06 km)
+7.  Shapiro Hardware (distance: 0.07 km)
+8.  Meetup HQ (distance: 0.07 km)
+9.  Iris (distance: 0.07 km)
+10. Pinche Taqueria (distance: 0.08 km)
+
+The 10 representative nearby POIs and their distances are:
+
+1.  New York Penn Station (distance: 2.73 km)
+2.  Madison Square Garden (distance: 2.65 km)
+3.  MTA Subway - Manhattan Bridge (B/D/N/Q) (distance: 2.14 km)
+4.  Union Square Park (distance: 1.06 km)
+5.  Brooklyn Bridge (distance: 2.34 km)
+6.  Union Square Greenmarket (distance: 1.20 km)
+7.  Madison Square Park (distance: 1.88 km)
+8.  Macy's (distance: 2.75 km)
+9.  PATH: World Trade Center Station (distance: 2.06 km)
+10. Snowpocalypse 2010 (distance: 2.79 km)
+
+**Analysis**
+
+Café Angelique is situated in a densely populated area with a mix of commercial and residential buildings. The nearby points of interest indicate a vibrant and lively atmosphere, with a variety of cafes, restaurants, and bars. The presence of offices and gyms suggests a strong business and fitness community in the area.
+
+The location's proximity to major transportation hubs, such as New York Penn Station and MTA Subway - Manhattan Bridge (B/D/N/Q), makes it easily accessible by public transportation. The nearby Union Square Park and Madison Square Park provide green spaces for recreation and relaxation.
+
+Overall, Café Angelique is a convenient and lively location in the heart of New York City, surrounded by a diverse range of points of interest and attractions.

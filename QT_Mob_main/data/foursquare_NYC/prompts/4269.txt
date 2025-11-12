@@ -1,0 +1,6 @@
+The name of this location is "VA Medical Center - East Orange" and its POI category is Hospital, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.7530462, -74.23596162), with the corresponding geohash code dr5pydz58wqv.
+The address is Veterans Adm Hospital, East Orange, NJ 07018, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: School, 1(avg: 1); Other Great Outdoors, 1(avg: 13); American Restaurant, 1(avg: 51); Train, 1(avg: 4).
+The 10 nearest POIs and their distances are: Seton Hall University, distance 1.45 km; Interstate 280, distance 1.98 km; Starbucks, distance 2.17 km; NJ Transit Rail - South Orange Station, distance 2.19 km.
+The 10 representative nearby POIs and their distances are: Seton Hall University, distance 1.45 km; NJ Transit Rail - South Orange Station, distance 2.19 km; Starbucks, distance 2.17 km; Interstate 280, distance 1.98 km.

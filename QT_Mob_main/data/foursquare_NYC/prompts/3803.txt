@@ -1,0 +1,6 @@
+The name of this location is "McDonald's" and its POI category is Fast Food Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.66020904, -73.77383934), with the corresponding geohash code dr5x31zwbuq6.
+The address is 16504 Rockaway Blvd, Jamaica, NY 11434, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Airport Terminal, 6(avg: 3); General Travel, 3(avg: 1); Airport, 2(avg: 1); American Restaurant, 1(avg: 51); Plane, 1(avg: 1).
+The 10 nearest POIs and their distances are: Terminal 7, distance 1.43 km; JetBlue Lounge, distance 1.59 km; Terminal 5, distance 1.68 km; John F Kennedy International Airport (JFK), distance 1.86 km; JFK Runway, distance 1.91 km; American Airlines Admirals Club, distance 1.99 km; Terminal 8, distance 2.00 km; Terminal 4, distance 2.00 km; Terminal 1, distance 2.43 km; Terminal 3, distance 2.50 km.
+The 10 representative nearby POIs and their distances are: John F Kennedy International Airport (JFK), distance 1.86 km; Terminal 5, distance 1.68 km; Terminal 8, distance 2.00 km; Terminal 4, distance 2.00 km; Terminal 3, distance 2.50 km; Terminal 7, distance 1.43 km; Terminal 2, distance 2.53 km; Terminal 1, distance 2.43 km; American Airlines Admirals Club, distance 1.99 km; Delta Sky Club, distance 2.55 km.

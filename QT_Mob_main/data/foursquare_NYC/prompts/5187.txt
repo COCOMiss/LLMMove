@@ -1,0 +1,6 @@
+The name of this location is "Smoke BBQ Pit" and its POI category is BBQ Joint, belonging to the parent category Food.
+The geographic coordinates for this location are (40.68083, -73.76331), with the corresponding geohash code dr5x3mxpn23e.
+The address is 12909 Merrick Blvd, Jamaica, NY 11434, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are:.
+The 10 nearest POIs and their distances are:.
+The 10 representative nearby POIs and their distances are:.

@@ -1,0 +1,6 @@
+The name of this location is "Tokyo Hibachi & Sushi Buffet" and its POI category is Japanese Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.78621377, -74.04560391), with the corresponding geohash code dr7250csum7f.
+The address is 700 Plaza Dr Suite 209, Secaucus, NJ 07094, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 1(avg: 51); Movie Theater, 1(avg: 5); Burger Joint, 1(avg: 17); College Gym, 1(avg: 2); Department Store, 1(avg: 4); Gym / Fitness Center, 1(avg: 7); Arcade, 1(avg: 3); Diner, 1(avg: 9).
+The 10 nearest POIs and their distances are: Houlihan's - Secaucus, distance 0.06 km; Kerasotes Showplace 14, distance 0.13 km; Cheeseburger in Paradise, distance 0.14 km; LA fitness, distance 0.39 km; Walmart, distance 0.78 km; Bally Total Fitness, distance 1.47 km; Union City, distance 1.80 km; Coach House, distance 2.88 km.
+The 10 representative nearby POIs and their distances are: Walmart, distance 0.78 km; Kerasotes Showplace 14, distance 0.13 km; Cheeseburger in Paradise, distance 0.14 km; Houlihan's - Secaucus, distance 0.06 km; Coach House, distance 2.88 km; LA fitness, distance 0.39 km; Union City, distance 1.80 km; Bally Total Fitness, distance 1.47 km.

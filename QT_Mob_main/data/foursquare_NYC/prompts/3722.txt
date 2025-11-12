@@ -1,0 +1,6 @@
+The name of this location is "LA Fitness" and its POI category is Gym, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.75473442, -73.70051622), with the corresponding geohash code dr5xfghvt90h.
+The address is Q73X+VQ North New Hyde Park, NY, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Hospital, 1(avg: 2); Emergency Room, 1(avg: 2).
+The 10 nearest POIs and their distances are: LA Fitness, distance 0.00 km; Long Island Jewish Medical Center, distance 0.66 km; North Shore University Hospital, distance 2.46 km.
+The 10 representative nearby POIs and their distances are: LA Fitness, distance 0.00 km; North Shore University Hospital, distance 2.46 km; Long Island Jewish Medical Center, distance 0.66 km.

@@ -1,0 +1,60 @@
+**CVS/pharmacy Location Analysis**
+
+**Location Overview**
+
+The CVS/pharmacy location is situated at Ditmars Bl/31 St, Queens, NY 11105, USA, with geographic coordinates (40.77605346, -73.91060438) and a geohash code of dr5ryp5cwp6c. This pharmacy falls under the parent category of Shop & Service and is specifically categorized as a Pharmacy.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs, categorized by type and average rating, are:
+
+1.  **Bar** (8, avg: 124)
+2.  **Metro Station** (7, avg: 19)
+3.  **Gym** (5, avg: 25)
+4.  **Bakery** (3, avg: 16)
+5.  **Coffee Shop** (3, avg: 63)
+6.  **Diner** (2, avg: 9)
+7.  **Mexican Restaurant** (2, avg: 28)
+8.  **Sports Bar** (2, avg: 8)
+9.  **Burger Joint** (2, avg: 17)
+10. **American Restaurant** (2, avg: 51)
+
+These POIs indicate a diverse range of amenities and services available in the surrounding area, catering to various needs and preferences.
+
+**Nearest POIs**
+
+The 10 nearest POIs to CVS/pharmacy, along with their distances, are:
+
+1.  MTA Subway - N Train (0.01 km)
+2.  Starbucks (0.05 km)
+3.  The Rock Health & Fitness Club (0.08 km)
+4.  Key Food (0.09 km)
+5.  Igloo Ice Cream Cafe (0.10 km)
+6.  Mojave NYC (0.13 km)
+7.  The Giving Tree Yoga Studio (0.18 km)
+8.  MTA Subway - Astoria/Ditmars Blvd (N/Q) (0.23 km)
+9.  Brooklyn Bagel & Coffee Co. (0.23 km)
+10. Martha's Country Bakery (0.34 km)
+
+These nearby POIs are within walking distance or a short drive from the CVS/pharmacy location, making it convenient for customers to access various services and amenities.
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs, along with their distances, are:
+
+1.  MTA Subway - Astoria/Ditmars Blvd (N/Q) (0.23 km)
+2.  The Garden at Studio Square (2.64 km)
+3.  Bohemian Hall and Beer Garden (0.58 km)
+4.  MTA Subway - Astoria Blvd (N/Q) (0.91 km)
+5.  LGA - Marine Air Terminal (2.22 km)
+6.  MTA Subway - 30th Ave - Grand Ave (N/Q) (1.39 km)
+7.  Robert F. Kennedy Bridge (2.45 km)
+8.  UA Kaufman Astoria Stadium 14 (2.61 km)
+9.  MTA Subway - Broadway (N/Q) (2.00 km)
+10. Planet Fitness (1.53 km)
+
+These POIs are a mix of public transportation, entertainment, and recreational options, providing a broader context of the surrounding area's amenities and services.
+
+**Conclusion**
+
+The CVS/pharmacy location at Ditmars Bl/31 St, Queens, NY 11105, is situated in a vibrant area with a diverse range of amenities and services. The nearby POIs cater to various needs, including food, entertainment, fitness, and transportation. The location's proximity to public transportation options and other services makes it a convenient destination for customers.

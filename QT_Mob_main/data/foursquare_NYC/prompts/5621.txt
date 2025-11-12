@@ -1,0 +1,6 @@
+The name of this location is "Whiskey Cafe" and its POI category is Bar, belonging to the parent category Nightlife Spot.
+The geographic coordinates for this location are (40.80618073, -74.10409776), with the corresponding geohash code dr721sx11r7v.
+The address is Wall St West at Garland Way, Lyndhurst, NJ 07071, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Indie Theater, 1(avg: 2); Train Station, 1(avg: 5); Grocery Store, 1(avg: 9); Bakery, 1(avg: 16).
+The 10 nearest POIs and their distances are: Medieval Times, distance 0.31 km; NJ Transit Rail - Kingsland Station, distance 1.20 km; ShopRite, distance 1.43 km; Panera Bread, distance 2.78 km.
+The 10 representative nearby POIs and their distances are: Medieval Times, distance 0.31 km; NJ Transit Rail - Kingsland Station, distance 1.20 km; Panera Bread, distance 2.78 km; ShopRite, distance 1.43 km.

@@ -1,0 +1,6 @@
+The name of this location is "Eros Cafe" and its POI category is Café, belonging to the parent category Food.
+The geographic coordinates for this location are (40.82787106, -74.10190679), with the corresponding geohash code dr723b2xs6v9.
+The address is 19 Park Ave, Rutherford, NJ 07070, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bakery, 1(avg: 16); Café, 1(avg: 42); Hot Dog Joint, 1(avg: 2); Indie Theater, 1(avg: 2); Grocery Store, 1(avg: 9); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Panera Bread, distance 0.84 km; Starbucks, distance 1.12 km; Rutt's Hut, distance 1.84 km; Medieval Times, distance 2.22 km; ShopRite, distance 2.25 km; NJ Transit Rail - Kingsland Station, distance 2.36 km.
+The 10 representative nearby POIs and their distances are: Medieval Times, distance 2.22 km; Starbucks, distance 1.12 km; Rutt's Hut, distance 1.84 km; NJ Transit Rail - Kingsland Station, distance 2.36 km; Panera Bread, distance 0.84 km; ShopRite, distance 2.25 km.

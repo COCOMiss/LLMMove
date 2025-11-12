@@ -1,0 +1,6 @@
+The name of this location is "Delta Gas Station" and its POI category is Gas Station / Garage, belonging to the parent category Gas Station / Garage.
+The geographic coordinates for this location are (40.79146893, -74.23331941), with the corresponding geohash code dr70ncbgw2cn.
+The address is 398 Main St, West Orange, NJ 07052, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 1(avg: 9); Multiplex, 1(avg: 4); Other Great Outdoors, 1(avg: 13); Gym, 1(avg: 25); Music Venue, 1(avg: 10); Coffee Shop, 1(avg: 63); Breakfast Spot, 1(avg: 20).
+The 10 nearest POIs and their distances are: Whole Foods, distance 1.91 km; AMC Essex Green Cinema 9, distance 1.93 km; Interstate 280, distance 2.31 km; New York Sports Club, distance 2.72 km; Wellmont Theatre, distance 2.74 km; Starbucks, distance 2.77 km; Raymond's, distance 2.78 km.
+The 10 representative nearby POIs and their distances are: Wellmont Theatre, distance 2.74 km; Starbucks, distance 2.77 km; New York Sports Club, distance 2.72 km; Whole Foods, distance 1.91 km; Raymond's, distance 2.78 km; Interstate 280, distance 2.31 km; AMC Essex Green Cinema 9, distance 1.93 km.

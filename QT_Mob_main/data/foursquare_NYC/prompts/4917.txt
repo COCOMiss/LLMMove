@@ -1,0 +1,6 @@
+The name of this location is "Rutherford Train Station" and its POI category is Train Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.8282937, -74.1008091), with the corresponding geohash code dr723b96jcxf.
+The address is Rutherford, E Erie Ave, Rutherford, NJ 07070, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bakery, 1(avg: 16); Café, 1(avg: 42); Hot Dog Joint, 1(avg: 2); Indie Theater, 1(avg: 2); Grocery Store, 1(avg: 9); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Panera Bread, distance 0.74 km; Starbucks, distance 1.02 km; Rutt's Hut, distance 1.94 km; Medieval Times, distance 2.28 km; ShopRite, distance 2.35 km; NJ Transit Rail - Kingsland Station, distance 2.45 km.
+The 10 representative nearby POIs and their distances are: Medieval Times, distance 2.28 km; Starbucks, distance 1.02 km; Rutt's Hut, distance 1.94 km; NJ Transit Rail - Kingsland Station, distance 2.45 km; Panera Bread, distance 0.74 km; ShopRite, distance 2.35 km.

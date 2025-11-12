@@ -1,0 +1,6 @@
+The name of this location is "North Shore University Hospital" and its POI category is Emergency Room, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.77696675, -73.70148182), with the corresponding geohash code dr5xfzhpncxc.
+The address is 1350 Northern Blvd, Manhasset, NY 11030, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train, 2(avg: 4); Emergency Room, 1(avg: 2); Gym, 1(avg: 25); Hospital, 1(avg: 2).
+The 10 nearest POIs and their distances are: North Shore University Hospital, distance 0.03 km; LIRR - Manhasset Train Station, distance 2.24 km; LIRR - Great Neck Station, distance 2.36 km; LA Fitness, distance 2.47 km; Long Island Jewish Medical Center, distance 2.54 km.
+The 10 representative nearby POIs and their distances are: LA Fitness, distance 2.47 km; North Shore University Hospital, distance 0.03 km; LIRR - Great Neck Station, distance 2.36 km; Long Island Jewish Medical Center, distance 2.54 km; LIRR - Manhasset Train Station, distance 2.24 km.

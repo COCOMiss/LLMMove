@@ -1,0 +1,6 @@
+The name of this location is "Pathmark" and its POI category is Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.82708617, -73.86262423), with the corresponding geohash code dr72r0qgh07x.
+The address is 1851 Bruckner Blvd, Bronx, NY 10472, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 3(avg: 19); Road, 1(avg: 1); Indie Theater, 1(avg: 2); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Bruckner Expressway, distance 0.25 km; MTA Subway - 177th Street/Parkchester (6), distance 0.68 km; Socialite, distance 1.34 km; MTA - East 180th Street (2,5), distance 1.86 km; MTA Subway - West Farms Square/East Tremont Avenue (2/5), distance 2.09 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 2.20 km.
+The 10 representative nearby POIs and their distances are: Socialite, distance 1.34 km; MTA Subway - 177th Street/Parkchester (6), distance 0.68 km; MTA - East 180th Street (2,5), distance 1.86 km; Bruckner Expressway, distance 0.25 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 2.20 km; MTA Subway - West Farms Square/East Tremont Avenue (2/5), distance 2.09 km.

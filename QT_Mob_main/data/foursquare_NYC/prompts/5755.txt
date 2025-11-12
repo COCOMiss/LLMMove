@@ -1,0 +1,6 @@
+The name of this location is "Hebrew Home for the Aged at Riverdale" and its POI category is Building, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.90981229, -73.90852556), with the corresponding geohash code dr72wpmkyt8z.
+The address is 5959 Palisade Ave, Bronx, NY 10471, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: University, 2(avg: 5); Bar, 2(avg: 124); Baseball Field, 1(avg: 1); Road, 1(avg: 1); Train, 1(avg: 4).
+The 10 nearest POIs and their distances are: College of Mount Saint Vincent, distance 0.33 km; Manhattan College, distance 2.31 km; An Beal Bocht Cafe, distance 2.53 km; Van Cortlandt Park, distance 2.71 km; Bronx Ale House, distance 2.88 km; Henry Hudson Parkway, distance 2.91 km; Metro North - Yonkers Train Station, distance 2.92 km.
+The 10 representative nearby POIs and their distances are: Metro North - Yonkers Train Station, distance 2.92 km; Bronx Ale House, distance 2.88 km; Manhattan College, distance 2.31 km; Henry Hudson Parkway, distance 2.91 km; College of Mount Saint Vincent, distance 0.33 km; An Beal Bocht Cafe, distance 2.53 km; Van Cortlandt Park, distance 2.71 km.

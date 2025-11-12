@@ -1,0 +1,6 @@
+The name of this location is "Wendy's" and its POI category is Fast Food Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.780002, -74.18943018), with the corresponding geohash code dr5pzzbbszr7.
+The address is 147 Bloomfield Ave, Bloomfield, NJ 07003, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Medical Center, 1(avg: 1); Train Station, 1(avg: 5); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Clara Maass Medical Center, distance 1.29 km; NJ Transit Rail - Bloomfield Station, distance 1.67 km; Starbucks, distance 2.16 km.
+The 10 representative nearby POIs and their distances are: NJ Transit Rail - Bloomfield Station, distance 1.67 km; Starbucks, distance 2.16 km; Clara Maass Medical Center, distance 1.29 km.

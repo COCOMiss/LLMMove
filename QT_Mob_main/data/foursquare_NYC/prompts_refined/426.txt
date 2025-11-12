@@ -1,0 +1,51 @@
+**Terminal 4 Analysis**
+
+Terminal 4 is located in Queens, New York, USA, with geographic coordinates (40.64396594, -73.78272057). This location is categorized under the Plane category, which is part of the broader Travel & Transport category.
+
+**Address and Nearby Points of Interest**
+
+The address of Terminal 4 is Terminal 4, Queens, NY 11430, USA. The top 10 nearby points of interest (POI) categories and their counts are:
+
+1.  Airport Terminal: 6 (average distance: 3 km)
+2.  General Travel: 3 (average distance: 1 km)
+3.  Airport: 2 (average distance: 1 km)
+4.  Plane: 1 (average distance: 1 km)
+5.  American Restaurant: 1 (average distance: 51 km)
+6.  Airport Tram: 1 (average distance: 1 km)
+
+The 10 nearest POIs and their distances are:
+
+1.  Terminal 4: 0.06 km
+2.  John F Kennedy International Airport (JFK): 0.14 km
+3.  Terminal 5: 0.45 km
+4.  Terminal 3: 0.55 km
+5.  JetBlue Lounge: 0.57 km
+6.  Terminal 7: 0.59 km
+7.  Terminal 2: 0.67 km
+8.  Delta Sky Club: 0.67 km
+9.  Delta Sky Club: 0.68 km
+10. Terminal 1: 0.69 km
+
+The 10 representative nearby POIs and their distances are:
+
+1.  John F Kennedy International Airport (JFK): 0.14 km
+2.  Terminal 5: 0.45 km
+3.  Terminal 8: 0.71 km
+4.  Terminal 4: 0.06 km
+5.  Terminal 3: 0.55 km
+6.  Terminal 7: 0.59 km
+7.  Terminal 2: 0.67 km
+8.  Terminal 1: 0.69 km
+9.  American Airlines Admirals Club: 0.94 km
+10. JFK AirTrain - Federal Circle Station: 2.48 km
+
+**Key Observations**
+
+* Terminal 4 is located within John F Kennedy International Airport (JFK), which is the closest POI at a distance of 0.14 km.
+* The surrounding POIs are primarily airport terminals, indicating that Terminal 4 is situated in a densely populated airport area.
+* The presence of multiple Delta Sky Clubs nearby suggests that Terminal 4 may cater to a significant number of Delta Air Lines passengers.
+* The American Restaurant POI is listed with an unusually high average distance of 51 km, which may indicate that it is not a nearby establishment but rather a notable restaurant within the airport or nearby.
+
+**Conclusion**
+
+Terminal 4 is a significant location within John F Kennedy International Airport, with a dense concentration of airport terminals and amenities nearby. The presence of multiple Delta Sky Clubs and the proximity to other airport terminals suggest that Terminal 4 is a major hub for air travel.

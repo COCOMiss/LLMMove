@@ -1,0 +1,46 @@
+**Location Analysis: New Roc City**
+
+**Overview**
+
+New Roc City is a movie theater located in New Rochelle, New York, USA. It falls under the category of Arts & Entertainment, specifically Movie Theater. The location is situated at the address 33 Lecount Pl, New Rochelle, NY 10801, with geographic coordinates (40.91143695, -73.77997398) and a geohash code of dr789pen6h85.
+
+**Surrounding Points of Interest (POIs)**
+
+The top 10 nearby POIs are categorized into various categories, with the following counts and averages:
+
+1.  Movie Theater (1, avg: 5)
+2.  American Restaurant (1, avg: 51)
+3.  Multiplex (1, avg: 4)
+4.  Train Station (1, avg: 5)
+5.  University (1, avg: 5)
+
+The 10 nearest POIs to New Roc City are:
+
+1.  New Roc City (0.00 km)
+2.  Buffalo Wild Wings (0.02 km)
+3.  Regal Cinemas New Roc City Stadium 18 + IMAX (0.08 km)
+4.  Metro North - New Rochelle Train Station (0.35 km)
+5.  Iona College (1.75 km)
+
+The 10 representative nearby POIs are:
+
+1.  Metro North - New Rochelle Train Station (0.35 km)
+2.  Regal Cinemas New Roc City Stadium 18 + IMAX (0.08 km)
+3.  Buffalo Wild Wings (0.02 km)
+4.  New Roc City (0.00 km)
+5.  Iona College (1.75 km)
+
+**Key Takeaways**
+
+* New Roc City is surrounded by a mix of entertainment and convenience options, including a train station, restaurants, and a nearby university.
+* The location is situated in a densely populated area, with multiple POIs within a short walking distance.
+* The presence of a train station and university suggests that the area is likely to be busy during peak hours, with a diverse range of people visiting the location.
+
+**Recommendations**
+
+Based on the analysis, the following recommendations can be made:
+
+* For movie-goers, New Roc City is an ideal location, with a nearby multiplex and IMAX theater.
+* For those looking for dining options, there are multiple restaurants in the area, including an American restaurant and a sports bar.
+* For commuters, the proximity to a train station makes it an attractive location for those looking to access public transportation.
+* For students and faculty, the nearby university provides a convenient option for entertainment and education.

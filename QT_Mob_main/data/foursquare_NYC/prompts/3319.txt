@@ -1,0 +1,6 @@
+The name of this location is "Bayonne Bridge" and its POI category is Road, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.64225637, -74.14209366), with the corresponding geohash code dr5r0yeq7cxy.
+The address is Bayonne Bridge, Bayonne Brg, Staten Island, NJ 10302, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Planet Fitness, distance 1.39 km.
+The 10 representative nearby POIs and their distances are: Planet Fitness, distance 1.39 km.

@@ -1,0 +1,6 @@
+The name of this location is "Hunts Point - the Bronx" and its POI category is Building, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.81965834, -73.89040546), with the corresponding geohash code dr72nwfxszb6.
+The address is 910 Hunts Point Ave, Bronx, NY 10474, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: MTA Subway - Prospect Avenue (2/5), distance 0.92 km; MTA Subway - West Farms Square/East Tremont Avenue (2/5), distance 2.44 km; Cross Bronx Expressway, distance 2.84 km.
+The 10 representative nearby POIs and their distances are: Cross Bronx Expressway, distance 2.84 km; MTA Subway - West Farms Square/East Tremont Avenue (2/5), distance 2.44 km; MTA Subway - Prospect Avenue (2/5), distance 0.92 km.

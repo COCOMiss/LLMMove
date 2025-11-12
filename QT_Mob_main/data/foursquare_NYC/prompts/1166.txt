@@ -1,0 +1,6 @@
+The name of this location is "Walmart" and its POI category is Department Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.74732199, -74.1369009), with the corresponding geohash code dr5rbcz4m525.
+The address is 150 Harrison Ave, Kearny, NJ 07032, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Department Store, 1(avg: 4); Speakeasy, 1(avg: 6); Soccer Stadium, 1(avg: 1); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Walmart, distance 0.00 km; Swamps Of Jersey, distance 1.61 km; Red Bull Arena, distance 1.62 km; PATH: Harrison Station, distance 1.85 km.
+The 10 representative nearby POIs and their distances are: PATH: Harrison Station, distance 1.85 km; Red Bull Arena, distance 1.62 km; Walmart, distance 0.00 km; Swamps Of Jersey, distance 1.61 km.

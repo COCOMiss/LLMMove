@@ -1,0 +1,6 @@
+The name of this location is "Hillside Support Facility - LIRR" and its POI category is Train Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.7070919, -73.77533913), with the corresponding geohash code dr5x94qrvzzv.
+The address is 93-59 183rd St, Jamaica, NY 11412, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: College Academic Building, 3(avg: 5); Metro Station, 2(avg: 19); University, 2(avg: 5); Playground, 1(avg: 5).
+The 10 nearest POIs and their distances are: MTA Subway - Jamaica 179th St. Station (F), distance 0.95 km; York College CUNY, distance 1.83 km; MTA Subway - Jamaica Center-Parsons/Archer Avenue  (E/J/Z), distance 2.15 km; St John's Hall, distance 2.28 km; St. John's University, distance 2.30 km; St. Louise de Marillac Hall, distance 2.41 km; D'Angelo Center, distance 2.43 km; Cunningham Park, distance 2.66 km.
+The 10 representative nearby POIs and their distances are: St. John's University, distance 2.30 km; MTA Subway - Jamaica 179th St. Station (F), distance 0.95 km; MTA Subway - Jamaica Center-Parsons/Archer Avenue  (E/J/Z), distance 2.15 km; St. Louise de Marillac Hall, distance 2.41 km; D'Angelo Center, distance 2.43 km; York College CUNY, distance 1.83 km; St John's Hall, distance 2.28 km; Cunningham Park, distance 2.66 km.

@@ -1,0 +1,60 @@
+**CVS Pharmacy Location Analysis**
+
+**Overview**
+
+The CVS Pharmacy location is situated at 253 1st Ave., New York, NY 10003, USA, with geographic coordinates (40.73177921, -73.98240566) and a geohash code of dr5rsqzxv1bp. This pharmacy falls under the category of Shop & Service and is a key point of interest in the area.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POI categories and their counts are:
+
+1.  Bar (239, avg: 124)
+2.  Coffee Shop (100, avg: 63)
+3.  Office (99, avg: 72)
+4.  American Restaurant (84, avg: 51)
+5.  Café (70, avg: 42)
+6.  Lounge (61, avg: 35)
+7.  Italian Restaurant (50, avg: 28)
+8.  Mexican Restaurant (47, avg: 28)
+9.  Pub (39, avg: 24)
+10. Gym (38, avg: 25)
+
+These POIs indicate a diverse range of establishments in the area, catering to various needs and interests. The high count of bars and restaurants suggests a lively atmosphere, while the presence of offices and gyms suggests a mix of professional and recreational activities.
+
+**Nearest POIs**
+
+The 10 nearest POIs and their distances are:
+
+1.  CVS Pharmacy (0.00 km)
+2.  O'Hanlon's Bar (0.05 km)
+3.  MTA Subway - 1st Ave (L) (0.05 km)
+4.  14th Street Y (0.07 km)
+5.  The Crocodile Lounge (0.11 km)
+6.  Curly's Lunch (0.12 km)
+7.  Artichoke Basille’s Pizza & Brewery (0.12 km)
+8.  Associated Supermarket (0.13 km)
+9.  The Redhead (0.13 km)
+10. Stuyvesant Park Residence (0.14 km)
+
+This list highlights the proximity of the CVS Pharmacy to other essential services, entertainment options, and residential areas.
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs and their distances are:
+
+1.  New York Penn Station (2.29 km)
+2.  Madison Square Garden (2.21 km)
+3.  NBC Studio 1A - Today Show (2.96 km)
+4.  Times Square (2.74 km)
+5.  MTA Subway - Manhattan Bridge (B/D/N/Q) (2.79 km)
+6.  Union Square Park (0.80 km)
+7.  Bryant Park (2.44 km)
+8.  Union Square Greenmarket (0.87 km)
+9.  Madison Square Park (1.25 km)
+10. Macy's (2.16 km)
+
+These POIs represent popular attractions and landmarks in the area, indicating that the CVS Pharmacy is strategically located near major transportation hubs, entertainment venues, and shopping centers.
+
+**Conclusion**
+
+The CVS Pharmacy location at 253 1st Ave., New York, NY 10003, USA, is situated in a vibrant and diverse area with a range of nearby POIs catering to various needs and interests. The proximity to essential services, entertainment options, and residential areas makes it an attractive location for both locals and visitors.

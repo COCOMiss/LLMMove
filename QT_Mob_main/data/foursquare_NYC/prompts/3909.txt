@@ -1,0 +1,6 @@
+The name of this location is "Cherry Valley Deli & Grill" and its POI category is Deli / Bodega, belonging to the parent category Deli / Bodega.
+The geographic coordinates for this location are (40.789741, -73.814256), with the corresponding geohash code dr7803d17nv6.
+The address is 12-42 150th St, Whitestone, NY 11357, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 2(avg: 1); Deli / Bodega, 1(avg: 10); Department Store, 1(avg: 4); Spa, 1(avg: 4).
+The 10 nearest POIs and their distances are: Cherry Valley Deli & Grill, distance 0.02 km; Bronx-Whitestone Bridge, distance 1.69 km; Target, distance 1.78 km; Spa Castle, distance 1.96 km; Throgs Neck Bridge, distance 2.09 km.
+The 10 representative nearby POIs and their distances are: Throgs Neck Bridge, distance 2.09 km; Bronx-Whitestone Bridge, distance 1.69 km; Target, distance 1.78 km; Spa Castle, distance 1.96 km; Cherry Valley Deli & Grill, distance 0.02 km.

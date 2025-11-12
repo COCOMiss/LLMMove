@@ -1,0 +1,49 @@
+**Location Analysis: Costco**
+
+**Overview**
+
+The location "Costco" is a grocery store situated in New Rochelle, New York, USA. With a geohash code of dr788ubrf0yx, it is located at the coordinates (40.89656885, -73.79472807). The store's address is 1 Industrial Ln, New Rochelle, NY 10805.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs are categorized as follows:
+
+1.  **Train Station** (2): Two train stations, Metro North - New Rochelle Train Station and Metro North - Pelham Train Station, are within a 2.00 km radius of Costco. This indicates that public transportation is readily available for customers.
+2.  **Video Game Store** (1): A single video game store is nearby, suggesting a potential demographic of young adults or families with children in the area.
+3.  **Multiplex** (1): The presence of a multiplex cinema, Regal Cinemas New Roc City Stadium 18 + IMAX, indicates a nearby entertainment option for customers.
+4.  **Movie Theater** (1): This category is almost identical to the multiplex category, reinforcing the availability of entertainment options in the area.
+5.  **American Restaurant** (1): A single American restaurant, Buffalo Wild Wings, is nearby, providing a dining option for customers.
+
+**Nearest POIs**
+
+The 10 nearest POIs to Costco are listed below, along with their distances:
+
+1.  Metro North - New Rochelle Train Station (1.83 km)
+2.  Target (1.96 km)
+3.  Metro North - Pelham Train Station (2.00 km)
+4.  Regal Cinemas New Roc City Stadium 18 + IMAX (2.00 km)
+5.  New Roc City (2.07 km)
+6.  Buffalo Wild Wings (2.07 km)
+7.  Costco (0 km, the store itself)
+8.  New Roc City (2.07 km)
+9.  Target (1.96 km)
+10.  Regal Cinemas New Roc City Stadium 18 + IMAX (2.00 km)
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs are similar to the nearest POIs, with some variations in the order:
+
+1.  Metro North - New Rochelle Train Station (1.83 km)
+2.  Metro North - Pelham Train Station (2.00 km)
+3.  Regal Cinemas New Roc City Stadium 18 + IMAX (2.00 km)
+4.  Buffalo Wild Wings (2.07 km)
+5.  New Roc City (2.07 km)
+6.  Target (1.96 km)
+7.  Costco (0 km, the store itself)
+8.  New Roc City (2.07 km)
+9.  Target (1.96 km)
+10.  Regal Cinemas New Roc City Stadium 18 + IMAX (2.00 km)
+
+**Conclusion**
+
+Costco in New Rochelle, New York, is located in a relatively populated area with various nearby POIs, including public transportation options, entertainment venues, and dining establishments. The presence of a multiplex cinema and American restaurant suggests a diverse demographic in the area. The store's location is easily accessible by public transportation, making it convenient for customers to visit.

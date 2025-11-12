@@ -1,0 +1,6 @@
+The name of this location is "Brennan and Carr" and its POI category is Sandwich Place, belonging to the parent category Food.
+The geographic coordinates for this location are (40.60022274, -73.94214449), with the corresponding geohash code dr5qvrhcrnhf.
+The address is 3432 Nostrand Ave, Brooklyn, NY 11229, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Fast Food Restaurant, 1(avg: 5); Park, 1(avg: 8); Gym, 1(avg: 25); Movie Theater, 1(avg: 5); Shopping Mall, 1(avg: 1); College Classroom, 1(avg: 1).
+The 10 nearest POIs and their distances are: MTA - Kings Highway (B/Q), distance 1.65 km; MTA - Sheepshead Bay (B/Q), distance 1.76 km; Roll N Roaster, distance 1.80 km; Marine Park, distance 1.81 km; Bally Total Fitness, distance 1.85 km; United Artists Sheepshead Bay Stadium 14 & IMAX, distance 1.89 km; Kings Plaza Mall, distance 2.15 km; Kingsborough Community College, distance 2.48 km.
+The 10 representative nearby POIs and their distances are: MTA - Kings Highway (B/Q), distance 1.65 km; Kingsborough Community College, distance 2.48 km; Kings Plaza Mall, distance 2.15 km; United Artists Sheepshead Bay Stadium 14 & IMAX, distance 1.89 km; MTA - Sheepshead Bay (B/Q), distance 1.76 km; Roll N Roaster, distance 1.80 km; Bally Total Fitness, distance 1.85 km; Marine Park, distance 1.81 km.

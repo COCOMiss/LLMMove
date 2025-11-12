@@ -1,0 +1,6 @@
+The name of this location is "Fitness II" and its POI category is Gym, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.92769035, -73.9964292), with the corresponding geohash code dr72u4tmn4rq.
+The address is 6A S Washington Ave, Bergenfield, NJ 07621, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Fitness II, distance 0.04 km; Dunkin Donuts/Baskin Robbins, distance 1.03 km.
+The 10 representative nearby POIs and their distances are: Fitness II, distance 0.04 km; Dunkin Donuts/Baskin Robbins, distance 1.03 km.

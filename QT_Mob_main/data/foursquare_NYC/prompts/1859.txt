@@ -1,0 +1,6 @@
+The name of this location is "Cristina Food Market" and its POI category is Deli / Bodega, belonging to the parent category Food.
+The geographic coordinates for this location are (40.789671, -73.81406623), with the corresponding geohash code dr7803d1p9fc.
+The address is 12-41 150th St, Whitestone, NY 11357, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 2(avg: 1); Deli / Bodega, 1(avg: 10); Department Store, 1(avg: 4); Spa, 1(avg: 4).
+The 10 nearest POIs and their distances are: Cherry Valley Deli & Grill, distance 0.03 km; Bronx-Whitestone Bridge, distance 1.71 km; Target, distance 1.79 km; Spa Castle, distance 1.97 km; Throgs Neck Bridge, distance 2.08 km.
+The 10 representative nearby POIs and their distances are: Throgs Neck Bridge, distance 2.08 km; Bronx-Whitestone Bridge, distance 1.71 km; Target, distance 1.79 km; Spa Castle, distance 1.97 km; Cherry Valley Deli & Grill, distance 0.03 km.

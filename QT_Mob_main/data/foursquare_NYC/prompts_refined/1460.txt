@@ -1,0 +1,54 @@
+**Location Analysis: Firdos Inc.**
+
+**Location Overview**
+
+Firdos Inc. is a Middle Eastern restaurant located in Long Island City, New York, USA. The restaurant's address is 25-17 Steinway St, Long Island City, NY 11103. The geographic coordinates for this location are (40.76737527, -73.91207414), with a geohash code of dr5ryj6z5vdf.
+
+**Nearby Points-of-Interest (POIs)**
+
+The top 10 nearby POIs to Firdos Inc. are:
+
+1.  Metro Station (12 instances, avg: 19)
+2.  Bar (8 instances, avg: 124)
+3.  Gym (6 instances, avg: 25)
+4.  Coffee Shop (4 instances, avg: 63)
+5.  Bakery (3 instances, avg: 16)
+6.  Train Station (3 instances, avg: 5)
+7.  Mexican Restaurant (2 instances, avg: 28)
+8.  Sports Bar (2 instances, avg: 8)
+9.  Burger Joint (2 instances, avg: 17)
+10. Diner (2 instances, avg: 9)
+
+The 10 nearest POIs to Firdos Inc. are:
+
+1. MTA Subway - 21st Street/Queensbridge (F), 0.33 km
+2. Rapture Lounge, 0.43 km
+3. MexiQ Kitchen & Draught, 0.45 km
+4. Canz Bar & Grill, 0.45 km
+5. New York Sports Club, 0.46 km
+6. Grand Cafe Astoria, 0.49 km
+7. Brooklyn Bagel & Coffee Co., 0.50 km
+8. Neptune Diner, 0.55 km
+9. Planet Fitness, 0.58 km
+10. MTA Subway - Astoria Blvd (N/Q), 0.58 km
+
+The 10 representative nearby POIs to Firdos Inc. are:
+
+1. MTA Subway - Astoria/Ditmars Blvd (N/Q), 0.80 km
+2. The Garden at Studio Square, 1.76 km
+3. Bohemian Hall and Beer Garden, 0.69 km
+4. MTA Subway - Astoria Blvd (N/Q), 0.58 km
+5. MTA Subway - 30th Ave - Grand Ave (N/Q), 0.80 km
+6. UA Kaufman Astoria Stadium 14, 1.70 km
+7. MTA Subway - Broadway (N/Q), 1.27 km
+8. Planet Fitness, 0.58 km
+9. Astoria Park, 1.70 km
+10. New York Sports Club, 0.46 km
+
+**Insights**
+
+Based on the analysis, Firdos Inc. is located in a densely populated area with a mix of residential, commercial, and entertainment venues. The presence of multiple metro stations and train stations indicates that the area is well-connected to other parts of the city. The abundance of bars, gyms, and coffee shops suggests a lively and active community.
+
+The proximity of Firdos Inc. to other restaurants, including Mexican and diner options, indicates a diverse dining scene in the area. The presence of a sports club and a stadium nearby suggests that the area may be popular with sports enthusiasts.
+
+The distance between Firdos Inc. and other nearby POIs ranges from 0.33 km to 1.76 km, indicating that the restaurant is easily accessible on foot or by public transportation. Overall, Firdos Inc. appears to be located in a convenient and vibrant area with a mix of amenities and attractions.

@@ -1,0 +1,6 @@
+The name of this location is "Applebee's Neighborhood Grill & Bar" and its POI category is Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.7200059, -74.0943718), with the corresponding geohash code dr5r9uy55zrb.
+The address is Hudson Mall, 701 NJ-440, Jersey City, NJ 07304, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); University, 1(avg: 5); Bridge, 1(avg: 1).
+The 10 nearest POIs and their distances are: Rt. 440 & Communipaw, distance 0.34 km; New Jersey City University, distance 1.42 km; Pulaski Skyway, distance 2.58 km.
+The 10 representative nearby POIs and their distances are: Pulaski Skyway, distance 2.58 km; New Jersey City University, distance 1.42 km; Rt. 440 & Communipaw, distance 0.34 km.

@@ -1,0 +1,54 @@
+**Neptune Diner Location Analysis**
+
+**Overview**
+
+The Neptune Diner is a Greek Restaurant located at 5 Astoria Blvd N, Astoria, NY 11102, USA. It has a geohash code of dr5rvyp61s0j and geographic coordinates of (40.77062934, -73.91698122). This analysis will provide an overview of the surrounding area and nearby points of interest.
+
+**Surrounding Area**
+
+The Neptune Diner is situated in the heart of Astoria, a neighborhood in Queens, New York City. The area is densely populated with various restaurants, bars, and shops. The diner is within walking distance to several public transportation options, including the MTA Subway - Astoria Blvd (N/Q) station, which is just 0.10 km away.
+
+**Nearby Points of Interest**
+
+The top 10 nearby points of interest (POIs) are:
+
+1. **Metro Station**: 10 (avg: 19) - indicating a high concentration of subway stations in the area
+2. **Bar**: 8 (avg: 124) - suggesting a lively nightlife scene
+3. **Gym**: 5 (avg: 25) - indicating a mix of fitness options for residents
+4. **Bakery**: 3 (avg: 16) - suggesting a variety of baked goods available
+5. **Coffee Shop**: 3 (avg: 63) - indicating a high concentration of coffee shops
+6. **Mexican Restaurant**: 2 (avg: 28) - suggesting a diverse dining scene
+7. **Diner**: 2 (avg: 9) - indicating a mix of casual dining options
+8. **Sports Bar**: 2 (avg: 8) - suggesting a sports-focused atmosphere
+9. **Burger Joint**: 2 (avg: 17) - indicating a variety of burger options
+10. **American Restaurant**: 2 (avg: 51) - suggesting a mix of classic American cuisine
+
+The top 10 nearest POIs are:
+
+1. **Neptune Diner** (0.00 km) - the subject location
+2. **MTA Subway - Astoria Blvd (N/Q)** (0.10 km) - a major transportation hub
+3. **The Sparrow** (0.23 km) - a bar and restaurant
+4. **Bohemian Hall and Beer Garden** (0.25 km) - a popular beer garden and event space
+5. **Rapture Lounge** (0.38 km) - a nightlife venue
+6. **Astoria Brewhouse** (0.52 km) - a brewery and restaurant
+7. **Key Food** (0.56 km) - a convenience store and grocery
+8. **Ovelia** (0.57 km) - a restaurant and bar
+9. **MTA Subway - Astoria/Ditmars Blvd (N/Q)** (0.58 km) - another major transportation hub
+10. **MTA Subway - 30th Ave - Grand Ave (N/Q)** (0.58 km) - a transportation hub
+
+The top 10 representative nearby POIs are:
+
+1. **MTA Subway - Astoria/Ditmars Blvd (N/Q)** (0.58 km) - a major transportation hub
+2. **The Garden at Studio Square** (1.87 km) - a park and event space
+3. **Bohemian Hall and Beer Garden** (0.25 km) - a popular beer garden and event space
+4. **MTA Subway - Astoria Blvd (N/Q)** (0.10 km) - a major transportation hub
+5. **MTA Subway - 30th Ave - Grand Ave (N/Q)** (0.58 km) - a transportation hub
+6. **Robert F. Kennedy Bridge** (2.92 km) - a major transportation artery
+7. **UA Kaufman Astoria Stadium 14** (1.85 km) - a movie theater
+8. **MTA Subway - Broadway (N/Q)** (1.19 km) - a transportation hub
+9. **Planet Fitness** (0.88 km) - a gym
+10. **Astoria Park** (1.21 km) - a park and recreational area
+
+**Conclusion**
+
+The Neptune Diner is situated in a vibrant and densely populated area with a mix of restaurants, bars, and shops. The nearby points of interest suggest a lively nightlife scene, a variety of dining options, and a range of recreational activities. The proximity to major transportation hubs makes it easily accessible by public transportation. Overall, the Neptune Diner is a great location for those looking for a convenient and lively dining experience.

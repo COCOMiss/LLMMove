@@ -1,0 +1,6 @@
+The name of this location is "Casa De Cattdaddy" and its POI category is Home (private), belonging to the parent category Residence.
+The geographic coordinates for this location are (40.72384336, -73.73013314), with the corresponding geohash code dr5xdjx3e6sh.
+The address is 237-02 93rd Ave, Jamaica, NY 11426, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Other Great Outdoors, 1(avg: 13); Light Rail Station, 1(avg: 1); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Belmont Park Racetrack, distance 1.34 km; LIRR - Floral Park Station, distance 2.01 km; Cross Island Parkway, distance 2.17 km.
+The 10 representative nearby POIs and their distances are: Belmont Park Racetrack, distance 1.34 km; LIRR - Floral Park Station, distance 2.01 km; Cross Island Parkway, distance 2.17 km.

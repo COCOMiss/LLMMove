@@ -1,0 +1,6 @@
+The name of this location is "Dunkin Donuts" and its POI category is Coffee Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.78029167, -74.17562284), with the corresponding geohash code dr5rbpffqtqg.
+The address is 901 Franklin Ave, Newark, NJ 07107, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Medical Center, 1(avg: 1); Gym, 1(avg: 25); American Restaurant, 1(avg: 51).
+The 10 nearest POIs and their distances are: Clara Maass Medical Center, distance 0.59 km; Retro Fitness, distance 2.52 km; Applebee's, distance 2.62 km.
+The 10 representative nearby POIs and their distances are: Retro Fitness, distance 2.52 km; Applebee's, distance 2.62 km; Clara Maass Medical Center, distance 0.59 km.

@@ -1,0 +1,6 @@
+The name of this location is "NJT - Richard Street Light Rail Station" and its POI category is Light Rail Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.69908851, -74.07866478), with the corresponding geohash code dr5rd3193gzz.
+The address is Richard Street, Jersey City, NJ 07305, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: University, 1(avg: 5); Light Rail Station, 1(avg: 1); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: New Jersey City University, distance 1.26 km; Liberty State Park NJ Transit Hudson-Bergen Light Rail Station, distance 2.29 km; Rt. 440 & Communipaw, distance 2.81 km.
+The 10 representative nearby POIs and their distances are: Liberty State Park NJ Transit Hudson-Bergen Light Rail Station, distance 2.29 km; New Jersey City University, distance 1.26 km; Rt. 440 & Communipaw, distance 2.81 km.

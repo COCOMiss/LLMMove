@@ -1,0 +1,6 @@
+The name of this location is "McDonald's" and its POI category is Fast Food Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.66531994, -73.75644189), with the corresponding geohash code dr5x3duhwm4f.
+The address is 22120 S Conduit Ave, Jamaica, NY 11413, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are:.
+The 10 nearest POIs and their distances are:.
+The 10 representative nearby POIs and their distances are:.

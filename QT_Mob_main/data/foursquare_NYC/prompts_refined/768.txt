@@ -1,0 +1,59 @@
+**Location Analysis: MTA Subway - 36th Ave (N/Q)**
+
+The location, MTA Subway - 36th Ave (N/Q), is a metro station situated in the Queens borough of New York City, USA. It is categorized under the Travel & Transport category and has a POI code of Metro Station.
+
+**Geographic Information:**
+
+- Latitude: 40.75645736
+- Longitude: -73.9296627
+- Geohash Code: dr5rveqpd424
+- Address: 36 Av, 36th Ave, Queens, NY 11106, USA
+
+**Nearby Points of Interest (POIs):**
+
+The top 10 nearby POIs are categorized as follows:
+
+1.  Metro Station (14) - Average distance: 19
+2.  Bar (9) - Average distance: 124
+3.  Gym (7) - Average distance: 25
+4.  Coffee Shop (6) - Average distance: 63
+5.  Home (private) (4) - Average distance: 14
+6.  Burger Joint (3) - Average distance: 17
+7.  Diner (3) - Average distance: 9
+8.  Lounge (3) - Average distance: 35
+9.  American Restaurant (2) - Average distance: 51
+10. Beer Garden (2) - Average distance: 4
+
+**Nearest POIs:**
+
+The 10 nearest POIs to MTA Subway - 36th Ave (N/Q) are:
+
+1.  MTA Subway - 36th Ave (N/Q) (0.00 km)
+2.  Mad Donkey Beer Bar & Grille (0.10 km)
+3.  Sunswick 35/35 (0.36 km)
+4.  5 Napkin Burger (0.37 km)
+5.  The Garden at Studio Square (0.46 km)
+6.  MTA Subway - 39th Ave (N/Q) (0.48 km)
+7.  Museum of the Moving Image (0.50 km)
+8.  Starbucks (0.55 km)
+9.  UA Kaufman Astoria Stadium 14 (0.55 km)
+10. Life Health & Fitness (0.56 km)
+
+**Representative POIs:**
+
+The 10 representative POIs, along with their distances from MTA Subway - 36th Ave (N/Q), are:
+
+1.  MTA - Queensboro Plaza (N/Q/7) (1.08 km)
+2.  MoMA PS1 Contemporary Art Center (1.91 km)
+3.  MTA Subway - Astoria/Ditmars Blvd (N/Q) (2.48 km)
+4.  Queensboro Bridge / 59th Street Bridge (2.09 km)
+5.  The Garden at Studio Square (0.46 km)
+6.  Bohemian Hall and Beer Garden (2.15 km)
+7.  MTA Subway - Astoria Blvd (N/Q) (1.81 km)
+8.  MTA Subway - 30th Ave - Grand Ave (N/Q) (1.33 km)
+9.  UA Kaufman Astoria Stadium 14 (0.55 km)
+10. MTA Subway - Broadway (N/Q) (0.71 km)
+
+**Conclusion:**
+
+MTA Subway - 36th Ave (N/Q) is a major transportation hub in Queens, with numerous nearby POIs catering to various needs and interests. The area offers a mix of entertainment, dining, and recreational options, making it a convenient location for commuters and visitors alike.

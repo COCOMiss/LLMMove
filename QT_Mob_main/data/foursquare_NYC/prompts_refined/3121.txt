@@ -1,0 +1,52 @@
+**Location Analysis: Denny Moe's Superstar Barbershop**
+
+**Location Overview**
+
+Denny Moe's Superstar Barbershop is a salon/barbershop located on Frederick Douglass Blvd/W 133 St in New York, NY 10030, USA. The location's geographic coordinates are (40.815458, -73.94730239), and its geohash code is dr72jq1pqbyf.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs, categorized by frequency, are:
+
+1. **Metro Station** (13 occurrences, avg: 19)
+2. **Bar** (7 occurrences, avg: 124)
+3. **Grocery Store** (5 occurrences, avg: 9)
+4. **Coffee Shop** (5 occurrences, avg: 63)
+5. **Gym** (4 occurrences, avg: 25)
+6. **Southern / Soul Food Restaurant** (4 occurrences, avg: 1)
+7. **American Restaurant** (4 occurrences, avg: 51)
+8. **University** (3 occurrences, avg: 5)
+9. **Hospital** (3 occurrences, avg: 2)
+10. **Train** (2 occurrences, avg: 4)
+
+The top 10 nearest POIs, ranked by distance, are:
+
+1. **The City College of New York** (0.52 km)
+2. **MTA Subway - 135th Street (2/3)** (0.57 km)
+3. **Harlem Hospital** (0.60 km)
+4. **New York Sports Club** (0.67 km)
+5. **MTA Subway - 125 St (A/B/C/D)** (0.68 km)
+6. **Apollo Theatre** (0.69 km)
+7. **Harlem** (0.75 km)
+8. **Sylvia's** (0.80 km)
+9. **Planet Fitness** (0.80 km)
+10. **Red Rooster** (0.85 km)
+
+**Representative Nearby POIs**
+
+The top 10 representative nearby POIs, ranked by distance, are:
+
+1. **Yankee Stadium** (2.32 km)
+2. **Metro North - Harlem 125th Station** (1.33 km)
+3. **Harlem Heritage and Cultural Center** (1.56 km)
+4. **Dinosaur Bar-B-Que** (1.18 km)
+5. **Columbia University** (1.49 km)
+6. **Village Pourhouse** (2.08 km)
+7. **Apollo Theatre** (0.69 km)
+8. **Mount Sinai Medical Center** (2.86 km)
+9. **MTA Subway - 125 St (1)** (0.92 km)
+10. **Metropolis Studios** (2.50 km)
+
+**Insights**
+
+Based on the analysis, Denny Moe's Superstar Barbershop is located in a densely populated area with a mix of residential, commercial, and educational establishments. The presence of several metro stations and universities suggests a high foot traffic and a diverse demographic. The nearby POIs indicate a strong presence of entertainment, dining, and healthcare options, which may appeal to the target audience of a barbershop. The location's proximity to several gyms and sports venues also suggests a potential interest in fitness and sports-related activities.

@@ -1,0 +1,6 @@
+The name of this location is "GO Breakroom Zone 1" and its POI category is Event Space, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.64505679, -73.77769947), with the corresponding geohash code dr5x1phwx58p.
+The address is Terminal 5 Food Hall, TWA Hotel, Queens, NY 11430, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Airport Terminal, 6(avg: 3); General Travel, 3(avg: 1); Airport, 2(avg: 1); American Restaurant, 1(avg: 51); Plane, 1(avg: 1).
+The 10 nearest POIs and their distances are: Terminal 5, distance 0.04 km; JetBlue Lounge, distance 0.14 km; JFK Runway, distance 0.47 km; John F Kennedy International Airport (JFK), distance 0.49 km; Terminal 4, distance 0.51 km; Terminal 7, distance 0.63 km; Terminal 3, distance 0.92 km; Delta Sky Club, distance 0.99 km; Terminal 8, distance 1.07 km; Terminal 2, distance 1.10 km.
+The 10 representative nearby POIs and their distances are: John F Kennedy International Airport (JFK), distance 0.49 km; Terminal 5, distance 0.04 km; Terminal 8, distance 1.07 km; Terminal 4, distance 0.51 km; Terminal 3, distance 0.92 km; Terminal 7, distance 0.63 km; Terminal 2, distance 1.10 km; Terminal 1, distance 1.13 km; American Airlines Admirals Club, distance 1.26 km; Delta Sky Club, distance 1.11 km.

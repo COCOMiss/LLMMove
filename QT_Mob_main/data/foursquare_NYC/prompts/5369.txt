@@ -1,0 +1,6 @@
+The name of this location is "NAFD. Co3" and its POI category is Fire Station, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.78813688, -74.13162035), with the corresponding geohash code dr72117005c3.
+The address is 11 Legion Pl, North Arlington, NJ 07031, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym / Fitness Center, 1(avg: 7); Home (private), 1(avg: 14); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Signature Fitness, distance 1.56 km; Riverwatch Condos, distance 2.32 km; NJ Transit Rail - Kingsland Station, distance 2.72 km.
+The 10 representative nearby POIs and their distances are: Signature Fitness, distance 1.56 km; NJ Transit Rail - Kingsland Station, distance 2.72 km; Riverwatch Condos, distance 2.32 km.

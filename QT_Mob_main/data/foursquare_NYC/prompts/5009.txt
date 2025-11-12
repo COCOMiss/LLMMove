@@ -1,0 +1,6 @@
+The name of this location is "Rita's Italian Ice" and its POI category is Dessert Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.828307, -74.187059), with the corresponding geohash code dr70rbddhhp3.
+The address is 1066 Broad St, Bloomfield, NJ 07003, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Baseball Field, 1(avg: 1); Grocery Store, 1(avg: 9); Coffee Shop, 1(avg: 63); Pub, 1(avg: 24); Taco Place, 1(avg: 4).
+The 10 nearest POIs and their distances are: Brookdale Park, distance 0.72 km; ShopRite, distance 1.07 km; Starbucks, distance 2.19 km; Egan & Sons, distance 2.39 km; Chipotle Mexican Grill, distance 2.78 km.
+The 10 representative nearby POIs and their distances are: Egan & Sons, distance 2.39 km; Chipotle Mexican Grill, distance 2.78 km; Brookdale Park, distance 0.72 km; Starbucks, distance 2.19 km; ShopRite, distance 1.07 km.

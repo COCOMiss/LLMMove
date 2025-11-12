@@ -1,0 +1,6 @@
+The name of this location is "ShopRite" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.93848, -74.13802), with the corresponding geohash code dr72buw7fvv9.
+The address is 1717 River Rd, Fair Lawn, NJ 07410, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bakery, 1(avg: 16); Café, 1(avg: 42).
+The 10 nearest POIs and their distances are: Nabisco Factory Scent Cloud, distance 0.83 km; Starbucks, distance 2.70 km.
+The 10 representative nearby POIs and their distances are: Starbucks, distance 2.70 km; Nabisco Factory Scent Cloud, distance 0.83 km.

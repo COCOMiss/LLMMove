@@ -1,0 +1,6 @@
+The name of this location is "Fairleigh Dickinson University" and its POI category is University, belonging to the parent category College & University.
+The geographic coordinates for this location are (40.89690578, -74.03017044), with the corresponding geohash code dr72emhcspb1.
+The address is 1000 River Rd, Teaneck, NJ 07666, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Wings Joint, 1(avg: 1); American Restaurant, 1(avg: 51); Bookstore, 1(avg: 7); Shopping Mall, 1(avg: 1); Asian Restaurant, 1(avg: 18); Gym, 1(avg: 25); Medical Center, 1(avg: 1); Miscellaneous Shop, 1(avg: 6).
+The 10 nearest POIs and their distances are: Hooters of Hackensack, distance 0.78 km; The Cheesecake Factory, distance 0.92 km; Barnes & Noble, distance 0.96 km; The Shops at Riverside, distance 0.99 km; P.F. Chang's, distance 1.19 km; Retro Fitness, distance 1.67 km; Holy Name Medical Center, distance 2.30 km; Costco Wholesale Club, distance 2.41 km.
+The 10 representative nearby POIs and their distances are: The Shops at Riverside, distance 0.99 km; The Cheesecake Factory, distance 0.92 km; Retro Fitness, distance 1.67 km; Costco Wholesale Club, distance 2.41 km; Barnes & Noble, distance 0.96 km; Holy Name Medical Center, distance 2.30 km; P.F. Chang's, distance 1.19 km; Hooters of Hackensack, distance 0.78 km.

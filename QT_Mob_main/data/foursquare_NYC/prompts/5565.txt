@@ -1,0 +1,6 @@
+The name of this location is "Clearview Cinemas" and its POI category is Movie Theater, belonging to the parent category Arts & Entertainment.
+The geographic coordinates for this location are (40.92583762, -73.9967104), with the corresponding geohash code dr72u4m4r9jd.
+The address is 60 S Washington Ave, Bergenfield, NJ 07621, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Fitness II, distance 0.23 km; Dunkin Donuts/Baskin Robbins, distance 0.82 km.
+The 10 representative nearby POIs and their distances are: Fitness II, distance 0.23 km; Dunkin Donuts/Baskin Robbins, distance 0.82 km.

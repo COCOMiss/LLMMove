@@ -1,0 +1,6 @@
+The name of this location is "Metro North - Bronxville Train Station" and its POI category is Train Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.939825, -73.835217), with the corresponding geohash code dr72zufgf8xb.
+The address is 94 Parkway Rd, Bronxville, NY 10708, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train, 2(avg: 4); Train Station, 1(avg: 5); Shopping Mall, 1(avg: 1).
+The 10 nearest POIs and their distances are: Metro North - Bronxville Train Station, distance 0.11 km; Metro North - Tuckahoe Train Station, distance 1.14 km; Cross County Mall, distance 2.05 km; Metro North - Crestwood Train Station, distance 2.45 km.
+The 10 representative nearby POIs and their distances are: Cross County Mall, distance 2.05 km; Metro North - Bronxville Train Station, distance 0.11 km; Metro North - Crestwood Train Station, distance 2.45 km; Metro North - Tuckahoe Train Station, distance 1.14 km.

@@ -1,0 +1,6 @@
+The name of this location is "Binh Duong" and its POI category is Vietnamese Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.79751488, -74.18180323), with the corresponding geohash code dr70pfyqwxyr.
+The address is 63 Belleville Ave, Bloomfield, NJ 07003, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Medical Center, 1(avg: 1); Coffee Shop, 1(avg: 63); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Retro Fitness, distance 1.16 km; Clara Maass Medical Center, distance 1.42 km; Starbucks, distance 1.62 km; NJ Transit Rail - Bloomfield Station, distance 1.64 km.
+The 10 representative nearby POIs and their distances are: NJ Transit Rail - Bloomfield Station, distance 1.64 km; Retro Fitness, distance 1.16 km; Starbucks, distance 1.62 km; Clara Maass Medical Center, distance 1.42 km.

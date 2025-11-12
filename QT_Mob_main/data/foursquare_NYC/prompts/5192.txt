@@ -1,0 +1,6 @@
+The name of this location is "McDonald's" and its POI category is Fast Food Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.67394769, -73.72899245), with the corresponding geohash code dr5x6k2nvvqs.
+The address is 244-10 Merrick Blvd, Rosedale, NY 11422, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1).
+The 10 nearest POIs and their distances are: Green Acres Mall, distance 1.50 km.
+The 10 representative nearby POIs and their distances are: Green Acres Mall, distance 1.50 km.

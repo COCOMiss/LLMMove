@@ -1,0 +1,6 @@
+The name of this location is "Gulf Gas Station/Dunkin' Donuts" and its POI category is Gas Station, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.78232337, -73.80360339), with the corresponding geohash code dr78081y72hd.
+The address is 1755 Francis Lewis Blvd, Flushing, NY 11357, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Deli / Bodega, 1(avg: 10); Road, 1(avg: 1); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Cherry Valley Deli & Grill, distance 1.23 km; Throgs Neck Bridge, distance 2.13 km; LIRR - Auburndale Station, distance 2.59 km.
+The 10 representative nearby POIs and their distances are: Throgs Neck Bridge, distance 2.13 km; Cherry Valley Deli & Grill, distance 1.23 km; LIRR - Auburndale Station, distance 2.59 km.

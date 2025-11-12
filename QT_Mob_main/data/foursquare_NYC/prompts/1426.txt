@@ -1,0 +1,6 @@
+The name of this location is "Houlihan's - Secaucus" and its POI category is American Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.78585435, -74.04587209), with the corresponding geohash code dr7250c6y4k4.
+The address is 700 Plaza Dr, Secaucus, NJ 07094, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 1(avg: 51); Movie Theater, 1(avg: 5); Burger Joint, 1(avg: 17); College Gym, 1(avg: 2); Department Store, 1(avg: 4); Gym / Fitness Center, 1(avg: 7); Arcade, 1(avg: 3); Diner, 1(avg: 9).
+The 10 nearest POIs and their distances are: Houlihan's - Secaucus, distance 0.02 km; Kerasotes Showplace 14, distance 0.09 km; Cheeseburger in Paradise, distance 0.17 km; LA fitness, distance 0.43 km; Walmart, distance 0.82 km; Bally Total Fitness, distance 1.45 km; Union City, distance 1.78 km; Coach House, distance 2.84 km.
+The 10 representative nearby POIs and their distances are: Walmart, distance 0.82 km; Kerasotes Showplace 14, distance 0.09 km; Cheeseburger in Paradise, distance 0.17 km; Houlihan's - Secaucus, distance 0.02 km; Coach House, distance 2.84 km; LA fitness, distance 0.43 km; Union City, distance 1.78 km; Bally Total Fitness, distance 1.45 km.

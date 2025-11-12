@@ -1,0 +1,60 @@
+**Location Analysis: Two Boots**
+
+**Overview**
+
+Two Boots is a pizza place located in the heart of New York City, USA. The location is situated at 198 W 11th St, New York, NY 10011, with geographic coordinates (40.73651061, -74.00101). This analysis will provide an overview of the surrounding area, highlighting the nearby points of interest (POIs) and their distances.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 POI categories and their counts in the vicinity of Two Boots are:
+
+1.  Bar (240) - 124 (avg)
+2.  Coffee Shop (102) - 63 (avg)
+3.  American Restaurant (96) - 51 (avg)
+4.  Office (92) - 72 (avg)
+5.  Café (66) - 42 (avg)
+6.  Lounge (64) - 35 (avg)
+7.  Italian Restaurant (52) - 28 (avg)
+8.  Mexican Restaurant (45) - 28 (avg)
+9.  Gym (39) - 25 (avg)
+10. Wine Bar (37) - 21 (avg)
+
+These POIs indicate that Two Boots is surrounded by a diverse range of establishments, catering to various tastes and preferences.
+
+**Nearest POIs**
+
+The 10 nearest POIs to Two Boots are:
+
+1.  Bone Lick Park (0.01 km)
+2.  Roasting Plant Coffee (0.04 km)
+3.  Two Boots (0.05 km)
+4.  Elephant & Castle (0.05 km)
+5.  Yerba Buena Perry (0.07 km)
+6.  Fiddlesticks Pub & Grill (0.08 km)
+7.  Taïm (0.09 km)
+8.  Gottino (0.09 km)
+9.  Good Restaurant (0.10 km)
+10. Doma (0.10 km)
+
+These nearby POIs are within a short walking distance, making Two Boots a convenient option for those in the area.
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs and their distances are:
+
+1.  New York Penn Station (1.75 km)
+2.  Madison Square Garden (1.69 km)
+3.  Times Square (2.51 km)
+4.  Port Authority Bus Terminal (2.44 km)
+5.  Union Square Park (0.88 km)
+6.  Bryant Park (2.41 km)
+7.  Union Square Greenmarket (0.88 km)
+8.  Madison Square Park (1.28 km)
+9.  Macy's (1.89 km)
+10. PATH: World Trade Center Station (2.80 km)
+
+These POIs are notable landmarks and transportation hubs in the city, indicating that Two Boots is located in a central and accessible area.
+
+**Conclusion**
+
+Two Boots is situated in a vibrant and diverse neighborhood, surrounded by a range of POIs that cater to various interests. The location's proximity to transportation hubs and notable landmarks makes it a convenient option for those visiting or living in the area.

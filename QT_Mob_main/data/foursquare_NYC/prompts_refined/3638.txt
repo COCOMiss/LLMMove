@@ -1,0 +1,60 @@
+**Location Analysis: Wild Olive Market**
+
+The Wild Olive Market is a grocery store located in the heart of New York, NY, USA, at the intersection of E 125 St and 5 Av. The location is categorized under the POI category of Grocery Store, which falls under the parent category of Shop & Service.
+
+**Geographic Location**
+
+The Wild Olive Market is situated at the geographic coordinates (40.80621522, -73.94186321), with a corresponding geohash code of dr72jkt1mtye. This location is in a densely populated area, as indicated by the high number of nearby POIs.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs are:
+
+1.  Metro Station (12 occurrences, avg: 19)
+2.  Coffee Shop (7 occurrences, avg: 63)
+3.  Bar (7 occurrences, avg: 124)
+4.  Grocery Store (5 occurrences, avg: 9)
+5.  Southern / Soul Food Restaurant (4 occurrences, avg: 1)
+6.  Gym (4 occurrences, avg: 25)
+7.  American Restaurant (4 occurrences, avg: 51)
+8.  University (3 occurrences, avg: 5)
+9.  Train Station (2 occurrences, avg: 5)
+10.  History Museum (2 occurrences, avg: 2)
+
+These POIs suggest that the area is a bustling commercial hub with a mix of entertainment, dining, and educational options.
+
+**Nearest POIs**
+
+The 10 nearest POIs to the Wild Olive Market are:
+
+1.  Metro North - Harlem 125th Station (0.25 km)
+2.  Red Rooster (0.32 km)
+3.  Sylvia's (0.34 km)
+4.  MTA Subway - 125 St (2/3) (0.35 km)
+5.  Planet Fitness (0.37 km)
+6.  MTA Subway - 125 St (4/5/6) (0.42 km)
+7.  Harlem (0.51 km)
+8.  Il Caffe Latte (0.57 km)
+9.  New York Sports Club (0.78 km)
+10.  Apollo Theatre (0.80 km)
+
+These POIs are all within a 0.8 km radius, indicating that the Wild Olive Market is situated in a densely populated area with a variety of amenities nearby.
+
+**Representative POIs**
+
+The 10 representative nearby POIs, which are farther away but still within a reasonable distance, are:
+
+1.  Metro North - Harlem 125th Station (0.25 km)
+2.  Harlem Heritage and Cultural Center (0.84 km)
+3.  Metropolis Studios (1.54 km)
+4.  Dinosaur Bar-B-Que (2.08 km)
+5.  Columbia University (1.72 km)
+6.  Robert F. Kennedy Bridge (2.08 km)
+7.  Village Pourhouse (1.98 km)
+8.  Apollo Theatre (0.80 km)
+9.  Mount Sinai Medical Center (2.04 km)
+10.  MTA Subway - 125 St (1) (1.73 km)
+
+These POIs are representative of the area's cultural, educational, and entertainment offerings, and suggest that the Wild Olive Market is located in a vibrant and diverse neighborhood.
+
+Overall, the Wild Olive Market is situated in a densely populated area with a mix of commercial, entertainment, and educational options nearby. The location is well-connected to public transportation, with several metro stations and bus routes nearby.

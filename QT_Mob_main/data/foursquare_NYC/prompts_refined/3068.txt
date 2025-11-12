@@ -1,0 +1,43 @@
+**Location Analysis: New Park Pizzeria**
+
+**Overview**
+
+The New Park Pizzeria is a pizza place located in Howard Beach, Queens, New York, USA. It is situated in a parking lot on Cross Bay Boulevard, with a geohash code of dr5rrdrj8g1d. This analysis will provide an overview of the location's surroundings, nearby points of interest, and accessibility.
+
+**Geographic Location**
+
+The New Park Pizzeria is situated at the geographic coordinates (40.66273436, -73.84045041), which places it in a relatively urban area of Howard Beach. The location's proximity to the nearby points of interest suggests that it is easily accessible by public transportation.
+
+**Nearby Points of Interest**
+
+The top 10 nearby points of interest (POIs) to the New Park Pizzeria are:
+
+1. **Metro Station** (2 occurrences, average distance: 19 km)
+2. **Coffee Shop** (1 occurrence, average distance: 63 km)
+3. **Beach** (1 occurrence, average distance: 1 km)
+4. **Train** (1 occurrence, average distance: 4 km)
+5. **Light Rail Station** (1 occurrence, average distance: 1 km)
+
+The nearest POIs to the New Park Pizzeria are:
+
+1. **Starbucks** (distance: 0.15 km)
+2. **Howard Beach** (distance: 0.87 km)
+3. **MTA - Howard Beach - JFK Station** (distance: 0.91 km)
+4. **JFK AirTrain - Howard Beach** (distance: 0.94 km)
+5. **MTA - Rockaway Boulevard Subway Station (A)** (distance: 1.99 km)
+
+The representative nearby POIs to the New Park Pizzeria are:
+
+1. **JFK AirTrain - Howard Beach** (distance: 0.94 km)
+2. **MTA - Rockaway Boulevard Subway Station (A)** (distance: 1.99 km)
+3. **Starbucks** (distance: 0.15 km)
+4. **MTA - Howard Beach - JFK Station** (distance: 0.91 km)
+5. **Howard Beach** (distance: 0.87 km)
+
+**Accessibility**
+
+The New Park Pizzeria appears to be easily accessible by public transportation, with several nearby metro stations, train stations, and a light rail station. The proximity to Starbucks and other nearby businesses suggests that the location is also walkable. However, the distance to the nearest beach (0.87 km) may require a short drive or public transportation ride.
+
+**Conclusion**
+
+In conclusion, the New Park Pizzeria is a conveniently located pizza place in Howard Beach, Queens, with easy access to public transportation and nearby businesses. The surrounding area is relatively urban, with a mix of residential and commercial properties. The location's proximity to the beach and nearby points of interest makes it an attractive option for visitors and locals alike.

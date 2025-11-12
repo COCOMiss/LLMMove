@@ -1,0 +1,58 @@
+**Queens Hospital Center Location Analysis**
+
+Queens Hospital Center is a hospital located in Jamaica, New York, USA. The location's geographic coordinates are (40.7171761, -73.80413532), with a geohash code of dr5x8s36xpb0. The address is 82-68 164th St, Jamaica, NY 11432.
+
+**Geographic Context**
+
+The location is situated in the Jamaica neighborhood of Queens, New York City. The surrounding area is a mix of residential and commercial districts, with a variety of shops, restaurants, and educational institutions nearby.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs are:
+
+1.  Metro Station (5)
+2.  College Academic Building (4)
+3.  Bus Line (2)
+4.  University (2)
+5.  Courthouse (1)
+6.  Gym (1)
+7.  Light Rail Station (1)
+8.  Doctor's Office (1)
+9.  Bar (1)
+10. General College & University (1)
+
+These POIs indicate that the area surrounding Queens Hospital Center is a bustling and densely populated neighborhood with a range of amenities and services.
+
+**Nearest POIs**
+
+The 10 nearest POIs to Queens Hospital Center are:
+
+1.  MTA - Q46 Bus (0.69 km)
+2.  D'Angelo Center (0.84 km)
+3.  St. John's University (0.94 km)
+4.  St John's Hall (0.96 km)
+5.  St. Louise de Marillac Hall (0.99 km)
+6.  Queens Civil Court (1.47 km)
+7.  MTA Subway - Jamaica Center-Parsons/Archer Avenue  (E/J/Z) (1.68 km)
+8.  York College CUNY (1.79 km)
+9.  MTA Subway - Jamaica 179th St. Station (F) (1.79 km)
+10.  MTA Subway - Sutphin Blvd/Archer Ave/JFK (E/J/Z) (1.83 km)
+
+These POIs are primarily transportation hubs, educational institutions, and community facilities, suggesting that the area is well-connected and offers a range of services to residents and visitors.
+
+**Representative POIs**
+
+The 10 representative POIs, which are a mix of the nearest and most popular POIs, are:
+
+1.  LIRR - Jamaica Station (1.99 km)
+2.  St. John's University (0.94 km)
+3.  JFK AirTrain - Jamaica Station (2.08 km)
+4.  Queens College (2.39 km)
+5.  MTA Subway - Union Turnpike-Kew Gardens (E,F) (2.28 km)
+6.  MTA Subway - Jamaica 179th St. Station (F) (1.79 km)
+7.  MTA Subway - Jamaica Center-Parsons/Archer Avenue  (E/J/Z) (1.68 km)
+8.  Van Wyck Expressway (2.70 km)
+9.  St. Louise de Marillac Hall (0.99 km)
+10.  D'Angelo Center (0.84 km)
+
+These POIs provide a sense of the area's transportation infrastructure, educational institutions, and community facilities, which are likely to be of interest to patients, visitors, and staff at Queens Hospital Center.

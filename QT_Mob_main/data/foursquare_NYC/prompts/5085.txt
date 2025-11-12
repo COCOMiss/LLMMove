@@ -1,0 +1,6 @@
+The name of this location is "Leonia, NJ" and its POI category is City Hall, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.86179722, -73.98802757), with the corresponding geohash code dr72kqet4p04.
+The address is Broad Ave at Fort Lee Rd, Leonia, NJ 07605, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bus Station, 1(avg: 1); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Bridge Plaza, distance 1.87 km; George Washington Bridge Toll Plaza, distance 2.24 km.
+The 10 representative nearby POIs and their distances are: George Washington Bridge Toll Plaza, distance 2.24 km; Bridge Plaza, distance 1.87 km.

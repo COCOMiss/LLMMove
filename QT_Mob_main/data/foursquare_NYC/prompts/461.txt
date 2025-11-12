@@ -1,0 +1,6 @@
+The name of this location is "Dunkin Donuts" and its POI category is Coffee Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.64711406, -73.88337152), with the corresponding geohash code dr5rnxxf8ejp.
+The address is 1354 Pennsylvania Ave #2, Brooklyn, NY 11239, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Electronics Store, 1(avg: 5); Department Store, 1(avg: 4); Metro Station, 1(avg: 19).
+The 10 nearest POIs and their distances are: Best Buy, distance 1.03 km; Target, distance 1.29 km; MTA - Canarsie/Rockaway Pkwy (L), distance 1.64 km.
+The 10 representative nearby POIs and their distances are: Target, distance 1.29 km; MTA - Canarsie/Rockaway Pkwy (L), distance 1.64 km; Best Buy, distance 1.03 km.

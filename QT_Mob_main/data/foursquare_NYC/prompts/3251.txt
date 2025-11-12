@@ -1,0 +1,6 @@
+The name of this location is "Rockaway Taco" and its POI category is Mexican Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.58513021, -73.81791796), with the corresponding geohash code dr5wbhr3tbdg.
+The address is 194 Beach 96th St, Rockaway Beach, NY 11693, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Mexican Restaurant, 1(avg: 28); Beach, 1(avg: 1).
+The 10 nearest POIs and their distances are: Rockaway Taco, distance 0.07 km; Rockaway Beach, distance 1.10 km.
+The 10 representative nearby POIs and their distances are: Rockaway Beach, distance 1.10 km; Rockaway Taco, distance 0.07 km.

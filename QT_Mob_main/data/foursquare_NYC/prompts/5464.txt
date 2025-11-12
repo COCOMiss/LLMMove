@@ -1,0 +1,6 @@
+The name of this location is "Partridge Hall" and its POI category is College Academic Building, belonging to the parent category College & University.
+The geographic coordinates for this location are (40.86230841, -74.19830203), with the corresponding geohash code dr70rwf2nq2h.
+The address is Partridge Hall, University Promenade, Montclair, NJ 07043, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: College Communications Building, 1(avg: 1); College Auditorium, 1(avg: 1); Diner, 1(avg: 9); American Restaurant, 1(avg: 51); Bar, 1(avg: 124); Taco Place, 1(avg: 4); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: University Hall, distance 0.07 km; Montclair State University, distance 0.18 km; Six Brothers Diner, distance 1.14 km; Pub 46, distance 1.79 km; Bliss Lounge, distance 2.07 km; Chipotle Mexican Grill, distance 2.33 km; Starbucks, distance 2.64 km.
+The 10 representative nearby POIs and their distances are: Montclair State University, distance 0.18 km; University Hall, distance 0.07 km; Bliss Lounge, distance 2.07 km; Pub 46, distance 1.79 km; Chipotle Mexican Grill, distance 2.33 km; Six Brothers Diner, distance 1.14 km; Starbucks, distance 2.64 km.

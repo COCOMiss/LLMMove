@@ -1,0 +1,6 @@
+The name of this location is "Plauderville Train Station" and its POI category is Train, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.88694229, -74.10218239), with the corresponding geohash code dr729g0rtyrz.
+The address is 296 Midland Ave, Saddle Brook, NJ 07663, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Diner, 1(avg: 9); Department Store, 1(avg: 4).
+The 10 nearest POIs and their distances are: Bally Total Fitness, distance 0.64 km; Saddle Brook Diner, distance 2.06 km; Walmart, distance 2.24 km.
+The 10 representative nearby POIs and their distances are: Bally Total Fitness, distance 0.64 km; Walmart, distance 2.24 km; Saddle Brook Diner, distance 2.06 km.

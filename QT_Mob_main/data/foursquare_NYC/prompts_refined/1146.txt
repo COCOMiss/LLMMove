@@ -1,0 +1,32 @@
+**Empire City Yonkers Raceway Analysis**
+
+**Overview**
+
+Empire City Yonkers Raceway is a racetrack located in Yonkers, New York, United States. The racetrack is situated at 560 Central Park Ave, Yonkers, NY 10704, with geographic coordinates (40.91861784, -73.86543813).
+
+**Geographic Context**
+
+Empire City Yonkers Raceway is situated in the city of Yonkers, which is a part of Westchester County, New York. The racetrack is approximately 1.43 kilometers away from the Cross County Mall, a major shopping destination in the area.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs are primarily categorized as Shopping Mall, with an average count of 1. This suggests that the area surrounding Empire City Yonkers Raceway is densely populated with shopping centers. The 10 nearest POIs are dominated by Cross County Mall, which is the closest and most prominent shopping destination in the area.
+
+**POI Categories and Counts**
+
+1. Shopping Mall: 1 (avg: 1)
+
+**10 Nearest POIs and Distances**
+
+1. Cross County Mall: 1.43 km
+
+**10 Representative Nearby POIs and Distances**
+
+1. Cross County Mall: 1.43 km
+
+**Key Takeaways**
+
+* Empire City Yonkers Raceway is a racetrack located in Yonkers, New York.
+* The surrounding area is densely populated with shopping centers, with Cross County Mall being the closest and most prominent shopping destination.
+* The racetrack's geographic coordinates and address are 560 Central Park Ave, Yonkers, NY 10704, USA.
+* The geohash code for this location is dr72z1hb4x1r.

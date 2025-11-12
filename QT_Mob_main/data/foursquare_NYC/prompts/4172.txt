@@ -1,0 +1,6 @@
+The name of this location is "Student Center" and its POI category is College Cafeteria, belonging to the parent category College & University.
+The geographic coordinates for this location are (40.86283582, -74.19723988), with the corresponding geohash code dr70rwg5qbxy.
+The address is Student Center and Annex, 1 Normal Ave, Montclair, NJ 07043, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: College Communications Building, 1(avg: 1); College Auditorium, 1(avg: 1); Diner, 1(avg: 9); American Restaurant, 1(avg: 51); Bar, 1(avg: 124); Taco Place, 1(avg: 4); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: University Hall, distance 0.16 km; Montclair State University, distance 0.27 km; Six Brothers Diner, distance 1.07 km; Pub 46, distance 1.69 km; Bliss Lounge, distance 2.02 km; Chipotle Mexican Grill, distance 2.28 km; Starbucks, distance 2.73 km.
+The 10 representative nearby POIs and their distances are: Montclair State University, distance 0.27 km; University Hall, distance 0.16 km; Bliss Lounge, distance 2.02 km; Pub 46, distance 1.69 km; Chipotle Mexican Grill, distance 2.28 km; Six Brothers Diner, distance 1.07 km; Starbucks, distance 2.73 km.

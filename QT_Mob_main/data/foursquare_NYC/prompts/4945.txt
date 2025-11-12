@@ -1,0 +1,6 @@
+The name of this location is "Passaic County Community College" and its POI category is Community College, belonging to the parent category College & University.
+The geographic coordinates for this location are (40.91777713, -74.16923761), with the corresponding geohash code dr72b0ze7d80.
+The address is 160-180 College Blvd, Paterson, NJ 07505, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Emergency Room, 1(avg: 2); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: St. Joseph's Regional Medical Center, distance 1.68 km; I-80 -- Bergen/Passaic, distance 2.42 km.
+The 10 representative nearby POIs and their distances are: I-80 -- Bergen/Passaic, distance 2.42 km; St. Joseph's Regional Medical Center, distance 1.68 km.

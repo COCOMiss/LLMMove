@@ -1,0 +1,6 @@
+The name of this location is "Unilever" and its POI category is Office, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.88838486, -73.94692041), with the corresponding geohash code dr72t792pg7s.
+The address is 700 Sylvan Ave, Englewood Cliffs, NJ 07632, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Office, 2(avg: 72); Road, 1(avg: 1); Medical Center, 1(avg: 1).
+The 10 nearest POIs and their distances are: Unilever, distance 0.10 km; CNBC Headquarters, distance 0.80 km; Henry Hudson Bridge, distance 2.40 km; Englewood Hospital & Medical Center, distance 2.54 km.
+The 10 representative nearby POIs and their distances are: CNBC Headquarters, distance 0.80 km; Unilever, distance 0.10 km; Henry Hudson Bridge, distance 2.40 km; Englewood Hospital & Medical Center, distance 2.54 km.

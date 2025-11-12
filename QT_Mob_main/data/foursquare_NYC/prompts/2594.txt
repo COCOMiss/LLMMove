@@ -1,0 +1,6 @@
+The name of this location is "MTA Subway - Nereid Avenue (2/5)" and its POI category is Metro Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.8984304, -73.85434628), with the corresponding geohash code dr72xmkfsupb.
+The address is Nereid Av, Bronx, NY 10470, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train, 1(avg: 4); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: MTA Subway - Woodlawn (4), distance 2.43 km; MTA Subway - Gun Hill Road (2/5), distance 2.51 km.
+The 10 representative nearby POIs and their distances are: MTA Subway - Woodlawn (4), distance 2.43 km; MTA Subway - Gun Hill Road (2/5), distance 2.51 km.

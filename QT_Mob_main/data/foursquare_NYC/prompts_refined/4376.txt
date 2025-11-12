@@ -1,0 +1,48 @@
+**Location Analysis: Houston's Restaurant**
+
+**Location Overview**
+
+Houston's Restaurant is located at 1 Riverside Square Mall #181, Hackensack, NJ 07601, USA. The restaurant is situated at the intersection of shopping and dining, within the Riverside Square Mall. The geographic coordinates of the location are (40.90505226, -74.03150692), with a geohash code of dr72eqechy7m.
+
+**POI Category Analysis**
+
+The primary category of Houston's Restaurant is American Restaurant, which is a popular choice for diners in the area. The top 10 nearby points-of-interest (POI) categories and their counts indicate that the location is surrounded by various types of establishments, including:
+
+1. American Restaurant (avg: 51) - 1
+2. Bookstore (avg: 7) - 1
+3. Shopping Mall (avg: 1) - 1
+4. Wings Joint (avg: 1) - 1
+5. Asian Restaurant (avg: 18) - 1
+6. Gym (avg: 25) - 1
+
+This diverse range of POIs suggests that the area is a hub for entertainment, shopping, and dining.
+
+**Nearby POIs and Distances**
+
+The 10 nearest POIs to Houston's Restaurant are:
+
+1. The Cheesecake Factory - 0.02 km
+2. Barnes & Noble - 0.05 km
+3. The Shops at Riverside - 0.09 km
+4. Hooters of Hackensack - 0.13 km
+5. P.F. Chang's - 0.28 km
+6. Retro Fitness - 0.78 km
+
+These nearby POIs offer a range of options for customers, including fine dining, bookstores, and fitness centers. The proximity of these establishments suggests that Houston's Restaurant is part of a vibrant and lively area.
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs and their distances are:
+
+1. The Shops at Riverside - 0.09 km
+2. The Cheesecake Factory - 0.02 km
+3. Retro Fitness - 0.78 km
+4. Barnes & Noble - 0.05 km
+5. P.F. Chang's - 0.28 km
+6. Hooters of Hackensack - 0.13 km
+
+These POIs are representative of the area's shopping and dining options, with a mix of high-end and casual establishments.
+
+**Conclusion**
+
+Houston's Restaurant is situated in a prime location within the Riverside Square Mall, surrounded by a diverse range of POIs. The nearby establishments offer a variety of options for customers, including fine dining, bookstores, and fitness centers. The proximity of these POIs suggests that Houston's Restaurant is part of a vibrant and lively area, making it an attractive choice for diners in the Hackensack, NJ area.

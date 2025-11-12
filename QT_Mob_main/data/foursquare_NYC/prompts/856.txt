@@ -1,0 +1,6 @@
+The name of this location is "Jersey Gardens Mall" and its POI category is Shopping Mall, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.66055589, -74.17174136), with the corresponding geohash code dr5r24jbchvp.
+The address is 651 Kapkowski Rd #1076, Elizabeth, NJ 07201, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Movie Theater, 1(avg: 5); Shopping Mall, 1(avg: 1); Road, 1(avg: 1); Department Store, 1(avg: 4).
+The 10 nearest POIs and their distances are: AMC Loews Jersey Gardens 20, distance 0.16 km; Jersey Gardens Mall, distance 0.16 km; New Jersey Turnpike - Elizabeth, distance 1.10 km; IKEA, distance 1.59 km.
+The 10 representative nearby POIs and their distances are: Jersey Gardens Mall, distance 0.16 km; New Jersey Turnpike - Elizabeth, distance 1.10 km; IKEA, distance 1.59 km; AMC Loews Jersey Gardens 20, distance 0.16 km.

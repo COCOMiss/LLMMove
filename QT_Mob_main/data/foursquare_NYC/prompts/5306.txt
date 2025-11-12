@@ -1,0 +1,6 @@
+The name of this location is "Hawk Crossings" and its POI category is Building, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.86677098, -74.20047998), with the corresponding geohash code dr70rx8f5w20.
+The address is at Montclair State University, 65 Clove Rd, Little Falls, NJ 07424, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: College Communications Building, 1(avg: 1); College Auditorium, 1(avg: 1); Diner, 1(avg: 9); American Restaurant, 1(avg: 51); Department Store, 1(avg: 4); Travel & Transport, 1(avg: 1).
+The 10 nearest POIs and their distances are: University Hall, distance 0.49 km; Montclair State University, distance 0.68 km; Six Brothers Diner, distance 0.75 km; Pub 46, distance 1.77 km; Best Buy, distance 2.49 km; U.S. Route 46, distance 2.63 km.
+The 10 representative nearby POIs and their distances are: Montclair State University, distance 0.68 km; University Hall, distance 0.49 km; U.S. Route 46, distance 2.63 km; Pub 46, distance 1.77 km; Best Buy, distance 2.49 km; Six Brothers Diner, distance 0.75 km.

@@ -1,0 +1,6 @@
+The name of this location is "Marino's" and its POI category is Deli / Bodega, belonging to the parent category Food.
+The geographic coordinates for this location are (40.861564, -74.071916), with the corresponding geohash code dr726qw7z787.
+The address is 282 Terrace Ave, Hasbrouck Heights, NJ 07604, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 2(avg: 51); Other Great Outdoors, 1(avg: 13); Gym, 1(avg: 25); Airport, 1(avg: 1); Gym / Fitness Center, 1(avg: 7).
+The 10 nearest POIs and their distances are: Starbucks, distance 0.53 km; 24 Hour Fitness, distance 0.65 km; SONIC Drive-In, distance 0.78 km; Teterboro Airport (TEB), distance 0.88 km; Houlihan's, distance 1.36 km; Golds Gym, distance 1.37 km.
+The 10 representative nearby POIs and their distances are: 24 Hour Fitness, distance 0.65 km; Teterboro Airport (TEB), distance 0.88 km; Starbucks, distance 0.53 km; SONIC Drive-In, distance 0.78 km; Golds Gym, distance 1.37 km; Houlihan's, distance 1.36 km.

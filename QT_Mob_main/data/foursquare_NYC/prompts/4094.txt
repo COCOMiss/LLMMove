@@ -1,0 +1,6 @@
+The name of this location is "Town of Lyndhurst" and its POI category is General Travel, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.80507337, -74.11943957), with the corresponding geohash code dr721k7fgbup.
+The address is 619 Page Ave, Lyndhurst, NJ 07071, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 1(avg: 5); Grocery Store, 1(avg: 9); Indie Theater, 1(avg: 2); Home (private), 1(avg: 14); Hot Dog Joint, 1(avg: 2); Pharmacy, 1(avg: 4); Burger Joint, 1(avg: 17).
+The 10 nearest POIs and their distances are: NJ Transit Rail - Kingsland Station, distance 0.59 km; ShopRite, distance 0.80 km; Medieval Times, distance 1.15 km; Riverwatch Condos, distance 1.59 km; Rutt's Hut, distance 2.43 km; Target, distance 2.57 km; Red Robin Gourmet Burgers, distance 2.78 km.
+The 10 representative nearby POIs and their distances are: Target, distance 2.57 km; Medieval Times, distance 1.15 km; Red Robin Gourmet Burgers, distance 2.78 km; Rutt's Hut, distance 2.43 km; NJ Transit Rail - Kingsland Station, distance 0.59 km; ShopRite, distance 0.80 km; Riverwatch Condos, distance 1.59 km.

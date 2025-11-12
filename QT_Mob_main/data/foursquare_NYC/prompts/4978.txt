@@ -1,0 +1,6 @@
+The name of this location is "East Japanese" and its POI category is Japanese Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.899824, -73.99951918), with the corresponding geohash code dr72sje4wpz1.
+The address is 1405 Teaneck Rd, Teaneck, NJ 07666, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Coffee Shop, 2(avg: 63); Medical Center, 1(avg: 1).
+The 10 nearest POIs and their distances are: Dunkin Donuts/Baskin Robbins, distance 2.08 km; Holy Name Medical Center, distance 2.10 km; Starbucks, distance 2.24 km.
+The 10 representative nearby POIs and their distances are: Starbucks, distance 2.24 km; Dunkin Donuts/Baskin Robbins, distance 2.08 km; Holy Name Medical Center, distance 2.10 km.

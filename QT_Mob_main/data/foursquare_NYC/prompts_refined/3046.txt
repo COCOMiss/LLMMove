@@ -1,0 +1,64 @@
+**Location Analysis: Costco Wholesale Club**
+
+**Location Overview**
+
+The Costco Wholesale Club is situated in Long Island City, New York, USA, with the address 3326 Vernon Blvd, Long Island City, NY 11106. The location is categorized as a Snack Place within the broader Food category. 
+
+**Geographic Coordinates and Nearby Points of Interest**
+
+The geographic coordinates of the location are (40.76750917, -73.93837452), with a geohash code of dr5rvmrxyyxb. This location is situated in a densely populated area with a variety of nearby points of interest.
+
+**Top 10 Nearby POI Categories and Counts**
+
+The top 10 nearby points of interest by category and count are:
+
+1.  Bar (24, avg: 124)
+2.  Coffee Shop (14, avg: 63)
+3.  Metro Station (13, avg: 19)
+4.  Gym (8, avg: 25)
+5.  Home (private) (7, avg: 14)
+6.  American Restaurant (6, avg: 51)
+7.  Burger Joint (5, avg: 17)
+8.  Yoga Studio (5, avg: 14)
+9.  Sports Bar (4, avg: 8)
+10. Café (4, avg: 42)
+
+These categories indicate that the surrounding area is a mix of residential, commercial, and recreational spots, catering to diverse needs and preferences.
+
+**10 Nearest POIs and Distances**
+
+The 10 nearest points of interest to the Costco Wholesale Club, along with their distances, are:
+
+1.  Costco Wholesale Club (0.00 km)
+2.  Socrates Sculpture Park (0.22 km)
+3.  The Octagon (0.46 km)
+4.  Bel Aire Diner (0.63 km)
+5.  Vesta Trattoria & Wine Bar (0.93 km)
+6.  Carl Schurz Little Dog Run (0.93 km)
+7.  Carl Schurz Park (0.99 km)
+8.  Starbucks (1.10 km)
+9.  New York Health & Racquet Club (1.14 km)
+10. Roosevelt Island (1.15 km)
+
+This list shows that the location is surrounded by various attractions, including parks, restaurants, and recreational facilities.
+
+**10 Representative Nearby POIs and Distances**
+
+The 10 representative nearby points of interest, along with their distances, are:
+
+1.  Metropolitan Museum of Art (2.43 km)
+2.  MTA - Queensboro Plaza (N/Q/7) (1.88 km)
+3.  MoMA PS1 Contemporary Art Center (2.56 km)
+4.  MTA Subway - Astoria/Ditmars Blvd (N/Q) (2.32 km)
+5.  Queensboro Bridge / 59th Street Bridge (1.81 km)
+6.  The Garden at Studio Square (1.82 km)
+7.  Brother Jimmy's BBQ (1.58 km)
+8.  Guggenheim Museum (2.44 km)
+9.  Bohemian Hall and Beer Garden (1.98 km)
+10. MTA Subway - Astoria Blvd (N/Q) (1.74 km)
+
+These representative points of interest showcase the area's cultural and recreational offerings, including museums, parks, and entertainment venues.
+
+**Conclusion**
+
+The Costco Wholesale Club in Long Island City, NY, is situated in a vibrant and diverse neighborhood with a mix of residential, commercial, and recreational spots. The surrounding area offers a range of attractions, including parks, restaurants, museums, and entertainment venues, making it an attractive location for residents and visitors alike.

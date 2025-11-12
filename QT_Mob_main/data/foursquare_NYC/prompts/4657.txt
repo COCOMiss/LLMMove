@@ -1,0 +1,6 @@
+The name of this location is "Sports Authority" and its POI category is Sporting Goods Shop, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.79344118, -74.05072689), with the corresponding geohash code dr724fjzj085.
+The address is 1-101 Mill Creek Dr, Secaucus, NJ 07094, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: College Gym, 1(avg: 2); Department Store, 1(avg: 4); Burger Joint, 1(avg: 17); American Restaurant, 1(avg: 51); Movie Theater, 1(avg: 5); Gym / Fitness Center, 1(avg: 7); Basketball Stadium, 1(avg: 1); Arcade, 1(avg: 3).
+The 10 nearest POIs and their distances are: LA fitness, distance 0.75 km; Walmart, distance 0.75 km; Cheeseburger in Paradise, distance 0.77 km; Houlihan's - Secaucus, distance 0.94 km; Kerasotes Showplace 14, distance 0.97 km; Bally Total Fitness, distance 2.37 km; IZOD Center, distance 2.48 km; Union City, distance 2.71 km.
+The 10 representative nearby POIs and their distances are: IZOD Center, distance 2.48 km; Walmart, distance 0.75 km; Kerasotes Showplace 14, distance 0.97 km; Cheeseburger in Paradise, distance 0.77 km; Houlihan's - Secaucus, distance 0.94 km; LA fitness, distance 0.75 km; Union City, distance 2.71 km; Bally Total Fitness, distance 2.37 km.

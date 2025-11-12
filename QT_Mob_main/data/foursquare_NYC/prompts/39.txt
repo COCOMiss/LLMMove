@@ -1,0 +1,6 @@
+The name of this location is "Target" and its POI category is Department Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.65239545, -73.86983119), with the corresponding geohash code dr5rr099k5v8.
+The address is 501 Gateway Dr, Brooklyn, NY 11239, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Department Store, 1(avg: 4); Electronics Store, 1(avg: 5); Beach, 1(avg: 1).
+The 10 nearest POIs and their distances are: Target, distance 0.06 km; Best Buy, distance 0.25 km; Howard Beach, distance 1.88 km.
+The 10 representative nearby POIs and their distances are: Target, distance 0.06 km; Howard Beach, distance 1.88 km; Best Buy, distance 0.25 km.

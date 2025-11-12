@@ -1,0 +1,6 @@
+The name of this location is "Papa's Fried Chicken" and its POI category is Wings Joint, belonging to the parent category Food.
+The geographic coordinates for this location are (40.65615714, -73.908215), with the corresponding geohash code dr5rq1jxmc08.
+The address is Hegeman Ave/Chester St, Brooklyn, NY 11212, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Other Nightlife, 1(avg: 7); Hospital, 1(avg: 2); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: MTA - Canarsie/Rockaway Pkwy (L), distance 1.21 km; Stella Artois Socialite Event, distance 1.23 km; Kingsbrook Jewish Medical Center, distance 2.20 km; MTA Subway - Utica Avenue-Crown Heights (2/3/4/5), distance 2.39 km; MTA - Broadway Junction (A/C/L/J/Z), distance 2.57 km.
+The 10 representative nearby POIs and their distances are: MTA - Broadway Junction (A/C/L/J/Z), distance 2.57 km; MTA Subway - Utica Avenue-Crown Heights (2/3/4/5), distance 2.39 km; Kingsbrook Jewish Medical Center, distance 2.20 km; MTA - Canarsie/Rockaway Pkwy (L), distance 1.21 km; Stella Artois Socialite Event, distance 1.23 km.

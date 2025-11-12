@@ -1,0 +1,6 @@
+The name of this location is "Kean University Townsend Hall" and its POI category is College Academic Building, belonging to the parent category College & University.
+The geographic coordinates for this location are (40.68066114, -74.23604759), with the corresponding geohash code dr5pqtwyn8yu.
+The address is 1000 Morris Ave Kean University, Amenities Building Kean University, Union, NJ 07083, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: University, 1(avg: 5); Train Station, 1(avg: 5); General Travel, 1(avg: 1); Train, 1(avg: 4); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Kean University, distance 0.10 km; NJ Transit Rail - Union Station, distance 0.40 km; U.S. Route 22 - New Jersey, distance 2.05 km; NJ Transit Rail - Elizabeth Station, distance 2.27 km; Union Toll Plaza, distance 2.58 km.
+The 10 representative nearby POIs and their distances are: Kean University, distance 0.10 km; NJ Transit Rail - Elizabeth Station, distance 2.27 km; U.S. Route 22 - New Jersey, distance 2.05 km; Union Toll Plaza, distance 2.58 km; NJ Transit Rail - Union Station, distance 0.40 km.

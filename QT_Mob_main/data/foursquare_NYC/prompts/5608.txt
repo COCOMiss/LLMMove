@@ -1,0 +1,6 @@
+The name of this location is "Pathmark" and its POI category is Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.86812592, -73.82576466), with the corresponding geohash code dr782pcdnfzg.
+The address is 2122 Bartow Ave, Bronx, NY 10475, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Road, 1(avg: 1); Emergency Room, 1(avg: 2); Gym, 1(avg: 25); Wine Shop, 1(avg: 1).
+The 10 nearest POIs and their distances are: Hutchinson River Parkway, distance 1.41 km; MTA Subway - Pelham Bay Park (6), distance 1.68 km; Jacobi Medical Center, distance 2.22 km; Planet Fitness, distance 2.26 km; Fairway Market, distance 2.88 km; MTA Subway - Middletown Road (6), distance 2.89 km.
+The 10 representative nearby POIs and their distances are: MTA Subway - Pelham Bay Park (6), distance 1.68 km; Hutchinson River Parkway, distance 1.41 km; Planet Fitness, distance 2.26 km; Fairway Market, distance 2.88 km; MTA Subway - Middletown Road (6), distance 2.89 km; Jacobi Medical Center, distance 2.22 km.

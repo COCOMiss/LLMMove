@@ -1,0 +1,6 @@
+The name of this location is "Bay Terrace Shopping Center" and its POI category is Shopping Mall, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.77947346, -73.77699922), with the corresponding geohash code dr5xcptjxkf4.
+The address is 213-25 26th Ave, Bayside, NY 11360, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 1(avg: 51); Shopping Mall, 1(avg: 1); Dessert Shop, 1(avg: 12); Light Rail Station, 1(avg: 1); Train Station, 1(avg: 5); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Panera Bread, distance 0.08 km; Bay Terrace Shopping Center, distance 0.12 km; Martha's Country Bakery, distance 1.86 km; LIRR - Bayside Station, distance 1.88 km; LIRR - Auburndale Station, distance 2.28 km; Throgs Neck Bridge, distance 2.65 km.
+The 10 representative nearby POIs and their distances are: Throgs Neck Bridge, distance 2.65 km; LIRR - Bayside Station, distance 1.88 km; Bay Terrace Shopping Center, distance 0.12 km; Martha's Country Bakery, distance 1.86 km; Panera Bread, distance 0.08 km; LIRR - Auburndale Station, distance 2.28 km.

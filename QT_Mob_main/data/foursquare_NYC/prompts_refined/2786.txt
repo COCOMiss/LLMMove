@@ -1,0 +1,50 @@
+**Location Analysis: "My Big Bed"**
+
+**Overview**
+"My Big Bed" is a private residence located at 113-07 86th Ave, Jamaica, NY 11418, USA. The location has a geohash code of dr5rxc4hpcm7 and geographic coordinates of (40.69954649, -73.83602511).
+
+**Geographic Context**
+The location is situated in the Jamaica neighborhood of Queens, New York City. The surrounding area is a mix of residential and commercial zones, with a variety of amenities and services within walking distance or a short drive.
+
+**Nearby Points of Interest (POIs)**
+The top 10 nearby POIs by category are:
+
+1. **Road**: 3 instances (avg: 1)
+2. **Metro Station**: 3 instances (avg: 19)
+3. **Train**: 2 instances (avg: 4)
+4. **Gym**: 2 instances (avg: 25)
+5. **Coffee Shop**: 2 instances (avg: 63)
+6. **Restaurant**: 2 instances (avg: 10)
+7. **Bar**: 1 instance (avg: 124)
+8. **Doctor's Office**: 1 instance (avg: 1)
+9. **Mexican Restaurant**: 1 instance (avg: 28)
+10. **Arts & Crafts Store**: 1 instance (avg: 2)
+
+The 10 nearest POIs to "My Big Bed" are:
+
+1. **Metropolitan And Lefferts**: 0.77 km
+2. **LIRR - Kew Gardens Station**: 1.20 km
+3. **Austin's Ale House**: 1.22 km
+4. **Planet Fitness**: 1.54 km
+5. **Jamaica Hospital Medical Center**: 1.66 km
+6. **MTA Subway - Union Turnpike-Kew Gardens (E,F)**: 1.68 km
+7. **MTA Subway - Jamaica-Van Wyck (E)**: 1.69 km
+8. **Starbucks**: 1.71 km
+9. **Super Stop & Shop**: 1.79 km
+10. **Jackie Robinson Parkway**: 1.97 km
+
+The 10 representative nearby POIs are:
+
+1. **MTA Subway - 71st & Continental Ave (E/F/M/R)**: 2.54 km
+2. **MTA Subway - Union Turnpike-Kew Gardens (E,F)**: 1.68 km
+3. **Van Wyck Expressway**: 2.17 km
+4. **Trader Joe's**: 2.29 km
+5. **New York Sports Club**: 2.56 km
+6. **Starbucks**: 1.71 km
+7. **Michael's Arts & Crafts**: 2.29 km
+8. **LIRR - Forest Hills Station**: 2.35 km
+9. **UA Midway Stadium 9 Theater**: 2.45 km
+10. **Starbucks**: 2.35 km
+
+**Conclusion**
+"My Big Bed" is a private residence located in the Jamaica neighborhood of Queens, New York City. The surrounding area offers a range of amenities, including public transportation options, gyms, coffee shops, restaurants, and shopping centers. The location is well-connected to the rest of the city, with several nearby subway stations and a major highway.

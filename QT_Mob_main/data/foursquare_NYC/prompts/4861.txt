@@ -1,0 +1,6 @@
+The name of this location is "Milk Bar" and its POI category is Café, belonging to the parent category Food.
+The geographic coordinates for this location are (40.67775148, -73.96892716), with the corresponding geohash code dr5rkv1mp46r.
+The address is 227 Prospect Pl, Brooklyn, NY 11238, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bar, 36(avg: 124); Coffee Shop, 21(avg: 63); Metro Station, 12(avg: 19); Gym, 11(avg: 25); Sandwich Place, 9(avg: 18); Mexican Restaurant, 8(avg: 28); Burger Joint, 7(avg: 17); Breakfast Spot, 6(avg: 20); Bookstore, 6(avg: 7); Grocery Store, 6(avg: 9).
+The 10 nearest POIs and their distances are: Milk Bar, distance 0.01 km; Soda Bar, distance 0.07 km; Joyce Bakeshop, distance 0.12 km; Branded Saloon, distance 0.18 km; Beast, distance 0.19 km; The Vanderbilt, distance 0.21 km; Pequeña, distance 0.21 km; Woodwork, distance 0.26 km; Weather Up, distance 0.26 km; James, distance 0.28 km.
+The 10 representative nearby POIs and their distances are: Brooklyn Museum, distance 0.83 km; Prospect Park, distance 1.80 km; Target, distance 1.05 km; The Bell House, distance 1.98 km; Trader Joe's, distance 2.39 km; Connecticut Muffin, distance 1.71 km; Pizza Town, distance 0.79 km; Union Hall, distance 0.96 km; Soda Bar, distance 0.07 km; Fort Greene Park, distance 1.63 km.

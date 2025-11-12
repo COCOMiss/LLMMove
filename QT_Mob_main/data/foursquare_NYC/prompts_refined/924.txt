@@ -1,0 +1,60 @@
+**Location Analysis: 7-Eleven, Forest Hills, NY 11375, USA**
+
+**Overview**
+
+The 7-Eleven location at 10032 Metropolitan Ave, Forest Hills, NY 11375, USA, is a convenience store and food & drink shop situated in the heart of Forest Hills, Queens, New York. This analysis will examine the surrounding environment, nearby points-of-interest (POIs), and the store's proximity to various amenities.
+
+**Geographic Location**
+
+The store's geographic coordinates are (40.71034233, -73.85208035), which correspond to the geohash code dr5rx7ndcvce. This location is situated in the Forest Hills neighborhood, with the nearest major road being Metropolitan Avenue.
+
+**Nearby Points-of-Interest (POIs)**
+
+The top 10 nearby POI categories and their counts are:
+
+1.  Restaurant (2, avg: 10)
+2.  Road (2, avg: 1)
+3.  Bookstore (2, avg: 7)
+4.  Gym (2, avg: 25)
+5.  Coffee Shop (2, avg: 63)
+6.  Movie Theater (2, avg: 5)
+7.  Train (2, avg: 4)
+8.  Bar (2, avg: 124)
+9.  Arts & Crafts Store (1, avg: 2)
+10. Bakery (1, avg: 16)
+
+The top 10 nearest POIs and their distances are:
+
+1.  Super Stop & Shop (0.44 km)
+2.  Michael's Arts & Crafts (0.54 km)
+3.  Trader Joe's (0.55 km)
+4.  Panera Bread (0.62 km)
+5.  Jackie Robinson Parkway (1.04 km)
+6.  LIRR - Forest Hills Station (1.20 km)
+7.  Martha's Country Bakery (1.24 km)
+8.  Barnes & Noble (1.24 km)
+9.  New York Sports Club (1.26 km)
+10.  5 Burro Cafe (1.28 km)
+
+The 10 representative nearby POIs and their distances are:
+
+1.  MTA Subway - 71st & Continental Ave (E/F/M/R) (1.43 km)
+2.  MTA Subway - Union Turnpike-Kew Gardens (E,F) (1.85 km)
+3.  Trader Joe's (0.55 km)
+4.  New York Sports Club (1.26 km)
+5.  Starbucks (1.77 km)
+6.  Michael's Arts & Crafts (0.54 km)
+7.  LIRR - Forest Hills Station (1.20 km)
+8.  The Shops at Atlas Park (1.39 km)
+9.  UA Midway Stadium 9 Theater (1.38 km)
+10.  Starbucks (1.31 km)
+
+**Analysis**
+
+The 7-Eleven location in Forest Hills is situated in a densely populated area with a mix of residential and commercial properties. The nearby POIs indicate a strong presence of convenience stores, restaurants, and coffee shops, suggesting a high foot traffic in the area. The store's proximity to the LIRR - Forest Hills Station (1.20 km) and MTA Subway - 71st & Continental Ave (E/F/M/R) (1.43 km) makes it easily accessible for commuters and residents.
+
+The presence of Trader Joe's (0.55 km) and Michael's Arts & Crafts (0.54 km) nearby suggests a strong demand for specialty food and craft supplies in the area. The multiple coffee shops and restaurants in the vicinity indicate a high demand for quick bites and beverages.
+
+However, the high concentration of bars (2, avg: 124) in the area may suggest a lively nightlife scene, which could impact the store's sales and customer demographics.
+
+Overall, the 7-Even location in Forest Hills is well-positioned to serve the local community, with a mix of convenience, food, and entertainment options nearby.

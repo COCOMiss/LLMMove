@@ -1,0 +1,6 @@
+The name of this location is "Verrazanno-Narrows Bridge Toll Plaza" and its POI category is Bridge, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.60233803, -74.06333123), with the corresponding geohash code dr5qfxktz23s.
+The address is JW2P+WM New York, NY, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bridge, 1(avg: 1); Racetrack, 1(avg: 1); Beach, 1(avg: 1); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Verrazanno-Narrows Bridge Toll Plaza, distance 0.02 km; 2010 ING NYC Marathon STARTING Line - New York Road Runners, distance 0.40 km; South Beach Boardwalk, distance 1.36 km; Verrazano-Narrows Bridge, distance 1.66 km.
+The 10 representative nearby POIs and their distances are: Verrazano-Narrows Bridge, distance 1.66 km; Verrazanno-Narrows Bridge Toll Plaza, distance 0.02 km; 2010 ING NYC Marathon STARTING Line - New York Road Runners, distance 0.40 km; South Beach Boardwalk, distance 1.36 km.

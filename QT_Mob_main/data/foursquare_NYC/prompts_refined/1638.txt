@@ -1,0 +1,54 @@
+**Location Analysis: Subway**
+
+**Location Overview**
+
+The location "Subway" is a Sandwich Place located at 182 Varick St, New York, NY 10014, USA. It has a geohash code of dr5reynvenqv and geographic coordinates of (40.727297, -74.005485).
+
+**Surrounding Environment**
+
+The Subway location is situated in a densely populated urban area with a variety of nearby points of interest. The top 10 nearby POI categories include:
+
+1.  Bar (205) - an average of 124 establishments within a radius of 0.5 km
+2.  Coffee Shop (92) - an average of 63 establishments within a radius of 0.5 km
+3.  American Restaurant (85) - an average of 51 establishments within a radius of 0.5 km
+4.  Office (80) - an average of 72 establishments within a radius of 0.5 km
+5.  Café (55) - an average of 42 establishments within a radius of 0.5 km
+6.  Lounge (51) - an average of 35 establishments within a radius of 0.5 km
+7.  Italian Restaurant (50) - an average of 28 establishments within a radius of 0.5 km
+8.  Gym (37) - an average of 25 establishments within a radius of 0.5 km
+9.  Mexican Restaurant (36) - an average of 28 establishments within a radius of 0.5 km
+10.  Pub (35) - an average of 24 establishments within a radius of 0.5 km
+
+**Nearby Points of Interest**
+
+The 10 nearest POIs to Subway include:
+
+1.  Dunkin Donuts - 0.02 km
+2.  Subway - 0.02 km
+3.  AKQA - 0.02 km
+4.  Little Italy Pizzeria & Deli - 0.02 km
+5.  Four Points by Sheraton - Manhattan SoHo Village - 0.05 km
+6.  NYU Poly Incubator - 0.06 km
+7.  Kirshenbaum Bond Senecal + Partners - 0.07 km
+8.  Attention HQ - 0.08 km
+9.  WNYC Radio - 0.08 km
+10.  City Winery - 0.11 km
+
+**Representative Nearby Points of Interest**
+
+The 10 representative nearby POIs include:
+
+1.  New York Penn Station - 2.84 km
+2.  Madison Square Garden - 2.78 km
+3.  MTA Subway - Manhattan Bridge (B/D/N/Q) - 2.53 km
+4.  Union Square Park - 1.53 km
+5.  Brooklyn Bridge - 2.56 km
+6.  Union Square Greenmarket - 1.62 km
+7.  Madison Square Park - 2.23 km
+8.  PATH: World Trade Center Station - 1.71 km
+9.  Eataly - 2.10 km
+10.  The High Line - 2.21 km
+
+**Conclusion**
+
+The Subway location is situated in a densely populated urban area with a variety of nearby points of interest. The surrounding environment is characterized by a mix of food establishments, offices, and entertainment venues. The location is close to major transportation hubs, including New York Penn Station and Madison Square Garden. The representative nearby points of interest suggest that the area is a popular tourist destination with a mix of cultural, entertainment, and shopping options.

@@ -1,0 +1,6 @@
+The name of this location is "Bayside Queens" and its POI category is Outdoors & Recreation, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.76846799, -73.77712011), with the corresponding geohash code dr5xcjtjs920.
+The address is 21015 35th Ave, Bayside, NY 11361, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Dessert Shop, 1(avg: 12); Light Rail Station, 1(avg: 1); American Restaurant, 1(avg: 51); Shopping Mall, 1(avg: 1); Train Station, 1(avg: 5); College Communications Building, 1(avg: 1); Multiplex, 1(avg: 4).
+The 10 nearest POIs and their distances are: Martha's Country Bakery, distance 0.77 km; LIRR - Bayside Station, distance 0.78 km; Panera Bread, distance 1.27 km; Bay Terrace Shopping Center, distance 1.30 km; LIRR - Auburndale Station, distance 1.34 km; Queensborough Community College, distance 2.29 km; AMC Loews Fresh Meadows 7, distance 2.93 km.
+The 10 representative nearby POIs and their distances are: LIRR - Bayside Station, distance 0.78 km; Queensborough Community College, distance 2.29 km; Bay Terrace Shopping Center, distance 1.30 km; Martha's Country Bakery, distance 0.77 km; AMC Loews Fresh Meadows 7, distance 2.93 km; Panera Bread, distance 1.27 km; LIRR - Auburndale Station, distance 1.34 km.

@@ -1,0 +1,6 @@
+The name of this location is "Noches de Colombia" and its POI category is South American Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.89598765, -73.97850052), with the corresponding geohash code dr72ssfkruxu.
+The address is 90 W Palisade Ave, Englewood, NJ 07631, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Coffee Shop, 1(avg: 63); Medical Center, 1(avg: 1).
+The 10 nearest POIs and their distances are: Starbucks, distance 0.43 km; Englewood Hospital & Medical Center, distance 1.24 km.
+The 10 representative nearby POIs and their distances are: Starbucks, distance 0.43 km; Englewood Hospital & Medical Center, distance 1.24 km.

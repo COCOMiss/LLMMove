@@ -1,0 +1,6 @@
+The name of this location is "NJ Transit Rail - South Orange Station" and its POI category is Train, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.74593439, -74.26055347), with the corresponding geohash code dr5py1t478ty.
+The address is 15 Sloan St, South Orange, NJ 07079, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train, 2(avg: 4); American Restaurant, 1(avg: 51); School, 1(avg: 1).
+The 10 nearest POIs and their distances are: NJ Transit Rail - South Orange Station, distance 0.04 km; Starbucks, distance 0.05 km; Seton Hall University, distance 1.27 km; NJ Transit Rail - Maplewood Station, distance 2.07 km.
+The 10 representative nearby POIs and their distances are: NJ Transit Rail - Maplewood Station, distance 2.07 km; Seton Hall University, distance 1.27 km; NJ Transit Rail - South Orange Station, distance 0.04 km; Starbucks, distance 0.05 km.

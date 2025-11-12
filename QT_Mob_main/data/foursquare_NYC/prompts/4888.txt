@@ -1,0 +1,6 @@
+The name of this location is "Mobil Gas Station" and its POI category is Gas Station, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.93314089, -73.8725646), with the corresponding geohash code dr72ygxsu6x2.
+The address is 320 Yonkers Ave, Yonkers, NY 10701, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1).
+The 10 nearest POIs and their distances are: Cross County Mall, distance 1.63 km.
+The 10 representative nearby POIs and their distances are: Cross County Mall, distance 1.63 km.

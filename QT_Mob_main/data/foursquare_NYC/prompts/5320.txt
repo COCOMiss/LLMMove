@@ -1,0 +1,6 @@
+The name of this location is "Walgreens" and its POI category is Pharmacy, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.91404636, -73.99786388), with the corresponding geohash code dr72u0hmsg19.
+The address is New Bridge Rd at S. Washington Ave, Bergenfield, NJ 07621, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Coffee Shop, 1(avg: 63); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Dunkin Donuts/Baskin Robbins, distance 0.50 km; Fitness II, distance 1.54 km.
+The 10 representative nearby POIs and their distances are: Fitness II, distance 1.54 km; Dunkin Donuts/Baskin Robbins, distance 0.50 km.

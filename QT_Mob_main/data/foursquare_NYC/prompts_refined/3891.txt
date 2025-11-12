@@ -1,0 +1,49 @@
+**Location Analysis: Noches De Colombia**
+
+**Introduction**
+
+Noches De Colombia is a Spanish Restaurant located at 172 Broad Ave, Fairview, NJ 07022, USA. The analysis of this location provides insights into its surroundings, nearby points of interest, and accessibility.
+
+**Geographic Location**
+
+Noches De Colombia is situated at the geographic coordinates (40.82055964, -74.00762516), which corresponds to the geohash code dr725zjkcrfg. This location is in the heart of Fairview, New Jersey, providing easy access to various amenities and services.
+
+**Nearby Points of Interest (POI)**
+
+The top 10 nearby POI categories and their counts are:
+
+1.  Grocery Store (1, avg: 9)
+2.  Road (1, avg: 1)
+3.  Movie Theater (1, avg: 5)
+4.  Coffee Shop (1, avg: 63)
+5.  Sandwich Place (1, avg: 18)
+6.  Park (1, avg: 8)
+7.  Department Store (1, avg: 4)
+
+The top 10 nearest POIs and their distances are:
+
+1.  Walmart Supercenter - 0.96 km
+2.  Vince Lombardi Service Area - 1.91 km
+3.  Edgewater Multiplex Cinemas - 2.05 km
+4.  Starbucks - 2.11 km
+5.  Panera Bread - 2.15 km
+6.  James L Braddock North Hudson County Park - 2.18 km
+7.  Target - 2.28 km
+
+The 10 representative nearby POIs and their distances are:
+
+1.  Starbucks - 2.11 km
+2.  Walmart Supercenter - 0.96 km
+3.  Vince Lombardi Service Area - 1.91 km
+4.  Edgewater Multiplex Cinemas - 2.05 km
+5.  Target - 2.28 km
+6.  Panera Bread - 2.15 km
+7.  James L Braddock North Hudson County Park - 2.18 km
+
+**Accessibility**
+
+Noches De Colombia is easily accessible by car, with several nearby parking options available. The restaurant is also within walking distance to the nearby Walmart Supercenter and Vince Lombardi Service Area. Public transportation options, including buses and trains, are also available in the area.
+
+**Conclusion**
+
+Noches De Colombia is a Spanish Restaurant located in the heart of Fairview, New Jersey. The location offers easy access to various amenities, including grocery stores, movie theaters, coffee shops, and parks. The nearby POIs, such as Walmart Supercenter and Starbucks, make it an ideal location for both locals and visitors.

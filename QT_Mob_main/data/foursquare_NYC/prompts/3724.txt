@@ -1,0 +1,6 @@
+The name of this location is "Valentino's on the Green" and its POI category is Italian Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.78674271, -73.79253933), with the corresponding geohash code dr780bczvpyt.
+The address is 201-10 Cross Island Pkwy, Flushing, NY 11360, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); American Restaurant, 1(avg: 51); Shopping Mall, 1(avg: 1); Deli / Bodega, 1(avg: 10); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Throgs Neck Bridge, distance 1.45 km; Panera Bread, distance 1.58 km; Bay Terrace Shopping Center, distance 1.59 km; Cherry Valley Deli & Grill, distance 1.86 km; LIRR - Auburndale Station, distance 2.82 km.
+The 10 representative nearby POIs and their distances are: Throgs Neck Bridge, distance 1.45 km; Bay Terrace Shopping Center, distance 1.59 km; Cherry Valley Deli & Grill, distance 1.86 km; Panera Bread, distance 1.58 km; LIRR - Auburndale Station, distance 2.82 km.

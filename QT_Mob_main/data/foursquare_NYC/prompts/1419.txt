@@ -1,0 +1,6 @@
+The name of this location is "Queensborough Community College" and its POI category is College Communications Building, belonging to the parent category College & University.
+The geographic coordinates for this location are (40.75492947, -73.75667095), with the corresponding geohash code dr5xcehn9j2p.
+The address is 222-05 56th Ave, Bayside, NY 11364, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: College Communications Building, 1(avg: 1); Dessert Shop, 1(avg: 12); Light Rail Station, 1(avg: 1); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Queensborough Community College, distance 0.00 km; Martha's Country Bakery, distance 1.53 km; LIRR - Bayside Station, distance 1.53 km; LIRR - Douglaston Station, distance 1.58 km.
+The 10 representative nearby POIs and their distances are: LIRR - Bayside Station, distance 1.53 km; Queensborough Community College, distance 0.00 km; LIRR - Douglaston Station, distance 1.58 km; Martha's Country Bakery, distance 1.53 km.

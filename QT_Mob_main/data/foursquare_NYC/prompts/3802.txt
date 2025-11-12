@@ -1,0 +1,6 @@
+The name of this location is "Wendy's" and its POI category is Fast Food Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.68014053, -73.87800259), with the corresponding geohash code dr5rqvedvzbd.
+The address is 3183 Atlantic Ave, Brooklyn, NY 11208, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 1(avg: 19); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: MTA - 80-Hudson Street Subway - A, distance 1.68 km; MTA - Broadway Junction (A/C/L/J/Z), distance 2.12 km.
+The 10 representative nearby POIs and their distances are: MTA - Broadway Junction (A/C/L/J/Z), distance 2.12 km; MTA - 80-Hudson Street Subway - A, distance 1.68 km.

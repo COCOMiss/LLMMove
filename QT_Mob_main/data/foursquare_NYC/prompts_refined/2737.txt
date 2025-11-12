@@ -1,0 +1,62 @@
+**Location Analysis: White Castle**
+
+**Location Details**
+
+- **Name:** White Castle
+- **POI Category:** American Restaurant
+- **Parent Category:** Food
+- **Geographic Coordinates:** (40.76057553, -73.76971308)
+- **Geohash Code:** dr5xck4x91gp
+- **Address:** 4401 Bell Blvd, Whitestone, NY 11357, USA
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs are categorized as follows:
+
+1.  **Train Station** (2) - Average distance: 5 km
+2.  **Light Rail Station** (1) - Average distance: 1 km
+3.  **Dessert Shop** (1) - Average distance: 12 km
+4.  **College Communications Building** (1) - Average distance: 1 km
+5.  **American Restaurant** (1) - Average distance: 51 km
+6.  **Shopping Mall** (1) - Average distance: 1 km
+7.  **Multiplex** (1) - Average distance: 4 km
+8.  **Restaurant** (1) - Average distance: 10 km
+9.  **Café** (1) - Average distance: 42 km
+
+**Nearest POIs**
+
+The 10 nearest POIs to White Castle are:
+
+1.  **LIRR - Bayside Station** - Distance: 0.31 km
+2.  **Martha's Country Bakery** - Distance: 0.33 km
+3.  **Queensborough Community College** - Distance: 1.27 km
+4.  **LIRR - Auburndale Station** - Distance: 1.71 km
+5.  **LIRR - Douglaston Station** - Distance: 1.90 km
+6.  **Panera Bread** - Distance: 2.21 km
+7.  **Bay Terrace Shopping Center** - Distance: 2.23 km
+8.  **AMC Loews Fresh Meadows 7** - Distance: 2.24 km
+9.  **Hooters** - Distance: 2.51 km
+10. **Starbucks** - Distance: 2.69 km
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs are:
+
+1.  **LIRR - Bayside Station** - Distance: 0.31 km
+2.  **Queensborough Community College** - Distance: 1.27 km
+3.  **Hooters** - Distance: 2.51 km
+4.  **LIRR - Douglaston Station** - Distance: 1.90 km
+5.  **Bay Terrace Shopping Center** - Distance: 2.23 km
+6.  **Martha's Country Bakery** - Distance: 0.33 km
+7.  **AMC Loews Fresh Meadows 7** - Distance: 2.24 km
+8.  **Starbucks** - Distance: 2.69 km
+9.  **Panera Bread** - Distance: 2.21 km
+10. **LIRR - Auburndale Station** - Distance: 1.71 km
+
+**Key Takeaways**
+
+- White Castle is located in Whitestone, New York, near several transportation hubs and shopping centers.
+- The nearest POIs are primarily transportation-related, with the LIRR - Bayside Station being the closest at 0.31 km.
+- The area has a mix of restaurants, cafes, and shopping centers, indicating a diverse range of dining and entertainment options.
+- Queensborough Community College is nearby, suggesting a student population in the area.
+- Hooters and Starbucks are among the representative nearby POIs, indicating a mix of casual dining and coffee shops.

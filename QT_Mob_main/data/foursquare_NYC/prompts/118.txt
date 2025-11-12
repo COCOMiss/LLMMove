@@ -1,0 +1,6 @@
+The name of this location is "Hackensack Bus Transfer" and its POI category is Bus Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.88214079, -74.04226479), with the corresponding geohash code dr72e4k5dpmv.
+The address is 131 River St, Hackensack, NJ 07601, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Miscellaneous Shop, 1(avg: 6); Hospital, 1(avg: 2); Gym / Fitness Center, 1(avg: 7); Wings Joint, 1(avg: 1); American Restaurant, 1(avg: 51); Bookstore, 1(avg: 7); Shopping Mall, 1(avg: 1); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Costco Wholesale Club, distance 0.72 km; Hackensack University Medical Center, distance 1.15 km; Golds Gym, distance 2.45 km; Hooters of Hackensack, distance 2.58 km; The Cheesecake Factory, distance 2.71 km; Barnes & Noble, distance 2.73 km; The Shops at Riverside, distance 2.79 km; Starbucks, distance 3.00 km.
+The 10 representative nearby POIs and their distances are: Hackensack University Medical Center, distance 1.15 km; The Shops at Riverside, distance 2.79 km; The Cheesecake Factory, distance 2.71 km; Golds Gym, distance 2.45 km; Costco Wholesale Club, distance 0.72 km; Barnes & Noble, distance 2.73 km; Hooters of Hackensack, distance 2.58 km; Starbucks, distance 3.00 km.

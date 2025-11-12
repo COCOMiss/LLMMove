@@ -1,0 +1,26 @@
+**Location Analysis: Clearview Cinemas**
+
+**Overview**
+
+Clearview Cinemas, located at 60 S Washington Ave, Bergenfield, NJ 07621, USA, is a movie theater categorized under Arts & Entertainment. The location is situated at the geographic coordinates (40.92583762, -73.9967104), with a geohash code of dr72u4m4r9jd.
+
+**Proximity Analysis**
+
+The surrounding area of Clearview Cinemas is relatively commercialized, with various points of interest nearby. The top 10 nearby POI categories and their counts indicate a mix of recreational and daily convenience options. The top categories are:
+
+1.  Gym (1, avg: 25) - suggesting a moderate number of gyms in the area, which may indicate a relatively active and health-conscious community.
+2.  Coffee Shop (1, avg: 63) - indicating a moderate number of coffee shops, which is a common feature in urban or suburban areas.
+
+The 10 nearest POIs to Clearview Cinemas are:
+
+1.  Fitness II (0.23 km) - a nearby gym, which is likely a convenient option for patrons looking to combine a movie outing with a workout.
+2.  Dunkin Donuts/Baskin Robbins (0.82 km) - a coffee shop and ice cream parlor, providing a popular option for a quick snack or drink.
+
+The 10 representative nearby POIs, which are likely the most relevant or popular options, are:
+
+1.  Fitness II (0.23 km) - a nearby gym, which is likely a convenient option for patrons looking to combine a movie outing with a workout.
+2.  Dunkin Donuts/Baskin Robbins (0.82 km) - a coffee shop and ice cream parlor, providing a popular option for a quick snack or drink.
+
+**Insights**
+
+Based on the analysis, Clearview Cinemas is situated in a relatively commercialized area with a mix of recreational and daily convenience options. The nearby gyms and coffee shops suggest a community that values health and wellness, as well as convenience and entertainment. The proximity of Fitness II and Dunkin Donuts/Baskin Robbins to the movie theater may make it an attractive option for patrons looking to combine a movie outing with a workout or a quick snack.

@@ -1,0 +1,6 @@
+The name of this location is "BJ's Wholesale Club" and its POI category is Department Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.81241258, -74.0157938), with the corresponding geohash code dr725txme10h.
+The address is 2100 88th St, North Bergen, NJ 07047, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 1(avg: 9); Road, 1(avg: 1); Park, 1(avg: 8); Movie Theater, 1(avg: 5); Sandwich Place, 1(avg: 18).
+The 10 nearest POIs and their distances are: Walmart Supercenter, distance 0.23 km; Vince Lombardi Service Area, distance 1.64 km; James L Braddock North Hudson County Park, distance 1.83 km; Edgewater Multiplex Cinemas, distance 2.23 km; Panera Bread, distance 2.29 km.
+The 10 representative nearby POIs and their distances are: Walmart Supercenter, distance 0.23 km; Vince Lombardi Service Area, distance 1.64 km; Edgewater Multiplex Cinemas, distance 2.23 km; Panera Bread, distance 2.29 km; James L Braddock North Hudson County Park, distance 1.83 km.

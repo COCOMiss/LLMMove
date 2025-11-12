@@ -1,0 +1,56 @@
+**Analysis of Edi & The Wolf Location**
+
+Edi & The Wolf is a German restaurant located at 96 Loisaida Ave, New York, NY 10009, USA. The geographic coordinates for this location are (40.72371374, -73.97897243), with a geohash code of dr5rstd0v42n.
+
+**POI Category and Nearby Locations**
+
+Edi & The Wolf falls under the category of German Restaurant, which is a subset of the parent category Food. The top 10 nearby points-of-interest (POI) categories and their counts are:
+
+1.  Bar (222) - avg: 124
+2.  Coffee Shop (78) - avg: 63
+3.  American Restaurant (63) - avg: 51
+4.  Café (55) - avg: 42
+5.  Office (49) - avg: 72
+6.  Lounge (45) - avg: 35
+7.  Italian Restaurant (40) - avg: 28
+8.  Mexican Restaurant (35) - avg: 28
+9.  Gym (33) - avg: 25
+10. Pizza Place (32) - avg: 20
+
+The presence of a high number of bars and coffee shops in the area suggests that Edi & The Wolf is situated in a vibrant and lively neighborhood with a mix of entertainment and dining options.
+
+**Nearest POIs**
+
+The 10 nearest POIs to Edi & The Wolf are:
+
+1.  Zum Schneider (distance: 0.06 km)
+2.  Porch Bar (distance: 0.08 km)
+3.  Finding Sukha Yoga Studio (distance: 0.10 km)
+4.  Sake Bar Satsko (distance: 0.14 km)
+5.  The Summit Bar (distance: 0.15 km)
+6.  Grape and Grain (distance: 0.16 km)
+7.  The Sunburnt Cow (distance: 0.17 km)
+8.  Ninth Street Espresso (distance: 0.19 km)
+9.  Louis 649 (distance: 0.20 km)
+10. Esperanto (distance: 0.21 km)
+
+These POIs are all within a short walking distance from Edi & The Wolf, indicating that the restaurant is situated in a densely populated area with a high concentration of businesses and services.
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs and their distances are:
+
+1.  MTA Subway - Manhattan Bridge (B/D/N/Q) (distance: 2.06 km)
+2.  Union Square Park (distance: 1.62 km)
+3.  Brooklyn Bridge (distance: 2.50 km)
+4.  Union Square Greenmarket (distance: 1.73 km)
+5.  Madison Square Park (distance: 2.19 km)
+6.  Eataly (distance: 2.24 km)
+7.  Regal Union Square Stadium 14 (distance: 1.50 km)
+8.  Shake Shack (distance: 2.11 km)
+9.  Washington Square Park (distance: 1.76 km)
+10. Brooklyn Bowl (distance: 1.81 km)
+
+These POIs are slightly farther away from Edi & The Wolf, but still within a reasonable walking distance or accessible by public transportation. They represent popular attractions and amenities that are easily accessible from the restaurant.
+
+Overall, Edi & The Wolf is situated in a vibrant and densely populated area with a mix of entertainment, dining, and shopping options. The presence of nearby POIs such as bars, coffee shops, and restaurants suggests that the restaurant is well-positioned to attract customers looking for a unique dining experience.

@@ -1,0 +1,6 @@
+The name of this location is "Teterboro Airport (TEB)" and its POI category is Airport, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.85320704, -74.06547102), with the corresponding geohash code dr726t55jmvb.
+The address is 2 Malcolm Ave, Teterboro, NJ 07608, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 2(avg: 51); Airport, 1(avg: 1); Other Great Outdoors, 1(avg: 13); Gym, 1(avg: 25); Gym / Fitness Center, 1(avg: 7); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Teterboro Airport (TEB), distance 0.39 km; SONIC Drive-In, distance 0.50 km; Starbucks, distance 0.57 km; Houlihan's, distance 0.97 km; 24 Hour Fitness, distance 1.26 km; Golds Gym, distance 1.33 km; Starbucks, distance 1.86 km.
+The 10 representative nearby POIs and their distances are: 24 Hour Fitness, distance 1.26 km; Teterboro Airport (TEB), distance 0.39 km; Starbucks, distance 0.57 km; SONIC Drive-In, distance 0.50 km; Golds Gym, distance 1.33 km; Houlihan's, distance 0.97 km; Starbucks, distance 1.86 km.

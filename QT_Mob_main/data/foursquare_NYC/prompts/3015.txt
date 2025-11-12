@@ -1,0 +1,6 @@
+The name of this location is "MTA - 2 Train" and its POI category is Train, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.82976714, -73.89216006), with the corresponding geohash code dr72q8c6eu7b.
+The address is 1245 Southern Blvd, Bronx, NY 10459, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Road, 1(avg: 1); Train Station, 1(avg: 5); Hospital, 1(avg: 2); Other Great Outdoors, 1(avg: 13); Emergency Room, 1(avg: 2).
+The 10 nearest POIs and their distances are: MTA Subway - Prospect Avenue (2/5), distance 1.34 km; MTA Subway - West Farms Square/East Tremont Avenue (2/5), distance 1.53 km; Cross Bronx Expressway, distance 1.73 km; MTA - East 180th Street (2,5), distance 1.99 km; Bronx Lebanon Hospital: Concourse Division, distance 2.21 km; Bronx Zoo, distance 2.52 km; St. Barnabas Hospital, distance 2.55 km.
+The 10 representative nearby POIs and their distances are: Bronx Zoo, distance 2.52 km; Cross Bronx Expressway, distance 1.73 km; MTA - East 180th Street (2,5), distance 1.99 km; St. Barnabas Hospital, distance 2.55 km; Bronx Lebanon Hospital: Concourse Division, distance 2.21 km; MTA Subway - West Farms Square/East Tremont Avenue (2/5), distance 1.53 km; MTA Subway - Prospect Avenue (2/5), distance 1.34 km.

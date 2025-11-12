@@ -1,0 +1,6 @@
+The name of this location is "New Jersey Turnpike - Newark" and its POI category is Road, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.70644125, -74.15183544), with the corresponding geohash code dr5r8dkk1n8h.
+The address is NJ Tpke, Newark, NJ 07114, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: New Jersey Turnpike - Newark, distance 0.00 km.
+The 10 representative nearby POIs and their distances are: New Jersey Turnpike - Newark, distance 0.00 km.

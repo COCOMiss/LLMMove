@@ -1,0 +1,64 @@
+**Location Analysis: Starbucks at 31- 3 Broadway, Astoria, NY 11106, USA**
+
+**Overview**
+
+The Starbucks location at 31- 3 Broadway, Astoria, NY 11106, USA is a popular coffee shop situated in the heart of Astoria, Queens, New York. This location falls under the POI category of Coffee Shop, which is a subset of the Food category. With a geohash code of dr5rvu3rm2cs, this location can be easily identified and located using geolocation services.
+
+**Geographic Coordinates and Address**
+
+The Starbucks location has a precise geographic coordinate of (40.7619, -73.925058), which corresponds to the given geohash code. The address of the location is 31- 3 Broadway, Astoria, NY 11106, USA, making it easily accessible by foot or public transportation.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs to Starbucks include:
+
+1.  Metro Station (14 occurrences, average distance: 19)
+2.  Bar (7 occurrences, average distance: 124)
+3.  Gym (6 occurrences, average distance: 25)
+4.  Coffee Shop (5 occurrences, average distance: 63)
+5.  Home (private) (4 occurrences, average distance: 14)
+6.  Bakery (3 occurrences, average distance: 16)
+7.  Lounge (3 occurrences, average distance: 35)
+8.  American Restaurant (2 occurrences, average distance: 51)
+9.  Sports Bar (2 occurrences, average distance: 8)
+10.  Burger Joint (2 occurrences, average distance: 17)
+
+These nearby POIs indicate that the location is situated in a densely populated area with various amenities, including transportation hubs, food establishments, and entertainment options.
+
+**Nearest POIs**
+
+The 10 nearest POIs to Starbucks are:
+
+1.  MTA Subway - Broadway (N/Q), distance 0.02 km
+2.  Club Fitness, distance 0.05 km
+3.  Sanford's, distance 0.06 km
+4.  Break Bar & Billiards, distance 0.09 km
+5.  Gleason's, distance 0.14 km
+6.  Brooklyn Bagel & Coffee Co., distance 0.32 km
+7.  Brick Cafe, distance 0.34 km
+8.  Bare Burger, distance 0.37 km
+9.  Il Bambino, distance 0.37 km
+10.  5 Napkin Burger, distance 0.59 km
+
+These nearest POIs suggest that Starbucks is situated in a convenient location, with several nearby options for food, entertainment, and transportation.
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs to Starbucks are:
+
+1.  MTA - Queensboro Plaza (N/Q/7), distance 1.77 km
+2.  MTA Subway - Astoria/Ditmars Blvd (N/Q), distance 1.76 km
+3.  The Garden at Studio Square, distance 0.79 km
+4.  Bohemian Hall and Beer Garden, distance 1.43 km
+5.  MTA Subway - Astoria Blvd (N/Q), distance 1.09 km
+6.  MTA Subway - 30th Ave - Grand Ave (N/Q), distance 0.61 km
+7.  UA Kaufman Astoria Stadium 14, distance 0.81 km
+8.  MTA Subway - Broadway (N/Q), distance 0.02 km
+9.  Planet Fitness, distance 0.82 km
+10.  Astoria Park, distance 2.18 km
+
+These representative POIs indicate that Starbucks is surrounded by a range of amenities, including transportation hubs, entertainment options, and recreational areas.
+
+**Conclusion**
+
+The Starbucks location at 31- 3 Broadway, Astoria, NY 11106, USA is a convenient and accessible coffee shop situated in the heart of Astoria, Queens. With nearby options for food, entertainment, and transportation, this location is an ideal spot for individuals looking for a quick coffee or snack on-the-go.

@@ -1,0 +1,6 @@
+The name of this location is "Golden Crust" and its POI category is Caribbean Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.64526737, -73.90237391), with the corresponding geohash code dr5rnr1zvg5b.
+The address is 1430A Rockaway Pkwy, Brooklyn, NY 11236, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 1(avg: 19); Other Nightlife, 1(avg: 7).
+The 10 nearest POIs and their distances are: MTA - Canarsie/Rockaway Pkwy (L), distance 0.10 km; Stella Artois Socialite Event, distance 0.86 km.
+The 10 representative nearby POIs and their distances are: MTA - Canarsie/Rockaway Pkwy (L), distance 0.10 km; Stella Artois Socialite Event, distance 0.86 km.

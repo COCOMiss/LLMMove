@@ -1,0 +1,6 @@
+The name of this location is "Kerasotes Showplace 14" and its POI category is Movie Theater, belonging to the parent category Arts & Entertainment.
+The geographic coordinates for this location are (40.78531821, -74.04664993), with the corresponding geohash code dr72508zsn25.
+The address is 650 Plaza Dr, Secaucus, NJ 07094, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Movie Theater, 1(avg: 5); American Restaurant, 1(avg: 51); Burger Joint, 1(avg: 17); College Gym, 1(avg: 2); Department Store, 1(avg: 4); Gym / Fitness Center, 1(avg: 7); Arcade, 1(avg: 3); Diner, 1(avg: 9).
+The 10 nearest POIs and their distances are: Kerasotes Showplace 14, distance 0.00 km; Houlihan's - Secaucus, distance 0.07 km; Cheeseburger in Paradise, distance 0.22 km; LA fitness, distance 0.51 km; Walmart, distance 0.91 km; Bally Total Fitness, distance 1.44 km; Union City, distance 1.77 km; Coach House, distance 2.78 km.
+The 10 representative nearby POIs and their distances are: Walmart, distance 0.91 km; Kerasotes Showplace 14, distance 0.00 km; Cheeseburger in Paradise, distance 0.22 km; Houlihan's - Secaucus, distance 0.07 km; Coach House, distance 2.78 km; LA fitness, distance 0.51 km; Union City, distance 1.77 km; Bally Total Fitness, distance 1.44 km.

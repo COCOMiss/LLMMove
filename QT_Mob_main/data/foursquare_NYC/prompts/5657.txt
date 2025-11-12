@@ -1,0 +1,6 @@
+The name of this location is "Burger King" and its POI category is Fast Food Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.86650324, -73.82576466), with the corresponding geohash code dr782p98wurg.
+The address is 2266 Bartow Ave, Bronx, NY 10475, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Road, 1(avg: 1); Gym, 1(avg: 25); Emergency Room, 1(avg: 2); Hospital, 1(avg: 2).
+The 10 nearest POIs and their distances are: MTA Subway - Pelham Bay Park (6), distance 1.50 km; Hutchinson River Parkway, distance 1.57 km; Planet Fitness, distance 2.08 km; Jacobi Medical Center, distance 2.11 km; Montefiore Medical Center, distance 2.60 km; MTA Subway - Middletown Road (6), distance 2.72 km.
+The 10 representative nearby POIs and their distances are: MTA Subway - Pelham Bay Park (6), distance 1.50 km; Hutchinson River Parkway, distance 1.57 km; Planet Fitness, distance 2.08 km; MTA Subway - Middletown Road (6), distance 2.72 km; Jacobi Medical Center, distance 2.11 km; Montefiore Medical Center, distance 2.60 km.

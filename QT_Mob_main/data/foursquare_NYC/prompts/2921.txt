@@ -1,0 +1,6 @@
+The name of this location is "Hackensack University Medical Center" and its POI category is Hospital, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.88366806, -74.05626345), with the corresponding geohash code dr72df9ueupe.
+The address is 20 Prospect Ave # 513, Hackensack, NJ 07601, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Hospital, 1(avg: 2); Miscellaneous Shop, 1(avg: 6); Gym, 1(avg: 25); Gym / Fitness Center, 1(avg: 7); Diner, 1(avg: 9).
+The 10 nearest POIs and their distances are: Hackensack University Medical Center, distance 0.04 km; Costco Wholesale Club, distance 1.69 km; 24 Hour Fitness, distance 2.25 km; Golds Gym, distance 2.34 km; Saddle Brook Diner, distance 2.39 km.
+The 10 representative nearby POIs and their distances are: 24 Hour Fitness, distance 2.25 km; Hackensack University Medical Center, distance 0.04 km; Golds Gym, distance 2.34 km; Costco Wholesale Club, distance 1.69 km; Saddle Brook Diner, distance 2.39 km.

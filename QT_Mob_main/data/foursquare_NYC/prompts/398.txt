@@ -1,0 +1,6 @@
+The name of this location is "Bergen Community College" and its POI category is Community College, belonging to the parent category College & University.
+The geographic coordinates for this location are (40.9510571, -74.08986568), with the corresponding geohash code dr72fncmjn24.
+The address is Bergen Community College Student Center, Paramus, NJ 07652, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 2(avg: 9); Coffee Shop, 2(avg: 63); Community College, 1(avg: 1); Office, 1(avg: 72); Shopping Mall, 1(avg: 1).
+The 10 nearest POIs and their distances are: Bergen Community College, distance 0.09 km; Trader Joe's, distance 1.61 km; Starbucks, distance 1.64 km; CUnet Headquarters, distance 1.77 km; Paramus Park Mall, distance 1.86 km; Fairway Market, distance 2.16 km; Starbucks, distance 2.57 km.
+The 10 representative nearby POIs and their distances are: Bergen Community College, distance 0.09 km; Paramus Park Mall, distance 1.86 km; Fairway Market, distance 2.16 km; Starbucks, distance 1.64 km; CUnet Headquarters, distance 1.77 km; Starbucks, distance 2.57 km; Trader Joe's, distance 1.61 km.

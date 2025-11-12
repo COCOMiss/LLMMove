@@ -1,0 +1,64 @@
+**Location Analysis: Quiznos**
+
+**Overview**
+
+Quiznos is a sandwich place located at 6 Madison Ave, New York, NY 10010, USA. The location falls under the category of Food and has a geohash code of dr5ru2ex1t5n. 
+
+**Geographic Location**
+
+Quiznos is situated at the geographic coordinates (40.74128081, -73.98804471), placing it in the heart of New York City. This location is within walking distance to several major landmarks and points of interest.
+
+**Nearby Points of Interest**
+
+The top 10 nearby POI categories and their counts are:
+
+1.  Bar (270, avg: 124)
+2.  Office (125, avg: 72)
+3.  Coffee Shop (119, avg: 63)
+4.  American Restaurant (104, avg: 51)
+5.  Café (84, avg: 42)
+6.  Lounge (68, avg: 35)
+7.  Mexican Restaurant (56, avg: 28)
+8.  Italian Restaurant (55, avg: 28)
+9.  Gym (49, avg: 25)
+10. Hotel (48, avg: 28)
+
+These categories indicate that Quiznos is surrounded by a mix of entertainment, work, and dining options, making it a convenient location for both locals and tourists.
+
+**Nearest Points of Interest**
+
+The 10 nearest POIs to Quiznos are:
+
+1.  Shake Shack (0.02 km)
+2.  Credit Suisse (1 Madison Ave) (0.04 km)
+3.  Live Bait (0.05 km)
+4.  Cosmic Comics (0.07 km)
+5.  Big Apple BBQ Block Party (0.08 km)
+6.  Press (0.09 km)
+7.  Jemmy's Dog Run (0.10 km)
+8.  MTA Subway - 23rd St (N/R) (0.11 km)
+9.  Madison Square Park (0.11 km)
+10. Benvenuto Caffe Restaurant (0.11 km)
+
+These nearby POIs offer a variety of options for customers to grab a quick bite, shop, or relax in the area.
+
+**Representative Nearby Points of Interest**
+
+The 10 representative nearby POIs and their distances are:
+
+1.  New York Penn Station (1.14 km)
+2.  Madison Square Garden (1.05 km)
+3.  NBC Studio 1A - Today Show (2.04 km)
+4.  Times Square (1.66 km)
+5.  Port Authority Bus Terminal (1.80 km)
+6.  Union Square Park (0.71 km)
+7.  MoMA - Museum of Modern Art (2.40 km)
+8.  Bryant Park (1.44 km)
+9.  Union Square Greenmarket (0.57 km)
+10. Madison Square Park (0.11 km)
+
+These representative POIs showcase the proximity of Quiznos to major attractions and transportation hubs, making it an ideal location for both locals and tourists.
+
+**Conclusion**
+
+Quiznos, located at 6 Madison Ave, New York, NY 10010, USA, is situated in a vibrant and bustling area with a mix of entertainment, work, and dining options. Its proximity to major landmarks, transportation hubs, and POIs makes it a convenient location for customers.

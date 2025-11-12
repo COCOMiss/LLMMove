@@ -1,0 +1,6 @@
+The name of this location is "IZOD Center" and its POI category is Basketball Stadium, belonging to the parent category Arts & Entertainment.
+The geographic coordinates for this location are (40.81143815, -74.06779647), with the corresponding geohash code dr724t3rz5rz.
+The address is 50 NJ-120, East Rutherford, NJ 07073, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Basketball Stadium, 1(avg: 1); Beer Garden, 1(avg: 4); Music Venue, 1(avg: 10).
+The 10 nearest POIs and their distances are: IZOD Center, distance 0.03 km; New Meadowlands Stadium, distance 0.62 km; The Bamboozle Festival 2011, distance 0.80 km.
+The 10 representative nearby POIs and their distances are: New Meadowlands Stadium, distance 0.62 km; IZOD Center, distance 0.03 km; The Bamboozle Festival 2011, distance 0.80 km.

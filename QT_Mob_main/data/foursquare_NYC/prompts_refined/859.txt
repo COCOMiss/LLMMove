@@ -1,0 +1,51 @@
+**Location Analysis: Chipotle Mexican Grill**
+
+**Overview**
+
+The Chipotle Mexican Grill location at 378 NJ-3, Clifton, NJ 07014, USA, is a popular taco spot in the heart of Clifton, New Jersey. This analysis will provide an overview of the surrounding area, highlighting nearby points of interest (POIs), their distances, and categories.
+
+**Geographic Location**
+
+The Chipotle Mexican Grill is situated at the geographic coordinates (40.83003905, -74.13785955), with a geohash code of dr722byknwvn. This location is easily accessible via NJ-3 and has a geohash code that can be used for navigation purposes.
+
+**Nearby POIs**
+
+The top 10 nearby POIs and their counts are:
+
+1.  **Grocery Store** (3, avg: 9) - This suggests that the area has a high concentration of grocery stores, indicating a high demand for food and household essentials.
+2.  **Coffee Shop** (2, avg: 63) - The presence of multiple coffee shops implies a high foot traffic and a busy commercial area.
+3.  **Pharmacy** (2, avg: 4) - The proximity of pharmacies indicates that the area has a high population density and a need for healthcare services.
+4.  **American Restaurant** (2, avg: 51) - The presence of American restaurants suggests a diverse dining scene and a high demand for casual dining options.
+5.  **Burger Joint** (2, avg: 17) - The presence of burger joints indicates a high demand for quick and casual dining options.
+6.  **Shopping Mall** (1, avg: 1) - The presence of a shopping mall suggests that the area has a high demand for retail goods and services.
+7.  **Bookstore** (1, avg: 7) - The presence of a bookstore indicates a high demand for educational and entertainment materials.
+8.  **Rest Area** (1, avg: 1) - The presence of a rest area suggests that the area is a popular stopping point for travelers.
+9.  **Mexican Restaurant** (1, avg: 28) - The presence of a Mexican restaurant indicates a high demand for international cuisine.
+10. **Gym** (1, avg: 25) - The presence of a gym suggests that the area has a high demand for fitness services.
+
+**Nearest POIs**
+
+The 10 nearest POIs and their distances are:
+
+1.  **Starbucks** (0.09 km) - A popular coffee shop chain with a short distance from the Chipotle Mexican Grill.
+2.  **Clifton Commons** (0.10 km) - A shopping mall with a short distance from the Chipotle Mexican Grill.
+3.  **Barnes & Noble** (0.16 km) - A bookstore with a moderate distance from the Chipotle Mexican Grill.
+4.  **Costco Wholesale Club** (0.20 km) - A grocery store with a moderate distance from the Chipotle Mexican Grill.
+5.  **Applebee's Neighborhood Bar & Grill** (0.23 km) - An American restaurant with a moderate distance from the Chipotle Mexican Grill.
+6.  **AMC Clifton Commons 16** (0.26 km) - A movie theater with a moderate distance from the Chipotle Mexican Grill.
+7.  **Chevy's** (0.28 km) - A Mexican restaurant with a moderate distance from the Chipotle Mexican Grill.
+8.  **New York Sports Club** (0.32 km) - A gym with a moderate distance from the Chipotle Mexican Grill.
+9.  **Stop & Shop** (0.38 km) - A grocery store with a moderate distance from the Chipotle Mexican Grill.
+10. **Red Robin Gourmet Burgers** (0.41 km) - A burger joint with a moderate distance from the Chipotle Mexican Grill.
+
+**Representative POIs**
+
+The 10 representative nearby POIs and their distances are:
+
+1.  **LA Fitness** (1.87 km) - A gym with a long distance from the Chipotle Mexican Grill.
+2.  **Target** (0.63 km) - A retail store with a short to moderate distance from the Chipotle Mexican Grill.
+3.  **The Shannon Rose Irish Pub** (0.53 km) - A bar and restaurant with a short to moderate distance from the Chipotle Mexican Grill.
+4.  **AMC Clifton Commons 16** (0.26 km) - A movie theater with a moderate distance from the Chipotle Mexican Grill.
+5.  **Barnes & Noble** (0.16 km) - A bookstore with a short distance from the Chipotle Mexican Grill.
+6.  **NJ Route 3** (2.34 km) - A highway with a long distance from the Chipotle Mexican Grill.
+7

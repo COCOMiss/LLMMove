@@ -1,0 +1,6 @@
+The name of this location is "Babies R Us" and its POI category is Toy / Game Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.65057338, -73.8711577), with the corresponding geohash code dr5rr00wv207.
+The address is 395 Gateway Dr, Brooklyn, NY 11239, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Electronics Store, 1(avg: 5); Department Store, 1(avg: 4); Beach, 1(avg: 1).
+The 10 nearest POIs and their distances are: Best Buy, distance 0.16 km; Target, distance 0.27 km; Howard Beach, distance 2.06 km.
+The 10 representative nearby POIs and their distances are: Target, distance 0.27 km; Howard Beach, distance 2.06 km; Best Buy, distance 0.16 km.

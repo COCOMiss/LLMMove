@@ -1,0 +1,6 @@
+The name of this location is "Food Basics" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.59896507, -73.93760204), with the corresponding geohash code dr5qvwb6158h.
+The address is 3021 Ave V, Brooklyn, NY 11229, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Park, 1(avg: 8); Movie Theater, 1(avg: 5); Fast Food Restaurant, 1(avg: 5); Shopping Mall, 1(avg: 1); Gym, 1(avg: 25); College Classroom, 1(avg: 1).
+The 10 nearest POIs and their distances are: Marine Park, distance 1.41 km; United Artists Sheepshead Bay Stadium 14 & IMAX, distance 1.58 km; Roll N Roaster, distance 1.65 km; MTA - Sheepshead Bay (B/Q), distance 1.91 km; Kings Plaza Mall, distance 1.91 km; Bally Total Fitness, distance 1.94 km; MTA - Kings Highway (B/Q), distance 2.04 km; Kingsborough Community College, distance 2.29 km.
+The 10 representative nearby POIs and their distances are: MTA - Kings Highway (B/Q), distance 2.04 km; Kingsborough Community College, distance 2.29 km; Kings Plaza Mall, distance 1.91 km; United Artists Sheepshead Bay Stadium 14 & IMAX, distance 1.58 km; MTA - Sheepshead Bay (B/Q), distance 1.91 km; Roll N Roaster, distance 1.65 km; Bally Total Fitness, distance 1.94 km; Marine Park, distance 1.41 km.

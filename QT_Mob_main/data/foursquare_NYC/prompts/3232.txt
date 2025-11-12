@@ -1,0 +1,6 @@
+The name of this location is "The Gate" and its POI category is Bar, belonging to the parent category Nightlife Spot.
+The geographic coordinates for this location are (40.672797, -73.983208), with the corresponding geohash code dr5rkkr04qcs.
+The address is 5 Av/3 St, Brooklyn, NY 11215, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bar, 40(avg: 124); Coffee Shop, 23(avg: 63); Metro Station, 13(avg: 19); Gym, 12(avg: 25); Mexican Restaurant, 11(avg: 28); Sandwich Place, 9(avg: 18); Burger Joint, 8(avg: 17); American Restaurant, 7(avg: 51); Pub, 7(avg: 24); Grocery Store, 7(avg: 9).
+The 10 nearest POIs and their distances are: 'sNice, distance 0.02 km; Stone Park Café, distance 0.02 km; The Gate, distance 0.03 km; Loki Lounge, distance 0.08 km; Song, distance 0.09 km; Great Lakes, distance 0.16 km; Bonnie's Grill, distance 0.18 km; Blue Ribbon Brasserie, distance 0.18 km; Perch Cafe, distance 0.18 km; Juventino, distance 0.19 km.
+The 10 representative nearby POIs and their distances are: Brooklyn Museum, distance 1.69 km; Prospect Park, distance 1.68 km; Target, distance 1.37 km; The Bell House, distance 0.72 km; Trader Joe's, distance 2.03 km; Connecticut Muffin, distance 2.57 km; Pizza Town, distance 0.92 km; Union Hall, distance 0.46 km; Soda Bar, distance 1.38 km; Fort Greene Park, distance 2.18 km.

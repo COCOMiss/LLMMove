@@ -1,0 +1,6 @@
+The name of this location is "Throgs Neck Bridge Toll Plaza" and its POI category is General Travel, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.81780414, -73.80359888), with the corresponding geohash code dr780w9ugw0j.
+The address is 3182 Chaffee Ave, Bronx, NY 10465, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: General Travel, 1(avg: 1); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Throgs Neck Bridge Toll Plaza, distance 0.00 km; Throgs Neck Bridge, distance 2.18 km.
+The 10 representative nearby POIs and their distances are: Throgs Neck Bridge, distance 2.18 km; Throgs Neck Bridge Toll Plaza, distance 0.00 km.

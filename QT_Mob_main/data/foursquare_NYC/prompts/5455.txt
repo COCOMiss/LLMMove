@@ -1,0 +1,6 @@
+The name of this location is "New Jersey Motor Vehicle Commission" and its POI category is Capitol Building, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.88302033, -74.07587528), with the corresponding geohash code dr72d6e8g525.
+The address is 8 Mill St, Lodi, NJ 07644, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 2(avg: 25); Diner, 1(avg: 9); Hospital, 1(avg: 2); Other Great Outdoors, 1(avg: 13).
+The 10 nearest POIs and their distances are: Saddle Brook Diner, distance 1.40 km; Hackensack University Medical Center, distance 1.70 km; Bally Total Fitness, distance 1.80 km; 24 Hour Fitness, distance 2.23 km; Starbucks, distance 2.93 km.
+The 10 representative nearby POIs and their distances are: 24 Hour Fitness, distance 2.23 km; Hackensack University Medical Center, distance 1.70 km; Starbucks, distance 2.93 km; Bally Total Fitness, distance 1.80 km; Saddle Brook Diner, distance 1.40 km.

@@ -1,0 +1,6 @@
+The name of this location is "ShopRite" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.69990191, -74.2342329), with the corresponding geohash code dr5pwc0q1585.
+The address is 370 US-22, Hillside, NJ 07205, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 2(avg: 1); General Travel, 1(avg: 1); Train Station, 1(avg: 5); Hospital, 1(avg: 2); University, 1(avg: 5).
+The 10 nearest POIs and their distances are: U.S. Route 22 - New Jersey, distance 0.40 km; Union Toll Plaza, distance 1.11 km; NJ Transit Rail - Union Station, distance 1.84 km; Newark Beth Israel Medical Center, distance 2.13 km; Kean University, distance 2.18 km; Garden State Parkway - Irvington, distance 2.52 km.
+The 10 representative nearby POIs and their distances are: Kean University, distance 2.18 km; Garden State Parkway - Irvington, distance 2.52 km; U.S. Route 22 - New Jersey, distance 0.40 km; Newark Beth Israel Medical Center, distance 2.13 km; Union Toll Plaza, distance 1.11 km; NJ Transit Rail - Union Station, distance 1.84 km.

@@ -1,0 +1,6 @@
+The name of this location is "Walmart" and its POI category is Department Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.79262893, -74.04188633), with the corresponding geohash code dr7254h66cpv.
+The address is 400 Park Pl, Secaucus, NJ 07094, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Department Store, 1(avg: 4); College Gym, 1(avg: 2); Burger Joint, 1(avg: 17); American Restaurant, 1(avg: 51); Movie Theater, 1(avg: 5); Gym / Fitness Center, 1(avg: 7); Arcade, 1(avg: 3).
+The 10 nearest POIs and their distances are: Walmart, distance 0.00 km; LA fitness, distance 0.39 km; Cheeseburger in Paradise, distance 0.71 km; Houlihan's - Secaucus, distance 0.84 km; Kerasotes Showplace 14, distance 0.91 km; Bally Total Fitness, distance 1.97 km; Union City, distance 2.32 km.
+The 10 representative nearby POIs and their distances are: Walmart, distance 0.00 km; Kerasotes Showplace 14, distance 0.91 km; Cheeseburger in Paradise, distance 0.71 km; Houlihan's - Secaucus, distance 0.84 km; LA fitness, distance 0.39 km; Union City, distance 2.32 km; Bally Total Fitness, distance 1.97 km.

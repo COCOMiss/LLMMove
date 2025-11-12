@@ -1,0 +1,6 @@
+The name of this location is "Yoshino Asian Fusion" and its POI category is Asian Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.925826, -73.835898), with the corresponding geohash code dr72zf664yuj.
+The address is 560 Gramatan Ave, Fleetwood, NY 10552, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1); Train Station, 1(avg: 5); Train, 1(avg: 4).
+The 10 nearest POIs and their distances are: Cross County Mall, distance 1.57 km; Metro North - Bronxville Train Station, distance 1.67 km; Metro North - Tuckahoe Train Station, distance 2.66 km.
+The 10 representative nearby POIs and their distances are: Cross County Mall, distance 1.57 km; Metro North - Bronxville Train Station, distance 1.67 km; Metro North - Tuckahoe Train Station, distance 2.66 km.

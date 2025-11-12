@@ -529,7 +529,7 @@ class BaseDataset(Dataset):
         self.allowed_tokens = None
         self.all_items = None
         self.task_prompt = None
-        self.data_filename_list = [f for f in os.listdir(self.data_path) if f.endswith(".feather")]
+        # self.data_filename_list = [f for f in os.listdir(self.data_path) if f.endswith(".feather")]
         # self.data_filename = args.data_filename 
         self.multi_seq = args.multi_seq
         self.add_profile = args.add_profile
@@ -670,6 +670,152 @@ class BaseDataset(Dataset):
     def _process_data(self):
         raise NotImplementedError    
     
+    def get_json_prefix_allowed_tokens_fn(self, tokenizer, task="seq"):
+        """
+        Constrain generation for JSON outputs:
+        - "h3_index": value must be a 4-token H3 index from codebook (e.g., "<a_244><b_61><c_35><d_14>")
+        - "stay_duration": value must be one of {"30min","60min",...,"600min"} (30-minute steps, up to 10 hours)
+        
+        This function returns a callable suitable for use as prefix_allowed_tokens_fn in generation APIs.
+        It detects whether the model is currently inside the JSON value for "h3_index" or "stay_duration"
+        by matching the tokenized anchors '"h3_index": "' and '"stay_duration": "' and then restricts the
+        next tokens accordingly.
+        """
+        # Tokenization cache to avoid repeated tokenizer calls
+        if not hasattr(self, "_tok_cache"):
+            self._tok_cache = {}
+        tokcache = self._tok_cache
+        def tok_ids(txt: str):
+            r = tokcache.get(txt)
+            if r is None:
+                r = tokenizer(txt, add_special_tokens=False)["input_ids"]
+                tokcache[txt] = r
+            return r
+        
+        # Build constraints once
+        if not hasattr(self, "_json_constraints_built") or not self._json_constraints_built:
+            # 1) H3 index transitions from codebook
+            # Map first-token -> second-token set; tuple(prefix) -> next-token set
+            self._h3_token_len = None
+            self._h3_allowed_pos0 = set()            # allowed first token ids at position 0
+            self._h3_allowed_by_prefix = {}          # key: tuple(token_ids_prefix) or int 0 -> set(next_ids)
+            
+            # Determine final-piece id extraction offset by tokenizing the first token once
+            # We use the "last id" approach consistent with the existing implementation.
+            def last_id(token_str: str) -> int:
+                ids = tok_ids(token_str)
+                # Use the last token id in the tokenized piece to represent this token
+                return ids[-1]
+            
+            for index in self.codebook.values():
+                if self._h3_token_len is None:
+                    self._h3_token_len = len(index)
+                token_ids_seq = [last_id(t) for t in index]
+                # allowed start tokens (position 0)
+                self._h3_allowed_pos0.add(token_ids_seq[0])
+                self._h3_allowed_by_prefix.setdefault(0, set()).add(token_ids_seq[0])
+                # transitions
+                if len(token_ids_seq) >= 2:
+                    self._h3_allowed_by_prefix.setdefault((token_ids_seq[0],), set()).add(token_ids_seq[1])
+                for i in range(2, len(token_ids_seq)):
+                    prefix = tuple(token_ids_seq[:i])
+                    self._h3_allowed_by_prefix.setdefault(prefix, set()).add(token_ids_seq[i])
+            
+            # 2) Duration allowed sequences: "30min" .. "600min" step 30
+            self._dur_values = [f"{m}min" for m in range(30, 601, 30)]
+            self._dur_allowed_pos0 = set()
+            self._dur_allowed_by_prefix = {}          # tuple(prefix_ids) or int 0 -> set(next_ids)
+            self._dur_token_seqs = []
+            for s in self._dur_values:
+                ids = tok_ids(s)
+                if not ids:
+                    continue
+                self._dur_token_seqs.append(ids)
+                self._dur_allowed_pos0.add(ids[0])
+                self._dur_allowed_by_prefix.setdefault(0, set()).add(ids[0])
+                for i in range(1, len(ids)):
+                    prefix = tuple(ids[:i])
+                    self._dur_allowed_by_prefix.setdefault(prefix, set()).add(ids[i])
+            
+            # 3) Anchors to detect which JSON field we are in
+            self._sep_h3 = tok_ids('"h3_index": "')
+            self._sep_dur = tok_ids('"stay_duration": "')
+            # Token for closing quote
+            q = tok_ids('"')
+            self._quote_token = q[0] if len(q) > 0 else None
+            
+            self._json_constraints_built = True
+        
+        # Helper to find the nearest anchor in reversed tokens
+        def find_anchor(reversed_tokens, sep):
+            n = len(sep)
+            if n == 0:
+                return None
+            sep_rev = sep[::-1]
+            for i in range(len(reversed_tokens) - n + 1):
+                if reversed_tokens[i:i+n] == sep_rev:
+                    return i
+            return None
+        
+        def prefix_allowed_tokens_fn(batch_id, sentence_tensor):
+            sentence = sentence_tensor.tolist()
+            reversed_sent = sentence[::-1]
+            
+            i_h3 = find_anchor(reversed_sent, self._sep_h3)
+            i_dur = find_anchor(reversed_sent, self._sep_dur)
+            
+            # Choose the nearest anchor (smaller i means closer to the end)
+            chosen = None
+            if i_h3 is not None and (i_dur is None or i_h3 < i_dur):
+                chosen = ("h3", i_h3)
+            elif i_dur is not None:
+                chosen = ("dur", i_dur)
+            
+            if chosen is None:
+                # Not inside a constrained JSON value; do not restrict
+                return []
+            
+            field, offset = chosen
+            # prefix tokens (forward order) generated for the field value so far
+            value_prefix = tuple(reversed_sent[:offset][::-1])
+            
+            if field == "h3":
+                # If we have already produced 4 H3 tokens, force closing quote (if available)
+                if len(value_prefix) >= (self._h3_token_len or 4):
+                    if self._quote_token is not None:
+                        return [self._quote_token]
+                    return []
+                if len(value_prefix) == 0:
+                    return list(self._h3_allowed_by_prefix.get(0, set()))
+                # Use the exact prefix if possible; otherwise, backoff to last token or start set
+                allowed = self._h3_allowed_by_prefix.get(value_prefix)
+                if allowed is None:
+                    if len(value_prefix) >= 1:
+                        allowed = self._h3_allowed_by_prefix.get((value_prefix[0],))
+                if allowed is None:
+                    allowed = self._h3_allowed_by_prefix.get(0, set())
+                return list(allowed)
+            
+            # field == "dur"
+            # Duration is a string; after finishing the value, require closing quote
+            # Find which duration prefix we are on
+            if len(value_prefix) == 0:
+                return list(self._dur_allowed_by_prefix.get(0, set()))
+            # If value_prefix matches a full allowed sequence, next should be closing quote
+            if any(tuple(seq) == value_prefix for seq in self._dur_token_seqs):
+                if self._quote_token is not None:
+                    return [self._quote_token]
+                return []
+            # Otherwise continue along any matching prefix path
+            allowed = self._dur_allowed_by_prefix.get(value_prefix)
+            if allowed is None and len(value_prefix) >= 1:
+                allowed = self._dur_allowed_by_prefix.get((value_prefix[0],))
+            if allowed is None:
+                allowed = self._dur_allowed_by_prefix.get(0, set())
+            return list(allowed)
+        
+        return prefix_allowed_tokens_fn
+    
     def set_prompt(self, prompt_id):
         self.test_prompt_id = prompt_id
         logger.info(f"Prompt ID set to {prompt_id}")
@@ -775,16 +921,23 @@ class SeqDataset(BaseDataset):
         
         self.prompts = all_prompt["seq"] # 所有的prompt
         self.task_prompt = task_prompt
-        
+        with open("LLMMove/QT_Mob_main/dataset/location.index.json", 'r') as f:
+            self.codebook = json.load(f)
+        # self.user_profile = pd.read_csv(
+        #     os.path.join(self.data_path, "user_profile_codebook.csv"),
+        #     converters={'latest_5_trips': eval}, sep="|"
+        # )
         logger.info(f"Initializing SeqDataset (mode={self.mode})")
         try:
-            # self._load_data()
-            # self._remap_items()
-            # self.inter_data = self._process_data()
-
+            if self.mode=="valid":
+                # self._load_data()
+                # self._remap_items()
+                # self.inter_data = self._process_data()
+                self.inter_data=pd.read_feather("LLMMove/QT_Mob_main/dataset/valid/inner_data_seq_dataset.feather")
+                self.inter_data=self.inter_data.to_dict(orient="records")
             if self.mode == "train":
-                self.inter_data=pd.read_feather("QT_Mob_main/dataset/train/inner_data_seq_dataset.feather")
-                self.inter_data=self.inter_data.to_dict(orient="rezcords")
+                self.inter_data=pd.read_feather("LLMMove/QT_Mob_main/dataset/train/inner_data_seq_dataset.feather")
+                self.inter_data=self.inter_data.to_dict(orient="records")
             #     pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/train/inner_data_seq_dataset.feather")
             if self.mode=="test":
                 self.inter_data=pd.read_feather("QT_Mob_main/dataset/test/inner_data_seq_dataset.feather")
@@ -795,6 +948,19 @@ class SeqDataset(BaseDataset):
             logger.exception("SeqDataset initialization failed.")
             raise
         logger.info(f"SeqDataset data loaded ({len(self.inter_data)} STAY points).")
+
+    def get_stay_duration(self, duration: float) -> int:
+        """
+        Round stay duration (in seconds) to nearest 30-minute bucket and clamp to [30, 600] minutes.
+        Returns integer minutes.
+        """
+        total_minutes = int(round(duration / 60.0))
+        bucket_minutes = int(round(total_minutes / 30.0) * 30)
+        if bucket_minutes < 30:
+            bucket_minutes = 30
+        if bucket_minutes > 600:
+            bucket_minutes = 600
+        return bucket_minutes
 
 
 
@@ -890,15 +1056,27 @@ class SeqDataset(BaseDataset):
                 try:
                     one_data = dict()
                     one_data["user"] = trajectory[i][3]
-                    # one_data["response"] = f"At time {trajectory[i][1]}, user {trajectory[i][3]} will stay at h3 index "
-                    one_data["response"] = f"At time {trajectory[i][1]}, user {trajectory[i][3]} will stay at h3 index "
-                    one_data["prediction"] = f"{trajectory[i][0]} for {trajectory[i][5]} seconds."
+                    # JSON output: assistant response tag + JSON prediction
+                    one_data["response"] = "prediction:"
+                    one_data["prediction"] = json.dumps(
+                        {
+                            "h3_index": trajectory[i][0],
+                            "stay_duration": f"{self.get_stay_duration(trajectory[i][5])}min",
+                        },
+                        ensure_ascii=False,
+                    )
                     # one_data['duration'] = trajectory[i][5]
                     history = trajectory[:i][-self.max_his_len:]
                     
                     if self.max_his_len > 0:
                         history = history[-self.max_his_len:]# 只保留最近的max_his_len个历史记录
-                        history = ["At time " + str(item_idx[1]) + ", user " + str(item_idx[3]) + " stayed at H3 index " + item_idx[0] + " for " + str(item_idx[5]) + " seconds." for item_idx in history]
+                        history = [
+                            "At time " + str(item_idx[1]) + ", user " + str(item_idx[3]) + " stayed at H3 index " + item_idx[0] + " for " + self.get_stay_duration(trajectory[i][5]) + " min."
+                            for item_idx in history
+                        ]
+                        
+                        
+                  
                         
                         # history = ["At time " + str(item_idx[1]) + ", user " + str(item_idx[3]) + " visited h3 index " + item_idx[0] + "." for item_idx in history]
                     if self.add_prefix:

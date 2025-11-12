@@ -1,0 +1,6 @@
+The name of this location is "Bloomfield Public Library" and its POI category is Library, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.79659549, -74.19749979), with the corresponding geohash code dr70pdg12uw5.
+The address is 90 Broad St, Bloomfield, NJ 07003, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 2(avg: 5); Coffee Shop, 1(avg: 63); Medical Center, 1(avg: 1); Music Venue, 1(avg: 10); Spanish Restaurant, 1(avg: 4); Pub, 1(avg: 24).
+The 10 nearest POIs and their distances are: Starbucks, distance 0.31 km; NJ Transit Rail - Bloomfield Station, distance 0.49 km; NJ Transit Rail - Bay Street Station, distance 1.59 km; Clara Maass Medical Center, distance 2.19 km; Wellmont Theatre, distance 2.41 km; Cuban Pete's, distance 2.46 km; Egan & Sons, distance 2.62 km.
+The 10 representative nearby POIs and their distances are: NJ Transit Rail - Bloomfield Station, distance 0.49 km; Cuban Pete's, distance 2.46 km; Wellmont Theatre, distance 2.41 km; Egan & Sons, distance 2.62 km; NJ Transit Rail - Bay Street Station, distance 1.59 km; Starbucks, distance 0.31 km; Clara Maass Medical Center, distance 2.19 km.

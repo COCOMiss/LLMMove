@@ -1,0 +1,6 @@
+The name of this location is "Walmart Supercenter" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.81342911, -74.01354209), with the corresponding geohash code dr725vbgrqwg.
+The address is 2100 88th St, North Bergen, NJ 07047, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 1(avg: 9); Road, 1(avg: 1); Park, 1(avg: 8); Movie Theater, 1(avg: 5); Sandwich Place, 1(avg: 18).
+The 10 nearest POIs and their distances are: Walmart Supercenter, distance 0.04 km; Vince Lombardi Service Area, distance 1.72 km; James L Braddock North Hudson County Park, distance 1.77 km; Edgewater Multiplex Cinemas, distance 2.08 km; Panera Bread, distance 2.15 km.
+The 10 representative nearby POIs and their distances are: Walmart Supercenter, distance 0.04 km; Vince Lombardi Service Area, distance 1.72 km; Edgewater Multiplex Cinemas, distance 2.08 km; Panera Bread, distance 2.15 km; James L Braddock North Hudson County Park, distance 1.77 km.

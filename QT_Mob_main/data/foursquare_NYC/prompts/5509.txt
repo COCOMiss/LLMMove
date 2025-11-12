@@ -1,0 +1,6 @@
+The name of this location is "7-ELEVEN" and its POI category is Snack Place, belonging to the parent category Food.
+The geographic coordinates for this location are (40.77801209, -74.18891213), with the corresponding geohash code dr5pzz3m1h3t.
+The address is 349 Ampere Pkwy, Bloomfield, NJ 07003, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Medical Center, 1(avg: 1); Train Station, 1(avg: 5); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Clara Maass Medical Center, distance 1.38 km; NJ Transit Rail - Bloomfield Station, distance 1.88 km; Starbucks, distance 2.38 km.
+The 10 representative nearby POIs and their distances are: NJ Transit Rail - Bloomfield Station, distance 1.88 km; Starbucks, distance 2.38 km; Clara Maass Medical Center, distance 1.38 km.

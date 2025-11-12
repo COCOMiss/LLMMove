@@ -1,0 +1,6 @@
+The name of this location is "Delta" and its POI category is Building, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.91399904, -74.10849094), with the corresponding geohash code dr72c85v740n.
+The address is 390 Floral Ln, Saddle Brook, NJ 07663, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Electronics Store, 1(avg: 5).
+The 10 nearest POIs and their distances are: Micro Center, distance 2.27 km.
+The 10 representative nearby POIs and their distances are: Micro Center, distance 2.27 km.

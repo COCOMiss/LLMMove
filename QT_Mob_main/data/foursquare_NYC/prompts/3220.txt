@@ -1,0 +1,6 @@
+The name of this location is "High Dive" and its POI category is Bar, belonging to the parent category Nightlife Spot.
+The geographic coordinates for this location are (40.675036, -73.981328), with the corresponding geohash code dr5rks8mq078.
+The address is 241 5th Ave, Brooklyn, NY 11215, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bar, 41(avg: 124); Coffee Shop, 23(avg: 63); Metro Station, 14(avg: 19); Gym, 12(avg: 25); Mexican Restaurant, 11(avg: 28); Sandwich Place, 9(avg: 18); Burger Joint, 8(avg: 17); American Restaurant, 7(avg: 51); Pub, 7(avg: 24); Grocery Store, 7(avg: 9).
+The 10 nearest POIs and their distances are: High Dive, distance 0.01 km; Al Di La, distance 0.03 km; Fornino, distance 0.04 km; Bonnie's Grill, distance 0.12 km; Blue Ribbon Brasserie, distance 0.12 km; Associated Supermarket, distance 0.12 km; Body Reserve, distance 0.13 km; Great Lakes, distance 0.14 km; Union Hall, distance 0.16 km; 200 Fifth, distance 0.20 km.
+The 10 representative nearby POIs and their distances are: Brooklyn Museum, distance 1.57 km; Prospect Park, distance 1.78 km; Target, distance 1.09 km; The Bell House, distance 0.89 km; Trader Joe's, distance 1.88 km; Connecticut Muffin, distance 2.27 km; Pizza Town, distance 0.63 km; Union Hall, distance 0.16 km; Soda Bar, distance 1.14 km; Fort Greene Park, distance 1.90 km.

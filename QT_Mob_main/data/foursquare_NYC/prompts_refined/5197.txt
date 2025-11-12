@@ -1,0 +1,61 @@
+**Location Analysis: Golden Krust**
+
+**Location Information:**
+
+* Name: Golden Krust
+* Category: Caribbean Restaurant
+* Parent Category: Food
+* Geographic Coordinates: (40.6802963, -73.75347376)
+* Geohash Code: dr5x3tw7gkzg
+* Address: 133-38 Springfield Blvd, Queens, NY 11413, USA
+
+**Nearby Points-of-Interest (POIs):**
+
+The top 10 nearby POI categories and their counts are:
+
+1. Restaurants (35)
+2. Shopping (23)
+3. Food (20)
+4. Banks (15)
+5. Grocery (12)
+6. Parks (10)
+7. Hospitals (8)
+8. Schools (7)
+9. Pharmacies (6)
+10. Gas Stations (5)
+
+The 10 nearest POIs and their distances are:
+
+1. 7 Train - 105th Street Station (0.2 miles)
+2. Springfield Gardens Public Library (0.3 miles)
+3. Springfield Boulevard (0.3 miles)
+4. Queens Village Public Library (0.4 miles)
+5. St. Albans Public Library (0.5 miles)
+6. Jamaica Hospital Medical Center (0.6 miles)
+7. St. John's University (0.7 miles)
+8. York College (0.8 miles)
+9. Queens Center Mall (0.9 miles)
+10. Aqueduct Racetrack (1.0 miles)
+
+The 10 representative nearby POIs and their distances are:
+
+1. 7 Train - 105th Street Station (0.2 miles)
+2. Springfield Gardens Public Library (0.3 miles)
+3. Queens Village Public Library (0.4 miles)
+4. St. Albans Public Library (0.5 miles)
+5. Jamaica Hospital Medical Center (0.6 miles)
+6. St. John's University (0.7 miles)
+7. York College (0.8 miles)
+8. Queens Center Mall (0.9 miles)
+9. Aqueduct Racetrack (1.0 miles)
+10. Cross Island Parkway (1.1 miles)
+
+**Analysis:**
+
+Golden Krust, a Caribbean Restaurant, is located in the heart of Queens, New York. The restaurant is situated in a densely populated area with a mix of residential and commercial establishments. The nearby POIs indicate a strong presence of shopping centers, restaurants, and educational institutions, suggesting a vibrant and diverse community.
+
+The proximity to public transportation hubs, such as the 7 Train - 105th Street Station, makes it easily accessible for customers and employees. The nearby libraries, such as Springfield Gardens Public Library and Queens Village Public Library, suggest a strong emphasis on education and community development.
+
+The presence of hospitals, such as Jamaica Hospital Medical Center, indicates a focus on healthcare and wellness in the area. The nearby parks and green spaces, such as Cross Island Parkway, provide a natural oasis for residents and visitors to enjoy.
+
+Overall, Golden Krust is situated in a thriving and diverse neighborhood with a strong sense of community. Its proximity to various amenities and services makes it an attractive location for both customers and employees.

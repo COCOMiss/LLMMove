@@ -1,0 +1,6 @@
+The name of this location is "New York Public Library - St. George Library Center" and its POI category is Library, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.64166743, -74.07677191), with the corresponding geohash code dr5r4qdfy5gm.
+The address is 10 Central Ave, Staten Island, NY 10301, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Boat or Ferry, 2(avg: 2); Baseball Field, 1(avg: 1); Bar, 1(avg: 124); Home (private), 1(avg: 14); Lake, 1(avg: 2); University, 1(avg: 5).
+The 10 nearest POIs and their distances are: Staten Island Ferry - St George Terminal, distance 0.44 km; Richmond County Bank Ballpark at St George, distance 0.46 km; Staten Island Ferry Boat - Samuel I. Newhouse, distance 0.57 km; Adobe Blues Restaurant and Bar, distance 1.59 km; 108 Targee, distance 2.01 km; Silver Lake Park, distance 2.16 km; St John's University, distance 2.59 km.
+The 10 representative nearby POIs and their distances are: Staten Island Ferry - St George Terminal, distance 0.44 km; Silver Lake Park, distance 2.16 km; 108 Targee, distance 2.01 km; St John's University, distance 2.59 km; Staten Island Ferry Boat - Samuel I. Newhouse, distance 0.57 km; Richmond County Bank Ballpark at St George, distance 0.46 km; Adobe Blues Restaurant and Bar, distance 1.59 km.

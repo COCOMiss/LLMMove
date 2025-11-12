@@ -1,0 +1,6 @@
+The name of this location is "Barnes & Noble" and its POI category is Bookstore, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.9054854, -74.03155446), with the corresponding geohash code dr72eqegez0j.
+The address is 187 Riverside Square Mall, Hackensack, NJ 07601, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bookstore, 1(avg: 7); American Restaurant, 1(avg: 51); Shopping Mall, 1(avg: 1); Wings Joint, 1(avg: 1); Asian Restaurant, 1(avg: 18); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Barnes & Noble, distance 0.02 km; The Cheesecake Factory, distance 0.04 km; The Shops at Riverside, distance 0.06 km; Hooters of Hackensack, distance 0.18 km; P.F. Chang's, distance 0.23 km; Retro Fitness, distance 0.73 km.
+The 10 representative nearby POIs and their distances are: The Shops at Riverside, distance 0.06 km; The Cheesecake Factory, distance 0.04 km; Retro Fitness, distance 0.73 km; Barnes & Noble, distance 0.02 km; P.F. Chang's, distance 0.23 km; Hooters of Hackensack, distance 0.18 km.

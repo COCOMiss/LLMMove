@@ -1,0 +1,52 @@
+**Location Analysis: Little Italy Pizzeria & Deli**
+
+**Location Overview**
+
+Little Italy Pizzeria & Deli is an American restaurant located at 212 Varick St, New York, NY 10013, USA. The geographic coordinates of this location are (40.7271612, -74.00555849), with a geohash code of dr5reynuct05.
+
+**Surrounding Environment**
+
+The location is situated in a bustling area of New York City, with various points of interest nearby. The top 10 nearby POI categories and their counts indicate a mix of restaurants, cafes, offices, and other establishments.
+
+* The top 3 POI categories are:
+	1. Bar (205) with an average rating of 124
+	2. Coffee Shop (91) with an average rating of 63
+	3. American Restaurant (85) with an average rating of 51
+
+**Nearby Points of Interest**
+
+The 10 nearest POIs to Little Italy Pizzeria & Deli are:
+
+1. Little Italy Pizzeria & Deli (0.00 km)
+2. Dunkin Donuts (0.03 km)
+3. Subway (0.03 km)
+4. AKQA (0.03 km)
+5. Four Points by Sheraton - Manhattan SoHo Village (0.04 km)
+6. NYU Poly Incubator (0.05 km)
+7. Kirshenbaum Bond Senecal + Partners (0.06 km)
+8. Attention HQ (0.06 km)
+9. WNYC Radio (0.07 km)
+10. City Winery (0.10 km)
+
+These POIs are a mix of restaurants, cafes, offices, and other establishments, indicating a vibrant and diverse neighborhood.
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs and their distances are:
+
+1. Madison Square Garden (2.79 km)
+2. MTA Subway - Manhattan Bridge (B/D/N/Q) (2.52 km)
+3. Union Square Park (1.54 km)
+4. Brooklyn Bridge (2.55 km)
+5. Union Square Greenmarket (1.64 km)
+6. Madison Square Park (2.25 km)
+7. PATH: World Trade Center Station (1.70 km)
+8. Eataly (2.11 km)
+9. The High Line (2.22 km)
+10. Regal Union Square Stadium 14 (1.48 km)
+
+These POIs are a mix of popular attractions, parks, and shopping destinations, indicating a convenient location for tourists and locals alike.
+
+**Conclusion**
+
+Little Italy Pizzeria & Deli is located in a vibrant and diverse neighborhood in New York City, with a mix of restaurants, cafes, offices, and other establishments nearby. The location is convenient for tourists and locals, with easy access to popular attractions, parks, and shopping destinations.

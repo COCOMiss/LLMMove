@@ -1,0 +1,6 @@
+The name of this location is "Continental Airlines President's Club" and its POI category is Lounge, belonging to the parent category Nightlife Spot.
+The geographic coordinates for this location are (40.69664827, -74.17739153), with the corresponding geohash code dr5r809ejmpg.
+The address is Terminal C, Newark, NJ 07114, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Airport Terminal, 2(avg: 3); Lounge, 1(avg: 35); Plane, 1(avg: 1); Building, 1(avg: 13); Train, 1(avg: 4); Department Store, 1(avg: 4).
+The 10 nearest POIs and their distances are: Continental Airlines President's Club, distance 0.05 km; Terminal C, distance 0.10 km; Newark Liberty International Airport (EWR), distance 0.52 km; Newark Liberty International Airport - Building One, distance 0.62 km; Terminal B, distance 0.68 km; NJ Transit Rail - Newark Airport Station, distance 1.41 km; IKEA, distance 2.49 km.
+The 10 representative nearby POIs and their distances are: Newark Liberty International Airport (EWR), distance 0.52 km; Terminal C, distance 0.10 km; IKEA, distance 2.49 km; NJ Transit Rail - Newark Airport Station, distance 1.41 km; Continental Airlines President's Club, distance 0.05 km; Terminal B, distance 0.68 km; Newark Liberty International Airport - Building One, distance 0.62 km.

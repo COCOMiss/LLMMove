@@ -1,0 +1,6 @@
+The name of this location is "Home Depot" and its POI category is Hardware Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.73166539, -74.19816256), with the corresponding geohash code dr5pxwfx1kzb.
+The address is 399-425 Springfield Ave, Newark, NJ 07103, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: University, 2(avg: 5); Road, 1(avg: 1); Office, 1(avg: 72); Hospital, 1(avg: 2).
+The 10 nearest POIs and their distances are: NJIT, distance 2.00 km; Interstate 78, distance 2.02 km; Prudential Financial, distance 2.12 km; Rutgers University, distance 2.20 km; Newark Beth Israel Medical Center, distance 2.71 km.
+The 10 representative nearby POIs and their distances are: Interstate 78, distance 2.02 km; Rutgers University, distance 2.20 km; Newark Beth Israel Medical Center, distance 2.71 km; Prudential Financial, distance 2.12 km; NJIT, distance 2.00 km.

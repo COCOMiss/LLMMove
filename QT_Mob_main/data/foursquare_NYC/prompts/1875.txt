@@ -1,0 +1,6 @@
+The name of this location is "Whole Foods" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.8041295, -74.248631), with the corresponding geohash code dr70nkjv3901.
+The address is 235 Prospect Ave, West Orange, NJ 07052, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 1(avg: 9); Multiplex, 1(avg: 4).
+The 10 nearest POIs and their distances are: Whole Foods, distance 0.00 km; AMC Essex Green Cinema 9, distance 1.35 km.
+The 10 representative nearby POIs and their distances are: Whole Foods, distance 0.00 km; AMC Essex Green Cinema 9, distance 1.35 km.

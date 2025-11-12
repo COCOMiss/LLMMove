@@ -1,0 +1,6 @@
+The name of this location is "Rite Aid" and its POI category is Pharmacy, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.68936513, -73.77788972), with the corresponding geohash code dr5x3pk8dx6j.
+The address is 11502 Merrick Blvd, Jamaica, NY 11434, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); University, 1(avg: 5).
+The 10 nearest POIs and their distances are: York College CUNY, distance 2.10 km; MTA Subway - Jamaica Center-Parsons/Archer Avenue  (E/J/Z), distance 2.36 km; MTA Subway - Jamaica 179th St. Station (F), distance 2.64 km.
+The 10 representative nearby POIs and their distances are: MTA Subway - Jamaica 179th St. Station (F), distance 2.64 km; MTA Subway - Jamaica Center-Parsons/Archer Avenue  (E/J/Z), distance 2.36 km; York College CUNY, distance 2.10 km.

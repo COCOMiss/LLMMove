@@ -1,0 +1,6 @@
+The name of this location is "Fairview Cemetery" and its POI category is Cemetery, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.81403772, -74.00417061), with the corresponding geohash code dr725vzz1b4f.
+The address is 452 Harding Pl, Fairview, NJ 07022, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 1(avg: 9); Movie Theater, 1(avg: 5); Park, 1(avg: 8); Sandwich Place, 1(avg: 18); Coffee Shop, 1(avg: 63); Department Store, 1(avg: 4); Food Court, 1(avg: 2).
+The 10 nearest POIs and their distances are: Walmart Supercenter, distance 0.77 km; Edgewater Multiplex Cinemas, distance 1.38 km; James L Braddock North Hudson County Park, distance 1.40 km; Panera Bread, distance 1.46 km; Starbucks, distance 1.65 km; Target, distance 1.84 km; Mitsuwa Marketplace, distance 2.02 km.
+The 10 representative nearby POIs and their distances are: Mitsuwa Marketplace, distance 2.02 km; Starbucks, distance 1.65 km; Walmart Supercenter, distance 0.77 km; Edgewater Multiplex Cinemas, distance 1.38 km; Target, distance 1.84 km; Panera Bread, distance 1.46 km; James L Braddock North Hudson County Park, distance 1.40 km.

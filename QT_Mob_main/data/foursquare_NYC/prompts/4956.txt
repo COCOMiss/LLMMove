@@ -1,0 +1,6 @@
+The name of this location is "Taco Bell" and its POI category is Taco Place, belonging to the parent category Food.
+The geographic coordinates for this location are (40.71890002, -74.09488678), with the corresponding geohash code dr5r9utszcpg.
+The address is 701 NJ-440, Jersey City, NJ 07306, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); University, 1(avg: 5).
+The 10 nearest POIs and their distances are: Rt. 440 & Communipaw, distance 0.47 km; New Jersey City University, distance 1.33 km.
+The 10 representative nearby POIs and their distances are: New Jersey City University, distance 1.33 km; Rt. 440 & Communipaw, distance 0.47 km.

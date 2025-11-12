@@ -1,0 +1,56 @@
+**Location Analysis: Picante Mexican Restaurant**
+
+**Overview**
+
+Picante is a Mexican restaurant located at 3421 Broadway, New York, NY 10031, USA. The restaurant is situated in the heart of Manhattan, with a geohash code of dr72jpsf1btt and geographic coordinates of (40.82279573, -73.95335509).
+
+**Surrounding Environment**
+
+The surrounding area is densely populated with various points of interest (POIs), indicating a vibrant and diverse neighborhood. The top 10 nearby POIs by category are:
+
+1.  Metro Station (12 occurrences, average distance: 19)
+2.  Grocery Store (5 occurrences, average distance: 9)
+3.  Coffee Shop (5 occurrences, average distance: 63)
+4.  Bar (5 occurrences, average distance: 124)
+5.  Gym (4 occurrences, average distance: 25)
+6.  Southern / Soul Food Restaurant (4 occurrences, average distance: 1)
+7.  University (3 occurrences, average distance: 5)
+8.  Hospital (3 occurrences, average distance: 2)
+9.  American Restaurant (3 occurrences, average distance: 51)
+10.  Train (2 occurrences, average distance: 4)
+
+The close proximity of these POIs suggests that Picante is situated in a bustling area with a mix of residential, commercial, and educational establishments.
+
+**Nearest POIs**
+
+The 10 nearest POIs to Picante are:
+
+1.  MTA Subway - 137th Street/City College (0.17 km)
+2.  Riverbank State Park (0.40 km)
+3.  The City College of New York (0.44 km)
+4.  MTA Subway - 145th Street (1) (0.48 km)
+5.  Fairway Market (0.62 km)
+6.  Dinosaur Bar-B-Que (0.82 km)
+7.  MTA Subway - 125 St (1) (0.90 km)
+8.  Starbucks (0.90 km)
+9.  MTA Subway - 1 Train (0.94 km)
+10.  Pathmark (0.94 km)
+
+**Representative POIs**
+
+The 10 representative POIs to Picante, which are farther away but still relatively close, are:
+
+1.  Metro North - Harlem 125th Station (2.30 km)
+2.  Harlem Heritage and Cultural Center (2.38 km)
+3.  Dinosaur Bar-B-Que (0.82 km)
+4.  Columbia University (1.79 km)
+5.  Village Pourhouse (2.48 km)
+6.  Apollo Theatre (1.48 km)
+7.  MTA Subway - 125 St (1) (0.90 km)
+8.  The City College of New York (0.44 km)
+9.  New York Presbyterian - Columbia University Medical Center (2.22 km)
+10.  Teachers College, Columbia University (1.52 km)
+
+**Conclusion**
+
+Picante Mexican Restaurant is situated in a densely populated area with a mix of residential, commercial, and educational establishments. The surrounding environment is vibrant and diverse, with various POIs within walking distance. The restaurant's proximity to public transportation hubs, such as Metro stations and the MTA Subway, makes it easily accessible. The presence of nearby universities, hospitals, and cultural centers suggests a dynamic and diverse community, which may appeal to customers looking for a unique dining experience.

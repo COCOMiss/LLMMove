@@ -1,0 +1,56 @@
+**Location Analysis: Irish Rover**
+
+The Irish Rover, located at 3803 28th Ave, Astoria, NY 11101, USA, is a pub categorized under the Nightlife Spot category. This analysis will provide an overview of the location's surroundings, including nearby points of interest (POIs), distances, and categorizations.
+
+**Geographic Coordinates and Address**
+
+The Irish Rover's geographic coordinates are (40.76585964, -73.91457796), with a geohash code of dr5ryj1n3e00. The location's address is 3803 28th Ave, Astoria, NY 11101, USA.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs, along with their categories and counts, are:
+
+1.  Metro Station (12, avg: 19)
+2.  Bar (8, avg: 124)
+3.  Gym (6, avg: 25)
+4.  Coffee Shop (4, avg: 63)
+5.  Bakery (3, avg: 16)
+6.  Train Station (3, avg: 5)
+7.  Mexican Restaurant (2, avg: 28)
+8.  Sports Bar (2, avg: 8)
+9.  Burger Joint (2, avg: 17)
+10. American Restaurant (2, avg: 51)
+
+**Nearest POIs**
+
+The 10 nearest POIs to the Irish Rover, along with their distances, are:
+
+1.  MTA Subway - 21st Street/Queensbridge (F) - 0.16 km
+2.  MexiQ Kitchen & Draught - 0.18 km
+3.  New York Sports Club - 0.22 km
+4.  Grand Cafe Astoria - 0.22 km
+5.  Canz Bar & Grill - 0.23 km
+6.  Brooklyn Bagel & Coffee Co. - 0.23 km
+7.  Rapture Lounge - 0.27 km
+8.  Planet Fitness - 0.35 km
+9.  Ovelia - 0.37 km
+10. Sweet Afton - 0.38 km
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs, along with their distances, are:
+
+1.  MTA Subway - Astoria/Ditmars Blvd (N/Q) - 0.98 km
+2.  The Garden at Studio Square - 1.50 km
+3.  Bohemian Hall and Beer Garden - 0.78 km
+4.  MTA Subway - Astoria Blvd (N/Q) - 0.55 km
+5.  MTA Subway - 30th Ave - Grand Ave (N/Q) - 0.59 km
+6.  UA Kaufman Astoria Stadium 14 - 1.45 km
+7.  MTA Subway - Broadway (N/Q) - 1.00 km
+8.  Planet Fitness - 0.35 km
+9.  Astoria Park - 1.78 km
+10. New York Sports Club - 0.22 km
+
+**Conclusion**
+
+The Irish Rover is located in the heart of Astoria, Queens, with a variety of nearby POIs catering to different interests. The proximity to metro stations, bars, gyms, and restaurants makes it an ideal location for those looking for a lively atmosphere. The area's diverse range of POIs suggests that the Irish Rover is situated in a vibrant neighborhood with a mix of entertainment, dining, and recreational options.

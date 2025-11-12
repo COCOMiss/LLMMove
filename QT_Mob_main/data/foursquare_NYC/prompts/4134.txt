@@ -1,0 +1,6 @@
+The name of this location is "East Orange Exxon" and its POI category is Gas Station, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.7497074, -74.21492038), with the corresponding geohash code dr5pz4q27003.
+The address is 48 S Munn Ave, East Orange, NJ 07018, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are:.
+The 10 nearest POIs and their distances are:.
+The 10 representative nearby POIs and their distances are:.

@@ -1,0 +1,6 @@
+The name of this location is "McDonald's" and its POI category is Burger Joint, belonging to the parent category Food.
+The geographic coordinates for this location are (40.67943385, -73.86189938), with the corresponding geohash code dr5rrjrquupg.
+The address is 50 101st Ave, Ozone Park, NY 11416, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Beach, 1(avg: 1); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: MTA - 80-Hudson Street Subway - A, distance 0.31 km; MTA - Rockaway Boulevard Subway Station (A), distance 1.54 km; Howard Beach, distance 2.54 km; Jackie Robinson Parkway, distance 2.58 km.
+The 10 representative nearby POIs and their distances are: MTA - Rockaway Boulevard Subway Station (A), distance 1.54 km; Howard Beach, distance 2.54 km; MTA - 80-Hudson Street Subway - A, distance 0.31 km; Jackie Robinson Parkway, distance 2.58 km.

@@ -1,0 +1,6 @@
+The name of this location is "Starbucks" and its POI category is Coffee Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.63040879, -74.10609944), with the corresponding geohash code dr5r1st969pj.
+The address is 468 Forest Ave, Staten Island, NY 10301, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Hospital, 1(avg: 2); Lake, 1(avg: 2); University, 1(avg: 5); Bar, 1(avg: 124); Home (private), 1(avg: 14); General College & University, 1(avg: 2); Pizza Place, 1(avg: 20).
+The 10 nearest POIs and their distances are: Planet Fitness, distance 0.24 km; Richmond University Medical Center, distance 0.64 km; Silver Lake Park, distance 0.98 km; St John's University, distance 1.67 km; Adobe Blues Restaurant and Bar, distance 1.69 km; 108 Targee, distance 1.97 km; Wagner College, distance 2.03 km; Joe and Pat's Pizzeria, distance 2.37 km.
+The 10 representative nearby POIs and their distances are: Silver Lake Park, distance 0.98 km; 108 Targee, distance 1.97 km; Richmond University Medical Center, distance 0.64 km; Planet Fitness, distance 0.24 km; St John's University, distance 1.67 km; Joe and Pat's Pizzeria, distance 2.37 km; Wagner College, distance 2.03 km; Adobe Blues Restaurant and Bar, distance 1.69 km.

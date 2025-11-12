@@ -1,0 +1,6 @@
+The name of this location is "I-80 -- Bergen/Passaic" and its POI category is Road, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.90105787, -74.15076256), with the corresponding geohash code dr728tv1cvzc.
+The address is 99 Wabash Ave, Paterson, NJ 07503, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); Emergency Room, 1(avg: 2); Electronics Store, 1(avg: 5).
+The 10 nearest POIs and their distances are: I-80 -- Bergen/Passaic, distance 0.00 km; St. Joseph's Regional Medical Center, distance 1.30 km; Micro Center, distance 1.58 km.
+The 10 representative nearby POIs and their distances are: I-80 -- Bergen/Passaic, distance 0.00 km; St. Joseph's Regional Medical Center, distance 1.30 km; Micro Center, distance 1.58 km.

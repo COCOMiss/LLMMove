@@ -1,0 +1,6 @@
+The name of this location is "7 eleven" and its POI category is Fast Food Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.67386, -73.72730063), with the corresponding geohash code dr5x6k3qmmh1.
+The address is 910 W Merrick Rd, Valley Stream, NY 11580, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Green Acres Mall, distance 1.42 km; LIRR - Valley Stream Station, distance 2.35 km.
+The 10 representative nearby POIs and their distances are: LIRR - Valley Stream Station, distance 2.35 km; Green Acres Mall, distance 1.42 km.

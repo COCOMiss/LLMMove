@@ -1,0 +1,6 @@
+The name of this location is "Stop & Shop (Arverne)" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.59029976, -73.79982927), with the corresponding geohash code dr5wbthxek6c.
+The address is 70-20 Rockaway Beach Blvd, Arverne, NY 11692, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Mexican Restaurant, 1(avg: 28).
+The 10 nearest POIs and their distances are: Rockaway Taco, distance 1.58 km.
+The 10 representative nearby POIs and their distances are: Rockaway Taco, distance 1.58 km.

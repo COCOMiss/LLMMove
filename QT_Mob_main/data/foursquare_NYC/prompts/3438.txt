@@ -1,0 +1,6 @@
+The name of this location is "Grasshopper Also Bar & Restaurant" and its POI category is Bar, belonging to the parent category Nightlife Spot.
+The geographic coordinates for this location are (40.82639031, -74.05651587), with the corresponding geohash code dr726b1wyng2.
+The address is Washington Ave 198's of Kero Rd, Carlstadt, NJ 07072, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Basketball Stadium, 1(avg: 1); Beer Garden, 1(avg: 4); Road, 1(avg: 1); Music Venue, 1(avg: 10).
+The 10 nearest POIs and their distances are: IZOD Center, distance 1.89 km; New Meadowlands Stadium, distance 2.08 km; Vince Lombardi Service Area, distance 2.27 km; The Bamboozle Festival 2011, distance 2.29 km.
+The 10 representative nearby POIs and their distances are: New Meadowlands Stadium, distance 2.08 km; IZOD Center, distance 1.89 km; Vince Lombardi Service Area, distance 2.27 km; The Bamboozle Festival 2011, distance 2.29 km.

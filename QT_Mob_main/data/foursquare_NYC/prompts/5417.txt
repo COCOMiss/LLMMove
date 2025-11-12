@@ -1,0 +1,6 @@
+The name of this location is "Homegoods" and its POI category is Department Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.92303335, -73.77271901), with the corresponding geohash code dr78c3b3gn3d.
+The address is 200 Petersville Rd, New Rochelle, NY 10801, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 2(avg: 5); University, 1(avg: 5); American Restaurant, 1(avg: 51); Movie Theater, 1(avg: 5); Multiplex, 1(avg: 4).
+The 10 nearest POIs and their distances are: Iona College, distance 1.27 km; Buffalo Wild Wings, distance 1.42 km; New Roc City, distance 1.43 km; Regal Cinemas New Roc City Stadium 18 + IMAX, distance 1.50 km; Metro North - Larchmont Train Station, distance 1.61 km; Metro North - New Rochelle Train Station, distance 1.65 km.
+The 10 representative nearby POIs and their distances are: Metro North - New Rochelle Train Station, distance 1.65 km; Metro North - Larchmont Train Station, distance 1.61 km; Regal Cinemas New Roc City Stadium 18 + IMAX, distance 1.50 km; Buffalo Wild Wings, distance 1.42 km; New Roc City, distance 1.43 km; Iona College, distance 1.27 km.

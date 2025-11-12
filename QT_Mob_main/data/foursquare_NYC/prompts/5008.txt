@@ -1,0 +1,6 @@
+The name of this location is "Gencarelli's Bakery" and its POI category is Bakery, belonging to the parent category Food.
+The geographic coordinates for this location are (40.80887397, -74.19238049), with the corresponding geohash code dr70ptnbbjrr.
+The address is 455 Broad St, Bloomfield, NJ 07003, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train Station, 2(avg: 5); Coffee Shop, 1(avg: 63); Pub, 1(avg: 24); Gym, 1(avg: 25); Music Venue, 1(avg: 10); Spanish Restaurant, 1(avg: 4); Breakfast Spot, 1(avg: 20); Baseball Field, 1(avg: 1).
+The 10 nearest POIs and their distances are: NJ Transit Rail - Bay Street Station, distance 1.38 km; Starbucks, distance 1.47 km; Egan & Sons, distance 1.89 km; NJ Transit Rail - Bloomfield Station, distance 1.92 km; Retro Fitness, distance 2.04 km; Wellmont Theatre, distance 2.09 km; Cuban Pete's, distance 2.12 km; Raymond's, distance 2.30 km; Brookdale Park, distance 2.84 km.
+The 10 representative nearby POIs and their distances are: NJ Transit Rail - Bloomfield Station, distance 1.92 km; Retro Fitness, distance 2.04 km; Cuban Pete's, distance 2.12 km; Wellmont Theatre, distance 2.09 km; Raymond's, distance 2.30 km; Egan & Sons, distance 1.89 km; NJ Transit Rail - Bay Street Station, distance 1.38 km; Brookdale Park, distance 2.84 km; Starbucks, distance 1.47 km.

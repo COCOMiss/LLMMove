@@ -1,0 +1,6 @@
+The name of this location is "St. Luke's" and its POI category is Church, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.78455919, -73.80962919), with the corresponding geohash code dr7802t7qbzk.
+The address is 16-22 Clintonville St, Flushing, NY 11357, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 2(avg: 1); Deli / Bodega, 1(avg: 10); Department Store, 1(avg: 4).
+The 10 nearest POIs and their distances are: Cherry Valley Deli & Grill, distance 0.71 km; Target, distance 2.01 km; Throgs Neck Bridge, distance 2.18 km; Bronx-Whitestone Bridge, distance 2.38 km.
+The 10 representative nearby POIs and their distances are: Throgs Neck Bridge, distance 2.18 km; Bronx-Whitestone Bridge, distance 2.38 km; Target, distance 2.01 km; Cherry Valley Deli & Grill, distance 0.71 km.

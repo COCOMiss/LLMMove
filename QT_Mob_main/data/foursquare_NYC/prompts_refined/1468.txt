@@ -1,0 +1,57 @@
+**Location Analysis: Daly's Pub**
+
+**Introduction**
+
+Daly's Pub, located at 31-90 31st St, Astoria, NY 11106, USA, is a popular nightlife spot in the heart of Astoria, Queens. This analysis delves into the characteristics of the surrounding area, providing insights into the types of businesses, transportation options, and recreational activities available nearby.
+
+**Geographic Location**
+
+Daly's Pub is situated in the Astoria neighborhood of Queens, New York City, with a geohash code of dr5rvu932qts. The location's coordinates are (40.76227408, -73.92526709), indicating its proximity to various amenities and services.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs, categorized by their frequency and average count, reveal a diverse range of establishments:
+
+1.  Metro Station (14, avg: 19) - proximity to public transportation
+2.  Bar (7, avg: 124) - a high concentration of bars and nightlife spots
+3.  Gym (6, avg: 25) - various fitness options for residents and visitors
+4.  Coffee Shop (5, avg: 63) - multiple coffee shops for caffeine breaks
+5.  Home (private) (4, avg: 14) - residential areas nearby
+6.  Bakery (3, avg: 16) - bakeries for fresh bread and pastries
+7.  Lounge (3, avg: 35) - upscale bars and lounges
+8.  American Restaurant (2, avg: 51) - a mix of casual and fine dining options
+9.  Sports Bar (2, avg: 8) - sports-themed bars for fans
+10.  Burger Joint (2, avg: 17) - quick bite options for burgers and more
+
+**Nearest POIs**
+
+The 10 nearest POIs to Daly's Pub, listed by distance, are:
+
+1.  MTA Subway - Broadway (N/Q), 0.03 km (0.02 miles) - a short walk from the pub
+2.  Sanford's, 0.04 km (0.025 miles) - a nearby eatery
+3.  Club Fitness, 0.07 km (0.043 miles) - a fitness center for workouts
+4.  Break Bar & Billiards, 0.13 km (0.08 miles) - a bar and billiards hall
+5.  Gleason's, 0.18 km (0.11 miles) - a nearby eatery
+6.  Brick Cafe, 0.33 km (0.205 miles) - a cafe with a cozy atmosphere
+7.  Brooklyn Bagel & Coffee Co., 0.35 km (0.22 miles) - a bagel and coffee shop
+8.  Bare Burger, 0.37 km (0.23 miles) - a burger joint
+9.  Il Bambino, 0.37 km (0.23 miles) - an Italian restaurant
+10.  MTA Subway - 30th Ave - Grand Ave (N/Q), 0.59 km (0.37 miles) - a subway station
+
+**Representative Nearby POIs**
+
+The 10 representative POIs, listed by distance, showcase a mix of popular attractions and services:
+
+1.  MTA - Queensboro Plaza (N/Q/7), 1.79 km (1.11 miles) - a major subway station
+2.  MTA Subway - Astoria/Ditmars Blvd (N/Q), 1.74 km (1.08 miles) - another subway station
+3.  The Garden at Studio Square, 0.83 km (0.52 miles) - a park and event space
+4.  Bohemian Hall and Beer Garden, 1.40 km (0.87 miles) - a beer garden and event space
+5.  MTA Subway - Astoria Blvd (N/Q), 1.06 km (0.66 miles) - a subway station
+6.  MTA Subway - 30th Ave - Grand Ave (N/Q), 0.59 km (0.37 miles) - a subway station
+7.  UA Kaufman Astoria Stadium 14, 0.85 km (0.53 miles) - a movie theater
+8.  Planet Fitness, 0.83 km (0.52 miles) - a fitness center
+9.  Astoria Park, 2.14 km (1.33 miles) - a large park with recreational activities
+
+**Conclusion**
+
+Daly's Pub is situated in a vibrant neighborhood with a mix of nightlife spots, restaurants, and recreational activities. The proximity to public transportation options, such as the MTA Subway, makes it easily accessible for visitors and residents. The surrounding area offers a variety of amenities, including

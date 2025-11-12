@@ -1,0 +1,6 @@
+The name of this location is "Starbucks" and its POI category is Coffee Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.86384194, -73.97511005), with the corresponding geohash code dr72kxhcph20.
+The address is 2215 Rte 4 E, Fort Lee, NJ 07024, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 3(avg: 1); Bus Station, 1(avg: 1).
+The 10 nearest POIs and their distances are: Bridge Plaza, distance 1.19 km; George Washington Bridge Toll Plaza, distance 1.48 km; New York/New Jersey State Line, distance 2.37 km; George Washington Bridge, distance 2.40 km.
+The 10 representative nearby POIs and their distances are: George Washington Bridge, distance 2.40 km; George Washington Bridge Toll Plaza, distance 1.48 km; Bridge Plaza, distance 1.19 km; New York/New Jersey State Line, distance 2.37 km.

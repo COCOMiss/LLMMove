@@ -1,0 +1,6 @@
+The name of this location is "Gold's Gym" and its POI category is Gym, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.94957684, -74.06738705), with the corresponding geohash code dr72fw9u8f3k.
+The address is 49 E Midland Ave, Paramus, NJ 07652, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 2(avg: 9); Coffee Shop, 2(avg: 63); Office, 1(avg: 72); Shopping Mall, 1(avg: 1); Community College, 1(avg: 1); Home (private), 1(avg: 14); Furniture / Home Store, 1(avg: 7).
+The 10 nearest POIs and their distances are: CUnet Headquarters, distance 0.22 km; Trader Joe's, distance 0.36 km; Starbucks, distance 0.52 km; Paramus Park Mall, distance 0.80 km; Bergen Community College, distance 1.83 km; Starbucks, distance 1.89 km; Fairway Market, distance 2.04 km; The Lair, distance 2.23 km; IKEA, distance 2.89 km.
+The 10 representative nearby POIs and their distances are: Bergen Community College, distance 1.83 km; Paramus Park Mall, distance 0.80 km; IKEA, distance 2.89 km; Fairway Market, distance 2.04 km; Starbucks, distance 0.52 km; The Lair, distance 2.23 km; CUnet Headquarters, distance 0.22 km; Starbucks, distance 1.89 km; Trader Joe's, distance 0.36 km.

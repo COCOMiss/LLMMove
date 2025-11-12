@@ -1,0 +1,6 @@
+The name of this location is "Knapp Street Bagels" and its POI category is Deli / Bodega, belonging to the parent category Food.
+The geographic coordinates for this location are (40.58648442, -73.9312662), with the corresponding geohash code dr5qvssckth6.
+The address is 2771 Knapp St, Brooklyn, NY 11235, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Movie Theater, 1(avg: 5); Fast Food Restaurant, 1(avg: 5); College Classroom, 1(avg: 1); Park, 1(avg: 8); Gym, 1(avg: 25); Metro Station, 1(avg: 19); Shopping Mall, 1(avg: 1).
+The 10 nearest POIs and their distances are: United Artists Sheepshead Bay Stadium 14 & IMAX, distance 0.13 km; Roll N Roaster, distance 0.74 km; Kingsborough Community College, distance 0.99 km; Marine Park, distance 1.54 km; Bally Total Fitness, distance 1.76 km; MTA - Sheepshead Bay (B/Q), distance 1.95 km; Kings Plaza Mall, distance 2.77 km.
+The 10 representative nearby POIs and their distances are: Kingsborough Community College, distance 0.99 km; Kings Plaza Mall, distance 2.77 km; United Artists Sheepshead Bay Stadium 14 & IMAX, distance 0.13 km; MTA - Sheepshead Bay (B/Q), distance 1.95 km; Roll N Roaster, distance 0.74 km; Bally Total Fitness, distance 1.76 km; Marine Park, distance 1.54 km.

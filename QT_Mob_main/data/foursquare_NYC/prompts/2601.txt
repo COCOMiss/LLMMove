@@ -1,0 +1,6 @@
+The name of this location is "Buffalo Wild Wings" and its POI category is American Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.91156668, -73.78010273), with the corresponding geohash code dr789pdznuzc.
+The address is 33 Lecount Pl, New Rochelle, NY 10801, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: American Restaurant, 1(avg: 51); Movie Theater, 1(avg: 5); Multiplex, 1(avg: 4); Train Station, 1(avg: 5); University, 1(avg: 5).
+The 10 nearest POIs and their distances are: Buffalo Wild Wings, distance 0.00 km; New Roc City, distance 0.02 km; Regal Cinemas New Roc City Stadium 18 + IMAX, distance 0.10 km; Metro North - New Rochelle Train Station, distance 0.34 km; Iona College, distance 1.73 km.
+The 10 representative nearby POIs and their distances are: Metro North - New Rochelle Train Station, distance 0.34 km; Regal Cinemas New Roc City Stadium 18 + IMAX, distance 0.10 km; Buffalo Wild Wings, distance 0.00 km; New Roc City, distance 0.02 km; Iona College, distance 1.73 km.

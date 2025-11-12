@@ -1,0 +1,6 @@
+The name of this location is "Retro Fitness" and its POI category is Tanning Salon, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.94525498, -74.12909031), with the corresponding geohash code dr72cjug6uxz.
+The address is 18 Pollitt Dr, Fair Lawn, NJ 07410, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bakery, 1(avg: 16); Café, 1(avg: 42).
+The 10 nearest POIs and their distances are: Nabisco Factory Scent Cloud, distance 0.23 km; Starbucks, distance 1.88 km.
+The 10 representative nearby POIs and their distances are: Starbucks, distance 1.88 km; Nabisco Factory Scent Cloud, distance 0.23 km.

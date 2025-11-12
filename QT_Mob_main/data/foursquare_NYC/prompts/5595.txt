@@ -1,0 +1,6 @@
+The name of this location is "Body Shop Fitness" and its POI category is Gym, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.78689279, -74.1340633), with the corresponding geohash code dr721110z5gu.
+The address is 9 Franklin Pl, North Arlington, NJ 07031, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym / Fitness Center, 1(avg: 7); Home (private), 1(avg: 14).
+The 10 nearest POIs and their distances are: Signature Fitness, distance 1.50 km; Riverwatch Condos, distance 2.41 km.
+The 10 representative nearby POIs and their distances are: Signature Fitness, distance 1.50 km; Riverwatch Condos, distance 2.41 km.

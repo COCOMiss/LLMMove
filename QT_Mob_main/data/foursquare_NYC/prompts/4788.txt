@@ -1,0 +1,6 @@
+The name of this location is "Burrito Bar" and its POI category is Mexican Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.63030206, -74.10885242), with the corresponding geohash code dr5r1se8dt62.
+The address is 585 Forest Ave, Staten Island, NY 10310, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Hospital, 1(avg: 2); Lake, 1(avg: 2); Bar, 1(avg: 124); University, 1(avg: 5); General College & University, 1(avg: 2); Home (private), 1(avg: 14); Pizza Place, 1(avg: 20).
+The 10 nearest POIs and their distances are: Planet Fitness, distance 0.02 km; Richmond University Medical Center, distance 0.68 km; Silver Lake Park, distance 1.20 km; Adobe Blues Restaurant and Bar, distance 1.84 km; St John's University, distance 1.85 km; Wagner College, distance 2.15 km; 108 Targee, distance 2.18 km; Joe and Pat's Pizzeria, distance 2.23 km.
+The 10 representative nearby POIs and their distances are: Silver Lake Park, distance 1.20 km; 108 Targee, distance 2.18 km; Richmond University Medical Center, distance 0.68 km; Planet Fitness, distance 0.02 km; St John's University, distance 1.85 km; Joe and Pat's Pizzeria, distance 2.23 km; Wagner College, distance 2.15 km; Adobe Blues Restaurant and Bar, distance 1.84 km.

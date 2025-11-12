@@ -1,0 +1,6 @@
+The name of this location is "Retro Fitness" and its POI category is Gym, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.93462184, -73.90129566), with the corresponding geohash code dr72y7ftrn84.
+The address is 65 Main St, Yonkers, NY 10701, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Train, 1(avg: 4); Road, 1(avg: 1); University, 1(avg: 5).
+The 10 nearest POIs and their distances are: Metro North - Yonkers Train Station, distance 0.17 km; Palisades Interstate Parkway, distance 1.99 km; College of Mount Saint Vincent, distance 2.50 km.
+The 10 representative nearby POIs and their distances are: Metro North - Yonkers Train Station, distance 0.17 km; Palisades Interstate Parkway, distance 1.99 km; College of Mount Saint Vincent, distance 2.50 km.

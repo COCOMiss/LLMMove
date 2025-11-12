@@ -1,0 +1,6 @@
+The name of this location is "Linden Boulevard Multiplex Cinemas" and its POI category is Multiplex, belonging to the parent category Arts & Entertainment.
+The geographic coordinates for this location are (40.66860605, -73.86195808), with the corresponding geohash code dr5rr5rrg9sh.
+The address is 2770 Linden Blvd, Brooklyn, NY 11208, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 2(avg: 19); Beach, 1(avg: 1); Department Store, 1(avg: 4); Coffee Shop, 1(avg: 63); Electronics Store, 1(avg: 5).
+The 10 nearest POIs and their distances are: MTA - 80-Hudson Street Subway - A, distance 1.24 km; Howard Beach, distance 1.54 km; Target, distance 1.88 km; Starbucks, distance 2.01 km; MTA - Rockaway Boulevard Subway Station (A), distance 2.03 km; Best Buy, distance 2.10 km.
+The 10 representative nearby POIs and their distances are: MTA - Rockaway Boulevard Subway Station (A), distance 2.03 km; Target, distance 1.88 km; Starbucks, distance 2.01 km; Howard Beach, distance 1.54 km; MTA - 80-Hudson Street Subway - A, distance 1.24 km; Best Buy, distance 2.10 km.

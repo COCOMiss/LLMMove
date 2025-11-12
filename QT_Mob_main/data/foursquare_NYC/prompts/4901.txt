@@ -1,0 +1,6 @@
+The name of this location is "A&P" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.9692381, -73.96309376), with the corresponding geohash code dr73hfjxngxb.
+The address is 400 Demarest Ave, Closter, NJ 07624, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are:.
+The 10 nearest POIs and their distances are:.
+The 10 representative nearby POIs and their distances are:.

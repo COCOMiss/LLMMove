@@ -1,0 +1,6 @@
+The name of this location is "Frank Theatres South Cove 12" and its POI category is Movie Theater, belonging to the parent category Arts & Entertainment.
+The geographic coordinates for this location are (40.6679768, -74.10600185), with the corresponding geohash code dr5r3emsjh25.
+The address is 191 Lefante Way Suite 118, Bayonne, NJ 07002, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Bar, 1(avg: 124).
+The 10 nearest POIs and their distances are: Forum Fitness Club, distance 1.02 km; Adobe Blues Restaurant and Bar, distance 2.88 km.
+The 10 representative nearby POIs and their distances are: Forum Fitness Club, distance 1.02 km; Adobe Blues Restaurant and Bar, distance 2.88 km.

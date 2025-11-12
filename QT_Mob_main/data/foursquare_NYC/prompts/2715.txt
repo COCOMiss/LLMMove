@@ -1,0 +1,6 @@
+The name of this location is "Famous Ray's Pizza" and its POI category is Pizza Place, belonging to the parent category Food.
+The geographic coordinates for this location are (40.82577782, -74.23052242), with the corresponding geohash code dr70qb4grkwd.
+The address is 10 Pompton Ave, Verona, NJ 07044, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Coffee Shop, 2(avg: 63); Gym / Fitness Center, 1(avg: 7); Grocery Store, 1(avg: 9); Bar, 1(avg: 124); Gym, 1(avg: 25); Breakfast Spot, 1(avg: 20); Spanish Restaurant, 1(avg: 4); Pub, 1(avg: 24); Music Venue, 1(avg: 10).
+The 10 nearest POIs and their distances are: Platinum Fitness, distance 0.94 km; Whole Foods, distance 1.02 km; Just Jake's, distance 1.47 km; Starbucks, distance 1.55 km; New York Sports Club, distance 1.59 km; Raymond's, distance 1.64 km; Cuban Pete's, distance 1.81 km; Egan & Sons, distance 1.83 km; Wellmont Theatre, distance 1.87 km; Starbucks, distance 2.44 km.
+The 10 representative nearby POIs and their distances are: Just Jake's, distance 1.47 km; Cuban Pete's, distance 1.81 km; Wellmont Theatre, distance 1.87 km; Platinum Fitness, distance 0.94 km; Starbucks, distance 1.55 km; New York Sports Club, distance 1.59 km; Raymond's, distance 1.64 km; Egan & Sons, distance 1.83 km; Whole Foods, distance 1.02 km; Starbucks, distance 2.44 km.

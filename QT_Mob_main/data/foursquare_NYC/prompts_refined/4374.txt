@@ -1,0 +1,37 @@
+**Location Analysis: Walmart Supercenter in North Bergen, NJ**
+
+**Overview**
+
+The Walmart Supercenter located at 2100 88th St, North Bergen, NJ 07047, USA is a grocery store that falls under the category of Shop & Service. The location has a geohash code of dr725vbgrqwg and geographic coordinates of (40.81342911, -74.01354209).
+
+**Surrounding Environment**
+
+The surrounding area of the Walmart Supercenter is characterized by a mix of commercial and residential properties. The top 10 nearby points-of-interest (POI) categories are:
+
+1.  Grocery Store (1) - This is the primary category of the location itself.
+2.  Road (1) - Suggesting that the area is well-connected and accessible.
+3.  Park (1) - Indicating a nearby green space for recreation and relaxation.
+4.  Movie Theater (1) - Providing entertainment options for locals and visitors.
+5.  Sandwich Place (1) - Offering a variety of food options in the area.
+
+**Nearby Points of Interest**
+
+The 10 nearest POIs to the Walmart Supercenter are:
+
+1.  Walmart Supercenter (0.04 km) - The primary location itself.
+2.  Vince Lombardi Service Area (1.72 km) - A service area that may offer food, fuel, and other amenities.
+3.  James L Braddock North Hudson County Park (1.77 km) - A nearby park for outdoor activities.
+4.  Edgewater Multiplex Cinemas (2.08 km) - A movie theater for entertainment.
+5.  Panera Bread (2.15 km) - A sandwich place for food options.
+
+**Representative Nearby Points of Interest**
+
+The 10 representative POIs, which are a subset of the nearest POIs, are:
+
+1.  Walmart Supercenter (0.04 km) - The primary location itself.
+2.  Vince Lombardi Service Area (1.72 km) - A service area that may offer food, fuel, and other amenities.
+3.  Edgewater Multiplex Cinemas (2.08 km) - A movie theater for entertainment.
+4.  Panera Bread (2.15 km) - A sandwich place for food options.
+5.  James L Braddock North Hudson County Park (1.77 km) - A nearby park for outdoor activities.
+
+Overall, the Walmart Supercenter is located in a densely populated area with a mix of commercial and residential properties, offering a range of amenities and services within a short distance.

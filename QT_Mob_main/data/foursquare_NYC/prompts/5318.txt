@@ -1,0 +1,6 @@
+The name of this location is "Mad for Chicken" and its POI category is Fast Food Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.93165072, -73.9955021), with the corresponding geohash code dr72u5qh5udx.
+The address is 121 N Washington Ave, Bergenfield, NJ 07621, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Fitness II, distance 0.42 km; Dunkin Donuts/Baskin Robbins, distance 1.47 km.
+The 10 representative nearby POIs and their distances are: Fitness II, distance 0.42 km; Dunkin Donuts/Baskin Robbins, distance 1.47 km.

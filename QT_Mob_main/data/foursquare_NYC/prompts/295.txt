@@ -1,0 +1,6 @@
+The name of this location is "BJ's Wholesale Club" and its POI category is Grocery Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.65078525, -73.87308141), with the corresponding geohash code dr5rqbprbrw5.
+The address is 580 Georgia Ave, Brooklyn, NY 11207, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Electronics Store, 1(avg: 5); Department Store, 1(avg: 4); Beach, 1(avg: 1).
+The 10 nearest POIs and their distances are: Best Buy, distance 0.09 km; Target, distance 0.34 km; Howard Beach, distance 2.20 km.
+The 10 representative nearby POIs and their distances are: Target, distance 0.34 km; Howard Beach, distance 2.20 km; Best Buy, distance 0.09 km.

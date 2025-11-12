@@ -1,0 +1,6 @@
+The name of this location is "Long Island Jewish Medical Center" and its POI category is Hospital, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.75450686, -73.70915294), with the corresponding geohash code dr5xfenshnxy.
+The address is 269-01 76th Ave, Glen Oaks, NY 11004, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Hospital, 1(avg: 2); Gym, 1(avg: 25); Road, 1(avg: 1); Emergency Room, 1(avg: 2).
+The 10 nearest POIs and their distances are: Long Island Jewish Medical Center, distance 0.07 km; LA Fitness, distance 0.73 km; Cross Island Parkway, distance 2.29 km; North Shore University Hospital, distance 2.56 km.
+The 10 representative nearby POIs and their distances are: LA Fitness, distance 0.73 km; North Shore University Hospital, distance 2.56 km; Long Island Jewish Medical Center, distance 0.07 km; Cross Island Parkway, distance 2.29 km.

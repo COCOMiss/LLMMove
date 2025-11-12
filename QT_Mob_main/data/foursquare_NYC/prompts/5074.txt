@@ -1,0 +1,6 @@
+The name of this location is "Hot Grill" and its POI category is American Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.88397342, -74.13293123), with the corresponding geohash code dr7294dn3t01.
+The address is 669 Lexington Ave, Clifton, NJ 07011, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bar, 1(avg: 124); Road, 1(avg: 1); Electronics Store, 1(avg: 5).
+The 10 nearest POIs and their distances are: Sharky's Wings and Raw bar, distance 2.40 km; I-80 -- Bergen/Passaic, distance 2.42 km; Micro Center, distance 2.64 km.
+The 10 representative nearby POIs and their distances are: I-80 -- Bergen/Passaic, distance 2.42 km; Sharky's Wings and Raw bar, distance 2.40 km; Micro Center, distance 2.64 km.

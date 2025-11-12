@@ -1,0 +1,6 @@
+The name of this location is "Ample Hills Creamery" and its POI category is Ice Cream Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.678515, -73.968427), with the corresponding geohash code dr5rkv3cd8z1.
+The address is 232 St Marks Ave, Brooklyn, NY 11238, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bar, 35(avg: 124); Coffee Shop, 21(avg: 63); Metro Station, 12(avg: 19); Gym, 11(avg: 25); Sandwich Place, 9(avg: 18); Mexican Restaurant, 8(avg: 28); Burger Joint, 7(avg: 17); Breakfast Spot, 6(avg: 20); Bookstore, 6(avg: 7); Grocery Store, 6(avg: 9).
+The 10 nearest POIs and their distances are: Soda Bar, distance 0.03 km; Branded Saloon, distance 0.09 km; Milk Bar, distance 0.09 km; Beast, distance 0.10 km; Pequeña, distance 0.12 km; The Vanderbilt, distance 0.12 km; Weather Up, distance 0.17 km; Woodwork, distance 0.17 km; Joyce Bakeshop, distance 0.21 km; Cornelius, distance 0.27 km.
+The 10 representative nearby POIs and their distances are: Brooklyn Museum, distance 0.88 km; Prospect Park, distance 1.88 km; Target, distance 1.02 km; The Bell House, distance 2.04 km; Trader Joe's, distance 2.38 km; Connecticut Muffin, distance 1.62 km; Pizza Town, distance 0.80 km; Union Hall, distance 1.02 km; Soda Bar, distance 0.03 km; Fort Greene Park, distance 1.57 km.

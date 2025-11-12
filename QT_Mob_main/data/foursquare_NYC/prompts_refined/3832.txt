@@ -1,0 +1,54 @@
+**Location Analysis: Monkey Room**
+
+**Location Overview**
+
+The Monkey Room is a bar located at 589 Fort Washington Ave, New York, NY 10033, USA. It falls under the category of Nightlife Spot and has a geohash code of dr72mt2thryu. The location's geographic coordinates are (40.854935, -73.93711).
+
+**Neighboring Points of Interest (POIs)**
+
+The Monkey Room is surrounded by various points of interest, with the top 10 nearby POIs categorized as follows:
+
+1.  Metro Station (3) - average distance: 19 meters
+2.  Road (3) - average distance: 1 meter
+3.  Park (2) - average distance: 8 meters
+4.  Hospital (2) - average distance: 2 meters
+5.  Tea Room (1) - average distance: 5 meters
+6.  Home (private) (1) - average distance: 14 meters
+7.  Train Station (1) - average distance: 5 meters
+8.  Scenic Lookout (1) - average distance: 2 meters
+9.  Bridge (1) - average distance: 1 meter
+10.  Gym (1) - average distance: 25 meters
+
+**Nearest Points of Interest**
+
+The 10 nearest POIs to the Monkey Room are:
+
+1.  Starbucks - 0.42 km
+2.  Washington Heights - 0.56 km
+3.  Port Authority - GWB Bus Terminal - 0.69 km
+4.  Fort Tryon Park - 0.94 km
+5.  The Cloisters - 0.97 km
+6.  Washington Bridge - 1.19 km
+7.  MTA Subway - Dyckman Street (1) - 1.20 km
+8.  New York/New Jersey State Line - 1.33 km
+9.  George Washington Bridge - 1.33 km
+10.  Planet Fitness - 1.40 km
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs, which are likely to be of interest to visitors, are:
+
+1.  George Washington Bridge - 1.33 km
+2.  New York Presbyterian - Columbia University Medical Center - 1.64 km
+3.  The Cloisters - 0.97 km
+4.  Port Authority - GWB Bus Terminal - 0.69 km
+5.  George Washington Bridge Toll Plaza - 2.24 km
+6.  Planet Fitness - 1.40 km
+7.  MTA Subway - 157th Street (1) - 2.41 km
+8.  Milstein Hospital Building - 1.56 km
+9.  New York/New Jersey State Line - 1.33 km
+10.  Starbucks - 1.55 km
+
+**Conclusion**
+
+The Monkey Room is a bar located in the heart of New York City, surrounded by various points of interest, including metro stations, parks, hospitals, and gyms. The nearby POIs suggest that the location is in a densely populated area with easy access to public transportation and amenities. The representative nearby POIs indicate that visitors to the Monkey Room may be interested in exploring the surrounding area, including the George Washington Bridge, The Cloisters, and Port Authority - GWB Bus Terminal.

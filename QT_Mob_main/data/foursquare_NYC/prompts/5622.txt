@@ -1,0 +1,6 @@
+The name of this location is "Dingbatz" and its POI category is Bar, belonging to the parent category Bar.
+The geographic coordinates for this location are (40.85801019, -74.14769961), with the corresponding geohash code dr722tzr1m5u.
+The address is 626 Van Houten Ave, Clifton, NJ 07013, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bar, 1(avg: 124); Dive Bar, 1(avg: 16); Gym Pool, 1(avg: 1); Ice Cream Shop, 1(avg: 6); Burger Joint, 1(avg: 17); Road, 1(avg: 1); American Restaurant, 1(avg: 51); Diner, 1(avg: 9); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Sharky's Wings and Raw bar, distance 0.86 km; Loop Lounge, distance 0.90 km; LA Fitness, distance 2.22 km; CUPS Frozen Yogurt, distance 2.22 km; Zinburger, distance 2.23 km; NJ Route 3, distance 2.26 km; T.G.I. Friday's, distance 2.30 km; Tick Tock Diner, distance 2.40 km; New York Sports Club, distance 2.89 km.
+The 10 representative nearby POIs and their distances are: LA Fitness, distance 2.22 km; NJ Route 3, distance 2.26 km; CUPS Frozen Yogurt, distance 2.22 km; Tick Tock Diner, distance 2.40 km; Zinburger, distance 2.23 km; New York Sports Club, distance 2.89 km; T.G.I. Friday's, distance 2.30 km; Loop Lounge, distance 0.90 km; Sharky's Wings and Raw bar, distance 0.86 km.

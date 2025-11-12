@@ -1,0 +1,6 @@
+The name of this location is "KRU Martial Arts" and its POI category is Martial Arts Dojo, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.92399289, -73.99764007), with the corresponding geohash code dr72u1uxd10q.
+The address is 7 W Clinton Ave, Bergenfield, NJ 07621, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Gym, 1(avg: 25); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Fitness II, distance 0.45 km; Dunkin Donuts/Baskin Robbins, distance 0.62 km.
+The 10 representative nearby POIs and their distances are: Fitness II, distance 0.45 km; Dunkin Donuts/Baskin Robbins, distance 0.62 km.

@@ -1,0 +1,6 @@
+The name of this location is "Javons Home" and its POI category is Home (private), belonging to the parent category Home (private).
+The geographic coordinates for this location are (40.63217491, -73.91834636), with the corresponding geohash code dr5rjuy79dqh.
+The address is Flatlands Av/Ralph Av, Brooklyn, NY, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Other Nightlife, 1(avg: 7); Metro Station, 1(avg: 19); Shopping Mall, 1(avg: 1).
+The 10 nearest POIs and their distances are: Stella Artois Socialite Event, distance 1.57 km; MTA - Canarsie/Rockaway Pkwy (L), distance 2.04 km; Kings Plaza Mall, distance 2.47 km.
+The 10 representative nearby POIs and their distances are: Kings Plaza Mall, distance 2.47 km; MTA - Canarsie/Rockaway Pkwy (L), distance 2.04 km; Stella Artois Socialite Event, distance 1.57 km.

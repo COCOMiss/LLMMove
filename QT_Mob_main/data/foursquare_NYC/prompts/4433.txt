@@ -1,0 +1,6 @@
+The name of this location is "MTA Subway - East 105th St (L)" and its POI category is Train Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.65059217, -73.89949322), with the corresponding geohash code dr5rq2hnbgxg.
+The address is 10557 Flatlands 1st St, Brooklyn, NY 11236, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 1(avg: 19); Other Nightlife, 1(avg: 7); Electronics Store, 1(avg: 5).
+The 10 nearest POIs and their distances are: MTA - Canarsie/Rockaway Pkwy (L), distance 0.57 km; Stella Artois Socialite Event, distance 1.24 km; Best Buy, distance 2.28 km.
+The 10 representative nearby POIs and their distances are: MTA - Canarsie/Rockaway Pkwy (L), distance 0.57 km; Stella Artois Socialite Event, distance 1.24 km; Best Buy, distance 2.28 km.

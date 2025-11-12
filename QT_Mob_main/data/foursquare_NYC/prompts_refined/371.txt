@@ -1,0 +1,50 @@
+**Analysis of Terminal 3**
+
+Terminal 3 is an airport terminal located in Jamaica, Queens, New York, USA. It is situated at the geographic coordinates (40.64088867, -73.78684044) and has a geohash code of dr5x0yqn3fzb. The terminal's address is 5 Central Terminal Area, Jamaica, NY 11430, USA.
+
+**Category and Nearby Points of Interest**
+
+As an Airport Terminal, Terminal 3 is part of the larger Travel & Transport category. The top 10 nearby points of interest (POIs) in the surrounding area are predominantly related to airports and travel. The top 5 categories are:
+
+1. Airport Terminal (6 occurrences, average distance: 3 km)
+2. General Travel (3 occurrences, average distance: 1 km)
+3. Airport (2 occurrences, average distance: 1 km)
+4. Plane (1 occurrence, average distance: 1 km)
+5. American Restaurant (1 occurrence, average distance: 51 km)
+
+**Nearest POIs**
+
+The 10 nearest POIs to Terminal 3 are:
+
+1. Terminal 3 (distance: 0.14 km)
+2. Terminal 2 (distance: 0.21 km)
+3. Delta Sky Club (distance: 0.22 km)
+4. Delta Sky Club (distance: 0.32 km)
+5. Terminal 1 (distance: 0.36 km)
+6. Terminal 4 (distance: 0.43 km)
+7. John F Kennedy International Airport (JFK) (distance: 0.55 km)
+8. Terminal 8 (distance: 0.74 km)
+9. Terminal 5 (distance: 0.92 km)
+10. American Airlines Admirals Club (distance: 0.97 km)
+
+**Representative POIs**
+
+The 10 representative nearby POIs to Terminal 3, based on their distances, are:
+
+1. John F Kennedy International Airport (JFK) (distance: 0.55 km)
+2. Terminal 5 (distance: 0.92 km)
+3. Terminal 8 (distance: 0.74 km)
+4. Terminal 4 (distance: 0.43 km)
+5. Terminal 3 (distance: 0.14 km)
+6. Terminal 7 (distance: 0.99 km)
+7. Terminal 2 (distance: 0.21 km)
+8. Terminal 1 (distance: 0.36 km)
+9. American Airlines Admirals Club (distance: 0.97 km)
+10. JFK AirTrain - Federal Circle Station (distance: 2.52 km)
+
+**Key Observations**
+
+* Terminal 3 is located in close proximity to several other airport terminals and travel-related POIs.
+* The surrounding area is primarily composed of airport facilities, restaurants, and travel services.
+* The nearest POIs are a mix of airport terminals, clubs, and other travel-related services.
+* The representative POIs are a combination of airport terminals, clubs, and a train station, indicating the importance of travel and transportation in this area.

@@ -1,0 +1,48 @@
+**Jacobi Medical Center Location Analysis**
+
+**Introduction**
+
+Jacobi Medical Center, located at 1400 Pelham Pkwy S, Bronx, NY 10461, USA, is a prominent emergency room facility situated in the Bronx, New York City. This analysis will provide an overview of the location's characteristics, nearby points of interest, and accessibility.
+
+**Geographic Location**
+
+The Jacobi Medical Center is situated at the geographic coordinates (40.85550037, -73.84623528), with a corresponding geohash code of dr72rtdb9crb. This location is in the heart of the Bronx, a borough in New York City.
+
+**Address and Accessibility**
+
+The medical center's address is 1400 Pelham Pkwy S, Bronx, NY 10461, USA. The nearby transportation options include several subway stations, making it easily accessible by public transportation.
+
+**Nearby Points of Interest**
+
+The top 10 nearby points of interest (POIs) categories and their counts are:
+
+1.  Metro Station (5) - averaging 19 POIs per category
+2.  Emergency Room (1) - averaging 2 POIs per category
+3.  Hospital (1) - averaging 2 POIs per category
+4.  Gym (1) - averaging 25 POIs per category
+
+The 10 nearest POIs and their distances are:
+
+1.  Jacobi Medical Center (0.00 km)
+2.  Montefiore Medical Center (0.75 km)
+3.  Planet Fitness (1.54 km)
+4.  MTA Subway - Middletown Road (6) (1.56 km)
+5.  MTA Subway - Pelham Bay Park (6) (1.64 km)
+6.  MTA Subway - Westchester Square/East Tremont Ave (6) (1.74 km)
+7.  MTA Subway (2,5) - Pelham Parkway (1.81 km)
+8.  MTA Subway - 177th Street/Parkchester (6) (2.78 km)
+
+The 10 representative nearby POIs and their distances are:
+
+1.  MTA Subway - 177th Street/Parkchester (6) (2.78 km)
+2.  MTA Subway - Pelham Bay Park (6) (1.64 km)
+3.  Planet Fitness (1.54 km)
+4.  MTA Subway - Middletown Road (6) (1.56 km)
+5.  Jacobi Medical Center (0.00 km)
+6.  MTA Subway - Westchester Square/East Tremont Ave (6) (1.74 km)
+7.  MTA Subway (2,5) - Pelham Parkway (1.81 km)
+8.  Montefiore Medical Center (0.75 km)
+
+**Conclusion**
+
+Jacobi Medical Center is a critical emergency room facility in the Bronx, New York City, with easy access to public transportation and nearby amenities. The surrounding area has a mix of medical facilities, gyms, and subway stations, making it a convenient location for patients and visitors.

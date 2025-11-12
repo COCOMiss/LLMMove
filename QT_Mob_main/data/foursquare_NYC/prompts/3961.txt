@@ -1,0 +1,6 @@
+The name of this location is "Branch Brook Park Light Rail Station" and its POI category is Light Rail Station, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.77972902, -74.1746369), with the corresponding geohash code dr5rbpexjsqp.
+The address is 893-913 N 5th St, Newark, NJ 07107, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Medical Center, 1(avg: 1); American Restaurant, 1(avg: 51); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Clara Maass Medical Center, distance 0.66 km; Applebee's, distance 2.53 km; Retro Fitness, distance 2.56 km.
+The 10 representative nearby POIs and their distances are: Retro Fitness, distance 2.56 km; Applebee's, distance 2.53 km; Clara Maass Medical Center, distance 0.66 km.

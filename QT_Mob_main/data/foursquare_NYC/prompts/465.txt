@@ -1,0 +1,6 @@
+The name of this location is "Regal/UA Staten Island Stadium 16" and its POI category is Multiplex, belonging to the parent category Arts & Entertainment.
+The geographic coordinates for this location are (40.6264401, -74.17276191), with the corresponding geohash code dr5r05v41mk4.
+The address is 2474 Forest Ave, Staten Island, NY 10303, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Multiplex, 1(avg: 4); General Travel, 1(avg: 1).
+The 10 nearest POIs and their distances are: Regal/UA Staten Island Stadium 16, distance 0.01 km; Goethals Bridge, distance 2.30 km.
+The 10 representative nearby POIs and their distances are: Goethals Bridge, distance 2.30 km; Regal/UA Staten Island Stadium 16, distance 0.01 km.

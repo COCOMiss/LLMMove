@@ -1,0 +1,60 @@
+**Location Analysis: Goodburger**
+
+**Overview**
+
+Goodburger is a burger joint located at 125 Maiden Ln # 5, New York, NY 10038, USA. The geographic coordinates of this location are (40.70651471, -74.0066152), with a geohash code of dr5refqh8uk4.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POI categories and their counts are:
+
+1.  Bar (109) - Average count: 124
+2.  Coffee Shop (53) - Average count: 63
+3.  Office (42) - Average count: 72
+4.  American Restaurant (36) - Average count: 51
+5.  Café (33) - Average count: 42
+6.  Italian Restaurant (25) - Average count: 28
+7.  Metro Station (25) - Average count: 19
+8.  Lounge (24) - Average count: 35
+9.  Gym (20) - Average count: 25
+10. Pizza Place (20) - Average count: 20
+
+These categories indicate a densely populated area with a mix of food, entertainment, and business establishments.
+
+**Nearest POIs**
+
+The 10 nearest POIs to Goodburger are:
+
+1.  Starbucks (0.02 km)
+2.  100 Maiden Lane (0.04 km)
+3.  Chipotle Mexican Grill (0.07 km)
+4.  Goodburger (0.07 km) - This is the location itself
+5.  SS+K (0.08 km)
+6.  New York Sports Club (0.09 km)
+7.  Harry's Italian Pizza Bar (0.11 km)
+8.  2 Gold Street Apartments (0.11 km)
+9.  Open Door Gastropub (0.13 km)
+10. Chartis (0.13 km)
+
+These POIs are primarily located in the same neighborhood, with several restaurants, cafes, and gyms nearby.
+
+**Representative Nearby POIs**
+
+The 10 representative nearby POIs and their distances are:
+
+1.  MTA Subway - Manhattan Bridge (B/D/N/Q) (1.34 km)
+2.  Brooklyn Bridge (0.90 km)
+3.  PATH: World Trade Center Station (0.82 km)
+4.  Washington Square Park (2.81 km)
+5.  Apple Store (2.15 km)
+6.  Staten Island Ferry - Whitehall Terminal (0.88 km)
+7.  Whole Foods (2.30 km)
+8.  Whole Foods (1.06 km)
+9.  Uniqlo (2.02 km)
+10. Manhattan Bridge (1.35 km)
+
+These POIs are located at a slightly greater distance, but still within a reasonable walking or short public transportation ride. They include popular attractions, shopping centers, and public transportation hubs.
+
+**Conclusion**
+
+Goodburger is situated in a densely populated area with a mix of food, entertainment, and business establishments. The nearby POIs indicate a vibrant neighborhood with easy access to various amenities. The representative POIs are located at a slightly greater distance, but still within walking or short public transportation distance, making Goodburger a convenient location for both locals and visitors.

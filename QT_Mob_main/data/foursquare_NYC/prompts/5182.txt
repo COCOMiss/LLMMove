@@ -1,0 +1,6 @@
+The name of this location is "The Teleport" and its POI category is Office, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.60583823, -74.17911438), with the corresponding geohash code dr5r0006jkgk.
+The address is JR4C+89 New York, NY, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bookstore, 1(avg: 7); Multiplex, 1(avg: 4).
+The 10 nearest POIs and their distances are: Barnes & Noble, distance 2.01 km; Regal/UA Staten Island Stadium 16, distance 2.35 km.
+The 10 representative nearby POIs and their distances are: Regal/UA Staten Island Stadium 16, distance 2.35 km; Barnes & Noble, distance 2.01 km.

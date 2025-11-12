@@ -1,0 +1,6 @@
+The name of this location is "Quick Chek" and its POI category is Deli / Bodega, belonging to the parent category Food.
+The geographic coordinates for this location are (40.87888675, -74.2219363), with the corresponding geohash code dr70x1c0z8c1.
+The address is 69 County Rte 631, Little Falls, NJ 07424, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Travel & Transport, 1(avg: 1); Department Store, 1(avg: 4); American Restaurant, 1(avg: 51); Lounge, 1(avg: 35); Burger Joint, 1(avg: 17).
+The 10 nearest POIs and their distances are: U.S. Route 46, distance 1.01 km; Best Buy, distance 1.14 km; Sonic Drive-In, distance 1.77 km; 46 Lounge, distance 1.79 km; Applebee's Neighborhood Bar & Grill, distance 2.09 km.
+The 10 representative nearby POIs and their distances are: Sonic Drive-In, distance 1.77 km; U.S. Route 46, distance 1.01 km; 46 Lounge, distance 1.79 km; Best Buy, distance 1.14 km; Applebee's Neighborhood Bar & Grill, distance 2.09 km.

@@ -1,0 +1,6 @@
+The name of this location is "Hooters of Hackensack" and its POI category is Wings Joint, belonging to the parent category Food.
+The geographic coordinates for this location are (40.90377495, -74.0318684), with the corresponding geohash code dr72eq79u2mc.
+The address is 41 Rte 4, Hackensack, NJ 07601, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Wings Joint, 1(avg: 1); American Restaurant, 1(avg: 51); Bookstore, 1(avg: 7); Shopping Mall, 1(avg: 1); Asian Restaurant, 1(avg: 18); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Hooters of Hackensack, distance 0.04 km; The Cheesecake Factory, distance 0.15 km; Barnes & Noble, distance 0.18 km; The Shops at Riverside, distance 0.24 km; P.F. Chang's, distance 0.42 km; Retro Fitness, distance 0.93 km.
+The 10 representative nearby POIs and their distances are: The Shops at Riverside, distance 0.24 km; The Cheesecake Factory, distance 0.15 km; Retro Fitness, distance 0.93 km; Barnes & Noble, distance 0.18 km; P.F. Chang's, distance 0.42 km; Hooters of Hackensack, distance 0.04 km.

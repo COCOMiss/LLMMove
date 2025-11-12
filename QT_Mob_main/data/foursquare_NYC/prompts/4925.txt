@@ -1,0 +1,6 @@
+The name of this location is "Barnes & Noble" and its POI category is Bookstore, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.59245498, -74.16285436), with the corresponding geohash code dr5qbmsk0np9.
+The address is Richmond Ave/Draper Pl South, Staten Island, NY 10314, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Electronics Store, 2(avg: 5); Bookstore, 1(avg: 7); Shopping Mall, 1(avg: 1); College Academic Building, 1(avg: 5); Grocery Store, 1(avg: 9).
+The 10 nearest POIs and their distances are: Barnes & Noble, distance 0.02 km; Apple Store, distance 1.19 km; Staten Island Mall, distance 1.21 km; College of Staten Island, distance 1.53 km; Best Buy - Staten Island NY (Store 469), distance 1.76 km; Costco Wholesale Club, distance 2.27 km.
+The 10 representative nearby POIs and their distances are: Staten Island Mall, distance 1.21 km; College of Staten Island, distance 1.53 km; Best Buy - Staten Island NY (Store 469), distance 1.76 km; Barnes & Noble, distance 0.02 km; Costco Wholesale Club, distance 2.27 km; Apple Store, distance 1.19 km.

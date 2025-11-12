@@ -1,0 +1,54 @@
+**Location Analysis: Delta Shuttle at LaGuardia Airport**
+
+**Overview**
+
+The Delta Shuttle is an airport terminal located at LaGuardia Airport (LGA) in East Elmhurst, New York, USA. The location is situated at the geographic coordinates (40.77370048, -73.88410076) and has a geohash code of dr5rywxhp8tm.
+
+**POI Categories and Frequencies**
+
+The Delta Shuttle falls under the parent category of Travel & Transport and is specifically categorized as an Airport Terminal. The top 10 nearby points-of-interest (POI) categories and their frequencies are:
+
+1.  Airport Terminal (6, avg: 3)
+2.  Lounge (1, avg: 35)
+3.  Bar (1, avg: 124)
+4.  Airport (1, avg: 1)
+5.  Home (private) (1, avg: 14)
+6.  Building (1, avg: 13)
+7.  Airport Gate (1, avg: 1)
+8.  Cupcake Shop (1, avg: 3)
+9.  General Travel (1, avg: 1)
+10. Latin American Restaurant (1, avg: 3)
+
+**Nearest POIs and Distances**
+
+The 10 nearest POIs to the Delta Shuttle are:
+
+1.  LGA - Marine Air Terminal (0.08 km)
+2.  American Airlines Admirals Club (0.84 km)
+3.  LGA - Central Terminal Concourse D (0.84 km)
+4.  Astoria Bowl (0.91 km)
+5.  LGA - Central Terminal Concourse C (0.98 km)
+6.  LGA - Central Terminal (0.99 km)
+7.  LaGuardia Airport (LGA) (1.03 km)
+8.  LGA - Central Terminal Concourse B (1.11 km)
+9.  The Pad (1.21 km)
+10. Rikers Island Correctional Facility (1.49 km)
+
+**Representative Nearby POIs and Distances**
+
+The 10 representative nearby POIs to the Delta Shuttle are:
+
+1.  LaGuardia Airport (LGA) (1.03 km)
+2.  LGA - Delta Terminal (2.02 km)
+3.  LGA - US Airways Terminal (1.53 km)
+4.  MTA - 7 Train (2.90 km)
+5.  LGA - Marine Air Terminal (0.08 km)
+6.  LGA - Central Terminal Concourse D (0.84 km)
+7.  LGA - Central Terminal Concourse C (0.98 km)
+8.  LGA - Central Terminal Concourse B (1.11 km)
+9.  The Rock Health & Fitness Club (2.27 km)
+10. LGA - Central Terminal (0.99 km)
+
+**Conclusion**
+
+The Delta Shuttle at LaGuardia Airport is a key location for travelers, offering convenient access to various airport terminals and amenities. The surrounding area is bustling with activity, with nearby POIs including lounges, bars, and restaurants. The location's proximity to LaGuardia Airport and other nearby terminals makes it an ideal spot for travelers looking to connect with Delta flights or explore the surrounding area.

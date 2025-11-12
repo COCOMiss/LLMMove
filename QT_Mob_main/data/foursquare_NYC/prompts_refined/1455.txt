@@ -1,0 +1,59 @@
+**Location Analysis: King's Deli**
+
+**Overview**
+King's Deli is a deli/bodega located at 28-07 Steinway St, Astoria, NY 11103, USA. It is situated in the heart of the Astoria neighborhood in Queens, New York City.
+
+**Geographic Coordinates and Geohash Code**
+The location's geographic coordinates are (40.765114, -73.91371267), with a geohash code of dr5ryj1dj8j1.
+
+**Address and Neighborhood**
+The address of King's Deli is 28-07 Steinway St, Astoria, NY 11103, USA, placing it in the heart of the Astoria neighborhood. This area is known for its diverse cultural influences, vibrant nightlife, and a variety of food options.
+
+**Nearby Points of Interest**
+The top 10 nearby points of interest (POIs) and their counts are:
+
+1. **Metro Station** (12) - Average distance: 19
+2. **Bar** (8) - Average distance: 124
+3. **Gym** (6) - Average distance: 25
+4. **Coffee Shop** (4) - Average distance: 63
+5. **Bakery** (3) - Average distance: 16
+6. **Train Station** (3) - Average distance: 5
+7. **Sports Bar** (2) - Average distance: 8
+8. **Mexican Restaurant** (2) - Average distance: 28
+9. **Burger Joint** (2) - Average distance: 17
+10. **American Restaurant** (2) - Average distance: 51
+
+These POIs indicate that King's Deli is surrounded by various amenities, including public transportation options, bars, gyms, coffee shops, bakeries, and restaurants.
+
+**Nearest POIs**
+The 10 nearest POIs and their distances are:
+
+1. MTA Subway - 21st Street/Queensbridge (F) - 0.06 km
+2. Canz Bar & Grill - 0.16 km
+3. New York Sports Club - 0.17 km
+4. MexiQ Kitchen & Draught - 0.20 km
+5. Grand Cafe Astoria - 0.25 km
+6. Brooklyn Bagel & Coffee Co. - 0.27 km
+7. Planet Fitness - 0.29 km
+8. Rapture Lounge - 0.38 km
+9. Sweet Afton - 0.45 km
+10. Ovelia - 0.45 km
+
+**Representative POIs**
+The 10 representative nearby POIs and their distances are:
+
+1. MTA Subway - Astoria/Ditmars Blvd (N/Q) - 1.05 km
+2. The Garden at Studio Square - 1.47 km
+3. Bohemian Hall and Beer Garden - 0.87 km
+4. MTA Subway - Astoria Blvd (N/Q) - 0.66 km
+5. MTA Subway - 30th Ave - Grand Ave (N/Q) - 0.68 km
+6. UA Kaufman Astoria Stadium 14 - 1.42 km
+7. MTA Subway - Broadway (N/Q) - 1.04 km
+8. Planet Fitness - 0.29 km
+9. Astoria Park - 1.88 km
+10. New York Sports Club - 0.17 km
+
+These representative POIs indicate that King's Deli is well-connected to various public transportation options and nearby attractions, making it a convenient location for residents and visitors.
+
+**Conclusion**
+King's Deli is a deli/bodega located in the heart of Astoria, Queens, surrounded by various amenities and public transportation options. The location's proximity to Metro stations, bars, gyms, coffee shops, bakeries, and restaurants makes it an attractive spot for locals and visitors alike.

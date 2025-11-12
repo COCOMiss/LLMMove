@@ -1,0 +1,6 @@
+The name of this location is "7-Eleven" and its POI category is Deli / Bodega, belonging to the parent category Food.
+The geographic coordinates for this location are (40.81354776, -74.10954797), with the corresponding geohash code dr721tgh4kez.
+The address is 750 Rutherford Ave, Lyndhurst, NJ 07071, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Indie Theater, 1(avg: 2); Train Station, 1(avg: 5); Grocery Store, 1(avg: 9); Hot Dog Joint, 1(avg: 2); Bakery, 1(avg: 16); Café, 1(avg: 42).
+The 10 nearest POIs and their distances are: Medieval Times, distance 0.64 km; NJ Transit Rail - Kingsland Station, distance 0.76 km; ShopRite, distance 0.81 km; Rutt's Hut, distance 1.89 km; Panera Bread, distance 2.30 km; Starbucks, distance 2.60 km.
+The 10 representative nearby POIs and their distances are: Medieval Times, distance 0.64 km; Starbucks, distance 2.60 km; Rutt's Hut, distance 1.89 km; NJ Transit Rail - Kingsland Station, distance 0.76 km; Panera Bread, distance 2.30 km; ShopRite, distance 0.81 km.

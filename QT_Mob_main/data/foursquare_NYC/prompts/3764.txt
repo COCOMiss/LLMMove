@@ -1,0 +1,6 @@
+The name of this location is "Barretto Point Park" and its POI category is Park, belonging to the parent category Outdoors & Recreation.
+The geographic coordinates for this location are (40.80601559, -73.88903888), with the corresponding geohash code dr72nse8k8ek.
+The address is 300 Tiffany St, Bronx, NY 10474, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 1(avg: 19); Building, 1(avg: 13).
+The 10 nearest POIs and their distances are: MTA Subway - Prospect Avenue (2/5), distance 1.86 km; Rikers Island Correctional Facility, distance 2.17 km.
+The 10 representative nearby POIs and their distances are: Rikers Island Correctional Facility, distance 2.17 km; MTA Subway - Prospect Avenue (2/5), distance 1.86 km.

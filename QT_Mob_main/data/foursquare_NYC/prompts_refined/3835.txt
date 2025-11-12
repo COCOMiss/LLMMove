@@ -1,0 +1,41 @@
+**Location Analysis: New York Sports Club**
+
+**Introduction**
+
+New York Sports Club, located at 31 Lecount Pl, New Rochelle, NY 10801, USA, is a gym and pool facility categorized under Outdoors & Recreation, specifically within the Gym Pool subcategory. This analysis will provide an overview of the location's characteristics, surrounding points of interest (POIs), and accessibility.
+
+**Geographic Information**
+
+The location is situated at the geographic coordinates (40.91205316, -73.78117561), with a geohash code of dr789pf1yp2p. This indicates its precise location in the city of New Rochelle, New York.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs, categorized by their type and average rating, are:
+
+1.  American Restaurant (1, avg: 51)
+2.  Movie Theater (1, avg: 5)
+3.  Multiplex (1, avg: 4)
+4.  Train Station (1, avg: 5)
+5.  University (1, avg: 5)
+
+The top 10 nearest POIs by distance are:
+
+1.  Buffalo Wild Wings (0.11 km)
+2.  New Roc City (0.12 km)
+3.  Regal Cinemas New Roc City Stadium 18 + IMAX (0.18 km)
+4.  Metro North - New Rochelle Train Station (0.27 km)
+5.  Iona College (1.65 km)
+
+**Representative Nearby POIs**
+
+The 5 representative nearby POIs, selected based on their distance and type, are:
+
+1.  Metro North - New Rochelle Train Station (0.27 km)
+2.  Regal Cinemas New Roc City Stadium 18 + IMAX (0.18 km)
+3.  Buffalo Wild Wings (0.11 km)
+4.  New Roc City (0.12 km)
+5.  Iona College (1.65 km)
+
+**Conclusion**
+
+New York Sports Club is a gym and pool facility located in the heart of New Rochelle, NY, with easy access to various amenities and services. The surrounding area offers a mix of entertainment, dining, and educational options, making it an attractive location for individuals seeking a balance of fitness and lifestyle activities. The proximity to Metro North - New Rochelle Train Station and Iona College also provides convenient transportation and educational opportunities.

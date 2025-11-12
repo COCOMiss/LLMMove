@@ -1,0 +1,6 @@
+The name of this location is "New Jersey City University Karnoutsos Hall" and its POI category is College Academic Building, belonging to the parent category College & University.
+The geographic coordinates for this location are (40.70998933, -74.08731497), with the corresponding geohash code dr5rd552bkjc.
+The address is 2039 John F. Kennedy Blvd, Jersey City, NJ 07305, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: University, 1(avg: 5); Road, 1(avg: 1); Residential Building (Apartment / Condo), 1(avg: 1).
+The 10 nearest POIs and their distances are: New Jersey City University, distance 0.15 km; Rt. 440 & Communipaw, distance 1.42 km; The Beacon (Rialto-Capitol Condos), distance 2.44 km.
+The 10 representative nearby POIs and their distances are: New Jersey City University, distance 0.15 km; The Beacon (Rialto-Capitol Condos), distance 2.44 km; Rt. 440 & Communipaw, distance 1.42 km.

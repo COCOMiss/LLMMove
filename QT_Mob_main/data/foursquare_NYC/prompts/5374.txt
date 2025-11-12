@@ -1,0 +1,6 @@
+The name of this location is "Duffy's" and its POI category is Bar, belonging to the parent category Nightlife Spot.
+The geographic coordinates for this location are (40.94057333, -74.148101), with the corresponding geohash code dr72btp00h08.
+The address is 856 River St, Paterson, NJ 07524, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Bakery, 1(avg: 16).
+The 10 nearest POIs and their distances are: Nabisco Factory Scent Cloud, distance 1.49 km.
+The 10 representative nearby POIs and their distances are: Nabisco Factory Scent Cloud, distance 1.49 km.

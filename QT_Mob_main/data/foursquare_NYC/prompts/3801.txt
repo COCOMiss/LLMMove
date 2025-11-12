@@ -1,0 +1,6 @@
+The name of this location is "Walmart" and its POI category is Department Store, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.66128088, -73.72556172), with the corresponding geohash code dr5x664tjuhs.
+The address is 77 Green Acres Rd S, Valley Stream, NY 11581, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1); Train Station, 1(avg: 5).
+The 10 nearest POIs and their distances are: Green Acres Mall, distance 0.49 km; LIRR - Valley Stream Station, distance 1.75 km.
+The 10 representative nearby POIs and their distances are: LIRR - Valley Stream Station, distance 1.75 km; Green Acres Mall, distance 0.49 km.

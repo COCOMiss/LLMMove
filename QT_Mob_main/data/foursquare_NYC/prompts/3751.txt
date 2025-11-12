@@ -1,0 +1,6 @@
+The name of this location is "Dunkin Donuts" and its POI category is Donut Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.61283207, -73.92653008), with the corresponding geohash code dr5rjc26fuxg.
+The address is 4216 Ave. S, Brooklyn, NY 11234, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1); Park, 1(avg: 8); Movie Theater, 1(avg: 5).
+The 10 nearest POIs and their distances are: Kings Plaza Mall, distance 0.62 km; Marine Park, distance 1.72 km; United Artists Sheepshead Bay Stadium 14 & IMAX, distance 2.99 km.
+The 10 representative nearby POIs and their distances are: Kings Plaza Mall, distance 0.62 km; United Artists Sheepshead Bay Stadium 14 & IMAX, distance 2.99 km; Marine Park, distance 1.72 km.

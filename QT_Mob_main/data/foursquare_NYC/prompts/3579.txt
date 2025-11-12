@@ -1,0 +1,6 @@
+The name of this location is "East Rutherford, NJ" and its POI category is Home (private), belonging to the parent category Residence.
+The geographic coordinates for this location are (40.84825445, -74.11812338), with the corresponding geohash code dr723khy6d99.
+The address is 83 River St, East Rutherford, NJ 07073, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 1(avg: 9); Dive Bar, 1(avg: 16); Pharmacy, 1(avg: 4); Hot Dog Joint, 1(avg: 2); Gym, 1(avg: 25); Department Store, 1(avg: 4); Coffee Shop, 1(avg: 63); Burger Joint, 1(avg: 17).
+The 10 nearest POIs and their distances are: ShopRite, distance 1.58 km; Loop Lounge, distance 1.82 km; Costco Wholesale Club, distance 2.43 km; Rutt's Hut, distance 2.44 km; New York Sports Club, distance 2.46 km; Walmart, distance 2.56 km; Starbucks, distance 2.60 km; Red Robin Gourmet Burgers, distance 2.70 km.
+The 10 representative nearby POIs and their distances are: Starbucks, distance 2.60 km; Red Robin Gourmet Burgers, distance 2.70 km; Costco Wholesale Club, distance 2.43 km; New York Sports Club, distance 2.46 km; Loop Lounge, distance 1.82 km; Rutt's Hut, distance 2.44 km; Walmart, distance 2.56 km; ShopRite, distance 1.58 km.

@@ -1,0 +1,6 @@
+The name of this location is "Kean University Parking Lot" and its POI category is Parking, belonging to the parent category Parking.
+The geographic coordinates for this location are (40.68044521, -74.23438547), with the corresponding geohash code dr5pqv8hv2wh.
+The address is Science Building, 1000 Morris Ave, Union, NJ 07083, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: University, 1(avg: 5); Train Station, 1(avg: 5); General Travel, 1(avg: 1); Train, 1(avg: 4); Road, 1(avg: 1).
+The 10 nearest POIs and their distances are: Kean University, distance 0.06 km; NJ Transit Rail - Union Station, distance 0.51 km; U.S. Route 22 - New Jersey, distance 2.09 km; NJ Transit Rail - Elizabeth Station, distance 2.15 km; Union Toll Plaza, distance 2.66 km.
+The 10 representative nearby POIs and their distances are: Kean University, distance 0.06 km; NJ Transit Rail - Elizabeth Station, distance 2.15 km; U.S. Route 22 - New Jersey, distance 2.09 km; Union Toll Plaza, distance 2.66 km; NJ Transit Rail - Union Station, distance 0.51 km.

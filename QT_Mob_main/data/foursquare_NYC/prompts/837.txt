@@ -1,0 +1,6 @@
+The name of this location is "Staten Island Expressway" and its POI category is Road, belonging to the parent category Travel & Transport.
+The geographic coordinates for this location are (40.60847918, -74.12698746), with the corresponding geohash code dr5r10w3ecpv.
+The address is South Gannon Ave/Gansevoort Blvd, Staten Island, NY 10314, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Road, 1(avg: 1); Pizza Place, 1(avg: 20); College Academic Building, 1(avg: 5).
+The 10 nearest POIs and their distances are: Staten Island Expressway, distance 0.00 km; Joe and Pat's Pizzeria, distance 0.64 km; College of Staten Island, distance 2.09 km.
+The 10 representative nearby POIs and their distances are: Staten Island Expressway, distance 0.00 km; College of Staten Island, distance 2.09 km; Joe and Pat's Pizzeria, distance 0.64 km.

@@ -1,0 +1,48 @@
+**Location Analysis: 24 Hour Fitness in Hasbrouck Heights, NJ**
+
+**Location Overview**
+
+The location "24 Hour Fitness" is a gym situated in Hasbrouck Heights, New Jersey, with a geographic coordinate of (40.86494453, -74.06521287) and a geohash code of dr726x5re3y3. The gym is located at 459 NJ-17, Hasbrouck Heights, NJ 07604, USA.
+
+**Nearby Points of Interest (POIs)**
+
+The top 10 nearby POIs, categorized by type, are:
+
+1. **American Restaurant**: 2 instances (average distance: 1.01 km)
+2. **Gym**: 1 instance (average distance: 0.52 km)
+3. **Gym / Fitness Center**: 1 instance (average distance: 0.84 km)
+4. **Airport**: 1 instance (average distance: 0.94 km)
+5. **Other Great Outdoors**: 1 instance (average distance: 1.25 km)
+6. **Coffee Shop**: 2 instances (average distance: 0.98 km)
+7. **Hospital**: 1 instance (average distance: 2.22 km)
+
+The 10 nearest POIs, listed in order of proximity, are:
+
+1. 24 Hour Fitness (0.04 km)
+2. Golds Gym (0.84 km)
+3. Teterboro Airport (TEB) (0.94 km)
+4. Starbucks (0.98 km)
+5. SONIC Drive-In (1.25 km)
+6. Houlihan's (1.92 km)
+7. Starbucks (2.12 km)
+8. Hackensack University Medical Center (2.22 km)
+
+The 10 representative nearby POIs, listed in order of proximity, are:
+
+1. 24 Hour Fitness (0.04 km)
+2. Hackensack University Medical Center (2.22 km)
+3. Teterboro Airport (TEB) (0.94 km)
+4. Starbucks (0.98 km)
+5. SONIC Drive-In (1.25 km)
+6. Golds Gym (0.84 km)
+7. Houlihan's (1.92 km)
+8. Starbucks (2.12 km)
+
+**Insights**
+
+* The location is situated in a relatively urban area, with several nearby POIs catering to different needs, such as food, healthcare, and entertainment.
+* The presence of multiple coffee shops and restaurants suggests that the area is a popular destination for locals and visitors.
+* The proximity of the gym to other fitness centers and hospitals indicates a strong focus on health and wellness in the area.
+* The nearby airport suggests that the location may be a convenient stopover for travelers.
+
+Overall, the location "24 Hour Fitness" is situated in a vibrant and diverse area, offering a range of amenities and services to its patrons.

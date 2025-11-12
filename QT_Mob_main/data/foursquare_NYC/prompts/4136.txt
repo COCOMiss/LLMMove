@@ -1,0 +1,6 @@
+The name of this location is "Costco Wholesale Club" and its POI category is Miscellaneous Shop, belonging to the parent category Shop & Service.
+The geographic coordinates for this location are (40.87627697, -74.03878791), with the corresponding geohash code dr72e1q9e4q3.
+The address is 80 S River St, Hackensack, NJ 07601, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Miscellaneous Shop, 1(avg: 6); Hospital, 1(avg: 2); Gym / Fitness Center, 1(avg: 7); Coffee Shop, 1(avg: 63).
+The 10 nearest POIs and their distances are: Costco Wholesale Club, distance 0.00 km; Hackensack University Medical Center, distance 1.64 km; Golds Gym, distance 2.09 km; Starbucks, distance 2.38 km.
+The 10 representative nearby POIs and their distances are: Hackensack University Medical Center, distance 1.64 km; Golds Gym, distance 2.09 km; Costco Wholesale Club, distance 0.00 km; Starbucks, distance 2.38 km.

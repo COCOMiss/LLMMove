@@ -1,0 +1,58 @@
+**Location Analysis: Joe's Crab Shack**
+
+**Overview**
+
+Joe's Crab Shack is a seafood restaurant located at 405 Allwood Rd, Clifton, NJ 07012, USA. The restaurant falls under the category of Seafood Restaurant, which is a subcategory of Food. The geographic coordinates of the location are (40.83975563, -74.15629864), with a geohash code of dr722d9hbfpz.
+
+**Geographic Location**
+
+Joe's Crab Shack is situated in the city of Clifton, New Jersey, in the United States. The location is relatively close to several other points of interest, including LA Fitness, CUPS Frozen Yogurt, and Zinburger.
+
+**Nearby Points of Interest**
+
+The top 10 nearby points of interest (POIs) to Joe's Crab Shack are:
+
+1. **Burger Joint** (2) - The average distance to Burger Joints in the area is 17 km.
+2. **American Restaurant** (2) - The average distance to American Restaurants in the area is 51 km.
+3. **Coffee Shop** (2) - The average distance to Coffee Shops in the area is 63 km.
+4. **Pharmacy** (2) - The average distance to Pharmacies in the area is 4 km.
+5. **Grocery Store** (2) - The average distance to Grocery Stores in the area is 9 km.
+6. **Gym Pool** (1) - The average distance to Gym Pools in the area is 1 km.
+7. **Ice Cream Shop** (1) - The average distance to Ice Cream Shops in the area is 6 km.
+8. **Diner** (1) - The average distance to Diners in the area is 9 km.
+9. **Road** (1) - The average distance to Roads in the area is 1 km.
+10. **Gym** (1) - The average distance to Gyms in the area is 25 km.
+
+The 10 nearest POIs to Joe's Crab Shack are:
+
+1. LA Fitness (0.07 km)
+2. CUPS Frozen Yogurt (0.12 km)
+3. Zinburger (0.13 km)
+4. T.G.I. Friday's (0.23 km)
+5. Tick Tock Diner (0.47 km)
+6. NJ Route 3 (0.47 km)
+7. New York Sports Club (1.65 km)
+8. AMC Clifton Commons 16 (1.83 km)
+9. Barnes & Noble (1.84 km)
+10. Starbucks (1.86 km)
+
+The 10 representative nearby POIs to Joe's Crab Shack are:
+
+1. LA Fitness (0.07 km)
+2. Target (2.42 km)
+3. The Shannon Rose Irish Pub (2.22 km)
+4. AMC Clifton Commons 16 (1.83 km)
+5. Barnes & Noble (1.84 km)
+6. NJ Route 3 (0.47 km)
+7. Starbucks (1.98 km)
+8. CUPS Frozen Yogurt (0.12 km)
+9. Tick Tock Diner (0.47 km)
+10. Starbucks (1.86 km)
+
+**Distance Analysis**
+
+The nearest point of interest to Joe's Crab Shack is LA Fitness, located at a distance of 0.07 km. The farthest point of interest is Target, located at a distance of 2.42 km.
+
+**Conclusion**
+
+Joe's Crab Shack is a seafood restaurant located in Clifton, New Jersey, with a variety of nearby points of interest, including gyms, diners, coffee shops, and grocery stores. The restaurant is relatively close to several other restaurants, including Burger Joints and American Restaurants. The nearest point of interest is LA Fitness, located just 0.07 km away.

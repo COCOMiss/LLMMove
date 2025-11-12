@@ -1,0 +1,6 @@
+The name of this location is "Minado" and its POI category is Sushi Restaurant, belonging to the parent category Food.
+The geographic coordinates for this location are (40.8541298, -74.03318232), with the corresponding geohash code dr727m68tcf0.
+The address is 1 Valley Rd, Little Ferry, NJ 07643, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Coffee Shop, 1(avg: 63); Gym / Fitness Center, 1(avg: 7); Miscellaneous Shop, 1(avg: 6).
+The 10 nearest POIs and their distances are: Starbucks, distance 0.88 km; Golds Gym, distance 2.12 km; Costco Wholesale Club, distance 2.50 km.
+The 10 representative nearby POIs and their distances are: Golds Gym, distance 2.12 km; Costco Wholesale Club, distance 2.50 km; Starbucks, distance 0.88 km.

@@ -1,0 +1,6 @@
+The name of this location is "Dunkin Donuts" and its POI category is Donut Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.67382933, -73.73530782), with the corresponding geohash code dr5x6h7w4z3d.
+The address is Merrick Blvd/Laurelton Pkwy, Queens, NY 11422, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Shopping Mall, 1(avg: 1).
+The 10 nearest POIs and their distances are: Green Acres Mall, distance 1.82 km.
+The 10 representative nearby POIs and their distances are: Green Acres Mall, distance 1.82 km.

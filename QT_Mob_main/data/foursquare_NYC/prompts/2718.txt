@@ -1,0 +1,6 @@
+The name of this location is "Mack-Cali Centre II" and its POI category is Office, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.96178482, -74.06776428), with the corresponding geohash code dr7348ce8n0h.
+The address is 633 From Rd, Paramus, NJ 07652, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 2(avg: 9); Shopping Mall, 1(avg: 1); Office, 1(avg: 72); Coffee Shop, 1(avg: 63); Community College, 1(avg: 1).
+The 10 nearest POIs and their distances are: Paramus Park Mall, distance 0.58 km; Fairway Market, distance 0.85 km; CUnet Headquarters, distance 1.17 km; Trader Joe's, distance 1.54 km; Starbucks, distance 1.77 km; Bergen Community College, distance 2.18 km.
+The 10 representative nearby POIs and their distances are: Bergen Community College, distance 2.18 km; Paramus Park Mall, distance 0.58 km; Fairway Market, distance 0.85 km; Starbucks, distance 1.77 km; CUnet Headquarters, distance 1.17 km; Trader Joe's, distance 1.54 km.

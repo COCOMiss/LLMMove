@@ -1,0 +1,6 @@
+The name of this location is "UltraBar" and its POI category is Bar, belonging to the parent category Nightlife Spot.
+The geographic coordinates for this location are (40.88827738, -74.02044434), with the corresponding geohash code dr72ee7zqxk7.
+The address is 390 Cedar Ln, Teaneck, NJ 07666, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Medical Center, 1(avg: 1); Wings Joint, 1(avg: 1); Miscellaneous Shop, 1(avg: 6); American Restaurant, 1(avg: 51); Bookstore, 1(avg: 7); Shopping Mall, 1(avg: 1); Asian Restaurant, 1(avg: 18); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Holy Name Medical Center, distance 1.06 km; Hooters of Hackensack, distance 1.96 km; Costco Wholesale Club, distance 2.05 km; The Cheesecake Factory, distance 2.10 km; Barnes & Noble, distance 2.13 km; The Shops at Riverside, distance 2.14 km; P.F. Chang's, distance 2.34 km; Retro Fitness, distance 2.74 km.
+The 10 representative nearby POIs and their distances are: The Shops at Riverside, distance 2.14 km; The Cheesecake Factory, distance 2.10 km; Retro Fitness, distance 2.74 km; Costco Wholesale Club, distance 2.05 km; Barnes & Noble, distance 2.13 km; Holy Name Medical Center, distance 1.06 km; P.F. Chang's, distance 2.34 km; Hooters of Hackensack, distance 1.96 km.

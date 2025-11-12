@@ -1,0 +1,6 @@
+The name of this location is "AT&T" and its POI category is Office, belonging to the parent category Professional & Other Places.
+The geographic coordinates for this location are (40.96521461, -74.06837948), with the corresponding geohash code dr73493p9tmr.
+The address is 141 E Ridgewood Ave Ste 525S, Paramus, NJ 07652, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Grocery Store, 2(avg: 9); Shopping Mall, 1(avg: 1); Office, 1(avg: 72); Coffee Shop, 1(avg: 63); Community College, 1(avg: 1).
+The 10 nearest POIs and their distances are: Fairway Market, distance 0.60 km; Paramus Park Mall, distance 0.95 km; CUnet Headquarters, distance 1.55 km; Trader Joe's, distance 1.91 km; Starbucks, distance 2.14 km; Bergen Community College, distance 2.38 km.
+The 10 representative nearby POIs and their distances are: Bergen Community College, distance 2.38 km; Paramus Park Mall, distance 0.95 km; Fairway Market, distance 0.60 km; Starbucks, distance 2.14 km; CUnet Headquarters, distance 1.55 km; Trader Joe's, distance 1.91 km.

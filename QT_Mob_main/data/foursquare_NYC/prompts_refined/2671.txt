@@ -1,0 +1,57 @@
+**Location Analysis: Greenhouse**
+
+**Location Information:**
+
+* Name: Greenhouse
+* Category: Lounge
+* Parent Category: Nightlife Spot
+* Geographic Coordinates: (40.72637614, -74.00553063)
+* Geohash Code: dr5reynb64ub
+* Address: 150 Varick St, New York, NY 10013, USA
+
+**Nearby Points of Interest (POIs):**
+
+The Greenhouse location is situated in the heart of New York City, with a variety of nearby POIs catering to different interests. The top 10 nearby POIs by category and their counts are:
+
+1. **Bar** (205, avg: 124) - 205 bars are located within a reasonable distance from Greenhouse, with an average distance of 124 meters.
+2. **Coffee Shop** (89, avg: 63) - 89 coffee shops are nearby, with an average distance of 63 meters.
+3. **American Restaurant** (85, avg: 51) - 85 American restaurants are within walking distance, with an average distance of 51 meters.
+4. **Office** (77, avg: 72) - 77 offices are located nearby, with an average distance of 72 meters.
+5. **Café** (55, avg: 42) - 55 cafes are within a short distance, with an average distance of 42 meters.
+6. **Lounge** (50, avg: 35) - 50 lounges are nearby, with an average distance of 35 meters.
+7. **Italian Restaurant** (50, avg: 28) - 50 Italian restaurants are within walking distance, with an average distance of 28 meters.
+8. **Gym** (36, avg: 25) - 36 gyms are located nearby, with an average distance of 25 meters.
+9. **Mexican Restaurant** (36, avg: 28) - 36 Mexican restaurants are within a short distance, with an average distance of 28 meters.
+10. **Pub** (33, avg: 24) - 33 pubs are nearby, with an average distance of 24 meters.
+
+**Nearest POIs:**
+
+The 10 nearest POIs to Greenhouse, along with their distances, are:
+
+1. **Kirshenbaum Bond Senecal + Partners** (0.03 km)
+2. **City Winery** (0.03 km)
+3. **Wieden+Kennedy** (0.03 km)
+4. **Attention HQ** (0.03 km)
+5. **WNYC Radio** (0.04 km)
+6. **NYU Poly Incubator** (0.04 km)
+7. **Greenhouse** (0.04 km) - This is the location itself, likely a self-reference error.
+8. **Four Points by Sheraton - Manhattan SoHo Village** (0.07 km)
+9. **Starbucks** (0.08 km)
+10. **Little Italy Pizzeria & Deli** (0.09 km)
+
+**Representative Nearby POIs:**
+
+The 10 representative nearby POIs, along with their distances, are:
+
+1. **MTA Subway - Manhattan Bridge (B/D/N/Q)** (2.44 km)
+2. **Union Square Park** (1.59 km)
+3. **Brooklyn Bridge** (2.47 km)
+4. **Union Square Greenmarket** (1.69 km)
+5. **Madison Square Park** (2.31 km)
+6. **PATH: World Trade Center Station** (1.62 km)
+7. **Eataly** (2.18 km)
+8. **The High Line** (2.31 km)
+9. **Regal Union Square Stadium 14** (1.53 km)
+10. **Chelsea Market** (1.73 km)
+
+Overall, the Greenhouse location appears to be situated in a vibrant and densely populated area of New York City, with a wide range of nearby POIs catering to various interests and needs.

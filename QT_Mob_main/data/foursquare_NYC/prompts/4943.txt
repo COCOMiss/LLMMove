@@ -1,0 +1,6 @@
+The name of this location is "118 Lounge" and its POI category is Nightclub, belonging to the parent category Nightlife Spot.
+The geographic coordinates for this location are (40.717302, -74.151919), with the corresponding geohash code dr5r8sk5rp1x.
+The address is 118 Stockton St, Newark, NJ 07105, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Light Rail Station, 2(avg: 1); Road, 1(avg: 1); Bar, 1(avg: 124); Train, 1(avg: 4); Soccer Stadium, 1(avg: 1); Train Station, 1(avg: 5); Music Venue, 1(avg: 10).
+The 10 nearest POIs and their distances are: New Jersey Turnpike - Newark, distance 1.21 km; Hell's Kitchen Lounge, distance 2.00 km; PATH: Newark Station, distance 2.15 km; NJT - Newark Penn Station - Track 5, distance 2.16 km; Newark Penn Station, distance 2.16 km; Red Bull Arena, distance 2.18 km; PATH: Harrison Station, distance 2.39 km; Prudential Center, distance 2.41 km.
+The 10 representative nearby POIs and their distances are: Newark Penn Station, distance 2.16 km; Prudential Center, distance 2.41 km; PATH: Newark Station, distance 2.15 km; New Jersey Turnpike - Newark, distance 1.21 km; PATH: Harrison Station, distance 2.39 km; Hell's Kitchen Lounge, distance 2.00 km; NJT - Newark Penn Station - Track 5, distance 2.16 km; Red Bull Arena, distance 2.18 km.

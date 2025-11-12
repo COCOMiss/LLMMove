@@ -1,0 +1,6 @@
+The name of this location is "Au Bon Pain #220" and its POI category is Coffee Shop, belonging to the parent category Food.
+The geographic coordinates for this location are (40.85642864, -73.84682542), with the corresponding geohash code dr72rtdmunrf.
+The address is 1400 Pelham Pkwy S, Bronx, NY 10461, USA.
+The top 10 nearby points-of-interest (POI) categories and their counts are: Metro Station, 4(avg: 19); Emergency Room, 1(avg: 2); Hospital, 1(avg: 2); Gym, 1(avg: 25).
+The 10 nearest POIs and their distances are: Jacobi Medical Center, distance 0.11 km; Montefiore Medical Center, distance 0.86 km; Planet Fitness, distance 1.63 km; MTA Subway - Middletown Road (6), distance 1.67 km; MTA Subway - Pelham Bay Park (6), distance 1.71 km; MTA Subway (2,5) - Pelham Parkway, distance 1.76 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 1.85 km.
+The 10 representative nearby POIs and their distances are: MTA Subway - Pelham Bay Park (6), distance 1.71 km; Planet Fitness, distance 1.63 km; MTA Subway - Middletown Road (6), distance 1.67 km; Jacobi Medical Center, distance 0.11 km; MTA Subway - Westchester Square/East Tremont Ave (6), distance 1.85 km; MTA Subway (2,5) - Pelham Parkway, distance 1.76 km; Montefiore Medical Center, distance 0.86 km.
