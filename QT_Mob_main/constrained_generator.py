@@ -145,3 +145,4 @@ class ConstrainedGenerator:
 #     prefix_allowed_tokens_fn=prefix_allowed_tokens,
 #     # ... 其他参数 ...
 # )
+

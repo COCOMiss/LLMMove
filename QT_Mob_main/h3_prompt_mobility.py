@@ -73,6 +73,8 @@ seq_prompt.append(prompt)
 
 
 
+
+
 prompt = (
     "{profile}Given the continuous trajectory of user {user}: {inters} "
     "Forecast at {time} the most probable next H3 index (r=9, Tokyo) and the stay duration (minutes). "

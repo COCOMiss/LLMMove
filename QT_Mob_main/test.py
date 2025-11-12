@@ -26,6 +26,7 @@ os.environ.setdefault("CUDA_DEVICE_ORDER", "PCI_BUS_ID")
 # codebook_path = Path("QT_Mob_main/index/QT-Mob-main/ckpt/location.index.json")
 codebook_path = Path("LLMMove/QT_Mob_main/dataset/location.index.json")
 
+
 codebook = None
 if codebook_path.exists():
     with open(codebook_path, "r", encoding="utf-8") as f:

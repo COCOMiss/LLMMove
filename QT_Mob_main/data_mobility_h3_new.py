@@ -949,6 +949,19 @@ class SeqDataset(BaseDataset):
             raise
         logger.info(f"SeqDataset data loaded ({len(self.inter_data)} STAY points).")
 
+    def get_stay_duration(self, duration: float) -> int:
+        """
+        Round stay duration (in seconds) to nearest 30-minute bucket and clamp to [30, 600] minutes.
+        Returns integer minutes.
+        """
+        total_minutes = int(round(duration / 60.0))
+        bucket_minutes = int(round(total_minutes / 30.0) * 30)
+        if bucket_minutes < 30:
+            bucket_minutes = 30
+        if bucket_minutes > 600:
+            bucket_minutes = 600
+        return bucket_minutes
+
 
 
     def _load_data(self):
@@ -1043,15 +1056,27 @@ class SeqDataset(BaseDataset):
                 try:
                     one_data = dict()
                     one_data["user"] = trajectory[i][3]
-                    # one_data["response"] = f"At time {trajectory[i][1]}, user {trajectory[i][3]} will stay at h3 index "
-                    one_data["response"] = f"At time {trajectory[i][1]}, user {trajectory[i][3]} will stay at h3 index "
-                    one_data["prediction"] = f"{trajectory[i][0]} for {trajectory[i][5]} seconds."
+                    # JSON output: assistant response tag + JSON prediction
+                    one_data["response"] = "prediction:"
+                    one_data["prediction"] = json.dumps(
+                        {
+                            "h3_index": trajectory[i][0],
+                            "stay_duration": f"{self.get_stay_duration(trajectory[i][5])}min",
+                        },
+                        ensure_ascii=False,
+                    )
                     # one_data['duration'] = trajectory[i][5]
                     history = trajectory[:i][-self.max_his_len:]
                     
                     if self.max_his_len > 0:
                         history = history[-self.max_his_len:]# 只保留最近的max_his_len个历史记录
-                        history = ["At time " + str(item_idx[1]) + ", user " + str(item_idx[3]) + " stayed at H3 index " + item_idx[0] + " for " + str(item_idx[5]) + " seconds." for item_idx in history]
+                        history = [
+                            "At time " + str(item_idx[1]) + ", user " + str(item_idx[3]) + " stayed at H3 index " + item_idx[0] + " for " + self.get_stay_duration(trajectory[i][5]) + " min."
+                            for item_idx in history
+                        ]
+                        
+                        
+                  
                         
                         # history = ["At time " + str(item_idx[1]) + ", user " + str(item_idx[3]) + " visited h3 index " + item_idx[0] + "." for item_idx in history]
                     if self.add_prefix:
