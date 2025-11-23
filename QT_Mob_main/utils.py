@@ -7,7 +7,9 @@ import numpy as np
 import torch
 from torch.utils.data import ConcatDataset
 from data_mobility_h3_new import *
-from seq_collator import SEQ_RESPONSE_TAG,END_TAG
+import re
+import json
+# os.environ['http_proxy'] = 'http://127.0.0.1:7890'
 
 def parse_global_args(parser):
     parser.add_argument("--seed", type=int, default=42, help="Random seed")
@@ -18,12 +20,12 @@ def parse_global_args(parser):
     return parser
 
 def parse_dataset_args(parser):
-    parser.add_argument("--data_path", type=str, default="zdc_h3_index",
+    parser.add_argument("--data_path", type=str, default="LLMMove/zdc_h3_8",
                         help="data directory")
     # parser.add_argument("--data_filename", type=str, default=".pkl",help="data filename")
-    parser.add_argument("--tasks", type=str, default="index",
+    parser.add_argument("--tasks", type=str, default="daily_traj",
                         help="Downstream tasks, separate by comma")
-    parser.add_argument("--index_file", type=str, default="data/h3_emb/location.index.json", help="the item indices file, not path")
+    parser.add_argument("--index_file", type=str, default="dataset/location_r8.json", help="the item indices file, not path")
     # arguments related to sequential task
     parser.add_argument("--max_his_len", type=int, default=20,
                         help="the max number of location in history trajectory, -1 means no limit")
@@ -43,8 +45,8 @@ def parse_train_args(parser):
 
     parser.add_argument("--epochs", type=int, default=4)
     parser.add_argument("--learning_rate", type=float, default=1e-4)
-    parser.add_argument("--per_device_train_batch_size", type=int, default=32)
-    parser.add_argument("--per_device_eval_batch_size", type=int, default=16)
+    parser.add_argument("--per_device_train_batch_size", type=int, default=20)
+    parser.add_argument("--per_device_eval_batch_size", type=int, default=10)
     parser.add_argument("--gradient_accumulation_steps", type=int, default=4)
     parser.add_argument("--cutoff_len", type=int, default=4096)
     parser.add_argument("--weight_decay", type=float, default=0.001)
@@ -66,7 +68,7 @@ def parse_train_args(parser):
     parser.add_argument("--lr_scheduler_type", type=str, default="cosine")
     parser.add_argument("--save_and_eval_steps", type=int, default=2000)
     parser.add_argument("--experiment_name", type=str, help="The name of the experiment")
-    parser.add_argument("--path_to_sft_save_dir", type=str, default="QT_Mob_main/sft",help="QT_Mob_main/sft")
+    parser.add_argument("--path_to_sft_save_dir", type=str, default="LLMMove/QT_Mob_main/sft",help="QT_Mob_main/sft")
 
     parser.add_argument("--save_total_limit", type=int, default=3)   # 自动删旧
     parser.add_argument("--load_best_model_at_end", action="store_true")
@@ -85,16 +87,16 @@ def parse_test_args(parser):
     parser.add_argument("--filter_items",  default=True,
                         help="whether filter illegal items")
     parser.add_argument("--results_file", type=str,
-                        default="./results/test-ddp.json",
+                        default="LLMMove/QT_Mob_main/results/test-ddp.json",
                         help="result output path")
     parser.add_argument("--test_batch_size", type=int, default=5)
     parser.add_argument("--num_beams", type=int, default=15)
     parser.add_argument("--test_prompt_ids", type=str, default="0",
                         help="test prompt ids, separate by comma. 'all' represents using all")
-    parser.add_argument("--metrics", type=str, default="hit@1,hit@5,hit@10,ndcg@5,ndcg@10",
+    parser.add_argument("--metrics", type=str, default="hit@1,hit@5,hit@10",
                         help="test metrics, separate by comma")
-    parser.add_argument("--test_task", type=str, default="seq",
-                        help="test task, one of [seq, recovery]")
+    parser.add_argument("--test_task", type=str, default="daily_traj",
+                        help="test task, one of [seq, daily_traj, recovery]")
     parser.add_argument("--limit_test_size",  default=False, help="whether to limit the test size to 1000")
 
     return parser
@@ -121,7 +123,7 @@ def ensure_dir(dir_path):
     
     
 def get_new_tokens(args):
-    indices = load_json("LLMMove/QT_Mob_main/dataset/location.index.json")
+    indices = load_json("LLMMove/QT_Mob_main/dataset/location_r8.json")
     new_tokens = set()
     for id in indices:
         for index in indices[id]:
@@ -137,6 +139,8 @@ def load_datasets(args):
     for task in tasks:
         if task.lower() == "seq":
             dataset = SeqDataset(args, mode="train")
+        elif task.lower() == "daily_traj":
+            dataset = DailyTrajDataset(args, mode="train")
         elif task.lower() == "recovery":
             dataset = RecoveryDataset(args, mode="train")
         elif task.lower() == "index":
@@ -155,6 +159,8 @@ def load_datasets(args):
     for task in tasks:
         if task.lower() == "seq":
             dataset = SeqDataset(args, mode="valid")
+        elif task.lower() == "daily_traj":
+            dataset = DailyTrajDataset(args, mode="valid")
         elif task.lower() == "recovery":
             dataset = RecoveryDataset(args, mode="valid")
         elif task.lower() == "trans":
@@ -176,6 +182,8 @@ def load_test_dataset(args):
     set_seed(args.seed)
     if args.test_task.lower() == "seq":
         test_data = SeqDataset(args, mode="test")
+    elif args.test_task.lower() == "daily_traj":
+        test_data = DailyTrajDataset(args, mode="test")
     elif args.test_task.lower() == "recovery":
         test_data = RecoveryDataset(args, mode="test")
     else:
@@ -191,17 +199,3 @@ def load_json(file):
 def save_json(data, file, indent=4):
     with open(file, 'w') as f:
         json.dump(data, f, indent=indent)
-        
-
-
-def formatting_func(examples):
-    
-    targets = examples["text"]  # 假设response现在包含h3 index和duration
-    out = []
-    for t in  targets:
-        # 处理目标字段：分离出 h3 index 和 duration
-        h3_index = t.split(" for ")[0].split("stay at h3 index ")[-1]  # <a_42><b_57><c_3><d_0>
-        duration = t.split(" for ")[-1].split(" seconds")[0]  # 10208.0
-        # 生成最终格式，确保同时返回 h3_index 和 duration
-        out.append(f"{SEQ_RESPONSE_TAG}{h3_index} {duration}{END_TAG}")
-    return out

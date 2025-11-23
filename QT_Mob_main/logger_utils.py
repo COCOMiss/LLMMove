@@ -2,8 +2,9 @@ import os
 import logging
 from datetime import datetime
 
-# 日志目录
-LOG_DIR = "./logs"
+# 日志目录 - 使用脚本所在目录的相对路径
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+LOG_DIR = os.path.join(SCRIPT_DIR, "logs")
 os.makedirs(LOG_DIR, exist_ok=True)
 
 # ✅ 固定全局日志文件名（仅第一次生成）

@@ -14,23 +14,22 @@ logger = get_logger(__name__)
 logger.info("==== QT_Mob runner started ====")
 
 # 开关
-<<<<<<< HEAD
-TRAIN = False
-TEST = True
-CUDA_VISIBLE_DEVICES = "0,1,2,3"  # ✅ 单进程只使用一个GPU
-PATH_TO_SFT_SAVE_DIR = "checkpoints"
-# 你的 train.py 路径（优先用项目内的，若不存在则用上传的）
-TRAIN_SCRIPT_PATH = "QT_Mob_main/train.py"
-=======
 TRAIN = True
 TEST = True
-CUDA_VISIBLE_DEVICES = "0,1"  # ✅ 单进程只使用一个GPU
-PATH_TO_SFT_SAVE_DIR = "autodl-tmp/checkpoint"
+CUDA_VISIBLE_DEVICES = "0,1,2,3"  # 使用所有4个GPU
+os.environ["CUDA_VISIBLE_DEVICES"] = CUDA_VISIBLE_DEVICES
+# PATH_TO_SFT_SAVE_DIR = "autodl-tmp/checkpoint"
+PATH_TO_SFT_SAVE_DIR = "checkpoint"
 # 你的 train.py 路径（优先用项目内的，若不存在则用上传的）
 TRAIN_SCRIPT_PATH = "LLMMove/QT_Mob_main/train.py"
->>>>>>> 754e9ca864e4e90e70c8c16b2d0529fbfb0aea97
 # if not Path(TRAIN_SCRIPT_PATH).exists() and Path("/mnt/data/train.py").exists():
 #     TRAIN_SCRIPT_PATH = "/mnt/data/train.py"
+
+# 切换到 /home/linyuxi/LLM 作为工作路径
+os.chdir("/home/linyuxi/LLM")
+print(f"Changed working directory to: {os.getcwd()}")
+
+
 
 def import_train_module(train_script_path: str):
     """动态导入 train.py 文件"""
@@ -106,7 +105,7 @@ if __name__ == "__main__":
     # ==============================
     # 参数配置日志
     # ==============================
-    TEST_METRICS = "hit@1,hit@5,hit@10,ndcg@5,ndcg@10"
+    TEST_METRICS = "hit@1,hit@5"
     args.path_to_sft_save_dir = PATH_TO_SFT_SAVE_DIR
     args.metrics = TEST_METRICS
 
@@ -115,28 +114,17 @@ if __name__ == "__main__":
     logger.info(f"CUDA_VISIBLE_DEVICES = {CUDA_VISIBLE_DEVICES}")
 
     BASE_MODEL = "qwen"
-<<<<<<< HEAD
-    args.base_model = "./Qwen3-8B"  # 本地模型路径
-    args.index_file = "data/h3_emb/location.index.json"
-    DATASET_PATH = "./zdc_h3_index"
-
-    TRAIN_TASKS = ["recovery","index","location",]
-=======
-    args.base_model = "autodl-tmp/Qwen/Qwen3-8B"  # 本地模型路径
-    args.index_file = "LLMMove/QT_Mob_main/dataset/location.index.json"
+    # args.base_model = "autodl-tmp/Qwen/Qwen3-8B"  # 本地模型路径
+    args.base_model = "LLMMove/Qwen3-8B"  # 本地模型路径
+    args.index_file = "LLMMove/QT_Mob_main/dataset/location_r8.json"
     # DATASET_PATH = "./zdc_h3_index"
 
-    TRAIN_TASKS = ["seq"]
->>>>>>> 754e9ca864e4e90e70c8c16b2d0529fbfb0aea97
-    TEST_TASK = "seq"
-    CUSTOM_NAME = "tokyo_latest"
+    TRAIN_TASKS = ["daily_traj"]
+    TEST_TASK = "daily_traj"
+    CUSTOM_NAME = "tokyo_daily_traj"
 
     args.tasks = ",".join(TRAIN_TASKS)
-<<<<<<< HEAD
-    args.data_path = DATASET_PATH
-=======
     # args.data_path = DATASET_PATH
->>>>>>> 754e9ca864e4e90e70c8c16b2d0529fbfb0aea97
     args.experiment_name = BASE_MODEL + "_" + CUSTOM_NAME
     # args.num_workers=8
     # args.parallel_backend="process"
@@ -148,7 +136,7 @@ if __name__ == "__main__":
     args.multi_rec  = True
     args.single_rec = True
 
-    args.epochs = 2
+    args.epochs = 1
 
     logger.info(f"训练任务: {args.tasks} | 测试任务: {TEST_TASK}")
     logger.info(f"数据路径: {args.data_path}")
@@ -161,6 +149,21 @@ if __name__ == "__main__":
     try:
         if TRAIN:
             logger.info("🚀 开始单进程训练流程")
+            # 如果GPU使用不均衡，可以尝试以下替代方案：
+            # 1. 使用 torchrun 进行多进程分布式训练（取消下面的注释）
+            # import subprocess
+            # cmd = ["torchrun", "--nproc_per_node=4", "--master_port=29500", "LLMMove/QT_Mob_main/train.py"]
+            # # 添加命令行参数
+            # for key, value in vars(args).items():
+            #     if isinstance(value, bool):
+            #         if value:
+            #             cmd.append(f"--{key}")
+            #     else:
+            #         cmd.append(f"--{key}={value}")
+            # result = subprocess.run(cmd)
+            # if result.returncode != 0:
+            #     raise RuntimeError(f"torchrun failed with return code {result.returncode}")
+
             train_model_trl(args)
 
         if TEST:

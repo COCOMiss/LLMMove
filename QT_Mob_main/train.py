@@ -3,7 +3,7 @@ import json
 import torch
 import argparse
 from accelerate import Accelerator
-from utils import load_datasets, set_seed, ensure_dir, parse_global_args, parse_dataset_args, parse_train_args, get_new_tokens,formatting_func
+from utils import load_datasets, set_seed, ensure_dir, parse_global_args, parse_dataset_args, parse_train_args, get_new_tokens
 from datasets import Dataset as HF_Dataset
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from peft import LoraConfig
@@ -11,7 +11,6 @@ from liger_kernel.transformers import apply_liger_kernel_to_llama
 from logger_utils import get_logger
 from trl import SFTTrainer, SFTConfig
 from seq_collator import CompletionOnlyCollator,SEQ_RESPONSE_TAG,END_TAG
-from seq_trainer import DualTaskTrainer
 from collator import TestCollator
 from peft import PeftConfig, PeftModel
 
@@ -24,6 +23,13 @@ CUDA_VISIBLE_DEVICES="2,3,4,6"  torchrun --nproc_per_node=4 train.py
 logger.info("==== Training script started ====")
 
 def main(args):
+    # 强制使用所有可见的GPU进行分布式训练
+    # 检查可用的GPU数量
+    available_gpus = torch.cuda.device_count()
+    print(f"Available GPUs: {available_gpus}")
+    for i in range(available_gpus):
+        print(f"GPU {i}: {torch.cuda.get_device_name(i)}")
+
     accelerator = Accelerator()
     try:
         set_seed(args.seed)
@@ -75,11 +81,7 @@ def main(args):
                 peft_config.base_model_name_or_path,   # 你已经是绝对路径 ✅
                 dtype=torch.bfloat16,                  # 用 dtype（替代 torch_dtype）
                 quantization_config=quantization_config if args.quantize else None,  # BitsAndBytesConfig 或 None
-<<<<<<< HEAD
-                device_map="auto",                     # ✅ 关键修复：不要用 {0:1}
-=======
                 device_map="balanced",                     # ✅ 关键修复：不要用 {0:1}
->>>>>>> 754e9ca864e4e90e70c8c16b2d0529fbfb0aea97
                 trust_remote_code=True,
             )
             
@@ -137,19 +139,22 @@ def main(args):
         logger.info("Loading datasets...")
         train_data, valid_data = load_datasets(args)
         postfix = tokenizer.eos_token if args.indexing else ". " + tokenizer.eos_token
+       
 
-        if valid_data is None:
-            logger.warning("⚠️ 没有加载到验证集，将使用训练集的一部分作为验证集。")
+        if valid_data is None or len(valid_data) == 0:
+            logger.warning("⚠️ 没有加载到验证集或验证集为空，将使用训练集的一部分作为验证集。")
          # 随机划分一部分训练集当作验证集
             total_len = len(train_data)
             val_ratio = 0.1  # 按需调整
             val_size = max(1, int(total_len * val_ratio))
             valid_data = [train_data[i] for i in range(val_size)]
             train_data = [train_data[i] for i in range(val_size, total_len)]
-        if valid_data is not None:
+        if valid_data is not None and len(valid_data) > 0:
             valid_data_list = [valid_data[i] for i in range(len(valid_data))]
             valid_data = [{"text": item["labels"] + postfix} for item in valid_data_list]
             valid_data = HF_Dataset.from_list(valid_data)
+        else:
+            valid_data = None
 
         train_data_list = [train_data[i] for i in range(len(train_data))]
         train_data = [{"text": item["labels"] + postfix} for item in train_data_list]
@@ -162,13 +167,8 @@ def main(args):
                 logger.info(f"Sample[{idx}]: {train_data[idx]}")
 
         # ================= Collator =================
-<<<<<<< HEAD
-        response_template_with_context = "<|im_end|>"
-        response_template_ids = tokenizer.encode(response_template_with_context, add_special_tokens=False)[2:]
-=======
         # response_template_with_context = "<|im_end|>"
         # response_template_ids = tokenizer.encode(response_template_with_context, add_special_tokens=False)[2:]
->>>>>>> 754e9ca864e4e90e70c8c16b2d0529fbfb0aea97
         # collator = DataCollatorForCompletionOnlyLM(response_template_ids, tokenizer=tokenizer)
         logger.info("Data collator initialized.")
 
@@ -180,10 +180,7 @@ def main(args):
         
 
        
-<<<<<<< HEAD
-=======
        
->>>>>>> 754e9ca864e4e90e70c8c16b2d0529fbfb0aea97
 
         # apply_liger_kernel_to_llama()  # 可选
         
@@ -195,7 +192,7 @@ def main(args):
                 logger.info("Token embeddings resized for new tokens.")
     
         
-        if args.tasks=='seq':
+        if args.tasks in ['seq','daily_traj']:
             train_args = SFTConfig(
                 seed=args.seed,
                 output_dir=model_id,
@@ -220,15 +217,11 @@ def main(args):
                 weight_decay=args.weight_decay,
                 gradient_checkpointing=True,
                 dataset_num_proc=4,
-<<<<<<< HEAD
-                packing=False
-=======
                 packing=False,
                 save_total_limit=args.save_total_limit,
                 save_only_model=args.save_only_model,
                 save_safetensors=True
                 
->>>>>>> 754e9ca864e4e90e70c8c16b2d0529fbfb0aea97
             )
 
             logger.info("Data collator initialized.")
@@ -239,11 +232,12 @@ def main(args):
             )
             
             
+            eval_dataset = valid_data if valid_data is not None and len(valid_data) > 0 else None
             trainer = SFTTrainer(
                 model=model,
                 args=train_args,
                 train_dataset=train_data,
-                eval_dataset=valid_data,
+                eval_dataset=eval_dataset,
                 peft_config=peft_config,
                 data_collator=collator,
             )
@@ -284,21 +278,19 @@ def main(args):
                 per_device_train_batch_size=args.per_device_train_batch_size,
                 weight_decay=args.weight_decay,
                 gradient_checkpointing=True,
-<<<<<<< HEAD
-=======
                 save_total_limit=args.save_total_limit,
                 save_only_model=args.save_only_model,
                 save_safetensors=True
->>>>>>> 754e9ca864e4e90e70c8c16b2d0529fbfb0aea97
             )
             logger.info("Trainer configuration created.")   
             
             
+            eval_dataset = valid_data if valid_data is not None and len(valid_data) > 0 else None
             trainer = SFTTrainer(
                 model=model,
                 args=train_args,
                 train_dataset=train_data,
-                eval_dataset=valid_data,
+                eval_dataset=eval_dataset,
                 peft_config=peft_config
             )
             
@@ -344,5 +336,5 @@ if __name__ == "__main__":
 
     logger.info("Arguments parsed successfully.")
     
-    args.ckpt_path="checkpoints/qwen_tokyo_latest"
+    # args.ckpt_path="checkpoints/qwen_tokyo"
     main(args)

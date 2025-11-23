@@ -8,9 +8,16 @@ sft_prompt = "<|im_start|>user\n{instruction}\n<|im_end|>\n<|im_start|>assistant
 
 
 system_prompt = """\
-<<SYS>> You are a helpful assistant that predicts human mobility trajectories in Tokyo. <</SYS>> \
-Each H3 index represents a spatial cell at resolution 9, encoded as a 4-token-length "H3 index" that integrates both spatial position and contextual POI-type information.
+<<SYS>> You are a helpful assistant that predicts human mobility trajectories in Tokyo. \n
+Do NOT output your thinking process or <think> tags.\n
+Return ONLY a JSON object with fields "h3_index" and "stay_duration".\n
+The value of "h3_index" must be a single valid H3 index string.\n
+"stay_duration" must be one of 30, 60, 90, ..., 600 (step 30), formatted as "<N> min".\n
+</SYS>>
 """
+
+
+
 
 
 system_prompt_not_indexing = """\
@@ -24,10 +31,8 @@ Question: """
 
 
 task_prompt = """\
-A trajectory is a time-ordered sequence of H3 indices, where each index represents the user's location within a specific time interval. 
-The sequence captures continuous movement patterns rather than discrete check-ins. 
-Each transition between H3 cells reflects spatial mobility and temporal continuity in the user's movement behavior. 
-Task: """
+A trajectory is a time-ordered sequence of H3 indices, where each 7-token-length index represents the user's location within a specific time interval.
+Task:According to the user information and the trajectories, please predict the next H3 index the user will stay and how long he/she will stay there"""
 
 
 
@@ -63,8 +68,9 @@ all_prompt = {}
 seq_prompt = []
 
 prompt = (
-    "{profile}The following is a time-ordered trajectory for user {user}: {inters} "
-    "At {time}, predict the next H3 cell (resolution 9, Tokyo) the user will move into "
+    "This is the user {user}'s profile, which includes the top 5 time intervals the user regularly checks in, as well as the locations the user frequently stays at and their respective frequencies.: {profile} \n"
+    "The following is a time-ordered trajectory for user {user}: {inters} "
+    "At {time}, predict the next H3 cell the user will stay at "
     "and how long he/she will stay there (in minutes). "
     "Return ONLY JSON with keys:\n"
     '{{"h3_index","stay_duration"}}.\n'
@@ -143,7 +149,7 @@ prompt = (
     "If available, include: 6 neighbors, top-5 POI categories with scores, top-3 weekday peak hours, "
     "top-3 weekend peak hours. Output strictly in JSON with keys:\n"
     '{{"index","neighbors","poi_top5","peaks_weekday","peaks_weekend","summary"}}.\n'
-    "Use the project’s 4-token-length H3 index format. Use null for any unknown field."
+    "Use the project’s 7-token-length H3 index format. Use null for any unknown field."
 )
 
 index2location_prompt.append(prompt)
@@ -155,6 +161,7 @@ prompt = (
     '{{"index","neighbors","poi_top5","peaks_weekday","peaks_weekend","summary"}}.\n'
     "Do not add extra text; fill missing info with null."
 )
+
 index2location_prompt.append(prompt)
 
 prompt = (
@@ -162,7 +169,7 @@ prompt = (
     "Provide neighbors (6), POI distribution (top-5 with scores), and temporal patterns "
     "(weekday/weekend top-3 hours). Answer ONLY as JSON with keys:\n"
    '{{"index","neighbors","poi_top5","peaks_weekday","peaks_weekend","summary"}}.\n'
-    "Keep the index format as the 4-token-length code. Use null if unknown."
+    "Keep the index format as the 7-token-length code. Use null if unknown."
 )
 index2location_prompt.append(prompt)
 
@@ -171,7 +178,7 @@ prompt = (
     "list 6 neighboring cells, top-5 POI categories with socres, and top-3 peak hours for weekdays/weekends. "
     "Output JSON only, keys:\n"
    '{{"index","neighbors","poi_top5","peaks_weekday","peaks_weekend","summary"}}.\n'
-    "Keep index in 4-token-length form; set null if unknown."
+    "Keep index in 7-token-length form; set null if unknown."
 )
 index2location_prompt.append(prompt)
 
@@ -185,7 +192,7 @@ location2index_prompt = []
 prompt = (
     "{location}\n"
     "Using the provided neighbors, dominant POI categories (with scores), and peak hours (weekday/weekend), "
-    "infer the most likely H3 r=9 index in Tokyo. Output the 4-token-length H3 index ."
+    "infer the most likely H3 r=9 index in Tokyo. Output the 7-token-length H3 index ."
 )
 location2index_prompt.append(prompt)
 
@@ -221,6 +228,61 @@ trajectory_translation_prompt.append(prompt)
 all_prompt["trans"] = trajectory_translation_prompt
 
 
+
+
+
+
+
+# =====================================================
+# Task 6 -- daily trajectory prediction (index + stay duration in minutes) -- 10 Prompt
+# =====================================================
+daily_traj_prompt = []
+
+prompt = (
+    "This is the user {user}'s profile, which includes the top 5 time intervals the user regularly checks in, as well as the locations the user frequently stays at and their respective frequencies.: {profile} \n"
+    "Today is a {date}. \n"
+    "Task: Predict the daily trajectory of the user: \n"
+    "Predict the the time the user will check in and the H3 cell the user will stay at and how long he/she will stay there (in minutes). \n"
+    "Return ONLY JSON with keys:\n"
+    """[{{"id","start_time","h3_index","stay_duration"}},{{"id","start_time","h3_index","stay_duration"}},...].\n"""
+)
+daily_traj_prompt.append(prompt)
+
+
+
+
+#  one_data["user"] = day_trajectory[0][2]
+#             one_data["response"] = "prediction:"
+            
+            
+#             # 获取date是否是节假日，假设有一个 is_holiday 方法可用
+#             one_data["date"] = f"Today is a {is_holiday(date)}."
+            
+            
+#             if self.add_profile:
+#                     profile = self.user_profile.loc[self.user_profile['user_id'] == int(one_data["user"])]
+#                     one_data["profile"] = f"User {one_data["user"]}: {profile['prompt'].values[0]} " if not profile.empty else ""
+#             else:
+#                 one_data["profile"] = ""
+            
+#             try:
+#                 one_data["prediction"] = json.dumps(
+#                     [
+#                         {   "id":str(i+1),
+#                             "start_time": str(trajectory[i][1]),
+#                             "h3_index": "".join(self.codebook[trajectory[i][0]]),
+#                             "stay_duration": f"{self.get_stay_duration(trajectory[i][4])} min"
+#                         } for i,trajectory in enumerate(day_trajectory)
+#                     ],
+#                     ensure_ascii=False)
+                    
+#             except Exception:
+#                 logger.exception("Error processing a trajectory sample.")
+            
+#             inter_data.append(one_data)
+
+
+all_prompt["daily_traj"] = daily_traj_prompt
 
 
 
