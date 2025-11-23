@@ -5,3 +5,4 @@
 *.pt filter=lfs diff=lfs merge=lfs -text
 **/__pycache__/** filter=lfs diff=lfs merge=lfs -text
 *.feather filter=lfs diff=lfs merge=lfs -text
+zdc_h3_8/*.feather filter=lfs diff=lfs merge=lfs -text
