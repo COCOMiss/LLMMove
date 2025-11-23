@@ -1,0 +1,30 @@
+# PyTorch and Python cache
+__pycache__/
+*.pyc
+
+# Model checkpoints and data
+*.pth
+*/ckpt/
+Qwen3-8B/
+geoai/
+hex2vec-main/
+liandanlu/
+tokyo_time/
+QT-Mob-main_time/
+QT-Mob-main/
+QT-Mob-main_5dim/
+QT-Mob-main_b0.25_q1.5_lr1e-3_d_emb_eps/
+QT-Mob-main_loc/
+QT-Mob-main_poi/
+tokyo_time/
+zdc_cache/
+zdc_h3_index/
+zdc_poi/
+
+
+
+
+# Other generated files
+logs/
+zdc_h3_8/
+zdc_h3_9/
