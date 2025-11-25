@@ -14,7 +14,7 @@ logger = get_logger(__name__)
 logger.info("==== QT_Mob runner started ====")
 
 # 开关
-TRAIN = True
+TRAIN = False
 TEST = True
 CUDA_VISIBLE_DEVICES = "0,1,2,3"  # 使用所有4个GPU
 os.environ["CUDA_VISIBLE_DEVICES"] = CUDA_VISIBLE_DEVICES

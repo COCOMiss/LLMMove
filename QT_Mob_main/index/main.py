@@ -23,7 +23,7 @@ def parse_args():
     parser.add_argument('--lr_scheduler_type', type=str, default="cosine", help='scheduler')
     parser.add_argument('--warmup_epochs', type=int, default=100, help='warmup epochs')
     parser.add_argument("--data_path", type=str,
-                        default="hex2vec-main/data/processed/Tokyo, Japan/9_new_grouped_normalized1_tfidf_all_time_info.feather",
+                        default="zdc_h3_8/8_new_grouped_normalized1_tfidf_all_time_info.feather",
                         help="Input data path.")
 
     parser.add_argument("--weight_decay", type=float, default=1e-5, help='l2 regularization weight')
@@ -32,18 +32,18 @@ def parse_args():
     parser.add_argument("--loss_type", type=str, default="mse", help="loss_type")
     parser.add_argument("--kmeans_init", type=bool, default=True, help="use kmeans_init or not")
     parser.add_argument("--kmeans_iters", type=int, default=100, help="max kmeans iters")
-    parser.add_argument('--sk_epsilons', type=float, nargs='+', default=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], help="sinkhorn epsilons")
+    parser.add_argument('--sk_epsilons', type=float, nargs='+', default=[0.0, 0.0, 0.0, 0.0], help="sinkhorn epsilons")
     parser.add_argument("--sk_iters", type=int, default=50, help="max sinkhorn iters")
 
     parser.add_argument("--device", type=str, default="cuda:0", help="gpu or cpu")
 
-    parser.add_argument('--num_emb_list', type=int, nargs='+', default=[256,64,64,32,32,64,64], help='emb num of every vq')
+    parser.add_argument('--num_emb_list', type=int, nargs='+', default=[32,32,32,32], help='emb num of every vq')
     parser.add_argument('--e_dim', type=int, default=128, help='vq codebook embedding size')
     parser.add_argument('--quant_loss_weight', type=float, default=1.5, help='vq quantion loss weight')
     parser.add_argument("--beta", type=float, default=0.25, help="Beta for commitment loss")
     parser.add_argument('--layers', type=int, nargs='+', default=[2048,1024,512,256,128,64], help='hidden sizes of every layer')
     parser.add_argument('--save_limit', type=int, default=5)
-    parser.add_argument("--ckpt_dir", type=str, default="liandanlu/7dim", help="output directory for model")
+    parser.add_argument("--ckpt_dir", type=str, default="liandanlu/res8_4dim32", help="output directory for model")
 
     return parser.parse_args()
 

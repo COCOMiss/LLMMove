@@ -10,13 +10,18 @@ sft_prompt = "<|im_start|>user\n{instruction}\n<|im_end|>\n<|im_start|>assistant
 system_prompt = """\
 <<SYS>> You are a helpful assistant that predicts human mobility trajectories in Tokyo. \n
 Do NOT output your thinking process or <think> tags.\n
-Return ONLY a JSON object with fields "h3_index" and "stay_duration".\n
-The value of "h3_index" must be a single valid H3 index string.\n
+Return ONLY a valid JSON LIST containing the sequence of visits.\n
+The value of "h3_index" must be a valid H3 index string.\n
 "stay_duration" must be one of 30, 60, 90, ..., 600 (step 30), formatted as "<N> min".\n
 </SYS>>
 """
 
-
+# 2. Task Prompt: 设定字段格式
+# 移除了 "predict next" 这种容易引起歧义的词，改为 "daily trajectory sequence"
+traj_task_prompt = """\
+Task: According to the user information, please predict the user's daily trajectory (a sequence of visits) for the specific date.\n
+Each object in the list must have the fields: "id", "start_time", "h3_index", and "stay_duration".\n
+"""
 
 
 
@@ -31,7 +36,7 @@ Question: """
 
 
 task_prompt = """\
-A trajectory is a time-ordered sequence of H3 indices, where each 7-token-length index represents the user's location within a specific time interval.
+A trajectory is a time-ordered sequence of H3 indices, where each 4-token-length index represents the user's location within a specific time interval.
 Task:According to the user information and the trajectories, please predict the next H3 index the user will stay and how long he/she will stay there"""
 
 
@@ -149,7 +154,7 @@ prompt = (
     "If available, include: 6 neighbors, top-5 POI categories with scores, top-3 weekday peak hours, "
     "top-3 weekend peak hours. Output strictly in JSON with keys:\n"
     '{{"index","neighbors","poi_top5","peaks_weekday","peaks_weekend","summary"}}.\n'
-    "Use the project’s 7-token-length H3 index format. Use null for any unknown field."
+    "Use the project’s 4-token-length H3 index format. Use null for any unknown field."
 )
 
 index2location_prompt.append(prompt)
@@ -169,7 +174,7 @@ prompt = (
     "Provide neighbors (6), POI distribution (top-5 with scores), and temporal patterns "
     "(weekday/weekend top-3 hours). Answer ONLY as JSON with keys:\n"
    '{{"index","neighbors","poi_top5","peaks_weekday","peaks_weekend","summary"}}.\n'
-    "Keep the index format as the 7-token-length code. Use null if unknown."
+    "Keep the index format as the 4-token-length code. Use null if unknown."
 )
 index2location_prompt.append(prompt)
 
@@ -178,7 +183,7 @@ prompt = (
     "list 6 neighboring cells, top-5 POI categories with socres, and top-3 peak hours for weekdays/weekends. "
     "Output JSON only, keys:\n"
    '{{"index","neighbors","poi_top5","peaks_weekday","peaks_weekend","summary"}}.\n'
-    "Keep index in 7-token-length form; set null if unknown."
+    "Keep index in 4-token-length form; set null if unknown."
 )
 index2location_prompt.append(prompt)
 
@@ -192,7 +197,7 @@ location2index_prompt = []
 prompt = (
     "{location}\n"
     "Using the provided neighbors, dominant POI categories (with scores), and peak hours (weekday/weekend), "
-    "infer the most likely H3 r=9 index in Tokyo. Output the 7-token-length H3 index ."
+    "infer the most likely H3 r=9 index in Tokyo. Output the 4-token-length H3 index ."
 )
 location2index_prompt.append(prompt)
 
@@ -239,17 +244,18 @@ all_prompt["trans"] = trajectory_translation_prompt
 daily_traj_prompt = []
 
 prompt = (
-    "This is the user {user}'s profile, which includes the top 5 time intervals the user regularly checks in, as well as the locations the user frequently stays at and their respective frequencies.: {profile} \n"
+    "Here is the mobility profile for user {user}. "
+    "The profile details their home and work locations (if known), a list of frequently visited locations with typical visit times, "
+    "and their preferences for different POI categories based on visit history: {profile} \n"
     "Today is a {date}. \n"
-    "Task: Predict the daily trajectory of the user: \n"
-    "Predict the the time the user will check in and the H3 cell the user will stay at and how long he/she will stay there (in minutes). \n"
-    "Return ONLY JSON with keys:\n"
-    """[{{"id","start_time","h3_index","stay_duration"}},{{"id","start_time","h3_index","stay_duration"}},...].\n"""
+    "Task: Predict the daily trajectory of the user for this date. \n"
+    "Predict the sequence of visits, including the start time, the location (H3 index), and the stay duration (in minutes). \n"
+    "Return ONLY a JSON list with the following format and no extra text:\n"
+    # 使用双花括号 {{ }} 来表示 JSON 的花括号，避免 .format() 报错
+    """Example: [{{ "id": "1", "start_time": "HH:MM AM/PM", "h3_index": "...", "stay_duration": "... min" }}, ...]"""
 )
+
 daily_traj_prompt.append(prompt)
-
-
-
 
 #  one_data["user"] = day_trajectory[0][2]
 #             one_data["response"] = "prediction:"

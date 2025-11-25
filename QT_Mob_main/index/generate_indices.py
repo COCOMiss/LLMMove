@@ -43,8 +43,8 @@ def get_collision_item(all_indices_str):
 
 
 parser = argparse.ArgumentParser(description="QT-Mob")
-parser.add_argument('--ckpt_path', type=str, default="liandanlu/7dim/best_loss_model.pth")
-parser.add_argument('--output_dir', type=str,default="liandanlu/7dim/")
+parser.add_argument('--ckpt_path', type=str, default="liandanlu/res8_4dim32/best_loss_model.pth")
+parser.add_argument('--output_dir', type=str,default="liandanlu/res8_4dim32/")
 parser.add_argument('--gpu_id', type=str, default='1', help='gpu id')
 parser.add_argument('--output_file', type=str, default="location.index.json")
 args = parser.parse_args()
@@ -92,7 +92,7 @@ all_codes = []          # 位置 i 的 token 列表，比如 ["<a_93>", ...]
 all_codes_str = []      # 位置 i 的字符串化版本，用于碰撞比较
 all_h3 = []             # 位置 i 对应的 h3 字符串
 all_ds_idx = []         # 位置 i 对应的 Dataset 索引（0..len(data)-1）
-prefix = ["<a_{}>","<b_{}>","<c_{}>","<d_{}>","<e_{}>","<f_{}>","<g_{}>","<h_{}>"]
+prefix = ["<a_{}>","<b_{}>","<c_{}>","<d_{}>"]
 
 cur_idx = 0  # 跟踪 Dataset 顺序（shuffle=False 前提下）
 for (d, h3_batch) in tqdm(data_loader):
@@ -112,7 +112,7 @@ for (d, h3_batch) in tqdm(data_loader):
 for vq in model.rq.vq_layers[:-1]:
     vq.sk_epsilon = 0.0
 if model.rq.vq_layers[-1].sk_epsilon == 0.0:
-    model.rq.vq_layers[-1].sk_epsilon = 0.005
+    model.rq.vq_layers[-1].sk_epsilon = 0.003
 
 # === 碰撞消解循环（按“位置”操作，保持四个数组一致）===
 tt = 0

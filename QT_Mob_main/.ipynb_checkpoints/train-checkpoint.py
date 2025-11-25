@@ -11,7 +11,6 @@ from liger_kernel.transformers import apply_liger_kernel_to_llama
 from logger_utils import get_logger
 from trl import SFTTrainer, SFTConfig
 from seq_collator import CompletionOnlyCollator,SEQ_RESPONSE_TAG,END_TAG
-from seq_trainer import DualTaskTrainer
 from collator import TestCollator
 from peft import PeftConfig, PeftModel
 
@@ -317,5 +316,5 @@ if __name__ == "__main__":
 
     logger.info("Arguments parsed successfully.")
     
-    args.ckpt_path="checkpoints/qwen_tokyo_latest"
+    args.ckpt_path="checkpoints/qwen_tokyo"
     main(args)

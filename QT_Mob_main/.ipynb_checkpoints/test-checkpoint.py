@@ -295,7 +295,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     args.indexing   = True
-    args.ckpt_path ="checkpoints/qwen_tokyo_latest"
+    args.ckpt_path ="checkpoints/qwen"
     args.filter_items= True
     args.tasks="seq"
     test(args)

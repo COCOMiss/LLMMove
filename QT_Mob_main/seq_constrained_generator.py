@@ -16,26 +16,37 @@ class InspectLogitsProcessor(LogitsProcessor):
         # 这个方法让我们的约束函数可以把“允许列表”告诉这个诊断器
         self.allowed_tokens = allowed_tokens
 
-    def __call__(self, input_ids, scores):
-        # scores 是 logits tensor，形状为 (batch_size, vocab_size)
-        if self.allowed_tokens:
-            logger.info("\n--- INSIDE LOGITS PROCESSOR ---")
-            logger.info(f"Logits shape: {scores.shape}")
-            logger.info(f"Allowed token IDs: {self.allowed_tokens}")
+    # def __call__(self, input_ids, scores):
+    #     # scores 是 logits tensor，形状为 (batch_size, vocab_size)
+    #     if self.allowed_tokens:
+    #         logger.info("\n--- INSIDE LOGITS PROCESSOR ---")
+    #         logger.info(f"Logits shape: {scores.shape}")
+    #         logger.info(f"Allowed token IDs: {self.allowed_tokens}")
             
-            # 记录我们关心的token的logits
-            for token_id in self.allowed_tokens:
-                # 假设 batch size is 1
-                logit_value = scores[0, token_id].item()
-                token_str = self.tokenizer.decode([token_id])
-                logger.info(f"    - Logit for token {token_id} ('{token_str}'): {logit_value}")
+    #         # 记录我们关心的token的logits
+    #         for token_id in self.allowed_tokens:
+    #             # 假设 batch size is 1
+    #             logit_value = scores[0, token_id].item()
+    #             token_str = self.tokenizer.decode([token_id])
+    #             logger.info(f"    - Logit for token {token_id} ('{token_str}'): {logit_value}")
             
-            # 检查是否有 -inf
-            has_inf = any(scores[0, token_id].item() == float('-inf') for token_id in self.allowed_tokens)
-            if has_inf:
-                logger.info("    !!! WARNING: At least one allowed token has a logit of -inf!")
-            logger.info("---------------------------------\n")
+    #         # 检查是否有 -inf
+    #         has_inf = any(scores[0, token_id].item() == float('-inf') for token_id in self.allowed_tokens)
+    #         if has_inf:
+    #             logger.info("    !!! WARNING: At least one allowed token has a logit of -inf!")
+    #         logger.info("---------------------------------\n")
 
+    #     return scores
+    
+    
+    def __call__(self, input_ids, scores):
+        if self.allowed_tokens:
+            for token_id in self.allowed_tokens:
+                if scores[0, token_id] == float('-inf'):
+                    # 只有当确实是 -inf 时才打印警告，并且不要 panic
+                    pass 
+                    # 可以在这里把分数置为 -100，强行让模型选这个（如果它是唯一的选择）
+                    scores[0, token_id] = 0.0 
         return scores
 
 class FinalConstrainedGenerator:
