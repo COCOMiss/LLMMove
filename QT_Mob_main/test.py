@@ -227,8 +227,6 @@ def test(args):
                 )
                 
                 
-                
-                
                 # 处理输出
                 output_ids = output["sequences"]
                 scores = output["scores"]
