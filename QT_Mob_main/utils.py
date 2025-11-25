@@ -46,7 +46,7 @@ def parse_train_args(parser):
     parser.add_argument("--epochs", type=int, default=4)
     parser.add_argument("--learning_rate", type=float, default=1e-4)
     parser.add_argument("--per_device_train_batch_size", type=int, default=20)
-    parser.add_argument("--per_device_eval_batch_size", type=int, default=10)
+    parser.add_argument("--per_device_eval_batch_size", type=int, default=2)
     parser.add_argument("--gradient_accumulation_steps", type=int, default=4)
     parser.add_argument("--cutoff_len", type=int, default=4096)
     parser.add_argument("--weight_decay", type=float, default=0.001)

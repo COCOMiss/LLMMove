@@ -174,15 +174,6 @@ class TrajConstrainedGenerator:
                     if content_tokens[i] == self.obj_end_token_id:
                         last_obj_end_token_idx = i
                         break
-                    
-                    
-                
-                
-                
-                
-                
-                
-                
                 
                 # Case A: 处理 "列表之间" 的状态
                 if last_obj_start_idx == -1 or last_obj_end_token_idx > last_obj_start_idx:
@@ -217,13 +208,13 @@ class TrajConstrainedGenerator:
                             # === 修改结束 ===
                         
                         # (b) 已经生成 ']' -> 结束
-                        if after_brace[0] == self.list_end_token_id:
+                        if after_brace and after_brace[0] == self.list_end_token_id:
                             return [self.eos_token_id]
                         
                         # (c) 正在生成 ', '
                         k_comma = self._get_matched_len(after_brace, self.comma_sep_tokens)
-                        # 如果逗号还没完
-                        if k_comma < len(self.comma_sep_tokens) and after_brace != self.comma_sep_tokens:
+                        # 修复：确保逗号序列完整
+                        if k_comma < len(self.comma_sep_tokens):
                              return [self.comma_sep_tokens[k_comma]]
                         
                         # (d) 逗号已生成完毕 -> 必须开始新对象
@@ -272,12 +263,22 @@ class TrajConstrainedGenerator:
                     # 查 Trie
                     node = self.time_trie
                     for t in time_part:
-                        if t in node: node = node[t]
-                        else: return [] 
+                        if t in node: 
+                            node = node[t]
+                        else: 
+                            # === 修复：Trie 查询失败时的 Fallback ===
+                            logger.warning(f"Time Trie match failed for token {t}. Forcing separator.")
+                            return [self.sep_time_h3_tokens[0]]
                     
                     allowed = [key for key in node.keys() if key != 'is_end']
                     if 'is_end' in node:
                         allowed.append(self.sep_time_h3_tokens[0])
+                    
+                    # === 修复：确保 allowed 不为空 ===
+                    if not allowed:
+                        logger.warning("No allowed tokens for time state, forcing separator.")
+                        allowed = [self.sep_time_h3_tokens[0]]
+                    
                     logits_inspector.set_allowed_tokens(allowed)
                     return allowed
 
@@ -291,12 +292,22 @@ class TrajConstrainedGenerator:
                     # 查 Trie
                     node = self.h3_trie
                     for t in h3_part:
-                        if t in node: node = node[t]
-                        else: return []
+                        if t in node: 
+                            node = node[t]
+                        else: 
+                            # === 修复：Trie 查询失败时的 Fallback ===
+                            logger.warning(f"H3 Trie match failed for token {t}. Forcing separator.")
+                            return [self.sep_h3_dur_tokens[0]]
                     
                     allowed = [key for key in node.keys() if key != 'is_end']
                     if 'is_end' in node:
                         allowed.append(self.sep_h3_dur_tokens[0])
+                    
+                    # === 修复：确保 allowed 不为空 ===
+                    if not allowed:
+                        logger.warning("No allowed tokens for H3 state, forcing separator.")
+                        allowed = [self.sep_h3_dur_tokens[0]]
+                    
                     logits_inspector.set_allowed_tokens(allowed)
                     return allowed
 
@@ -305,26 +316,36 @@ class TrajConstrainedGenerator:
                 
                 # 检查是否已有闭合引号
                 if self.quote_token_id in dur_part:
-                    # 如果只有引号，下一个必须是 '}'
+                    # 如果最后一个是引号，下一个必须是 '}'
                     if dur_part[-1] == self.quote_token_id:
                         return [self.obj_end_token_id]
-                    # 如果 '}' 也生成了，那应该回到 Case A，但这里兜底返回逗号或结束
-                    return [self.comma_sep_tokens[0], self.list_end_token_id]
+                    # 否则应该不会走到这里，但为了安全起见返回
+                    return [self.obj_end_token_id]
                 
+                # 查 Trie
                 node = self.duration_trie
                 for t in dur_part:
-                    if t in node: node = node[t]
-                    else: return []
+                    if t in node: 
+                        node = node[t]
+                    else: 
+                        # === 修复：Trie 查询失败时的 Fallback ===
+                        logger.warning(f"Duration Trie match failed for token {t}. Forcing quote.")
+                        return [self.quote_token_id]
                 
                 allowed = [key for key in node.keys() if key != 'is_end']
                 if 'is_end' in node:
                     allowed.append(self.quote_token_id) # 允许生成引号结束
                 
+                # === 修复：确保 allowed 不为空 ===
+                if not allowed:
+                    logger.warning("No allowed tokens for duration state, forcing quote.")
+                    allowed = [self.quote_token_id]
+                
                 logits_inspector.set_allowed_tokens(allowed)
                 return allowed
 
             except Exception as e:
-                logger.error(f"Error in constrained gen: {e}")
+                logger.error(f"Error in constrained gen: {e}", exc_info=True)
                 return [self.eos_token_id]
 
         return prefix_allowed_tokens_fn

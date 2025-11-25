@@ -55,7 +55,7 @@ else:
 def test(args):
     # ===== 1. 设置设备 =====
     # 获取用户指定的 device ID (例如 "0", "1", "2", "3")
-    target_device_id = str(getattr(args, 'device', '0'))
+    target_device_id = str(getattr(args, 'device', '0,1'))
     
     # 将可见设备设置为用户指定的那个 ID
     # 这样 PyTorch 内部只需要使用 "cuda:0"，它会自动映射到对应的物理显卡
@@ -63,7 +63,7 @@ def test(args):
     logger.info(f"Running on Physical GPU: {target_device_id}")
     
     # 逻辑设备固定为 cuda:0 (因为我们只让一张卡可见)
-    device = torch.device("cuda:0")
+
 
     # ===== 参数处理 =====
     if isinstance(args.quantize, str):
@@ -126,6 +126,9 @@ def test(args):
         device_map="auto",                     
         trust_remote_code=True,
     )
+    
+    
+
         
     # ===== 5. 调整词表与加载 LoRA =====
     if args.indexing:
@@ -194,7 +197,7 @@ def test(args):
                     logger.info(f"Processing batch {batch_idx}")
 
                 batch_inputs, targets = batch
-                
+                device = torch.device("cuda:0")
                 # 将输入移到 GPU (device此时是 cuda:0)
                 inputs = {k: v.to(device) for k, v in batch_inputs.items()}
                 
@@ -210,7 +213,7 @@ def test(args):
               
                 total += len(targets)
                 
-                # 生成
+                #生成
                 output = model.generate(
                     input_ids=inputs["input_ids"],
                     attention_mask=inputs["attention_mask"],
@@ -225,7 +228,18 @@ def test(args):
                     return_dict_in_generate=True,
                     early_stopping=True
                 )
-                
+                # output = model.generate(
+                #     input_ids=inputs["input_ids"],
+                #     attention_mask=inputs["attention_mask"],
+                #     max_new_tokens=1024,
+                #     num_beams=15,           # 使用 beam search 的采样配置
+                #     prefix_allowed_tokens_fn=prefix_fn,
+                #     logits_processor=[logits_inspector], 
+                #     num_return_sequences=15,
+                #     output_scores=True,         # 需要返回 scores
+                #     return_dict_in_generate=True,
+                #     early_stopping=True
+                # )                
                 
                 # 处理输出
                 output_ids = output["sequences"]
