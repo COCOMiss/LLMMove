@@ -247,52 +247,36 @@ class DailyTrajDataset(BaseDataset):
             self.codebook = json.load(f)
         logger.info(f"Initializing daily trajectory dataset (mode={self.mode})")   
         
-        # # 生成daily trajectory dataset
-        # try:
-        #     if self.mode=="valid":
-        #         self._load_data()
-        #         # self._remap_items()
-        #         self.inter_data = self._process_data()
-        #         pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/valid/zdc_h3_8/daily_traj_dataset.feather")
-        #     if self.mode == "train":
-        #         self._load_data()
-        #         # self._remap_items()
-        #         self.inter_data = self._process_data()
-        #         pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/train/zdc_h3_8/daily_traj_dataset.feather")
-        #     if self.mode=="test":
-        #         self._load_data()
-        #         # self._remap_items()
-        #         self.inter_data = self._process_data()
-        #         pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/test/zdc_h3_8/daily_traj_dataset.feather")
-        #     logger.info(f"daily trajectory data loaded successfully: {len(self.inter_data)} samples.")
-        # except Exception:
-        #     logger.exception("daily trajectory dataset initialization failed.")
-        #     raise
-        # logger.info(f"daily trajectory dataset generated ({len(self.inter_data)} STAY points).")
-        
-        # 加载next loc dataset
+        cache_root = os.path.join("QT_Mob_main", "dataset", self.mode, "zdc_h3_8")
+        cache_file = os.path.join(cache_root, "daily_traj_dataset.feather")
+
+        if not os.path.exists(cache_file):
+            logger.warning(
+                f"Cache file {cache_file} not found. Generating from raw data located at {self.data_path}."
+            )
+            self._build_and_cache_daily_traj(cache_root, cache_file)
+
         try:
-            if self.mode=="valid":
-                self.inter_data=pd.read_feather("QT_Mob_main/dataset/valid/zdc_h3_8/daily_traj_dataset.feather")
-                self.inter_data=self.inter_data.to_dict(orient="records")
-            if self.mode == "train":
-                self.inter_data=pd.read_feather("QT_Mob_main/dataset/train/zdc_h3_8/daily_traj_dataset.feather")
-                self.inter_data=self.inter_data.to_dict(orient="records")
-            # if self.mode=="test":
-            #     self._load_data()
-            #     # self._remap_items()
-            #     self.inter_data = self._process_data()
-            #     pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/test/zdc_h3_8/daily_traj_dataset.feather")
-               
-            if self.mode=="test":
-                self.inter_data=pd.read_feather("LLMMove/QT_Mob_main/dataset/test/zdc_h3_8/daily_traj_dataset.feather")
-                self.inter_data=self.inter_data.to_dict(orient="records")                
-          
+            self.inter_data = pd.read_feather(cache_file).to_dict(orient="records")
             logger.info(f"daily trajectory dataset loaded successfully: {len(self.inter_data)} samples.")
         except Exception:
             logger.exception("daily trajectory dataset initialization failed.")
             raise
         logger.info(f"daily trajectory dataset loaded ({len(self.inter_data)} STAY points).")
+
+    def _build_and_cache_daily_traj(self, cache_root, cache_file):
+        """
+        Build the daily trajectory dataset from raw files when the cached feather file is missing.
+        """
+        try:
+            os.makedirs(cache_root, exist_ok=True)
+            self._load_data()
+            self.inter_data = self._process_data()
+            pd.DataFrame(self.inter_data).to_feather(cache_file)
+            logger.info(f"Cached daily trajectory dataset to {cache_file}")
+        except Exception:
+            logger.exception("Failed to build daily trajectory cache.")
+            raise
 
     def get_stay_duration(self, duration: float) -> int:
         """
@@ -471,17 +455,17 @@ class SeqDataset(BaseDataset):
                 self._load_data()
                 self._remap_items()
                 self.inter_data = self._process_data()
-                pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/valid/zdc/seq_dataset.feather")
+                pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/valid/zdc/seq_dataset.feather")
             if self.mode == "train":
                 self._load_data()
                 self._remap_items()
                 self.inter_data = self._process_data()
-                pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/train/zdc/seq_dataset.feather")
+                pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/train/zdc/seq_dataset.feather")
             if self.mode=="test":
                 self._load_data()
                 self._remap_items()
                 self.inter_data = self._process_data()
-                pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/test/zdc/seq_dataset.feather")
+                pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/test/zdc/seq_dataset.feather")
             logger.info(f"SeqDataset loaded successfully: {len(self.inter_data)} samples.")
         except Exception:
             logger.exception("SeqDataset initialization failed.")

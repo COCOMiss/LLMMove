@@ -537,23 +537,34 @@ def test(args):
                 
                 # 在 test.py 的生成部分（第 214-227 行）修改为：
 
+                # output = model.generate(
+                #     input_ids=inputs["input_ids"],
+                #     attention_mask=inputs["attention_mask"],
+                #     max_new_tokens=512,              # ✅ 从 1024 降到 512，防止生成太多废话
+                #     do_sample=True,      
+                #     # ✅ 改进采样参数
+                #     temperature=0.5,                 # 从 0.7 提升到 0.8，增加多样性
+                #     top_p=0.8,                      # 从 0.9 调整到 0.92，稍微放宽
+                #     top_k=10,                        # 从 50 降到 40，更严格的采样
+                #     # ✅ 重复惩罚关键参数
+                #     repetition_penalty=1.3,          # 从 1.5 降到 1.3，防止乱码
+                #     # ✅ 其他参数
+                #     length_penalty=0.6,              # 从 0.8 降到 0.6，更激励长序列
+                #     num_return_sequences=5,
+                #     output_scores=True,
+                #     return_dict_in_generate=True,
+                #     early_stopping=True,
+                # )
+                
+                
                 output = model.generate(
                     input_ids=inputs["input_ids"],
                     attention_mask=inputs["attention_mask"],
-                    max_new_tokens=512,              # ✅ 从 1024 降到 512，防止生成太多废话
-                    do_sample=True,      
-                    # ✅ 改进采样参数
-                    temperature=0.5,                 # 从 0.7 提升到 0.8，增加多样性
-                    top_p=0.8,                      # 从 0.9 调整到 0.92，稍微放宽
-                    top_k=10,                        # 从 50 降到 40，更严格的采样
-                    # ✅ 重复惩罚关键参数
-                    repetition_penalty=1.3,          # 从 1.5 降到 1.3，防止乱码
-                    # ✅ 其他参数
-                    length_penalty=0.6,              # 从 0.8 降到 0.6，更激励长序列
-                    num_return_sequences=5,
-                    output_scores=True,
-                    return_dict_in_generate=True,
-                    early_stopping=True,
+                    max_new_tokens=1024,
+                    num_beams=5,                  # ← Beam search
+                    do_sample=False,              # ← 不采样
+                    num_return_sequences=1,
+                    early_stopping=True
                 )
                 output_ids = output["sequences"]
                 scores = output["scores"]     # list[step] of logits

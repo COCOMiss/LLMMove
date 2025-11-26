@@ -139,32 +139,74 @@ def main(args):
         logger.info("Loading datasets...")
         train_data, valid_data = load_datasets(args)
         postfix = tokenizer.eos_token if args.indexing else ". " + tokenizer.eos_token
-       
-
-        if valid_data is None or len(valid_data) == 0:
-            logger.warning("⚠️ 没有加载到验证集或验证集为空，将使用训练集的一部分作为验证集。")
-         # 随机划分一部分训练集当作验证集
-            total_len = len(train_data)
-            val_ratio = 0.1  # 按需调整
-            val_size = max(1, int(total_len * val_ratio))
-            valid_data = [train_data[i] for i in range(val_size)]
-            train_data = [train_data[i] for i in range(val_size, total_len)]
+        
+        
+        
+        
+        
+        
+        
+        
         if valid_data is not None and len(valid_data) > 0:
             valid_data_list = [valid_data[i] for i in range(len(valid_data))]
-            valid_data = [{"text": item["labels"] + postfix} for item in valid_data_list]
+            # ✅ 关键修改：使用 input_ids + labels
+            valid_data = [
+                {"text": item["input_ids"] + item["labels"] + postfix} 
+                for item in valid_data_list
+            ]
             valid_data = HF_Dataset.from_list(valid_data)
         else:
             valid_data = None
 
         train_data_list = [train_data[i] for i in range(len(train_data))]
-        train_data = [{"text": item["labels"] + postfix} for item in train_data_list]
+        # ✅ 关键修改：使用 input_ids + labels
+        train_data = [
+            {"text": item["input_ids"] + item["labels"] + postfix} 
+            for item in train_data_list
+        ]
         train_data = HF_Dataset.from_list(train_data)
         logger.info(f"Training samples: {len(train_data)}, Validation samples: {len(valid_data) if valid_data is not None else 0}")
-
+        # 在 train.py 第 167 行添加这些代码来验证：
         if accelerator.is_main_process:
-            random_indices = torch.randperm(len(train_data))[:5].tolist()
+            random_indices = torch.randperm(len(train_data))[:2]. tolist()
             for idx in random_indices:
-                logger.info(f"Sample[{idx}]: {train_data[idx]}")
+                sample_text = train_data[idx]['text']
+                print(f"\n=== Sample {idx} ===")
+                print(f"第一个 500 字符:\n{sample_text[:500]}")
+                print(f".. .\n最后 300 字符:\n{sample_text[-300:]}")
+                print(f"总长度: {len(sample_text)}")
+                
+        
+        
+        
+        
+        
+       
+
+        # if valid_data is None or len(valid_data) == 0:
+        #     logger.warning("⚠️ 没有加载到验证集或验证集为空，将使用训练集的一部分作为验证集。")
+        #  # 随机划分一部分训练集当作验证集
+        #     total_len = len(train_data)
+        #     val_ratio = 0.1  # 按需调整
+        #     val_size = max(1, int(total_len * val_ratio))
+        #     valid_data = [train_data[i] for i in range(val_size)]
+        #     train_data = [train_data[i] for i in range(val_size, total_len)]
+        # if valid_data is not None and len(valid_data) > 0:
+        #     valid_data_list = [valid_data[i] for i in range(len(valid_data))]
+        #     valid_data = [{"text": item["labels"] + postfix} for item in valid_data_list]
+        #     valid_data = HF_Dataset.from_list(valid_data)
+        # else:
+        #     valid_data = None
+
+        # train_data_list = [train_data[i] for i in range(len(train_data))]
+        # train_data = [{"text": item["labels"] + postfix} for item in train_data_list]
+        # train_data = HF_Dataset.from_list(train_data)
+        # logger.info(f"Training samples: {len(train_data)}, Validation samples: {len(valid_data) if valid_data is not None else 0}")
+
+        # if accelerator.is_main_process:
+        #     random_indices = torch.randperm(len(train_data))[:5].tolist()
+        #     for idx in random_indices:
+        #         logger.info(f"Sample[{idx}]: {train_data[idx]}")
 
         # ================= Collator =================
         # response_template_with_context = "<|im_end|>"
@@ -193,6 +235,10 @@ def main(args):
     
         
         if args.tasks in ['seq','daily_traj']:
+            
+            
+   
+        
             train_args = SFTConfig(
                 seed=args.seed,
                 output_dir=model_id,
@@ -227,7 +273,10 @@ def main(args):
                 save_safetensors=True
                 
             )
-
+            
+            
+   
+            eval_dataset = valid_data if valid_data is not None and len(valid_data) > 0 else None
             logger.info("Data collator initialized.")
             collator = CompletionOnlyCollator(
                 tokenizer=tokenizer,
@@ -236,7 +285,7 @@ def main(args):
             )
             
             
-            eval_dataset = valid_data if valid_data is not None and len(valid_data) > 0 else None
+            
             trainer = SFTTrainer(
                 model=model,
                 args=train_args,

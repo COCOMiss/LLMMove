@@ -19,14 +19,14 @@ TEST = True
 CUDA_VISIBLE_DEVICES = "0,1,2,3"  # 使用所有4个GPU
 os.environ["CUDA_VISIBLE_DEVICES"] = CUDA_VISIBLE_DEVICES
 # PATH_TO_SFT_SAVE_DIR = "autodl-tmp/checkpoint"
-PATH_TO_SFT_SAVE_DIR = "LLMMove/checkpoint"
+PATH_TO_SFT_SAVE_DIR = "checkpoint"
 # 你的 train.py 路径（优先用项目内的，若不存在则用上传的）
-TRAIN_SCRIPT_PATH = "LLMMove/QT_Mob_main/train.py"
+TRAIN_SCRIPT_PATH = "QT_Mob_main/train.py"
 # if not Path(TRAIN_SCRIPT_PATH).exists() and Path("/mnt/data/train.py").exists():
 #     TRAIN_SCRIPT_PATH = "/mnt/data/train.py"
 
 # 切换到 /home/linyuxi/LLM 作为工作路径
-os.chdir("/home/linyuxi/LLM")
+# os.chdir("/home/linyuxi/LLM")
 print(f"Changed working directory to: {os.getcwd()}")
 
 
@@ -114,9 +114,9 @@ if __name__ == "__main__":
     logger.info(f"CUDA_VISIBLE_DEVICES = {CUDA_VISIBLE_DEVICES}")
 
     BASE_MODEL = "qwen"
-    # args.base_model = "autodl-tmp/Qwen/Qwen3-8B"  # 本地模型路径
-    args.base_model = "LLMMove/Qwen3-8B"  # 本地模型路径
-    args.index_file = "LLMMove/QT_Mob_main/dataset/location_r8.json"
+    args.base_model = "/root/autodl-tmp/Qwen/Qwen3-8B"  # 本地模型绝对路径
+    # args.base_model = "/root/LLMMove/Qwen3-8B"  # 其他本地模型路径示例
+    args.index_file = "QT_Mob_main/dataset/location_r8.json"
     # DATASET_PATH = "./zdc_h3_index"
 
     TRAIN_TASKS = ["daily_traj"]
