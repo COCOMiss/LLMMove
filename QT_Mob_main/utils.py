@@ -20,7 +20,7 @@ def parse_global_args(parser):
     return parser
 
 def parse_dataset_args(parser):
-    parser.add_argument("--data_path", type=str, default="LLMMove/zdc_h3_8",
+    parser.add_argument("--data_path", type=str, default="zdc_h3_8",
                         help="data directory")
     # parser.add_argument("--data_filename", type=str, default=".pkl",help="data filename")
     parser.add_argument("--tasks", type=str, default="daily_traj",
@@ -68,7 +68,7 @@ def parse_train_args(parser):
     parser.add_argument("--lr_scheduler_type", type=str, default="cosine")
     parser.add_argument("--save_and_eval_steps", type=int, default=2000)
     parser.add_argument("--experiment_name", type=str, help="The name of the experiment")
-    parser.add_argument("--path_to_sft_save_dir", type=str, default="LLMMove/QT_Mob_main/sft",help="QT_Mob_main/sft")
+    parser.add_argument("--path_to_sft_save_dir", type=str, default="QT_Mob_main/sft",help="QT_Mob_main/sft")
 
     parser.add_argument("--save_total_limit", type=int, default=3)   # 自动删旧
     parser.add_argument("--load_best_model_at_end", action="store_true")
@@ -87,7 +87,7 @@ def parse_test_args(parser):
     parser.add_argument("--filter_items",  default=True,
                         help="whether filter illegal items")
     parser.add_argument("--results_file", type=str,
-                        default="LLMMove/QT_Mob_main/results/test-ddp.json",
+                        default="QT_Mob_main/results/test-ddp.json",
                         help="result output path")
     parser.add_argument("--test_batch_size", type=int, default=5)
     parser.add_argument("--num_beams", type=int, default=15)
@@ -123,7 +123,7 @@ def ensure_dir(dir_path):
     
     
 def get_new_tokens(args):
-    indices = load_json("LLMMove/QT_Mob_main/dataset/location_r8.json")
+    indices = load_json("QT_Mob_main/dataset/location_r8.json")
     new_tokens = set()
     for id in indices:
         for index in indices[id]:
