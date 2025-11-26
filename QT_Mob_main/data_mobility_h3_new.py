@@ -247,52 +247,52 @@ class DailyTrajDataset(BaseDataset):
             self.codebook = json.load(f)
         logger.info(f"Initializing daily trajectory dataset (mode={self.mode})")   
         
-        # 生成daily trajectory dataset
-        try:
-            if self.mode=="valid":
-                self._load_data()
-                # self._remap_items()
-                self.inter_data = self._process_data()
-                pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/valid/zdc_h3_8/daily_traj_dataset.feather")
-            if self.mode == "train":
-                self._load_data()
-                # self._remap_items()
-                self.inter_data = self._process_data()
-                pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/train/zdc_h3_8/daily_traj_dataset.feather")
-            if self.mode=="test":
-                self._load_data()
-                # self._remap_items()
-                self.inter_data = self._process_data()
-                pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/test/zdc_h3_8/daily_traj_dataset.feather")
-            logger.info(f"daily trajectory data loaded successfully: {len(self.inter_data)} samples.")
-        except Exception:
-            logger.exception("daily trajectory dataset initialization failed.")
-            raise
-        logger.info(f"daily trajectory dataset generated ({len(self.inter_data)} STAY points).")
-        
-        # # 加载next loc dataset
+        # # 生成daily trajectory dataset
         # try:
         #     if self.mode=="valid":
-        #         self.inter_data=pd.read_feather("LLMMove/QT_Mob_main/dataset/valid/zdc_h3_8/daily_traj_dataset.feather")
-        #         self.inter_data=self.inter_data.to_dict(orient="records")
+        #         self._load_data()
+        #         # self._remap_items()
+        #         self.inter_data = self._process_data()
+        #         pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/valid/zdc_h3_8/daily_traj_dataset.feather")
         #     if self.mode == "train":
-        #         self.inter_data=pd.read_feather("LLMMove/QT_Mob_main/dataset/train/zdc_h3_8/daily_traj_dataset.feather")
-        #         self.inter_data=self.inter_data.to_dict(orient="records")
-        #     # if self.mode=="test":
-        #     #     self._load_data()
-        #     #     # self._remap_items()
-        #     #     self.inter_data = self._process_data()
-        #     #     pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/test/zdc_h3_8/daily_traj_dataset.feather")
-               
+        #         self._load_data()
+        #         # self._remap_items()
+        #         self.inter_data = self._process_data()
+        #         pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/train/zdc_h3_8/daily_traj_dataset.feather")
         #     if self.mode=="test":
-        #         self.inter_data=pd.read_feather("LLMMove/QT_Mob_main/dataset/test/zdc_h3_8/daily_traj_dataset.feather")
-        #         self.inter_data=self.inter_data.to_dict(orient="records")                
-          
-        #     logger.info(f"daily trajectory dataset loaded successfully: {len(self.inter_data)} samples.")
+        #         self._load_data()
+        #         # self._remap_items()
+        #         self.inter_data = self._process_data()
+        #         pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/test/zdc_h3_8/daily_traj_dataset.feather")
+        #     logger.info(f"daily trajectory data loaded successfully: {len(self.inter_data)} samples.")
         # except Exception:
         #     logger.exception("daily trajectory dataset initialization failed.")
         #     raise
-        # logger.info(f"daily trajectory dataset loaded ({len(self.inter_data)} STAY points).")
+        # logger.info(f"daily trajectory dataset generated ({len(self.inter_data)} STAY points).")
+        
+        # 加载next loc dataset
+        try:
+            if self.mode=="valid":
+                self.inter_data=pd.read_feather("QT_Mob_main/dataset/valid/zdc_h3_8/daily_traj_dataset.feather")
+                self.inter_data=self.inter_data.to_dict(orient="records")
+            if self.mode == "train":
+                self.inter_data=pd.read_feather("QT_Mob_main/dataset/train/zdc_h3_8/daily_traj_dataset.feather")
+                self.inter_data=self.inter_data.to_dict(orient="records")
+            # if self.mode=="test":
+            #     self._load_data()
+            #     # self._remap_items()
+            #     self.inter_data = self._process_data()
+            #     pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/test/zdc_h3_8/daily_traj_dataset.feather")
+               
+            if self.mode=="test":
+                self.inter_data=pd.read_feather("LLMMove/QT_Mob_main/dataset/test/zdc_h3_8/daily_traj_dataset.feather")
+                self.inter_data=self.inter_data.to_dict(orient="records")                
+          
+            logger.info(f"daily trajectory dataset loaded successfully: {len(self.inter_data)} samples.")
+        except Exception:
+            logger.exception("daily trajectory dataset initialization failed.")
+            raise
+        logger.info(f"daily trajectory dataset loaded ({len(self.inter_data)} STAY points).")
 
     def get_stay_duration(self, duration: float) -> int:
         """

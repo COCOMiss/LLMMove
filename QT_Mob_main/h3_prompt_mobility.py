@@ -15,7 +15,13 @@ The value of "h3_index" must be a valid H3 index string.\n
 "stay_duration" must be one of 30, 60, 90, ..., 600 (step 30), formatted as "<N> min".\n
 </SYS>>
 """
-
+system_prompt_new = """\
+You are a helpful assistant that predicts human mobility trajectories in Tokyo. \n
+Do NOT output your thinking process or <think> tags.\n
+Return ONLY a valid JSON LIST containing the sequence of visits.\n
+The value of "h3_index" must be a valid H3 index string.\n
+"stay_duration" must be one of 30, 60, 90, ..., 600 (step 30), formatted as "<N> min".\n
+"""
 # 2. Task Prompt: 设定字段格式
 # 移除了 "predict next" 这种容易引起歧义的词，改为 "daily trajectory sequence"
 traj_task_prompt = """\

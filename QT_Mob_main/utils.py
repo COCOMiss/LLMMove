@@ -25,7 +25,7 @@ def parse_dataset_args(parser):
     # parser.add_argument("--data_filename", type=str, default=".pkl",help="data filename")
     parser.add_argument("--tasks", type=str, default="daily_traj",
                         help="Downstream tasks, separate by comma")
-    parser.add_argument("--index_file", type=str, default="dataset/location_r8.json", help="the item indices file, not path")
+    parser.add_argument("--index_file", type=str, default="QT_Mob_main/dataset/location_r8.json", help="the item indices file, not path")
     # arguments related to sequential task
     parser.add_argument("--max_his_len", type=int, default=20,
                         help="the max number of location in history trajectory, -1 means no limit")
@@ -123,7 +123,7 @@ def ensure_dir(dir_path):
     
     
 def get_new_tokens(args):
-    indices = load_json("LLMMove/QT_Mob_main/dataset/location_r8.json")
+    indices = load_json("QT_Mob_main/dataset/location_r8.json")
     new_tokens = set()
     for id in indices:
         for index in indices[id]:
