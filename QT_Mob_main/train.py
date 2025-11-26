@@ -209,6 +209,10 @@ def main(args):
                 num_train_epochs=args.epochs,
                 optim="adamw_torch",
                 report_to="none",
+                max_grad_norm=1.0,
+                load_best_model_at_end=True,
+                metric_for_best_model="loss",
+                greater_is_better=False,
                 ddp_find_unused_parameters=False,
                 learning_rate=args.learning_rate,
                 logging_steps=5,
@@ -243,15 +247,45 @@ def main(args):
             )
             
             
-            # trainer = DualTaskTrainer(
+            
+            
+            # collator = CompletionOnlyCollator(
+            #     tokenizer=tokenizer,
+            #     response_tag=SEQ_RESPONSE_TAG,
+            #     max_length=args.cutoff_len,
+            #     # 新参数
+            #     add_repeat_penalty=True,        # ✅ 启用重复惩罚
+            #     repeat_penalty_weight=0.2,      # 调整权重
+            #     no_repeat_ngram_size=2,         # 禁止 2-gram 重复
+            #     data_augmentation=True,         # ✅ 启用数据增强
+            #     dropout_prob=0.1,
+            # )
+            
+            # eval_dataset = valid_data if valid_data is not None and len(valid_data) > 0 else None
+            # trainer = SFTTrainer(
             #     model=model,
             #     args=train_args,
             #     train_dataset=train_data,
-            #     eval_dataset=valid_data,
+            #     eval_dataset=eval_dataset,
             #     peft_config=peft_config,
             #     data_collator=collator,
             # )
-                     
+            
+            
+            
+            # from custom_trainer import RepetitionAwareTrainer
+
+            # trainer = RepetitionAwareTrainer(
+            #     model=model,
+            #     args=train_args,
+            #     train_dataset=train_data,
+            #     eval_dataset=eval_dataset,
+            #     peft_config=peft_config,
+            #     data_collator=collator,
+            #     repeat_penalty_weight=0.2,  # 调整重复惩罚权重
+            # )
+            
+            
         else:
             train_args = SFTConfig(
                 gradient_checkpointing_kwargs={'use_reentrant': True},

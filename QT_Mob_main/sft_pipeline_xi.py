@@ -14,12 +14,12 @@ logger = get_logger(__name__)
 logger.info("==== QT_Mob runner started ====")
 
 # 开关
-TRAIN = False
+TRAIN = True
 TEST = True
 CUDA_VISIBLE_DEVICES = "0,1,2,3"  # 使用所有4个GPU
 os.environ["CUDA_VISIBLE_DEVICES"] = CUDA_VISIBLE_DEVICES
 # PATH_TO_SFT_SAVE_DIR = "autodl-tmp/checkpoint"
-PATH_TO_SFT_SAVE_DIR = "checkpoint"
+PATH_TO_SFT_SAVE_DIR = "LLMMove/checkpoint"
 # 你的 train.py 路径（优先用项目内的，若不存在则用上传的）
 TRAIN_SCRIPT_PATH = "LLMMove/QT_Mob_main/train.py"
 # if not Path(TRAIN_SCRIPT_PATH).exists() and Path("/mnt/data/train.py").exists():
@@ -121,7 +121,7 @@ if __name__ == "__main__":
 
     TRAIN_TASKS = ["daily_traj"]
     TEST_TASK = "daily_traj"
-    CUSTOM_NAME = "tokyo_daily_traj"
+    CUSTOM_NAME = "tokyo_daily_traj_repeat_penalty"
 
     args.tasks = ",".join(TRAIN_TASKS)
     # args.data_path = DATASET_PATH

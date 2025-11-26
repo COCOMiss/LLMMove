@@ -248,51 +248,51 @@ class DailyTrajDataset(BaseDataset):
         logger.info(f"Initializing daily trajectory dataset (mode={self.mode})")   
         
         # 生成daily trajectory dataset
-        # try:
-        #     if self.mode=="valid":
-        #         self._load_data()
-        #         # self._remap_items()
-        #         self.inter_data = self._process_data()
-        #         pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/valid/zdc_h3_8/daily_traj_dataset.feather")
-        #     if self.mode == "train":
-        #         self._load_data()
-        #         # self._remap_items()
-        #         self.inter_data = self._process_data()
-        #         pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/train/zdc_h3_8/daily_traj_dataset.feather")
-        #     if self.mode=="test":
-        #         self._load_data()
-        #         # self._remap_items()
-        #         self.inter_data = self._process_data()
-        #         pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/test/zdc_h3_8/daily_traj_dataset.feather")
-        #     logger.info(f"daily trajectory data loaded successfully: {len(self.inter_data)} samples.")
-        # except Exception:
-        #     logger.exception("daily trajectory dataset initialization failed.")
-        #     raise
-        # logger.info(f"daily trajectory dataset generated ({len(self.inter_data)} STAY points).")
-        
-        # # 加载next loc dataset
         try:
             if self.mode=="valid":
-                self.inter_data=pd.read_feather("LLMMove/QT_Mob_main/dataset/valid/zdc_h3_8/daily_traj_dataset.feather")
-                self.inter_data=self.inter_data.to_dict(orient="records")
+                self._load_data()
+                # self._remap_items()
+                self.inter_data = self._process_data()
+                pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/valid/zdc_h3_8/daily_traj_dataset.feather")
             if self.mode == "train":
-                self.inter_data=pd.read_feather("LLMMove/QT_Mob_main/dataset/train/zdc_h3_8/daily_traj_dataset.feather")
-                self.inter_data=self.inter_data.to_dict(orient="records")
-            # if self.mode=="test":
-            #     self._load_data()
-            #     # self._remap_items()
-            #     self.inter_data = self._process_data()
-            #     pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/test/zdc_h3_8/daily_traj_dataset.feather")
-               
+                self._load_data()
+                # self._remap_items()
+                self.inter_data = self._process_data()
+                pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/train/zdc_h3_8/daily_traj_dataset.feather")
             if self.mode=="test":
-                self.inter_data=pd.read_feather("LLMMove/QT_Mob_main/dataset/test/zdc_h3_8/daily_traj_dataset.feather")
-                self.inter_data=self.inter_data.to_dict(orient="records")                
-          
-            logger.info(f"daily trajectory dataset loaded successfully: {len(self.inter_data)} samples.")
+                self._load_data()
+                # self._remap_items()
+                self.inter_data = self._process_data()
+                pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/test/zdc_h3_8/daily_traj_dataset.feather")
+            logger.info(f"daily trajectory data loaded successfully: {len(self.inter_data)} samples.")
         except Exception:
             logger.exception("daily trajectory dataset initialization failed.")
             raise
-        logger.info(f"daily trajectory dataset loaded ({len(self.inter_data)} STAY points).")
+        logger.info(f"daily trajectory dataset generated ({len(self.inter_data)} STAY points).")
+        
+        # # 加载next loc dataset
+        # try:
+        #     if self.mode=="valid":
+        #         self.inter_data=pd.read_feather("LLMMove/QT_Mob_main/dataset/valid/zdc_h3_8/daily_traj_dataset.feather")
+        #         self.inter_data=self.inter_data.to_dict(orient="records")
+        #     if self.mode == "train":
+        #         self.inter_data=pd.read_feather("LLMMove/QT_Mob_main/dataset/train/zdc_h3_8/daily_traj_dataset.feather")
+        #         self.inter_data=self.inter_data.to_dict(orient="records")
+        #     # if self.mode=="test":
+        #     #     self._load_data()
+        #     #     # self._remap_items()
+        #     #     self.inter_data = self._process_data()
+        #     #     pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/test/zdc_h3_8/daily_traj_dataset.feather")
+               
+        #     if self.mode=="test":
+        #         self.inter_data=pd.read_feather("LLMMove/QT_Mob_main/dataset/test/zdc_h3_8/daily_traj_dataset.feather")
+        #         self.inter_data=self.inter_data.to_dict(orient="records")                
+          
+        #     logger.info(f"daily trajectory dataset loaded successfully: {len(self.inter_data)} samples.")
+        # except Exception:
+        #     logger.exception("daily trajectory dataset initialization failed.")
+        #     raise
+        # logger.info(f"daily trajectory dataset loaded ({len(self.inter_data)} STAY points).")
 
     def get_stay_duration(self, duration: float) -> int:
         """
@@ -329,10 +329,10 @@ class DailyTrajDataset(BaseDataset):
         with open(self.index_file, 'r') as f:
             self.codebook = json.load(f)
         self.user_profile_weekday = pd.read_csv(
-            os.path.join(self.data_path, "user_profiles_weekday.csv"), sep="|"
+            os.path.join(self.data_path, "user_profiles_weekday.csv"), sep=","
         )
         self.user_profile_weekend_holiday = pd.read_csv(
-            os.path.join(self.data_path, "user_profiles_holiday.csv"), sep="|"
+            os.path.join(self.data_path, "user_profiles_holiday.csv"), sep=","
         )
         
         # self.user_profile = pd.read_csv(
@@ -418,7 +418,7 @@ class DailyTrajDataset(BaseDataset):
                         profile = self.user_profile_weekday.loc[self.user_profile_weekday['user_id'] == int(one_data["user"])]
                     else:
                         profile = self.user_profile_weekend_holiday.loc[self.user_profile_weekend_holiday['user_id'] == int(one_data["user"])]
-                    one_data["profile"] = profile['prompt'].values[0] if not profile.empty else ""
+                    one_data["profile"] = profile['profile'].values[0] if not profile.empty else ""
                 else:
                     one_data["profile"] = ""
                 
@@ -538,10 +538,10 @@ class SeqDataset(BaseDataset):
             self.codebook = json.load(f)
         
         self.user_profile_weekday = pd.read_csv(
-            os.path.join(self.data_path, "user_profiles_weekday.csv"), sep="|"
+            os.path.join(self.data_path, "user_profiles_weekday.csv"), sep=","
         )
         self.user_profile_weekend_holiday = pd.read_csv(
-            os.path.join(self.data_path, "user_profiles_holiday.csv"), sep="|"
+            os.path.join(self.data_path, "user_profiles_holiday.csv"), sep=","
         )
         # logger.info(f"SeqDataset data loaded ({len(self.inter_data)} STAY points).")
     def _process_stay_data(self):
@@ -657,7 +657,7 @@ class SeqDataset(BaseDataset):
                             profile = self.user_profile_weekday.loc[self.user_profile_weekday['user_id'] == int(trajectory[i][3])]
                         else:
                             profile = self.user_profile_weekend_holiday.loc[self.user_profile_weekend_holiday['user_id'] == int(trajectory[i][3])]
-                        one_data["profile"] = f"User {trajectory[i][3]}: {profile['prompt'].values[0]} " if not profile.empty else ""
+                        one_data["profile"] = f"User {trajectory[i][3]}: {profile['profile'].values[0]} " if not profile.empty else ""
                     else:
                         one_data["profile"] = ""
                     inter_data.append(one_data)
@@ -809,7 +809,7 @@ class RecoveryDataset(BaseDataset):
             #     history = [f"{k + 1}. {v}" for k, v in enumerate(history)]
             # one_data["inters"] = self.his_sep.join(history)
             # profile = self.user_profile.loc[self.user_profile['user_id'] == hist[i][3]]
-            # one_data["profile"] = (f"User {hist[i][3]}: {profile['prompt'].values[0]} "
+            # one_data["profile"] = (f"User {hist[i][3]}: {profile['profile'].values[0]} "
             #                         if self.add_profile and not profile.empty else "")
             # one_data["time"] = hist[i][1]
             # inter_data.append(one_data)
@@ -848,7 +848,7 @@ class RecoveryDataset(BaseDataset):
                 #     print ("user id",history_one[mask_idx][3],one_data["user"])
                 
                 
-                # one_data["profile"] = (f"User {str(history_one[mask_idx][3])}: {profile['prompt'].values[0]} "
+                # one_data["profile"] = (f"User {str(history_one[mask_idx][3])}: {profile['profile'].values[0]} "
                 #                     if self.add_profile and not profile.empty else "")
                 # one_data["time"] = history_one[mask_idx][1]
                 one_data_list.append(one_data)
@@ -882,7 +882,7 @@ class RecoveryDataset(BaseDataset):
             for one_data in inter_data:
                 try:
                     profile = self.user_profile[self.user_profile['user_id']==int(one_data["user"])]
-                    one_data["profile"] = "User "+ str(one_data["user"]) +" has the following profile: "+profile['prompt'].values[0]+" "                    
+                    one_data["profile"] = "User "+ str(one_data["user"]) +" has the following profile: "+profile['profile'].values[0]+" "                    
                 except Exception as e:
                     one_data["profile"] = "" 
         else:
@@ -911,7 +911,7 @@ class RecoveryDataset(BaseDataset):
         #                 history = [f"{k + 1}. {v}" for k, v in enumerate(history)]
         #             one_data["inters"] = self.his_sep.join(history)
         #             profile = self.user_profile.loc[self.user_profile['user_id'] == hist[i][3]]
-        #             one_data["profile"] = (f"User {hist[i][3]}: {profile['prompt'].values[0]} "
+        #             one_data["profile"] = (f"User {hist[i][3]}: {profile['profile'].values[0]} "
         #                                    if self.add_profile and not profile.empty else "")
         #             one_data["time"] = hist[i][1]
         #             inter_data.append(one_data)
@@ -952,7 +952,7 @@ class RecoveryDataset(BaseDataset):
         # if self.add_profile:
         #     for one_data in inter_data:
         #         profile = self.user_profile[self.user_profile['user_id']==int(one_data["user"])]
-        #         one_data["profile"] = "User "+one_data["user"]+" has the following profile: "+profile['prompt'].values[0]+" "
+        #         one_data["profile"] = "User "+one_data["user"]+" has the following profile: "+profile['profile'].values[0]+" "
         # else:
         #     for one_data in inter_data:
         #         one_data["profile"] = "" 
@@ -1240,7 +1240,7 @@ class TrajectoryTranslationDataset(BaseDataset):
                     for k, it in enumerate(hist)
                 ])
                 profile = self.user_profile.loc[self.user_profile['user_id'] == hist[0][3]]
-                one_data["profile"] = (f"User {hist[0][3]}: {profile['prompt'].values[0]} "
+                one_data["profile"] = (f"User {hist[0][3]}: {profile['profile'].values[0]} "
                                        if self.add_profile and not profile.empty else "")
                 # one_data["time"] = it[1]
                 data.append(one_data)
