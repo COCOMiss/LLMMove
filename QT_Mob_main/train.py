@@ -154,14 +154,7 @@ def main(args):
         logger.info("Loading datasets...")
         train_data, valid_data = load_datasets(args)
         postfix = tokenizer.eos_token if args.indexing else ". " + tokenizer.eos_token
-        
-        
-        
-        
-        
-        
-        
-        
+          
         if valid_data is not None and len(valid_data) > 0:
             valid_data_list = [valid_data[i] for i in range(len(valid_data))]
             # ✅ 关键修改：使用 input_ids + labels
