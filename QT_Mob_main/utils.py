@@ -20,12 +20,12 @@ def parse_global_args(parser):
     return parser
 
 def parse_dataset_args(parser):
-    parser.add_argument("--data_path", type=str, default="LLMMove/zdc_h3_8",
+    parser.add_argument("--data_path", type=str, default="zdc_h3_8",
                         help="data directory")
     # parser.add_argument("--data_filename", type=str, default=".pkl",help="data filename")
     parser.add_argument("--tasks", type=str, default="daily_traj",
                         help="Downstream tasks, separate by comma")
-    parser.add_argument("--index_file", type=str, default="LLMMove/QT_Mob_main/dataset/location_r8.json", help="the item indices file, not path")
+    parser.add_argument("--index_file", type=str, default="QT_Mob_main/dataset/location_r8.json", help="the item indices file, not path")
     # arguments related to sequential task
     parser.add_argument("--max_his_len", type=int, default=20,
                         help="the max number of location in history trajectory, -1 means no limit")

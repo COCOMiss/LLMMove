@@ -254,6 +254,7 @@ prompt = (
     "The profile details their home and work locations (if known), a list of frequently visited locations with typical visit times, "
     "and their preferences for different POI categories based on visit history: {profile} \n"
     "Today is a {date}. \n"
+    "The last {date} trajectory of the user is: {last_day_traj} \n"
     "Task: Predict the daily trajectory of the user for this date. \n"
     "Predict the sequence of visits, including the start time, the location (H3 index), and the stay duration (in minutes). \n"
     "Return ONLY a JSON list with the following format and no extra text:\n"

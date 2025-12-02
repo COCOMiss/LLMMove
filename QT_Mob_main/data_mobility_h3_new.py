@@ -8,7 +8,7 @@ from h3_prompt_mobility import *
 import pandas as pd
 import pickle
 from tqdm import tqdm
-from datetime import datetime
+from datetime import datetime, timedelta
 from logger_utils import get_logger
 import gc
 from functools import partial                                     
@@ -100,12 +100,13 @@ class BaseDataset(Dataset):
         self.allowed_tokens = None
         self.all_items = None
         self.task_prompt = None
-        self.data_filename_list = ['20120809.feather','20120810.feather','20120811.feather','20120812.feather','20120817.feather','20120818.feather']
+        self.data_filename_list = ['20120809.feather','20120810.feather','20120811.feather','20120812.feather','20120816.feather','20120817.feather','20120818.feather','20120819.feather']
         # self.data_filename_list = [f for f in os.listdir(self.data_path) if f.endswith(".feather") and "2012081" in f]
         # # import re
         # self.data_filename_list = [f for f in os.listdir(self.data_path) if re.search(r"2\d\.feather$", f)]
         self.multi_seq = args.multi_seq
         self.add_profile = args.add_profile
+        self.add_last_day = args.add_last_day
         self.multi_rec = args.multi_rec
         self.single_rec = args.single_rec
         self.abalation_location_prompt = args.ablation_location_prompt
@@ -235,6 +236,20 @@ class BaseDataset(Dataset):
 
 class DailyTrajDataset(BaseDataset):
     # Task --  Predict Daily Trajectory
+    
+    def find_last_day(self,date):
+        # 找到 date 日期的上一个工作日
+        if is_holiday(date) == "Workday":
+            date = datetime.strptime(date, '%Y%m%d').date()
+            date -= timedelta(days=1)
+            while is_holiday(date.strftime('%Y%m%d')) != "Workday":
+                date -= timedelta(days=1)
+            return date
+        else:
+            date = datetime.strptime(date, '%Y%m%d').date()
+            while date.weekday() != 5:
+                date -= timedelta(days=1)
+            return date
 
     def __init__(self, args, mode="train"):
         super().__init__(args)
@@ -302,10 +317,13 @@ class DailyTrajDataset(BaseDataset):
         # if split_idx % 2 == 0:
         #     split_idx += 1 if split_idx < len(self.data_filename_list) else -1
         
+        #inter_data_dict[date] = [trajectory_data]
         if self.mode == "train":
             self.inter_data_dict = self.load_multi_days_data(0,4)
         else:
             self.inter_data_dict = self.load_multi_days_data(4,len(self.data_filename_list))
+            
+        
         # self.inter_data_dict = self.load_multi_days_data()
         
         self._process_stay_data()
@@ -329,15 +347,17 @@ class DailyTrajDataset(BaseDataset):
         
         for day_time, trajectory_data in self.inter_data_dict.items():
             if day_time not in self.stay_data.keys():
-                self.stay_data[day_time]=[]
+                self.stay_data[day_time]={}
             stay_data = trajectory_data[trajectory_data['transport_mode'] == 'STAY']
             user_set = stay_data['user_id'].unique()
             
             for user_id in tqdm(user_set, desc="Processing STAY DATA"):
+                traj_session=[]
+                
                 trajs = stay_data[stay_data['user_id'] == user_id]
                 trajs = trajs.sort_values(['trajectory_num', 'point_order'], ascending=True)
                 trajs = trajs.reset_index()
-                traj_session=[]
+                
                 # traj_nums = trajs['trajectory_num'].unique()
                 for index, row in trajs.iterrows(): 
                     if index%2 ==0:
@@ -363,8 +383,9 @@ class DailyTrajDataset(BaseDataset):
                         else:
                             continue
                  
-                if len(traj_session) >= 2:
-                    self.stay_data[day_time].append(traj_session)
+                if len(traj_session) >= 5:
+                    self.stay_data[day_time][user_id]=traj_session
+                   
         
   
     
@@ -372,12 +393,40 @@ class DailyTrajDataset(BaseDataset):
         logger.info("Processing Daily Trajectory Dataset...")       
         inter_data = []
         
-        for date, day_trajectory in tqdm(self.stay_data.items(), desc="Processing Daily Trajectory Dataset"):
+        for date, day_trajectory_dict in tqdm(self.stay_data.items(), desc="Processing Daily Trajectory Dataset"):
             
-            for user_trajectory in day_trajectory:
-                # 按照 trajectory_num (第4个元素, 即下标3) 对 user_trajectory 排序
-                # 对 user_trajectory 按 trajectory_num 排序，若已有序则不变
-                # 实际上 user_trajectory 默认应已按序，可以校验是否排序有变化：
+            # 如果 add_last_day 为 True，则跳过没有 last_day 的日期
+            if self.add_last_day:
+                last_day = self.find_last_day(date)
+                last_day_str = last_day.strftime('%Y%m%d')  # 转换为YYYYMMDD格式的字符串
+                if last_day_str not in self.stay_data.keys():
+                    continue
+                else:
+                    last_day_dict = self.stay_data[last_day_str]
+                    
+            
+            for user_id, user_trajectory in day_trajectory_dict.items():
+                
+                #首先按照判断该user 是否存在上一天的轨迹
+                one_data = dict()
+                if self.add_last_day:
+                    if user_id not in last_day_dict.keys():
+                        continue
+                    last_day_data = last_day_dict[user_id]
+                    last_day_trajectory = sorted(last_day_data, key=lambda x: int(x[3].split('_')[1]))
+                    one_data["last_day_traj"] = json.dumps(
+                        [
+                            {   "id":str(i+1),
+                                "start_time": format_time_field(trajectory[1]),
+                                "h3_index": "".join(self.codebook[trajectory[0]]),
+                                "stay_duration": f"{self.get_stay_duration(trajectory[4])} min"
+                            } 
+                            for i, trajectory in enumerate(last_day_trajectory) 
+                            if trajectory[0] in self.codebook
+                        ],
+                        ensure_ascii=False)
+                    
+                    
                 user_trajectory = sorted(user_trajectory, key=lambda x: int(x[3].split('_')[1]))
 
                 # 数据验证：检查trajectory数据的完整性
@@ -388,15 +437,14 @@ class DailyTrajDataset(BaseDataset):
                     h3_idx, time_val, user_id, traj_num, duration = traj
                     if h3_idx not in self.codebook:
                         logger.warning(f"H3 index '{h3_idx}' not found in codebook. Available keys sample: {list(self.codebook.keys())[:3]}")
+                
+
                 #0: h3 index, 1: time, 2: user id, 3: trajectory num, 4: duration
-                one_data = dict()
                 one_data["user"] = user_trajectory[0][2]
                 one_data["response"] = "prediction:"
                 # 获取date是否是节假日，假设有一个 is_holiday 方法可用
                 one_data["date"] = is_holiday(date)
                 if self.add_profile:
-                    
-                    
                     # profile = self.user_profile.loc[self.user_profile['user_id'] == int(one_data["user"])]
                     if one_data["date"] == "Workday":
                         profile = self.user_profile_weekday.loc[self.user_profile_weekday['user_id'] == int(one_data["user"])]
@@ -405,8 +453,7 @@ class DailyTrajDataset(BaseDataset):
                     one_data["profile"] = profile['profile'].values[0] if not profile.empty else ""
                 else:
                     one_data["profile"] = ""
-                
-                
+                 
                 
                 try:
                     one_data["prediction"] = json.dumps(
@@ -416,6 +463,7 @@ class DailyTrajDataset(BaseDataset):
                                 "h3_index": "".join(self.codebook[trajectory[0]]),
                                 "stay_duration": f"{self.get_stay_duration(trajectory[4])} min"
                             } for i,trajectory in enumerate(user_trajectory)
+                            if trajectory[0] in self.codebook
                         ],
                         ensure_ascii=False)
                         
