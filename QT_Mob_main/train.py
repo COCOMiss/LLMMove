@@ -1,4 +1,5 @@
 import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0,1" 
 import json
 import torch
 import argparse
@@ -13,22 +14,24 @@ from trl import SFTTrainer, SFTConfig
 from seq_collator import CompletionOnlyCollator,SEQ_RESPONSE_TAG,END_TAG
 from collator import TestCollator
 from peft import PeftConfig, PeftModel
+from liger_kernel.transformers import apply_liger_kernel_to_qwen2
 
 logger = get_logger(__name__)
-"""
-Usage:
 
-CUDA_VISIBLE_DEVICES="2,3,4,6"  torchrun --nproc_per_node=4 train.py 
-"""
 logger.info("==== Training script started ====")
+
+
 
 def main(args):
     # 强制使用所有可见的GPU进行分布式训练
     # 检查可用的GPU数量
-    available_gpus = torch.cuda.device_count()
-    print(f"Available GPUs: {available_gpus}")
-    for i in range(available_gpus):
-        print(f"GPU {i}: {torch.cuda.get_device_name(i)}")
+    # available_gpus = torch.cuda.device_count()
+    # print(f"Available GPUs: {available_gpus}")
+    # for i in range(available_gpus):
+    #     print(f"GPU {i}: {torch.cuda.get_device_name(i)}")
+    
+    logger.info("Applying Liger Kernel optimizations for Qwen...")
+    apply_liger_kernel_to_qwen2()  # <--- 这行代码价值 20GB 显存
 
     accelerator = Accelerator()
     try:
@@ -110,12 +113,24 @@ def main(args):
                 bnb_4bit_quant_storage=torch_dtype,
             )
 
+            if args.quantize:
+                quantization_config = BitsAndBytesConfig(
+                    load_in_4bit=True,
+                    bnb_4bit_compute_dtype=torch_dtype,
+                    # This enables offloading parts of the model to CPU if GPU is full
+                    llm_int8_enable_fp32_cpu_offload=True 
+                )
+            else:
+                quantization_config = None
+
+            # 2. Update the model loading call
             model = AutoModelForCausalLM.from_pretrained(
                 args.base_model,
                 use_cache=False,
                 torch_dtype=torch_dtype,
-                quantization_config=quantization_config if args.quantize else None,
-                device_map="auto",
+                quantization_config=quantization_config,
+                # 'auto' is generally better for offloading than 'balanced' when memory is tight
+                device_map="auto", 
                 trust_remote_code=True,
             )
 

@@ -247,7 +247,7 @@ class DailyTrajDataset(BaseDataset):
             self.codebook = json.load(f)
         logger.info(f"Initializing daily trajectory dataset (mode={self.mode})")   
         
-        cache_root = os.path.join("QT_Mob_main", "dataset", self.mode, "zdc_h3_8")
+        cache_root = os.path.join("LLMMove", "QT_Mob_main", "dataset", self.mode, "zdc_h3_8")
         cache_file = os.path.join(cache_root, "daily_traj_dataset.feather")
 
         if not os.path.exists(cache_file):
@@ -449,50 +449,37 @@ class SeqDataset(BaseDataset):
         logger.info(f"Initializing SeqDataset (mode={self.mode})")
         
         
-        ## 生成next loc dataset
+        
+        cache_root = os.path.join("LLMMove", "QT_Mob_main", "dataset", self.mode, "zdc_h3_8")
+        cache_file = os.path.join(cache_root, "seq_dataset.feather")
+
+        if not os.path.exists(cache_file):
+            logger.warning(
+                f"Cache file {cache_file} not found. Generating from raw data located at {self.data_path}."
+            )
+            self._build_and_cache_seq(cache_root, cache_file)
+
         try:
-            if self.mode=="valid":
-                self._load_data()
-                self._remap_items()
-                self.inter_data = self._process_data()
-                pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/valid/zdc/seq_dataset.feather")
-            if self.mode == "train":
-                self._load_data()
-                self._remap_items()
-                self.inter_data = self._process_data()
-                pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/train/zdc/seq_dataset.feather")
-            if self.mode=="test":
-                self._load_data()
-                self._remap_items()
-                self.inter_data = self._process_data()
-                pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/test/zdc/seq_dataset.feather")
+            self.inter_data = pd.read_feather(cache_file).to_dict(orient="records")
             logger.info(f"SeqDataset loaded successfully: {len(self.inter_data)} samples.")
         except Exception:
             logger.exception("SeqDataset initialization failed.")
             raise
-        logger.info(f"SeqDataset data loaded ({len(self.inter_data)} STAY points).")
+        logger.info(f"seq dataset loaded ({len(self.inter_data)} STAY points).")
         
-        # 加载next loc dataset
-        # try:
-        #     if self.mode=="valid":
-        #         # self._load_data()
-        #         # self._remap_items()
-        #         # self.inter_data = self._process_data()
-        #         self.inter_data=pd.read_feather("LLMMove/QT_Mob_main/dataset/valid/zdc/seq_dataset.feather")
-        #         self.inter_data=self.inter_data.to_dict(orient="records")
-        #     if self.mode == "train":
-        #         self.inter_data=pd.read_feather("LLMMove/QT_Mob_main/dataset/train/zdc/seq_dataset.feather")
-        #         self.inter_data=self.inter_data.to_dict(orient="records")
-        #         # pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/train/inner_data_seq_dataset.feather")
-        #     if self.mode=="test":
-        #         self.inter_data=pd.read_feather("LLMMove/QT_Mob_main/dataset/test/zdc/seq_dataset.feather")
-        #         self.inter_data=self.inter_data.to_dict(orient="records")                
-        #     #     pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/test/inner_data_seq_dataset.feather")
-        #     logger.info(f"SeqDataset loaded successfully: {len(self.inter_data)} samples.")
-        # except Exception:
-        #     logger.exception("SeqDataset initialization failed.")
-        #     raise
-        # logger.info(f"SeqDataset data loaded ({len(self.inter_data)} STAY points).")
+    def _build_and_cache_seq(self, cache_root, cache_file):
+        """
+        Build the sequence dataset from raw files when the cached feather file is missing.
+        """
+        try:
+            os.makedirs(cache_root, exist_ok=True)
+            self._load_data()
+            self.inter_data = self._process_data()
+            pd.DataFrame(self.inter_data).to_feather(cache_file)
+            logger.info(f"Cached sequence dataset to {cache_file}")
+        except Exception:
+            logger.exception("Failed to build sequence cache.")
+            raise
 
     def get_stay_duration(self, duration: float) -> int:
         """
@@ -514,6 +501,11 @@ class SeqDataset(BaseDataset):
         
         logger.info("Loading data for SeqDataset...")       
         self.inter_data_dict = self.load_multi_days_data()
+        
+        # if self.mode == "train":
+        #     self.inter_data_dict = self.load_multi_days_data(0,4)
+        # else:
+        #     self.inter_data_dict = self.load_multi_days_data(4,len(self.data_filename_list))
         
         self._process_stay_data()
         self._free_attrs("inter_data_dict")
@@ -583,12 +575,15 @@ class SeqDataset(BaseDataset):
                 
                 ##之前的排序似乎有问题，在这里重新排序
                 trajectory = sorted(trajectory, key=lambda x: int(x[3].split('_')[1]))
-                new_trajectory = [("".join(self.codebook[loc[0]]) ,loc[1],loc[0],loc[2],loc[3],loc[4]) for loc  in trajectory]
-                # new_trajectory = [("".join(self.indices[str(self.loc2id[(loc[0],loc[1])])]),loc[2],loc[0],loc[1],loc[3],loc[4]) for loc in trajectory]
+              
+                new_trajectory = [
+                    ("".join(self.codebook[h3_idx]),date, time_val, user_id, traj_num, duration) 
+                    for h3_idx, time_val, user_id, traj_num, duration in trajectory 
+                    if h3_idx in self.codebook
+                ]
                 self.remapped_inters.append(new_trajectory)
         logger.info(f"Remapping complete: {len(self.remapped_inters)} trajectories in SeqDataset·····.")    
         self._free_attrs("stay_data")
-
     
     def _process_data(self):
         logger.info("Processing SeqDataset trajectories...")       
@@ -607,8 +602,10 @@ class SeqDataset(BaseDataset):
             
             for i in range(start, end):
                 try:
+                    
+                    # join(self.codebook[h3_idx]),date, time_val, user_id, traj_num, duration
                     one_data = dict()
-                    one_data["user"] = trajectory[i][3]
+                    one_data["user"] = trajectory[i][4]
                     # JSON output: assistant response tag + JSON prediction
                     one_data["response"] = "prediction:"
                     one_data["prediction"] = json.dumps(
@@ -626,7 +623,9 @@ class SeqDataset(BaseDataset):
                         
                         
                         history = [
-                            "At time " + (item_idx[1].strftime("%I:%M %p") if hasattr(item_idx[1], 'strftime') else datetime.fromisoformat(item_idx[1]).strftime("%I:%M %p")) + ", user " + str(item_idx[3]) + " stayed at H3 index " + item_idx[0] + " for " + str(self.get_stay_duration(trajectory[i][5])) + " min."
+                            "At time " + (item_idx[1].strftime("%I:%M %p") if hasattr(item_idx[2], 'strftime') 
+                                          else datetime.fromisoformat(item_idx[2]).strftime("%I:%M %p")) + 
+                            ", user " + str(item_idx[3]) + " stayed at H3 index " + item_idx[0] + " for " + str(self.get_stay_duration(trajectory[i][5])) + " min."
                             for item_idx in history
                         ]
 
@@ -635,7 +634,8 @@ class SeqDataset(BaseDataset):
                     if self.add_prefix:
                         history = [str(k+1) + ". " + item_idx for k, item_idx in enumerate(history)] # 添加序号前缀 1. item1 
                     one_data["inters"] = self.his_sep.join(history)
-                    one_data["time"] = trajectory[i][1]
+                    one_data["time"] = trajectory[i][2]
+                    one_data["date"] = is_holiday(trajectory[i][1])
                     if self.add_profile:  
                         if one_data["date"] == "Workday":
                             profile = self.user_profile_weekday.loc[self.user_profile_weekday['user_id'] == int(trajectory[i][3])]
@@ -1133,9 +1133,9 @@ class TrajectoryTranslationDataset(BaseDataset):
             self._remap_items()
             self.inter_data = self._process_data()
             if self.mode=="train":
-                pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/train/inner_data_taj_dataset.feather")
+                pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/train/inner_data_taj_dataset.feather")
             if self.mode=="test":
-                pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/test/inner_data_taj_dataset.feather")            
+                pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/test/inner_data_taj_dataset.feather")            
             logger.info(f"TrajectoryTranslationDataset ready with {len(self.inter_data)} records.")
         except Exception:
             logger.exception("TrajectoryTranslationDataset initialization failed.")

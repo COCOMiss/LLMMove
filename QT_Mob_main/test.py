@@ -1,358 +1,32 @@
-# import argparse
-# import os
-# import torch
-# from torch.utils.data import DataLoader
-# from tqdm import tqdm
-# from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
-# from collator import TestCollator
-# from h3_prompt_mobility import all_prompt
-# from evaluate import get_topk_results, get_metrics_results, get_daily_traj_results, get_seq_results
-# from peft import PeftConfig, PeftModel
-# from utils import set_seed, load_test_dataset, parse_global_args, parse_dataset_args, parse_test_args
-# from pathlib import Path
-# import json
-# from seq_constrained_generator import FinalConstrainedGenerator, InspectLogitsProcessor
-# from traj_constrained_generator import TrajConstrainedGenerator
-# import logging
-
-# # ===== 加载logger =====
-# def get_logger():
-#     logger = logging.getLogger("QT-Mob-Test")
-#     if len(logger.handlers) == 0:
-#         handler = logging.StreamHandler()
-#         formatter = logging.Formatter(
-#             "[%(asctime)s][%(levelname)s]: %(message)s", "%Y-%m-%d %H:%M:%S"
-#         )
-#         handler.setFormatter(formatter)
-#         logger.addHandler(handler)
-#     logger.setLevel(logging.INFO)
-#     return logger
-
-# logger = get_logger()
-
-# # 设置 Tokenizers 并行
-# os.environ["TOKENIZERS_PARALLELISM"] = "false"
-# os.environ.setdefault("CUDA_DEVICE_ORDER", "PCI_BUS_ID")
-
-# # 切换工作路径
-# try:
-#     os.chdir("/home/linyuxi/LLM")
-#     logger.info(f"Changed working directory to: {os.getcwd()}")
-# except FileNotFoundError:
-#     logger.warning("Directory /home/linyuxi/LLM not found, using current directory.")
-
-# codebook_path = "LLMMove/QT_Mob_main/dataset/location_r8.json"
-
-# codebook = None
-# if os.path.exists(codebook_path):
-#     with open(codebook_path, "r", encoding="utf-8") as f:
-#         codebook = json.load(f)
-# else:
-#     logger.error(f"Codebook not found at {codebook_path}")
-#     # 这里根据需求，如果没有codebook是否需要报错退出
-#     # raise FileNotFoundError("Codebook not found")
-
-# def test(args):
-#     # ===== 1. 设置设备 =====
-#     # 获取用户指定的 device ID (例如 "0", "1", "2", "3")
-#     target_device_id = str(getattr(args, 'device', '0,1'))
-    
-#     # 将可见设备设置为用户指定的那个 ID
-#     # 这样 PyTorch 内部只需要使用 "cuda:0"，它会自动映射到对应的物理显卡
-#     os.environ["CUDA_VISIBLE_DEVICES"] = target_device_id
-#     logger.info(f"Running on Physical GPU: {target_device_id}")
-    
-#     # 逻辑设备固定为 cuda:0 (因为我们只让一张卡可见)
-
-
-#     # ===== 参数处理 =====
-#     if isinstance(args.quantize, str):
-#         args.quantize = args.quantize.lower() == "true"
-#     if isinstance(args.indexing, str):
-#         args.indexing = args.indexing.lower() == "true"
-#     if isinstance(args.multi_seq, str):
-#         args.multi_seq = args.multi_seq.lower() == "true"
-#     if isinstance(args.add_profile, str):
-#         args.add_profile = args.add_profile.lower() == "true"
-#     if isinstance(args.add_prefix, str):
-#         args.add_prefix = args.add_prefix.lower() == "true"
-#     if isinstance(args.filter_items, str):
-#         args.sft_json_output = args.sft_json_output.lower() == "true"
-#     if isinstance(args.multi_rec, str):
-#         args.multi_rec = args.multi_rec.lower() == "true"
-#     if isinstance(args.single_rec, str):
-#         args.single_rec = args.single_rec.lower() == "true"
-
-#     set_seed(args.seed)
-#     logger.info(f"Args: {vars(args)}")
-    
-#     # 保存测试参数
-#     if not os.path.exists(args.ckpt_path):
-#         logger.error(f"Checkpoint path does not exist: {args.ckpt_path}")
-#         return
-
-#     with open(os.path.join(args.ckpt_path, 'testing_args.json'), 'w') as f:
-#         json.dump(vars(args), f, indent=4)
-        
-#     logger.info(f"Loading model from: {args.ckpt_path}")
-    
-#     # 确定计算数据类型
-#     # 如果 args.torch_dtype 是 "float16" 则使用 float16，否则使用 bfloat16
-#     torch_dtype = torch.float16 if str(args.torch_dtype).lower() in ("float16", "fp16", "16") else torch.bfloat16
-        
-#     # ===== 2. 加载 Tokenizer (必须从 checkpoint 加载) =====
-#     tokenizer = AutoTokenizer.from_pretrained(args.ckpt_path, trust_remote_code=True)
-#     tokenizer.pad_token_id = tokenizer.eos_token_id
-#     tokenizer.model_max_length = 4096
-    
-#     logger.info("Use peft model with LoRA adapter")
-#     peft_config = PeftConfig.from_pretrained(args.ckpt_path)
-    
-#     # ===== 3. 配置量化 =====
-#     quantization_config = BitsAndBytesConfig(
-#         load_in_4bit=True,
-#         bnb_4bit_quant_type="nf4",
-#         bnb_4bit_use_double_quant=True,
-#         bnb_4bit_compute_dtype=torch_dtype,
-#         bnb_4bit_quant_storage=torch_dtype,
-#     )
-
-#     # ===== 4. 加载 Base Model =====
-#     # device_map="auto" 会自动将模型加载到当前可见的 GPU (即上面设置的 CUDA_VISIBLE_DEVICES)
-#     model = AutoModelForCausalLM.from_pretrained(
-#         peft_config.base_model_name_or_path,
-#         torch_dtype=torch_dtype,               # ✅ 使用变量传入，而不是写死
-#         quantization_config=quantization_config if args.quantize else None,
-#         device_map="auto",                     
-#         trust_remote_code=True,
-#     )
-    
-    
-
-        
-#     # ===== 5. 调整词表与加载 LoRA =====
-#     if args.indexing:
-#         logger.info(f"Resizing token embeddings to {len(tokenizer)}")
-#         model.resize_token_embeddings(len(tokenizer))
-
-#     model = PeftModel.from_pretrained(model, args.ckpt_path)
-    
-#     # 后处理
-#     model.generation_config.pad_token_id = tokenizer.pad_token_id
-
-#     # ===== 6. 准备 Prompt IDs =====
-#     if args.test_prompt_ids == "all":
-#         if args.test_task == "seq":
-#             prompt_ids = range(len(all_prompt["seq"]))
-#         elif args.test_task == "daily_traj":
-#             prompt_ids = range(len(all_prompt["daily_traj"]))
-#         else:
-#             prompt_ids = range(len(all_prompt["rec_single"]))
-#     else:
-#         prompt_ids = [int(_) for _ in args.test_prompt_ids.split(",")]
-
-#     # ===== 7. 数据加载 =====
-#     test_data = load_test_dataset(args)
-#     collator = TestCollator(args, tokenizer) 
-    
-#     all_items = test_data.get_all_items()
-    
-#     # 初始化约束生成器
-#     constrained_generator = None
-#     if args.indexing:
-#         logger.info("Using indexing (Constrained Generation)")
-#         if args.test_task == "seq":
-#             constrained_generator = FinalConstrainedGenerator(tokenizer, codebook)
-#         else:
-#             # 确保 codebook 存在，否则 traj 生成器可能会报错
-#             if codebook is None:
-#                  raise ValueError("Codebook is required for TrajConstrainedGenerator")
-#             constrained_generator = TrajConstrainedGenerator(tokenizer, codebook)
-
-#     logger.info("Using Beam Search for evaluation")
-#     test_loader = DataLoader(test_data, batch_size=args.test_batch_size, collate_fn=collator,
-#                              shuffle=True, num_workers=4, pin_memory=True)
-    
-#     if args.limit_test_size:
-#         logger.info("Limit test size to 1000")
-
-#     model.eval()
-
-#     metrics = args.metrics.split(",")
-#     all_prompt_results = []
-    
-#     # 初始化 Logits 检查器
-#     logits_inspector = InspectLogitsProcessor(tokenizer)
-    
-#     # ===== 8. 推理循环 =====
-#     with torch.no_grad():
-#         for prompt_id in prompt_ids: 
-
-#             test_loader.dataset.set_prompt(prompt_id)
-#             metrics_results = {}
-#             total = 0
-
-#             for batch_idx, batch in enumerate(test_loader):
-#                 if batch_idx % 10 == 0:
-#                     logger.info(f"Processing batch {batch_idx}")
-
-#                 batch_inputs, targets = batch
-#                 device = torch.device("cuda:0")
-#                 # 将输入移到 GPU (device此时是 cuda:0)
-#                 inputs = {k: v.to(device) for k, v in batch_inputs.items()}
-                
-#                 prompt_length = inputs["input_ids"].shape[1]
-                
-#                 # 获取约束函数
-#                 prefix_fn = None
-#                 if constrained_generator:
-#                     prefix_fn = constrained_generator.get_prefix_allowed_tokens_fn(
-#                         prompt_lengths=prompt_length,
-#                         logits_inspector=logits_inspector
-#                     )
-              
-#                 total += len(targets)
-                
-#                 #生成
-#                 output = model.generate(
-#                     input_ids=inputs["input_ids"],
-#                     attention_mask=inputs["attention_mask"],
-#                     max_new_tokens=512,
-#                     do_sample=True,             # 使用 beam search 的采样配置
-#                     prefix_allowed_tokens_fn=prefix_fn,
-#                     logits_processor=[logits_inspector], 
-#                     temperature=0.7,            # 之前代码设置的参数
-#                     top_p=1.0,
-#                     output_scores=True,         # 需要返回 scores
-#                     return_dict_in_generate=True,
-#                 )
-#                 # output = model.generate(
-#                 #     input_ids=inputs["input_ids"],
-#                 #     attention_mask=inputs["attention_mask"],
-#                 #     max_new_tokens=1024,
-#                 #     num_beams=15,           # 使用 beam search 的采样配置
-#                 #     prefix_allowed_tokens_fn=prefix_fn,
-#                 #     logits_processor=[logits_inspector], 
-#                 #     num_return_sequences=15,
-#                 #     output_scores=True,         # 需要返回 scores
-#                 #     return_dict_in_generate=True,
-#                 #     early_stopping=True
-#                 # )                
-                
-#                 # 处理输出
-#                 output_ids = output["sequences"]
-#                 scores = output["scores"]
-                
-#                 # 解码
-#                 output_text = tokenizer.batch_decode(output_ids, skip_special_tokens=True)
-                
-#                 # 评估
-#                 if args.test_task == "daily_traj":
-#                     metrics_res = get_daily_traj_results(output_text, targets, scores, metrics, all_items if args.filter_items else None)
-#                 elif args.test_task == "seq":
-#                     metrics_res = get_seq_results(output_text, targets, scores, metrics, all_items if args.filter_items else None)
-#                 else:
-#                     raise ValueError(f"Invalid test task: {args.test_task}")
-
-#                 # 累加指标
-#                 for m, res in metrics_res.items():
-#                     if m not in metrics_results:
-#                         metrics_results[m] = res
-#                     else:
-#                         metrics_results[m] += res
-
-#                 if total % 20 == 0:
-#                     temp = {m: metrics_results[m] / total for m in metrics_results}
-#                     logger.info(f"Temp metric results at total {total}: {temp}")
-                
-#                 if args.limit_test_size and total >= 1000:
-#                     logger.info("Limit test size to 1000")
-#                     break
-
-#             # 计算当前 Prompt 的最终平均指标
-#             for m in metrics_results:
-#                 metrics_results[m] = metrics_results[m] / total
-
-#             all_prompt_results.append(metrics_results)
-#             logger.info("======================================================")
-#             logger.info(f"Prompt {prompt_id} results: {metrics_results}")
-#             logger.info("======================================================")
-#             logger.info("")
-
-#     # ===== 9. 保存结果 =====
-#     if len(all_prompt_results) == 1:
-#         single_result = all_prompt_results[0]
-#         save_data = {
-#             "test_task": args.test_task,
-#             "test_prompt_ids": args.test_prompt_ids,
-#             "single_result": single_result
-#         }
-#     else:
-#         mean_results = {}
-#         min_results = {}
-#         max_results = {}
-
-#         for m in metrics_results.keys(): # 使用最后一个 metrics_results 的 keys
-#             all_res = [_[m] for _ in all_prompt_results]
-#             mean_results[m] = sum(all_res) / len(all_res)
-#             min_results[m] = min(all_res)
-#             max_results[m] = max(all_res)
-    
-#         save_data = {
-#             "test_task": args.test_task,
-#             "test_prompt_ids": args.test_prompt_ids,
-#             "mean_results": mean_results,
-#             "min_results": min_results,
-#             "max_results": max_results,
-#             "all_prompt_results": all_prompt_results
-#         }
-
-#     with open(args.results_file, "w") as f:
-#         json.dump(save_data, f, indent=4)
-#     logger.info(f"Results saved to {args.results_file}")
-
-
-# if __name__ == "__main__":
-
-#     parser = argparse.ArgumentParser(description="QT-Mob test")
-    
-#     # 添加 device 参数，允许用户通过命令行指定
-#     parser.add_argument("--device", type=str, default="0", help="GPU Device ID (0, 1, 2, 3)")
-    
-#     parser = parse_global_args(parser)
-#     parser = parse_dataset_args(parser)
-#     parser = parse_test_args(parser)
-
-#     args = parser.parse_args()
-    
-#     # 硬编码参数 (如果需要覆盖命令行)
-#     args.indexing = True
-#     # args.ckpt_path = "checkpoints/qwen_tokyo" # 如需测试可取消注释
-#     args.filter_items = True
-#     args.tasks = "seq"
-    
-#     # 如果你想在这里硬编码 device 也可以：
-#     # args.device = "1" 
-    
-#     test(args)
-
-
-
-
-import argparse
+# -*- coding: utf-8 -*-
 import os
-import torch
-from torch.utils.data import DataLoader
-from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
-from collator import TestCollator
-from h3_prompt_mobility import all_prompt
-from evaluate import get_daily_traj_results, get_seq_results
-from peft import PeftConfig, PeftModel
-from utils import set_seed, load_test_dataset, parse_global_args, parse_dataset_args, parse_test_args
 import json
 import logging
+import argparse
+from typing import List, Dict, Any
 
-# ===== logger =====
+import torch
+from torch.utils.data import DataLoader
+from transformers import (
+    AutoTokenizer, 
+    AutoModelForCausalLM, 
+    BitsAndBytesConfig
+)
+from peft import PeftConfig, PeftModel
+
+# Local imports
+from collator import TestCollator
+from h3_prompt_mobility import all_prompt
+from evaluate import get_daily_traj_results, get_seq_results, extract_json_array
+from utils import (
+    set_seed, 
+    load_test_dataset, 
+    parse_global_args, 
+    parse_dataset_args, 
+    parse_test_args
+)
+
+# ===== Logger Configuration =====
 def get_logger():
     logger = logging.getLogger("QT-Mob-Test")
     if len(logger.handlers) == 0:
@@ -367,65 +41,38 @@ def get_logger():
 
 logger = get_logger()
 
-# 关闭 tokenizer 并行
+# Environment Setup
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 os.environ.setdefault("CUDA_DEVICE_ORDER", "PCI_BUS_ID")
 
-# 切换工作路径（可选）
+# Set working directory
 try:
-    os.chdir("/home/linyuxi/LLM")
+    WORK_DIR = "/home/linyuxi/LLM"
+    os.chdir(WORK_DIR)
     logger.info(f"Changed working directory to: {os.getcwd()}")
 except FileNotFoundError:
-    logger.warning("Directory /home/linyuxi/LLM not found, using current directory.")
+    logger.warning(f"Directory {WORK_DIR} not found, using current directory.")
 
 
-def test(args):
-    # ===== 1. 设置可见 GPU =====
-    # 支持传 "0" 或 "0,1"
-    # target_device_ids = str(getattr(args, 'device', '0'))
-    # os.environ["CUDA_VISIBLE_DEVICES"] = target_device_ids
-    # logger.info(f"Visible Physical GPUs: {target_device_ids}")
+def str2bool(x):
+    return str(x).lower() == "true"
 
-    # # 逻辑上的主设备：cuda:0（对应上面列表里的第一个）
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-    # ===== 2. 处理布尔参数 =====
-    def str2bool(x):
-        return x.lower() == "true"
-
-    if isinstance(args.quantize, str):
-        args.quantize = str2bool(args.quantize)
-    if isinstance(args.indexing, str):
-        args.indexing = str2bool(args.indexing)
-    if isinstance(args.multi_seq, str):
-        args.multi_seq = str2bool(args.multi_seq)
-    if isinstance(args.add_profile, str):
-        args.add_profile = str2bool(args.add_profile)
-    if isinstance(args.add_prefix, str):
-        args.add_prefix = str2bool(args.add_prefix)
-    if isinstance(args.filter_items, str):
-        args.filter_items = str2bool(args.filter_items)
-    if isinstance(args.multi_rec, str):
-        args.multi_rec = str2bool(args.multi_rec)
-    if isinstance(args.single_rec, str):
-        args.single_rec = str2bool(args.single_rec)
-
-    set_seed(args.seed)
-    logger.info(f"Args: {vars(args)}")
-
-    # ===== 3. 检查 checkpoint 路径 & 保存 testing_args =====
+def load_model_and_tokenizer(args, device):
+    """
+    加载模型和分词器的辅助函数
+    """
     if not os.path.exists(args.ckpt_path):
-        logger.error(f"Checkpoint path does not exist: {args.ckpt_path}")
-        return
+        raise FileNotFoundError(f"Checkpoint path does not exist: {args.ckpt_path}")
 
+    # Save testing args
     with open(os.path.join(args.ckpt_path, 'testing_args.json'), 'w') as f:
         json.dump(vars(args), f, indent=4)
 
-    logger.info(f"Loading model from: {args.ckpt_path}")
-
-    # ===== 4. dtype & 量化配置 =====
+    # Determine dtype
     torch_dtype = torch.float16 if str(args.torch_dtype).lower() in ("float16", "fp16", "16") else torch.bfloat16
 
+    # Quantization Config
     quantization_config = None
     if args.quantize:
         quantization_config = BitsAndBytesConfig(
@@ -436,230 +83,220 @@ def test(args):
             bnb_4bit_quant_storage=torch_dtype,
         )
 
-    # ===== 5. 加载 tokenizer（从 ckpt） =====
+    # Load Tokenizer
     tokenizer = AutoTokenizer.from_pretrained(args.ckpt_path, trust_remote_code=True)
     if tokenizer.pad_token_id is None:
         tokenizer.pad_token_id = tokenizer.eos_token_id
     tokenizer.model_max_length = args.cutoff_len
 
-    # ===== 6. 加载 base model + LoRA adapter =====
-    logger.info("Use peft model with LoRA adapter")
+    # Load Base Model
     peft_config = PeftConfig.from_pretrained(args.ckpt_path)
-
-    logger.info(f"Base model: {peft_config.base_model_name_or_path}")
     model = AutoModelForCausalLM.from_pretrained(
         peft_config.base_model_name_or_path,
         torch_dtype=torch_dtype,
         quantization_config=quantization_config,
-        device_map="auto",           # 利用所有可见 GPU；输入放到 cuda:0 即可
+        device_map="auto",
         trust_remote_code=True,
     )
 
-    # 一般从 ckpt 读 tokenizer 时，embedding 大小已经匹配，这里可以不用再 resize
-    # 如果你特别不放心，可以保留这一行，但不是必须：
+    # Resize embeddings if needed
     if args.indexing:
         model.resize_token_embeddings(len(tokenizer))
 
+    # Load Adapter
     model = PeftModel.from_pretrained(model, args.ckpt_path)
+    
     if getattr(model, "generation_config", None) is not None:
         model.generation_config.pad_token_id = tokenizer.pad_token_id
 
     model.eval()
+    return model, tokenizer
 
-    # ===== 7. 准备 prompt_ids =====
+
+def test(args):
+    # ===== 1. 设置设备 =====
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+
+    # ===== 2. 处理布尔参数 =====
+    for attr in ['quantize', 'indexing', 'multi_seq', 'add_profile', 
+                 'add_prefix', 'filter_items', 'multi_rec', 'single_rec']:
+        if hasattr(args, attr) and isinstance(getattr(args, attr), str):
+            setattr(args, attr, str2bool(getattr(args, attr)))
+
+    set_seed(args.seed)
+    
+    # ===== 3. 加载模型 =====
+    try:
+        model, tokenizer = load_model_and_tokenizer(args, device)
+    except Exception as e:
+        logger.error(f"Model loading failed: {e}")
+        return
+
+    # ===== 4. 准备 Prompt IDs =====
     if args.test_prompt_ids == "all":
-        if args.test_task == "seq":
-            prompt_ids = range(len(all_prompt["seq"]))
-        elif args.test_task == "daily_traj":
-            prompt_ids = range(len(all_prompt["daily_traj"]))
+        prompt_map = {
+            "seq": all_prompt["seq"],
+            "daily_traj": all_prompt["daily_traj"],
+            "rec_single": all_prompt["rec_single"] 
+        }
+        if args.test_task in prompt_map:
+             prompt_ids = range(len(prompt_map[args.test_task]))
         else:
-            prompt_ids = range(len(all_prompt["rec_single"]))
+             prompt_ids = range(len(all_prompt.get("rec_single", [])))
     else:
         prompt_ids = [int(_) for _ in args.test_prompt_ids.split(",")]
 
-    # ===== 8. 数据加载 =====
+    # ===== 5. 准备数据 =====
     test_data = load_test_dataset(args)
     collator = TestCollator(args, tokenizer)
     all_items = test_data.get_all_items()
 
-    logger.info("Using Beam Search / Greedy decoding for evaluation")
+    # ★★★ Beam Search 设置 ★★★
+    BEAM_SIZE = 5  # 设置 Beam Size 为 5
+    logger.info(f"Beam Search Config: Num Beams={BEAM_SIZE}, Num Return Sequences={BEAM_SIZE}")
+
     test_loader = DataLoader(
         test_data,
         batch_size=args.test_batch_size,
         collate_fn=collator,
-        shuffle=True,
+        shuffle=True, 
         num_workers=4,
         pin_memory=True
     )
 
-    if args.limit_test_size:
-        logger.info("Limit test size to 1000")
-
-    metrics = args.metrics.split(",")
+    metrics_list = args.metrics.split(",")
     all_prompt_results = []
 
-    # 默认 beam 数（如果 args 里没有 num_beams，就用 5）
-    num_beams = 5
-
-    # ===== 9. 推理循环（不使用任何 prefix/restrictor） =====
+    # ===== 6. 推理循环 =====
     with torch.no_grad():
         for prompt_id in prompt_ids:
-
+            logger.info(f"=== Testing Prompt ID: {prompt_id} ===")
             test_loader.dataset.set_prompt(prompt_id)
-            metrics_results = {}
-            total = 0
+            
+            metrics_accumulator = {}
+            total_samples = 0
 
             for batch_idx, batch in enumerate(test_loader):
                 if batch_idx % 10 == 0:
-                    logger.info(f"Processing batch {batch_idx}")
+                    logger.info(f"Processing batch {batch_idx}/{len(test_loader)}")
 
                 batch_inputs, targets = batch
-
-                # 输入放到主设备（cuda:0）
+                batch_size = len(targets)
                 inputs = {k: v.to(device) for k, v in batch_inputs.items()}
-                total += len(targets)
+                total_samples += batch_size
 
-                # === 核心：干净的 generate 配置 ===
-                # 先用确定性输出（beam search / greedy），方便评估 & debug
-                # output = model.generate(
-                #     input_ids=inputs["input_ids"],
-                #     attention_mask=inputs["attention_mask"],
-                #     max_new_tokens=512,
-                #     do_sample=True,           # 不采样，纯 beam / greedy
-                #     temperature=0.2,
-                #     top_p=0.7,
-                #     output_scores=True,
-                #     return_dict_in_generate=True,
-                #     eos_token_id=tokenizer.eos_token_id,
-                # )
-                
-                
-                
-                # 在 test.py 的生成部分（第 214-227 行）修改为：
-
-                # output = model.generate(
-                #     input_ids=inputs["input_ids"],
-                #     attention_mask=inputs["attention_mask"],
-                #     max_new_tokens=512,              # ✅ 从 1024 降到 512，防止生成太多废话
-                #     do_sample=True,      
-                #     # ✅ 改进采样参数
-                #     temperature=0.5,                 # 从 0.7 提升到 0.8，增加多样性
-                #     top_p=0.8,                      # 从 0.9 调整到 0.92，稍微放宽
-                #     top_k=10,                        # 从 50 降到 40，更严格的采样
-                #     # ✅ 重复惩罚关键参数
-                #     repetition_penalty=1.3,          # 从 1.5 降到 1.3，防止乱码
-                #     # ✅ 其他参数
-                #     length_penalty=0.6,              # 从 0.8 降到 0.6，更激励长序列
-                #     num_return_sequences=5,
-                #     output_scores=True,
-                #     return_dict_in_generate=True,
-                #     early_stopping=True,
-                # )
-                
-                
+                # === 生成 (Beam Search) ===
                 output = model.generate(
                     input_ids=inputs["input_ids"],
                     attention_mask=inputs["attention_mask"],
                     max_new_tokens=1024,
-                    num_beams=5,                  # ← Beam search
-                    do_sample=False,              # ← 不采样
-                    num_return_sequences=1,
-                    early_stopping=True
+                    do_sample=False,            # 关闭采样，启用 Beam Search
+                    num_beams=BEAM_SIZE,        # 设置 Beam Size
+                    num_return_sequences=BEAM_SIZE, # 每个样本返回 Top-Beam 序列
+                    repetition_penalty=1.1,
+                    output_scores=True,
+                    return_dict_in_generate=True,
+                    early_stopping=True,
+                    pad_token_id=tokenizer.pad_token_id
                 )
-                output_ids = output["sequences"]
-                scores = output["scores"]     # list[step] of logits
+                
+                # 解码所有生成的序列
+                # output.sequences shape: [batch_size * BEAM_SIZE, seq_len]
+                raw_generated_texts = tokenizer.batch_decode(output.sequences, skip_special_tokens=True)
 
-                # 解码
-                output_text = tokenizer.batch_decode(output_ids, skip_special_tokens=True)
+                # 简单清洗数据：提取 JSON 数组部分 (因为模型可能会输出一些废话)
+                # extract_json_array 返回的是一个 list，我们对每个生成结果都应用一下
+                cleaned_generated_texts = extract_json_array([t.strip() for t in raw_generated_texts])
+                
+                # 确保清洗后的列表长度一致，如果有空值则回退到原始文本(避免 list 长度不匹配)
+                final_texts_for_eval = []
+                for raw, clean in zip(raw_generated_texts, cleaned_generated_texts):
+                    final_texts_for_eval.append(clean if clean else raw.strip())
 
-                # 评估
+                # Debug 打印第一个样本的 Top-1 结果
+                if batch_idx % 5 == 0: 
+                    logger.info(f"\n[Sample Debug Info (Top-1 Beam)]")
+                    logger.info(f"Ground Truth: {targets[0]}")
+                    logger.info(f"Prediction: {final_texts_for_eval[0]}\n")
+
+                # === 评估 ===
+                # 这里直接传入所有 Beam 的结果 (batch_size * 5)
+                # 评估函数内部会根据 total_predictions // batch_size 来计算 Top-1 和 Top-5
+                eval_kwargs = {
+                    "output_text": final_texts_for_eval, 
+                    "targets": targets,
+                    "scores": None,
+                    "metrics": metrics_list,
+                    "all_items": all_items if args.filter_items else None
+                }
+
                 if args.test_task == "daily_traj":
-                    metrics_res = get_daily_traj_results(
-                        output_text, targets, scores, metrics,
-                        all_items if args.filter_items else None
-                    )
+                    batch_metrics = get_daily_traj_results(**eval_kwargs)
                 elif args.test_task == "seq":
-                    metrics_res = get_seq_results(
-                        output_text, targets, scores, metrics,
-                        all_items if args.filter_items else None
-                    )
+                    batch_metrics = get_seq_results(**eval_kwargs)
                 else:
                     raise ValueError(f"Invalid test task: {args.test_task}")
 
                 # 累加指标
-                for m, res in metrics_res.items():
-                    if m not in metrics_results:
-                        metrics_results[m] = res
-                    else:
-                        metrics_results[m] += res
+                for m, res in batch_metrics.items():
+                    metrics_accumulator[m] = metrics_accumulator.get(m, 0) + res
 
-                if total % 20 == 0:
-                    temp = {m: metrics_results[m] / total for m in metrics_results}
-                    logger.info(f"Temp metric results at total {total}: {temp}")
+                # 定期打印临时结果
+                if total_samples % 20 == 0:
+                    temp_avg = {m: val / total_samples for m, val in metrics_accumulator.items()}
+                    logger.info(f"Intermediate Metrics (n={total_samples}): {temp_avg}")
 
-                if args.limit_test_size and total >= 1000:
-                    logger.info("Limit test size to 1000")
+                if args.limit_test_size and total_samples >= 1000:
+                    logger.info("Hit test size limit (1000). Stopping prompt loop.")
                     break
 
-            # 当前 prompt 的平均指标
-            for m in metrics_results:
-                metrics_results[m] = metrics_results[m] / total
+            # === 当前 Prompt ID 最终结果 ===
+            final_prompt_metrics = {m: val / total_samples for m, val in metrics_accumulator.items()}
+            all_prompt_results.append(final_prompt_metrics)
+            logger.info(f"Prompt {prompt_id} Final Results: {final_prompt_metrics}")
 
-            all_prompt_results.append(metrics_results)
-            logger.info("======================================================")
-            logger.info(f"Prompt {prompt_id} results: {metrics_results}")
-            logger.info("======================================================\n")
-
-    # ===== 10. 保存结果 =====
+    # ===== 7. 保存结果 =====
+    save_data = {}
     if len(all_prompt_results) == 1:
-        single_result = all_prompt_results[0]
         save_data = {
             "test_task": args.test_task,
             "test_prompt_ids": args.test_prompt_ids,
-            "single_result": single_result
+            "single_result": all_prompt_results[0]
         }
     else:
-        mean_results = {}
-        min_results = {}
-        max_results = {}
-
-        keys = all_prompt_results[0].keys()
-        for m in keys:
-            all_res = [res[m] for res in all_prompt_results]
-            mean_results[m] = sum(all_res) / len(all_res)
-            min_results[m] = min(all_res)
-            max_results[m] = max(all_res)
-
+        # 计算所有 Prompt 的平均值
+        if all_prompt_results:
+            keys = all_prompt_results[0].keys()
+            mean_results = {m: sum([r[m] for r in all_prompt_results]) / len(all_prompt_results) for m in keys}
+        else:
+            mean_results = {}
+            
         save_data = {
             "test_task": args.test_task,
-            "test_prompt_ids": args.test_prompt_ids,
             "mean_results": mean_results,
-            "min_results": min_results,
-            "max_results": max_results,
             "all_prompt_results": all_prompt_results
         }
 
     with open(args.results_file, "w") as f:
         json.dump(save_data, f, indent=4)
-    logger.info(f"Results saved to {args.results_file}")
+    logger.info(f"All results saved to {args.results_file}")
 
 
 if __name__ == "__main__":
-
-    parser = argparse.ArgumentParser(description="QT-Mob test")
-
-    # 支持命令行指定 GPU，比如 --device 0 或 --device 0,1
-    parser.add_argument("--device", type=str, default="0", help="GPU Device ID, e.g. '0' or '0,1'")
-
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--device", type=str, default="0")
+    
+    # 假设这些 parse 函数会向 parser 添加参数
     parser = parse_global_args(parser)
     parser = parse_dataset_args(parser)
     parser = parse_test_args(parser)
-
+    
     args = parser.parse_args()
 
-    # 这里可以硬编码一些测试默认值
+    # 强制覆盖参数 (调试用，生产环境建议移除或注释)
+    logger.warning("Overriding args for testing purpose: indexing=True, filter_items=True, tasks=seq")
     args.indexing = True
     args.filter_items = True
-    args.tasks = "seq"       # 主要是和你的数据 / collator 对齐用
+    args.tasks = "seq"
 
     test(args)
