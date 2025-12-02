@@ -190,57 +190,8 @@ def main(args):
                 print(f"第一个 500 字符:\n{sample_text[:500]}")
                 print(f".. .\n最后 300 字符:\n{sample_text[-300:]}")
                 print(f"总长度: {len(sample_text)}")
-                
-        
-        
-        
-        
-        
-       
-
-        # if valid_data is None or len(valid_data) == 0:
-        #     logger.warning("⚠️ 没有加载到验证集或验证集为空，将使用训练集的一部分作为验证集。")
-        #  # 随机划分一部分训练集当作验证集
-        #     total_len = len(train_data)
-        #     val_ratio = 0.1  # 按需调整
-        #     val_size = max(1, int(total_len * val_ratio))
-        #     valid_data = [train_data[i] for i in range(val_size)]
-        #     train_data = [train_data[i] for i in range(val_size, total_len)]
-        # if valid_data is not None and len(valid_data) > 0:
-        #     valid_data_list = [valid_data[i] for i in range(len(valid_data))]
-        #     valid_data = [{"text": item["labels"] + postfix} for item in valid_data_list]
-        #     valid_data = HF_Dataset.from_list(valid_data)
-        # else:
-        #     valid_data = None
-
-        # train_data_list = [train_data[i] for i in range(len(train_data))]
-        # train_data = [{"text": item["labels"] + postfix} for item in train_data_list]
-        # train_data = HF_Dataset.from_list(train_data)
-        # logger.info(f"Training samples: {len(train_data)}, Validation samples: {len(valid_data) if valid_data is not None else 0}")
-
-        # if accelerator.is_main_process:
-        #     random_indices = torch.randperm(len(train_data))[:5].tolist()
-        #     for idx in random_indices:
-        #         logger.info(f"Sample[{idx}]: {train_data[idx]}")
-
-        # ================= Collator =================
-        # response_template_with_context = "<|im_end|>"
-        # response_template_ids = tokenizer.encode(response_template_with_context, add_special_tokens=False)[2:]
-        # collator = DataCollatorForCompletionOnlyLM(response_template_ids, tokenizer=tokenizer)
+                 
         logger.info("Data collator initialized.")
-
-        # ================= Model =================
-        # torch_dtype = torch.float16 if args.torch_dtype == "float16" else torch.bfloat16
-        # device_index = accelerator.process_index
-       
-
-        
-
-       
-       
-
-        # apply_liger_kernel_to_llama()  # 可选
-        
         model.gradient_checkpointing_enable()
         # ================= Training =================
         tokenizer.model_max_length = args.cutoff_len
@@ -251,9 +202,6 @@ def main(args):
         
         if args.tasks in ['seq','daily_traj']:
             
-            
-   
-        
             train_args = SFTConfig(
                 seed=args.seed,
                 output_dir=model_id,
@@ -289,8 +237,6 @@ def main(args):
                 
             )
             
-            
-   
             eval_dataset = valid_data if valid_data is not None and len(valid_data) > 0 else None
             logger.info("Data collator initialized.")
             collator = CompletionOnlyCollator(
@@ -298,8 +244,6 @@ def main(args):
                 response_tag=SEQ_RESPONSE_TAG,
                 max_length=args.cutoff_len
             )
-            
-            
             
             trainer = SFTTrainer(
                 model=model,
@@ -311,44 +255,7 @@ def main(args):
             )
             
             
-            
-            
-            # collator = CompletionOnlyCollator(
-            #     tokenizer=tokenizer,
-            #     response_tag=SEQ_RESPONSE_TAG,
-            #     max_length=args.cutoff_len,
-            #     # 新参数
-            #     add_repeat_penalty=True,        # ✅ 启用重复惩罚
-            #     repeat_penalty_weight=0.2,      # 调整权重
-            #     no_repeat_ngram_size=2,         # 禁止 2-gram 重复
-            #     data_augmentation=True,         # ✅ 启用数据增强
-            #     dropout_prob=0.1,
-            # )
-            
-            # eval_dataset = valid_data if valid_data is not None and len(valid_data) > 0 else None
-            # trainer = SFTTrainer(
-            #     model=model,
-            #     args=train_args,
-            #     train_dataset=train_data,
-            #     eval_dataset=eval_dataset,
-            #     peft_config=peft_config,
-            #     data_collator=collator,
-            # )
-            
-            
-            
-            # from custom_trainer import RepetitionAwareTrainer
 
-            # trainer = RepetitionAwareTrainer(
-            #     model=model,
-            #     args=train_args,
-            #     train_dataset=train_data,
-            #     eval_dataset=eval_dataset,
-            #     peft_config=peft_config,
-            #     data_collator=collator,
-            #     repeat_penalty_weight=0.2,  # 调整重复惩罚权重
-            # )
-            
             
         else:
             train_args = SFTConfig(

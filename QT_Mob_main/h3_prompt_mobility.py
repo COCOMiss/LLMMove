@@ -259,7 +259,7 @@ prompt = (
     "Predict the sequence of visits, including the start time, the location (H3 index), and the stay duration (in minutes). \n"
     "Return ONLY a JSON list with the following format and no extra text:\n"
     # 使用双花括号 {{ }} 来表示 JSON 的花括号，避免 .format() 报错
-    """Example: [{{ "id": "1", "start_time": "HH:MM AM/PM", "h3_index": "...", "stay_duration": "... min" }}, ...]"""
+    """Example: [{{ "id": "1", "start_time": "HH:MM AM/PM", "h3_index": "...", "stay_duration": "... min" }}, ...]\n"""
 )
 
 daily_traj_prompt.append(prompt)

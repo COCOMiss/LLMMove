@@ -10,7 +10,7 @@ END_TAG = "<|im_end|>"
 class CompletionOnlyCollator:
     def __init__(self, tokenizer, response_tag="prediction:", max_length=256, pad_to_multiple_of=8):
         self.tokenizer = tokenizer
-        self.response_tag = response_tag
+        self.response_tag = SEQ_RESPONSE_TAG
         self.max_length = max_length
         self.pad_to_multiple_of = pad_to_multiple_of
 
@@ -96,8 +96,6 @@ class CompletionOnlyCollator:
         labels = input_ids.clone()
 
         for i, text in enumerate(texts):
-            h3_index, duration = self.extract_h3_index_and_duration(text)
-            
             pos = text.find(self.response_tag)
             if pos == -1:
                 labels[i, :] = -100
