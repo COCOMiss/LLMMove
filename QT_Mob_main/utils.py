@@ -25,7 +25,7 @@ def parse_dataset_args(parser):
     # parser.add_argument("--data_filename", type=str, default=".pkl",help="data filename")
     parser.add_argument("--tasks", type=str, default="daily_traj",
                         help="Downstream tasks, separate by comma")
-    parser.add_argument("--index_file", type=str, default="LLMMove/QT_Mob_main/dataset/location_r8.json", help="the item indices file, not path")
+    parser.add_argument("--index_file", type=str, default="QT_Mob_main/dataset/location_r8.json", help="the item indices file, not path")
     # arguments related to sequential task
     parser.add_argument("--max_his_len", type=int, default=20,
                         help="the max number of location in history trajectory, -1 means no limit")
@@ -66,7 +66,7 @@ def parse_train_args(parser):
 
     parser.add_argument("--warmup_ratio", type=float, default=0.05)
     parser.add_argument("--lr_scheduler_type", type=str, default="cosine")
-    parser.add_argument("--save_and_eval_steps", type=int, default=2000)
+    parser.add_argument("--save_and_eval_steps", type=int, default=100)
     parser.add_argument("--experiment_name", type=str, help="The name of the experiment")
     parser.add_argument("--path_to_sft_save_dir", type=str, default="QT_Mob_main/sft",help="QT_Mob_main/sft")
 

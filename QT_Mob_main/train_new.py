@@ -1,5 +1,6 @@
 from logger_utils import get_logger
 import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
 from unsloth import FastLanguageModel
 
 from unsloth.chat_templates import train_on_responses_only
@@ -36,7 +37,26 @@ def process_data(args):
         "Return ONLY a JSON list with the following format and no extra text:"
         'Example: [{{ "id": "1", "start_time": "HH:MM AM/PM", "h3_index": "...", "stay_duration": "... min" }}, ...]'
     )
-
+    prompt = (
+    "Here is the mobility profile for user {user}:\n"
+    "{profile}\n\n"
+    "The profile above summarizes their home and work locations (if known), "
+    "frequently visited locations with typical visit times, and preferences for POI categories.\n"
+    "The specific date to predict for is: {date}.\n\n"
+    "You MUST construct a plausible daily trajectory for this user in Tokyo that is consistent "
+    "with the profile and the given date. The visits in the JSON list must:\n"
+    "- Be ordered in chronological order by \"start_time\" from earliest to latest.\n"
+    "- Use \"id\" as a string index starting from \"1\" and increasing by 1 for each subsequent visit.\n"
+    "- Use \"start_time\" in the format \"HH:MM AM/PM\" (for example, \"07:30 PM\").\n"
+    "- Use \"h3_index\" as a single valid H3 index string representing the location of that visit.\n"
+    "- Use \"stay_duration\" as one of 30, 60, 90, ..., 600 (step 30), formatted exactly as \"<N> min\".\n\n"
+    "Return ONLY a valid JSON list (array) and NOTHING else. Do NOT include any natural language "
+    "explanation, comments, or extra keys. The output should look like this:\n"
+    "[\n"
+    "  {{\"id\": \"1\", \"start_time\": \"10:25 AM\", \"h3_index\": \"<H3_INDEX_1>\", \"stay_duration\": \"210 min\"}},\n"
+    "  {{\"id\": \"2\", \"start_time\": \"04:00 PM\", \"h3_index\": \"<H3_INDEX_2>\", \"stay_duration\": \"330 min\"}}\n"
+    "]\n"
+)
     train_df = pd.read_feather("QT_Mob_main/dataset/train/zdc_h3_8/daily_traj_dataset.feather")
     valid_df = pd.read_feather("QT_Mob_main/dataset/valid/zdc_h3_8/daily_traj_dataset.feather")
 
@@ -140,7 +160,9 @@ def train1(args):
         eval_strategy="steps",
         logging_steps=getattr(args, "logging_steps", 50),
         save_total_limit=getattr(args, "save_total_limit", 3),
-
+        max_seq_length=getattr(args, "max_seq_length", 2048),
+        max_new_tokens=512,
+        max_length=2048,
         # LoRA + DDP 友好（很关键）
         ddp_find_unused_parameters=False,
         remove_unused_columns=False,
@@ -208,8 +230,8 @@ def train(args):
 
         return {"text": texts}
 
-    train_dataset = train_dataset.map(formatting_prompts_func, batched=True)
-    valid_dataset = valid_dataset.map(formatting_prompts_func, batched=True)
+    train_dataset = train_dataset.map(formatting_prompts_func, batched=True,num_proc=16)
+    valid_dataset = valid_dataset.map(formatting_prompts_func, batched=True,num_proc=16)
     remove_cols = [col for col in train_dataset.column_names if col != "text"]
     # 上面这行会删掉除了 text 以外的所有列（如果你还想保留别的列就手动写）
     train_dataset = train_dataset.remove_columns(remove_cols)
@@ -219,7 +241,7 @@ def train(args):
     # 2. Unsloth 加载 4bit 模型（QLoRA）
     model, tokenizer = FastLanguageModel.from_pretrained(
         model_name      = args.base_model,    # 本地路径 /Qwen3-8B
-        max_seq_length  = max_seq_len,
+        max_seq_length  = 2048,
         dtype           = None,               # 自动选 bf16 / fp16
         load_in_4bit    = True,
         trust_remote_code = True,
@@ -250,7 +272,6 @@ def train(args):
         output_dir = getattr(args, "output_dir", "./output_unsloth"),
 
         # 如果你本地 TRL 支持 max_seq_length 就用这个；不支持就改成 max_length
-        max_seq_length = max_seq_len,
 
         per_device_train_batch_size  = args.per_device_train_batch_size,
         per_device_eval_batch_size   = args.per_device_eval_batch_size,
@@ -265,12 +286,13 @@ def train(args):
         gradient_checkpointing = True,
         bf16 = torch.cuda.is_bf16_supported(),
         fp16 = not torch.cuda.is_bf16_supported(),
+        max_length=2048,
 
         eval_steps      = args.save_and_eval_steps,
         save_steps      = args.save_and_eval_steps,
         save_strategy   = "steps",
         eval_strategy   = "steps",
-        logging_steps   = getattr(args, "logging_steps", 50),
+        logging_steps   = getattr(args, "logging_steps", 10),
         save_total_limit = getattr(args, "save_total_limit", 3),
 
         ddp_find_unused_parameters = False,
@@ -300,6 +322,7 @@ def train(args):
         trainer,
         instruction_part = "INSTRUCTION:\n",
         response_part    = "RESPONSE:\n",
+        num_proc=16
     )
 
     trainer.train()

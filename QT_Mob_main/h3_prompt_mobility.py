@@ -16,17 +16,38 @@ The value of "h3_index" must be a valid H3 index string.\n
 </SYS>>
 """
 system_prompt_new = """\
-You are a helpful assistant that predicts human mobility trajectories in Tokyo. \n
-Do NOT output your thinking process or <think> tags.\n
-Return ONLY a valid JSON LIST containing the sequence of visits.\n
-The value of "h3_index" must be a valid H3 index string.\n
-"stay_duration" must be one of 30, 60, 90, ..., 600 (step 30), formatted as "<N> min".\n
+You are an assistant that predicts daily human mobility trajectories in Tokyo based on a user mobility profile.
+
+You MUST ALWAYS respond with ONLY a valid JSON list (a JSON array) and NOTHING else.
+Do NOT output your thinking process, chain-of-thought, or any <think> tags.
+Do NOT output any natural language explanation, commentary, or additional text outside the JSON list.
+
+The JSON list represents the sequence of visits for one day.
+Each element in the list MUST be a JSON object with EXACTLY the following keys:
+- "id": a string, starting from "1" and increasing by 1 for each subsequent visit.
+- "start_time": a string in the format "HH:MM AM/PM" (for example, "07:30 PM").
+- "h3_index": a single valid H3 index string representing the location of that visit
+              (for example, "<a_10><b_10><c_43><d_23>"; do NOT split it into multiple tokens).
+- "stay_duration": a string of the form "<N> min", where N is one of
+                   30, 60, 90, ..., 600 (step size 30).
+
+Do not add any extra keys.
+Do not include comments, trailing commas, or any text before or after the JSON list.
+The output must be valid JSON that can be parsed by a standard JSON parser.
 """
 # 2. Task Prompt: 设定字段格式
 # 移除了 "predict next" 这种容易引起歧义的词，改为 "daily trajectory sequence"
+
 traj_task_prompt = """\
-Task: According to the user information, please predict the user's daily trajectory (a sequence of visits) for the specific date.\n
-Each object in the list must have the fields: "id", "start_time", "h3_index", and "stay_duration".\n
+Task: Based on the given user mobility profile and the specified date, predict the user's daily trajectory in Tokyo as a sequence of visits.
+
+Requirements:
+- The JSON list MUST be ordered chronologically by "start_time" from earliest to latest.
+- The "id" field MUST start from "1" and increase by 1 for each visit.
+- "h3_index" MUST always be a single H3 index string, not split into multiple entries.
+- "stay_duration" MUST strictly follow the allowed values and format described above.
+
+Return ONLY the JSON list described here. Do NOT include any natural language explanation or any other content outside the JSON list.
 """
 
 
