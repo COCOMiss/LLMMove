@@ -726,8 +726,11 @@ def get_daily_traj_results(
     res_stats = {
         "H3_Jaccard@1": 0.0, "H3_Jaccard@5": 0.0,
         "H3_LCS@1": 0.0,     "H3_LCS@5": 0.0,
-        "Dur_Acc@1": 0.0,    "Dur_Acc@5": 0.0
+        "Dur_Acc@1": 0.0,    "Dur_Acc@5": 0.0,
+        "Acc@1": 0.0,        "Acc@5": 0.0,
+        "Recall@1": 0.0,     "Recall@5": 0.0
     }
+    best_prediction = []
     
     valid_count = 0
     
@@ -744,6 +747,8 @@ def get_daily_traj_results(
             
             sample_scores = {
                 "jaccard": [],
+                "acc":[],
+                "recall":[],
                 "lcs": [],
                 "dur_acc": []
             }
@@ -764,11 +769,19 @@ def get_daily_traj_results(
                 s2 = set(p_h3_seq)
                 if len(s1) == 0 and len(s2) == 0:
                     jac = 1.0
+                    acc =0.0
+                    recall =0.0
                 elif len(s1) == 0 or len(s2) == 0:
                     jac = 0.0
+                    acc =0.0
+                    recall =0.0
                 else:
                     jac = len(s1 & s2) / len(s1 | s2)
+                    acc = len(s1 & s2) / len(s1)
+                    recall = len(s1 & s2) / len(s2)
                 sample_scores["jaccard"].append(jac)
+                sample_scores["acc"].append(acc)
+                sample_scores["recall"].append(recall)
                 
                 # --- Metric 2: H3 LCS ---
                 denom = max(len(p_h3_seq), len(t_h3_seq))
@@ -793,13 +806,20 @@ def get_daily_traj_results(
 
             # Top-1: 取第 0 个候选项的分数
             res_stats["H3_Jaccard@1"] += sample_scores["jaccard"][0]
+            res_stats["Acc@1"] += sample_scores["acc"][0]
+            res_stats["Recall@1"] += sample_scores["recall"][0]
             res_stats["H3_LCS@1"]     += sample_scores["lcs"][0]
             res_stats["Dur_Acc@1"]    += sample_scores["dur_acc"][0]
             
             # Top-5: 取所有已计算候选项中的最大值 (Best Match)
-            res_stats["H3_Jaccard@5"] += max(sample_scores["jaccard"])
-            res_stats["H3_LCS@5"]     += max(sample_scores["lcs"])
-            res_stats["Dur_Acc@5"]    += max(sample_scores["dur_acc"])
+            # 根据 sample_scores["lcs"] 最大的位置，采用该 prediction 的相关指标
+            best_lcs_idx = sample_scores["lcs"].index(max(sample_scores["lcs"]))
+            best_prediction.append(output_text[start_idx + best_lcs_idx])
+            res_stats["H3_Jaccard@5"] += sample_scores["jaccard"][best_lcs_idx]
+            res_stats["Acc@5"] += sample_scores["acc"][best_lcs_idx]
+            res_stats["Recall@5"] += sample_scores["recall"][best_lcs_idx]
+            res_stats["H3_LCS@5"] += sample_scores["lcs"][best_lcs_idx]
+            res_stats["Dur_Acc@5"] += sample_scores["dur_acc"][best_lcs_idx]
 
             valid_count += 1
             
@@ -815,7 +835,7 @@ def get_daily_traj_results(
     else:
         logger.warning("No valid samples found for metric calculation.")
     
-    return metrics_results
+    return metrics_results, best_prediction
 
 def get_seq_results(output_text, targets,scores,metrics,all_items=None):
     # predictions: List[str] size = B(batch size)*k

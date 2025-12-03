@@ -16,7 +16,7 @@ logger = get_logger(__name__)
 logger.info("==== QT_Mob runner started ====")
 
 # 开关
-TRAIN = True
+TRAIN = False
 TEST = True
 
 # PATH_TO_SFT_SAVE_DIR = "autodl-tmp/checkpoint"

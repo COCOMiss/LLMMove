@@ -55,7 +55,7 @@ class TestCollator(object):
             text=input_texts,
             return_tensors="pt",
             padding="longest",
-            max_length=self.tokenizer.model_max_length,
+            max_length=self.args.cutoff_len,
             return_attention_mask=True,
         )
 

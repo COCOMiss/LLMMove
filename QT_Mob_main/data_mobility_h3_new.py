@@ -139,13 +139,28 @@ class BaseDataset(Dataset):
     def __len__(self):
         return len(self.inter_data)
     
+    def is_prompt_format_valid(self,formatted):
+        try:
+            target_suffix = '"stay_duration": "... min" }, ...]\n'
+            # 两边都去除空白字符后再比较，因为 formatted 可能末尾有额外的空白
+            if not formatted.rstrip().endswith(target_suffix.rstrip()):
+                return False
+            return True
+        except Exception:
+            return False
+    
     def _get_text_data(self, data, prompt, sft_format=False):
         if self.indexing:
             sys_prompt = system_prompt
         else:
             # sys_prompt = system_prompt_not_indexing.format(max_poi=len(self.indices)-1)
             sys_prompt = system_prompt_not_indexing
-        instruction = sys_prompt + self.task_prompt + prompt.format(**data)
+        formatted = prompt.format(**data)
+        if not self.is_prompt_format_valid(formatted):
+            logger.warning(f"Invalid prompt format: {formatted}")
+            raise ValueError(f"Invalid prompt format: {formatted}")
+        instruction = sys_prompt + self.task_prompt + formatted
+      
         response = data["response"]
         prediction = data["prediction"] if "prediction" in data else ""
 
@@ -161,11 +176,7 @@ class BaseDataset(Dataset):
             output = response + prediction
             
         return input, output
-    
-    
- 
-
-    
+     
  
     def __getitem__(self, index):
         d = self.inter_data[index]
@@ -176,9 +187,11 @@ class BaseDataset(Dataset):
 
         prompt = self.prompts[prompt_id] # 获取prompt
         input, output = self._get_text_data(d, prompt, not self.sft_json_output)
+        
         return dict(input_ids=input, labels=output)
 
-    
+
+
     def merge_data(self):
         if self.inter_data_dict:
             merged_data = pd.concat(list(self.inter_data_dict.values()), ignore_index=False)
@@ -262,8 +275,8 @@ class DailyTrajDataset(BaseDataset):
             self.codebook = json.load(f)
         logger.info(f"Initializing daily trajectory dataset (mode={self.mode})")   
         
-        cache_root = os.path.join("LLMMove", "QT_Mob_main", "dataset", self.mode, "zdc_h3_8")
-        cache_file = os.path.join(cache_root, "daily_traj_dataset.feather")
+        cache_root = os.path.join("QT_Mob_main", "dataset", self.mode, "zdc_h3_8")
+        cache_file = os.path.join(cache_root, "daily_traj_dataset.pkl")
 
         if not os.path.exists(cache_file):
             logger.warning(
@@ -272,8 +285,27 @@ class DailyTrajDataset(BaseDataset):
             self._build_and_cache_daily_traj(cache_root, cache_file)
 
         try:
-            self.inter_data = pd.read_feather(cache_file).to_dict(orient="records")
-            logger.info(f"daily trajectory dataset loaded successfully: {len(self.inter_data)} samples.")
+            cached_data = pd.read_pickle(cache_file)
+            logger.info(f"Loaded from pickle: type={type(cached_data)}, shape/len={getattr( cached_data, 'shape', len(cached_data))}")
+            logger.info(f"daily trajectory dataset loaded successfully: {len(cached_data)} samples.")
+        
+            # 如果是 DataFrame，转为 list of dicts
+            if isinstance(cached_data, pd.DataFrame):
+                # ✅ 重置索引，确保索引是 0, 1, 2, ... 
+                cached_data = cached_data.  reset_index(drop=True)
+                self.inter_data = cached_data. to_dict(orient="records")
+                logger.info(f"Converted DataFrame to list of dicts: {len(self.inter_data)} records")
+            elif isinstance(cached_data, list):
+                self.inter_data = cached_data
+                logger.info(f"Data is already a list: {len(self.inter_data)} records")
+            else:
+                raise TypeError(f"Unexpected data type: {type(cached_data)}")
+            
+            # ✅ 验证转换结果
+            assert isinstance(self. inter_data, list), f"self.inter_data should be list, got {type(self.inter_data)}"
+            assert len(self.inter_data) > 0, "self.inter_data is empty!"
+            assert isinstance(self.inter_data[0], dict), f"First item should be dict, got {type(self.inter_data[0])}"
+            logger.info(f"✅ daily trajectory dataset loaded successfully: {len(self.inter_data)} samples.")
         except Exception:
             logger.exception("daily trajectory dataset initialization failed.")
             raise
@@ -287,7 +319,7 @@ class DailyTrajDataset(BaseDataset):
             os.makedirs(cache_root, exist_ok=True)
             self._load_data()
             self.inter_data = self._process_data()
-            pd.DataFrame(self.inter_data).to_feather(cache_file)
+            pd.DataFrame(self.inter_data).to_pickle(cache_file)
             logger.info(f"Cached daily trajectory dataset to {cache_file}")
         except Exception:
             logger.exception("Failed to build daily trajectory cache.")
@@ -475,7 +507,8 @@ class DailyTrajDataset(BaseDataset):
         
         self._free_attrs("stay_data", "user_profile")
         return inter_data
-                    
+    
+          
       
 
 class SeqDataset(BaseDataset):
@@ -487,7 +520,7 @@ class SeqDataset(BaseDataset):
         self.mode = mode # train, valid, test
         
         self.prompts = all_prompt["seq"] # 所有的prompt
-        self.task_prompt = task_prompt
+        self.task_prompt = seq_task_prompt
         with open(self.index_file, 'r') as f:
             self.codebook = json.load(f)
         # self.user_profile = pd.read_csv(
@@ -498,8 +531,8 @@ class SeqDataset(BaseDataset):
         
         
         
-        cache_root = os.path.join("LLMMove", "QT_Mob_main", "dataset", self.mode, "zdc_h3_8")
-        cache_file = os.path.join(cache_root, "seq_dataset.feather")
+        cache_root = os.path.join("QT_Mob_main", "dataset", self.mode, "zdc_h3_8")
+        cache_file = os.path.join(cache_root, "seq_dataset.pkl")
 
         if not os.path.exists(cache_file):
             logger.warning(
@@ -508,7 +541,7 @@ class SeqDataset(BaseDataset):
             self._build_and_cache_seq(cache_root, cache_file)
 
         try:
-            self.inter_data = pd.read_feather(cache_file).to_dict(orient="records")
+            self.inter_data = pd.read_pickle(cache_file).to_dict(orient="records")
             logger.info(f"SeqDataset loaded successfully: {len(self.inter_data)} samples.")
         except Exception:
             logger.exception("SeqDataset initialization failed.")
@@ -523,7 +556,7 @@ class SeqDataset(BaseDataset):
             os.makedirs(cache_root, exist_ok=True)
             self._load_data()
             self.inter_data = self._process_data()
-            pd.DataFrame(self.inter_data).to_feather(cache_file)
+            pd.DataFrame(self.inter_data).to_pickle(cache_file)
             logger.info(f"Cached sequence dataset to {cache_file}")
         except Exception:
             logger.exception("Failed to build sequence cache.")
@@ -717,9 +750,9 @@ class RecoveryDataset(BaseDataset):
             self._remap_items()
             self.inter_data = self._process_data()
             if self.mode == "train":
-                pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/train/inner_data_rec_dataset.feather")
+                pd.DataFrame(self.inter_data).to_pickle("QT_Mob_main/dataset/train/inner_data_rec_dataset.pkl")
             if self.mode=="test":
-                pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/test/inner_data_rec_dataset.feather")            
+                pd.DataFrame(self.inter_data).to_pickle("QT_Mob_main/dataset/test/inner_data_rec_dataset.pkl")            
             logger.info(f"RecoveryDataset loaded successfully: {len(self.inter_data)} samples.")
         except Exception:
             logger.exception("RecoveryDataset initialization failed.")
@@ -1012,9 +1045,9 @@ class Index2LocationDataset(BaseDataset):
             self._load_data()
             self.inter_data = self._process_data()
             if self.mode == "train":
-                pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/train/inner_data_i2l_dataset.feather")
+                pd.DataFrame(self.inter_data).to_pickle("QT_Mob_main/dataset/train/inner_data_i2l_dataset.pkl")
             if self.mode=="test":
-                pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/test/inner_data_i2l_dataset.feather")            
+                pd.DataFrame(self.inter_data).to_pickle("QT_Mob_main/dataset/test/inner_data_i2l_dataset.pkl")            
             logger.info(f"Index2LocationDataset loaded successfully with {len(self.inter_data)} samples.")
         except Exception:
             logger.exception("Error initializing Index2LocationDataset.")
@@ -1097,9 +1130,9 @@ class Location2IndexDataset(BaseDataset):
             self._load_data()
             self.inter_data = self._process_data()
             if self.mode=="train":
-                pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/train/inner_data_l2i_dataset.feather")
+                pd.DataFrame(self.inter_data).to_pickle("QT_Mob_main/dataset/train/inner_data_l2i_dataset.pkl")
             if self.mode=="test":
-                pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/test/inner_data_l2i_dataset.feather")
+                pd.DataFrame(self.inter_data).to_pickle("QT_Mob_main/dataset/test/inner_data_l2i_dataset.pkl")
             logger.info(f"Location2IndexDataset loaded successfully with {len(self.inter_data)} samples.")
         except Exception:
             logger.exception("Error initializing Location2IndexDataset.")
@@ -1181,9 +1214,9 @@ class TrajectoryTranslationDataset(BaseDataset):
             self._remap_items()
             self.inter_data = self._process_data()
             if self.mode=="train":
-                pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/train/inner_data_taj_dataset.feather")
+                pd.DataFrame(self.inter_data).to_pickle("LLMMove/QT_Mob_main/dataset/train/inner_data_taj_dataset.pkl")
             if self.mode=="test":
-                pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/test/inner_data_taj_dataset.feather")            
+                pd.DataFrame(self.inter_data).to_pickle("LLMMove/QT_Mob_main/dataset/test/inner_data_taj_dataset.pkl")            
             logger.info(f"TrajectoryTranslationDataset ready with {len(self.inter_data)} records.")
         except Exception:
             logger.exception("TrajectoryTranslationDataset initialization failed.")

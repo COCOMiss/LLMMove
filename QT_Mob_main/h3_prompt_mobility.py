@@ -15,13 +15,13 @@ The value of "h3_index" must be a valid H3 index string.\n
 "stay_duration" must be one of 30, 60, 90, ..., 600 (step 30), formatted as "<N> min".\n
 </SYS>>
 """
-system_prompt_new = """\
-You are a helpful assistant that predicts human mobility trajectories in Tokyo. \n
-Do NOT output your thinking process or <think> tags.\n
-Return ONLY a valid JSON LIST containing the sequence of visits.\n
-The value of "h3_index" must be a valid H3 index string.\n
-"stay_duration" must be one of 30, 60, 90, ..., 600 (step 30), formatted as "<N> min".\n
+
+
+system_prompt_not_indexing = """\
+<<SYS>> You are a helpful assistant that predicts human mobility trajectories in Tokyo. <</SYS>> \
+Each "H3 index" is a unique string.
 """
+
 # 2. Task Prompt: 设定字段格式
 # 移除了 "predict next" 这种容易引起歧义的词，改为 "daily trajectory sequence"
 traj_task_prompt = """\
@@ -31,17 +31,12 @@ Each object in the list must have the fields: "id", "start_time", "h3_index", an
 
 
 
-system_prompt_not_indexing = """\
-<<SYS>> You are a helpful assistant that predicts human mobility trajectories in Tokyo. <</SYS>> \
-Each "H3 index" is a unique string.
-"""
-
 H3_prompt = """\
 Your goal is to learn the spatial and locational information represented by each H3 index.
 Question: """
 
 
-task_prompt = """\
+seq_task_prompt = """\
 A trajectory is a time-ordered sequence of H3 indices, where each 4-token-length index represents the user's location within a specific time interval.
 Task:According to the user information and the trajectories, please predict the next H3 index the user will stay and how long he/she will stay there"""
 
@@ -52,26 +47,6 @@ user_history_prompt = """User {user} had the following HISTORICAL trajectories: 
 all_prompt = {}
 
 
-# =====================================================
-# Task 1 -- Next H3 Prediction -- 10 Prompt
-# =====================================================
-# seq_prompt = []
-
-# prompt = (
-#     "{profile}The following data represents a time-ordered trajectory of user {user}. "
-#     "Based on the recent trajectory {inters} "
-#     "At {time} which H3 index will the user move to next? And how long will the user stay at there?"
-# )
-# seq_prompt.append(prompt)
-
-# prompt = (
-#     "{profile}Given the continuous trajectory below for user {user}: {inters} "
-#     "Forecast the next H3 cell the user will likely move into at time {time}. And how long will the user stay at there?"
-# )
-# seq_prompt.append(prompt)
-
-
-# all_prompt["seq"] = seq_prompt
 
 # =====================================================
 # Task 1 -- Next H3 Prediction (index + stay duration in seconds) -- 10 Prompt
@@ -263,37 +238,6 @@ prompt = (
 )
 
 daily_traj_prompt.append(prompt)
-
-#  one_data["user"] = day_trajectory[0][2]
-#             one_data["response"] = "prediction:"
-            
-            
-#             # 获取date是否是节假日，假设有一个 is_holiday 方法可用
-#             one_data["date"] = f"Today is a {is_holiday(date)}."
-            
-            
-#             if self.add_profile:
-#                     profile = self.user_profile.loc[self.user_profile['user_id'] == int(one_data["user"])]
-#                     one_data["profile"] = f"User {one_data["user"]}: {profile['prompt'].values[0]} " if not profile.empty else ""
-#             else:
-#                 one_data["profile"] = ""
-            
-#             try:
-#                 one_data["prediction"] = json.dumps(
-#                     [
-#                         {   "id":str(i+1),
-#                             "start_time": str(trajectory[i][1]),
-#                             "h3_index": "".join(self.codebook[trajectory[i][0]]),
-#                             "stay_duration": f"{self.get_stay_duration(trajectory[i][4])} min"
-#                         } for i,trajectory in enumerate(day_trajectory)
-#                     ],
-#                     ensure_ascii=False)
-                    
-#             except Exception:
-#                 logger.exception("Error processing a trajectory sample.")
-            
-#             inter_data.append(one_data)
-
 
 all_prompt["daily_traj"] = daily_traj_prompt
 

@@ -166,6 +166,8 @@ def test(args):
 
     metrics_list = args.metrics.split(",")
     all_prompt_results = []
+    prediction_dict={}
+    ground_truth_dict={}
 
     # ===== 6. 推理循环 =====
     with torch.no_grad():
@@ -189,7 +191,7 @@ def test(args):
                 output = model.generate(
                     input_ids=inputs["input_ids"],
                     attention_mask=inputs["attention_mask"],
-                    max_new_tokens=1024,
+                    max_new_tokens=2048,
                     do_sample=False,            # 关闭采样，启用 Beam Search
                     num_beams=BEAM_SIZE,        # 设置 Beam Size
                     num_return_sequences=BEAM_SIZE, # 每个样本返回 Top-Beam 序列
@@ -213,12 +215,6 @@ def test(args):
                 for raw, clean in zip(raw_generated_texts, cleaned_generated_texts):
                     final_texts_for_eval.append(clean if clean else raw.strip())
 
-                # Debug 打印第一个样本的 Top-1 结果
-                if batch_idx % 5 == 0: 
-                    logger.info(f"\n[Sample Debug Info (Top-1 Beam)]")
-                    logger.info(f"Ground Truth: {targets[0]}")
-                    logger.info(f"Prediction: {final_texts_for_eval[0]}\n")
-
                 # === 评估 ===
                 # 这里直接传入所有 Beam 的结果 (batch_size * 5)
                 # 评估函数内部会根据 total_predictions // batch_size 来计算 Top-1 和 Top-5
@@ -231,19 +227,25 @@ def test(args):
                 }
 
                 if args.test_task == "daily_traj":
-                    batch_metrics = get_daily_traj_results(**eval_kwargs)
+                    batch_metrics,best_index_list = get_daily_traj_results(**eval_kwargs)
                 elif args.test_task == "seq":
                     batch_metrics = get_seq_results(**eval_kwargs)
                 else:
                     raise ValueError(f"Invalid test task: {args.test_task}")
+                
+                # Debug 打印第一个样本的 Top-1 结果
+                if batch_idx % 5 == 0: 
+                    logger.info(f"\n[Sample Debug Info (Top-5 Beam)]")
+                    logger.info(f"Ground Truth: {targets[0]}")
+                    logger.info(f"Prediction: {final_texts_for_eval[best_index_list[0]]}\n")
 
                 # 累加指标
                 for m, res in batch_metrics.items():
                     metrics_accumulator[m] = metrics_accumulator.get(m, 0) + res
 
                 # 定期打印临时结果
-                if total_samples % 20 == 0:
-                    temp_avg = {m: val / total_samples for m, val in metrics_accumulator.items()}
+                if  batch_idx % 10 == 0:
+                    temp_avg = {m: val / (batch_idx+1) for m, val in metrics_accumulator.items()}
                     logger.info(f"Intermediate Metrics (n={total_samples}): {temp_avg}")
 
                 if args.limit_test_size and total_samples >= 1000:
@@ -251,7 +253,7 @@ def test(args):
                     break
 
             # === 当前 Prompt ID 最终结果 ===
-            final_prompt_metrics = {m: val / total_samples for m, val in metrics_accumulator.items()}
+            final_prompt_metrics = {m: val / (batch_idx+1) for m, val in metrics_accumulator.items()}
             all_prompt_results.append(final_prompt_metrics)
             logger.info(f"Prompt {prompt_id} Final Results: {final_prompt_metrics}")
 

@@ -11,25 +11,72 @@ from peft import LoraConfig
 from liger_kernel.transformers import apply_liger_kernel_to_llama
 from logger_utils import get_logger
 from trl import SFTTrainer, SFTConfig
-from seq_collator import CompletionOnlyCollator,SEQ_RESPONSE_TAG,END_TAG
+# from seq_collator import CompletionOnlyCollator,SEQ_RESPONSE_TAG
+from seq_collator import SimpleCollator,SEQ_RESPONSE_TAG
 from collator import TestCollator
 from peft import PeftConfig, PeftModel
 from liger_kernel.transformers import apply_liger_kernel_to_qwen2
+from verify_acc import compute_batch_token_accuracy, validate_accuracy_implementation,compute_dataset_token_accuracy,simple_collate_fn
+
+
+
 
 logger = get_logger(__name__)
 
 logger.info("==== Training script started ====")
 
+# 在 train.py 中，预先 tokenize 并智能截断
+def prepare_tokenized_dataset(data_list, tokenizer, max_length, response_tag, postfix):
+    """预处理数据，确保 prediction: 之后的内容完整"""
+    
+    processed = []
+    skipped = 0
+    
+    for idx, item in enumerate(data_list):
+        full_text = item["input_ids"] + item["labels"] + postfix
+        
+        tag_pos = full_text. find(response_tag)
+        if tag_pos == -1:
+            skipped += 1
+            continue
+        
+        prompt_text = full_text[:tag_pos + len(response_tag)]
+        response_text = full_text[tag_pos + len(response_tag):]
+        
+        prompt_ids = tokenizer.encode(prompt_text, add_special_tokens=False)
+        response_ids = tokenizer.encode(response_text, add_special_tokens=False)
+        
+        total_len = len(prompt_ids) + len(response_ids)
+        
+        if total_len > max_length:
+            available_for_prompt = max_length - len(response_ids) - 20
+            
+            if available_for_prompt < 200:
+                logger.warning(f"Sample {idx}: response too long ({len(response_ids)}), truncating")
+                response_ids = response_ids[:max_length - 200]
+                available_for_prompt = 200
+            
+            if len(prompt_ids) > available_for_prompt:
+                keep_start = int(available_for_prompt * 0.6)
+                keep_end = available_for_prompt - keep_start
+                prompt_ids = prompt_ids[:keep_start] + prompt_ids[-keep_end:]
+        
+        input_ids = prompt_ids + response_ids
+        labels = [-100] * len(prompt_ids) + response_ids
+        
+        processed.append({
+            "input_ids": input_ids,
+            "labels": labels,
+            # ✅ 不需要 attention_mask，SFTTrainer 的 collator 会自动生成
+        })
+    
+    logger.info(f"Processed {len(processed)} samples, skipped {skipped}")
+    return processed
 
+# 然后使用简单的 collator，只做 padding
 
 def main(args):
-    # 强制使用所有可见的GPU进行分布式训练
-    # 检查可用的GPU数量
-    # available_gpus = torch.cuda.device_count()
-    # print(f"Available GPUs: {available_gpus}")
-    # for i in range(available_gpus):
-    #     print(f"GPU {i}: {torch.cuda.get_device_name(i)}")
-    
+
     logger.info("Applying Liger Kernel optimizations for Qwen...")
     apply_liger_kernel_to_qwen2()  # <--- 这行代码价值 20GB 显存
 
@@ -154,7 +201,7 @@ def main(args):
         logger.info("Loading datasets...")
         train_data, valid_data = load_datasets(args)
         postfix = tokenizer.eos_token if args.indexing else ". " + tokenizer.eos_token
-          
+ 
         if valid_data is not None and len(valid_data) > 0:
             valid_data_list = [valid_data[i] for i in range(len(valid_data))]
             # ✅ 关键修改：使用 input_ids + labels
@@ -166,25 +213,93 @@ def main(args):
         else:
             valid_data = None
 
+        # train_data_list = [train_data[i] for i in range(len(train_data))]
+        # # ✅ 关键修改：使用 input_ids + labels
+        # train_data = [
+        #     {"text": item["input_ids"] + item["labels"] + postfix} 
+        #     for item in train_data_list
+        # ]
+        
+        # 使用方式
         train_data_list = [train_data[i] for i in range(len(train_data))]
-        # ✅ 关键修改：使用 input_ids + labels
-        train_data = [
-            {"text": item["input_ids"] + item["labels"] + postfix} 
-            for item in train_data_list
-        ]
-        train_data = HF_Dataset.from_list(train_data)
+        if args.tasks in ['seq','daily_traj']:
+            
+            processed_train = prepare_tokenized_dataset(
+                train_data_list, 
+                tokenizer, 
+                args.cutoff_len, 
+                SEQ_RESPONSE_TAG, 
+                postfix
+            )
+            train_data = HF_Dataset.from_list(processed_train)
+        else:
+            train_data = [
+                    {"text": item["input_ids"] + item["labels"] + postfix} 
+                    for item in train_data_list
+                ]
+            train_data = HF_Dataset.from_list(train_data)
+        
+        
+        sample = train_data[0]
+        logger.info(f"Sample keys: {sample.keys()}")
+        logger.info(f"input_ids length: {len(sample['input_ids'])}")
+        logger. info(f"labels length: {len(sample['labels'])}")
+        logger.info(f"Number of -100 in labels: {sum(1 for x in sample['labels'] if x == -100)}")
+
+       
         logger.info(f"Training samples: {len(train_data)}, Validation samples: {len(valid_data) if valid_data is not None else 0}")
-        # 在 train.py 第 167 行添加这些代码来验证：
-        if accelerator.is_main_process:
-            random_indices = torch.randperm(len(train_data))[:2]. tolist()
-            for idx in random_indices:
-                sample_text = train_data[idx]['text']
-                print(f"\n=== Sample {idx} ===")
-                print(f"第一个 500 字符:\n{sample_text[:500]}")
-                print(f".. .\n最后 300 字符:\n{sample_text[-300:]}")
-                print(f"总长度: {len(sample_text)}")
-                 
+     
+  
+        
+        
+        
+        
+        
+       
+
+        # if valid_data is None or len(valid_data) == 0:
+        #     logger.warning("⚠️ 没有加载到验证集或验证集为空，将使用训练集的一部分作为验证集。")
+        #  # 随机划分一部分训练集当作验证集
+        #     total_len = len(train_data)
+        #     val_ratio = 0.1  # 按需调整
+        #     val_size = max(1, int(total_len * val_ratio))
+        #     valid_data = [train_data[i] for i in range(val_size)]
+        #     train_data = [train_data[i] for i in range(val_size, total_len)]
+        # if valid_data is not None and len(valid_data) > 0:
+        #     valid_data_list = [valid_data[i] for i in range(len(valid_data))]
+        #     valid_data = [{"text": item["labels"] + postfix} for item in valid_data_list]
+        #     valid_data = HF_Dataset.from_list(valid_data)
+        # else:
+        #     valid_data = None
+
+        # train_data_list = [train_data[i] for i in range(len(train_data))]
+        # train_data = [{"text": item["labels"] + postfix} for item in train_data_list]
+        # train_data = HF_Dataset.from_list(train_data)
+        # logger.info(f"Training samples: {len(train_data)}, Validation samples: {len(valid_data) if valid_data is not None else 0}")
+
+        # if accelerator.is_main_process:
+        #     random_indices = torch.randperm(len(train_data))[:5].tolist()
+        #     for idx in random_indices:
+        #         logger.info(f"Sample[{idx}]: {train_data[idx]}")
+
+        # ================= Collator =================
+        # response_template_with_context = "<|im_end|>"
+        # response_template_ids = tokenizer.encode(response_template_with_context, add_special_tokens=False)[2:]
+        # collator = DataCollatorForCompletionOnlyLM(response_template_ids, tokenizer=tokenizer)
         logger.info("Data collator initialized.")
+
+        # ================= Model =================
+        # torch_dtype = torch.float16 if args.torch_dtype == "float16" else torch.bfloat16
+        # device_index = accelerator.process_index
+       
+
+        
+
+       
+       
+
+        # apply_liger_kernel_to_llama()  # 可选
+        
         model.gradient_checkpointing_enable()
         # ================= Training =================
         tokenizer.model_max_length = args.cutoff_len
@@ -195,6 +310,9 @@ def main(args):
         
         if args.tasks in ['seq','daily_traj']:
             
+            
+   
+        
             train_args = SFTConfig(
                 seed=args.seed,
                 output_dir=model_id,
@@ -226,17 +344,17 @@ def main(args):
                 packing=False,
                 save_total_limit=args.save_total_limit,
                 save_only_model=args.save_only_model,
-                save_safetensors=True
+                save_safetensors=True,
+                max_length=args.cutoff_len
                 
             )
             
             eval_dataset = valid_data if valid_data is not None and len(valid_data) > 0 else None
-            logger.info("Data collator initialized.")
-            collator = CompletionOnlyCollator(
-                tokenizer=tokenizer,
-                response_tag=SEQ_RESPONSE_TAG,
-                max_length=args.cutoff_len
-            )
+            # logger.info("Data collator initialized.")
+            # collator = SimpleCollator(
+            #     tokenizer=tokenizer,
+            #     max_length=args.cutoff_len
+            # )
             
             trainer = SFTTrainer(
                 model=model,
@@ -244,8 +362,9 @@ def main(args):
                 train_dataset=train_data,
                 eval_dataset=eval_dataset,
                 peft_config=peft_config,
-                data_collator=collator,
+                #data_collator=collator,
             )
+            
             
             
 
@@ -253,7 +372,6 @@ def main(args):
         else:
             train_args = SFTConfig(
                 gradient_checkpointing_kwargs={'use_reentrant': True},
-                dataset_text_field="text",
                 seed=args.seed,
                 output_dir=model_id,
                 eval_steps=args.save_and_eval_steps,
@@ -284,6 +402,7 @@ def main(args):
             
             
             eval_dataset = valid_data if valid_data is not None and len(valid_data) > 0 else None
+            
             trainer = SFTTrainer(
                 model=model,
                 args=train_args,
@@ -292,7 +411,35 @@ def main(args):
                 peft_config=peft_config
             )
             
+        from functools import partial
+        collate_fn = partial(simple_collate_fn, pad_token_id=tokenizer.pad_token_id)
         
+        # ============ 验证 token accuracy 计算 ============
+        if accelerator.is_main_process:
+            logger.info("Validating token accuracy implementation...")
+            
+            # 创建一个小的 dataloader 用于测试
+            from torch.utils.data import DataLoader
+            # 创建 DataLoader 用于验证 accuracy
+            test_dataloader = DataLoader(
+                train_data,
+                batch_size=2,
+                shuffle=False,
+                collate_fn=collate_fn
+            )
+                        
+            # 获取一个 batch
+            test_batch = next(iter(test_dataloader))
+            
+            # 获取设备
+            device = next(model.parameters()).device
+            
+            # 验证实现
+            result = validate_accuracy_implementation(model, test_batch, device)
+            logger.info(f"Validation result: {result}")
+
+        # 继续训练
+        # trainer.train()
 
         if trainer.accelerator.is_main_process:
             trainer.model.print_trainable_parameters()
@@ -301,13 +448,37 @@ def main(args):
         logger.info("Starting fine-tuning...")
         trainer.train()
         logger.info("Training finished successfully.")
+        
+          
+        eval_dataloader = DataLoader(
+                train_data,
+                batch_size=args.per_device_eval_batch_size,
+                shuffle=False,
+                collate_fn=collate_fn
+            )
 
+        device = next(model. parameters()).device
+
+        # 计算整个数据集的 accuracy
+        result = compute_dataset_token_accuracy(
+            model,
+            eval_dataloader,
+            device=device,
+            max_batches=50  # 只计算前50个 batch 用于快速验证
+        )
+        
         # ================= Save =================
         logger.info("Saving model and tokenizer...")
         trainer.save_model(model_id)
         trainer.create_model_card()
         tokenizer.save_pretrained(model_id)
         logger.info(f"Model saved at: {model_id}")
+
+
+        logger.info(f"Our implementation - Mean Token Accuracy: {result['mean_token_accuracy']:.4f}")
+        logger.info(f"Our implementation - Mean Loss: {result['mean_loss']:.4f}")
+
+      
 
     except Exception:
         logger.exception("Training failed due to an unexpected error.")
