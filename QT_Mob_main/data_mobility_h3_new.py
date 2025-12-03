@@ -166,7 +166,7 @@ class BaseDataset(Dataset):
 
         if self.mode == 'test':
             input = sft_prompt.format(instruction = instruction, response = response, prediction = "")
-            return input, prediction
+            return input, prediction,data["user"],data["date"],data["last_day_traj"]
         
         if sft_format:
             input = sft_prompt.format(instruction = instruction, response = "", prediction = "")
@@ -182,13 +182,16 @@ class BaseDataset(Dataset):
         d = self.inter_data[index]
         if self.mode == 'test':
             prompt_id = self.test_prompt_id # 测试时使用指定的prompt
+            prompt = self.prompts[prompt_id] # 获取prompt
+            input, output,user,date,last_day_traj = self._get_text_data(d, prompt, not self.sft_json_output)
+        
+            return dict(input_ids=input, labels=output,user=user,date=date,last_day_traj=last_day_traj)
         else:
             prompt_id = random.randint(0, len(self.prompts) - 1) # 随机选择一个prompt
-
-        prompt = self.prompts[prompt_id] # 获取prompt
-        input, output = self._get_text_data(d, prompt, not self.sft_json_output)
+            prompt = self.prompts[prompt_id] # 获取prompt
+            input, output = self._get_text_data(d, prompt, not self.sft_json_output)
         
-        return dict(input_ids=input, labels=output)
+            return dict(input_ids=input, labels=output)
 
 
 

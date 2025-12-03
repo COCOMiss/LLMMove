@@ -173,7 +173,59 @@ END_TAG = "<|im_end|>"
 
 
 
-class SimpleCollator:
+# 在 train.py 中，预先 tokenize 并智能截断
+def prepare_tokenized_dataset(data_list, tokenizer, max_length, response_tag, postfix):
+    """预处理数据，确保 prediction: 之后的内容完整"""
+    
+    processed = []
+    skipped = 0
+    
+    for idx, item in enumerate(data_list):
+        full_text = item["input_ids"] + item["labels"] + postfix
+        
+        tag_pos = full_text. find(response_tag)
+        if tag_pos == -1:
+            skipped += 1
+            continue
+        
+        prompt_text = full_text[:tag_pos + len(response_tag)]
+        response_text = full_text[tag_pos + len(response_tag):]
+        
+        prompt_ids = tokenizer.encode(prompt_text, add_special_tokens=False)
+        response_ids = tokenizer.encode(response_text, add_special_tokens=False)
+        
+        total_len = len(prompt_ids) + len(response_ids)
+        
+        if total_len > max_length:
+            available_for_prompt = max_length - len(response_ids) - 20
+            
+            if available_for_prompt < 200:
+                logger.warning(f"Sample {idx}: response too long ({len(response_ids)}), truncating")
+                response_ids = response_ids[:max_length - 200]
+                available_for_prompt = 200
+            
+            if len(prompt_ids) > available_for_prompt:
+                keep_start = int(available_for_prompt * 0.6)
+                keep_end = available_for_prompt - keep_start
+                prompt_ids = prompt_ids[:keep_start] + prompt_ids[-keep_end:]
+        
+        input_ids = prompt_ids + response_ids
+        labels = [-100] * len(prompt_ids) + response_ids
+        
+        processed.append({
+            "input_ids": input_ids,
+            "labels": labels,
+            # ✅ 不需要 attention_mask，SFTTrainer 的 collator 会自动生成
+        })
+    
+    logger.info(f"Processed {len(processed)} samples, skipped {skipped}")
+    return processed
+
+# 然后使用简单的 collator，只做 padding
+
+
+
+# class SimpleCollator:
     """简单的 Collator，数据已经预处理好，只需要 padding"""
     
     def __init__(self, tokenizer, max_length=4096, pad_to_multiple_of=8):
