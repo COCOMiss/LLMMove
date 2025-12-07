@@ -173,55 +173,78 @@ END_TAG = "<|im_end|>"
 
 
 
-# 在 train.py 中，预先 tokenize 并智能截断
 def prepare_tokenized_dataset(data_list, tokenizer, max_length, response_tag, postfix):
-    """预处理数据，确保 prediction: 之后的内容完整"""
+    """
+    预处理数据，确保 response_tag 之后的内容完整
+    支持两种输入格式：
+    1.  {"input_ids": str, "labels": str}  - 旧格式
+    2. {"prompt": str, "completion": str} - 新格式
+    """
     
     processed = []
     skipped = 0
     
     for idx, item in enumerate(data_list):
-        full_text = item["input_ids"] + item["labels"] + postfix
-        
-        tag_pos = full_text. find(response_tag)
-        if tag_pos == -1:
+        # ✅ 支持两种输入格式
+        if "prompt" in item and "completion" in item:
+            # 新格式：prompt + completion
+            prompt_text = item["prompt"]
+            completion_text = item["completion"] + postfix
+            full_text = prompt_text + completion_text
+            
+            # 对于这种格式，我们直接用 prompt 和 completion 的边界
+            # 而不是依赖 response_tag
+            prompt_ids = tokenizer.encode(prompt_text, add_special_tokens=True)
+            completion_ids = tokenizer.encode(completion_text, add_special_tokens=False)
+            
+        elif "input_ids" in item and "labels" in item:
+            # 旧格式：input_ids + labels（都是字符串）
+            full_text = item["input_ids"] + item["labels"] + postfix
+            
+            tag_pos = full_text.find(response_tag)
+            if tag_pos == -1:
+                skipped += 1
+                continue
+            
+            prompt_text = full_text[:tag_pos + len(response_tag)]
+            completion_text = full_text[tag_pos + len(response_tag):]
+            
+            prompt_ids = tokenizer.encode(prompt_text, add_special_tokens=True)
+            completion_ids = tokenizer.encode(completion_text, add_special_tokens=False)
+        else:
+            print(f"⚠️ Sample {idx}: Unknown format, keys = {item.keys()}")
             skipped += 1
             continue
         
-        prompt_text = full_text[:tag_pos + len(response_tag)]
-        response_text = full_text[tag_pos + len(response_tag):]
-        
-        prompt_ids = tokenizer.encode(prompt_text, add_special_tokens=False)
-        response_ids = tokenizer.encode(response_text, add_special_tokens=False)
-        
-        total_len = len(prompt_ids) + len(response_ids)
+        # 截断逻辑：优先保证 completion 完整
+        total_len = len(prompt_ids) + len(completion_ids)
         
         if total_len > max_length:
-            available_for_prompt = max_length - len(response_ids) - 20
+            available_for_prompt = max_length - len(completion_ids) - 20
             
             if available_for_prompt < 200:
-                logger.warning(f"Sample {idx}: response too long ({len(response_ids)}), truncating")
-                response_ids = response_ids[:max_length - 200]
+                # completion 太长，需要截断
+                print(f"⚠️ Sample {idx}: completion too long ({len(completion_ids)}), truncating")
+                completion_ids = completion_ids[:max_length - 200]
                 available_for_prompt = 200
             
             if len(prompt_ids) > available_for_prompt:
+                # 截断 prompt，保留头尾
                 keep_start = int(available_for_prompt * 0.6)
                 keep_end = available_for_prompt - keep_start
                 prompt_ids = prompt_ids[:keep_start] + prompt_ids[-keep_end:]
         
-        input_ids = prompt_ids + response_ids
-        labels = [-100] * len(prompt_ids) + response_ids
+        # 组合 input_ids 和 labels
+        input_ids = prompt_ids + completion_ids
+        labels = [-100] * len(prompt_ids) + completion_ids
         
-        processed.append({
+        processed. append({
             "input_ids": input_ids,
             "labels": labels,
-            # ✅ 不需要 attention_mask，SFTTrainer 的 collator 会自动生成
         })
     
-    logger.info(f"Processed {len(processed)} samples, skipped {skipped}")
+    print(f"✅ Processed {len(processed)} samples, skipped {skipped}")
     return processed
-
-# 然后使用简单的 collator，只做 padding
 
 # class SimpleCollator:
 #     """
