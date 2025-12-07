@@ -8,16 +8,20 @@ from h3_prompt_mobility import *
 import pandas as pd
 import pickle
 from tqdm import tqdm
-from datetime import datetime
+from datetime import datetime, timedelta
 from logger_utils import get_logger
 import gc
+from dataclasses import dataclass
+from typing import List, Dict, Optional
 from functools import partial                                     
 import multiprocessing as mp
-from torch.utils.data import get_worker_info  # 用于检测是否在 DataLoader worker 内
 import os, gc, json
 from itertools import repeat
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor, as_completed
-logger = get_logger(__name__)
+import re
+logger = get_logger(__name__)   
+
+
 logger.info("==== Dataset module initialized ====")
 
 import holidays
@@ -26,10 +30,73 @@ import holidays
 japan_holidays = holidays.country_holidays('JP')
 
 
+def extract_location_info(text: str) -> dict:
+    """
+    将地点描述文本解析为结构化信息 dict。
+    """
 
+    # 1. codebook
+    code_match = re.search(r'The codebook of this location is\s+([<a-zA-Z0-9_><]+)', text)
+    code = code_match.group(1) if code_match else None
 
+    # 2. Geographic Location
+    geo_match = re.search(r'\*\*Geographic Location\*\*\n([^\n]+)', text)
+    geographic = geo_match.group(1).strip() if geo_match else None
 
+    # 3. Neighbors
+    neighbor_match = re.search(r'The neighbors of this location are:\s*([<a-zA-Z0-9_><, ]+)\.', text)
+    neighbors = []
+    if neighbor_match:
+        neighbors_raw = neighbor_match.group(1)
+        neighbors = [n.strip() for n in neighbors_raw.split(',')]
 
+    # 4. POI Category Distribution
+    poi_match = re.search(r'\*\*POI Category Distribution\*\*.*?\n\((.*?)\)\s*([^\n]+)', text)
+    poi_dict = {}
+    if poi_match:
+        poi_line = poi_match.group(2)
+        # category (prob), ...
+        for part in poi_line.split(','):
+            c = part.strip()
+            cateprob_match = re.match(r'([^(]+)\(([\d\.]+)\)', c)
+            if cateprob_match:
+                cat, prob = cateprob_match.groups()
+                if float(prob)<0.05:
+                    continue
+                poi_dict[cat.strip()] = float(prob)
+
+    # 5. High-frequency Visit Times (weekday/weekend)
+    weekday_match = re.search(r'The top frequent check-in weekday times of this grid are:\s*([^\n]+)', text)
+    weekend_match = re.search(r'The top frequent check-in weekend times of this grid are:\s*([^\n]+)', text)
+    weekday_peaks = [x.strip() for x in weekday_match.group(1).split(',')] if weekday_match else []
+    weekend_peaks = [x.strip() for x in weekend_match.group(1).split(',')] if weekend_match else []
+
+    # 6. Model-generated Location Summary
+    summary_match = re.search(r'\*\*Model-generated Location Summary\*\*\n([^\n]+(?:\n(?!\*\*).+)*)', text)
+    summary = summary_match.group(1).strip() if summary_match else None
+
+    # 构建结果字典
+    result = {
+        "code": code,
+        "geographic": geographic,
+        "neighbors": neighbors,
+        "poi_distribution": poi_dict,
+        "weekday_peaks": weekday_peaks,
+        "weekend_peaks": weekend_peaks,
+        "summary": summary
+    }
+    return result  
+
+def jaccard_similarity(seq1, seq2):
+    loc_set1=set(s[0] for s in seq1)
+    loc_set2=set(s[0] for s in seq2)
+   
+    if not loc_set1 and not loc_set2:
+        return 1.0
+    if not loc_set1 or not loc_set2:
+        return 0.0
+    return len(loc_set1 & loc_set2) / len(loc_set1 | loc_set2)
+    
 def format_time_field(time_value):
     """
     Format a time field for display, handling various input types.
@@ -43,6 +110,22 @@ def format_time_field(time_value):
             return f"{time_value}:00 AM"
     else:
         return f"{time_value}:00 AM"
+
+def get_half_point_time(time):
+    if type(time) is str:
+        dt = datetime.fromisoformat(time)
+    else:
+        dt = time
+    minute = dt.minute
+    if minute < 15:
+        mapped_time = dt.replace(minute=0, second=0, microsecond=0)
+        
+    elif minute < 45:
+        mapped_time = dt.replace(minute=30, second=0, microsecond=0)
+    else:
+        mapped_time = dt.replace(hour=(dt.hour + 1 if dt.hour < 23 else 23),
+                                minute=0, second=0, microsecond=0)
+    return mapped_time
 
 def is_holiday(date_str):
     """
@@ -100,12 +183,13 @@ class BaseDataset(Dataset):
         self.allowed_tokens = None
         self.all_items = None
         self.task_prompt = None
-        self.data_filename_list = ['20120809.feather','20120810.feather','20120811.feather','20120812.feather','20120817.feather','20120818.feather']
+        self.data_filename_list = ['20120809.feather','20120810.feather','20120811.feather','20120812.feather','20120816.feather','20120817.feather','20120818.feather','20120819.feather']
         # self.data_filename_list = [f for f in os.listdir(self.data_path) if f.endswith(".feather") and "2012081" in f]
         # # import re
         # self.data_filename_list = [f for f in os.listdir(self.data_path) if re.search(r"2\d\.feather$", f)]
         self.multi_seq = args.multi_seq
         self.add_profile = args.add_profile
+        self.add_last_day = args.add_last_day
         self.multi_rec = args.multi_rec
         self.single_rec = args.single_rec
         self.abalation_location_prompt = args.ablation_location_prompt
@@ -138,19 +222,34 @@ class BaseDataset(Dataset):
     def __len__(self):
         return len(self.inter_data)
     
-    def _get_text_data(self, data, prompt, sft_format=False):
+    def is_prompt_format_valid(self,formatted):
+        try:
+            target_suffix = '"stay_duration": "... min" }, ...]\n'
+            # 两边都去除空白字符后再比较，因为 formatted 可能末尾有额外的空白
+            if not formatted.rstrip().endswith(target_suffix.rstrip()):
+                return False
+            return True
+        except Exception:
+            return False
+    
+    def _get_traj_text_data(self, data, prompt, sft_format=False):
         if self.indexing:
             sys_prompt = system_prompt
-        else:
+        else:   
             # sys_prompt = system_prompt_not_indexing.format(max_poi=len(self.indices)-1)
             sys_prompt = system_prompt_not_indexing
-        instruction = sys_prompt + self.task_prompt + prompt.format(**data)
+        formatted = prompt.format(**data)
+        if not self.is_prompt_format_valid(formatted):
+            logger.warning(f"Invalid prompt format: {formatted}")
+            raise ValueError(f"Invalid prompt format: {formatted}")
+        instruction = sys_prompt + self.task_prompt + formatted
+      
         response = data["response"]
         prediction = data["prediction"] if "prediction" in data else ""
 
         if self.mode == 'test':
             input = sft_prompt.format(instruction = instruction, response = response, prediction = "")
-            return input, prediction
+            return input, prediction,data["user"],data["date"],data["last_day_traj"]
         
         if sft_format:
             input = sft_prompt.format(instruction = instruction, response = "", prediction = "")
@@ -161,23 +260,38 @@ class BaseDataset(Dataset):
             
         return input, output
     
-    
- 
-
-    
+    def _get_text_data(self, data, prompt,sft_format=False):
+        is_qa_format = any(q in prompt. lower() for q in ["what is", "what can you tell", "provide"])
+        response_prefix = "Answer:" if is_qa_format else "prediction:"
+        prediction = data["response"] if "response" in data else ""
+        input_prompt = self.system_prompt + prompt.format(**data)
+           
+        completion_text = f"{response_prefix} {prediction}"
+        return input_prompt, completion_text
  
     def __getitem__(self, index):
         d = self.inter_data[index]
-        if self.mode == 'test':
-            prompt_id = self.test_prompt_id # 测试时使用指定的prompt
+        if self.args.test_task == "daily_traj":
+            if self.mode == 'test':
+                prompt_id = self.test_prompt_id # 测试时使用指定的prompt
+                prompt = self.prompts[prompt_id] # 获取prompt
+                input, output,user,date,last_day_traj = self._get_traj_text_data(d, prompt, not self.sft_json_output)
+                return dict(input_ids=input, labels=output,user=user,date=date,last_day_traj=last_day_traj)
+            else:
+                prompt_id = random.randint(0, len(self.prompts) - 1) # 随机选择一个prompt
+                prompt = self.prompts[prompt_id] # 获取prompt
+                input, output = self._get_traj_text_data(d, prompt, not self.sft_json_output)
+                return dict(input_ids=input, labels=output)   
         else:
-            prompt_id = random.randint(0, len(self.prompts) - 1) # 随机选择一个prompt
+            prompt_id = random.randint(0, len(self.prompts) - 1)
+            input,output = self._get_text_data(d,self.prompts[prompt_id], not self.sft_json_output)
+            return {
+                "prompt": input,
+                "completion": output  # 只包含 "prediction: xxx" 或 "Answer: xxx"
+            }
+            # return dict(input_ids=inputlist, labels=outputlist)
+                
 
-        prompt = self.prompts[prompt_id] # 获取prompt
-        input, output = self._get_text_data(d, prompt, not self.sft_json_output)
-        return dict(input_ids=input, labels=output)
-
-    
     def merge_data(self):
         if self.inter_data_dict:
             merged_data = pd.concat(list(self.inter_data_dict.values()), ignore_index=False)
@@ -186,8 +300,7 @@ class BaseDataset(Dataset):
             merged_data = pd.DataFrame()
             logger.warning("No data to merge.")
         return merged_data
-
-        
+    
     def load_multi_days_data(self,start=0,end=-1):
         # 读取所有 self.data_filename_list 中的文件，合并 data
         all_data = {}
@@ -210,6 +323,7 @@ class BaseDataset(Dataset):
         #     merged_data = pd.concat(all_data, ignore_index=True)
         # else:
         #     merged_data = pd.DataFrame()
+    
     def _free_attrs(self, *names):
         """将指定属性从内存中释放（置 None + 垃圾回收），并打印日志。"""
         for n in names:
@@ -228,13 +342,24 @@ class BaseDataset(Dataset):
                     logger.info(f"[MEM] Freed attribute: {n}")
                 except Exception as e:
                     logger.warning(f"[MEM] Free {n} failed: {e}")
-        gc.collect()
-        
-
-
+        gc.collect()        
 
 class DailyTrajDataset(BaseDataset):
     # Task --  Predict Daily Trajectory
+    
+    def find_last_day(self,date):
+        # 找到 date 日期的上一个工作日
+        if is_holiday(date) == "Workday":
+            date = datetime.strptime(date, '%Y%m%d').date()
+            date -= timedelta(days=1)
+            while is_holiday(date.strftime('%Y%m%d')) != "Workday":
+                date -= timedelta(days=1)
+            return date
+        else:
+            date = datetime.strptime(date, '%Y%m%d').date()
+            while date.weekday() != 5:
+                date -= timedelta(days=1)
+            return date
 
     def __init__(self, args, mode="train"):
         super().__init__(args)
@@ -247,8 +372,8 @@ class DailyTrajDataset(BaseDataset):
             self.codebook = json.load(f)
         logger.info(f"Initializing daily trajectory dataset (mode={self.mode})")   
         
-        cache_root = os.path.join("LLMMove", "QT_Mob_main", "dataset", self.mode, "zdc_h3_8")
-        cache_file = os.path.join(cache_root, "daily_traj_dataset.feather")
+        cache_root = os.path.join("QT_Mob_main", "dataset", self.mode, "zdc_h3_8")
+        cache_file = os.path.join(cache_root, "daily_traj_dataset.pkl")
 
         if not os.path.exists(cache_file):
             logger.warning(
@@ -257,8 +382,27 @@ class DailyTrajDataset(BaseDataset):
             self._build_and_cache_daily_traj(cache_root, cache_file)
 
         try:
-            self.inter_data = pd.read_feather(cache_file).to_dict(orient="records")
-            logger.info(f"daily trajectory dataset loaded successfully: {len(self.inter_data)} samples.")
+            cached_data = pd.read_pickle(cache_file)
+            logger.info(f"Loaded from pickle: type={type(cached_data)}, shape/len={getattr( cached_data, 'shape', len(cached_data))}")
+            logger.info(f"daily trajectory dataset loaded successfully: {len(cached_data)} samples.")
+        
+            # 如果是 DataFrame，转为 list of dicts
+            if isinstance(cached_data, pd.DataFrame):
+                # ✅ 重置索引，确保索引是 0, 1, 2, ... 
+                cached_data = cached_data.  reset_index(drop=True)
+                self.inter_data = cached_data. to_dict(orient="records")
+                logger.info(f"Converted DataFrame to list of dicts: {len(self.inter_data)} records")
+            elif isinstance(cached_data, list):
+                self.inter_data = cached_data
+                logger.info(f"Data is already a list: {len(self.inter_data)} records")
+            else:
+                raise TypeError(f"Unexpected data type: {type(cached_data)}")
+            
+            # ✅ 验证转换结果
+            assert isinstance(self. inter_data, list), f"self.inter_data should be list, got {type(self.inter_data)}"
+            assert len(self.inter_data) > 0, "self.inter_data is empty!"
+            assert isinstance(self.inter_data[0], dict), f"First item should be dict, got {type(self.inter_data[0])}"
+            logger.info(f"✅ daily trajectory dataset loaded successfully: {len(self.inter_data)} samples.")
         except Exception:
             logger.exception("daily trajectory dataset initialization failed.")
             raise
@@ -272,7 +416,7 @@ class DailyTrajDataset(BaseDataset):
             os.makedirs(cache_root, exist_ok=True)
             self._load_data()
             self.inter_data = self._process_data()
-            pd.DataFrame(self.inter_data).to_feather(cache_file)
+            pd.DataFrame(self.inter_data).to_pickle(cache_file)
             logger.info(f"Cached daily trajectory dataset to {cache_file}")
         except Exception:
             logger.exception("Failed to build daily trajectory cache.")
@@ -285,13 +429,50 @@ class DailyTrajDataset(BaseDataset):
         """
         total_minutes = int(round(duration / 60.0))
         bucket_minutes = int(round(total_minutes / 30.0) * 30)
-        if bucket_minutes < 30:
+        if bucket_minutes <=30:
             bucket_minutes = 30
-        if bucket_minutes > 600:
+        if bucket_minutes >=600:
             bucket_minutes = 600
         return bucket_minutes
 
-
+    def _clean_repeated_data(self):
+        
+        for date, day_trajectory_dict in tqdm(self.stay_data.items(), desc="Cleaning Trajectory Dataset"):
+            # 如果 add_last_day 为 True，则跳过没有 last_day 的日期
+            last_day = self.find_last_day(date)
+            last_day_str = last_day.strftime('%Y%m%d')  # 转换为YYYYMMDD格式的字符串
+            if last_day_str not in self.stay_data.keys():
+                continue
+            else:
+                last_day_dict = self.stay_data[last_day_str]
+            
+            # 收集需要删除的 user_id，避免在迭代时修改字典
+            users_to_delete = []
+                    
+            for user_id, user_trajectory in day_trajectory_dict.items():
+                if user_id not in last_day_dict.keys():
+                    continue
+                else:
+                    last_day_data = last_day_dict[user_id]
+                    last_day_trajectory = sorted(last_day_data, key=lambda x: int(x[3].split('_')[1]))
+                    # INSERT_YOUR_CODE
+                    # 计算last_day_trajectory和user_trajectory的location相似度（假设每个点的location可通过x[0]获取）
+                    similarity = jaccard_similarity(last_day_trajectory, user_trajectory)
+                    if similarity > 0.3:
+                        # INSERT_YOUR_CODE
+                        # 收集需要删除的 user_id
+                        users_to_delete.append(user_id)
+            
+            
+            print(f"Deleting  {len(users_to_delete)} users")
+            # 迭代完成后再删除
+            for user_id in users_to_delete:
+               
+                del self.stay_data[date][user_id]
+                        
+                    
+ 
+       
 
     def _load_data(self):
         # load data
@@ -302,14 +483,20 @@ class DailyTrajDataset(BaseDataset):
         # if split_idx % 2 == 0:
         #     split_idx += 1 if split_idx < len(self.data_filename_list) else -1
         
+        #inter_data_dict[date] = [trajectory_data]
         if self.mode == "train":
-            self.inter_data_dict = self.load_multi_days_data(0,4)
+            self.inter_data_dict = self.load_multi_days_data(0,2)
         else:
             self.inter_data_dict = self.load_multi_days_data(4,len(self.data_filename_list))
+            
+        
         # self.inter_data_dict = self.load_multi_days_data()
         
         self._process_stay_data()
         self._free_attrs("inter_data_dict")
+        if self.mode== "train" and self.add_last_day:
+            self._clean_repeated_data()
+            
         with open(self.index_file, 'r') as f:
             self.codebook = json.load(f)
         self.user_profile_weekday = pd.read_csv(
@@ -329,55 +516,103 @@ class DailyTrajDataset(BaseDataset):
         
         for day_time, trajectory_data in self.inter_data_dict.items():
             if day_time not in self.stay_data.keys():
-                self.stay_data[day_time]=[]
+                self.stay_data[day_time]={}
             stay_data = trajectory_data[trajectory_data['transport_mode'] == 'STAY']
             user_set = stay_data['user_id'].unique()
             
             for user_id in tqdm(user_set, desc="Processing STAY DATA"):
+                traj_session=[]
+                final_traj_session=[]
+                
                 trajs = stay_data[stay_data['user_id'] == user_id]
                 trajs = trajs.sort_values(['trajectory_num', 'point_order'], ascending=True)
                 trajs = trajs.reset_index()
-                traj_session=[]
+                
                 # traj_nums = trajs['trajectory_num'].unique()
                 for index, row in trajs.iterrows(): 
                     if index%2 ==0:
-                        if type(row['time']) is str:
-                            prev_time = datetime.fromisoformat(row['time'])
-                        else:
-                            prev_time = row['time'].to_pydatetime()
+                        prev_time = row['time']
+                        # if type(row['time']) is str:
+                        #     prev_time = datetime.fromisoformat(row['time'])
+                        # else:
+                            # prev_time = row['time'].to_pydatetime()
                         prev_loc= row['h3']
                     else:
                         if row['h3']==prev_loc:
-                            if type(row['time']) is str:
-                                duration = (datetime.fromisoformat(row['time'])-prev_time).total_seconds()
-                            else:
-                                duration = (row['time'].to_pydatetime()-prev_time).total_seconds()
                             
+                            ct = get_half_point_time(row['time'])
+                            pt=get_half_point_time(prev_time)
+                            duration = (ct-pt).total_seconds()
                             if duration < 0:
                                 duration = -duration
 
                             # Only include trajectory points that belong to the current day
                             # Filter out points that are on different days
                             if prev_time.date() == datetime.strptime(day_time, '%Y%m%d').date():
-                                traj_session.append((str(row['h3']), prev_time, user_id, row['trajectory_num'],duration))
+                                traj_session.append((str(row['h3']), pt, user_id, row['trajectory_num'],duration))
                         else:
                             continue
+                if len(traj_session) >5:
+                    for index,traj in enumerate(traj_session):
+                        if index == 0:
+                            prev_traj=list(traj)  # Convert tuple to list for modification
+                        elif index == len(traj_session)-1:
+                            if traj[0]==prev_traj[0]:
+                                duration=traj[4]+prev_traj[4]
+                                prev_traj[4]=duration
+                                final_traj_session.append(tuple(prev_traj))  # Convert back to tuple when appending
+                            else:
+                                final_traj_session.append(tuple(prev_traj))  # Convert back to tuple when appending
+                                final_traj_session.append(traj)  # Append current traj (already a tuple)
+                        else:
+                            if traj[0]==prev_traj[0]: 
+                                duration=traj[4]+prev_traj[4]
+                                prev_traj[4]=duration  
+                            else:
+                                final_traj_session.append(tuple(prev_traj))  # Convert back to tuple when appending
+                                prev_traj=list(traj)  # Convert tuple to list for modification
                  
-                if len(traj_session) >= 2:
-                    self.stay_data[day_time].append(traj_session)
-        
-  
+                if len(final_traj_session) > 3:
+                    self.stay_data[day_time][user_id]=final_traj_session
+                   
     
     def _process_data(self):
         logger.info("Processing Daily Trajectory Dataset...")       
         inter_data = []
         
-        for date, day_trajectory in tqdm(self.stay_data.items(), desc="Processing Daily Trajectory Dataset"):
+        for date, day_trajectory_dict in tqdm(self.stay_data.items(), desc="Processing Daily Trajectory Dataset"):
             
-            for user_trajectory in day_trajectory:
-                # 按照 trajectory_num (第4个元素, 即下标3) 对 user_trajectory 排序
-                # 对 user_trajectory 按 trajectory_num 排序，若已有序则不变
-                # 实际上 user_trajectory 默认应已按序，可以校验是否排序有变化：
+            # 如果 add_last_day 为 True，则跳过没有 last_day 的日期
+            if self.add_last_day:
+                last_day = self.find_last_day(date)
+                last_day_str = last_day.strftime('%Y%m%d')  # 转换为YYYYMMDD格式的字符串
+                if last_day_str not in self.stay_data.keys():
+                    continue
+                else:
+                    last_day_dict = self.stay_data[last_day_str]
+                    
+            for user_id, user_trajectory in day_trajectory_dict.items():
+                #首先按照判断该user 是否存在上一天的轨迹
+                one_data = dict()
+                if self.add_last_day:
+                    if user_id not in last_day_dict.keys():
+                        continue
+                    last_day_data = last_day_dict[user_id]
+                    last_day_trajectory = sorted(last_day_data, key=lambda x: int(x[3].split('_')[1]))
+                    one_data["last_day_traj"] = json.dumps(
+                        [
+                            {   "id":str(i+1),
+                                "start_time": format_time_field(trajectory[1]),
+                                "h3_index": "".join(self.codebook[trajectory[0]]),
+                                "stay_duration": f"{self.get_stay_duration(trajectory[4])} min"
+                            } 
+                            for i, trajectory in enumerate(last_day_trajectory) 
+                            if trajectory[0] in self.codebook
+                        ],
+                        ensure_ascii=False)
+                    
+                    
+                    
                 user_trajectory = sorted(user_trajectory, key=lambda x: int(x[3].split('_')[1]))
 
                 # 数据验证：检查trajectory数据的完整性
@@ -388,15 +623,14 @@ class DailyTrajDataset(BaseDataset):
                     h3_idx, time_val, user_id, traj_num, duration = traj
                     if h3_idx not in self.codebook:
                         logger.warning(f"H3 index '{h3_idx}' not found in codebook. Available keys sample: {list(self.codebook.keys())[:3]}")
+                
+
                 #0: h3 index, 1: time, 2: user id, 3: trajectory num, 4: duration
-                one_data = dict()
                 one_data["user"] = user_trajectory[0][2]
                 one_data["response"] = "prediction:"
                 # 获取date是否是节假日，假设有一个 is_holiday 方法可用
                 one_data["date"] = is_holiday(date)
                 if self.add_profile:
-                    
-                    
                     # profile = self.user_profile.loc[self.user_profile['user_id'] == int(one_data["user"])]
                     if one_data["date"] == "Workday":
                         profile = self.user_profile_weekday.loc[self.user_profile_weekday['user_id'] == int(one_data["user"])]
@@ -405,8 +639,7 @@ class DailyTrajDataset(BaseDataset):
                     one_data["profile"] = profile['profile'].values[0] if not profile.empty else ""
                 else:
                     one_data["profile"] = ""
-                
-                
+                 
                 
                 try:
                     one_data["prediction"] = json.dumps(
@@ -416,6 +649,7 @@ class DailyTrajDataset(BaseDataset):
                                 "h3_index": "".join(self.codebook[trajectory[0]]),
                                 "stay_duration": f"{self.get_stay_duration(trajectory[4])} min"
                             } for i,trajectory in enumerate(user_trajectory)
+                            if trajectory[0] in self.codebook
                         ],
                         ensure_ascii=False)
                         
@@ -427,9 +661,7 @@ class DailyTrajDataset(BaseDataset):
         
         self._free_attrs("stay_data", "user_profile")
         return inter_data
-                    
-      
-
+       
 class SeqDataset(BaseDataset):
     # Task -- Next Location Prediction
 
@@ -439,7 +671,7 @@ class SeqDataset(BaseDataset):
         self.mode = mode # train, valid, test
         
         self.prompts = all_prompt["seq"] # 所有的prompt
-        self.task_prompt = task_prompt
+        self.task_prompt = seq_task_prompt
         with open(self.index_file, 'r') as f:
             self.codebook = json.load(f)
         # self.user_profile = pd.read_csv(
@@ -450,8 +682,8 @@ class SeqDataset(BaseDataset):
         
         
         
-        cache_root = os.path.join("LLMMove", "QT_Mob_main", "dataset", self.mode, "zdc_h3_8")
-        cache_file = os.path.join(cache_root, "seq_dataset.feather")
+        cache_root = os.path.join("QT_Mob_main", "dataset", self.mode, "zdc_h3_8")
+        cache_file = os.path.join(cache_root, "seq_dataset.pkl")
 
         if not os.path.exists(cache_file):
             logger.warning(
@@ -460,7 +692,7 @@ class SeqDataset(BaseDataset):
             self._build_and_cache_seq(cache_root, cache_file)
 
         try:
-            self.inter_data = pd.read_feather(cache_file).to_dict(orient="records")
+            self.inter_data = pd.read_pickle(cache_file).to_dict(orient="records")
             logger.info(f"SeqDataset loaded successfully: {len(self.inter_data)} samples.")
         except Exception:
             logger.exception("SeqDataset initialization failed.")
@@ -475,7 +707,7 @@ class SeqDataset(BaseDataset):
             os.makedirs(cache_root, exist_ok=True)
             self._load_data()
             self.inter_data = self._process_data()
-            pd.DataFrame(self.inter_data).to_feather(cache_file)
+            pd.DataFrame(self.inter_data).to_pickle(cache_file)
             logger.info(f"Cached sequence dataset to {cache_file}")
         except Exception:
             logger.exception("Failed to build sequence cache.")
@@ -669,9 +901,9 @@ class RecoveryDataset(BaseDataset):
             self._remap_items()
             self.inter_data = self._process_data()
             if self.mode == "train":
-                pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/train/inner_data_rec_dataset.feather")
+                pd.DataFrame(self.inter_data).to_pickle("QT_Mob_main/dataset/train/inner_data_rec_dataset.pkl")
             if self.mode=="test":
-                pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/test/inner_data_rec_dataset.feather")            
+                pd.DataFrame(self.inter_data).to_pickle("QT_Mob_main/dataset/test/inner_data_rec_dataset.pkl")            
             logger.info(f"RecoveryDataset loaded successfully: {len(self.inter_data)} samples.")
         except Exception:
             logger.exception("RecoveryDataset initialization failed.")
@@ -950,173 +1182,176 @@ class RecoveryDataset(BaseDataset):
         # return inter_data    
 
 class Index2LocationDataset(BaseDataset):
-    # Task -- Index to Location
 
-    def __init__(self, args):
+    def __init__(self, args, mode="train"):
         super().__init__(args)
-        self.prompts = all_prompt["index"]  # 所有的prompt
-        self.task_prompt = task_prompt
-        self.mode = "train"
+            
+        # self.prompts = all_prompt["index"] # 所有的prompt
+        # self.task_prompt = loc_system_prompt_location
+        self.mode = mode
+        self.file_path = args.gridinfo_path
+        self.prompts = all_prompt["index2location"]
+        self.system_prompt = index2loc_system_prompt_location
+        print("Dataset Name: Index2LocationDataset")
+        with open(self.index_file, 'r') as f:
+            self.codebook = json.load(f)
 
-        logger.info("Initializing Index2LocationDataset...")
+        self._load_data()
+        self.inter_data = self._process_data()
+        
+        print("Total number of data: ", len(self.inter_data))
 
-        try:
-            self._load_data()
-            self.inter_data = self._process_data()
-            if self.mode == "train":
-                pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/train/inner_data_i2l_dataset.feather")
-            if self.mode=="test":
-                pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/test/inner_data_i2l_dataset.feather")            
-            logger.info(f"Index2LocationDataset loaded successfully with {len(self.inter_data)} samples.")
-        except Exception:
-            logger.exception("Error initializing Index2LocationDataset.")
-            raise
-
-
+    
     def _load_data(self):
-        # load data for abalation study
-        # location_prompt = {}
-        # for file in os.listdir(os.path.join(self.data_path, "prompts")): 
-        #     with open(os.path.join(self.data_path, "prompts", file), 'r') as f:
-        #         content = f.read().split("\n")
-        #         if self.abalation_location_prompt=="1":
-        #             content.pop(3)
-        #         elif self.abalation_location_prompt=="2":
-        #             content.pop(4)
-        #         elif self.abalation_location_prompt=="3":
-        #             content.pop(5)
-        #         content = "\n".join(content)                
-        #         location_prompt[file.split(".")[0]] = content
-        # self.location_prompt = location_prompt
-        # 读取index文件
-        logger.info("Loading index-to-location mapping data...")
-        try:
-           
-            with open(self.index_path, "r") as f:
-                self.codebook = json.load(f)
-            logger.info(f"Loaded index file: {self.index_path}")
-
-            prompt_dir = os.path.join(self.data_path, "grid_profile_codebook")
-            if not os.path.exists(prompt_dir):
-                logger.error(f"Prompt directory not found: {prompt_dir}")
-                raise FileNotFoundError(f"Missing prompt directory: {prompt_dir}")
-
-            self.prompts_map = {}
-            for fn in os.listdir(prompt_dir):
-                path = os.path.join(prompt_dir, fn)
-                with open(path, encoding="utf-8") as f:
+        """
+        读取 /home/linyuxi/LLM/LLMMove/zdc_h3_8/grid_profile_codebook_qwen 下所有文件，
+        形成 dict，如果文件名是 882f5a04d3fffff_qwen.txt 那么 key是 882f5a04d3fffff，内容是文件内容
+        """
+        # self.file_path = "LLMMove/zdc_h3_8/grid_profile_codebook_qwen"
+        self.location_info_dict = {}
+        for filename in os.listdir(self.file_path):
+            if filename.endswith("_qwen.txt"):
+                filepath = os.path.join(self.file_path, filename)
+                with open(filepath, 'r', encoding='utf-8') as f:
                     content = f.read()
-                self.prompts_map[fn.split(".")[0]] = content
-            logger.info(f"Loaded {len(self.prompts_map)} prompt files from {prompt_dir}")
-        except Exception:
-            logger.exception("Error loading data in Index2LocationDataset.")
-            raise
-        # 会有一模一样的location
-
-
+                    location_info = extract_location_info(content)
+                    self.location_info_dict[location_info["code"]] = location_info
+       
+    
     def _process_data(self):
-        logger.info("Processing Index2LocationDataset samples...")
-        data = []
-        try:
-            for idx, desc in self.prompts_map.items():
-                if idx not in self.codebook:
-                    logger.warning(f"Index '{idx}' not found in codebook; skipping.")
-                    continue
-                one_data = {
-                    "index": "".join(self.codebook[idx]),
-                    "response": desc
-                }
-                data.append(one_data)
-            logger.info(f"Processed {len(data)} index-to-location pairs.")
-        except Exception:
-            logger.exception("Error processing Index2LocationDataset data.")
-            raise
-        return data
+        inter_data = []
+        for code, location_info in self.location_info_dict.items():
+            one_data = dict()
+            one_data["index"] = "".join(code)
+            one_data["response"] = json.dumps(location_info, ensure_ascii=False, indent=2)
+            inter_data.append(one_data)
+        return inter_data
+    
+
+# class Index2LocationDataset():
+#     # Task -- Index to Location
+
+
+#     def __init__(self, args):
+#         super().__init__(args)
+#         self.prompts = all_prompt["index"]  # 所有的prompt
+#         self.task_prompt = loc_system_prompt_location
+#         self.mode = "train"
+#         self.location_data = load_location_data(args.location_data_path)
+        
+#         logger.info("Initializing Index2LocationDataset...")
+
+#         try:
+#             self._load_data()
+#             self.inter_data = self._process_data()
+#             if self.mode == "train":
+#                 pd.DataFrame(self.inter_data).to_pickle("QT_Mob_main/dataset/train/inner_data_i2l_dataset.pkl")
+#             if self.mode=="test":
+#                 pd.DataFrame(self.inter_data).to_pickle("QT_Mob_main/dataset/test/inner_data_i2l_dataset.pkl")            
+#             logger.info(f"Index2LocationDataset loaded successfully with {len(self.inter_data)} samples.")
+#         except Exception:
+#             logger.exception("Error initializing Index2LocationDataset.")
+#             raise
+
+
+#     def _load_data(self):
+#         # load data for abalation study
+#         # location_prompt = {}
+#         # for file in os.listdir(os.path.join(self.data_path, "prompts")): 
+#         #     with open(os.path.join(self.data_path, "prompts", file), 'r') as f:
+#         #         content = f.read().split("\n")
+#         #         if self.abalation_location_prompt=="1":
+#         #             content.pop(3)
+#         #         elif self.abalation_location_prompt=="2":
+#         #             content.pop(4)
+#         #         elif self.abalation_location_prompt=="3":
+#         #             content.pop(5)
+#         #         content = "\n".join(content)                
+#         #         location_prompt[file.split(".")[0]] = content
+#         # self.location_prompt = location_prompt
+#         # 读取index文件
+#         logger.info("Loading index-to-location mapping data...")
+#         try:
+           
+#             with open(self.index_path, "r") as f:
+#                 self.codebook = json.load(f)
+#             logger.info(f"Loaded index file: {self.index_path}")
+
+#             prompt_dir = os.path.join(self.data_path, "grid_profile_codebook")
+#             if not os.path.exists(prompt_dir):
+#                 logger.error(f"Prompt directory not found: {prompt_dir}")
+#                 raise FileNotFoundError(f"Missing prompt directory: {prompt_dir}")
+
+#             self.prompts_map = {}
+#             for fn in os.listdir(prompt_dir):
+#                 path = os.path.join(prompt_dir, fn)
+#                 with open(path, encoding="utf-8") as f:
+#                     content = f.read()
+#                 self.prompts_map[fn.split(".")[0]] = content
+#             logger.info(f"Loaded {len(self.prompts_map)} prompt files from {prompt_dir}")
+#         except Exception:
+#             logger.exception("Error loading data in Index2LocationDataset.")
+#             raise
+#         # 会有一模一样的location
+
+
+#     def _process_data(self):
+#         logger.info("Processing Index2LocationDataset samples...")
+#         data = []
+#         try:
+#             for idx, desc in self.prompts_map.items():
+#                 if idx not in self.codebook:
+#                     logger.warning(f"Index '{idx}' not found in codebook; skipping.")
+#                     continue
+#                 one_data = {
+#                     "index": "".join(self.codebook[idx]),
+#                     "response": desc
+#                 }
+#                 data.append(one_data)
+#             logger.info(f"Processed {len(data)} index-to-location pairs.")
+#         except Exception:
+#             logger.exception("Error processing Index2LocationDataset data.")
+#             raise
+#         return data
     
 class Location2IndexDataset(BaseDataset):
     # Task -- Location to Index
 
 
-    def __init__(self, args):
+    def __init__(self, args, mode="train"):
         super().__init__(args)
-        self.prompts = all_prompt["location"]  # 所有的prompt
-        self.task_prompt = task_prompt
-        self.mode = "train"
-
+        self.prompts = all_prompt["location2index"]  # 所有的prompt
+        self.system_prompt = location2index_system_prompt
+        self.mode =mode
         logger.info("Initializing Location2IndexDataset...")
-
-        try:
-            self._load_data()
-            self.inter_data = self._process_data()
-            if self.mode=="train":
-                pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/train/inner_data_l2i_dataset.feather")
-            if self.mode=="test":
-                pd.DataFrame(self.inter_data).to_feather("QT_Mob_main/dataset/test/inner_data_l2i_dataset.feather")
-            logger.info(f"Location2IndexDataset loaded successfully with {len(self.inter_data)} samples.")
-        except Exception:
-            logger.exception("Error initializing Location2IndexDataset.")
-            raise
+        self.file_path = args.gridinfo_path
+        print("Dataset Name: Location2IndexDataset")
+        with open(self.index_file, 'r') as f:
+            self.codebook = json.load(f)
+        self._load_data()
+        self.inter_data = self._process_data()
+        print("Total number of data: ", len(self.inter_data))
 
     def _load_data(self):
-        # # load data for abalation study
-        # location_prompt = {}
-        # for file in os.listdir(os.path.join(self.data_path, "prompts")): 
-        #     with open(os.path.join(self.data_path, "prompts", file), 'r') as f:
-        #         content = f.read().split("\n")
-        #         if self.abalation_location_prompt=="1":
-        #             content.pop(3)
-        #         elif self.abalation_location_prompt=="2":
-        #             content.pop(4)
-        #         elif self.abalation_location_prompt=="3":
-        #             content.pop(5)
-        #         content = "\n".join(content)
-        #         location_prompt[file.split(".")[0]] = content
-        # self.location_prompt = location_prompt
-        
-        # 读取index文件
         logger.info("Loading location-to-index mapping data...")
-        try:
-            
-            with open(self.index_path, "r") as f:
-                self.codebook = json.load(f)
-            logger.info(f"Loaded index file: {self.index_path}")
-
-            prompt_dir = os.path.join(self.data_path, "grid_profile_codebook")
-            if not os.path.exists(prompt_dir):
-                logger.error(f"Prompt directory not found: {prompt_dir}")
-                raise FileNotFoundError(f"Missing prompt directory: {prompt_dir}")
-
-            self.prompts_map = {}
-            for fn in os.listdir(prompt_dir):
-                path = os.path.join(prompt_dir, fn)
-                with open(path, encoding="utf-8") as f:
+        # self.file_path = "LLMMove/zdc_h3_8/grid_profile_codebook_qwen"
+        self.location_info_dict = {}
+        for filename in os.listdir(self.file_path):
+            if filename.endswith("_qwen.txt"):
+                filepath = os.path.join(self.file_path, filename)
+                with open(filepath, 'r', encoding='utf-8') as f:
                     content = f.read()
-                self.prompts_map[fn.split(".")[0]] = content
-            logger.info(f"Loaded {len(self.prompts_map)} prompt files from {prompt_dir}")
-        except Exception:
-            logger.exception("Error loading data in Location2IndexDataset.")
-            raise
-        # 会有一模一样的location
-
-
+                    location_info = extract_location_info(content)
+                    self.location_info_dict[location_info["code"]] = location_info
+    
     def _process_data(self):
-        logger.info("Processing Location2IndexDataset samples...")
-        data = []
-        try:
-            for idx, desc in self.prompts_map.items():
-                if idx not in self.codebook:
-                    logger.warning(f"Index '{idx}' not found in codebook; skipping.")
-                    continue
-                one_data = {
-                    "location": desc,
-                    "response": "".join(self.codebook[idx])
-                }
-                data.append(one_data)
-            logger.info(f"Processed {len(data)} location-to-index pairs.")
-        except Exception:
-            logger.exception("Error processing Location2IndexDataset data.")
-            raise
-        return data
+        inter_data = []
+        for code, location_info in self.location_info_dict.items():
+            one_data = dict()
+            one_data["description"] = json.dumps({k: v for k, v in location_info.items() if k != "code"}, ensure_ascii=False, indent=2)
+            one_data["response"] = "".join(code)
+            inter_data.append(one_data)
+        return inter_data
        
 class TrajectoryTranslationDataset(BaseDataset):
     # Task -- Trajectory Translation
@@ -1133,9 +1368,9 @@ class TrajectoryTranslationDataset(BaseDataset):
             self._remap_items()
             self.inter_data = self._process_data()
             if self.mode=="train":
-                pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/train/inner_data_taj_dataset.feather")
+                pd.DataFrame(self.inter_data).to_pickle("LLMMove/QT_Mob_main/dataset/train/inner_data_taj_dataset.pkl")
             if self.mode=="test":
-                pd.DataFrame(self.inter_data).to_feather("LLMMove/QT_Mob_main/dataset/test/inner_data_taj_dataset.feather")            
+                pd.DataFrame(self.inter_data).to_pickle("LLMMove/QT_Mob_main/dataset/test/inner_data_taj_dataset.pkl")            
             logger.info(f"TrajectoryTranslationDataset ready with {len(self.inter_data)} records.")
         except Exception:
             logger.exception("TrajectoryTranslationDataset initialization failed.")

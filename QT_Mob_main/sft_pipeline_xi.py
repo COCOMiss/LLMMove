@@ -4,6 +4,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
 import multiprocessing as mp
 from utils import *
 import argparse
+from test_copy import test_index_location
 from test import test
 import torch
 import sys
@@ -20,9 +21,9 @@ TRAIN = True
 TEST = True
 
 # PATH_TO_SFT_SAVE_DIR = "autodl-tmp/checkpoint"
-PATH_TO_SFT_SAVE_DIR ="LLMMove/checkpoint"
+PATH_TO_SFT_SAVE_DIR ="checkpoint"
 # 你的 train.py 路径（优先用项目内的，若不存在则用上传的）
-TRAIN_SCRIPT_PATH = "LLMMove/QT_Mob_main/train.py"
+TRAIN_SCRIPT_PATH = "QT_Mob_main/train.py"
 # if not Path(TRAIN_SCRIPT_PATH).exists() and Path("/mnt/data/train.py").exists():
 #     TRAIN_SCRIPT_PATH = "/mnt/data/train.py"
 
@@ -70,6 +71,7 @@ def test_model(args):
             args.results_file = f"{args.path_to_sft_save_dir}/{args.experiment_name}/test_results_rec.json"
 
         logger.info(f"开始测试任务: {args.test_task}")
+        test_index_location(args)
         test(args)
         logger.info(f"✅ 测试任务 {args.test_task} 完成，结果文件: {args.results_file}")
     except Exception:
@@ -113,14 +115,15 @@ if __name__ == "__main__":
     args.metrics = TEST_METRICS
     logger.info(f"CUDA_VISIBLE_DEVICES = {CUDA_VISIBLE_DEVICES}")
     BASE_MODEL = "qwen"
+    args.base_model = "/home/linyuxi/LLM/LLMMove/Qwen3-8B"
     # args.base_model = "/root/autodl-tmp/Qwen/Qwen3-8B"  # 本地模型绝对路径
-    args.base_model = "LLMMove/Qwen3-8B"  # 其他本地模型路径示例
-    args.index_file = "LLMMove/QT_Mob_main/dataset/location_r8.json"
+    # args.base_model = "Qwen3-8B"  # 其他本地模型路径示例
+    args.index_file = "QT_Mob_main/dataset/location_r8.json"
     # DATASET_PATH = "./zdc_h3_index"
 
-    TRAIN_TASKS = ["daily_traj"]
-    TEST_TASK = "daily_traj"
-    CUSTOM_NAME = "tokyo_daily_traj_repeat_penalty"
+    TRAIN_TASKS = ["index","location"]
+    TEST_TASK = "index,location"
+    CUSTOM_NAME = "model_with_gridinfo"
 
     args.tasks = ",".join(TRAIN_TASKS)
     # args.data_path = DATASET_PATH
@@ -134,8 +137,7 @@ if __name__ == "__main__":
     args.add_profile= True
     args.multi_rec  = True
     args.single_rec = True
-
-    args.epochs = 1
+    args.add_last_day = True
 
     logger.info(f"训练任务: {args.tasks} | 测试任务: {TEST_TASK}")
     logger.info(f"数据路径: {args.data_path}")

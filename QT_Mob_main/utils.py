@@ -20,8 +20,10 @@ def parse_global_args(parser):
     return parser
 
 def parse_dataset_args(parser):
-    parser.add_argument("--data_path", type=str, default="LLMMove/zdc_h3_8",
+    parser.add_argument("--data_path", type=str, default="zdc_h3_8",
                         help="data directory")
+    parser.add_argument("--gridinfo_path", type=str, default="zdc_h3_8/grid_profile_codebook_qwen",
+                        help="grid info path")
     # parser.add_argument("--data_filename", type=str, default=".pkl",help="data filename")
     parser.add_argument("--tasks", type=str, default="daily_traj",
                         help="Downstream tasks, separate by comma")
@@ -43,11 +45,11 @@ def parse_dataset_args(parser):
 
 def parse_train_args(parser):
 
-    parser.add_argument("--epochs", type=int, default=1)
-    parser.add_argument("--learning_rate", type=float, default=5e-5)
-    parser.add_argument("--per_device_train_batch_size", type=int, default=32)
-    parser.add_argument("--per_device_eval_batch_size", type=int, default=32)
-    parser.add_argument("--gradient_accumulation_steps", type=int, default=8)
+    parser.add_argument("--epochs", type=int, default=10)
+    parser.add_argument("--learning_rate", type=float, default=1e-4)
+    parser.add_argument("--per_device_train_batch_size", type=int, default=5)
+    parser.add_argument("--per_device_eval_batch_size", type=int, default=5)
+    parser.add_argument("--gradient_accumulation_steps", type=int, default=10)
     parser.add_argument("--cutoff_len", type=int, default=4096)
     parser.add_argument("--weight_decay", type=float, default=0.01)
 
@@ -64,9 +66,9 @@ def parse_train_args(parser):
 
     parser.add_argument("--resume_from_checkpoint", type=str, default=None, help="either training checkpoint or final adapter")
 
-    parser.add_argument("--warmup_ratio", type=float, default=0.05)
+    parser.add_argument("--warmup_ratio", type=float, default=0.1)
     parser.add_argument("--lr_scheduler_type", type=str, default="cosine")
-    parser.add_argument("--save_and_eval_steps", type=int, default=100)
+    parser.add_argument("--save_and_eval_steps", type=int, default=200)
     parser.add_argument("--experiment_name", type=str, help="The name of the experiment")
     parser.add_argument("--path_to_sft_save_dir", type=str, default="QT_Mob_main/sft",help="QT_Mob_main/sft")
 
@@ -87,15 +89,32 @@ def parse_test_args(parser):
     parser.add_argument("--filter_items",  default=True,
                         help="whether filter illegal items")
     parser.add_argument("--results_file", type=str,
-                        default="QT_Mob_main/results/test-ddp.json",
+                        default="QT_Mob_main/daily_traj_results/metrics.json",
                         help="result output path")
-    parser.add_argument("--test_batch_size", type=int, default=5)
-    parser.add_argument("--num_beams", type=int, default=15)
+    parser.add_argument("--prediction_file", type=str,
+                        default="QT_Mob_main/daily_traj_results/prediction.json",
+                        help="prediction output path")
+    parser.add_argument("--ground_truth_file", type=str,
+                        default="QT_Mob_main/daily_traj_results/ground_truth.json",
+                        help="ground truth output path")
+    
+    parser.add_argument("--test_batch_size", type=int, default=10)
+    
+    parser.add_argument("--do_sample", type=bool, default=False)
+    parser.add_argument("--temperature", type=float, default=0.7)
+    parser.add_argument("--top_p", type=float, default=0.9)
+    parser.add_argument("--top_k", type=int, default=50)
+    parser.add_argument("--repetition_penalty", type=float, default=1.1)
+    parser.add_argument("--num_return_sequences", type=int, default=5)
+    
+    
+    parser.add_argument("--num_beams", type=int, default=5)
+    parser.add_argument("--max_new_tokens", type=int, default=512)
     parser.add_argument("--test_prompt_ids", type=str, default="0",
                         help="test prompt ids, separate by comma. 'all' represents using all")
     parser.add_argument("--metrics", type=str, default="hit@1,hit@5,hit@10",
                         help="test metrics, separate by comma")
-    parser.add_argument("--test_task", type=str, default="daily_traj",
+    parser.add_argument("--test_task", type=str, default="index,location,daily_traj",
                         help="test task, one of [seq, daily_traj, recovery]")
     parser.add_argument("--limit_test_size",  default=False, help="whether to limit the test size to 1000")
 
@@ -186,6 +205,10 @@ def load_test_dataset(args):
         test_data = DailyTrajDataset(args, mode="test")
     elif args.test_task.lower() == "recovery":
         test_data = RecoveryDataset(args, mode="test")
+    elif args.test_task.lower() == "index":
+        test_data = Index2LocationDataset(args, mode="test")
+    elif args.test_task.lower() == "location":
+        test_data = Location2IndexDataset(args, mode="test")
     else:
         raise NotImplementedError
 
@@ -199,3 +222,10 @@ def load_json(file):
 def save_json(data, file, indent=4):
     with open(file, 'w') as f:
         json.dump(data, f, indent=indent)
+
+
+# Helper to ensure directory exists
+def ensure_dir_for_file(filepath):
+    dirpath = os.path.dirname(filepath)
+    if dirpath and not os.path.exists(dirpath):
+        os.makedirs(dirpath, exist_ok=True)

@@ -51,15 +51,18 @@ class TestCollator(object):
 
         input_texts = [d["input_ids"] for d in batch]
         targets = [d["labels"] for d in batch]
+        users = [d["user"] for d in batch]
+        dates = [d["date"] for d in batch]
+        last_day_trajs = [d["last_day_traj"] for d in batch]
         inputs = self.tokenizer(
             text=input_texts,
             return_tensors="pt",
             padding="longest",
-            max_length=self.tokenizer.model_max_length,
+            max_length=self.args.cutoff_len,
             return_attention_mask=True,
         )
 
-        return (inputs, targets)
+        return (inputs, targets,users,dates,last_day_trajs)
 
 class TestCollator4Rec(object):
     def __init__(self, args, tokenizer):

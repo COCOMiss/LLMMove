@@ -4,7 +4,7 @@ import json
 import logging
 import argparse
 from typing import List, Dict, Any
-
+from tqdm import tqdm
 import torch
 from torch.utils.data import DataLoader
 from transformers import (
@@ -13,7 +13,6 @@ from transformers import (
     BitsAndBytesConfig
 )
 from peft import PeftConfig, PeftModel
-
 # Local imports
 from collator import TestCollator
 from h3_prompt_mobility import all_prompt
@@ -23,35 +22,28 @@ from utils import (
     load_test_dataset, 
     parse_global_args, 
     parse_dataset_args, 
-    parse_test_args
+    parse_test_args,
+    ensure_dir_for_file
 )
+from logger_utils import get_logger
 
 # ===== Logger Configuration =====
-def get_logger():
-    logger = logging.getLogger("QT-Mob-Test")
-    if len(logger.handlers) == 0:
-        handler = logging.StreamHandler()
-        formatter = logging.Formatter(
-            "[%(asctime)s][%(levelname)s]: %(message)s", "%Y-%m-%d %H:%M:%S"
-        )
-        handler.setFormatter(formatter)
-        logger.addHandler(handler)
-    logger.setLevel(logging.INFO)
-    return logger
+# 使用 logger_utils 中的 get_logger，这样日志会同时输出到控制台和文件
+logger = get_logger("QT-Mob-Test")
 
-logger = get_logger()
+
 
 # Environment Setup
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 os.environ.setdefault("CUDA_DEVICE_ORDER", "PCI_BUS_ID")
 
 # Set working directory
-try:
-    WORK_DIR = "/home/linyuxi/LLM"
-    os.chdir(WORK_DIR)
-    logger.info(f"Changed working directory to: {os.getcwd()}")
-except FileNotFoundError:
-    logger.warning(f"Directory {WORK_DIR} not found, using current directory.")
+# try:
+#     WORK_DIR = "/home/linyuxi/LLM"
+#     os.chdir(WORK_DIR)
+#     logger.info(f"Changed working directory to: {os.getcwd()}")
+# except FileNotFoundError:
+#     logger.warning(f"Directory {WORK_DIR} not found, using current directory.")
 
 
 def str2bool(x):
@@ -137,7 +129,7 @@ def test(args):
         prompt_map = {
             "seq": all_prompt["seq"],
             "daily_traj": all_prompt["daily_traj"],
-            "rec_single": all_prompt["rec_single"] 
+            "rec_single": all_prompt["rec_single"]
         }
         if args.test_task in prompt_map:
              prompt_ids = range(len(prompt_map[args.test_task]))
@@ -151,9 +143,9 @@ def test(args):
     collator = TestCollator(args, tokenizer)
     all_items = test_data.get_all_items()
 
-    # ★★★ Beam Search 设置 ★★★
-    BEAM_SIZE = 5  # 设置 Beam Size 为 5
-    logger.info(f"Beam Search Config: Num Beams={BEAM_SIZE}, Num Return Sequences={BEAM_SIZE}")
+   
+    logger.info(f"Beam Search Config: Num Beams={args.num_beams}")
+    
 
     test_loader = DataLoader(
         test_data,
@@ -166,40 +158,62 @@ def test(args):
 
     metrics_list = args.metrics.split(",")
     all_prompt_results = []
+    prediction_dict={}
+    ground_truth_dict={}
 
-    # ===== 6. 推理循环 =====
+  
+
     with torch.no_grad():
         for prompt_id in prompt_ids:
             logger.info(f"=== Testing Prompt ID: {prompt_id} ===")
             test_loader.dataset.set_prompt(prompt_id)
             
             metrics_accumulator = {}
+            target_lastday_metrics_accumulator = {}
             total_samples = 0
 
-            for batch_idx, batch in enumerate(test_loader):
+            # 用tqdm包一层进度条
+            for batch_idx, batch in enumerate(tqdm(test_loader, desc=f"Testing Prompt ID {prompt_id}")):
+                # 保留原本每10步log
                 if batch_idx % 10 == 0:
                     logger.info(f"Processing batch {batch_idx}/{len(test_loader)}")
 
-                batch_inputs, targets = batch
+                batch_inputs, targets,users,dates,last_day_trajs = batch
                 batch_size = len(targets)
                 inputs = {k: v.to(device) for k, v in batch_inputs.items()}
                 total_samples += batch_size
-
-                # === 生成 (Beam Search) ===
-                output = model.generate(
-                    input_ids=inputs["input_ids"],
-                    attention_mask=inputs["attention_mask"],
-                    max_new_tokens=1024,
-                    do_sample=False,            # 关闭采样，启用 Beam Search
-                    num_beams=BEAM_SIZE,        # 设置 Beam Size
-                    num_return_sequences=BEAM_SIZE, # 每个样本返回 Top-Beam 序列
-                    repetition_penalty=1.1,
-                    output_scores=True,
-                    return_dict_in_generate=True,
-                    early_stopping=True,
-                    pad_token_id=tokenizer.pad_token_id
-                )
                 
+                if args.do_sample:
+                    output = model.generate(
+                        input_ids=inputs["input_ids"],
+                        attention_mask=inputs["attention_mask"],
+                        max_new_tokens=args.max_new_tokens,
+                        do_sample=True,
+                        temperature=args.temperature,
+                        top_k=args.top_k,
+                        top_p=args.top_p,
+                        repetition_penalty=args.repetition_penalty,
+                        num_return_sequences=args.num_return_sequences,
+                        return_dict_in_generate=True,
+                        early_stopping=True,
+                        pad_token_id=tokenizer.pad_token_id
+                    )
+                else:
+                    # === 生成 (Beam Search) ===
+                    output = model.generate(
+                        input_ids=inputs["input_ids"],
+                        attention_mask=inputs["attention_mask"],
+                        max_new_tokens=args.max_new_tokens,
+                        do_sample=False,            # 关闭采样，启用 Beam Search
+                        num_beams=args.num_beams,        # 设置 Beam Size
+                        num_return_sequences=args.num_beams, # 每个样本返回 Top-Beam 序列
+                        repetition_penalty=1.1,
+                        output_scores=True,
+                        return_dict_in_generate=True,
+                        early_stopping=True,
+                        pad_token_id=tokenizer.pad_token_id
+                    )
+                    
                 # 解码所有生成的序列
                 # output.sequences shape: [batch_size * BEAM_SIZE, seq_len]
                 raw_generated_texts = tokenizer.batch_decode(output.sequences, skip_special_tokens=True)
@@ -213,12 +227,6 @@ def test(args):
                 for raw, clean in zip(raw_generated_texts, cleaned_generated_texts):
                     final_texts_for_eval.append(clean if clean else raw.strip())
 
-                # Debug 打印第一个样本的 Top-1 结果
-                if batch_idx % 5 == 0: 
-                    logger.info(f"\n[Sample Debug Info (Top-1 Beam)]")
-                    logger.info(f"Ground Truth: {targets[0]}")
-                    logger.info(f"Prediction: {final_texts_for_eval[0]}\n")
-
                 # === 评估 ===
                 # 这里直接传入所有 Beam 的结果 (batch_size * 5)
                 # 评估函数内部会根据 total_predictions // batch_size 来计算 Top-1 和 Top-5
@@ -229,31 +237,68 @@ def test(args):
                     "metrics": metrics_list,
                     "all_items": all_items if args.filter_items else None
                 }
+                
+                lastday_eval_kwargs = {
+                    "output_text": last_day_trajs,
+                    "targets": targets,
+                    "scores": None,
+                    "metrics": metrics_list,
+                    "all_items": all_items if args.filter_items else None
+                }
 
                 if args.test_task == "daily_traj":
-                    batch_metrics = get_daily_traj_results(**eval_kwargs)
+                    batch_metrics,best_prediction_list = get_daily_traj_results(**eval_kwargs)
+                    target_lastday_metrics,_ = get_daily_traj_results(**lastday_eval_kwargs)
                 elif args.test_task == "seq":
                     batch_metrics = get_seq_results(**eval_kwargs)
                 else:
                     raise ValueError(f"Invalid test task: {args.test_task}")
+                
+                for user,date,target,best_prediction in zip(users,dates,targets,best_prediction_list):
+                    if user not in prediction_dict:
+                        prediction_dict[user] = {"Workday":[],"Holiday":[]}
+                        ground_truth_dict[user] = {"Workday":[],"Holiday":[]}
+                   
+                    if date == "Workday":
+                        prediction_dict[user][date].append(best_prediction)
+                        ground_truth_dict[user][date].append(target)
+                    else:
+                        prediction_dict[user]["Holiday"].append(best_prediction)
+                        ground_truth_dict[user]["Holiday"].append(target)
+                    
+                  
+                
+
+                # Debug 打印第一个样本的 Top-1 结果
+                if batch_idx % 5 == 0: 
+                    logger.info(f"\n[Sample Debug Info (Top-5 Beam)]")
+                    logger.info(f"Ground Truth: {ground_truth_dict}")
+                    logger.info(f"Prediction: {prediction_dict}\n")
 
                 # 累加指标
                 for m, res in batch_metrics.items():
                     metrics_accumulator[m] = metrics_accumulator.get(m, 0) + res
-
+                for m, res in target_lastday_metrics.items():
+                    target_lastday_metrics_accumulator[m] = target_lastday_metrics_accumulator.get(m, 0) + res
                 # 定期打印临时结果
-                if total_samples % 20 == 0:
-                    temp_avg = {m: val / total_samples for m, val in metrics_accumulator.items()}
+                if  batch_idx % 10 == 0:
+                    temp_avg = {m: val / (batch_idx+1) for m, val in metrics_accumulator.items()}
+                    temp_lastday_avg = {m: val / (batch_idx+1) for m, val in target_lastday_metrics_accumulator.items()}
                     logger.info(f"Intermediate Metrics (n={total_samples}): {temp_avg}")
+                    logger.info(f"Intermediate Lastday Metrics (n={total_samples}): {temp_lastday_avg}")
 
                 if args.limit_test_size and total_samples >= 1000:
                     logger.info("Hit test size limit (1000). Stopping prompt loop.")
                     break
+                if batch_idx >= 20:
+                    break
 
             # === 当前 Prompt ID 最终结果 ===
-            final_prompt_metrics = {m: val / total_samples for m, val in metrics_accumulator.items()}
+            final_prompt_metrics = {m: val / (batch_idx+1) for m, val in metrics_accumulator.items()}
+            final_lastday_prompt_metrics = {m: val / (batch_idx+1) for m, val in target_lastday_metrics_accumulator.items()}
             all_prompt_results.append(final_prompt_metrics)
             logger.info(f"Prompt {prompt_id} Final Results: {final_prompt_metrics}")
+            logger.info(f"Prompt {prompt_id} Final Lastday Metrics: {final_lastday_prompt_metrics}")
 
     # ===== 7. 保存结果 =====
     save_data = {}
@@ -277,8 +322,19 @@ def test(args):
             "all_prompt_results": all_prompt_results
         }
 
+
+
+    # Ensure dirs exist for all output files
+    ensure_dir_for_file(args.results_file)
+    ensure_dir_for_file(args.prediction_file)
+    ensure_dir_for_file(args.ground_truth_file)
+
     with open(args.results_file, "w") as f:
         json.dump(save_data, f, indent=4)
+    with open(args.prediction_file, "w") as f:
+        json.dump(prediction_dict, f, indent=4)
+    with open(args.ground_truth_file, "w") as f:
+        json.dump(ground_truth_dict, f, indent=4)
     logger.info(f"All results saved to {args.results_file}")
 
 
@@ -293,8 +349,7 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
 
-    # 强制覆盖参数 (调试用，生产环境建议移除或注释)
-    logger.warning("Overriding args for testing purpose: indexing=True, filter_items=True, tasks=seq")
+
     args.indexing = True
     args.filter_items = True
     args.tasks = "seq"
