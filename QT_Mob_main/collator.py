@@ -62,10 +62,21 @@ class TestCollator(object):
         return (inputs, targets)
 
 class TestCollator4Rec(object):
+    def __init__(self, args, tokenizer):
+        self.args = args
+        self.tokenizer = tokenizer
+        self.tokenizer.padding_side = "left"
 
     def __call__(self, batch):
 
-        inputs = [d["input_ids"] for d in batch]
+        input_texts = [d["input_ids"] for d in batch]
         targets = [d["labels"] for d in batch]
+        inputs = self.tokenizer(
+            text=input_texts,
+            return_tensors="pt",
+            padding="longest",
+            max_length=self.args.cutoff_len,
+            return_attention_mask=True,
+        )
         
         return (inputs, targets)
