@@ -177,13 +177,7 @@ def main(args):
         
         # 使用方式
         train_data_list = [train_data[i] for i in range(len(train_data))]
-        # if args.tasks in ['seq','daily_traj','index','location']:
-        # train_data_processed = [
-        #     {
-        #         "prompt": item["prompt"],
-        #         "completion": item["completion"] + postfix
-        #     }
-        #     for item in train_data_list]
+       
         processed_train = prepare_tokenized_dataset(
             train_data_list, 
             tokenizer, 
@@ -192,14 +186,8 @@ def main(args):
             postfix
         )
         train_data = HF_Dataset.from_list(processed_train)
-        
-        # valid_data_processed = [
-        # {
-        #     "prompt": item["prompt"],
-        #     "completion": item["completion"] + postfix
-        # } for item in valid_data_list]
-        
-            # ✅ 验证集也要用相同的处理方式
+
+        # ✅ 验证集也要用相同的处理方式
         processed_valid = prepare_tokenized_dataset(
             valid_data_list, 
             tokenizer, 
@@ -209,11 +197,11 @@ def main(args):
         )
         valid_data = HF_Dataset.from_list(processed_valid)
         
-        # sample = train_data[0]
-        # logger.info(f"Sample keys: {sample.keys()}")
-        # logger.info(f"input_ids length: {len(sample['input_ids'])}")
-        # logger. info(f"labels length: {len(sample['labels'])}")
-        # logger.info(f"Number of -100 in labels: {sum(1 for x in sample['labels'] if x == -100)}")
+        sample = train_data[0]
+        logger.info(f"Sample keys: {sample.keys()}")
+        logger.info(f"input_ids length: {len(sample['input_ids'])}")
+        logger. info(f"labels length: {len(sample['labels'])}")
+        logger.info(f"Number of -100 in labels: {sum(1 for x in sample['labels'] if x == -100)}")
 
         # else:
             
