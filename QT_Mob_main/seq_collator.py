@@ -172,6 +172,155 @@ END_TAG = "<|im_end|>"
 #         return result
 
 
+# 在 seq_collator. py 或数据处理文件中修改
+import torch
+
+SEQ_RESPONSE_TAG = "Predicted trajectory:"  # 根据你的实际 tag 修改
+
+
+def prepare_tokenized_dataset_with_yesterday(
+    data_list, 
+    tokenizer, 
+    max_length, 
+    response_tag, 
+    postfix
+):
+    """预处理数据集，保留前一天轨迹用于复制惩罚"""
+    processed = []
+    
+    for item in data_list:
+        full_text = item["input_ids"] + item["labels"] + postfix
+        
+        tokenized = tokenizer(
+            full_text,
+            truncation=True,
+            max_length=max_length,
+            padding=False,
+            return_tensors=None
+        )
+        input_ids = tokenized["input_ids"]
+        
+        # 确保有 attention_mask
+        attention_mask = tokenized. get("attention_mask", [1] * len(input_ids))
+        
+        # 找到 response 开始位置
+        response_start = full_text.find(response_tag)
+        if response_start != -1:
+            instruction_part = full_text[:response_start + len(response_tag)]
+            instruction_tokens = tokenizer(instruction_part, add_special_tokens=True)["input_ids"]
+            response_start_idx = len(instruction_tokens)
+        else:
+            response_start_idx = len(input_ids) // 2
+        
+        # 构建 labels
+        labels = [-100] * response_start_idx + input_ids[response_start_idx:]
+        labels = labels[:len(input_ids)]
+        
+        # 提取前一天轨迹
+        yesterday_traj = item. get("last_day_traj", "")
+        if yesterday_traj and isinstance(yesterday_traj, str) and len(yesterday_traj. strip()) > 0:
+            yesterday_token_ids = tokenizer(
+                yesterday_traj, 
+                add_special_tokens=False,
+                truncation=True,
+                max_length=max_length // 2
+            )["input_ids"]
+        else:
+            yesterday_token_ids = []
+        
+        processed.append({
+            "input_ids": input_ids,
+            "labels": labels,
+            "attention_mask": attention_mask,
+            "yesterday_token_ids": yesterday_token_ids,
+        })
+    
+    return processed
+
+
+class SimpleCollatorWithYesterday:
+    """支持复制惩罚的 Collator"""
+    
+    def __init__(self, tokenizer, max_length, debug=True):
+        self.tokenizer = tokenizer
+        self.max_length = max_length
+        self.pad_token_id = tokenizer. pad_token_id if tokenizer.pad_token_id is not None else 0
+        self.debug = debug
+        self._first_call = True
+    
+    def __call__(self, batch): 
+        # 处理 input_ids
+        input_ids_list = []
+        for item in batch:
+            if isinstance(item["input_ids"], torch.Tensor):
+                input_ids_list.append(item["input_ids"])
+            else:
+                input_ids_list.append(torch.tensor(item["input_ids"]))
+        
+        # 处理 labels
+        labels_list = []
+        for item in batch:
+            if isinstance(item["labels"], torch.Tensor):
+                labels_list.append(item["labels"])
+            else:
+                labels_list.append(torch.tensor(item["labels"]))
+        
+        # 处理 attention_mask
+        attention_mask_list = []
+        for item in batch:
+            if "attention_mask" in item:
+                if isinstance(item["attention_mask"], torch.Tensor):
+                    attention_mask_list.append(item["attention_mask"])
+                else:
+                    attention_mask_list.append(torch.tensor(item["attention_mask"]))
+            else:
+                # 自动生成
+                attention_mask_list.append(torch.ones(len(item["input_ids"]), dtype=torch.long))
+        
+        # Padding
+        input_ids = torch.nn.utils.rnn.pad_sequence(
+            input_ids_list, batch_first=True, padding_value=self.pad_token_id
+        )
+        labels = torch.nn.utils.rnn. pad_sequence(
+            labels_list, batch_first=True, padding_value=-100
+        )
+        attention_mask = torch.nn.utils. rnn.pad_sequence(
+            attention_mask_list, batch_first=True, padding_value=0
+        )
+        
+        # 处理 yesterday_token_ids
+        yesterday_padded = None
+        if batch and "yesterday_token_ids" in batch[0]:
+            yesterday_lists = []
+            for item in batch:
+                yt = item. get("yesterday_token_ids", [])
+                if isinstance(yt, torch.Tensor):
+                    yesterday_lists.append(yt. tolist())
+                else:
+                    yesterday_lists.append(yt if yt else [])
+            
+            max_yesterday_len = max(len(y) for y in yesterday_lists) if yesterday_lists else 0
+            
+            if max_yesterday_len > 0:
+                yesterday_padded = torch.full(
+                    (len(batch), max_yesterday_len), 
+                    self.pad_token_id, 
+                    dtype=torch.long
+                )
+                for i, y in enumerate(yesterday_lists):
+                    if len(y) > 0:
+                        yesterday_padded[i, :len(y)] = torch.tensor(y)
+        
+        result = {
+            "input_ids": input_ids,
+            "labels": labels,
+            "attention_mask": attention_mask,
+        }
+        
+        if yesterday_padded is not None:
+            result["yesterday_token_ids"] = yesterday_padded
+        
+        return result
 
 def prepare_tokenized_dataset(data_list, tokenizer, max_length, response_tag, postfix):
     """
@@ -246,166 +395,6 @@ def prepare_tokenized_dataset(data_list, tokenizer, max_length, response_tag, po
     print(f"✅ Processed {len(processed)} samples, skipped {skipped}")
     return processed
 
-# class SimpleCollator:
-#     """
-#     简单的 Collator，支持两种数据格式：
-#     1.  已预处理的 input_ids + labels 格式
-#     2. SFTTrainer 处理后的 input_ids + completion_mask 格式
-#     """
-    
-#     def __init__(self, tokenizer, max_length=4096, pad_to_multiple_of=8, debug=True):
-#         self.tokenizer = tokenizer
-#         self.max_length = max_length
-#         self.pad_to_multiple_of = pad_to_multiple_of
-#         self.pad_token_id = tokenizer. pad_token_id if tokenizer.pad_token_id is not None else 0
-#         self.debug = debug
-#         self.debug_count = 0
-    
-#     def __call__(self, features: List[Dict[str, Any]]) -> Dict[str, torch.Tensor]:
-        
-#         # ✅ 检测数据格式并打印（调试用）
-#         if self.debug and self.debug_count == 0:
-#             print(f"🔍 Collator received keys: {features[0].keys()}")
-        
-#         # 获取 batch 中的最大长度
-#         max_len = max(len(f["input_ids"]) for f in features)
-#         max_len = min(max_len, self.max_length)
-        
-#         if self.pad_to_multiple_of:
-#             max_len = ((max_len + self.pad_to_multiple_of - 1) // self.pad_to_multiple_of) * self.pad_to_multiple_of
-        
-#         batch_input_ids = []
-#         batch_attention_mask = []
-#         batch_labels = []
-        
-#         for f in features:
-#             input_ids = f["input_ids"][:self. max_length]
-            
-#             # ✅ 关键修改：支持两种格式
-#             if "labels" in f:
-#                 # 格式1：已经有 labels（预处理过的数据）
-#                 labels = f["labels"][:self.max_length]
-#             elif "completion_mask" in f:
-#                 # 格式2：SFTTrainer 处理后的 completion_mask
-#                 # completion_mask: 1 表示 completion（需要计算 loss），0 表示 prompt（不计算 loss）
-#                 completion_mask = f["completion_mask"][:self.max_length]
-#                 labels = [
-#                     token_id if mask == 1 else -100 
-#                     for token_id, mask in zip(input_ids, completion_mask)
-#                 ]
-#             else:
-#                 # 格式3：没有任何 mask，全部计算 loss（不推荐）
-#                 print("⚠️ Warning: No labels or completion_mask found, using input_ids as labels")
-#                 labels = list(input_ids)
-                
-#              # Padding
-#             pad_len = max_len - len(input_ids)
-            
-            
-#             if "completion_mask" in f:
-#                 completion_mask = f["completion_mask"][:self.max_length]
-#                 completion_mask = list(completion_mask) if not isinstance(completion_mask, list) else completion_mask
-#                 attention_mask = completion_mask + [0] * pad_len
-#             elif "attention_mask" in f:
-#                 attention_mask = f["attention_mask"][:self.max_length]
-#                 attention_mask = list(attention_mask) if not isinstance(attention_mask, list) else attention_mask
-#                 attention_mask = attention_mask + [0] * pad_len
-#             else:
-#                 attention_mask = [1] * len(input_ids)
-#                 attention_mask = list(attention_mask) if not isinstance(attention_mask, list) else attention_mask
-#                 attention_mask = attention_mask + [0] * pad_len
-            
-            
-#             # 确保是 list
-#             input_ids = list(input_ids) if not isinstance(input_ids, list) else input_ids
-#             labels = list(labels) if not isinstance(labels, list) else labels
-            
-            
-#             input_ids = input_ids + [self.pad_token_id] * pad_len
-#             labels = labels + [-100] * pad_len
-            
-#             batch_input_ids.append(input_ids)
-#             batch_attention_mask.append(attention_mask)
-#             batch_labels.append(labels)
-        
-#         # Debug 输出
-#         if self.debug and self.debug_count < 3:
-#             self._debug_batch(features, batch_input_ids, batch_labels)
-#             self.debug_count += 1
-        
-#         if "labels" in f:
-#             return {
-#                 "input_ids": torch.tensor(batch_input_ids, dtype=torch.long),
-#                 "attention_mask": torch.tensor(batch_attention_mask, dtype=torch.long),
-#                 "labels": torch. tensor(batch_labels, dtype=torch. long),
-#             }
-#         else:
-           
-#             return {
-#                 "input_ids": torch.tensor(batch_input_ids, dtype=torch.long),
-#                 "completion_mask": torch.tensor(batch_attention_mask, dtype=torch.long),
-#             }
-      
-    
-#     def _debug_batch(self, features, batch_input_ids, batch_labels):
-#         """调试：解码并打印 input 和 label"""
-#         print("\n" + "=" * 80)
-#         print("🔍 DEBUG: Collator Output Inspection")
-#         print(f"📋 Input feature keys: {features[0].keys()}")
-#         print("=" * 80)
-        
-#         for i, (input_ids, labels) in enumerate(zip(batch_input_ids, batch_labels)):
-#             if i >= 2:
-#                 break
-                
-#             print(f"\n--- Sample {i} ---")
-            
-#             # 1. 统计
-#             num_ignored = sum(1 for l in labels if l == -100)
-#             num_valid = sum(1 for l in labels if l != -100)
-#             print(f"📊 Labels 统计: 总长度={len(labels)}, 忽略(-100)={num_ignored}, 有效={num_valid}")
-            
-#             # 2. 解码完整输入
-#             input_text = self.tokenizer.decode(input_ids, skip_special_tokens=False)
-#             print(f"\n📝 完整输入 (前500字符):\n{input_text[:500]}...")
-            
-#             # 3. 解码有效 label
-#             valid_label_ids = [l for l in labels if l != -100]
-#             if valid_label_ids:
-#                 label_text = self. tokenizer. decode(valid_label_ids, skip_special_tokens=False)
-#                 print(f"\n🎯 有效 Label 内容 (前500字符):\n{label_text[:500]}...")
-#             else:
-#                 print("\n⚠️ 警告: 所有 label 都是 -100!")
-            
-#             # 4.  找到转换位置
-#             transition_idx = None
-#             for idx, l in enumerate(labels):
-#                 if l != -100:
-#                     transition_idx = idx
-#                     break
-            
-#             if transition_idx is not None:
-#                 print(f"\n🔀 Label 转换位置: index={transition_idx}")
-#                 context_start = max(0, transition_idx - 20)
-#                 context_end = min(len(input_ids), transition_idx + 20)
-#                 context_ids = input_ids[context_start:context_end]
-#                 context_text = self.tokenizer.decode(context_ids, skip_special_tokens=False)
-#                 print(f"📍 转换点上下文: ... {context_text}...")
-            
-#             # 5. 检查一致性
-#             mismatch_count = 0
-#             for idx, (inp, lab) in enumerate(zip(input_ids, labels)):
-#                 if lab != -100 and inp != lab:
-#                     mismatch_count += 1
-#                     if mismatch_count <= 5:
-#                         print(f"⚠️ 不匹配 @ {idx}: input_id={inp}, label={lab}")
-            
-#             if mismatch_count == 0:
-#                 print("✅ input_ids 和 labels (非-100部分) 完全一致")
-#             else:
-#                 print(f"❌ 发现 {mismatch_count} 处不匹配")
-        
-#         print("\n" + "=" * 80 + "\n")
 
 class SimpleCollator:
     """简单的 Collator，数据已经预处理好，只需要 padding"""
@@ -517,5 +506,5 @@ class SimpleCollator:
                 print(f"❌ 发现 {mismatch_count} 处不匹配")
         
         print("\n" + "=" * 80 + "\n")
-        
+ 
        

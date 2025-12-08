@@ -283,7 +283,7 @@ class BaseDataset(Dataset):
             input = instruction
             output = response + prediction
             
-        return input, output
+        return input, output,data["last_day_traj"]
     
     # def _get_traj_text_data(self, data, prompt, sft_format=False):
     #     if self.indexing:
@@ -333,8 +333,8 @@ class BaseDataset(Dataset):
             else:
                 prompt_id = random.randint(0, len(self.prompts) - 1) # 随机选择一个prompt
                 prompt = self.prompts[prompt_id] # 获取prompt
-                input, output = self._get_traj_text_data(d, prompt, not self.sft_json_output)
-                return dict(input_ids=input, labels=output)   
+                input, output,last_day_traj = self._get_traj_text_data(d, prompt, not self.sft_json_output)
+                return dict(input_ids=input, labels=output,last_day_traj=last_day_traj)   
         else:
             prompt_id = random.randint(0, len(self.prompts) - 1)
             input,output = self._get_text_data(d,self.prompts[prompt_id], not self.sft_json_output)
@@ -513,7 +513,7 @@ class DailyTrajDataset(BaseDataset):
                     # 计算last_day_trajectory和user_trajectory的location相似度（假设每个点的location可通过x[0]获取）
                     similarity = jaccard_similarity(last_day_trajectory, user_trajectory)
                     # logger.info(f"similarity: {similarity}")
-                    if similarity > 0.5:
+                    if similarity > 0.2:
                         # INSERT_YOUR_CODE
                         # 收集需要删除的 user_id
                         users_to_delete.append(user_id)

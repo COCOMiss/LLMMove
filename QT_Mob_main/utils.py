@@ -77,6 +77,19 @@ def parse_train_args(parser):
     parser.add_argument("--metric_for_best_model", type=str, default="eval_loss")
     parser.add_argument("--greater_is_better", action="store_true")  # 如果用准确率等需要 True；loss 用 False
     parser.add_argument("--save_only_model", action="store_true")    # LoRA 强烈建议打开
+    parser.add_argument(
+        "--copy_penalty_weight", 
+        type=float, 
+        default=0.3,
+        help="Weight for copy penalty loss (0 to disable)"
+    )
+    parser.add_argument(
+        "--copy_threshold", 
+        type=float, 
+        default=0.5,
+        help="Threshold for copy penalty (only penalize when avg_copy_prob > threshold)"
+    )
+    
  
 
     return parser
