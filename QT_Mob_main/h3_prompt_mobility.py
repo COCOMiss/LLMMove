@@ -7,20 +7,26 @@
 sft_prompt = "<|im_start|>user\n{instruction}\n<|im_end|>\n<|im_start|>assistant\n{response}{prediction}"
 
 
-system_prompt = """\
-<<SYS>> You are a helpful assistant that predicts human mobility trajectories in Tokyo. \n
-Do NOT output your thinking process or <think> tags.\n
-Return ONLY a valid JSON LIST containing the sequence of visits.\n
-The value of "h3_index" must be a valid H3 index string.\n
-"stay_duration" must be one of 30, 60, 90, ..., 600 (step 30), formatted as "<N> min".\n
-</SYS>>
-"""
 
 
-system_prompt_not_indexing = """\
-<<SYS>> You are a helpful assistant that predicts human mobility trajectories in Tokyo. <</SYS>> \
-Each "H3 index" is a unique string.
-"""
+system_prompt = (
+    "<<SYS>>\n"
+    "You are a helpful assistant that predicts human mobility trajectories in Tokyo.\n"
+    "Do NOT output your thinking process or <think> tags.\n"
+    "Return ONLY a valid JSON LIST containing the sequence of visits.\n"
+    "The value of \"h3_index\" must be a valid 4-token H3 index string.\n"
+    "\"stay_duration\" must be one of 30, 60, 90, ..., 600 (step 30), formatted as \"<N> min\".\n"
+    "<</SYS>>\n\n"
+)
+
+
+system_prompt_not_indexing = (
+    "<<SYS>>\n"
+    "You are a helpful assistant that predicts human mobility trajectories in Tokyo.\n"
+    "Do NOT output your thinking process or <think> tags.\n"
+    "Return ONLY a valid JSON LIST containing the sequence of visits.\n"
+    "<</SYS>>\n\n"
+)
 
 # 2. Task Prompt: 设定字段格式
 # 移除了 "predict next" 这种容易引起歧义的词，改为 "daily trajectory sequence"
@@ -283,9 +289,177 @@ prompt = (
     """Example: [{{ "id": "1", "start_time": "HH:MM AM/PM", "h3_index": "...", "stay_duration": "... min" }}, ...]\n"""
 )
 
+
+
+
+    # =====================================================
+    # Prompt 3: 时间序列预测风格
+    # =====================================================
+prompt = (
+        "**Sequential Mobility Prediction Task**\n\n"
+        "Given the following information about user {user}:\n\n"
+        "1. **User Profile:**\n{profile}\n\n"
+        "2. **Reference Trajectory (Last {date}):**\n{last_day_traj}\n\n"
+        "3. **Target Date:** {date}\n\n"
+        "Predict the user's movement sequence for today. "
+        "The trajectory should follow the temporal order of visits throughout the day.\n\n"
+        "Output format: JSON list with id, start_time, h3_index, stay_duration for each visit.\n"
+    )
+daily_traj_prompt. append(prompt)
+
+    # =====================================================
+    # Prompt 4: 问答式 - 简洁版
+    # =====================================================
+prompt = (
+        "User {user}'s profile: {profile}\n\n"
+        "Previous {date} trajectory:\n{last_day_traj}\n\n"
+        "Today is also a {date}.\n\n"
+        "Question: What locations will this user visit today, in what order, and for how long?\n\n"
+        "Answer with a JSON list of visits:\n"
+    )
 daily_traj_prompt.append(prompt)
 
+    # =====================================================
+    # Prompt 5: 强调位置转移
+    # =====================================================
+prompt = (
+        "**Location Transition Prediction**\n\n"
+        "User: {user}\n"
+        "Profile Summary: {profile}\n\n"
+        "**Reference Day ({date}) Visit Sequence:**\n"
+        "{last_day_traj}\n\n"
+        "For today ({date}), predict the sequence of location transitions:\n"
+        "- Where does the user start their day?\n"
+        "- What locations do they visit and in what order?\n"
+        "- How long do they stay at each location?\n"
+        "- When do they arrive at each location?\n\n"
+        "Provide your prediction as a JSON list:\n"
+    )
+daily_traj_prompt.append(prompt)
+
+    # =====================================================
+    # Prompt 6: 结构化输入输出
+    # =====================================================
+prompt = (
+        "=== INPUT ===\n"
+        "User ID: {user}\n"
+        "Date Type: {date}\n"
+        "User Profile:\n{profile}\n\n"
+        "Historical Trajectory (Previous {date}):\n"
+        "{last_day_traj}\n\n"
+        "=== TASK ===\n"
+        "Generate the predicted daily trajectory for this user.\n\n"
+        "=== OUTPUT FORMAT ===\n"
+        "JSON list: [{{\"id\": \"N\", \"start_time\": \"HH:MM AM/PM\", \"h3_index\": \"<4-token code>\", \"stay_duration\": \"N min\"}}]\n\n"
+        "=== PREDICTION ===\n"
+    )
+daily_traj_prompt. append(prompt)
+
+
+
+
+
+
+    # =====================================================
+    # Prompt 9: 分步引导
+    # =====================================================
+prompt = (
+        "Let's predict the daily trajectory for user {user} step by step.\n\n"
+        "**Step 1 - Understand the user:**\n{profile}\n\n"
+        "**Step 2 - Review historical pattern:**\n"
+        "On the previous {date}, the trajectory was:\n{last_day_traj}\n\n"
+        "**Step 3 - Consider today's context:**\n"
+        "Today is a {date}, so the user's behavior should follow similar patterns.\n\n"
+        "**Step 4 - Generate prediction:**\n"
+        "Based on the above analysis, output the predicted trajectory as a JSON list:\n"
+    )
+daily_traj_prompt.append(prompt)
+
+    # =====================================================
+    # Prompt 10: 最简洁版本
+    # =====================================================
+prompt = (
+        "User: {user}\n"
+        "Profile: {profile}\n"
+        "Last {date}: {last_day_traj}\n"
+        "Today: {date}\n\n"
+        "Predict today's trajectory:\n"
+    )
+daily_traj_prompt. append(prompt)
+
+    # =====================================================
+    # Prompt 11: 强调 H3 索引
+    # =====================================================
+prompt = (
+        "**Spatial-Temporal Trajectory Prediction**\n\n"
+        "User {user}'s mobility profile:\n{profile}\n\n"
+        "Reference trajectory from previous {date}:\n{last_day_traj}\n\n"
+        "Note: Each location is encoded as a 4-token H3 index representing a specific area in Tokyo.\n\n"
+        "For today ({date}), predict the sequence of H3 locations the user will visit, "
+        "along with arrival times and stay durations.\n\n"
+        "Output format: JSON list with h3_index as 4-token location codes.\n"
+    )
+daily_traj_prompt.append(prompt)
+
+    # =====================================================
+    # Prompt 12: 角色扮演风格
+    # =====================================================
+prompt = (
+        "You are a mobility prediction system analyzing user {user}.\n\n"
+        "**User Data:**\n"
+        "- Profile: {profile}\n"
+        "- Historical {date} trajectory: {last_day_traj}\n\n"
+        "**Request:**\n"
+        "Generate a predicted trajectory for today ({date}).\n"
+        "The trajectory should be realistic and consistent with the user's historical behavior.\n\n"
+        "**Response format:**\n"
+        "JSON list with fields: id, start_time, h3_index, stay_duration\n"
+    )
+daily_traj_prompt.append(prompt)
+
+    # =====================================================
+    # Prompt 13: 强调模式匹配
+    # =====================================================
+prompt = (
+        "**Pattern-Based Trajectory Generation**\n\n"
+        "Analyze the mobility pattern of user {user}:\n\n"
+        "Profile information:\n{profile}\n\n"
+        "Observed pattern on previous {date}:\n{last_day_traj}\n\n"
+        "Target: Generate trajectory for today ({date})\n\n"
+        "Instructions:\n"
+        "- Match the temporal pattern (similar start times)\n"
+        "- Use consistent location codes (h3_index)\n"
+        "- Maintain realistic stay durations (30-600 minutes)\n\n"
+        "Generated trajectory:\n"
+    )
+daily_traj_prompt.append(prompt)
+
+  
+
+    # =====================================================
+    # Prompt 15: 强调预测逻辑
+    # =====================================================
+prompt = (
+        "**Mobility Prediction Request**\n\n"
+        "User: {user}\n"
+        "Day type: {date}\n\n"
+        "**Context:**\n"
+        "The user's profile indicates: {profile}\n\n"
+        "**Reference Data:**\n"
+        "On the last {date}, the user's trajectory was:\n{last_day_traj}\n\n"
+        "**Prediction Logic:**\n"
+        "- Start from the likely home/origin location\n"
+        "- Follow the user's typical daily routine\n"
+        "- Account for work, shopping, dining patterns\n"
+        "- Use appropriate stay durations for each activity type\n\n"
+        "**Predicted Trajectory:**\n"
+    )
+daily_traj_prompt. append(prompt)
+
+# 添加到 all_prompt
 all_prompt["daily_traj"] = daily_traj_prompt
+
+
 
 
 

@@ -10,14 +10,13 @@ import torch
 import sys
 import importlib.util
 from pathlib import Path
-from test import test
 from utils import parse_dataset_args, parse_global_args, parse_train_args, parse_test_args
 from logger_utils import get_logger
 logger = get_logger(__name__)
 logger.info("==== QT_Mob runner started ====")
 
 # 开关
-TRAIN = True
+TRAIN = False
 TEST = True
 
 # PATH_TO_SFT_SAVE_DIR = "autodl-tmp/checkpoint"
@@ -71,7 +70,7 @@ def test_model(args):
             args.results_file = f"{args.path_to_sft_save_dir}/{args.experiment_name}/test_results_rec.json"
 
         logger.info(f"开始测试任务: {args.test_task}")
-        test_index_location(args)
+        # test_index_location(args)
         test(args)
         logger.info(f"✅ 测试任务 {args.test_task} 完成，结果文件: {args.results_file}")
     except Exception:
@@ -115,15 +114,15 @@ if __name__ == "__main__":
     args.metrics = TEST_METRICS
     logger.info(f"CUDA_VISIBLE_DEVICES = {CUDA_VISIBLE_DEVICES}")
     BASE_MODEL = "qwen"
-    args.base_model = "/home/linyuxi/LLM/LLMMove/Qwen3-8B"
-    # args.base_model = "/root/autodl-tmp/Qwen/Qwen3-8B"  # 本地模型绝对路径
+    # args.base_model = "/home/linyuxi/LLM/LLMMove/Qwen3-8B"
+    args.base_model = "/root/autodl-tmp/Qwen/Qwen3-8B"  # 本地模型绝对路径
     # args.base_model = "Qwen3-8B"  # 其他本地模型路径示例
     args.index_file = "QT_Mob_main/dataset/location_r8.json"
     # DATASET_PATH = "./zdc_h3_index"
 
-    TRAIN_TASKS = ["index","location"]
-    TEST_TASK = "index,location"
-    CUSTOM_NAME = "model_with_gridinfo"
+    TRAIN_TASKS = ["daily_traj"]
+    TEST_TASK = "daily_traj"
+    CUSTOM_NAME = "model_weekend"
 
     args.tasks = ",".join(TRAIN_TASKS)
     # args.data_path = DATASET_PATH

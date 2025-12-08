@@ -47,8 +47,8 @@ def parse_train_args(parser):
 
     parser.add_argument("--epochs", type=int, default=10)
     parser.add_argument("--learning_rate", type=float, default=1e-4)
-    parser.add_argument("--per_device_train_batch_size", type=int, default=5)
-    parser.add_argument("--per_device_eval_batch_size", type=int, default=5)
+    parser.add_argument("--per_device_train_batch_size", type=int, default=10)
+    parser.add_argument("--per_device_eval_batch_size", type=int, default=8)
     parser.add_argument("--gradient_accumulation_steps", type=int, default=10)
     parser.add_argument("--cutoff_len", type=int, default=4096)
     parser.add_argument("--weight_decay", type=float, default=0.01)
@@ -114,7 +114,7 @@ def parse_test_args(parser):
                         help="test prompt ids, separate by comma. 'all' represents using all")
     parser.add_argument("--metrics", type=str, default="hit@1,hit@5,hit@10",
                         help="test metrics, separate by comma")
-    parser.add_argument("--test_task", type=str, default="index,location,daily_traj",
+    parser.add_argument("--test_task", type=str, default="daily_traj",
                         help="test task, one of [seq, daily_traj, recovery]")
     parser.add_argument("--limit_test_size",  default=False, help="whether to limit the test size to 1000")
 

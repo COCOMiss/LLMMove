@@ -183,7 +183,11 @@ class BaseDataset(Dataset):
         self.allowed_tokens = None
         self.all_items = None
         self.task_prompt = None
-        self.data_filename_list = ['20120809.feather','20120810.feather','20120811.feather','20120812.feather','20120816.feather','20120817.feather','20120818.feather','20120819.feather']
+        
+        self.data_filename_list = ['20120804.feather','20120805.feather','20120809.feather',
+                                   '20120810.feather','20120811.feather','20120812.feather',
+                                   '20120818.feather','20120819.feather','20120825.feather',
+                                   '20120826.feather','20120830.feather','20120831.feather']
         # self.data_filename_list = [f for f in os.listdir(self.data_path) if f.endswith(".feather") and "2012081" in f]
         # # import re
         # self.data_filename_list = [f for f in os.listdir(self.data_path) if re.search(r"2\d\.feather$", f)]
@@ -215,50 +219,99 @@ class BaseDataset(Dataset):
     
    
     
-    def set_prompt(self, prompt_id):
+    def set_prompt(self, prompt_id=0):
         self.test_prompt_id = prompt_id
         logger.info(f"Prompt ID set to {prompt_id}")
 
     def __len__(self):
         return len(self.inter_data)
     
-    def is_prompt_format_valid(self,formatted):
+    def is_prompt_format_valid(self, formatted):
         try:
-            target_suffix = '"stay_duration": "... min" }, ...]\n'
-            # 两边都去除空白字符后再比较，因为 formatted 可能末尾有额外的空白
-            if not formatted.rstrip().endswith(target_suffix.rstrip()):
+            # 检查常见的未替换占位符
+            problematic_patterns = [
+                "{user}",
+                "{profile}",
+                "{date}",
+                "{last_day_traj}",
+                "{prediction}",
+            ]
+            
+            for pattern in problematic_patterns:
+                if pattern in formatted:
+                    logger. warning(f"Unformatted placeholder found: {pattern}")
+                    return False
+            
+            # 检查格式化后的内容不为空
+            if len(formatted. strip()) < 50:
+                logger.warning("Formatted prompt too short")
                 return False
+            
             return True
-        except Exception:
+        
+        except Exception as e:
+            logger.warning(f"Prompt validation error: {e}")
             return False
-    
+        
+        
     def _get_traj_text_data(self, data, prompt, sft_format=False):
         if self.indexing:
             sys_prompt = system_prompt
-        else:   
-            # sys_prompt = system_prompt_not_indexing.format(max_poi=len(self.indices)-1)
+        else:
             sys_prompt = system_prompt_not_indexing
+    
+        task_prompt = self.task_prompt
+        
         formatted = prompt.format(**data)
         if not self.is_prompt_format_valid(formatted):
             logger.warning(f"Invalid prompt format: {formatted}")
             raise ValueError(f"Invalid prompt format: {formatted}")
-        instruction = sys_prompt + self.task_prompt + formatted
+        
+        instruction = sys_prompt + task_prompt + formatted
+        response = data.get("response", "prediction:")
+        prediction = data.get("prediction", "")
       
-        response = data["response"]
-        prediction = data["prediction"] if "prediction" in data else ""
 
         if self.mode == 'test':
-            input = sft_prompt.format(instruction = instruction, response = response, prediction = "")
-            return input, prediction,data["user"],data["date"],data["last_day_traj"]
+            input = sft_prompt.format(instruction=instruction, response=response, prediction="")
+            return input, prediction, data["user"], data["date"], data["last_day_traj"]
         
         if sft_format:
-            input = sft_prompt.format(instruction = instruction, response = "", prediction = "")
-            output = sft_prompt.format(instruction = instruction, response = response, prediction = prediction)
+            input = sft_prompt.format(instruction=instruction, response="", prediction="")
+            output = sft_prompt.format(instruction=instruction, response=response, prediction=prediction)
         else:
             input = instruction
             output = response + prediction
             
         return input, output
+    
+    # def _get_traj_text_data(self, data, prompt, sft_format=False):
+    #     if self.indexing:
+    #         sys_prompt = system_prompt
+    #     else:   
+    #         # sys_prompt = system_prompt_not_indexing.format(max_poi=len(self.indices)-1)
+    #         sys_prompt = system_prompt_not_indexing
+    #     formatted = prompt.format(**data)
+    #     if not self.is_prompt_format_valid(formatted):
+    #         logger.warning(f"Invalid prompt format: {formatted}")
+    #         raise ValueError(f"Invalid prompt format: {formatted}")
+    #     instruction = sys_prompt + self.task_prompt + formatted
+      
+    #     response = data["response"]
+    #     prediction = data["prediction"] if "prediction" in data else ""
+
+    #     if self.mode == 'test':
+    #         input = sft_prompt.format(instruction = instruction, response = response, prediction = "")
+    #         return input, prediction,data["user"],data["date"],data["last_day_traj"]
+        
+    #     if sft_format:
+    #         input = sft_prompt.format(instruction = instruction, response = "", prediction = "")
+    #         output = sft_prompt.format(instruction = instruction, response = response, prediction = prediction)
+    #     else:
+    #         input = instruction
+    #         output = response + prediction
+            
+    #     return input, output
     
     def _get_text_data(self, data, prompt,sft_format=False):
         is_qa_format = any(q in prompt. lower() for q in ["what is", "what can you tell", "provide"])
@@ -357,6 +410,7 @@ class DailyTrajDataset(BaseDataset):
             return date
         else:
             date = datetime.strptime(date, '%Y%m%d').date()
+            date -= timedelta(days=1)
             while date.weekday() != 5:
                 date -= timedelta(days=1)
             return date
@@ -436,7 +490,7 @@ class DailyTrajDataset(BaseDataset):
         return bucket_minutes
 
     def _clean_repeated_data(self):
-        
+        logger.info(f"self.stay_data: {len(self.stay_data)}")
         for date, day_trajectory_dict in tqdm(self.stay_data.items(), desc="Cleaning Trajectory Dataset"):
             # 如果 add_last_day 为 True，则跳过没有 last_day 的日期
             last_day = self.find_last_day(date)
@@ -458,7 +512,8 @@ class DailyTrajDataset(BaseDataset):
                     # INSERT_YOUR_CODE
                     # 计算last_day_trajectory和user_trajectory的location相似度（假设每个点的location可通过x[0]获取）
                     similarity = jaccard_similarity(last_day_trajectory, user_trajectory)
-                    if similarity > 0.3:
+                    # logger.info(f"similarity: {similarity}")
+                    if similarity > 0.5:
                         # INSERT_YOUR_CODE
                         # 收集需要删除的 user_id
                         users_to_delete.append(user_id)
@@ -466,8 +521,7 @@ class DailyTrajDataset(BaseDataset):
             
             print(f"Deleting  {len(users_to_delete)} users")
             # 迭代完成后再删除
-            for user_id in users_to_delete:
-               
+            for user_id in users_to_delete:    
                 del self.stay_data[date][user_id]
                         
                     
@@ -485,9 +539,9 @@ class DailyTrajDataset(BaseDataset):
         
         #inter_data_dict[date] = [trajectory_data]
         if self.mode == "train":
-            self.inter_data_dict = self.load_multi_days_data(0,2)
+            self.inter_data_dict = self.load_multi_days_data(0,-4)
         else:
-            self.inter_data_dict = self.load_multi_days_data(4,len(self.data_filename_list))
+            self.inter_data_dict = self.load_multi_days_data(-4,len(self.data_filename_list))
             
         
         # self.inter_data_dict = self.load_multi_days_data()
@@ -552,7 +606,8 @@ class DailyTrajDataset(BaseDataset):
                                 traj_session.append((str(row['h3']), pt, user_id, row['trajectory_num'],duration))
                         else:
                             continue
-                if len(traj_session) >5:
+                # logger.info(f"traj_session: {len(traj_session)}")
+                if len(traj_session) >=5:
                     for index,traj in enumerate(traj_session):
                         if index == 0:
                             prev_traj=list(traj)  # Convert tuple to list for modification
@@ -571,16 +626,20 @@ class DailyTrajDataset(BaseDataset):
                             else:
                                 final_traj_session.append(tuple(prev_traj))  # Convert back to tuple when appending
                                 prev_traj=list(traj)  # Convert tuple to list for modification
-                 
-                if len(final_traj_session) > 3:
+                # logger.info(f"final_traj_session: {len(final_traj_session)}")
+                if len(final_traj_session) >=3:
                     self.stay_data[day_time][user_id]=final_traj_session
+                # logger.info(f"final_traj_session: {len(final_traj_session)}")
+                
                    
     
     def _process_data(self):
         logger.info("Processing Daily Trajectory Dataset...")       
         inter_data = []
+        # logger.info(f"self.stay_data: {len(self.stay_data)}")
         
         for date, day_trajectory_dict in tqdm(self.stay_data.items(), desc="Processing Daily Trajectory Dataset"):
+            logger.info(f"The data size in {date}: {len(day_trajectory_dict)}")
             
             # 如果 add_last_day 为 True，则跳过没有 last_day 的日期
             if self.add_last_day:
@@ -622,7 +681,7 @@ class DailyTrajDataset(BaseDataset):
                         continue
                     h3_idx, time_val, user_id, traj_num, duration = traj
                     if h3_idx not in self.codebook:
-                        logger.warning(f"H3 index '{h3_idx}' not found in codebook. Available keys sample: {list(self.codebook.keys())[:3]}")
+                        logger.warning(f"H3 index '{h3_idx}' not found in codebook. Available keys sample: {list(self.codebook.keys())}")
                 
 
                 #0: h3 index, 1: time, 2: user id, 3: trajectory num, 4: duration
