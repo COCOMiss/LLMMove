@@ -16,7 +16,7 @@ from peft import PeftConfig, PeftModel
 # Local imports
 from collator import TestCollator
 from h3_prompt_mobility import all_prompt
-from evaluate import get_daily_traj_results, get_seq_results, extract_json_array
+from evaluate import get_daily_traj_results, get_seq_results, extract_json_array,get_prompt_pred_results
 from utils import (
     set_seed, 
     load_test_dataset, 
@@ -160,7 +160,7 @@ def test(args):
     all_prompt_results = []
     prediction_dict={}
     ground_truth_dict={}
-
+    best_prompt_dict={}
   
 
     with torch.no_grad():
@@ -170,6 +170,7 @@ def test(args):
             
             metrics_accumulator = {}
             target_lastday_metrics_accumulator = {}
+            prompt_pred_metrics_accumulator={}
             total_samples = 0
 
             # 用tqdm包一层进度条
@@ -238,17 +239,33 @@ def test(args):
                     "all_items": all_items if args.filter_items else None
                 }
                 
+                output = []
+                for json_str in last_day_trajs:
+                    data = json. loads(json_str)
+                    for item in data:
+                        output. append(json.dumps(item["trajectories"]))
+                
                 lastday_eval_kwargs = {
-                    "output_text": last_day_trajs,
-                    "targets": targets,
-                    "scores": None,
-                    "metrics": metrics_list,
-                    "all_items": all_items if args.filter_items else None
+                            "output_text": output,
+                            "targets": targets,
+                            "scores": None,
+                            "metrics": metrics_list,
+                            "all_items": all_items if args.filter_items else None
+                        }
+                
+                prompt_pred_kwargs={
+                    "predictions": final_texts_for_eval,
+                    "prompts": output  
                 }
+                
+             
 
                 if args.test_task == "daily_traj":
                     batch_metrics,best_prediction_list = get_daily_traj_results(**eval_kwargs)
-                    target_lastday_metrics,_ = get_daily_traj_results(**lastday_eval_kwargs)
+                    target_lastday_metrics,best_prompt_list = get_daily_traj_results(**lastday_eval_kwargs)
+                    prompt_pred_metrics= get_prompt_pred_results(**prompt_pred_kwargs)
+                    
+                    
                 elif args.test_task == "seq":
                     batch_metrics = get_seq_results(**eval_kwargs)
                 else:
@@ -258,34 +275,32 @@ def test(args):
                     if user not in prediction_dict:
                         prediction_dict[user] = {"Workday":[],"Holiday":[]}
                         ground_truth_dict[user] = {"Workday":[],"Holiday":[]}
+                        best_prompt_dict[user] = {"Workday":[],"Holiday":[]}
                    
                     if date == "Workday":
                         prediction_dict[user][date].append(best_prediction)
                         ground_truth_dict[user][date].append(target)
+                        best_prompt_dict[user][date].append(best_prompt_list)
                     else:
                         prediction_dict[user]["Holiday"].append(best_prediction)
                         ground_truth_dict[user]["Holiday"].append(target)
+                        best_prompt_dict[user]["Holiday"].append(best_prompt_list)
                     
                   
-                
-
-                # Debug 打印第一个样本的 Top-1 结果
-                if batch_idx % 5 == 0: 
-                    logger.info(f"\n[Sample Debug Info (Top-5 Beam)]")
-                    logger.info(f"Ground Truth: {ground_truth_dict}")
-                    logger.info(f"Prediction: {prediction_dict}\n")
 
                 # 累加指标
                 for m, res in batch_metrics.items():
                     metrics_accumulator[m] = metrics_accumulator.get(m, 0) + res
                 for m, res in target_lastday_metrics.items():
                     target_lastday_metrics_accumulator[m] = target_lastday_metrics_accumulator.get(m, 0) + res
+                    
+                prompt_pred_metrics_accumulator["ACC"] = prompt_pred_metrics_accumulator.get("ACC", 0) + prompt_pred_metrics
                 # 定期打印临时结果
                 if  batch_idx % 10 == 0:
                     temp_avg = {m: val / (batch_idx+1) for m, val in metrics_accumulator.items()}
                     temp_lastday_avg = {m: val / (batch_idx+1) for m, val in target_lastday_metrics_accumulator.items()}
                     logger.info(f"Intermediate Metrics (n={total_samples}): {temp_avg}")
-                    logger.info(f"Intermediate Lastday Metrics (n={total_samples}): {temp_lastday_avg}")
+                    logger.info(f"Prompt trajectory results (n={total_samples}): {temp_lastday_avg}")
 
                 if args.limit_test_size and total_samples >= 1000:
                     logger.info("Hit test size limit (1000). Stopping prompt loop.")
@@ -296,9 +311,11 @@ def test(args):
             # === 当前 Prompt ID 最终结果 ===
             final_prompt_metrics = {m: val / (batch_idx+1) for m, val in metrics_accumulator.items()}
             final_lastday_prompt_metrics = {m: val / (batch_idx+1) for m, val in target_lastday_metrics_accumulator.items()}
+            final_prompt_pred_metrics = {m: val / (batch_idx+1) for m, val in prompt_pred_metrics_accumulator.items()}
             all_prompt_results.append(final_prompt_metrics)
             logger.info(f"Prompt {prompt_id} Final Results: {final_prompt_metrics}")
             logger.info(f"Prompt {prompt_id} Final Lastday Metrics: {final_lastday_prompt_metrics}")
+            logger.info(f"Prompt {prompt_id} Final Prompt Pred Metrics: {final_prompt_pred_metrics}")
 
     # ===== 7. 保存结果 =====
     save_data = {}
@@ -328,6 +345,7 @@ def test(args):
     ensure_dir_for_file(args.results_file)
     ensure_dir_for_file(args.prediction_file)
     ensure_dir_for_file(args.ground_truth_file)
+    ensure_dir_for_file(args.best_prompt_file)
 
     with open(args.results_file, "w") as f:
         json.dump(save_data, f, indent=4)
@@ -335,6 +353,8 @@ def test(args):
         json.dump(prediction_dict, f, indent=4)
     with open(args.ground_truth_file, "w") as f:
         json.dump(ground_truth_dict, f, indent=4)
+    with open(args.best_prompt_file, "w") as f:
+        json.dump(best_prompt_dict, f, indent=4)
     logger.info(f"All results saved to {args.results_file}")
 
 

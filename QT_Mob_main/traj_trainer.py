@@ -134,13 +134,13 @@ class SoftPositionMatchCopyPenaltyTrainer(SFTTrainer):
         
         # 9. 使用软阈值计算惩罚（可微分）
         # 方法1：直接使用 avg_copy_prob（始终有梯度）
-        # penalty = avg_copy_prob
+        penalty = avg_copy_prob
         
         # 方法2：使用 soft ReLU（Softplus）保持平滑梯度
         # penalty = F.softplus(avg_copy_prob - self.copy_threshold)
         
         # 方法3：使用标准 ReLU（超过阈值才有梯度）
-        penalty = F.relu(avg_copy_prob - self.copy_threshold) / (1.0 - self.copy_threshold + 1e-8)
+        # penalty = F.relu(avg_copy_prob - self.copy_threshold) / (1.0 - self.copy_threshold + 1e-8)
         
         # 检查是否有梯度
         has_gradient = penalty.requires_grad and (avg_copy_prob > self.copy_threshold). item()

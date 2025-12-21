@@ -391,8 +391,8 @@ def main(args):
         logger.info(f"Model saved at: {model_id}")
 
 
-        logger.info(f"Our implementation - Mean Token Accuracy: {result['mean_token_accuracy']:.4f}")
-        logger.info(f"Our implementation - Mean Loss: {result['mean_loss']:.4f}")
+        # logger.info(f"Our implementation - Mean Token Accuracy: {result['mean_token_accuracy']:.4f}")
+        # logger.info(f"Our implementation - Mean Loss: {result['mean_loss']:.4f}")
 
       
 
