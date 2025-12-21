@@ -493,8 +493,25 @@ def extract_json_array(text):
         return _extract_single(text)
 
 
-
-
+def get_prompt_pred_results(prompts, predictions):
+    prompt_set = set()
+    prediction_set = set()
+    
+    for prompt in prompts: 
+        h3_index_list, duration_list = formatting_traj_func(prompt)
+        prompt_set.update(h3_index_list)
+    
+    for prediction in predictions:
+        h3_index_list, duration_list = formatting_traj_func(prediction)
+        prediction_set.update(h3_index_list)
+    
+    # 防止除零错误
+    if len(prediction_set) == 0:
+        return 0.0
+    
+    return len(prompt_set & prediction_set) / len(prediction_set)
+    
+    
 def get_daily_traj_results(
     output_text: List[str], 
     targets: List[str], 

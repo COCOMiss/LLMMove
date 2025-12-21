@@ -16,7 +16,7 @@ logger = get_logger(__name__)
 logger.info("==== QT_Mob runner started ====")
 
 # 开关
-TRAIN = True
+TRAIN = False
 TEST = True
 
 # PATH_TO_SFT_SAVE_DIR = "autodl-tmp/checkpoint"
@@ -122,7 +122,7 @@ if __name__ == "__main__":
 
     TRAIN_TASKS = ["daily_traj"]
     TEST_TASK = "daily_traj"
-    CUSTOM_NAME = "model_weekend_copy_penalty"
+    CUSTOM_NAME = "model_weekend_with_multdays_traj"
 
     args.tasks = ",".join(TRAIN_TASKS)
     # args.data_path = DATASET_PATH

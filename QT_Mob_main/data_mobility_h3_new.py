@@ -1,6 +1,7 @@
 from math import log
 import random
 import os
+from torch.nn.init import kaiming_uniform_
 from torch.utils.data import Dataset
 from tqdm import tqdm
 import json
@@ -162,9 +163,7 @@ def is_holiday(date_str):
     elif date in japan_holidays:
         return "Holiday"
     else:
-        return "Workday"
-    
-   
+        return "Workday"  
 
 class BaseDataset(Dataset):
 
@@ -188,6 +187,21 @@ class BaseDataset(Dataset):
                                    '20120810.feather','20120811.feather','20120812.feather',
                                    '20120818.feather','20120819.feather','20120825.feather',
                                    '20120826.feather','20120830.feather','20120831.feather']
+        
+        
+        ##for last three day traj data
+        self.train_data_filename_list = ['20120804.feather','20120805.feather','20120807.feather','20120808.feather',
+                                        '20120809.feather','20120810.feather','20120811.feather','20120812.feather',
+                                        '20120818.feather','20120819.feather','20120825.feather']
+        
+        
+        # self.test_data_filename_list = ['20120818.feather','20120819.feather','20120825.feather','20120826.feather',
+        #                            '20120828.feather','20120829.feather','20120830.feather','20120831.feather']
+        
+        
+        self.test_data_filename_list = ['20120818.feather','20120819.feather','20120825.feather','20120826.feather']
+        
+        
         # self.data_filename_list = [f for f in os.listdir(self.data_path) if f.endswith(".feather") and "2012081" in f]
         # # import re
         # self.data_filename_list = [f for f in os.listdir(self.data_path) if re.search(r"2\d\.feather$", f)]
@@ -233,7 +247,7 @@ class BaseDataset(Dataset):
                 "{user}",
                 "{profile}",
                 "{date}",
-                "{last_day_traj}",
+                "{historical_trajectories}",
                 "{prediction}",
             ]
             
@@ -274,7 +288,7 @@ class BaseDataset(Dataset):
 
         if self.mode == 'test':
             input = sft_prompt.format(instruction=instruction, response=response, prediction="")
-            return input, prediction, data["user"], data["date"], data["last_day_traj"]
+            return input, prediction, data["user"], data["date"], data["historical_trajectories"]
         
         if sft_format:
             input = sft_prompt.format(instruction=instruction, response="", prediction="")
@@ -283,7 +297,7 @@ class BaseDataset(Dataset):
             input = instruction
             output = response + prediction
             
-        return input, output,data["last_day_traj"]
+        return input, output,data["historical_trajectories"]
     
     # def _get_traj_text_data(self, data, prompt, sft_format=False):
     #     if self.indexing:
@@ -400,20 +414,28 @@ class BaseDataset(Dataset):
 class DailyTrajDataset(BaseDataset):
     # Task --  Predict Daily Trajectory
     
-    def find_last_day(self,date):
+    def find_last_three_days(self,date):
         # 找到 date 日期的上一个工作日
+        last_three_days = []
+        last_three_days_str=[]
+        
+        last_date  = datetime.strptime(date, '%Y%m%d').date()
         if is_holiday(date) == "Workday":
-            date = datetime.strptime(date, '%Y%m%d').date()
-            date -= timedelta(days=1)
-            while is_holiday(date.strftime('%Y%m%d')) != "Workday":
-                date -= timedelta(days=1)
-            return date
+            for i in range(3):
+                last_date -= timedelta(days=1)
+                while is_holiday(last_date.strftime('%Y%m%d')) != "Workday":
+                    last_date -= timedelta(days=1)
+                last_three_days.append(last_date)
         else:
-            date = datetime.strptime(date, '%Y%m%d').date()
-            date -= timedelta(days=1)
-            while date.weekday() != 5:
-                date -= timedelta(days=1)
-            return date
+           for i in range(3):
+                while is_holiday(last_date.strftime('%Y%m%d')) == "Workday":
+                    last_date -= timedelta(days=1)
+                last_three_days.append(last_date)
+        for day in last_three_days:
+            last_three_days_str.append(day.strftime('%Y%m%d'))
+        return last_three_days_str
+        
+      
 
     def __init__(self, args, mode="train"):
         super().__init__(args)
@@ -469,7 +491,11 @@ class DailyTrajDataset(BaseDataset):
         try:
             os.makedirs(cache_root, exist_ok=True)
             self._load_data()
-            self.inter_data = self._process_data()
+            if self.add_last_day:
+                self.inter_data = self._process_data_with_last_three_days()
+                logger.info(f"self.inter_data: {len(self.inter_data)}")
+            else:
+                self.inter_data = self._process_data()
             pd.DataFrame(self.inter_data).to_pickle(cache_file)
             logger.info(f"Cached daily trajectory dataset to {cache_file}")
         except Exception:
@@ -491,64 +517,88 @@ class DailyTrajDataset(BaseDataset):
 
     def _clean_repeated_data(self):
         logger.info(f"self.stay_data: {len(self.stay_data)}")
+        self.stay_data_with_last_three_days = {}
         for date, day_trajectory_dict in tqdm(self.stay_data.items(), desc="Cleaning Trajectory Dataset"):
             # 如果 add_last_day 为 True，则跳过没有 last_day 的日期
-            last_day = self.find_last_day(date)
-            last_day_str = last_day.strftime('%Y%m%d')  # 转换为YYYYMMDD格式的字符串
-            if last_day_str not in self.stay_data.keys():
-                continue
-            else:
-                last_day_dict = self.stay_data[last_day_str]
-            
-            # 收集需要删除的 user_id，避免在迭代时修改字典
-            users_to_delete = []
-                    
-            for user_id, user_trajectory in day_trajectory_dict.items():
-                if user_id not in last_day_dict.keys():
+            last_three_days = self.find_last_three_days(date)
+            last_three_days_dict = {}
+            last_three_days_user_set_dict = {}
+            for day in last_three_days:
+                if day not in self.stay_data.keys():
                     continue
                 else:
-                    last_day_data = last_day_dict[user_id]
-                    last_day_trajectory = sorted(last_day_data, key=lambda x: int(x[3].split('_')[1]))
-                    # INSERT_YOUR_CODE
-                    # 计算last_day_trajectory和user_trajectory的location相似度（假设每个点的location可通过x[0]获取）
-                    similarity = jaccard_similarity(last_day_trajectory, user_trajectory)
-                    # logger.info(f"similarity: {similarity}")
-                    if similarity > 0.2:
-                        # INSERT_YOUR_CODE
-                        # 收集需要删除的 user_id
-                        users_to_delete.append(user_id)
+                    last_three_days_dict[day] =  self.stay_data[day]
+                    last_three_days_user_set_dict[day]= set(self.stay_data[day].keys())
+            if len(last_three_days_dict) != 3:
+                continue
             
-            
-            print(f"Deleting  {len(users_to_delete)} users")
-            # 迭代完成后再删除
-            for user_id in users_to_delete:    
-                del self.stay_data[date][user_id]
-                        
-                    
- 
-       
+    
+            common_users = set.intersection(*last_three_days_user_set_dict.values())
+            self.stay_data_with_last_three_days[date]={}
+             
+            for user_id, user_trajectory in day_trajectory_dict.items():
+                if user_id not in common_users:
+                    continue
+                else:
+                    last_three_days_data=[]
+                    for day in last_three_days_dict.keys():
+                        last_day_data = last_three_days_dict[day][user_id]
+                        last_day_trajectory = sorted(last_day_data, key=lambda x: int(x[3].split('_')[1]))
+                        similarity = jaccard_similarity(last_day_trajectory, user_trajectory)
+                        if similarity > 0.5:
+                           break
+                        else:
+                            last_three_days_data.append(last_day_trajectory)
+                    if len(last_three_days_data) == 3:
+                        self.stay_data_with_last_three_days[date][user_id]={}
+                        self.stay_data_with_last_three_days[date][user_id]["last_three_days_data"]=last_three_days_data
+                        self.stay_data_with_last_three_days[date][user_id]["user_trajectory"]=user_trajectory
 
+   
+    def _load_last_three_day_data(self):
+        all_data = {}
+        if self.mode == "train":
+            data_filename_list = self.train_data_filename_list
+        else:
+            data_filename_list = self.test_data_filename_list
+            
+        for file_name in data_filename_list:
+            fpath = os.path.join(self.data_path, file_name)
+            if os.path.exists(fpath):
+                try:
+                    df = pd.read_feather(fpath)
+                    base_name = os.path.splitext(os.path.basename(file_name))[0]
+                    df['trajectory_num'] = base_name + "_" + df['trajectory_num'].astype(str)
+                    all_data[base_name] = df
+                    logger.info(f"Loaded file {file_name} with {len(df)} records.")
+                except Exception as e:
+                    logger.exception(f"Error reading file: {fpath}")
+            else:
+                logger.warning(f"File not found: {fpath}")
+        return all_data
+   
     def _load_data(self):
         # load data
         
         logger.info("Loading data for daily trajectory prediction...")
+        self.inter_data_dict = self._load_last_three_day_data()
         
         # split_idx = int(len(self.data_filename_list) * 0.7)
         # if split_idx % 2 == 0:
         #     split_idx += 1 if split_idx < len(self.data_filename_list) else -1
         
         #inter_data_dict[date] = [trajectory_data]
-        if self.mode == "train":
-            self.inter_data_dict = self.load_multi_days_data(0,-4)
-        else:
-            self.inter_data_dict = self.load_multi_days_data(-4,len(self.data_filename_list))
+        # if self.mode == "train":
+        #     self.inter_data_dict = self.load_multi_days_data(0,6)
+        # else:
+        #     self.inter_data_dict = self.load_multi_days_data(-4,len(self.data_filename_list))
             
         
         # self.inter_data_dict = self.load_multi_days_data()
         
         self._process_stay_data()
         self._free_attrs("inter_data_dict")
-        if self.mode== "train" and self.add_last_day:
+        if self.add_last_day:
             self._clean_repeated_data()
             
         with open(self.index_file, 'r') as f:
@@ -629,10 +679,73 @@ class DailyTrajDataset(BaseDataset):
                 # logger.info(f"final_traj_session: {len(final_traj_session)}")
                 if len(final_traj_session) >=3:
                     self.stay_data[day_time][user_id]=final_traj_session
-                # logger.info(f"final_traj_session: {len(final_traj_session)}")
-                
+                # logger.info(f"final_traj_session: {len(final_traj_session)}")           
                    
-    
+    def _process_data_with_last_three_days(self):
+        logger.info("Processing Daily Trajectory Dataset...")       
+        inter_data = []
+        # logger.info(f"self.stay_data: {len(self.stay_data)}")
+        logger.info(f"self.stay_data_with_last_three_days: {len(self.stay_data_with_last_three_days)}")
+        
+        for date, trajectory_dict in tqdm(self.stay_data_with_last_three_days.items(), desc="Processing Daily Trajectory Dataset"):
+            logger.info(f"The data size in {date}: {len(trajectory_dict)}")
+            for user_id, user_trajectory_dict in trajectory_dict.items():
+                last_three_days_data = user_trajectory_dict["last_three_days_data"]
+                user_trajectory = user_trajectory_dict["user_trajectory"]
+                
+                # last_three_days_data = sorted(last_three_days_data, key=lambda x: int(x[3].split('_')[1]))
+                # user_trajectory = sorted(user_trajectory, key=lambda x: int(x[3].split('_')[1]))
+                one_data = dict()
+                one_data["historical_trajectories"] = json.dumps(
+                    [
+                        {
+                            "day": i+1,
+                            "trajectories": [
+                                {
+                                    "id": str(k+1),
+                                    "start_time": format_time_field(trajectory[1]),
+                                    "h3_index": "".join(self.codebook[trajectory[0]]),
+                                    "stay_duration": f"{self.get_stay_duration(trajectory[4])} min"
+                                }
+                                for k, trajectory in enumerate(last_three_days_data[i])
+                                if trajectory[0] in self.codebook
+                            ]
+                        }
+                        for i in range(3)
+                    ],
+                    ensure_ascii=False)
+                
+                
+                one_data["user"] = user_id
+                one_data["response"] = "prediction:"
+                one_data["date"] = is_holiday(date)
+                
+                if self.add_profile:
+                    # profile = self.user_profile.loc[self.user_profile['user_id'] == int(one_data["user"])]
+                    if one_data["date"] == "Workday":
+                        profile = self.user_profile_weekday.loc[self.user_profile_weekday['user_id'] == int(one_data["user"])]
+                    else:
+                        profile = self.user_profile_weekend_holiday.loc[self.user_profile_weekend_holiday['user_id'] == int(one_data["user"])]
+                    one_data["profile"] = profile['profile'].values[0] if not profile.empty else ""
+                else:
+                    one_data["profile"] = ""
+                    
+                one_data["prediction"] = json.dumps(
+                    [
+                        {   "id":str(i+1),
+                            "start_time": format_time_field(trajectory[1]),
+                            "h3_index": "".join(self.codebook[trajectory[0]]),
+                            "stay_duration": f"{self.get_stay_duration(trajectory[4])} min"
+                        } 
+                        for i, trajectory in enumerate(user_trajectory)
+                        if trajectory[0] in self.codebook
+                    ],
+                    ensure_ascii=False)
+                inter_data.append(one_data)
+        logger.info(f"Daily Trajectory Dataset processing complete: {len(inter_data)} records.")
+        self._free_attrs("stay_data", "user_profile_weekday","stay_data_with_last_three_days","user_profile_weekend_holiday")
+        return inter_data
+     
     def _process_data(self):
         logger.info("Processing Daily Trajectory Dataset...")       
         inter_data = []
@@ -644,6 +757,15 @@ class DailyTrajDataset(BaseDataset):
             # 如果 add_last_day 为 True，则跳过没有 last_day 的日期
             if self.add_last_day:
                 last_day = self.find_last_day(date)
+                
+                last_three_days = [last_day - timedelta(days=i) for i in range(3)]
+                for day in last_three_days:
+                    day_str = day.strftime('%Y%m%d')
+                    if day_str not in self.stay_data.keys():
+                        continue
+                    else:
+                        last_day_dict = self.stay_data[day_str]
+                        
                 last_day_str = last_day.strftime('%Y%m%d')  # 转换为YYYYMMDD格式的字符串
                 if last_day_str not in self.stay_data.keys():
                     continue
@@ -1285,93 +1407,6 @@ class Index2LocationDataset(BaseDataset):
             one_data["response"] = json.dumps(location_info, ensure_ascii=False, indent=2)
             inter_data.append(one_data)
         return inter_data
-    
-
-# class Index2LocationDataset():
-#     # Task -- Index to Location
-
-
-#     def __init__(self, args):
-#         super().__init__(args)
-#         self.prompts = all_prompt["index"]  # 所有的prompt
-#         self.task_prompt = loc_system_prompt_location
-#         self.mode = "train"
-#         self.location_data = load_location_data(args.location_data_path)
-        
-#         logger.info("Initializing Index2LocationDataset...")
-
-#         try:
-#             self._load_data()
-#             self.inter_data = self._process_data()
-#             if self.mode == "train":
-#                 pd.DataFrame(self.inter_data).to_pickle("QT_Mob_main/dataset/train/inner_data_i2l_dataset.pkl")
-#             if self.mode=="test":
-#                 pd.DataFrame(self.inter_data).to_pickle("QT_Mob_main/dataset/test/inner_data_i2l_dataset.pkl")            
-#             logger.info(f"Index2LocationDataset loaded successfully with {len(self.inter_data)} samples.")
-#         except Exception:
-#             logger.exception("Error initializing Index2LocationDataset.")
-#             raise
-
-
-#     def _load_data(self):
-#         # load data for abalation study
-#         # location_prompt = {}
-#         # for file in os.listdir(os.path.join(self.data_path, "prompts")): 
-#         #     with open(os.path.join(self.data_path, "prompts", file), 'r') as f:
-#         #         content = f.read().split("\n")
-#         #         if self.abalation_location_prompt=="1":
-#         #             content.pop(3)
-#         #         elif self.abalation_location_prompt=="2":
-#         #             content.pop(4)
-#         #         elif self.abalation_location_prompt=="3":
-#         #             content.pop(5)
-#         #         content = "\n".join(content)                
-#         #         location_prompt[file.split(".")[0]] = content
-#         # self.location_prompt = location_prompt
-#         # 读取index文件
-#         logger.info("Loading index-to-location mapping data...")
-#         try:
-           
-#             with open(self.index_path, "r") as f:
-#                 self.codebook = json.load(f)
-#             logger.info(f"Loaded index file: {self.index_path}")
-
-#             prompt_dir = os.path.join(self.data_path, "grid_profile_codebook")
-#             if not os.path.exists(prompt_dir):
-#                 logger.error(f"Prompt directory not found: {prompt_dir}")
-#                 raise FileNotFoundError(f"Missing prompt directory: {prompt_dir}")
-
-#             self.prompts_map = {}
-#             for fn in os.listdir(prompt_dir):
-#                 path = os.path.join(prompt_dir, fn)
-#                 with open(path, encoding="utf-8") as f:
-#                     content = f.read()
-#                 self.prompts_map[fn.split(".")[0]] = content
-#             logger.info(f"Loaded {len(self.prompts_map)} prompt files from {prompt_dir}")
-#         except Exception:
-#             logger.exception("Error loading data in Index2LocationDataset.")
-#             raise
-#         # 会有一模一样的location
-
-
-#     def _process_data(self):
-#         logger.info("Processing Index2LocationDataset samples...")
-#         data = []
-#         try:
-#             for idx, desc in self.prompts_map.items():
-#                 if idx not in self.codebook:
-#                     logger.warning(f"Index '{idx}' not found in codebook; skipping.")
-#                     continue
-#                 one_data = {
-#                     "index": "".join(self.codebook[idx]),
-#                     "response": desc
-#                 }
-#                 data.append(one_data)
-#             logger.info(f"Processed {len(data)} index-to-location pairs.")
-#         except Exception:
-#             logger.exception("Error processing Index2LocationDataset data.")
-#             raise
-#         return data
     
 class Location2IndexDataset(BaseDataset):
     # Task -- Location to Index
